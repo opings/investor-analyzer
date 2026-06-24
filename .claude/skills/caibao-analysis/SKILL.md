@@ -44,7 +44,7 @@ description: |
 
 按规则 Step 0 确认是**成长股（老唐估值法）**还是**周期股（席勒法）**——决定看单年增速还是十年均值。
 
-> 📐 估值法**选择逻辑、三大前提闸门、三类公式**以 `valuation-method` skill 为 canonical 源；本 skill 不重抄公式。需要正式定买卖点时直接走 `valuation-method`（它给"建议+依据"、决定权交用户）。
+> 📐 估值法**选择逻辑、双闸门（生意质量四问 + 三大前提）、三类公式**以 `valuation-method` skill 为 canonical 源；本 skill 不重抄公式。本 skill 只负责财报可验证的「三大前提」取数与复核；「生意质量四问」是定性护城河判断（非财报直接可得），由 `valuation-method` / `invest-report` 承接。需要正式定买卖点时直接走 `valuation-method`。
 
 ### Step 3：按清单提取并列出「本期财报关键数据」
 
