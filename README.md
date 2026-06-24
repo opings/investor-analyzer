@@ -90,3 +90,18 @@ scripts/.venv/bin/pip install -r scripts/requirements.txt
 - **不预测、只归纳**：工具只总结大V说过/做过什么，不替其发表新观点
 - **职责不越界**：客观事实进 `companies/`，估值数字进 `finance/`，大V观点进 `gurus/`，三套花名册共用同一套中文公司名以防漂移
 - **数据可信优先**：子代理抓老财报易出数字错误，入库前务必 QC（已知口径坑：归母 vs 扣非）
+
+## 版本控制约定
+
+仓库托管在 `opings/investor-analyzer`（private）。**只入库蒸馏后的成果与可复用逻辑，不入库源档、工作文件、机器专属配置。**
+判断规则（已写进 `.gitignore`，新增内容前对照一下，别手滑把下面这些 `git add` 进来）：
+
+| 入库 ✅ | 不入库 ❌（保留本地） |
+|---|---|
+| 蒸馏知识：`gurus/*/`（profile/current-view/style/calls/成品 `posts/*.md`）、`companies/*/`、`造假案例库/*/`（含决定书/SEC 源页 `.html`，作一手证据）、`finance/*/`（分析 `.md` + 估值 `.xlsx`） | **源文档**：`report/**` 的 PDF/年报/决定书等二进制（~1.3G）——只留蒸馏后的文本 |
+| 可复用逻辑：`.claude/skills/`、`scripts/quote.py`、`scripts/notices.py`、`scripts/requirements.txt` | **ingest 工作/状态文件**：`*-DRAFT.md`、`READING_STATE.md`（跨会话阅读进度，本地 WIP） |
+| 数据产出：`report/daily/` 日报 | **机器专属自动化**：`scripts/daily-news.sh`、`scripts/com.investor.daily-news.plist`（写死本机绝对路径，别人 clone 后需自行配 launchd） |
+| | `scripts/.venv/`（用 `requirements.txt` 重建） |
+
+**底线**：任何含本机绝对路径（`/Users/<用户名>/...`）或个人密钥的内容都不该入库——历史已审计为零泄露，保持下去。
+新增大类文件前若拿不准，先 `git status` 看一眼会带进什么。
