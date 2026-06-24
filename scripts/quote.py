@@ -14,31 +14,13 @@
 
 依赖: pip install akshare
 """
-import os
 import sys
 from datetime import datetime
 
-# 自举：若当前解释器没有 akshare，但同目录有 .venv，则用 venv 的 python 重跑
-# 这样无论是否手动激活 venv，`python3 scripts/quote.py ...` 都能直接用
-def _bootstrap_venv():
-    try:
-        import akshare  # noqa: F401
-        return
-    except ImportError:
-        pass
-    # 已经重跑过一次还是没有 → 别再 exec，避免死循环（让 load_akshare 给出友好提示）
-    if os.environ.get("_QUOTE_VENV_REEXEC"):
-        return
-    venv_py = os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                           ".venv", "bin", "python")
-    # 注意：venv 的 python 可能和系统 python3 指向同一个二进制，
-    # 但 venv 有独立 site-packages（靠 pyvenv.cfg），所以不能用二进制路径判重，用环境变量哨兵
-    if os.path.exists(venv_py):
-        os.environ["_QUOTE_VENV_REEXEC"] = "1"
-        os.execv(venv_py, [venv_py, os.path.abspath(__file__), *sys.argv[1:]])
+# venv 自举（逻辑见 _venv.py）：缺 akshare 但同目录有 .venv 就用 venv 的 python 重跑本脚本
+from _venv import bootstrap
 
-
-_bootstrap_venv()
+bootstrap(__file__)
 
 
 def fail(msg, code=1):
@@ -58,8 +40,7 @@ def classify(ticker):
     t = ticker.strip().lower()
     if t.startswith(("sh", "sz")) and t[2:].isdigit():
         return "index", t
-    digits = t.lstrip("0") or "0"
-    if t.isdigit() and len(t) <= 5 and not (len(t) == 6):
+    if t.isdigit() and len(t) <= 5:
         # 5 位及以下纯数字按港股处理（腾讯 00700 / 0700）
         return "hk", t.zfill(5)
     if t.isdigit() and len(t) == 6:

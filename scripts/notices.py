@@ -22,22 +22,10 @@ import sys
 import time
 from datetime import date, datetime
 
-# ---- venv 自举（同 quote.py）：没装 akshare 但有 .venv 就用 venv 的 python 重跑 ----
-def _bootstrap_venv():
-    try:
-        import akshare  # noqa: F401
-        return
-    except ImportError:
-        pass
-    if os.environ.get("_NOTICES_VENV_REEXEC"):
-        return
-    venv_py = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".venv", "bin", "python")
-    if os.path.exists(venv_py):
-        os.environ["_NOTICES_VENV_REEXEC"] = "1"
-        os.execv(venv_py, [venv_py, os.path.abspath(__file__), *sys.argv[1:]])
+# venv 自举（同 quote.py，逻辑见 _venv.py）：缺 akshare 但有 .venv 就用 venv 的 python 重跑本脚本
+from _venv import bootstrap
 
-
-_bootstrap_venv()
+bootstrap(__file__)
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 WATCHLIST = os.path.join(ROOT, "knowledge", "companies", "_watchlist.md")
