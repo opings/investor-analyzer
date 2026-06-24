@@ -24,3 +24,9 @@ report/**/*.html
 report/**/*.xlsx
 report/**/*.docx
 !report/daily/
+
+# finance/<公司>/年报季报/ 下的年报季报源 PDF——只入库蒸馏后的 分析.md/.xlsx/财报关注要点.md
+finance/**/年报季报/
+
+# 每日新闻哨兵 launchd 运行日志（机器专属，非知识内容，不入库）
+report/daily/_logs/

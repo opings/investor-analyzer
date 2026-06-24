@@ -3,7 +3,7 @@ name: daily-news
 description: |
   每日扫描持仓/估值库公司的投资新闻，做事实核验，把够格的重大事件追加进公司「事实编年」知识库，
   并产出当天日报。强调「只要事实、不要传闻」——无一手/权威来源不入库。
-  监控清单：knowledge/companies/_watchlist.md（14 家）。
+  监控清单：knowledge/companies/_watchlist.md（15 家）。
   触发词：查今天的新闻、每日新闻、盯盘新闻、扫一下持仓公司、daily news、今天有什么事、
   <公司>最近有什么新闻、更新事实编年、跑一下每日监控。
 ---
@@ -37,7 +37,7 @@ description: |
 ## 执行流程
 
 ### Step 0 — 读清单与时间
-- 读 `knowledge/companies/_watchlist.md` 拿 14 家公司 + 代码 + 关注点。
+- 读 `knowledge/companies/_watchlist.md` 拿全部公司 + 代码 + 关注点（清单为准，勿写死家数）。
 - 确认今天日期（`currentDate`）。搜索窗口 = 近 1–2 个自然日（含港股收盘后 + 隔夜海外）。
 - 单家模式：用户只问某一家，则只跑那家。
 
@@ -99,7 +99,7 @@ python3 scripts/notices.py <起始日> <结束日>     # 省略=今天；只给�
 # 每日监控 · YYYY-MM-DD（收盘后）
 
 ## 摘要
-- 扫描 14 家｜入编年 K 条（M 家）｜🔴 待决策 R 项｜丢弃传闻 J 条
+- 扫描 N 家｜入编年 K 条（M 家）｜🔴 待决策 R 项｜丢弃传闻 J 条
 
 ## 入编年（已核实·已写入知识库）
 - **贵州茅台** → `companies/贵州茅台/2026-06.md`
