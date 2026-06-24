@@ -1,0 +1,8 @@
+# 行情/公告脚本依赖（quote.py / notices.py 自举调用 scripts/.venv）
+# 重建 venv:
+#   python3 -m venv scripts/.venv
+#   scripts/.venv/bin/pip install -r scripts/requirements.txt
+#
+# 只锁直接依赖 akshare；其余（pandas/lxml/curl_cffi…）由 akshare 自动拉取。
+# 锁定版本是为了「区间行情结果可复现」——akshare 不同版本的复权口径可能漂移。
+akshare==1.18.64

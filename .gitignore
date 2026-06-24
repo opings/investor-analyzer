@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Python venv（用 scripts/requirements.txt 重建，不入库）
+scripts/.venv/
+__pycache__/
+*.pyc
+
+# DRAFT 工作文件（ingest-book 跨会话阅读进度，属于本地 WIP，不入库）
+*-DRAFT.md
+# ingest 阅读进度状态文件（同 DRAFT，本地 WIP）
+READING_STATE.md
+
+# 每日新闻哨兵的机器专属自动化装置（写死本机绝对路径，仅本地用，不入库）
+# notices.py / daily-news skill / report 日报 仍入库（可复用逻辑与数据）
+scripts/daily-news.sh
+scripts/com.investor.daily-news.plist
+
+# 源文档（PDF/年报/决定书/HTM，体积大、diff 无意义）——只入库蒸馏后的文本知识库
+# report/ 下的二进制源档不跟踪；report/daily/ 的日报是文本，单独放行
+report/**/*.pdf
+report/**/*.htm
+report/**/*.html
+report/**/*.xlsx
+report/**/*.docx
+!report/daily/
