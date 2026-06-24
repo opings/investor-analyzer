@@ -59,10 +59,12 @@ investor-analyzer/
 ├── scripts/
 │   ├── quote.py               # 区间行情（A股/港股/指数，前复权可复现），给 backtest-call
 │   ├── notices.py             # 巨潮(cninfo)一手公告拉取，给 daily-news
-│   ├── daily-news.sh          # 每日哨兵 headless 跑批（launchd 触发）
-│   ├── com.investor.daily-news.plist  # launchd 配置（工作日 16:00）
+│   ├── daily-news.sh          # 每日哨兵跑批（launchd 触发）— 本机专属，不入 git
+│   ├── com.investor.daily-news.plist  # launchd 配置（工作日 16:00）— 本机专属，不入 git
 │   ├── requirements.txt       # 行情脚本依赖（akshare）
 │   └── .venv/                 # 脚本依赖，quote/notices 自举调用，无需手动激活（不入 git）
+
+（注：clone 自 GitHub 时不含上面标「不入 git」的项 —— daily-news.sh / .plist / .venv，以及 report/ 下的 PDF 源档。）
 ├── analyses/ · stocks/        # 早期设计的占位目录（当前未启用）
 └── .claude/skills/            # 12 个 skill（按上面三模块组织）
 ```
@@ -72,6 +74,10 @@ investor-analyzer/
 `scripts/daily-news.sh` 由 launchd（`com.investor.daily-news.plist`，工作日 16:00）触发，
 headless 跑 `daily-news` skill：拉一手公告 → 逐家核验 → 重大事件写进事实编年 → 产出 `report/daily/<日期>.md`。
 日志在 `report/daily/_logs/`。手动测试：`bash scripts/daily-news.sh`。
+
+> ⚠️ `daily-news.sh` 与 `.plist` 写死了本机绝对路径，属机器专属配置，**不入 git**（见「版本控制约定」）。
+> 从 GitHub clone 下来**不含**这两个文件；要在新机器上启用哨兵，需按本机路径自行创建后 `launchctl load`。
+> 可复用的哨兵逻辑（`scripts/notices.py` + `daily-news` skill）在仓库里，照常 clone 即得。
 
 ## 环境准备
 
