@@ -17,7 +17,7 @@ description: 把投资大V的原始数据（文章/帖子/持仓变动）解析�
 
 1. **确认大V身份**
    - 用户提到的昵称是否已在 `knowledge/gurus/` 下？
-   - 若不存在：先 `cp -r knowledge/gurus/_template knowledge/gurus/<昵称>`，再问用户 profile 关键信息（平台 / 主页链接），但不卡住流程，先收数据
+   - 若不存在：先 `cp -r knowledge/gurus/_模板 knowledge/gurus/<昵称>`，再问用户 profile 关键信息（平台 / 主页链接），但不卡住流程，先收数据
    - 若存在：直接进下一步
 
 2. **判断材料类型**
@@ -33,7 +33,7 @@ description: 把投资大V的原始数据（文章/帖子/持仓变动）解析�
 
 4. **更新 coverage.md**（每次都做，轻量）
    - 把这篇材料所属的年-月在 `coverage.md` 热力图标成 `◐`/`✓`
-   - 新建 guru 时从 `_template/coverage.md` 复制
+   - 新建 guru 时从 `_模板/coverage.md` 复制
 
 5. **可选：更新 style.md / current-view.md**
    - 若材料补充了风格画像（第一次发现用杠杆、风格转向）→ 追加到 `style.md`

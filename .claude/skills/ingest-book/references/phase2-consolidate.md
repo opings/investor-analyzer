@@ -34,7 +34,7 @@
 - 把本年新立场更新进"当前有效版"各节（估值/选股/仓位/市场观/能力圈）
 - 本年改了卦的旧立场 → 移入"已废弃/已演化"表，注明何时演化 + 指回 style.md 年份
 - 更新顶部"截至日期"
-- 模板见 `knowledge/gurus/_template/current-view.md`
+- 模板见 `knowledge/gurus/_模板/current-view.md`
 
 **`coverage.md` 更新**：
 - 把本年 1-12 月填 `✓/◐/✗`

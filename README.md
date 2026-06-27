@@ -51,7 +51,7 @@
 ```
 investor-analyzer/
 ├── knowledge/
-│   ├── gurus/<slug>/          # 模块一：大V画像（INDEX.md 为花名册，_template 为模板）
+│   ├── gurus/<slug>/          # 模块一：大V画像（INDEX.md 为花名册，_模板 为模板）
 │   ├── companies/<公司>/      # 模块二：公司事实编年（INDEX.md + _watchlist.md + _模板）
 │   └── 造假案例库/<公司>/      # 模块二：造假案例 + 造假模式库.md
 ├── finance/<公司>/            # 模块三：唐朝估值法估值库（canonical，_模板 为模板）
@@ -59,13 +59,14 @@ investor-analyzer/
 ├── scripts/
 │   ├── quote.py               # 区间行情（A股/港股/指数，前复权可复现），给 backtest-call
 │   ├── notices.py             # 巨潮(cninfo)一手公告拉取，给 daily-news
+│   ├── fetch_fundamentals.py  # 近 10 年年报季报三表 CSV 下载（akshare），建分析事实底座
+│   ├── _venv.py               # venv 自举封装，被各脚本调用自动激活 .venv（无需手动 activate）
 │   ├── daily-news.sh          # 每日哨兵跑批（launchd 触发）— 本机专属，不入 git
 │   ├── com.investor.daily-news.plist  # launchd 配置（工作日 16:00）— 本机专属，不入 git
 │   ├── requirements.txt       # 行情脚本依赖（akshare）
-│   └── .venv/                 # 脚本依赖，quote/notices 自举调用，无需手动激活（不入 git）
+│   └── .venv/                 # 脚本依赖，自举调用，无需手动激活（不入 git）
 
 （注：clone 自 GitHub 时不含上面标「不入 git」的项 —— daily-news.sh / .plist / .venv，以及 report/ 下的 PDF 源档。）
-├── analyses/ · stocks/        # 早期设计的占位目录（当前未启用）
 └── .claude/skills/            # 12 个 skill（按上面三模块组织）
 ```
 
