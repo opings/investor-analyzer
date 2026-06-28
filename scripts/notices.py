@@ -5,7 +5,7 @@
     python3 scripts/notices.py [起始日] [结束日] [代码...]
 
     起始日/结束日: YYYY-MM-DD，省略则都用「今天」；只给起始日则区间=单日。
-    代码: 省略则读 knowledge/companies/_watchlist.md 全部 14 家；也可显式指定若干。
+    代码: 省略则读 knowledge/companies/_watchlist.md 全部公司（家数以表为准）；也可显式指定若干。
 
 示例:
     python3 scripts/notices.py                      # 今天，全部 watchlist

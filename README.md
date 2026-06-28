@@ -28,7 +28,7 @@
 按唐朝价值投资体系拆财报、建公司「事实编年」，并从造假案例反向蒸馏出预警特征。
 
 - **知识库**
-  - `knowledge/companies/<公司>/` — 公司**事实编年**（时间·主体·事件，只记客观事实，不写判断）。花名册 `companies/INDEX.md`，监控清单 `_watchlist.md`（14 家）
+  - `knowledge/companies/<公司>/` — 公司**事实编年**（时间·主体·事件，只记客观事实，不写判断）。**唯一花名册 `companies/INDEX.md`**（公司全集 single source），监控子集 `_watchlist.md`（家数以表为准，勿写死）
   - `knowledge/造假案例库/<公司>/` — 63 个财务造假案例（中A股 54 + 美 6 + 日 2…）+ `造假模式库.md`
   - `report/` — 各案例/公司的**源文档**（年报 PDF、处罚决定书、做空报告等，约 1.3G，不入 git）；`report/daily/` 存每日日报
 - **skill**
@@ -67,7 +67,7 @@ investor-analyzer/
 │   └── .venv/                 # 脚本依赖，自举调用，无需手动激活（不入 git）
 
 （注：clone 自 GitHub 时不含上面标「不入 git」的项 —— daily-news.sh / .plist / .venv，以及 report/ 下的 PDF 源档。）
-└── .claude/skills/            # 12 个 skill（按上面三模块组织）
+└── .claude/skills/            # skill 集（按上面三模块组织，以目录实际为准）
 ```
 
 ## 每日新闻哨兵

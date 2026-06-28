@@ -3,7 +3,7 @@ name: daily-news
 description: |
   每日扫描持仓/估值库公司的投资新闻，做事实核验，把够格的重大事件追加进公司「事实编年」知识库，
   并产出当天日报。强调「只要事实、不要传闻」——无一手/权威来源不入库。
-  监控清单：knowledge/companies/_watchlist.md（15 家）。
+  监控清单：knowledge/companies/_watchlist.md（家数以表为准）。
   触发词：查今天的新闻、每日新闻、盯盘新闻、扫一下持仓公司、daily news、今天有什么事、
   <公司>最近有什么新闻、更新事实编年、跑一下每日监控。
 ---
