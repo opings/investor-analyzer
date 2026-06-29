@@ -129,12 +129,13 @@ def main():
     win = start.strftime("%Y-%m-%d") + ("" if start == end else f" ~ {end.strftime('%Y-%m-%d')}")
     print(f"# 公告拉取（cninfo 巨潮一手）· 窗口 {win} · {len(targets)} 家\n")
 
-    total, dropped_total = 0, 0
+    total, dropped_total, failed = 0, 0, []
     for code, name in targets:
         try:
             rows = fetch_one(ak, code, start, end)
         except Exception as exc:
-            print(f"## {name}（{code}）—— 拉取失败: {exc}\n", flush=True)
+            failed.append((name, code))
+            print(f"## {name}（{code}）—— 🔴 拉取失败: {exc}\n", flush=True)
             continue
         kept = [r for r in rows if not NOISE_PAT.search(r[1])]
         dropped = len(rows) - len(kept)
@@ -149,8 +150,17 @@ def main():
             print(f"- {t} | {title}\n  {url}")
         print(flush=True)
 
-    print(f"---\n合计 {total} 条候选公告，折叠 {dropped_total} 条例行公告。"
-          f"\n（本脚本只拉一手公告，重大性/真伪判断交给 daily-news skill）")
+    ok_n = len(targets) - len(failed)
+    summary = (f"---\n合计 {total} 条候选公告，折叠 {dropped_total} 条例行；"
+               f"成功查询 {ok_n}/{len(targets)} 家")
+    if failed:
+        summary += "，🔴 失败 %d 家：" % len(failed) + "、".join(f"{n}({c})" for n, c in failed)
+        summary += "\n  ⚠️ 失败家数 >0 —— 日报摘要必须写明，且不得表述为『今日无重大事件』"
+    elif total == 0 and dropped_total == 0:
+        summary += ("\n⚠️ 全部 %d 家窗口内零公告 —— 若非周末/节假日，请人工核验 akshare 接口是否异常，"
+                    "勿直接当『今日无事』（接口故障会伪装成零公告）" % len(targets))
+    summary += "\n（本脚本只拉一手公告，重大性/真伪判断交给 daily-news skill）"
+    print(summary)
 
 
 if __name__ == "__main__":
