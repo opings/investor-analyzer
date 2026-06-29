@@ -42,7 +42,7 @@ description: |
 
 估值之前先过两道前置闸门，顺序不能反：先问"**是不是好生意（值不值得估）**"，再问"**能不能估**"。
 
-> 📐 **本 skill 是「生意质量四问 + 三大前提」双闸门的 canonical（唯一权威）源。** 其他 skill（`invest-report`、`caibao-analysis`、`tangchao/研究新公司-SOP.md`）涉及这两道闸门时以本文件为准、指针式引用，不另抄正文。
+> 📐 **本 skill 是「生意质量四问 + 三大前提」双闸门的 canonical（唯一权威）源。** 其他 skill / 框架（`invest-report`、`caibao-analysis`、`分析框架/研究新公司-分析流程.md`、`tangchao/研究新公司-SOP.md`）涉及这两道闸门时以本文件为准、指针式引用，不另抄正文。
 
 ### Step 0a：生意质量四问（护城河自检 → 值不值得估）
 
