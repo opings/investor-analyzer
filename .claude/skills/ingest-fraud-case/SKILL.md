@@ -55,7 +55,7 @@ description: 录入财务造假公司案例并蒸馏出"造假财报的特征"�
 
 - `knowledge/造假案例库/造假模式库.md`：蒸馏层（风险预警第一层 canonical 源）
 - `knowledge/造假案例库/_案例模板.md`：单案例模板
-- `caibao-analysis` / `invest-report`：风险预警的**消费方**（扫描时对照造假模式库）
+- `company-analysis`：风险预警的**消费方**（扫描时对照造假模式库）
 - `finance/_模板/财报阅读规则.md` Step 3：通用红旗以造假模式库为准
 - `ingest-guru`：大V侧的同构对照（一个蒸馏理念、一个蒸馏造假特征）
 

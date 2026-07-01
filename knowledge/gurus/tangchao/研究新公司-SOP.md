@@ -158,7 +158,6 @@
 
 - `playbook.md` 第 55 章（福寿园范本）/ §0（灵魂三问）/ §2（选股标准+护城河）/ §6（风险）/ 第 59-62 章（估值法+三大前提）/ F0-F8（财报方法论 SOP）
 - `valuation-method` skill —— 估值公式 canonical 源
-- `caibao-analysis` skill —— 实操套用第 2/3 块（财报数据提取）
-- `invest-report` skill —— 综合编排（财报+估值+大V视角）
+- `company-analysis` skill —— 实操套用第 2/3 块（财报数据提取）
 
 > 创建：2026-06-24。本文是横向抽取的研究流程沉淀，**不新增 KB 事实**，所有结论均可回溯到 `playbook.md` / 对应 `#N`。

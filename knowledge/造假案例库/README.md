@@ -1,7 +1,7 @@
 # 财务造假案例库
 
 > 用真实造假案例**喂养**风险预警系统：录入案例 → 蒸馏特征 → 风险预警清单自己长大。
-> 和大V侧同构：`ingest-guru → knowledge/gurus/<人>/style+playbook → guru-view` ｜ 这里 `ingest-fraud-case → 造假模式库 → caibao/invest-report 风险预警`。
+> 和大V侧同构：`ingest-guru → knowledge/gurus/<人>/style+playbook → guru-view` ｜ 这里 `ingest-fraud-case → 造假模式库 → company-analysis 风险预警`。
 
 ## 结构（两层）
 
@@ -22,7 +22,7 @@ knowledge/造假案例库/
 ## 怎么用
 
 - **录入新案例**：走 `ingest-fraud-case` skill（贴处罚决定书/做空报告/年报数据 + 公司名）→ 自动归档 + 增量更新 `造假模式库.md`。
-- **分析公司时**：`caibao-analysis` / `invest-report` 的风险预警**对照 `造假模式库.md` 逐项扫描**，命中即按级别预警、带数据依据。
+- **分析公司时**：`company-analysis` 的风险预警**对照 `造假模式库.md` 逐项扫描**，命中即按级别预警、带数据依据。
 - **关系**：`造假模式库.md` 是风险预警**第一层（通用红旗，全公司适用）**；公司/行业特有指标在 `finance/_模板/财报关注要点-行业模板.md` → `<公司>/财报关注要点.md`（第二层）。
 
 ## 纪律

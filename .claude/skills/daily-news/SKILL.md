@@ -21,7 +21,7 @@ description: |
 
 ## 何时不用
 
-- 估值/买卖点 → `valuation-method`；财报补数据 → `caibao-analysis`；大V观点 → `guru-view`/`tangchao`/`duanyongping`
+- 估值/买卖点 → `valuation-method`；财报补数据 → `company-analysis`；大V观点 → `guru-view`/`tangchao`/`duanyongping`
 
 ---
 
@@ -101,7 +101,7 @@ python3 scripts/notices.py <起始日> <结束日>     # 省略=今天；只给�
 ### Step 5 — 撞库（只给建议，不动数据）
 对入编年的事件，做两个轻量交叉检查：
 - **造假模式库**：事件是否命中 `knowledge/造假案例库/造假模式库.md` 的某条预警特征（如存贷双高、商誉异常、大额关联交易）？命中 → 日报标 `🔴 建议触发风险复核`。
-- **估值假设**：事件是否打破 `finance/<公司>/分析.md` 里的某条关键假设（如增速、分红率、产能）？是 → 日报标 `🔴 建议触发 caibao-analysis / valuation-method 重估`。
+- **估值假设**：事件是否打破 `finance/<公司>/分析.md` 里的某条关键假设（如增速、分红率、产能）？是 → 日报标 `🔴 建议触发 company-analysis / valuation-method 重估`。
 - 大V逻辑：事件是否印证/推翻某大V对该标的的观点？可在日报标 `🟡 可喂 guru-view 复盘`。
 
 ### Step 5.5 — 判断层滞后体检（防 fact 更新而 judgment 滞后）
@@ -109,7 +109,7 @@ python3 scripts/notices.py <起始日> <结束日>     # 省略=今天；只给�
 > 实证教训：分众「新潮收购」事实编年 2025-04 即记，但 finance/分析.md 判断层滞后约 14 个月（[[analysis-md-staleness-vs-chronicle]]）。
 
 对**当天有入编年**的公司：比对该公司事实编年最新日期 vs 其 `finance/<公司>/分析.md` 头部「事实编年核对至」字段。
-- **滞后 >30 天，或当天事件命中该公司「核心跟踪变量」/打破估值假设** → 日报「🔴 待你决策」单列『<公司> 判断层滞后 N 天，建议触发 caibao/valuation-method 重估』。
+- **滞后 >30 天，或当天事件命中该公司「核心跟踪变量」/打破估值假设** → 日报「🔴 待你决策」单列『<公司> 判断层滞后 N 天，建议触发 company-analysis/valuation-method 重估』。
 - 把「靠人偶然想起」变成「每天机械体检、滞后必报」。
 
 ### Step 6 — 产出当天日报
@@ -154,5 +154,5 @@ python3 scripts/notices.py <起始日> <结束日>     # 省略=今天；只给�
 
 - **宁可少报**：一天没有重大事件是常态，如实写「今日无重大事件入库」即可，不要为了凑数把背景新闻拔高成重大。
 - **来源 URL 真实**：严禁编造链接。查不到一手来源的，要么标「待补」放日报，要么丢弃，**不入编年**。
-- **不改 finance 数据**：本 skill 只读 `finance/` 做撞库判断，绝不写估值数字（那是 `caibao-analysis` 的活）。
+- **不改 finance 数据**：本 skill 只读 `finance/` 做撞库判断，绝不写估值数字（那是 `company-analysis` 的活）。
 - **headless 模式**：自动运行时无人交互，遇到拿不准是否「重大/可核实」的，一律降级到「仅日报/待核实」，把判断留给人。

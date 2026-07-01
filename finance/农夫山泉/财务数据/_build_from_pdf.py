@@ -1,0 +1,377 @@
+# -*- coding: utf-8 -*-
+"""农夫山泉 三表数据 + 派生比率 → 写 CSV，内置勾稽自洽校验(校验不过不写出)。
+
+数据血缘:
+  2025/2024 列 ← report/农夫山泉/2025.pdf (损益 P114 / 财务状况 P116-117 / 现金流 P120-121)
+  2023/2022 列 ← report/农夫山泉/2023.pdf (P111 / P113-114 / P117-118)
+  2021/2020 列 ← report/农夫山泉/2021.pdf (P104 / P106-107 / P110-111)
+
+口径:
+  - 单位 = 人民币千元 (RMB'000, 年报原始口径)
+  - 资产负债权益 = 全部正数 (与年报呈现一致)
+  - 现金流量表 = 流出/减项用负数, 流入/加项用正数
+  - None = 该年报无此科目 (CSV 留空)
+
+2025 年报口径变动:
+  - 流动资产下「质押存款」改名「受限资金 Restricted cash」(本脚本统一作「受限资金/质押存款(流动)」)
+  - FVTPL 流动金融资产位置从「质押存款上方」移到「现金及银行结余下方」
+"""
+import csv
+import os
+
+YEARS = [2020, 2021, 2022, 2023, 2024, 2025]
+OUT = os.path.dirname(os.path.abspath(__file__))
+
+
+# ====== 综合损益表 (含全面收益) ======
+利润表 = [
+    ("收益 Revenue",                                    [22877297, 29696406, 33239187, 42667221, 42895992, 52552910]),
+    ("销售成本 Cost of sales",                          [-9368970, -12040188, -14143776, -17260392, -17980277, -20744806]),
+    ("毛利 Gross profit",                               [13508327, 17656218, 19095411, 25406829, 24915715, 31808104]),
+    ("其他收入及收益 Other income and gains",           [640941, 873562, 1709159, 1841454, 2128940, 1719977]),
+    ("销售及分销开支 Selling and distribution expenses",[-5510507, -7233070, -7820691, -9283999, -9173297, -9800460]),
+    ("行政开支 Administrative expenses",                [-1324448, -1750929, -1835125, -2162401, -1962470, -2452127]),
+    ("其他开支 Other expenses",                         [-249097, -138536, -22394, -13946, -29561, -291002]),
+    ("财务费用 Finance costs",                          [-78963, -52945, -76028, -99735, -91469, -66899]),
+    ("除税前溢利 Profit before tax",                    [6986253, 9354300, 11050332, 15688202, 15787858, 20917593]),
+    ("所得税开支 Income tax expense",                   [-1708827, -2192506, -2555082, -3608704, -3664554, -5049319]),
+    ("年内溢利 Profit for the year",                    [5277426, 7161794, 8495250, 12079498, 12123304, 15868274]),
+    ("母公司拥有人应占溢利 Attributable to parent",     [5277426, 7161794, 8495250, 12079498, 12123304, 15868274]),
+    ("每股基本及摊薄盈利(元) Basic and diluted EPS",    [0.48, 0.64, 0.76, 1.07, 1.078, 1.411]),
+    ("其他全面(亏损)收益-汇兑差额 OCI Exchange diff",   [-1302, -543, 1835, -340, 409, -50]),
+    ("年内全面收益总额 Total comprehensive income",     [5276124, 7161251, 8497085, 12079158, 12123713, 15868224]),
+]
+
+
+# ====== 综合财务状况表 (资产负债权益, 全部正数) ======
+资产负债表 = [
+    # 非流动资产
+    ("物业、厂房及设备 Property, plant and equipment",         [12591585, 12800140, 15397585, 17179628, 21083239, 24719336]),
+    ("使用权资产 Right-of-use assets",                         [694565, 724242, 853488, 946979, 1026650, 1262195]),
+    ("无形资产 Intangible assets",                             [57885, 65104, 58077, 74222, 71557, 80894]),
+    ("递延税项资产 Deferred tax assets",                       [314633, 293090, 433105, 921333, 1087893, 1346932]),
+    ("长期银行存款 Long-term bank deposits",                   [None, 1121461, 4101670, 1510722, 10630882, 11087643]),
+    ("质押存款(非流动) Pledged deposits (non-current)",        [None, None, None, None, None, 20000]),
+    ("其他非流动资产 Other non-current assets",                [9105, 56405, 49435, 42831, 188217, 88574]),
+    ("非流动资产总额 Total non-current assets",                [13667773, 15060442, 20893360, 20675715, 34088438, 38605574]),
+    # 流动资产
+    ("存货 Inventories",                                       [1805454, 1809230, 2108372, 3091729, 5013047, 5846475]),
+    ("贸易应收款项及应收票据 Trade and bills receivables",     [357564, 476276, 478587, 547021, 581372, 598151]),
+    ("预付款项、其他应收款项及其他资产 Prepayments etc",       [909741, 558169, 560307, 694778, 1218292, 1377874]),
+    ("受限资金/质押存款(流动) Restricted cash / Pledged dep",  [None, 3648, 3059, 2677, 7677, 8126]),
+    ("现金及银行结余 Cash and bank balances",                  [9118880, 14783577, 15211156, 24125210, 10722048, 11177574]),
+    ("FVTPL金融资产(流动) Financial assets at FVTPL (current)",[None, 204754, None, None, 1529438, 7555354]),
+    ("流动资产总额 Total current assets",                      [12191639, 17835654, 18361481, 28461415, 19071874, 26563554]),
+    # 流动负债
+    ("贸易应付款项及应付票据 Trade and bills payables",        [881800, 1153133, 1425069, 1770098, 1499397, 1654233]),
+    ("其他应付款项及应计费用 Other payables and accruals",     [3322040, 4487638, 6505820, 9288983, 9543746, 11961882]),
+    ("合约负债 Contract liabilities",                          [2247323, 2350952, 2677190, 3584921, 3565558, 4194560]),
+    ("衍生金融工具(流动负债) Derivative financial instruments",[7331, None, None, None, None, None]),
+    ("计息借贷(流动) Interest-bearing borrowings (current)",   [2413957, 2500108, 2425093, 3120619, 3625433, 4390000]),
+    ("租赁负债(流动) Lease liabilities (current)",             [14068, 46721, 68678, 58030, 55705, 61838]),
+    ("应付税项 Tax payables",                                  [938127, 1050359, 1499579, 2053907, 1694898, 2560299]),
+    ("流动负债总额 Total current liabilities",                 [9824646, 11588911, 14601429, 19876558, 19984737, 24822812]),
+    ("流动资产/(负债)净额 Net current assets/(liabilities)",   [2366993, 6246743, 3760052, 8584857, -912863, 1740742]),
+    ("总资产减流动负债 Total assets less current liabilities", [16034766, 21307185, 24653412, 29260572, 33175575, 40346316]),
+    # 非流动负债
+    ("递延收益 Deferred income",                               [267272, 264550, 291420, 303061, 319404, 359322]),
+    ("递延税项负债 Deferred tax liabilities",                  [233907, 257697, 246737, 355356, 503098, 476153]),
+    ("租赁负债(非流动) Lease liabilities (non-current)",       [41305, 43304, 31179, 31250, 65909, 40861]),
+    ("非流动负债总额 Total non-current liabilities",           [542484, 565551, 569336, 689667, 888411, 876336]),
+    ("资产净额 Net assets",                                    [15492282, 20741634, 24084076, 28570905, 32287164, 39469980]),
+    # 权益
+    ("股本 Share capital",                                     [1124647, 1124647, 1124647, 1124647, 1124647, 1124647]),
+    ("储备 Reserves",                                          [14367635, 19616987, 22959429, 27446258, 31162517, 38345333]),
+    ("权益总额 Total equity",                                  [15492282, 20741634, 24084076, 28570905, 32287164, 39469980]),
+]
+
+
+# ====== 综合现金流量表 (流出用负数, 流入用正数) ======
+现金流量表 = [
+    # 经营活动
+    ("除税前溢利 Profit before tax",                                  [6986253, 9354300, 11050332, 15688202, 15787858, 20917593]),
+    ("物业厂房及设备折旧 Depreciation of PPE",                        [1871177, 2287083, 2358940, 2522236, 2727727, 3213368]),
+    ("使用权资产折旧 Depreciation of right-of-use assets",            [41437, 83123, 119238, 97774, 135676, 160179]),
+    ("无形资产摊销 Amortisation of intangible assets",                [12834, 7980, 8747, 11432, 11298, 19011]),
+    ("FVTPL公平值收益 Fair value gains on FVTPL",                     [None, -4754, -2289, None, -9438, -45354]),
+    ("出售FVTPL金融资产收益 Gains on disposal of FVTPL",              [None, None, None, None, -50952, -125904]),
+    ("出售物业厂房设备项目亏损 Loss on disposal of PPE",              [2361, 9803, 14456, 5265, 9737, 18749]),
+    ("出售无形资产项目亏损 Loss on disposal of intangibles",          [None, None, None, 199, None, 5]),
+    ("出售衍生工具收益 Gain on disposal of derivative instruments",   [-3759, -7331, 634, None, None, None]),
+    ("利息收入 Interest income",                                      [-147893, -330656, -623360, -991247, -866098, -579671]),
+    ("贸易应收款项减值/(拨回) Impairment of trade receivables",       [2903, 11401, -3434, 4169, 2429, 4413]),
+    ("存货减值 Impairment of inventories",                            [None, None, 16372, None, None, 82784]),
+    ("预付款项等减值/(拨回) Impairment of financial assets in prep",  [-960, -2654, -715, 2158, 2460, -2224]),
+    ("出售附属公司收益 Gain on disposal of subsidiaries",             [-1621, None, None, None, None, None]),
+    ("损益确认的递延收益 Deferred income recognised in P&L",          [-45597, -23785, -25799, -20505, -24314, -30367]),
+    ("财务费用 Finance costs (add back)",                             [78963, 52945, 76028, 99735, 91469, 66899]),
+    ("以股权结算的股份支付开支 Equity-settled SBC expenses",          [None, None, 101793, 25857, 5516, 76839]),
+    ("外汇亏损/(收益) Foreign exchange loss/(gain)",                  [241604, 115632, -386615, -46023, -75092, 147298]),
+    ("经营资本变动前现金流 OP profit before working capital changes", [9037702, 11553087, 12704328, 17399252, 17748276, 23923618]),
+    # 营运资本变动
+    ("存货增加 Increase in inventories",                              [-78113, -3776, -315514, -983357, -1921318, -916212]),
+    ("贸易应收款项(增加)/减少 (Inc)/dec in trade receivables",         [-118753, -130113, 1123, -72603, -36780, -21192]),
+    ("预付款项等(增加)/减少 (Inc)/dec in prepayments etc",            [104157, 381622, -153, -177579, -530149, -164623]),
+    ("贸易应付款项增加/(减少) Inc/(dec) in trade payables",           [163003, 271333, 271936, 345029, -270701, 154836]),
+    ("其他应付款项增加/(减少) Inc/(dec) in other payables",           [457073, 1063385, 1124862, 3178927, -152180, 2033975]),
+    ("合约负债增加/(减少) Inc/(dec) in contract liabilities",         [170384, 103629, 326238, 907731, -19363, 629002]),
+    ("质押存款(增加)/减少 (Inc)/dec in pledged deposits",             [None, -3648, 589, 382, None, None]),
+    ("受限资金增加 Increase in restricted cash",                      [None, None, None, None, -5000, -449]),
+    ("衍生金融工具增加 Increase in derivative financial instruments", [11090, None, None, None, None, None]),
+    ("经营所得现金 Cash generated from operations",                   [9746543, 13235519, 14113409, 20597782, 14812785, 25638955]),
+    ("已付所得税 Income tax paid",                                    [-1386300, -2034681, -2308380, -3395627, -4041273, -4466550]),
+    ("已收利息 Interest received",                                    [147893, 252269, 312530, 202485, 342220, 29967]),
+    ("已付利息 Interest paid",                                        [-78963, -52837, -76049, -99703, -91588, -60720]),
+    ("经营活动所得现金流量净额 Net cash from operating",              [8429173, 11400270, 12041510, 17304937, 11022144, 21141652]),
+    # 投资活动
+    ("购买物业厂房设备项目 Purchases of PPE",                         [-2236039, -2462418, -4193347, -4714113, -6405992, -6481304]),
+    ("购买FVTPL金融资产 Purchases of FVTPL",                          [None, -200000, None, None, -15613000, -53758000]),
+    ("销售FVTPL金融资产所得 Proceeds from sale of FVTPL",             [None, None, 207043, None, 14143952, 47903342]),
+    ("结构性存款到期赎回 Redemption of structured deposits",          [200000, None, None, None, None, None]),
+    ("出售PPE所得款项 Proceeds from disposal of PPE",                 [74314, 11890, 79947, 26528, 40043, 27271]),
+    ("购买无形资产 Purchases of intangibles",                         [-12030, -15199, -1720, -27776, -8633, -28353]),
+    ("出售无形资产所得款项 Proceeds from disposal of intangibles",    [1152, None, None, None, None, None]),
+    ("购买使用权资产-土地 Purchases of land use rights",              [-31193, -10545, -156975, -120861, -46164, -286442]),
+    ("收取政府补助 Receipt of government grants",                     [64781, 21063, 52669, 32146, 40657, 70285]),
+    (">3月银行存款增加 Increase in bank deposits >3m",                [-3090361, -13105840, -14683027, -26873541, -21493307, -8119152]),
+    (">3月银行存款提取(含利息) Withdrawal of bank deposits >3m",     [300000, 10445298, 9269084, 17393803, 24840847, 9177938]),
+    ("出售附属公司 Disposal of subsidiaries",                         [72682, None, None, None, None, None]),
+    ("投资活动所用现金流量净额 Net cash used in investing",            [-4656694, -5315751, -9426326, -14283814, -4501597, -11494415]),
+    # 融资活动
+    ("已付股息 Dividends paid",                                       [-7979760, -1911899, -5059118, -7646313, -8434850, -8547314]),
+    ("偿还计息借贷 Repayment of interest-bearing borrowings",         [-2850000, -2943957, -6563000, -13471835, -15739304, -16841182]),
+    ("新计息借贷 New interest-bearing borrowings",                    [4263957, 3030000, 6488006, 14167329, 16244237, 17605749]),
+    ("发行H股所得款项 Proceeds from issuance of H shares",            [8542860, None, None, None, None, None]),
+    ("支付发行开支 Payment of issue expenses",                        [-228810, None, None, None, None, None]),
+    ("租赁付款本金部分 Principal portion of lease payments",          [-32443, -67603, -81677, -80981, -135183, -130463]),
+    ("购回本公司股份 Repurchase of company shares",                   [None, None, -225401, None, None, -221552]),
+    ("受限股份单位计划授股款项 Proceeds from award of restricted shares",[None, None, None, None, None, 76475]),
+    ("出售没收受限制股份 Proceeds from disposal of forfeited shares", [None, None, None, 9746, 3324, None]),
+    ("员工股权激励计划授股款项 Proceeds from employee incentive scheme",[None, None, 71408, None, None, None]),
+    ("融资活动所得/(所用)现金流量净额 Net cash from/(used in) financing",[1715804, -1893459, -5369782, -7022054, -8061776, -8058287]),
+    # 汇总
+    ("现金及现金等价物增加/(减少)净额 Net inc/(dec) in cash",          [5488283, 4191060, -2754598, -4000931, -1541229, 1588950]),
+    ("年初现金及现金等价物 Cash at beginning of year",                [783142, 6055981, 10187896, 7821114, 3875720, 2416380]),
+    ("外汇汇率变动的影响 Effect of foreign exchange rate changes",    [-215444, -59145, 387816, 55537, 81889, -147581]),
+    ("年末现金及现金等价物 Cash at end of year",                      [6055981, 10187896, 7821114, 3875720, 2416380, 3857749]),
+]
+
+
+# ====== PPE 明细 (来源年报附注 14 物业、厂房及设备, 单位: 人民币千元, 期末账面净值) ======
+# 数据血缘:
+#   2025/2024 列 ← 2025.pdf 附注14 P187-188
+#   2023/2022 列 ← 2023.pdf 附注14 P180-181
+#   2021/2020 列 ← 2021.pdf 附注14 P166-167
+PPE明细 = [
+    ("楼宇 Buildings",                            [3390528, 3418932, 3504416, 4206780, 4322939, 6189293]),
+    ("机器 Machinery",                            [6279031, 6535860, 7636991, 8692380, 10365932, 12386946]),
+    ("傢俬装置及设备 Furniture/fixtures/equipment",[1543005, 1546253, 2375253, 2417634, 2701958, 2945599]),
+    ("汽车 Motor vehicles",                       [82915, 87401, 117001, 159941, 211943, 210390]),
+    ("租赁物业装修 Leasehold improvements",        [68100, 17562, 25909, 3422, 14304, 17041]),
+    ("永久业权土地 Freehold land",                 [None, None, None, None, None, 70288]),
+    ("在建工程 Construction in progress (CIP)",   [1228006, 1194132, 1738015, 1699471, 3466163, 2899779]),
+    ("PPE 合计 Total PPE",                        [12591585, 12800140, 15397585, 17179628, 21083239, 24719336]),
+]
+
+
+# ====== 分部营收 (来源年报 MD&A 业务回顾, 单位: 人民币百万元) ======
+# 数据血缘:
+#   2025/2024 列 ← 2025.pdf P15 业务回顾表
+#   2023/2022 列 ← 2023.pdf P13 业务回顾表
+#   2021/2020 列 ← 2021.pdf P13 业务回顾表
+分部营收 = [
+    ("包装饮用水产品 Packaged drinking water",   [13966, 17058, 18263, 20262, 15952, 18709]),
+    ("茶饮料产品 Tea beverage",                 [3088,  4579,  6906,  12659, 16745, 21596]),
+    ("功能饮料产品 Functional beverage",         [2792,  3695,  3838,  4902,  4932,  5762]),
+    ("果汁饮料产品 Juice beverage",              [1977,  2614,  2879,  3533,  4085,  5176]),
+    ("其他产品(苏打/咖啡/植物蛋白/鲜果等) Other",[1054,  1750,  1353,  1311,  1182,  1309]),
+    ("分部合计 Total",                            [22877, 29696, 33239, 42667, 42896, 52553]),
+]
+
+
+# ====== 工具函数 ======
+def find(table, name):
+    """从表里取一行(整个 6 年数组)"""
+    for k, v in table:
+        if k.startswith(name):
+            return v
+    raise KeyError(name)
+
+
+def safe_div(a, b):
+    if a is None or b is None or b == 0:
+        return None
+    return a / b
+
+
+# ====== 勾稽自洽校验 ======
+def verify():
+    errors = []
+    for i, y in enumerate(YEARS):
+        # 损益: 收益 - 销售成本 = 毛利
+        rev = find(利润表, "收益 Revenue")[i]
+        cos = find(利润表, "销售成本")[i]
+        gp = find(利润表, "毛利")[i]
+        if rev + cos != gp:
+            errors.append(f"{y} 损益: 收益{rev} + 成本{cos} ≠ 毛利{gp} (差 {rev+cos-gp})")
+        # 损益: 除税前 + 所得税 = 年内溢利
+        pbt = find(利润表, "除税前溢利")[i]
+        tax = find(利润表, "所得税开支")[i]
+        npr = find(利润表, "年内溢利")[i]
+        if pbt + tax != npr:
+            errors.append(f"{y} 损益: 除税前{pbt} + 所得税{tax} ≠ 年内溢利{npr} (差 {pbt+tax-npr})")
+        # 损益: 年内溢利 + OCI = 全面收益总额
+        oci = find(利润表, "其他全面")[i]
+        tci = find(利润表, "年内全面收益总额")[i]
+        if npr + oci != tci:
+            errors.append(f"{y} 损益: 年内溢利{npr} + OCI{oci} ≠ 全面收益{tci}")
+
+        # 资产负债: 总资产 = 非流动总额 + 流动总额
+        tnca = find(资产负债表, "非流动资产总额")[i]
+        tca = find(资产负债表, "流动资产总额")[i]
+        # 资产负债: 总负债 = 流动负债 + 非流动负债
+        tcl = find(资产负债表, "流动负债总额")[i]
+        tncl = find(资产负债表, "非流动负债总额")[i]
+        # 资产负债: 资产净额 = 非流动资产 + 流动资产净额 - 非流动负债
+        na = find(资产负债表, "资产净额")[i]
+        ncanet = find(资产负债表, "流动资产/(负债)净额")[i]
+        if tca - tcl != ncanet:
+            errors.append(f"{y} 资产负债: 流动资产{tca} - 流动负债{tcl} ≠ 流动净额{ncanet}")
+        if tnca + ncanet - tncl != na:
+            errors.append(f"{y} 资产负债: 非流动资产{tnca} + 流动净额{ncanet} - 非流动负债{tncl} ≠ 资产净额{na}")
+        # 总资产 = 总负债 + 权益
+        total_assets = tnca + tca
+        total_liab = tcl + tncl
+        eq = find(资产负债表, "权益总额")[i]
+        if total_assets != total_liab + eq:
+            errors.append(f"{y} 资产负债: 总资产{total_assets} ≠ 总负债{total_liab} + 权益{eq}")
+        # 股本 + 储备 = 权益
+        sc = find(资产负债表, "股本")[i]
+        res = find(资产负债表, "储备")[i]
+        if sc + res != eq:
+            errors.append(f"{y} 资产负债: 股本{sc} + 储备{res} ≠ 权益{eq}")
+
+        # 现金流: 经营 + 投资 + 融资 = 净变动
+        ocf = find(现金流量表, "经营活动所得现金流量净额")[i]
+        icf = find(现金流量表, "投资活动所用现金流量净额")[i]
+        fcf = find(现金流量表, "融资活动所得/(所用)现金流量净额")[i]
+        netchg = find(现金流量表, "现金及现金等价物增加/(减少)净额")[i]
+        if ocf + icf + fcf != netchg:
+            errors.append(f"{y} 现金流: 经营{ocf} + 投资{icf} + 融资{fcf} ≠ 净变动{netchg}")
+        # 现金流: 年初 + 净变动 + 汇兑 = 年末
+        beg = find(现金流量表, "年初现金及现金等价物")[i]
+        fx = find(现金流量表, "外汇汇率变动的影响")[i]
+        end = find(现金流量表, "年末现金及现金等价物")[i]
+        if beg + netchg + fx != end:
+            errors.append(f"{y} 现金流: 年初{beg} + 净变{netchg} + 汇兑{fx} ≠ 年末{end}")
+
+    # 年初年末连续性
+    end_arr = find(现金流量表, "年末现金及现金等价物")
+    beg_arr = find(现金流量表, "年初现金及现金等价物")
+    for i in range(1, len(YEARS)):
+        if end_arr[i-1] != beg_arr[i]:
+            errors.append(f"{YEARS[i]} 现金连续性: 上年末{end_arr[i-1]} ≠ 本年初{beg_arr[i]}")
+
+    # 分部合计 ≈ 损益表营收 (百万取整, 容差 ±1 百万)
+    rev_thousand = find(利润表, "收益 Revenue")
+    for i, y in enumerate(YEARS):
+        seg_total = find(分部营收, "分部合计")[i]
+        rev_million = round(rev_thousand[i] / 1000)  # 千元 → 百万元
+        if abs(seg_total - rev_million) > 1:
+            errors.append(f"{y} 分部合计{seg_total}百万 ≠ 损益表营收{rev_million}百万 (差 {seg_total-rev_million})")
+        # 5 品类相加 ≈ 分部合计 (容差 ±1 百万, 年报舍入差)
+        five = sum(find(分部营收, k)[i] for k in ["包装饮用水", "茶饮料", "功能饮料", "果汁饮料", "其他产品"])
+        if abs(five - seg_total) > 1:
+            errors.append(f"{y} 5 品类合计{five} ≠ 分部合计{seg_total}")
+
+    # PPE 明细子科目相加 = PPE 合计 = 资产负债表「物业、厂房及设备」
+    ppe_keys = ["楼宇", "机器", "傢俬", "汽车", "租赁", "永久业权", "在建工程"]
+    for i, y in enumerate(YEARS):
+        ppe_sum = sum((find(PPE明细, k)[i] or 0) for k in ppe_keys)
+        ppe_total = find(PPE明细, "PPE 合计")[i]
+        bs_ppe = find(资产负债表, "物业、厂房及设备")[i]
+        if ppe_sum != ppe_total:
+            errors.append(f"{y} PPE子科目合计{ppe_sum} ≠ PPE合计{ppe_total}")
+        if ppe_total != bs_ppe:
+            errors.append(f"{y} PPE明细合计{ppe_total} ≠ 资产负债表PPE{bs_ppe}")
+
+    return errors
+
+
+# ====== 派生比率 ======
+def build_ratios():
+    rev = find(利润表, "收益 Revenue")
+    cos = find(利润表, "销售成本")
+    gp = find(利润表, "毛利")
+    snd = find(利润表, "销售及分销开支")
+    adm = find(利润表, "行政开支")
+    npr = find(利润表, "年内溢利")
+    eps = find(利润表, "每股基本及摊薄盈利")
+    eq = find(资产负债表, "权益总额")
+    ar = find(资产负债表, "贸易应收款项及应收票据")
+    inv = find(资产负债表, "存货")
+    ocf = find(现金流量表, "经营活动所得现金流量净额")
+    capex = find(现金流量表, "购买物业厂房设备项目")  # 负数, 取绝对值算比率
+
+    rows = [
+        ("毛利率 Gross margin",                              [safe_div(gp[i], rev[i]) for i in range(6)]),
+        ("净利率 Net margin",                                [safe_div(npr[i], rev[i]) for i in range(6)]),
+        ("销售费用率 S&D expense ratio",                     [safe_div(-snd[i], rev[i]) for i in range(6)]),
+        ("行政费用率 Admin expense ratio",                   [safe_div(-adm[i], rev[i]) for i in range(6)]),
+        ("ROE(期末) Return on year-end equity",              [safe_div(npr[i], eq[i]) for i in range(6)]),
+        ("ROE(年均) Return on avg equity",                   [None] + [safe_div(npr[i], (eq[i]+eq[i-1])/2) for i in range(1, 6)]),
+        ("经营现金流/净利 OCF/Net profit",                   [safe_div(ocf[i], npr[i]) for i in range(6)]),
+        ("Capex/净利 Capex/Net profit",                      [safe_div(-capex[i], npr[i]) for i in range(6)]),
+        ("应收/营收 AR/Revenue",                             [safe_div(ar[i], rev[i]) for i in range(6)]),
+        ("存货/营收 Inventory/Revenue",                      [safe_div(inv[i], rev[i]) for i in range(6)]),
+        ("资产负债率 Liabilities/Total assets",              [safe_div(
+            find(资产负债表, "流动负债总额")[i] + find(资产负债表, "非流动负债总额")[i],
+            find(资产负债表, "非流动资产总额")[i] + find(资产负债表, "流动资产总额")[i]
+        ) for i in range(6)]),
+    ]
+    return rows
+
+
+# ====== 写 CSV ======
+def write_csv(filename, rows, unit_note=""):
+    path = os.path.join(OUT, filename)
+    with open(path, "w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        if unit_note:
+            w.writerow([f"# {unit_note}"])
+        w.writerow(["科目"] + [str(y) for y in YEARS])
+        for name, vals in rows:
+            row = [name]
+            for v in vals:
+                if v is None:
+                    row.append("")
+                elif isinstance(v, float):
+                    if abs(v) < 1:
+                        row.append(f"{v:.4f}")
+                    else:
+                        row.append(f"{v:.3f}")
+                else:
+                    row.append(v)
+            w.writerow(row)
+    print(f"  ✅ {filename}")
+
+
+# ====== main ======
+if __name__ == "__main__":
+    print("校验勾稽...")
+    errs = verify()
+    if errs:
+        print(f"❌ 校验失败 ({len(errs)} 条), 不写出 CSV:")
+        for e in errs:
+            print(f"   {e}")
+        raise SystemExit(1)
+    print(f"✅ 三表勾稽 {len(YEARS)*9} 项校验全平 (含年初年末连续性)\n")
+
+    print("写出 CSV:")
+    write_csv("利润表.csv", 利润表, "单位: 人民币千元 (RMB'000), 来源: 一手年报 PDF")
+    write_csv("资产负债表.csv", 资产负债表, "单位: 人民币千元 (RMB'000), 资产负债权益全部正数, 来源: 一手年报 PDF")
+    write_csv("现金流量表.csv", 现金流量表, "单位: 人民币千元 (RMB'000), 流出/减项=负数, 来源: 一手年报 PDF")
+    write_csv("财务比率.csv", build_ratios(), "派生比率: 从一手三表计算, EPS/比率为小数")
+    write_csv("分部营收.csv", 分部营收, "单位: 人民币百万元 (RMB million), 来源: 年报 MD&A 业务回顾")
+    write_csv("PPE明细.csv", PPE明细, "单位: 人民币千元 (RMB'000), 期末账面净值, 来源: 年报附注14 物业、厂房及设备")
+    print("\n🎊 全部写出完成")

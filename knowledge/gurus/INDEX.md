@@ -1,6 +1,6 @@
 # 大V花名册（INDEX）
 
-> **查询类 skill（guru-view / backtest-call / invest-report）的第一步必读。**
+> **查询类 skill（guru-view / backtest-call）的第一步必读。**
 > 用途：① 把用户输入的中文名/别名映射到目录 slug；② 一眼看出哪些大V**已沉淀真内容**、哪些还是**空壳骨架**。
 >
 > **硬规则**：状态为 `⚪ 骨架` 的大V，`knowledge/gurus/<slug>/` 下只有模板占位（`收录文章数: 0`、正文是 `YYYY` 占位符）。
