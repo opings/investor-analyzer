@@ -20,9 +20,9 @@
 - **skill**
   - `ingest-guru` — 喂单篇文章/帖子/持仓 → 归档
   - `ingest-book` — 跨会话读整本大V合集 PDF（2000+ 页）→ 增量沉淀
-  - `guru-view` — 用大V视角点评标的（单人=风格契合度；多人=共识/分歧矩阵）
-  - `backtest-call` — 大V某时点观点 vs 后续行情，评估判断准确度（接 `scripts/quote.py`）
-  - `tangchao` / `duanyongping` — 两位已深度沉淀大V的专属查询 skill（带 playbook）
+  - ~~`backtest-call`~~ — **已删除**·待重新设计
+  - ~~`guru-view`~~ — **已删除**·待重新设计
+  - `guru-query` — **通用**大V视角查询·覆盖所有已沉淀大V（老唐 / 段永平·未来新增大V通过更新 description + 建 `routes.md`/`discipline.md`·**不再建专属 skill**）。原 `tangchao` / `duanyongping` 两个专属 skill 已于 2026-07-03 抽象合并（路由/纪律迁到 `gurus/<slug>/{routes.md, discipline.md}`）。
 
 ### 模块二 · 财报分析 + 风险预警
 按唐朝价值投资体系拆财报、建公司「事实编年」，并从造假案例反向蒸馏出预警特征。
@@ -43,7 +43,7 @@
 - **知识库**：`finance/<公司>/` — 公司客观分析三件套（`财务数据/<csv>` + `分析.md` + `财报关注要点.md`，canonical 客观数据）
 - **skill**
   - `company-analysis` — 财报分析流程（从零建库 / 增量更新；产出三件套·客观层落盘）
-  - `valuation-method` — 估值法选择器（简化 DCF / 完整 DCF / CAPE 周期股；不满足三前提→「无法估值」；**结果不沉淀**）
+  - ~~`valuation-method`~~ — **已删除**·待重新设计
 
 ---
 
@@ -58,7 +58,7 @@ investor-analyzer/
 ├── finance/<公司>/            # 模块三：唐朝估值法估值库（canonical，_模板 为模板）
 ├── report/                    # 源文档（PDF/决定书，~1.3G 不入 git）+ report/daily/ 日报
 ├── scripts/
-│   ├── quote.py               # 区间行情（A股/港股/指数，前复权可复现），给 backtest-call
+│   ├── quote.py               # 区间行情（A股/港股/指数，前复权可复现·原供 backtest-call）
 │   ├── notices.py             # 巨潮(cninfo)一手公告拉取，给 daily-news
 │   ├── fetch_fundamentals.py  # 近 10 年年报季报三表 CSV 下载（akshare），建分析事实底座
 │   ├── _venv.py               # venv 自举封装，被各脚本调用自动激活 .venv（无需手动 activate）

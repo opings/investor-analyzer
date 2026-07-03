@@ -8,7 +8,7 @@
 | 已存在 `style.md` | `style.md` 末尾 `## YYYY 新增` section | 只记 YYYY 新出现的画像点，不重复 |
 | 已存在 `playbook.md` | `playbook.md` 末尾 `## YYYY 新增` section | 同上，只记新工具/口诀/反向案例 |
 | DRAFT 时间线表 | `holdings/YYYY-持仓变化.md` | 抽出持仓行（如适用）|
-| 文章公开预测 | `calls/YYYY-calls.md` | 抽出对未来的判断 + 后续验证（如适用，触发 [[backtest-call]]） |
+| 文章公开预测 | `calls/YYYY-calls.md` | 抽出对未来的判断 + 后续验证（原 `backtest-call` skill 已 2026-07-03 删除·待重新设计）|
 | 本年所有新立场 | **`current-view.md`（收敛刷新）** | ★ 读完一年后**重写而非追加**：把本年演化反映进"当前有效版"，旧立场移进"已废弃/已演化"表。这是 style.md（演化史）的对照收敛层 |
 | 本年覆盖情况 | **`coverage.md`（更新热力图）** | ★ 把本年的月度有/无数据填进热力图，登记新发现的空洞 |
 

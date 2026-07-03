@@ -123,9 +123,9 @@ Edit DRAFT 持仓变化时间线表 append 行（如批中出现持仓动作）
 ## 关联 skills
 
 - [[ingest-guru]]：单篇/单次的归档（本 skill 的对照）
-- [[guru-view]]：用本 skill 沉淀的知识库分析具体股票 / 跨 guru 对比观点
-- [[backtest-call]]：Phase 2 抽出的 `calls/` 数据回测
-- guru 专属 skill（如 [[tangchao]]）：Phase 3 产出
+- ~~[[guru-view]]~~：**已删除**·待重新设计
+- ~~[[backtest-call]]~~：**已删除**·待重新设计
+- `guru-query` 通用大V查询 skill：读取 Phase 2 产出的 `gurus/<slug>/routes.md` + `discipline.md`（原 Phase 3 "打包专属 skill" 已废弃·2026-07-03 抽象化·新增大V只需建两个数据文件 + 更新 guru-query description）
 
 ## 工具栈
 

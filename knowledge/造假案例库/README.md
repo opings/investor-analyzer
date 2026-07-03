@@ -1,7 +1,7 @@
 # 财务造假案例库
 
 > 用真实造假案例**喂养**风险预警系统：录入案例 → 蒸馏特征 → 风险预警清单自己长大。
-> 和大V侧同构：`ingest-guru → knowledge/gurus/<人>/style+playbook → guru-view` ｜ 这里 `ingest-fraud-case → 造假模式库 → company-analysis 风险预警`。
+> 和大V侧同构：`ingest-guru → knowledge/gurus/<人>/style+playbook → tangchao/duanyongping 查询` ｜ 这里 `ingest-fraud-case → 造假模式库 → company-analysis 风险预警`。
 
 ## 结构（两层）
 

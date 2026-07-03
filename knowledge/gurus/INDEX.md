@@ -1,6 +1,6 @@
 # 大V花名册（INDEX）
 
-> **查询类 skill（guru-view / backtest-call）的第一步必读。**
+> **查询类 skill（`guru-query`）的第一步必读**（原 `guru-view` / `tangchao` / `duanyongping` / `backtest-call` skill 已于 2026-07-03 全部删除或抽象·待重新设计；大V特有的路由/纪律现在挂在 `knowledge/gurus/<slug>/routes.md` + `discipline.md`）。
 > 用途：① 把用户输入的中文名/别名映射到目录 slug；② 一眼看出哪些大V**已沉淀真内容**、哪些还是**空壳骨架**。
 >
 > **硬规则**：状态为 `⚪ 骨架` 的大V，`knowledge/gurus/<slug>/` 下只有模板占位（`收录文章数: 0`、正文是 `YYYY` 占位符）。
@@ -13,8 +13,8 @@
 
 | slug | 中文名 / 别名 | 流派 | 状态 | 备注 |
 |------|--------------|------|------|------|
-| `tangchao` | 老唐 / 唐朝 / 唐书房 / 唐书院 | 🇨🇳 价值投资派（老唐估值法） | ✓ 已沉淀 | 2016–2025 全量；有专属 skill `tangchao` + playbook + READING_STATE |
-| `duanyongping` | 段永平 / 阿段 / 大道无形我有型 | 🇨🇳 价值投资派（本分/能力圈） | ✓ 已沉淀 | 《投资问答录·投资逻辑篇》426 页；有专属 skill `duanyongping` + playbook |
+| `tangchao` | 老唐 / 唐朝 / 唐书房 / 唐书院 | 🇨🇳 价值投资派（老唐估值法） | ✓ 已沉淀 | 2016–2025 全量·1137 篇；查询走 `guru-query` skill + `routes.md` + `discipline.md` + playbook + READING_STATE |
+| `duanyongping` | 段永平 / 阿段 / 大道无形我有型 | 🇨🇳 价值投资派（本分/能力圈） | ✓ 已沉淀 | 《投资问答录·投资逻辑篇》426 页；查询走 `guru-query` skill + `routes.md` + `discipline.md` + playbook |
 
 ## 骨架待录入（⚪ 答前必先声明无数据）
 
