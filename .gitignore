@@ -16,13 +16,9 @@ READING_STATE.md
 scripts/daily-news.sh
 scripts/com.investor.daily-news.plist
 
-# 源文档（PDF/年报/决定书/HTM，体积大、diff 无意义）——只入库蒸馏后的文本知识库
-# report/ 现在只装源档二进制,不再有 daily/(已挪 knowledge/daily/)
-report/**/*.pdf
-report/**/*.htm
-report/**/*.html
-report/**/*.xlsx
-report/**/*.docx
+# report/ 整个目录不入 git — 里面装各种源档(PDF/HTM/10-K.txt/公告 等)
+# 只入库蒸馏后的文本知识库(在 knowledge/ 下)
+report/
 
 # finance/<公司>/年报季报/ 下的年报季报源 PDF——只入库蒸馏后的 分析.md/.xlsx/财报关注要点.md
 finance/**/年报季报/

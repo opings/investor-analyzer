@@ -115,7 +115,7 @@ scripts/.venv/bin/pip install -r scripts/requirements.txt
 
 | 入库 ✅ | 不入库 ❌（保留本地） |
 |---|---|
-| 蒸馏知识：`gurus/*/`（profile/current-view/style/calls/成品 `posts/*.md`）、`companies/*/`、`fraud-cases/*/`（含决定书/SEC 源页 `.html`，作一手证据）、`finance/*/`（客观三件套：`财务数据/*.csv` + `分析.md` + `财报关注要点.md`） | **源文档**：`report/**` 的 PDF/年报/决定书等二进制（~1.3G）——只留蒸馏后的文本 |
+| 蒸馏知识：`gurus/*/`（profile/current-view/style/calls/成品 `posts/*.md`）、`companies/*/`、`fraud-cases/*/`（含决定书/SEC 源页 `.html`，作一手证据）、`finance/*/`（客观三件套：`财务数据/*.csv` + `分析.md` + `财报关注要点.md`） | **`report/` 整个目录**：所有源档（PDF/年报/决定书/HTM/10-K.txt 等 ~1.6G）一律不入 git，纯本地"源档柜" |
 | 可复用逻辑：`.claude/skills/`、`scripts/quote.py`、`scripts/notices.py`、`scripts/requirements.txt` | **ingest 工作/状态文件**：`*-DRAFT.md`、`READING_STATE.md`（跨会话阅读进度，本地 WIP） |
 | 数据产出：`knowledge/daily/` 日报（新闻哨兵的蒸馏成果·归 knowledge/） | **机器专属自动化**：`scripts/daily-news.sh`、`scripts/com.investor.daily-news.plist`（写死本机绝对路径，别人 clone 后需自行配 launchd） |
 | | `scripts/.venv/`（用 `requirements.txt` 重建）；`gurus/*/_corpus/`（大V原始语料，只留蒸馏成品）；`finance/**/年报季报/`（源 PDF） |
