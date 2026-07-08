@@ -1,0 +1,159 @@
+---
+name: judgment-flow
+description: |
+  主观分析 workflow(估值/能力圈/仓位/买卖点)——执行 knowledge/frameworks/主观分析-workflow.md canonical·
+  客观数据不复制(读 finance/<公司>/)·大V署名不出现(灵感来源致谢除外·guru-query 借视角现问现答不落盘)·
+  产出落 judgments/<公司>/{估值.md, 能力圈.md, 观点变更.md} 三份 md 分离·观点变更 append-only 可回算「我自己」胜率。
+  
+  触发词:估一下 XX / 跑 XX 主观 / 定 XX 买卖点 / 重估 XX / 复评 XX / <公司>估值多少 / <公司>该不该买 /
+  主观分析 XX / 我该不该买 XX / XX 现在便宜吗 / XX 到买点了吗
+---
+
+# judgment-flow · 主观分析 workflow
+
+> 本 skill 是**主观分析 workflow 的执行器**。方法论 canonical 在 `knowledge/frameworks/主观分析-workflow.md` —— 每次执行**开工前必读该文件**。
+
+## 何时用
+
+- 用户说"估一下 XX" / "跑 XX 主观" / "定 XX 买卖点" / "重估 XX" / "复评 XX"
+- 用户问"XX 现在便宜吗" / "XX 该不该买"
+- daily-news 撞库时提示"XX 判断层滞后 → 建议触发主观复估"
+
+## 何时不用
+
+- 建/刷新 finance/ 客观三件套 → `company-analysis`
+- 大V视角查询 → `guru-query`
+- 事实核验/新闻扫描 → `daily-news`
+- 造假案例入库 → `ingest-fraud-case`
+
+## 铁律(不可跳过)
+
+1. **第一动作必读 canonical**:开工前必读 `knowledge/frameworks/主观分析-workflow.md`(方法论真源)· 不自造流程 · 不靠 memory 摘要
+2. **不越界**:主观产出**只落** `judgments/<公司>/`,**不改** `finance/<公司>/`(那是客观层·呼应 [[analysis-framework-is-users-own]] 铁律)
+3. **观点变更 append-only**:`观点变更.md` 只增不改·历史条目**绝对不改**·可回算「我自己」的胜率
+4. **默认成长股估值法**:菜单里默认 A(成长股)· 用户主动选其他才用别的
+5. **每步硬 gate 必显式**:Step 0/1/2 触发阻塞时明示阻塞理由 · 让用户拍板
+6. **不做大V回测**(呼应 [[no-guru-backtest]] 铁律):大V视角只用于自审(借镜),不用于生成结论
+7. **不复制客观数字**:主观 md 里引用 finance/ 数字用**指针**("详见 `财务数据/xx.csv`"),不粘贴数字·防漂移
+8. **不新建「大V点评.md」**:大V视角审视走 `guru-query` **现问现答**,产出**直接改** `judgments/` 下对应文件,不落盘中间档案
+
+---
+
+## 执行流程
+
+> **每步的详细规则见 `knowledge/frameworks/主观分析-workflow.md`;本节只列 gate 和产出位置,不重抄公式**
+
+### Step 0 · 前置检查(硬 gate)
+
+- `ls finance/<公司>/分析.md` 存在?
+- ❌ → 🔴 **阻塞** · 引导:「这家公司还没有客观分析底座.先跑 `company-analysis` 建 `finance/<公司>/` 三件套,完成后再回来跑主观 workflow.」
+- ✅ → Step 1
+
+### Step 1 · 读客观底座 + fresh 快检(硬 gate)
+
+**① 读** `finance/<公司>/{分析.md, 财务数据/, 财报关注要点.md}`
+
+**② fresh 快检**:
+- diff `分析.md` 头部「事实编年核对至」 vs `knowledge/companies/<公司>/` 最新事件日期
+- **差 >30 天 or 命中核心跟踪变量** → 🔴 **阻塞** · 提示:「客观底座滞后 N 天,先跑 `company-analysis` 刷新,再回来.」
+- 通过 → 复述客观样貌 + 三前提复核 + 排雷结论 → 用户确认理解一致
+
+### Step 2 · 双闸门(硬 gate)
+
+**读 `分析.md`** 里已有结论(**不重新算**):
+- 三前提(利润为真/可持续/不需大量资本)—— 分析.md 三节已复核 ✅/⚠️/❌
+- 生意四问(靠什么获利/客户为何采购/资本逐利为何他人没提供/同行挟巨资能否抢)—— 分析.md 二节已答
+
+判:
+- 全 ✅ + 四问答得上 → Step 3
+- 任一 ❌ / 四问答不上 → 归**"太难"** → 跳 Step 6(结论 = 太难)
+- 用户 override → 记录 override 原因,继续
+
+### Step 3 · 选估值法(交互)
+
+展示菜单:
+- **A ⭐ 成长股估值法**(默认)
+- **E 归"太难"**
+- (B 周期股席勒法 / C 银行股 PB×ROE / D DCF —— backlog,需要时加)
+
+用户选 **A** → Step 4-A · 选 **E** → 跳 Step 6
+
+### Step 4-A · 成长股估值法(交互输入)
+
+**逐步问用户**:
+1. **P₀**(最近一个完整年度扣非归母)—— 从 `财务数据/利润表.csv` 读,给用户看,确认
+2. **P₁**(当年预计扣非归母)—— 我基于 P₀ + 近年增速给建议,用户 override
+3. **P₃**(三年后预计扣非归母)—— 我基于近 3-5 年 CAGR 建议,用户 override(说明原因)
+4. **r**(你能锁定的最低无风险利率)—— 默认 3.6%,变了在此确认
+
+按 canonical 公式算:合理 PE / 合理估值 / 买点 / 卖点三档 / 当前估值状态
+
+**产出**:`judgments/<公司>/估值.md`(**覆盖式**)
+
+### Step 5 · 能力圈 → 仓位上限(交互确认)
+
+我基于 `分析.md` 生意质量 + 用户此前沉淀,给档位**建议**:
+- 深懂·核心 / 懂·圈内 / 半懂·边缘 / 试仓·学习 / 不懂
+- 对应仓位上限:40% / 20% / 10% / 5% / 0%
+
+用户**拍板具体档位**(可 override,说明原因)
+
+**产出**:`judgments/<公司>/能力圈.md`(**覆盖式**)
+
+### Step 6 · 综合结论
+
+按 canonical 结论矩阵(生意质量 × 估值 × 能力圈 → 买/观察/避/太难)给**建议**,用户**确认**。
+
+**产出**:`judgments/<公司>/观点变更.md`(**append-only** · 只增不改 · 新增一行)
+
+---
+
+## 输出总结(给用户)
+
+skill 跑完后,输出一段汇总:
+
+```markdown
+## <公司> 主观分析 · YYYY-MM-DD
+
+### 客观底座(引用 finance/<公司>/分析.md)
+- 生意类型:...
+- 生意质量评级:...
+- 三前提复核:全 ✅ / 有 ⚠️/❌
+- 排雷结论:...
+- 事实编年 fresh:✅(核对至 YYYY-MM-DD)
+
+### 估值(成长股估值法)
+- P₀ = X 亿 · P₁ = Y 亿 · P₃ = Z 亿(CAGR = ...%)
+- 合理 PE = 27.5(r = 3.6%)
+- 合理估值 = ... 亿 / 买点 = ... 亿 / 卖点三档 = .../.../...
+- 当前市值 = ... 亿 · 状态:便宜 / 合理 / 贵
+
+### 能力圈 & 仓位
+- 档位:懂 · 圈内
+- 仓位上限:20%
+
+### 结论:买 / 观察 / 避 / 太难
+
+### 落盘
+- ✅ judgments/<公司>/估值.md(覆盖)
+- ✅ judgments/<公司>/能力圈.md(覆盖)
+- ✅ judgments/<公司>/观点变更.md(append 一行)
+```
+
+---
+
+## 与其他 skill 协作
+
+| skill | 关系 |
+|---|---|
+| `company-analysis` | **上游** · 建 `finance/<公司>/` 三件套(Step 0 硬 gate 要求存在)· Step 1 fresh 检出阻塞时引导刷 |
+| `daily-news` | **上游** · 维护 `knowledge/companies/<公司>/` 事实编年(Step 1 fresh 快检的比对源) |
+| `guru-query` | **平行** · 借大V视角审视自己分析 —— 现问现答·**不落盘中间档案**·产出直接改 `judgments/` 对应文件 |
+| `ingest-fraud-case` | 独立·造假案例入库 |
+
+## 关联
+
+- **canonical**:`knowledge/frameworks/主观分析-workflow.md`(**第一动作必读**)
+- **数据层模板**:`judgments/_模板/{估值.md, 能力圈.md, 观点变更.md}`(骨架)
+- **数据落盘**:`judgments/<公司>/`
+- **相关 memory**:[[subjective-layer-judgments]] · [[valuation-pe-and-audit-2026-06]] · [[laotang-valuation-base-year]] · [[no-guru-backtest]] · [[analysis-framework-is-users-own]] · [[analysis-md-staleness-vs-chronicle]]
