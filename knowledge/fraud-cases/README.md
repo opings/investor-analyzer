@@ -6,7 +6,7 @@
 ## 结构（两层）
 
 ```
-knowledge/造假案例库/
+knowledge/fraud-cases/
 ├── README.md            本文件
 ├── _案例模板.md          单案例归档模板
 ├── _下载档案清单.md       原始档案（处罚决定书/调查报告）下载台账

@@ -16,11 +16,11 @@
 ### 模块一 · 客观分析（公司客观长什么样·零主观判断）
 拿到任何一家公司，先建真实事实底座，再只回答「这家公司是什么样」——不碰「我懂不懂 / 值多少 / 买不买」。含正面（商业模式/生意质量）与反面（排雷与风险），产出对公司的客观认识 + 生意质量评级（好/平庸/差/回避）。
 
-- **分析宪法**：`knowledge/分析框架/研究新公司-分析流程.md` — 我自己的价值投资分析主流程（去单一大V署名·事实底座三样 → 商业模式/排雷两块漏斗）
+- **分析宪法**：`knowledge/frameworks/研究新公司-分析流程.md` — 我自己的价值投资分析主流程（去单一大V署名·事实底座三样 → 商业模式/排雷两块漏斗）
 - **知识库**
   - `finance/<公司>/` — 公司客观分析三件套（`财务数据/<csv>` + `分析.md` + `财报关注要点.md`，canonical 客观数据；**不出现任何主观决策**）
   - `knowledge/companies/<公司>/` — 公司**事实编年**（时间·主体·事件，只记客观事实，不写判断）。**唯一花名册 `companies/INDEX.md`**（公司全集 single source），监控子集 `_watchlist.md`（家数以表为准，勿写死）
-  - `knowledge/造假案例库/<公司>/` — 64 个财务造假案例（以中 A 股为主体，含美股/日股经典案例）+ `造假模式库.md`（排雷 = 客观分析的反面·反向蒸馏预警红旗）
+  - `knowledge/fraud-cases/<公司>/` — 64 个财务造假案例（以中 A 股为主体，含美股/日股经典案例）+ `造假模式库.md`（排雷 = 客观分析的反面·反向蒸馏预警红旗）
   - `report/` — 各案例/公司的**源文档**（年报 PDF、处罚决定书、做空报告等，约 1.3G，不入 git）·仅源档柜
   - `knowledge/daily/` — 每日新闻哨兵输出的日报（`daily-news` skill 产出·蒸馏成果归 knowledge/）
 - **skill**
@@ -59,8 +59,8 @@
 investor-analyzer/
 ├── knowledge/
 │   ├── companies/<公司>/      # 模块一：公司事实编年（INDEX.md + _watchlist.md + _模板）
-│   ├── 造假案例库/<公司>/      # 模块一：造假案例 + 造假模式库.md（排雷 = 客观分析的反面）
-│   └── 分析框架/              # 模块一：研究新公司-分析流程.md（分析宪法·去单一大V署名）
+│   ├── fraud-cases/<公司>/      # 模块一：造假案例 + 造假模式库.md（排雷 = 客观分析的反面）
+│   └── frameworks/              # 模块一：研究新公司-分析流程.md（分析宪法·去单一大V署名）
 ├── finance/<公司>/            # 模块一：公司客观分析三件套（canonical 客观库·无主观决策·_模板 为模板）
 ├── gurus/<slug>/              # 模块二：大V画像（INDEX.md 为花名册，_模板 为模板）
 ├── judgments/<公司>/          # 模块三：主观层（估值.md + 能力圈.md + 观点变更.md·纯我·无大V署名·内容待填）
@@ -115,7 +115,7 @@ scripts/.venv/bin/pip install -r scripts/requirements.txt
 
 | 入库 ✅ | 不入库 ❌（保留本地） |
 |---|---|
-| 蒸馏知识：`gurus/*/`（profile/current-view/style/calls/成品 `posts/*.md`）、`companies/*/`、`造假案例库/*/`（含决定书/SEC 源页 `.html`，作一手证据）、`finance/*/`（客观三件套：`财务数据/*.csv` + `分析.md` + `财报关注要点.md`） | **源文档**：`report/**` 的 PDF/年报/决定书等二进制（~1.3G）——只留蒸馏后的文本 |
+| 蒸馏知识：`gurus/*/`（profile/current-view/style/calls/成品 `posts/*.md`）、`companies/*/`、`fraud-cases/*/`（含决定书/SEC 源页 `.html`，作一手证据）、`finance/*/`（客观三件套：`财务数据/*.csv` + `分析.md` + `财报关注要点.md`） | **源文档**：`report/**` 的 PDF/年报/决定书等二进制（~1.3G）——只留蒸馏后的文本 |
 | 可复用逻辑：`.claude/skills/`、`scripts/quote.py`、`scripts/notices.py`、`scripts/requirements.txt` | **ingest 工作/状态文件**：`*-DRAFT.md`、`READING_STATE.md`（跨会话阅读进度，本地 WIP） |
 | 数据产出：`knowledge/daily/` 日报（新闻哨兵的蒸馏成果·归 knowledge/） | **机器专属自动化**：`scripts/daily-news.sh`、`scripts/com.investor.daily-news.plist`（写死本机绝对路径，别人 clone 后需自行配 launchd） |
 | | `scripts/.venv/`（用 `requirements.txt` 重建）；`gurus/*/_corpus/`（大V原始语料，只留蒸馏成品）；`finance/**/年报季报/`（源 PDF） |
