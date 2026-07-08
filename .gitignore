@@ -33,3 +33,6 @@ report/daily/_logs/
 
 # 大V原始语料(各大V目录下的 _corpus),不入 git
 gurus/*/_corpus/
+
+# IDE 配置(不入库)
+.idea/
