@@ -156,3 +156,4 @@ python3 scripts/notices.py <起始日> <结束日>     # 省略=今天；只给�
 - **来源 URL 真实**：严禁编造链接。查不到一手来源的，要么标「待补」放日报，要么丢弃，**不入编年**。
 - **不改 finance 数据**：本 skill 只读 `finance/` 做撞库判断，绝不写估值数字（那是 `company-analysis` 的活）。
 - **headless 模式**：自动运行时无人交互，遇到拿不准是否「重大/可核实」的，一律降级到「仅日报/待核实」，把判断留给人。
+- **临时下载不落 project**：核验事实需 curl 下载 cninfo PDF 时，一律存系统 `/tmp/`（如 `curl -sL -o /tmp/<公司>_YYYYMMDD.PDF <url>` + `Read /tmp/xxx.PDF`）。事实提炼进编年后 PDF 本身**不留档** —— 编年里已有 cninfo 直链可回溯。**禁止在 `report/tmp/` 或 project 任何位置留孤儿 PDF**（2026-07-08 实证:跑批把老窖公告 pdf 落到 `report/tmp/` 变孤儿·已删并加此纪律）。
