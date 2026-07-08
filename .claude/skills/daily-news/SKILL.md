@@ -113,14 +113,14 @@ python3 scripts/notices.py <起始日> <结束日>     # 省略=今天；只给�
 - 把「靠人偶然想起」变成「每天机械体检、滞后必报」。
 
 ### Step 6 — 产出当天日报
-写 `report/daily/YYYY-MM-DD.md`（见下方模板）。日报是**审计凭证**：既记入库了什么，也记丢弃了什么传闻、为什么。
+写 `knowledge/daily/YYYY-MM-DD.md`（见下方模板）。日报是**审计凭证**：既记入库了什么，也记丢弃了什么传闻、为什么。
 
 ### Step 7 — 收尾摘要
 向用户（或 headless 日志）输出一句话摘要：今天扫了 N 家，给 M 家共追加 K 条编年，R 个 🔴 待你决策。
 
 ---
 
-## 日报模板（`report/daily/YYYY-MM-DD.md`）
+## 日报模板（`knowledge/daily/YYYY-MM-DD.md`）
 
 ```markdown
 # 每日监控 · YYYY-MM-DD（收盘后）

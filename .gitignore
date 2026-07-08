@@ -17,19 +17,18 @@ scripts/daily-news.sh
 scripts/com.investor.daily-news.plist
 
 # 源文档（PDF/年报/决定书/HTM，体积大、diff 无意义）——只入库蒸馏后的文本知识库
-# report/ 下的二进制源档不跟踪；report/daily/ 的日报是文本，单独放行
+# report/ 现在只装源档二进制,不再有 daily/(已挪 knowledge/daily/)
 report/**/*.pdf
 report/**/*.htm
 report/**/*.html
 report/**/*.xlsx
 report/**/*.docx
-!report/daily/
 
 # finance/<公司>/年报季报/ 下的年报季报源 PDF——只入库蒸馏后的 分析.md/.xlsx/财报关注要点.md
 finance/**/年报季报/
 
 # 每日新闻哨兵 launchd 运行日志（机器专属，非知识内容，不入库）
-report/daily/_logs/
+knowledge/daily/_logs/
 
 # 大V原始语料(各大V目录下的 _corpus),不入 git
 gurus/*/_corpus/
