@@ -19,10 +19,10 @@
 
 ## 知识库路径
 
-**根目录**：`knowledge/gurus/tangchao/`
+**根目录**：`gurus/tangchao/`
 
 ```
-knowledge/gurus/tangchao/
+gurus/tangchao/
 ├── profile.md                       # 基础画像（一句话画像 + 派别 + 居住 + 著作）
 ├── current-view.md                  # ★ 当前收敛立场快照（截至 2025-02-08·书房外传糖指数收敛版·消费类查询优先读！）
 ├── coverage.md                      # 数据覆盖热力图（哪年哪月有/无数据·引用前必查·2024 仅实盘部分）
@@ -103,7 +103,7 @@ knowledge/gurus/tangchao/
 | **董事会报告 / 管理层分析 / 财报附注怎么读** | `posts/手把手读财报.md` 第六/七章 + `playbook.md` F7（董事会报告=最大宝藏）|
 | **老唐三分类法 / 生产类经营类投资类资产** | `posts/手把手读财报.md` 第一章 + `playbook.md` F3 |
 | **老唐选股标准 / 选什么股** | `current-view.md` "选股标准" + `playbook.md` 第 33, 60 章 |
-| **老唐怎么看 XX 股票** | `posts/YYYY.md` 文章索引 + grep `knowledge/gurus/tangchao/posts/` 找出处 |
+| **老唐怎么看 XX 股票** | `posts/YYYY.md` 文章索引 + grep `gurus/tangchao/posts/` 找出处 |
 | **老唐持仓 / 多少茅台/腾讯/分众** | `holdings/2024-持仓变化.md`（最新完整年度·4 只）/ `current-view.md` |
 | **历年收益 / 10 年业绩** | `posts/2023.md` "年度概览" + `holdings/2023-持仓变化.md` 10 年累计表 |
 | **老唐对 2023/2025 估值预测 / 年末估值锚** | `calls/2023-calls.md` "年末估值表"（腾讯卖点 70000 / 茅台 37000 / 古井 1600）|
@@ -147,7 +147,7 @@ knowledge/gurus/tangchao/
 | **福寿园 / 如何从零研究一家企业** | `playbook.md` 第 55 章 + `posts/2020.md`（#82-96）|
 | **老唐研究新公司的角度/框架/步骤 / 拿到一家公司怎么分析 / 选股流程** | `研究新公司-SOP.md`（★8 角度漏斗·骨架=福寿园范本）|
 | **老唐打脸过 / 老唐错过什么** | `calls/YYYY-calls.md` "老唐打脸自评"（2021: 博时转债/美的割肉）|
-| **某金句出处** | grep `knowledge/gurus/tangchao/posts/` 找 #N + 日期 |
+| **某金句出处** | grep `gurus/tangchao/posts/` 找 #N + 日期 |
 | **散打巴菲特 / 巴芒演义** | `posts/2018.md` + `posts/2020.md`（巴芒演义 3 月面世）+ `playbook.md` 第 40 章 |
 | **老唐为什么不投 XX** | `posts/YYYY.md` 文章索引找否决案例（雅戈尔/白云机场/上海机场变坏等）|
 | **老唐反 SOP / 反价投常识** | `playbook.md` 第 29-39, 66-70 章 |

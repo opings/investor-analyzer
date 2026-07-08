@@ -10,7 +10,7 @@
 
 ## 3.2 现在要建的两个文件（数据·不是 skill）
 
-路径：`knowledge/gurus/<slug>/routes.md` + `knowledge/gurus/<slug>/discipline.md`（**跟大V数据同目录·内聚**）
+路径：`gurus/<slug>/routes.md` + `gurus/<slug>/discipline.md`（**跟大V数据同目录·内聚**）
 
 ### `routes.md` 骨架（"用户问什么 → 读哪个文件"路由）
 
@@ -28,7 +28,7 @@
 
 ## 知识库路径
 
-`knowledge/gurus/<slug>/`（结构：profile / style / current-view / coverage / posts / calls / holdings / playbook）
+`gurus/<slug>/`（结构：profile / style / current-view / coverage / posts / calls / holdings / playbook）
 
 ## 检索路由表
 

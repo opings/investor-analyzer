@@ -2,7 +2,7 @@
 guru: tangchao
 year: 2019
 period: 2019-09 至 2019-12 (PDF 仅覆盖 4 个月)
-source: knowledge/gurus/tangchao/posts/2019-DRAFT.md
+source: gurus/tangchao/posts/2019-DRAFT.md
 compiled_at: 2026-05-28
 verification_note: 2021 估值表已升级 (相对 2018) / 2025 茅台预测 / 分众重大下调
 ---

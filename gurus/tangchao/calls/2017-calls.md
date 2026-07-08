@@ -2,7 +2,7 @@
 guru: tangchao
 year: 2017
 period: 2017-01 至 2017-12
-source: knowledge/gurus/tangchao/posts/2017-DRAFT.md 中老唐对个股的公开判断
+source: gurus/tangchao/posts/2017-DRAFT.md 中老唐对个股的公开判断
 compiled_at: 2026-05-17
 verification_note: 多数 calls 在 2017 年内或后续年份被市场验证（含老唐自评"打脸"6 家）
 ---
@@ -156,7 +156,7 @@ verification_note: 多数 calls 在 2017 年内或后续年份被市场验证（
 
 ## 三、国投电力 2018 验证（2016 年估值公式）
 
-**出处**：2016-11 #60C 国投估值公式（在 [[knowledge/gurus/tangchao/posts/2016.md]] 中已记录）
+**出处**：2016-11 #60C 国投估值公式（在 [[gurus/tangchao/posts/2016.md]] 中已记录）
 
 **原始公式**：
 ```

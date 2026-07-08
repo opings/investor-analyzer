@@ -19,10 +19,10 @@
 
 ## 知识库路径
 
-**根目录**：`knowledge/gurus/duanyongping/`
+**根目录**：`gurus/duanyongping/`
 
 ```
-knowledge/gurus/duanyongping/
+gurus/duanyongping/
 ├── profile.md                  # 基础画像（企业家底色的纯正巴菲特派）
 ├── current-view.md             # ★ 当前收敛立场快照（估值/选股/仓位/市场观/能力圈 + 已演化表）优先读
 ├── coverage.md                 # 数据覆盖（★按议题非按年·引用前必查）
@@ -61,7 +61,7 @@ knowledge/gurus/duanyongping/
 | **段的标志性判断 + 验证** | `style.md` "标志性判断" + `calls/投资逻辑篇-calls.md` |
 | **段的口头禅 / 比喻 / 表达风格** | `style.md` "表达 DNA" + `profile.md` |
 | **段和巴菲特/芒格/丁磊/黄峥/王宁的关系** | `profile.md` + `style.md`（⚠️ 巴芒转述≠段原创·见 [[discipline.md]]）|
-| **某议题在哪 / 某金句出处** | grep `knowledge/gurus/duanyongping/posts/投资逻辑篇.md`（按议题·给章节 + 日期）|
+| **某议题在哪 / 某金句出处** | grep `gurus/duanyongping/posts/投资逻辑篇.md`（按议题·给章节 + 日期）|
 
 ---
 

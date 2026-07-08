@@ -1,6 +1,6 @@
 ---
 name: ingest-book
-description: 把投资大V的多年合集 PDF（典型 2000+ 页 / >500MB）按批阅读、增量沉淀到 knowledge/gurus/<昵称>/ 下。触发：用户提到要"读老唐 2017 / 把段永平 2020 录入 / 继续读到第几页"等多会话长 PDF 阅读任务；或在 knowledge/gurus/<昵称>/posts/ 下看到 *-DRAFT.md 文件需要续读。与 [[ingest-guru]] 区别：guru 处理单篇文章/帖子/持仓，book 处理跨会话的整本 PDF。
+description: 把投资大V的多年合集 PDF（典型 2000+ 页 / >500MB）按批阅读、增量沉淀到 gurus/<昵称>/ 下。触发：用户提到要"读老唐 2017 / 把段永平 2020 录入 / 继续读到第几页"等多会话长 PDF 阅读任务；或在 gurus/<昵称>/posts/ 下看到 *-DRAFT.md 文件需要续读。与 [[ingest-guru]] 区别：guru 处理单篇文章/帖子/持仓，book 处理跨会话的整本 PDF。
 ---
 
 # ingest-book
@@ -10,7 +10,7 @@ description: 把投资大V的多年合集 PDF（典型 2000+ 页 / >500MB）按�
 ## 何时激活
 
 - 用户提到要读 / 继续读某本 PDF（典型句式："读老唐 2017"、"继续读到第几页"、"把段永平 2020 录入"）
-- `knowledge/gurus/<昵称>/posts/` 下有 `YYYY-DRAFT.md` 且 `status: 阅读中`
+- `gurus/<昵称>/posts/` 下有 `YYYY-DRAFT.md` 且 `status: 阅读中`
 - 用户贴出一份大 PDF（>100MB）并希望系统性消化
 
 **与 [[ingest-guru]] 的分工**：
@@ -36,7 +36,7 @@ Phase 3: Skill 打包 → 累积 ≥3 年笔记后做 guru 专属 SKILL.md      
 
 任何中断（compaction / 退出 / 切话题）后重新开始：
 
-1. **Read** `knowledge/gurus/<昵称>/READING_STATE.md` → 选当前 `[阅读中]` 书
+1. **Read** `gurus/<昵称>/READING_STATE.md` → 选当前 `[阅读中]` 书
 2. **Read** 对应 `posts/YYYY-DRAFT.md` 前 30 行（frontmatter）→ 拿 `next_read_cmd`
 3. 直接执行 `next_read_cmd`
 
@@ -132,10 +132,10 @@ Edit DRAFT 持仓变化时间线表 append 行（如批中出现持仓动作）
 | 工具 | 位置 | 用途 |
 |------|------|------|
 | `pdf-split` | `~/.claude/bin/pdf-split`（user-level）| PDF 按页拆分 |
-| `READING_STATE.md` | `knowledge/gurus/<昵称>/`（项目内）| 阅读进度仪表板 |
-| `YYYY-DRAFT.md` | `knowledge/gurus/<昵称>/posts/`（项目内）| 增量阅读笔记 |
+| `READING_STATE.md` | `gurus/<昵称>/`（项目内）| 阅读进度仪表板 |
+| `YYYY-DRAFT.md` | `gurus/<昵称>/posts/`（项目内）| 增量阅读笔记 |
 | `posts/YYYY.md` | 整理后的最终笔记 | 知识库正式部分 |
-| `style.md` / `playbook.md` | `knowledge/gurus/<昵称>/`（项目内）| 风格画像 / 工具箱（增量更新）|
+| `style.md` / `playbook.md` | `gurus/<昵称>/`（项目内）| 风格画像 / 工具箱（增量更新）|
 | guru 专属 SKILL.md | `.claude/skills/<昵称>/`（项目内）| Phase 3 产出 |
 
 ---

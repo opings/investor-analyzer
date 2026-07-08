@@ -14,8 +14,8 @@
 ### 模块一 · 大V理念蒸馏
 把投资大V的原始数据蒸馏成「投资人画像」，再用其视角点评/对比标的、复盘历史判断。
 
-- **知识库**：`knowledge/gurus/<slug>/`（每位大V一目录，`profile / current-view / style / coverage / posts / holdings / calls`）
-  - 花名册：`knowledge/gurus/INDEX.md`（中文名→slug 映射 + 是否已沉淀。**查询类 skill 第一步必读**）
+- **知识库**：`gurus/<slug>/`（每位大V一目录，`profile / current-view / style / coverage / posts / holdings / calls`）
+  - 花名册：`gurus/INDEX.md`（中文名→slug 映射 + 是否已沉淀。**查询类 skill 第一步必读**）
   - 已沉淀：`tangchao`(老唐 2016–2025 全量)、`duanyongping`(段永平《投资问答录》426 页)；其余 13 位为骨架待 ingest
 - **skill**
   - `ingest-guru` — 喂单篇文章/帖子/持仓 → 归档

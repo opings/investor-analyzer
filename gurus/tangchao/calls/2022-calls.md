@@ -2,7 +2,7 @@
 guru: tangchao
 year: 2022
 period: 2022-01 至 2022-12 (完整一年)
-source: knowledge/gurus/tangchao/posts/2022-DRAFT.md
+source: gurus/tangchao/posts/2022-DRAFT.md
 compiled_at: 2026-06-11
 verification_note: 年末估值表 (#211/#222) / 腾讯估值大幅下调 72000→57000 / 茅台不提价 630 亿 (验证 626 亿) / 防疫放开预判 (10/15 偏乐观→年末兑现) / 监管 V 型反转 / 陕煤清仓 139% / 蚂蚁重启
 ---

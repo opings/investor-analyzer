@@ -1,9 +1,9 @@
 # 大V花名册（INDEX）
 
-> **查询类 skill（`guru-query`）的第一步必读**（原 `guru-view` / `tangchao` / `duanyongping` / `backtest-call` skill 已于 2026-07-03 全部删除或抽象·待重新设计；大V特有的路由/纪律现在挂在 `knowledge/gurus/<slug>/routes.md` + `discipline.md`）。
+> **查询类 skill（`guru-query`）的第一步必读**（原 `guru-view` / `tangchao` / `duanyongping` / `backtest-call` skill 已于 2026-07-03 全部删除或抽象·待重新设计；大V特有的路由/纪律现在挂在 `gurus/<slug>/routes.md` + `discipline.md`）。
 > 用途：① 把用户输入的中文名/别名映射到目录 slug；② 一眼看出哪些大V**已沉淀真内容**、哪些还是**空壳骨架**。
 >
-> **硬规则**：状态为 `⚪ 骨架` 的大V，`knowledge/gurus/<slug>/` 下只有模板占位（`收录文章数: 0`、正文是 `YYYY` 占位符）。
+> **硬规则**：状态为 `⚪ 骨架` 的大V，`gurus/<slug>/` 下只有模板占位（`收录文章数: 0`、正文是 `YYYY` 占位符）。
 > 被问到这些大V时，**先声明"该大V知识库尚未录入，无法基于已沉淀观点点评"**，不要拿模板/训练数据硬答。
 > 多人对比时，**只纳入 `✓` 的大V**；骨架大V如被点名，单列一句"待录入"。
 

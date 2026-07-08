@@ -15,7 +15,7 @@ description: |
 # guru-query · 通用大V视角查询
 
 > **一个 skill 服务所有大V**·避免每加一位大V建一个 skill 的膨胀（原 `tangchao` / `duanyongping` 两个专属 skill 已于 2026-07-03 抽象合并至此·备份在 `/tmp/`）。
-> **本 skill 只做"查询逻辑"**·大V特有的**路由表 / 稳定方法论 / 调用纪律**全部在 `knowledge/gurus/<slug>/routes.md` + `discipline.md`·随大V数据同目录·内聚。
+> **本 skill 只做"查询逻辑"**·大V特有的**路由表 / 稳定方法论 / 调用纪律**全部在 `gurus/<slug>/routes.md` + `discipline.md`·随大V数据同目录·内聚。
 
 ## 何时激活
 
@@ -25,7 +25,7 @@ description: |
 
 ## 已沉淀大V列表
 
-以 `knowledge/gurus/INDEX.md` 为花名册**唯一权威**（第一步必读）。当前已沉淀 ✓：
+以 `gurus/INDEX.md` 为花名册**唯一权威**（第一步必读）。当前已沉淀 ✓：
 
 - **`tangchao`**（老唐 / 唐朝）· 2016-2025 · 1137 篇 / 16000+ 页 · 有 `routes.md` + `discipline.md`
 - **`duanyongping`**（段永平 / 大道 / 阿段）· 2010-2020 · 《投资问答录·投资逻辑篇》426 页 · 有 `routes.md` + `discipline.md`
@@ -38,14 +38,14 @@ description: |
 
 ### Step 0 · 大V身份映射
 
-1. Read `knowledge/gurus/INDEX.md` 花名册·把用户输入的中文名/别名映射到目录 slug
+1. Read `gurus/INDEX.md` 花名册·把用户输入的中文名/别名映射到目录 slug
 2. INDEX 里查不到 → 该大V**未收录**·**不臆造目录**·告知用户
 3. 状态 = ⚪ 骨架 → 直接返"**该大V知识库尚未录入·无法基于已沉淀观点查询**"·**不硬答**（不拿模板/训练数据作答）
 4. 状态 = ✓ 已沉淀 → 进 Step 1
 
 ### Step 1 · 读大V特有的路由 + 纪律
 
-**必读两个数据文件**（在 `knowledge/gurus/<slug>/` 下）：
+**必读两个数据文件**（在 `gurus/<slug>/` 下）：
 
 1. Read `routes.md` —— 该大V的路由表 + 稳定方法论 + 知识库路径
 2. Read `discipline.md` —— 该大V的调用纪律 + 避坑清单 + 观点演化清单
@@ -113,8 +113,8 @@ description: |
 
 ## 关联
 
-- `knowledge/gurus/INDEX.md`：花名册·slug 映射唯一权威·第一步必读
-- `knowledge/gurus/<slug>/routes.md`：大V特有路由 + 稳定方法论
-- `knowledge/gurus/<slug>/discipline.md`：大V特有调用纪律 + 避坑
+- `gurus/INDEX.md`：花名册·slug 映射唯一权威·第一步必读
+- `gurus/<slug>/routes.md`：大V特有路由 + 稳定方法论
+- `gurus/<slug>/discipline.md`：大V特有调用纪律 + 避坑
 - 上游：`ingest-guru`（单篇归档）· `ingest-book`（整本 PDF 流水线）
 - ~~下游：`backtest-call`~~（已删除·待重新设计）

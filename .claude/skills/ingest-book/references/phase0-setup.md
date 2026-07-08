@@ -18,16 +18,16 @@
 
 ## 0.2 建立 / 更新 READING_STATE
 
-per-guru 仪表板：`knowledge/gurus/<昵称>/READING_STATE.md`
+per-guru 仪表板：`gurus/<昵称>/READING_STATE.md`
 
 - 已有 guru：在文件中新增 `## [阅读中] YYYY.pdf` block
-- 新 guru：从 `knowledge/gurus/tangchao/READING_STATE.md` 复制模板，改 5 行字段
+- 新 guru：从 `gurus/tangchao/READING_STATE.md` 复制模板，改 5 行字段
 
 每个 book block 必须有：源路径 / 总页数 / DRAFT 路径 / 进度 / 上批末 / 下批起 / 待读 hint / 分卷状态 / 拆下一份命令 / last_session。
 
 ## 0.3 创建 DRAFT.md
 
-路径：`knowledge/gurus/<昵称>/posts/YYYY-DRAFT.md`
+路径：`gurus/<昵称>/posts/YYYY-DRAFT.md`
 
 **精简 frontmatter 模板（12 行）**：
 
@@ -45,7 +45,7 @@ next_hint: "#1 第一篇"
 splits: part1(1-200) part2(201-400) ... / partN-M 待拆
 split_next_cmd: ~/.claude/bin/pdf-split /path/to/book.pdf 201 400 part2 (当 next_page 达 201 时)
 last_session: YYYY-MM-DD
-state_file: knowledge/gurus/<昵称>/READING_STATE.md
+state_file: gurus/<昵称>/READING_STATE.md
 ---
 ```
 

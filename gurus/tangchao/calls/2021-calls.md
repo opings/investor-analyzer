@@ -2,7 +2,7 @@
 guru: tangchao
 year: 2021
 period: 2021-01 至 2021-12 (完整一年)
-source: knowledge/gurus/tangchao/posts/2021-DRAFT.md
+source: gurus/tangchao/posts/2021-DRAFT.md
 compiled_at: 2026-06-02
 verification_note: 年末估值表 (#157) / 茅台 2022 提价预测 / 腾讯五大利空 + 三五年承诺 / 洋河 90 亿瞎蒙 / 上海机场变坏 / 海螺高估 / 恒大破产→房地产微调
 ---

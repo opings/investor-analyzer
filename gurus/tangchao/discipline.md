@@ -97,7 +97,7 @@
 
 ### Q："老唐怎么看比特币？"（grep 出处示范）
 
-1. grep `knowledge/gurus/tangchao/posts/` 找"比特币"
+1. grep `gurus/tangchao/posts/` 找"比特币"
 2. 2018 #126: "比特币 = 郁金香！"; 2021 #131: "**比特币 = 老鼠药的平方（100²=10000）**"（引用巴神原话）
 
 ---

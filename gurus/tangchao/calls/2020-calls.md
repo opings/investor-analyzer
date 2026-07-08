@@ -2,7 +2,7 @@
 guru: tangchao
 year: 2020
 period: 2020-01 至 2020-12 (完整一年 / 疫情元年)
-source: knowledge/gurus/tangchao/posts/2020-DRAFT.md
+source: gurus/tangchao/posts/2020-DRAFT.md
 compiled_at: 2026-06-02
 verification_note: 2021 估值表 (年末 #112) / 茅台 2020 净利 / 茅台 2021 净利 540±10 亿 / 60 魔咒预警 / 借故增持腾讯 / 上海机场+福寿园新观察仓
 ---

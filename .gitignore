@@ -30,3 +30,6 @@ finance/**/年报季报/
 
 # 每日新闻哨兵 launchd 运行日志（机器专属，非知识内容，不入库）
 report/daily/_logs/
+
+# 大V原始语料(各大V目录下的 _corpus),不入 git
+gurus/*/_corpus/

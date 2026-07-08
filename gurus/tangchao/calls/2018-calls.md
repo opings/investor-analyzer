@@ -2,7 +2,7 @@
 guru: tangchao
 year: 2018
 period: 2018-01 至 2018-12
-source: knowledge/gurus/tangchao/posts/2018-DRAFT.md 中老唐对个股/趋势的公开判断
+source: gurus/tangchao/posts/2018-DRAFT.md 中老唐对个股/趋势的公开判断
 compiled_at: 2026-05-28
 verification_note: 主要 2021 合理估值表已可回测 (老唐 2018-12-28 公开预测的 3 年估值已到期)
 ---
