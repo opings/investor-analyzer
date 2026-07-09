@@ -16,9 +16,10 @@ READING_STATE.md
 scripts/daily-news.sh
 scripts/com.investor.daily-news.plist
 
-# report/ 整个目录不入 git — 里面装各种源档(PDF/HTM/10-K.txt/公告 等)
-# 只入库蒸馏后的文本知识库(在 knowledge/ 下)
-report/
+# report/ = 一手源档柜(PDF/HTM/10-K.txt/公告 等) — 源档体积大(~1.7GB)不入 git
+# 只入库 report/README.md(放档约定) + 目录本身;用户把下载的年报按约定放进各 <公司>/ 子目录
+report/*
+!report/README.md
 
 # finance/<公司>/年报季报/ 下的年报季报源 PDF——只入库蒸馏后的 分析.md/.xlsx/财报关注要点.md
 finance/**/年报季报/
