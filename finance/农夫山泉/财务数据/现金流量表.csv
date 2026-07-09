@@ -1,63 +1,72 @@
-"# 单位: 人民币千元 (RMB'000), 流出/减项=负数, 来源: 一手年报 PDF"
-科目,2020,2021,2022,2023,2024,2025
-除税前溢利 Profit before tax,6986253,9354300,11050332,15688202,15787858,20917593
-物业厂房及设备折旧 Depreciation of PPE,1871177,2287083,2358940,2522236,2727727,3213368
-使用权资产折旧 Depreciation of right-of-use assets,41437,83123,119238,97774,135676,160179
-无形资产摊销 Amortisation of intangible assets,12834,7980,8747,11432,11298,19011
-FVTPL公平值收益 Fair value gains on FVTPL,,-4754,-2289,,-9438,-45354
-出售FVTPL金融资产收益 Gains on disposal of FVTPL,,,,,-50952,-125904
-出售物业厂房设备项目亏损 Loss on disposal of PPE,2361,9803,14456,5265,9737,18749
-出售无形资产项目亏损 Loss on disposal of intangibles,,,,199,,5
-出售衍生工具收益 Gain on disposal of derivative instruments,-3759,-7331,634,,,
-利息收入 Interest income,-147893,-330656,-623360,-991247,-866098,-579671
-贸易应收款项减值/(拨回) Impairment of trade receivables,2903,11401,-3434,4169,2429,4413
-存货减值 Impairment of inventories,,,16372,,,82784
-预付款项等减值/(拨回) Impairment of financial assets in prep,-960,-2654,-715,2158,2460,-2224
-出售附属公司收益 Gain on disposal of subsidiaries,-1621,,,,,
-损益确认的递延收益 Deferred income recognised in P&L,-45597,-23785,-25799,-20505,-24314,-30367
-财务费用 Finance costs (add back),78963,52945,76028,99735,91469,66899
-以股权结算的股份支付开支 Equity-settled SBC expenses,,,101793,25857,5516,76839
-外汇亏损/(收益) Foreign exchange loss/(gain),241604,115632,-386615,-46023,-75092,147298
-经营资本变动前现金流 OP profit before working capital changes,9037702,11553087,12704328,17399252,17748276,23923618
-存货增加 Increase in inventories,-78113,-3776,-315514,-983357,-1921318,-916212
-贸易应收款项(增加)/减少 (Inc)/dec in trade receivables,-118753,-130113,1123,-72603,-36780,-21192
-预付款项等(增加)/减少 (Inc)/dec in prepayments etc,104157,381622,-153,-177579,-530149,-164623
-贸易应付款项增加/(减少) Inc/(dec) in trade payables,163003,271333,271936,345029,-270701,154836
-其他应付款项增加/(减少) Inc/(dec) in other payables,457073,1063385,1124862,3178927,-152180,2033975
-合约负债增加/(减少) Inc/(dec) in contract liabilities,170384,103629,326238,907731,-19363,629002
-质押存款(增加)/减少 (Inc)/dec in pledged deposits,,-3648,589,382,,
-受限资金增加 Increase in restricted cash,,,,,-5000,-449
-衍生金融工具增加 Increase in derivative financial instruments,11090,,,,,
-经营所得现金 Cash generated from operations,9746543,13235519,14113409,20597782,14812785,25638955
-已付所得税 Income tax paid,-1386300,-2034681,-2308380,-3395627,-4041273,-4466550
-已收利息 Interest received,147893,252269,312530,202485,342220,29967
-已付利息 Interest paid,-78963,-52837,-76049,-99703,-91588,-60720
-经营活动所得现金流量净额 Net cash from operating,8429173,11400270,12041510,17304937,11022144,21141652
-购买物业厂房设备项目 Purchases of PPE,-2236039,-2462418,-4193347,-4714113,-6405992,-6481304
-购买FVTPL金融资产 Purchases of FVTPL,,-200000,,,-15613000,-53758000
-销售FVTPL金融资产所得 Proceeds from sale of FVTPL,,,207043,,14143952,47903342
-结构性存款到期赎回 Redemption of structured deposits,200000,,,,,
-出售PPE所得款项 Proceeds from disposal of PPE,74314,11890,79947,26528,40043,27271
-购买无形资产 Purchases of intangibles,-12030,-15199,-1720,-27776,-8633,-28353
-出售无形资产所得款项 Proceeds from disposal of intangibles,1152,,,,,
-购买使用权资产-土地 Purchases of land use rights,-31193,-10545,-156975,-120861,-46164,-286442
-收取政府补助 Receipt of government grants,64781,21063,52669,32146,40657,70285
->3月银行存款增加 Increase in bank deposits >3m,-3090361,-13105840,-14683027,-26873541,-21493307,-8119152
->3月银行存款提取(含利息) Withdrawal of bank deposits >3m,300000,10445298,9269084,17393803,24840847,9177938
-出售附属公司 Disposal of subsidiaries,72682,,,,,
-投资活动所用现金流量净额 Net cash used in investing,-4656694,-5315751,-9426326,-14283814,-4501597,-11494415
-已付股息 Dividends paid,-7979760,-1911899,-5059118,-7646313,-8434850,-8547314
-偿还计息借贷 Repayment of interest-bearing borrowings,-2850000,-2943957,-6563000,-13471835,-15739304,-16841182
-新计息借贷 New interest-bearing borrowings,4263957,3030000,6488006,14167329,16244237,17605749
-发行H股所得款项 Proceeds from issuance of H shares,8542860,,,,,
-支付发行开支 Payment of issue expenses,-228810,,,,,
-租赁付款本金部分 Principal portion of lease payments,-32443,-67603,-81677,-80981,-135183,-130463
-购回本公司股份 Repurchase of company shares,,,-225401,,,-221552
-受限股份单位计划授股款项 Proceeds from award of restricted shares,,,,,,76475
-出售没收受限制股份 Proceeds from disposal of forfeited shares,,,,9746,3324,
-员工股权激励计划授股款项 Proceeds from employee incentive scheme,,,71408,,,
-融资活动所得/(所用)现金流量净额 Net cash from/(used in) financing,1715804,-1893459,-5369782,-7022054,-8061776,-8058287
-现金及现金等价物增加/(减少)净额 Net inc/(dec) in cash,5488283,4191060,-2754598,-4000931,-1541229,1588950
-年初现金及现金等价物 Cash at beginning of year,783142,6055981,10187896,7821114,3875720,2416380
-外汇汇率变动的影响 Effect of foreign exchange rate changes,-215444,-59145,387816,55537,81889,-147581
-年末现金及现金等价物 Cash at end of year,6055981,10187896,7821114,3875720,2416380,3857749
+"# 单位: 人民币千元 (RMB'000), 流出/减项=负数, 来源: 招股书(2017-2019)+年报(2020-2025)"
+科目,2017,2018,2019,2020,2021,2022,2023,2024,2025
+除税前溢利 Profit before tax,4434970,4763238,6498760,6986253,9354300,11050332,15688202,15787858,20917593
+物业厂房及设备折旧 Depreciation of PPE,1103867,1326057,1663650,1871177,2287083,2358940,2522236,2727727,3213368
+使用权资产折旧 Depreciation of right-of-use assets,38096,52965,57753,41437,83123,119238,97774,135676,160179
+无形资产摊销 Amortisation of intangible assets,17821,15719,12170,12834,7980,8747,11432,11298,19011
+FVTPL公平值(收益)/亏损 Fair value (gains)/loss on FVTPL,-1779,14193,-35750,,-4754,-2289,,-9438,-45354
+出售FVTPL金融资产收益 Gains on disposal of FVTPL,,,,,,,,-50952,-125904
+出售物业厂房设备项目亏损/(收益) Loss/(gain) disposal of PPE,7343,7143,-35709,2361,9803,14456,5265,9737,18749
+出售使用权资产收益 Gain on disposal of ROU,,-1631,,,,,,,
+出售无形资产项目亏损 Loss on disposal of intangibles,,,,,,,199,,5
+出售衍生工具收益 Gain on disposal of derivative instruments,,,,-3759,-7331,634,,,
+利息收入 Interest income,-136760,-205513,-216933,-147893,-330656,-623360,-991247,-866098,-579671
+贸易应收款项减值/(拨回) Impairment of trade receivables,4550,1643,5254,2903,11401,-3434,4169,2429,4413
+存货减值 Impairment of inventories,,,,,,16372,,,82784
+预付款项等减值/(拨回) Impairment of financial assets in prep,-706,5594,-9872,-960,-2654,-715,2158,2460,-2224
+出售附属公司收益 Gain on disposal of subsidiaries,,,-1580,-1621,,,,,
+损益确认的递延收益 Deferred income recognised in P&L,-19566,-24184,-30299,-45597,-23785,-25799,-20505,-24314,-30367
+财务费用 Finance costs (add back),8381,4113,15525,78963,52945,76028,99735,91469,66899
+以股权结算的股份支付开支 Equity-settled SBC expenses,,,156894,,,101793,25857,5516,76839
+外汇亏损/(收益) Foreign exchange loss/(gain),,,,241604,115632,-386615,-46023,-75092,147298
+经营资本变动前现金流 OP profit before working capital changes,5456217,5959337,8079863,9037702,11553087,12704328,17399252,17748276,23923618
+存货增加 Increase in inventories,-339659,-463514,136590,-78113,-3776,-315514,-983357,-1921318,-916212
+贸易应收款项(增加)/减少 (Inc)/dec in trade receivables,-75717,-30185,-92480,-118753,-130113,1123,-72603,-36780,-21192
+预付款项等(增加)/减少 (Inc)/dec in prepayments etc,-206885,-574071,98485,104157,381622,-153,-177579,-530149,-164623
+FVTPL金融资产减少/(增加)(营运) Dec/(inc) in FVTPL (operating),16929,-187216,213188,,,,,,
+贸易应付款项增加/(减少) Inc/(dec) in trade payables,-81398,16285,-43055,163003,271333,271936,345029,-270701,154836
+其他应付款项增加/(减少) Inc/(dec) in other payables,530575,442995,246501,457073,1063385,1124862,3178927,-152180,2033975
+合约负债增加/(减少) Inc/(dec) in contract liabilities,141380,417553,81979,170384,103629,326238,907731,-19363,629002
+质押存款(增加)/减少 (Inc)/dec in pledged deposits,38817,43325,5634,,-3648,589,382,,
+受限资金增加 Increase in restricted cash,,,,,,,,-5000,-449
+衍生金融工具增加 Increase in derivative financial instruments,,,,11090,,,,,
+经营所得现金 Cash generated from operations,5480259,5624509,8726705,9746543,13235519,14113409,20597782,14812785,25638955
+已付所得税 Income tax paid,-868741,-1175891,-1511211,-1386300,-2034681,-2308380,-3395627,-4041273,-4466550
+已收利息 Interest received,95438,185287,271870,147893,252269,312530,202485,342220,29967
+已付利息 Interest paid,-9556,-4179,-15525,-78963,-52837,-76049,-99703,-91588,-60720
+经营活动所得现金流量净额 Net cash from operating,4697400,4629726,7471839,8429173,11400270,12041510,17304937,11022144,21141652
+购买物业厂房设备项目 Purchases of PPE,-2272876,-3336910,-3230597,-2236039,-2462418,-4193347,-4714113,-6405992,-6481304
+购买FVTPL金融资产 Purchases of FVTPL,,,,,-200000,,,-15613000,-53758000
+销售FVTPL金融资产所得 Proceeds from sale of FVTPL,,,,,,207043,,14143952,47903342
+结构性存款增加 Increase in structured deposits,-4240000,-6100000,-5700000,,,,,,
+结构性存款到期赎回 Redemption of structured deposits,3425000,4535000,9100000,200000,,,,,
+出售PPE所得款项 Proceeds from disposal of PPE,31831,43467,375243,74314,11890,79947,26528,40043,27271
+购买无形资产 Purchases of intangibles,-11070,-43881,-8628,-12030,-15199,-1720,-27776,-8633,-28353
+出售无形资产所得款项 Proceeds from disposal of intangibles,406,523,184,1152,,,,,
+购买使用权资产-土地 Purchases of land use rights,-88203,-70765,-73833,-31193,-10545,-156975,-120861,-46164,-286442
+出售使用权资产所得款项 Proceeds from disposal of ROU,6790,3781,,,,,,,
+收取政府补助 Receipt of government grants,101890,3945,69460,64781,21063,52669,32146,40657,70285
+>3月银行存款增加 Increase in bank deposits >3m,-2200000,-1000000,-3200000,-3090361,-13105840,-14683027,-26873541,-21493307,-8119152
+>3月银行存款提取(含利息) Withdrawal of bank deposits >3m,600000,2300000,3300000,300000,10445298,9269084,17393803,24840847,9177938
+收购一家附属公司 Acquisition of a subsidiary,,-9234,,,,,,,
+出售附属公司 Disposal of subsidiaries,,,11203,72682,,,,,
+投资活动所用现金流量净额 Net cash used in investing,-4646232,-3674074,643032,-4656694,-5315751,-9426326,-14283814,-4501597,-11494415
+已付股息 Dividends paid,-367200,-367200,-9597600,-7979760,-1911899,-5059118,-7646313,-8434850,-8547314
+向非控股股东派付股息 Dividends to NCI,,,-20000,,,,,,
+偿还计息借贷 Repayment of interest-bearing borrowings,-104500,-50000,,-2850000,-2943957,-6563000,-13471835,-15739304,-16841182
+新计息借贷 New interest-bearing borrowings,50000,,1000000,4263957,3030000,6488006,14167329,16244237,17605749
+发行H股所得款项 Proceeds from issuance of H shares,,,,8542860,,,,,
+支付发行开支 Payment of issue expenses,,,,-228810,,,,,
+租赁付款本金部分 Principal portion of lease payments,-22461,-44529,-49817,-32443,-67603,-81677,-80981,-135183,-130463
+一名股东注资 Capital injection by a shareholder,,100000,,,,,,,
+视作向一名股东作出的分派 Deemed distribution to a shareholder,,-95000,,,,,,,
+收购非控股权益 Acquisition of NCI,,,-29385,,,,,,
+购回本公司股份 Repurchase of company shares,,,,,,-225401,,,-221552
+受限股份单位计划授股款项 Proceeds from award of restricted shares,,,,,,,,,76475
+出售没收受限制股份 Proceeds from disposal of forfeited shares,,,,,,,9746,3324,
+员工股权激励计划授股款项 Proceeds from employee incentive scheme,,,,,,71408,,,
+融资活动所得/(所用)现金流量净额 Net cash from/(used in) financing,-444161,-456729,-8696802,1715804,-1893459,-5369782,-7022054,-8061776,-8058287
+现金及现金等价物增加/(减少)净额 Net inc/(dec) in cash,-392993,498923,-581931,5488283,4191060,-2754598,-4000931,-1541229,1588950
+年初现金及现金等价物 Cash at beginning of year,1256547,862883,1363664,783142,6055981,10187896,7821114,3875720,2416380
+外汇汇率变动的影响 Effect of foreign exchange rate changes,-671,1858,1409,-215444,-59145,387816,55537,81889,-147581
+年末现金及现金等价物 Cash at end of year,862883,1363664,783142,6055981,10187896,7821114,3875720,2416380,3857749
