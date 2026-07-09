@@ -335,17 +335,42 @@ def verify():
 # ====== 派生比率 ======
 def build_ratios():
     rev = find(利润表, "收益 Revenue")
+    cos = find(利润表, "销售成本")  # 负数
     gp = find(利润表, "毛利")
     snd = find(利润表, "销售及分销开支")
     adm = find(利润表, "行政开支")
     npr = find(利润表, "年内溢利")
+    parent = find(利润表, "母公司拥有人应占溢利")
+    pbt = find(利润表, "除税前溢利")
+    tax = find(利润表, "所得税开支")  # 负数
     eq = find(资产负债表, "权益总额")
     ar = find(资产负债表, "贸易应收款项及应收票据")
     inv = find(资产负债表, "存货")
+    ap = find(资产负债表, "贸易应付款项及应付票据")
+    prepay = find(资产负债表, "预付款项")
+    ppe = find(资产负债表, "物业、厂房及设备")
     ocf = find(现金流量表, "经营活动所得现金流量净额")
     capex = find(现金流量表, "购买物业厂房设备项目")  # 负数, 取绝对值算比率
+    div_paid = find(现金流量表, "已付股息")  # 负数
+    # 扣非(估)用: 投资类非经常 CF addback(负=收益, 剔除以估扣非)
+    nr = [find(现金流量表, k) for k in ["FVTPL公平值", "出售FVTPL金融资产收益", "出售附属公司收益", "出售物业厂房设备项目"]]
+
+    # 总资产 & 现金及金融资产类(招股书 2017-2019 口径 + 年报 2020-2025 口径并集, None→0)
+    ta = [find(资产负债表, "非流动资产总额")[i] + find(资产负债表, "流动资产总额")[i] for i in range(N)]
+    cash_keys = ["长期银行存款", "现金及银行结余", "FVTPL金融资产(流动)", "受限资金/质押存款(流动)",
+                 "质押存款(非流动)", "结构性存款(流动", "现金及现金等价物(招股书"]
+    cashfin = [sum((find(资产负债表, k)[i] or 0) for k in cash_keys) for i in range(N)]
+
+    def avg(arr, i):  # 期初期末均值; 首年用期末
+        return arr[i] if i == 0 else (arr[i] + arr[i-1]) / 2
+
+    def adj_ni(i):  # 扣非归母(估) = 归母 + (1-有效税率)×Σ(投资类非经常 CF addback); 农夫无标准扣非线
+        trate = safe_div(-tax[i], pbt[i]) or 0
+        s = sum(x[i] for x in nr if x[i] is not None)
+        return parent[i] + (1 - trate) * s
 
     rows = [
+        # 基础
         ("毛利率 Gross margin",                              [safe_div(gp[i], rev[i]) for i in range(N)]),
         ("净利率 Net margin",                                [safe_div(npr[i], rev[i]) for i in range(N)]),
         ("销售费用率 S&D expense ratio",                     [safe_div(-snd[i], rev[i]) for i in range(N)]),
@@ -357,9 +382,21 @@ def build_ratios():
         ("应收/营收 AR/Revenue",                             [safe_div(ar[i], rev[i]) for i in range(N)]),
         ("存货/营收 Inventory/Revenue",                      [safe_div(inv[i], rev[i]) for i in range(N)]),
         ("资产负债率 Liabilities/Total assets",              [safe_div(
-            find(资产负债表, "流动负债总额")[i] + find(资产负债表, "非流动负债总额")[i],
-            find(资产负债表, "非流动资产总额")[i] + find(资产负债表, "流动资产总额")[i]
-        ) for i in range(N)]),
+            find(资产负债表, "流动负债总额")[i] + find(资产负债表, "非流动负债总额")[i], ta[i]) for i in range(N)]),
+        # 利润链纵深(leak; 差额越小=利润越干净)
+        ("归母/净利 Parent/Net profit",                      [safe_div(parent[i], npr[i]) for i in range(N)]),
+        ("扣非净利率(估·剔投资类非经常) Adj net margin est",  [safe_div(adj_ni(i), rev[i]) for i in range(N)]),
+        # 周转效率(天·期初期末均值; 首年期末)
+        ("应收账款周转天数 AR turnover days",                [safe_div(365 * avg(ar, i), rev[i]) for i in range(N)]),
+        ("存货周转天数 Inventory turnover days",             [safe_div(365 * avg(inv, i), -cos[i]) for i in range(N)]),
+        ("应付账款周转天数 AP turnover days",                [safe_div(365 * avg(ap, i), -cos[i]) for i in range(N)]),
+        # 资产结构画像(占总资产%·判轻/重资产)
+        ("现金及金融资产/总资产 Cash&financial/TA",          [safe_div(cashfin[i], ta[i]) for i in range(N)]),
+        ("固定资产PPE/总资产 PPE/TA",                        [safe_div(ppe[i], ta[i]) for i in range(N)]),
+        ("存货/总资产 Inventory/TA",                         [safe_div(inv[i], ta[i]) for i in range(N)]),
+        ("(应收+预付)/总资产 Receivables&prepay/TA",         [safe_div(ar[i] + prepay[i], ta[i]) for i in range(N)]),
+        # 股东回报画像
+        ("当年分红率 Payout ratio(已付股息/归母)",           [safe_div(-div_paid[i], parent[i]) for i in range(N)]),
     ]
     return rows
 
