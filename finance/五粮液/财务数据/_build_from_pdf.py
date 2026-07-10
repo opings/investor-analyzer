@@ -431,6 +431,36 @@ def build_ratios():
         分红率.append(_pct(-分红, 归母) if 分红 is not None else None)
     ratios.append(("当年现金分红/归母(%·含少数股东部分)", 分红率))
 
+    # ── 通用底补漏 ← scripts/derived.py（追加本公司尚无的通用比率·单一逻辑·跨公司复用·不改上面已核验的定制行）
+    # 本文件比率存百分数(×100)、天数存原值 → 按 derived 的 fmt 把分数换算成本文件口径
+    import sys
+    scripts_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(OUT))), "scripts")
+    if scripts_dir not in sys.path:
+        sys.path.insert(0, scripts_dir)
+    import derived
+    common, _ = derived.compute_common_ratios(dict(利润表), dict(资产负债表), dict(现金流量表))
+    cd = {name: (vals, fmt) for name, vals, fmt in common}
+
+    def _conv(vals, fmt):
+        if fmt == "pct":
+            return [round(v * 100, 2) if v is not None else None for v in vals]
+        if fmt == "day":
+            return [round(v, 1) if v is not None else None for v in vals]
+        return [round(v, 2) if v is not None else None for v in vals]
+
+    for src, out_label in [
+        ("ROE(年均) Return on avg equity", "ROE(归母÷年均归母权益, %)"),
+        ("归母/净利 Parent/Net profit", "归母/净利(%·少数股东leak)"),
+        ("应付账款周转天数 AP turnover days", "应付账款周转天数"),
+        ("现金及金融资产/总资产 Cash&financial/TA", "现金及金融资产/总资产(%)"),
+        ("固定资产PPE/总资产 PPE/TA", "固定资产/总资产(%)"),
+        ("存货/总资产 Inventory/TA", "存货/总资产(%)"),
+        ("(应收+预付)/总资产 Receivables&prepay/TA", "(应收+预付)/总资产(%)"),
+    ]:
+        if src in cd:
+            vals, fmt = cd[src]
+            ratios.append((out_label, _conv(vals, fmt)))
+
     return ratios
 
 

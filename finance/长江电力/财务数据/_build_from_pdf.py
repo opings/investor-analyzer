@@ -192,6 +192,33 @@ def build_ratios():
     R.append(rr("长期股权投资/总资产(%)", lambda i: pct(g(资产负债表, "长期股权投资", i), g(资产负债表, "资产总计", i))))
     R.append(rr("应收账款/营收(%)", lambda i: pct(g(资产负债表, "应收账款", i), g(利润表, "营业收入", i))))
     R.append(rr("分配股利利润偿息/归母(%·含息近似分红率)", lambda i: pct(-(g(现金流量表, "分配股利、利润或偿付利息支付的现金", i) or 0), g(利润表, "归属于母公司股东的净利润", i))))
+
+    # ── 通用底补漏 ← scripts/derived.py（追加本公司尚无的通用比率·单一逻辑·跨公司复用·不改上面已核验的定制行）
+    # 本文件比率存百分数(×100)、天数存原值 → 按 derived 的 fmt 把分数换算成本文件口径。水电无存货/销售费用→不追加(避免噪声)
+    import sys
+    scripts_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(OUT))), "scripts")
+    if scripts_dir not in sys.path:
+        sys.path.insert(0, scripts_dir)
+    import derived
+    common, _ = derived.compute_common_ratios(dict(利润表), dict(资产负债表), dict(现金流量表))
+    cd = {name: (vals, fmt) for name, vals, fmt in common}
+
+    def _conv(vals, fmt):
+        if fmt == "pct":
+            return [round(v * 100, 2) if v is not None else None for v in vals]
+        if fmt == "day":
+            return [round(v, 1) if v is not None else None for v in vals]
+        return [round(v, 2) if v is not None else None for v in vals]
+
+    for src, out_label in [
+        ("ROE(年均) Return on avg equity", "ROE(归母÷年均归母权益,%)"),
+        ("现金及金融资产/总资产 Cash&financial/TA", "现金及金融资产/总资产(%)"),
+        ("(应收+预付)/总资产 Receivables&prepay/TA", "(应收+预付)/总资产(%)"),
+    ]:
+        if src in cd:
+            vals, fmt = cd[src]
+            R.append((out_label, _conv(vals, fmt)))
+
     return R
 
 

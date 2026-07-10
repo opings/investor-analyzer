@@ -411,6 +411,28 @@ def build_ratios():
         ("合同负债/营业收入 (蓄水池占比)",          [safe_div(cl[i], rev[i]) for i in range(n)]),
         ("资产负债率 总负债/总资产",                [safe_div(tl[i], ta[i]) for i in range(n)]),
     ]
+
+    # ── 通用底补漏 ← scripts/derived.py（追加本公司尚无的通用比率·单一逻辑·跨公司复用·不改上面已核验的定制行）
+    import sys
+    scripts_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(OUT))), "scripts")
+    if scripts_dir not in sys.path:
+        sys.path.insert(0, scripts_dir)
+    import derived
+    common, _ = derived.compute_common_ratios(dict(利润表), dict(资产负债表), dict(现金流量表))
+    cd = {name: vals for name, vals, _fmt in common}
+    for nm in [
+        "归母/净利 Parent/Net profit",
+        "应收账款周转天数 AR turnover days",
+        "存货周转天数 Inventory turnover days",
+        "应付账款周转天数 AP turnover days",
+        "现金及金融资产/总资产 Cash&financial/TA",
+        "固定资产PPE/总资产 PPE/TA",
+        "存货/总资产 Inventory/TA",
+        "(应收+预付)/总资产 Receivables&prepay/TA",
+        "当年分红率 Payout ratio",
+    ]:
+        if nm in cd:
+            rows.append((nm, cd[nm]))
     return rows
 
 

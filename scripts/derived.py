@@ -101,6 +101,11 @@ def compute_common_ratios(PL, BS, CF):
     返回 (rows, unmatched):
       rows = [(名, [每期值 float|None], fmt)]; fmt ∈ pct/day/x/na（供 CLI 显示; 写 CSV 时取 [:2]）。
     """
+    # 归一化科目名(strip)——与 load_table 一致; 各公司 build 传 dict(利润表) 时科目常带层级缩进
+    # (如茅台"  营业收入"), 不 strip 则前缀匹配失效(CSV 路径 load_table 已 strip, 故只 in-memory 踩坑)
+    PL = {k.strip(): v for k, v in PL.items()}
+    BS = {k.strip(): v for k, v in BS.items()}
+    CF = {k.strip(): v for k, v in CF.items()}
     unmatched = []
     N = len(next(iter(PL.values()))) if PL else 0
 
