@@ -30,6 +30,7 @@
 | 美团 | 03690 | 美团-W / Meituan / 3690 |
 | 三环集团 | 300408 | 三环 / CCTC |
 | 长江电力 | 600900 | 长电 / 三峡 / 中国长江电力 |
+| google | GOOGL | Alphabet / 谷歌 / GOOG / 字母表 / Google Inc(旧主体) |
 
 ## 约定
 
