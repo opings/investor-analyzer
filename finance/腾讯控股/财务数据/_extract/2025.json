@@ -1,0 +1,242 @@
+{
+  "meta": {
+    "company": "Tencent Holdings Limited 騰訊控股有限公司 (HKD counter 700 / RMB counter 80700)",
+    "report": "2025 Annual Report, year ended 31 December 2025; consolidated financial statements approved by the Board on 18 March 2026; auditor PricewaterhouseCoopers",
+    "source_pdf": "/Users/zhaoyongzhen/workspace/ai-tool/investor-analyzer/report/腾讯控股/2025.pdf (282 PDF pages; printed page = PDF page - 1)",
+    "unit": "RMB'Million(人民幣百萬元),每股盈利除外(人民幣元/股)",
+    "language_note": "本 PDF 為英文版年報(非繁體中文版,頁面文本清晰非亂碼)。rows.item 為印刷原文(英文,逐行照錄);item_zh 為對照譯名(參照騰訊官方中文報告慣用語添加,便於建庫匹配,**非本 PDF 印刷文字**)。",
+    "conventions": [
+      "cy = 2025 年度/年末;py = 2024 年度/年末(比較列)",
+      "印刷括號 = 負數,已轉負號",
+      "印刷「–」記 0(如 Share capital、2024 年發行應付票據)",
+      "行順序 = 印刷順序;section 字段標注報表分節",
+      "每股盈利行單位為 RMB 元/股,非百萬元"
+    ],
+    "restatement_notes": "未見任何 restated/重列標記;2024 比較列與本年報 Financial Summary 五年表(printed p3)及 2024 年報口徑一致,無重述。"
+  },
+  "income_statement": {
+    "statement_title": "Consolidated Income Statement(綜合收益表)",
+    "pages_printed": "129",
+    "pages_pdf": "130",
+    "rows": [
+      {"item": "Revenues – Value-added Services", "item_zh": "收入 – 增值服務", "cy": 369281, "py": 319168},
+      {"item": "Revenues – Marketing Services", "item_zh": "收入 – 營銷服務", "cy": 144973, "py": 121374},
+      {"item": "Revenues – FinTech and Business Services", "item_zh": "收入 – 金融科技及企業服務", "cy": 229435, "py": 211956},
+      {"item": "Revenues – Others", "item_zh": "收入 – 其他", "cy": 8077, "py": 7759},
+      {"item": "Revenues (total) [Note 6]", "item_zh": "收入合計(印刷為無標籤合計行)", "cy": 751766, "py": 660257},
+      {"item": "Cost of revenues [Note 7]", "item_zh": "收入成本", "cy": -329173, "py": -311011},
+      {"item": "Gross profit", "item_zh": "毛利", "cy": 422593, "py": 349246},
+      {"item": "Selling and marketing expenses [Note 7]", "item_zh": "銷售及市場推廣開支", "cy": -41727, "py": -36388},
+      {"item": "General and administrative expenses [Note 7]", "item_zh": "一般及行政開支", "cy": -136127, "py": -112761},
+      {"item": "Other gains/(losses), net [Note 8]", "item_zh": "其他收益/(虧損)淨額", "cy": -3177, "py": 8002},
+      {"item": "Operating profit", "item_zh": "經營盈利", "cy": 241562, "py": 208099},
+      {"item": "Net gains/(losses) from investments and others [Note 9]", "item_zh": "投資及其他收益/(虧損)淨額", "cy": 10168, "py": 4187},
+      {"item": "Interest income [Note 10]", "item_zh": "利息收入", "cy": 16909, "py": 16004},
+      {"item": "Finance costs [Note 11]", "item_zh": "財務成本", "cy": -15130, "py": -11981},
+      {"item": "Share of profit/(loss) of associates and joint ventures, net", "item_zh": "分佔聯營公司及合營公司盈利/(虧損)淨額", "cy": 23740, "py": 25176},
+      {"item": "Profit before income tax", "item_zh": "除稅前盈利", "cy": 277249, "py": 241485},
+      {"item": "Income tax expense [Note 12(a)]", "item_zh": "所得稅開支", "cy": -47448, "py": -45018},
+      {"item": "Profit for the year", "item_zh": "年度盈利", "cy": 229801, "py": 196467},
+      {"item": "Attributable to: Equity holders of the Company", "item_zh": "應佔:本公司權益持有人", "cy": 224842, "py": 194073},
+      {"item": "Attributable to: Non-controlling interests", "item_zh": "應佔:非控制性權益", "cy": 4959, "py": 2394},
+      {"item": "Attributable to (total)", "item_zh": "應佔合計(印刷為無標籤合計行)", "cy": 229801, "py": 196467},
+      {"item": "Earnings per share – basic (RMB per share) [Note 13(a)]", "item_zh": "每股盈利 – 基本(人民幣元/股)", "cy": 24.749, "py": 20.938, "note": "單位為元/股,非百萬元"},
+      {"item": "Earnings per share – diluted (RMB per share) [Note 13(b)]", "item_zh": "每股盈利 – 攤薄(人民幣元/股)", "cy": 24.153, "py": 20.486, "note": "單位為元/股,非百萬元"}
+    ]
+  },
+  "comprehensive_income": {
+    "statement_title": "Consolidated Statement of Comprehensive Income(綜合全面收益表)",
+    "pages_printed": "130",
+    "pages_pdf": "131",
+    "rows": [
+      {"item": "Profit for the year", "item_zh": "年度盈利", "cy": 229801, "py": 196467},
+      {"section": "Other comprehensive income, net of tax: Items that may be subsequently reclassified to profit or loss", "item": "Share of other comprehensive income of associates and joint ventures", "item_zh": "分佔聯營公司及合營公司其他全面收益(可能重分類)", "cy": -217, "py": -492},
+      {"section": "may be reclassified", "item": "Transfer of share of other comprehensive income to profit or loss upon disposal and deemed disposal of associates and joint ventures", "item_zh": "出售及視同出售聯營公司及合營公司時轉入損益的分佔其他全面收益", "cy": -96, "py": -13},
+      {"section": "may be reclassified", "item": "Net gains from changes in fair value of financial assets at fair value through other comprehensive income", "item_zh": "以公允價值計量且其變動計入其他全面收益的金融資產公允價值變動收益淨額(可能重分類)", "cy": 6, "py": 23},
+      {"section": "may be reclassified", "item": "Transfer to profit or loss upon disposal of financial assets at fair value through other comprehensive income", "item_zh": "出售以公允價值計量且其變動計入其他全面收益的金融資產時轉入損益", "cy": -9, "py": 1},
+      {"section": "may be reclassified", "item": "Currency translation differences", "item_zh": "貨幣匯兌差額(可能重分類)", "cy": -6060, "py": -2746},
+      {"section": "may be reclassified", "item": "Net movement in reserves for hedges", "item_zh": "對沖儲備淨變動(可能重分類)", "cy": -177, "py": -2618},
+      {"section": "Items that will not be subsequently reclassified to profit or loss", "item": "Share of other comprehensive income of associates and joint ventures", "item_zh": "分佔聯營公司及合營公司其他全面收益(不會重分類)", "cy": 477, "py": -711},
+      {"section": "will not be reclassified", "item": "Net gains from changes in fair value of financial assets at fair value through other comprehensive income", "item_zh": "以公允價值計量且其變動計入其他全面收益的金融資產公允價值變動收益淨額(不會重分類)", "cy": 53734, "py": 94249},
+      {"section": "will not be reclassified", "item": "Currency translation differences", "item_zh": "貨幣匯兌差額(不會重分類)", "cy": -2042, "py": 111},
+      {"section": "will not be reclassified", "item": "Net movement in reserves for hedges", "item_zh": "對沖儲備淨變動(不會重分類)", "cy": -66, "py": 71},
+      {"item": "Other comprehensive income, net of tax (subtotal)", "item_zh": "其他全面收益(除稅後)小計(印刷為無標籤合計行)", "cy": 45550, "py": 87875},
+      {"item": "Total comprehensive income for the year", "item_zh": "年度全面收益總額", "cy": 275351, "py": 284342},
+      {"item": "Attributable to: Equity holders of the Company", "item_zh": "應佔:本公司權益持有人", "cy": 267794, "py": 279009},
+      {"item": "Attributable to: Non-controlling interests", "item_zh": "應佔:非控制性權益", "cy": 7557, "py": 5333},
+      {"item": "Attributable to (total)", "item_zh": "應佔合計(印刷為無標籤合計行)", "cy": 275351, "py": 284342}
+    ]
+  },
+  "balance_sheet": {
+    "statement_title": "Consolidated Statement of Financial Position(綜合財務狀況表), As at 31 December",
+    "pages_printed": "131-133",
+    "pages_pdf": "132-134",
+    "rows": [
+      {"section": "ASSETS – Non-current assets", "item": "Property, plant and equipment [Note 17]", "item_zh": "物業、設備及器材", "cy": 149905, "py": 80185},
+      {"section": "ASSETS – Non-current assets", "item": "Land use rights [Note 18]", "item_zh": "土地使用權", "cy": 22339, "py": 23117},
+      {"section": "ASSETS – Non-current assets", "item": "Right-of-use assets [Note 19]", "item_zh": "使用權資產", "cy": 17367, "py": 17679},
+      {"section": "ASSETS – Non-current assets", "item": "Construction in progress [Note 20]", "item_zh": "在建工程", "cy": 9670, "py": 12302},
+      {"section": "ASSETS – Non-current assets", "item": "Investment properties", "item_zh": "投資物業", "cy": 950, "py": 801},
+      {"section": "ASSETS – Non-current assets", "item": "Intangible assets [Note 21]", "item_zh": "無形資產", "cy": 205999, "py": 196127},
+      {"section": "ASSETS – Non-current assets", "item": "Investments in associates [Note 22]", "item_zh": "於聯營公司的投資", "cy": 342409, "py": 290343},
+      {"section": "ASSETS – Non-current assets", "item": "Investments in joint ventures [Note 23]", "item_zh": "於合營公司的投資", "cy": 6303, "py": 7072},
+      {"section": "ASSETS – Non-current assets", "item": "Financial assets at fair value through profit or loss [Note 25]", "item_zh": "以公允價值計量且其變動計入損益的金融資產(非流動)", "cy": 207157, "py": 204999},
+      {"section": "ASSETS – Non-current assets", "item": "Financial assets at fair value through other comprehensive income [Note 26]", "item_zh": "以公允價值計量且其變動計入其他全面收益的金融資產(非流動)", "cy": 356640, "py": 302360},
+      {"section": "ASSETS – Non-current assets", "item": "Prepayments, deposits and other assets [Note 27]", "item_zh": "預付款項、按金及其他資產(非流動)", "cy": 24540, "py": 42828},
+      {"section": "ASSETS – Non-current assets", "item": "Other financial assets [Note 28]", "item_zh": "其他金融資產(非流動)", "cy": 1327, "py": 1076},
+      {"section": "ASSETS – Non-current assets", "item": "Deferred income tax assets [Note 29]", "item_zh": "遞延所得稅資產", "cy": 28618, "py": 28325},
+      {"section": "ASSETS – Non-current assets", "item": "Term deposits [Note 30]", "item_zh": "定期存款(非流動)", "cy": 70302, "py": 77601},
+      {"section": "ASSETS – Non-current assets", "item": "Non-current assets (subtotal)", "item_zh": "非流動資產合計(印刷為無標籤合計行)", "cy": 1443526, "py": 1284815},
+      {"section": "ASSETS – Current assets", "item": "Inventories", "item_zh": "存貨", "cy": 530, "py": 440},
+      {"section": "ASSETS – Current assets", "item": "Accounts receivable [Note 31]", "item_zh": "應收賬款", "cy": 49930, "py": 48203},
+      {"section": "ASSETS – Current assets", "item": "Prepayments, deposits and other assets [Note 27]", "item_zh": "預付款項、按金及其他資產(流動)", "cy": 111270, "py": 101044},
+      {"section": "ASSETS – Current assets", "item": "Other financial assets [Note 28]", "item_zh": "其他金融資產(流動)", "cy": 4201, "py": 4750},
+      {"section": "ASSETS – Current assets", "item": "Financial assets at fair value through profit or loss [Note 25]", "item_zh": "以公允價值計量且其變動計入損益的金融資產(流動)", "cy": 35929, "py": 9568},
+      {"section": "ASSETS – Current assets", "item": "Financial assets at fair value through other comprehensive income [Note 26]", "item_zh": "以公允價值計量且其變動計入其他全面收益的金融資產(流動)", "cy": 8781, "py": 3345},
+      {"section": "ASSETS – Current assets", "item": "Term deposits [Note 30]", "item_zh": "定期存款(流動)", "cy": 236801, "py": 192977},
+      {"section": "ASSETS – Current assets", "item": "Restricted cash [Note 32]", "item_zh": "受限制現金", "cy": 6977, "py": 3334},
+      {"section": "ASSETS – Current assets", "item": "Cash and cash equivalents [Note 32]", "item_zh": "現金及現金等價物", "cy": 141041, "py": 132519},
+      {"section": "ASSETS – Current assets", "item": "Current assets (subtotal)", "item_zh": "流動資產合計(印刷為無標籤合計行)", "cy": 595460, "py": 496180},
+      {"section": "ASSETS", "item": "Total assets", "item_zh": "資產總額", "cy": 2038986, "py": 1780995},
+      {"section": "EQUITY – Equity attributable to equity holders of the Company", "item": "Share capital [Note 33]", "item_zh": "股本", "cy": 0, "py": 0, "note": "印刷為「–」(騰訊股本面值極小,四捨五入至百萬元為零)"},
+      {"section": "EQUITY – Equity attributable to equity holders of the Company", "item": "Share premium [Note 33]", "item_zh": "股份溢價", "cy": 63796, "py": 43079},
+      {"section": "EQUITY – Equity attributable to equity holders of the Company", "item": "Treasury shares [Note 33]", "item_zh": "庫存股份", "cy": -3450, "py": -3597},
+      {"section": "EQUITY – Equity attributable to equity holders of the Company", "item": "Shares held for share award schemes [Note 33]", "item_zh": "為股份獎勵計劃持有的股份", "cy": -7124, "py": -5093},
+      {"section": "EQUITY – Equity attributable to equity holders of the Company", "item": "Other reserves [Note 34]", "item_zh": "其他儲備", "cy": 90494, "py": 47129},
+      {"section": "EQUITY – Equity attributable to equity holders of the Company", "item": "Retained earnings", "item_zh": "保留盈利", "cy": 1010436, "py": 892030},
+      {"section": "EQUITY", "item": "Equity attributable to equity holders of the Company (subtotal)", "item_zh": "本公司權益持有人應佔權益合計(印刷為無標籤合計行)", "cy": 1154152, "py": 973548},
+      {"section": "EQUITY", "item": "Non-controlling interests", "item_zh": "非控制性權益", "cy": 86913, "py": 80348},
+      {"section": "EQUITY", "item": "Total equity", "item_zh": "權益總額", "cy": 1241065, "py": 1053896},
+      {"section": "LIABILITIES – Non-current liabilities", "item": "Borrowings [Note 36]", "item_zh": "借款(非流動)", "cy": 208369, "py": 146521},
+      {"section": "LIABILITIES – Non-current liabilities", "item": "Notes payable [Note 37]", "item_zh": "應付票據(非流動)", "cy": 126204, "py": 130586},
+      {"section": "LIABILITIES – Non-current liabilities", "item": "Long-term payables [Note 38]", "item_zh": "長期應付款項", "cy": 10544, "py": 10201},
+      {"section": "LIABILITIES – Non-current liabilities", "item": "Other financial liabilities [Note 39]", "item_zh": "其他金融負債(非流動)", "cy": 2879, "py": 4203},
+      {"section": "LIABILITIES – Non-current liabilities", "item": "Deferred income tax liabilities [Note 29]", "item_zh": "遞延所得稅負債", "cy": 21684, "py": 18546},
+      {"section": "LIABILITIES – Non-current liabilities", "item": "Lease liabilities", "item_zh": "租賃負債(非流動)", "cy": 13280, "py": 13897},
+      {"section": "LIABILITIES – Non-current liabilities", "item": "Deferred revenue [Note 6(c)(i)]", "item_zh": "遞延收入(非流動)", "cy": 2210, "py": 6236},
+      {"section": "LIABILITIES – Non-current liabilities", "item": "Non-current liabilities (subtotal)", "item_zh": "非流動負債合計(印刷為無標籤合計行)", "cy": 385170, "py": 330190},
+      {"section": "LIABILITIES – Current liabilities", "item": "Accounts payable [Note 40]", "item_zh": "應付賬款", "cy": 121127, "py": 118712},
+      {"section": "LIABILITIES – Current liabilities", "item": "Other payables and accruals [Note 41]", "item_zh": "其他應付款項及預提費用", "cy": 96496, "py": 84032},
+      {"section": "LIABILITIES – Current liabilities", "item": "Borrowings [Note 36]", "item_zh": "借款(流動)", "cy": 42618, "py": 52885},
+      {"section": "LIABILITIES – Current liabilities", "item": "Notes payable [Note 37]", "item_zh": "應付票據(流動)", "cy": 10542, "py": 8623},
+      {"section": "LIABILITIES – Current liabilities", "item": "Current income tax liabilities", "item_zh": "流動所得稅負債", "cy": 18558, "py": 16586},
+      {"section": "LIABILITIES – Current liabilities", "item": "Other tax liabilities", "item_zh": "其他稅項負債", "cy": 3723, "py": 4038},
+      {"section": "LIABILITIES – Current liabilities", "item": "Other financial liabilities [Note 39]", "item_zh": "其他金融負債(流動)", "cy": 3992, "py": 6336},
+      {"section": "LIABILITIES – Current liabilities", "item": "Lease liabilities", "item_zh": "租賃負債(流動)", "cy": 5386, "py": 5600},
+      {"section": "LIABILITIES – Current liabilities", "item": "Deferred revenue [Note 6(c)(i)]", "item_zh": "遞延收入(流動)", "cy": 110309, "py": 100097},
+      {"section": "LIABILITIES – Current liabilities", "item": "Current liabilities (subtotal)", "item_zh": "流動負債合計(印刷為無標籤合計行)", "cy": 412751, "py": 396909},
+      {"section": "LIABILITIES", "item": "Total liabilities", "item_zh": "負債總額", "cy": 797921, "py": 727099},
+      {"section": "TOTAL", "item": "Total equity and liabilities", "item_zh": "權益及負債總額", "cy": 2038986, "py": 1780995}
+    ]
+  },
+  "cash_flow": {
+    "statement_title": "Consolidated Statement of Cash Flows(綜合現金流量表)",
+    "pages_printed": "138-139",
+    "pages_pdf": "139-140",
+    "rows": [
+      {"section": "Cash flows from operating activities", "item": "Cash generated from operations [Note 43(a)]", "item_zh": "經營所得現金", "cy": 347751, "py": 304705},
+      {"section": "Cash flows from operating activities", "item": "Income tax paid", "item_zh": "已付所得稅", "cy": -44699, "py": -46184},
+      {"section": "Cash flows from operating activities", "item": "Net cash flows generated from operating activities", "item_zh": "經營活動所得現金流量淨額", "cy": 303052, "py": 258521},
+      {"section": "Cash flows from investing activities", "item": "Payments for business combinations, net of cash acquired", "item_zh": "業務合併付款(扣除所收購現金)", "cy": -11541, "py": -7847},
+      {"section": "Cash flows from investing activities", "item": "(Outflow)/inflow of cash from disposals of investments in subsidiaries, net of cash disposed of", "item_zh": "出售附屬公司投資的現金(流出)/流入(扣除所出售現金)", "cy": -97, "py": 1},
+      {"section": "Cash flows from investing activities", "item": "Purchase of/prepayments for property, plant and equipment, construction in progress and investment properties", "item_zh": "購買/預付物業、設備及器材、在建工程及投資物業款項(=capex 主行)", "cy": -87482, "py": -62927},
+      {"section": "Cash flows from investing activities", "item": "Proceeds from disposal of property, plant and equipment", "item_zh": "出售物業、設備及器材所得款項", "cy": 152, "py": 203},
+      {"section": "Cash flows from investing activities", "item": "Purchase of/prepayments for intangible assets", "item_zh": "購買/預付無形資產款項", "cy": -25399, "py": -26394},
+      {"section": "Cash flows from investing activities", "item": "Refund from/(payments for) land use rights", "item_zh": "土地使用權退款/(付款)", "cy": 6, "py": -6727},
+      {"section": "Cash flows from investing activities", "item": "Payments for acquisition of investments in associates", "item_zh": "收購於聯營公司的投資付款", "cy": -24637, "py": -1967},
+      {"section": "Cash flows from investing activities", "item": "Proceeds from disposal of investments in associates", "item_zh": "出售於聯營公司的投資所得款項", "cy": 1549, "py": 4627},
+      {"section": "Cash flows from investing activities", "item": "Payments for acquisition of investments in joint ventures", "item_zh": "收購於合營公司的投資付款", "cy": -10, "py": -22},
+      {"section": "Cash flows from investing activities", "item": "Proceeds from disposal of investments in joint ventures", "item_zh": "出售於合營公司的投資所得款項", "cy": 19, "py": 267},
+      {"section": "Cash flows from investing activities", "item": "Payments for acquisition of financial assets at fair value through other comprehensive income", "item_zh": "收購以公允價值計量且其變動計入其他全面收益的金融資產付款", "cy": -73517, "py": -14022},
+      {"section": "Cash flows from investing activities", "item": "Proceeds from disposal of financial assets at fair value through other comprehensive income", "item_zh": "出售以公允價值計量且其變動計入其他全面收益的金融資產所得款項", "cy": 70033, "py": 25490},
+      {"section": "Cash flows from investing activities", "item": "Payments for acquisition of financial assets at fair value through profit or loss", "item_zh": "收購以公允價值計量且其變動計入損益的金融資產付款", "cy": -131087, "py": -66603},
+      {"section": "Cash flows from investing activities", "item": "Proceeds from disposal of financial assets at fair value through profit or loss", "item_zh": "出售以公允價值計量且其變動計入損益的金融資產所得款項", "cy": 96904, "py": 69562},
+      {"section": "Cash flows from investing activities", "item": "Payments for acquisition/settlement of other financial instruments", "item_zh": "收購/結算其他金融工具付款", "cy": -3219, "py": -3564},
+      {"section": "Cash flows from investing activities", "item": "Net inflow from acquisition/settlement of other financial instruments", "item_zh": "收購/結算其他金融工具所得淨額", "cy": 2176, "py": 1724},
+      {"section": "Cash flows from investing activities", "item": "Payments for loans to investees and others", "item_zh": "向被投資公司及其他人士提供貸款付款", "cy": -755, "py": -630},
+      {"section": "Cash flows from investing activities", "item": "Loans repayments from investees and others", "item_zh": "被投資公司及其他人士償還貸款", "cy": 1025, "py": 485},
+      {"section": "Cash flows from investing activities", "item": "Receipt from maturity of term deposits with initial terms of over three months", "item_zh": "初始期限超過三個月的定期存款到期收款", "cy": 241403, "py": 248446},
+      {"section": "Cash flows from investing activities", "item": "Placement of term deposits with initial terms of over three months", "item_zh": "存放初始期限超過三個月的定期存款", "cy": -282289, "py": -300723},
+      {"section": "Cash flows from investing activities", "item": "Interest received", "item_zh": "已收利息", "cy": 14534, "py": 14913},
+      {"section": "Cash flows from investing activities", "item": "Dividends received", "item_zh": "已收股息", "cy": 6500, "py": 3521},
+      {"section": "Cash flows from investing activities", "item": "Net cash flows used in investing activities", "item_zh": "投資活動所用現金流量淨額", "cy": -205732, "py": -122187},
+      {"section": "Cash flows from financing activities", "item": "Proceeds from short-term borrowings", "item_zh": "短期借款所得款項", "cy": 113557, "py": 62563},
+      {"section": "Cash flows from financing activities", "item": "Repayments of short-term borrowings", "item_zh": "償還短期借款", "cy": -121385, "py": -40049},
+      {"section": "Cash flows from financing activities", "item": "Proceeds from long-term borrowings", "item_zh": "長期借款所得款項", "cy": 108683, "py": 52021},
+      {"section": "Cash flows from financing activities", "item": "Repayments of long-term borrowings", "item_zh": "償還長期借款", "cy": -48530, "py": -74642},
+      {"section": "Cash flows from financing activities", "item": "Net proceeds from issuance of notes payable", "item_zh": "發行應付票據所得款項淨額", "cy": 8968, "py": 0, "note": "2024 印刷為「–」"},
+      {"section": "Cash flows from financing activities", "item": "Repayments of notes payable", "item_zh": "償還應付票據", "cy": -8587, "py": -14213},
+      {"section": "Cash flows from financing activities", "item": "Principal elements of lease payments [Note 19(b)]", "item_zh": "租賃付款的本金部分", "cy": -6783, "py": -6369},
+      {"section": "Cash flows from financing activities", "item": "Interest paid", "item_zh": "已付利息", "cy": -13180, "py": -12417},
+      {"section": "Cash flows from financing activities", "item": "Payments for repurchase of shares", "item_zh": "回購股份付款", "cy": -73312, "py": -102331},
+      {"section": "Cash flows from financing activities", "item": "Proceeds from issuance of ordinary shares as a result of exercise of share options", "item_zh": "因行使購股權而發行普通股所得款項", "cy": 2721, "py": 1932},
+      {"section": "Cash flows from financing activities", "item": "Payments for withholding individual income tax for share option schemes", "item_zh": "為購股權計劃代扣個人所得稅付款", "cy": -954, "py": -105},
+      {"section": "Cash flows from financing activities", "item": "Payments for shares purchased/withheld for share award schemes", "item_zh": "為股份獎勵計劃購買/預扣股份付款", "cy": -4869, "py": -3420},
+      {"section": "Cash flows from financing activities", "item": "Proceeds from issuance of additional equity interests of non wholly-owned subsidiaries", "item_zh": "非全資附屬公司發行額外股權所得款項", "cy": 582, "py": 161},
+      {"section": "Cash flows from financing activities", "item": "Proceeds from transfer of interests in subsidiaries to non-controlling interests", "item_zh": "向非控制性權益轉讓附屬公司權益所得款項", "cy": 83, "py": 0, "note": "2024 印刷為「–」"},
+      {"section": "Cash flows from financing activities", "item": "Payments for acquisition of non-controlling interests in non wholly-owned subsidiaries", "item_zh": "收購非全資附屬公司的非控制性權益付款", "cy": -4242, "py": -8381},
+      {"section": "Cash flows from financing activities", "item": "Dividends paid to the Company's shareholders", "item_zh": "已付本公司股東股息", "cy": -37535, "py": -28859},
+      {"section": "Cash flows from financing activities", "item": "Dividends paid to non-controlling interests", "item_zh": "已付非控制性權益股息", "cy": -2372, "py": -2385},
+      {"section": "Cash flows from financing activities", "item": "Net cash flows used in financing activities", "item_zh": "融資活動所用現金流量淨額", "cy": -87155, "py": -176494},
+      {"item": "Net increase/(decrease) in cash and cash equivalents", "item_zh": "現金及現金等價物淨增加/(減少)", "cy": 10165, "py": -40160},
+      {"item": "Cash and cash equivalents at beginning of the year", "item_zh": "年初現金及現金等價物", "cy": 132519, "py": 172320},
+      {"item": "Exchange (losses)/gains on cash and cash equivalents", "item_zh": "現金及現金等價物的匯兌(虧損)/收益", "cy": -1643, "py": 359},
+      {"item": "Cash and cash equivalents at end of the year [Note 32(a)]", "item_zh": "年末現金及現金等價物", "cy": 141041, "py": 132519}
+    ]
+  },
+  "revenue_breakdown": {
+    "pages_printed": "8-9 (MD&A), 192-197 (Note 6)",
+    "pages_pdf": "9-10, 193-198",
+    "by_segment": {
+      "source": "綜合收益表(printed p129)+ MD&A(printed p8)+ Note 6(a)/(b)(printed p193/195),三處一致",
+      "rows": [
+        {"item": "VAS", "item_zh": "增值服務", "cy": 369281, "py": 319168},
+        {"item": "Marketing Services", "item_zh": "營銷服務", "cy": 144973, "py": 121374},
+        {"item": "FinTech and Business Services", "item_zh": "金融科技及企業服務", "cy": 229435, "py": 211956},
+        {"item": "Others", "item_zh": "其他", "cy": 8077, "py": 7759},
+        {"item": "The Group (total)", "item_zh": "本集團合計", "cy": 751766, "py": 660257}
+      ]
+    },
+    "vas_detail_note6b": {
+      "source": "Note 6(b) Disaggregation of revenues(printed p195),精確百萬元",
+      "rows": [
+        {"item": "VAS – Games", "item_zh": "增值服務 – 遊戲", "cy": 241532, "py": 197712},
+        {"item": "VAS – Social networks", "item_zh": "增值服務 – 社交網絡", "cy": 127749, "py": 121456}
+      ]
+    },
+    "games_geo_split_mdna": {
+      "source": "MD&A 正文(printed p8),約數(RMB billion);2024 值年報未印,僅給同比 %,依規不反推,記 null",
+      "unit": "RMB'Billion(注意:非百萬)",
+      "rows": [
+        {"item": "Domestic Games revenues (approx.)", "item_zh": "本土市場遊戲收入(約數)", "cy": 164.2, "py": null, "note": "up 18% year-on-year;2024 精確值本年報未披露"},
+        {"item": "International Games revenues (approx.)", "item_zh": "國際市場遊戲收入(約數)", "cy": 77.4, "py": null, "note": "up 33% year-on-year (32% on constant-currency basis);2024 精確值本年報未披露"},
+        {"item": "Social Networks revenues (approx.)", "item_zh": "社交網絡收入(約數)", "cy": 127.7, "py": null, "note": "up 5% year-on-year;精確值見 vas_detail_note6b(127,749 百萬)"}
+      ]
+    },
+    "gross_profit_by_segment": {
+      "source": "MD&A(printed p9)+ Note 6(a)(printed p193),一致",
+      "rows": [
+        {"item": "VAS", "item_zh": "增值服務毛利", "cy": 222296, "py": 181657},
+        {"item": "Marketing Services", "item_zh": "營銷服務毛利", "cy": 83389, "py": 67232},
+        {"item": "FinTech and Business Services", "item_zh": "金融科技及企業服務毛利", "cy": 116616, "py": 99701},
+        {"item": "Others", "item_zh": "其他毛利", "cy": 292, "py": 656},
+        {"item": "The Group (total)", "item_zh": "本集團毛利合計", "cy": 422593, "py": 349246}
+      ]
+    },
+    "geographic_note6a": {
+      "source": "Note 6(a) 按地域收入(printed p194)",
+      "rows": [
+        {"item": "Revenues – Chinese Mainland", "item_zh": "收入 – 中國大陸", "cy": 662119, "py": 595458},
+        {"item": "Revenues – Others", "item_zh": "收入 – 其他地區", "cy": 89647, "py": 64799},
+        {"item": "Total", "item_zh": "合計", "cy": 751766, "py": 660257}
+      ]
+    }
+  },
+  "supplementary_non_ifrs": {
+    "source": "MD&A(printed p7),非國際財務報告準則(Non-IFRS)口徑",
+    "rows": [
+      {"item": "Non-IFRS operating profit", "item_zh": "非國際財務報告準則經營盈利", "cy": 280656, "py": 237811},
+      {"item": "Non-IFRS profit attributable to equity holders of the Company", "item_zh": "非國際財務報告準則本公司權益持有人應佔盈利", "cy": 259626, "py": 222703}
+    ]
+  }
+}
