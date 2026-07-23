@@ -18,10 +18,10 @@
 
 - **分析宪法**：`knowledge/frameworks/研究新公司-分析流程.md` — 我自己的价值投资分析主流程（去单一大V署名·事实底座三样 → 商业模式/排雷两块漏斗）
 - **知识库**
-  - `finance/<公司>/` — 公司客观分析三件套（`财务数据/<csv>` + `分析.md` + `财报关注要点.md`，canonical 客观数据；**不出现任何主观决策**）
+  - `finance/<公司>/` — 公司客观分析三件套（`财务数据/<csv>` + `分析.md` + `财报关注要点.md`，canonical 客观数据；**不出现任何主观决策**）·已覆盖 A 股 / 港股 / **首家美股**（`google` = Alphabet 2007-2025，SEC EDGAR + XBRL 管线跑通）
   - `knowledge/companies/<公司>/` — 公司**事实编年**（时间·主体·事件，只记客观事实，不写判断）。**唯一花名册 `companies/INDEX.md`**（公司全集 single source），监控子集 `_watchlist.md`（家数以表为准，勿写死）
   - `knowledge/fraud-cases/<公司>/` — 64 个财务造假案例（以中 A 股为主体，含美股/日股经典案例）+ `造假模式库.md`（排雷 = 客观分析的反面·反向蒸馏预警红旗）
-  - `report/` — 各案例/公司的**源文档**（年报 PDF、处罚决定书、做空报告等，约 1.3G，不入 git）·仅源档柜
+  - `report/` — 各案例/公司的**源文档**（年报 PDF、处罚决定书、做空报告等，约 2.2G，不入 git）·仅源档柜
   - `knowledge/daily/` — 每日新闻哨兵输出的日报（`daily-news` skill 产出·蒸馏成果归 knowledge/）
 - **skill**
   - `company-analysis` — 财报数据提取 → 建/刷新 `finance/` 客观三件套（强制「先提取再结论」，不编数据）
@@ -49,8 +49,8 @@
   - `观点变更.md` — **append-only**·决策日志·可回算「我自己」的胜率
 - **canonical**：`knowledge/frameworks/主观分析-workflow.md` — 六步骨架 + 估值公式菜单 + 双闸门 + 能力圈映射 + 结论矩阵(和 `研究新公司-分析流程.md` 客观 canonical 平级)
 - **skill**：`judgment-flow` — 执行 workflow(Step 0-6·硬 gate 保 fresh 底座 + 双闸门·大V视角走 `guru-query` 现问现答不落盘)。触发词:`估一下 XX` / `跑 XX 主观` / `定 XX 买卖点` / `重估 XX` / `复评 XX` / `XX 现在便宜吗`
-- **待做**：
-  - **数据层空** —— 6 家 finance/ 客观已建的公司(茅台/五粮液/老窖/农夫/泡泡玛特/三环)主观判断都还没跑
+- **进度**：
+  - **数据层部分落地** —— 已跑 3 家（`农夫山泉` / `泡泡玛特` / `贵州茅台`）；其余 finance/ 客观已建的公司（五粮液/老窖/三环/云铝/华致/腾讯/google/长江电力）主观判断待跑
   - **估值法菜单只上了 A 成长股 + E 归"太难"** —— B 周期股席勒法 / C 银行股 PB×ROE / D DCF 折现是 backlog(需要时加)
   - 组合级（仓位加总/买入排队/成交流水）进入实盘阶段再建
 - **不做（明确 out of scope）**：大V回测 / 胜率复盘 / backtest-call —— 数据本质二手 + 幸存者偏差 + 老唐自反神化。原 `backtest-call` skill 已删·**不重建**。
@@ -68,11 +68,12 @@ investor-analyzer/
 │   └── daily/                 # 每日新闻哨兵输出的日报（含 _logs/ 不入 git）
 ├── finance/<公司>/            # 模块一：公司客观分析三件套（canonical 客观库·无主观决策·_模板 为模板）
 ├── gurus/<slug>/              # 模块二：大V画像（INDEX.md 为花名册，_模板 为模板）
-├── judgments/<公司>/          # 模块三：主观层（估值.md + 能力圈.md + 观点变更.md·由 judgment-flow skill 产出·数据层空）
-├── report/                    # 源文档（PDF/决定书，~1.3G 不入 git）·仅源档暂存柜
+├── judgments/<公司>/          # 模块三：主观层（估值.md + 能力圈.md + 观点变更.md·由 judgment-flow skill 产出）
+├── report/                    # 源文档（PDF/决定书，~2.2G 不入 git）·仅源档暂存柜
 ├── scripts/
 │   ├── quote.py               # 区间行情（A股/港股/指数，前复权可复现）
 │   ├── notices.py             # 巨潮(cninfo)一手公告拉取，给 daily-news
+│   ├── derived.py             # 财务比率通用底（各 finance/<公司>/财务数据/财务比率.csv 生成器）
 │   ├── _venv.py               # venv 自举封装，被各脚本调用自动激活 .venv（无需手动 activate）
 │   ├── daily-news.sh          # 每日哨兵跑批（launchd 触发）— 本机专属，不入 git
 │   ├── com.investor.daily-news.plist  # launchd 配置（工作日 16:00）— 本机专属，不入 git
@@ -119,8 +120,8 @@ scripts/.venv/bin/pip install -r scripts/requirements.txt
 
 | 入库 ✅ | 不入库 ❌（保留本地） |
 |---|---|
-| 蒸馏知识：`gurus/*/`（profile/current-view/style/calls/成品 `posts/*.md`）、`companies/*/`、`fraud-cases/*/`（含决定书/SEC 源页 `.html`，作一手证据）、`finance/*/`（客观三件套：`财务数据/*.csv` + `分析.md` + `财报关注要点.md`） | **`report/` 整个目录**：所有源档（PDF/年报/决定书/HTM/10-K.txt 等 ~1.6G）一律不入 git，纯本地"源档柜" |
-| 可复用逻辑：`.claude/skills/`、`scripts/quote.py`、`scripts/notices.py`、`scripts/requirements.txt` | **ingest 工作/状态文件**：`*-DRAFT.md`、`READING_STATE.md`（跨会话阅读进度，本地 WIP） |
+| 蒸馏知识：`gurus/*/`（profile/current-view/style/calls/成品 `posts/*.md`）、`companies/*/`、`fraud-cases/*/`（含决定书/SEC 源页 `.html`，作一手证据）、`finance/*/`（客观三件套：`财务数据/*.csv` + `分析.md` + `财报关注要点.md`） | **`report/` 整个目录**：所有源档（PDF/年报/决定书/HTM/10-K.txt 等 ~2.2G）一律不入 git，纯本地"源档柜" |
+| 可复用逻辑：`.claude/skills/`、`scripts/quote.py`、`scripts/notices.py`、`scripts/derived.py`、`scripts/requirements.txt` | **ingest 工作/状态文件**：`*-DRAFT.md`、`READING_STATE.md`（跨会话阅读进度，本地 WIP） |
 | 数据产出：`knowledge/daily/` 日报（新闻哨兵的蒸馏成果·归 knowledge/） | **机器专属自动化**：`scripts/daily-news.sh`、`scripts/com.investor.daily-news.plist`（写死本机绝对路径，别人 clone 后需自行配 launchd） |
 | | `scripts/.venv/`（用 `requirements.txt` 重建）；`gurus/*/_corpus/`（大V原始语料，只留蒸馏成品）；`finance/**/年报季报/`（源 PDF） |
 
