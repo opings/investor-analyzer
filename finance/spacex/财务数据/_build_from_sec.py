@@ -679,6 +679,60 @@ def main():
           ["原值(2026-06-30)", "年限下限", "年限上限", "年化折旧(按年限上限)",
            "年化折旧(按年限下限)", "年化折旧(按年限中值)"], dep_rows)
 
+    # ---- 关联交易明细（招股书「CERTAIN RELATIONSHIPS AND RELATED PERSON TRANSACTIONS」章节）
+    # 口径：Item 404 of Reg S-K，覆盖 2023-01-01 起、金额 >$120,000 且关联方有直接/间接重大利益的交易。
+    # 因 xAI Merger 采同一控制追溯合并，本章节亦纳入 xAI / X Holdings 在合并前签订且仍在存续的协议。
+    RPT_COLS = ["2023", "2024", "2025", "2026年1-4月", "合同总额/备注"]
+    RPT = [
+        ("【Valor·董事 Antonio Gracias 关联】设备租赁1-合同总额", [None, None, None, None, 6986]),
+        ("【Valor】设备租赁2-合同总额",                          [None, None, None, None, 6633]),
+        ("【Valor】设备租赁3-合同总额",                          [None, None, None, None, 6587]),
+        ("【Valor】三份租赁合同总额合计",                        [None, None, None, None, 20206]),
+        ("【Valor】已付租金",                                   [None, None, 885, 1917, None]),
+        ("【Valor】X API 服务收入(公司收)",                      [None, 1, 1, 0.1, None]),
+        ("【Tesla】SpaceX 采购商品及服务",                       [11, 4, 147, 4.0, None]),
+        ("【Tesla】xAI 采购商品及服务",                          [None, 191, 506, 303, "2026年1-4月含4月Megapack 269"]),
+        ("【Tesla】xAI 自 Tesla 确认收入",                       [None, None, 2, 1, None]),
+        ("【Tesla】X 平台广告收入(公司收)",                      [None, 0.5, 4, 0.1, None]),
+        ("【Tesla】飞机使用费(公司收)",                          [1, 1, 2, 0, None]),
+        ("【The Boring Co·Musk 关联】X 办公室租金",              [None, 0.1, 1, 0.3, None]),
+        ("【The Boring Co】隧道建设支出",                        [None, None, 1, None, None]),
+        ("【Musk Industries LLC】xAI 房产租金",                  [None, 0.5, 2, 1, None]),
+        ("【Musk 持有的安保公司】安保服务支出",                   [2, 3, 4, 2, None]),
+        ("【Craft Aviation·Musk 关联】飞机维护支出",              [1, 1, 3, 3, None]),
+        ("【Musk 私人飞机】公司报销",                            [0.1, 3, 2, 0.2, None]),
+        ("【Shotwell/Johnsen 共有飞机】公司承担运维",             [3, 3, 3, 1, None]),
+    ]
+    write(OUT / "关联交易.csv",
+          "# 单位: 百万美元(USD millions); 来源: 424B4「CERTAIN RELATIONSHIPS AND RELATED PERSON TRANSACTIONS」章节; "
+          "口径=Item 404 Reg S-K(2023-01-01 起·>$120,000·关联方有重大利益), 含 xAI/X 合并前签订且仍存续的协议; "
+          "⚠️ **定价公允性表述不对称**: Tesla 类交易招股书明写「on terms no less favorable to SpaceX than those "
+          "generally available to unaffiliated third parties」, **Valor 三份设备租赁无任何公允性表述**, 仅列金额; "
+          "⚠️ Valor 租赁由 SpaceX 或其子公司**提供付款与履约担保**, 会计上被判定为**失败的售后租回**故全额计为债务; "
+          "⚠️ 关联交易审批政策(审计委员会审议+关联方回避)为「**将在本次发行完成时采纳**」, 即 Valor 三笔签署时该政策尚不存在",
+          RPT_COLS, RPT)
+
+    # ---- 或有事项与未反映的重大承诺
+    CONT_COLS = ["金额", "币种", "状态/时点"]
+    CONT = [
+        ("诉讼损失计提(资产负债表内)",        [530, "USD-M", "2025-12-31 已计入应计及其他负债"]),
+        ("EC DSA 罚款(X/xAI/Musk 本人)",     [120, "EUR-M", "2025-12-05 终局决定; 2026-02-16 已上诉欧盟普通法院·待决"]),
+        ("Vidstream 专利-陪审团判赔",         [105, "USD-M", "2025-04-16 判决; 已上诉联邦巡回法院·待决"]),
+        ("Vidstream 专利-判决前利息",         [67, "USD-M", "2025-11 追加"]),
+        ("SDBN 荷兰 GDPR 集体诉讼",           [None, "EUR/人250-2500", "称代表1100万荷兰用户; 2026-02-04 法院不准以集体诉讼推进·或中止待欧盟法院裁决"]),
+        ("SOMI 荷兰 GDPR/DSA 集体诉讼",       [None, "未定", "称代表约780万荷兰X用户; 2026-04-02 开庭"]),
+        ("Grok 图像生成相关诉讼",             [None, "未定", "2026-01 起多起拟制集体诉讼 + 2026-03-24 巴尔的摩市政府起诉(被告含 SpaceX 母公司)"]),
+        ("NMPA 音乐版权诉讼",                 [None, "未定", "2025-06~09 和解未果·证据开示中"]),
+        ("【未反映·股本】EchoStar 频谱交易-对价股数(百万股)", [261.79, "Class A 百万股", "2025-09-07 协议(11-05 修订); FCC 已于 2026-05-12 批准; **预计 2027-11 交割**; 另有现金对价"]),
+        ("【未反映·股本】Cursor 收购期权-潜在股数(百万股)",   [444.44, "Class A 百万股", "按 IPO 价 $135 测算的示例值; 实际按未来七日 VWAP 定; 公司**尚未行权**"]),
+    ]
+    write(OUT / "或有事项与承诺.csv",
+          "# 来源: 424B4 法律或有事项附注 + 招股书「本招股书未反映」段落 + 10-Q; "
+          "⚠️ 「未反映」两项**不在**现有三表与股数中: EchoStar 频谱交易与 Cursor 期权若落地将新增 Class A 股本; "
+          "按 IPO 价 $135 粗算两者对价合计约 $953 亿(仅股份部分·EchoStar 另有现金); "
+          "两项合计约 7.06 亿股, 相对 2026-06-30 已发行 131.76 亿股(A+B)约 5.4%",
+          CONT_COLS, CONT)
+
     # ---- 合同储备(backlog) 与 客户集中度（10-Q Note 3 收入附注 + Note 17 关联方）
     BL_COLS = ["2025Q2", "2026Q2", "2025H1", "2026H1", "2026-06-30时点"]
     BACKLOG = [
