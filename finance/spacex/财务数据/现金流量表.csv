@@ -1,0 +1,45 @@
+"# 单位: 百万美元(USD millions), 流出=负数, 覆盖2023-2025, 来源: SEC 424B4 招股书(2026-06-12, F页经审计) + 10-Q(2026-08-04); 报告主体=SpaceX+xAI+X 同一控制下追溯合并重述"
+科目,2023,2024,2025
+净利润 Net income (loss),-4628,791,-4937
+折旧摊销 Depreciation and amortization,2635,3824,6701
+股权激励 Share-based compensation,679,784,1947
+无形资产减值 Intangible asset impairment,3775,0,0
+递延所得税 Deferred income taxes,-409,-675,626
+数字资产未实现(收益)损失 Unrealized loss on digital assets,0,-955,112
+固定资产减值及处置损失 Impairment/loss on disposal of FA,36,135,88
+债务折价及发行费摊销 Amortization of debt discount,212,84,93
+其他 Other,214,115,66
+应收账款变动 Change in accounts receivable,345,-347,-543
+存货变动 Change in inventory,-72,-309,-413
+预付及其他资产变动 Change in prepaid and other,41,-328,-673
+应付账款变动 Change in accounts payable,220,472,709
+合同负债变动 Change in deferred revenue,1695,1876,1929
+经营租赁负债变动 Operating lease liabilities net,-15,-37,-56
+其他负债变动 Change in other liabilities,-208,346,1136
+经营活动现金流净额 Net cash from operating,4520,5776,6785
+购建固定资产 Purchases of PP&E (capex),-4415,-11163,-20737
+资本化利息 Capitalized interest,0,0,-169
+产品返利收到 Proceeds from product rebates,0,0,118
+购买金融资产 Purchases of marketable securities,-3535,-3542,-611
+金融资产到期 Maturities of marketable securities,2731,3712,548
+出售金融资产 Proceeds from sales of securities,333,193,1457
+对联营企业投资 Investments in unconsolidated affiliates,0,0,-86
+其他投资活动 Other investing activities net,19,4,-95
+投资活动现金流净额 Net cash used in investing,-4867,-10796,-19575
+融资租赁本金偿还 Principal repayments finance leases,0,-154,-295
+取得借款 Proceeds from debt,0,0,16055
+债务发行费 Payment of debt issuance costs,0,0,-66
+偿还借款 Repayments on debt,-112,-77,-6858
+发行股本净额 Proceeds from issuance of capital stock,774,13101,18807
+员工股权计划 Proceeds from employee equity plans,141,224,328
+回购普通股及优先股 Repurchase of common and RCPS,-170,-1021,-1125
+股权结算代扣税 Taxes paid on net share settlement,-211,-243,-496
+融资活动现金流净额 Net cash from financing,422,11830,26350
+汇率影响 Effect of exchange rate changes,-2,1,63
+现金净变动 Net change in cash,73,6811,13623
+期初现金及受限现金 Cash beginning of year,4617,4690,11501
+期末现金及受限现金 Cash end of year,4690,11501,25124
+已付利息(净额) Cash paid for interest net,1365,1500,1476
+已付所得税(净额) Cash paid for income taxes net,45,134,154
+资本化股权激励 SBC capitalized in PP&E,108,132,154
+已购未付固定资产 PP&E in accounts payable,505,2481,7088

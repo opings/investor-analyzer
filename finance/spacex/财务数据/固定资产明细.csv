@@ -1,0 +1,14 @@
+"# 单位: 百万美元(USD millions); **原值(gross)**, 累计折旧单列; 来源: 招股书 PP&E 附注(2024/2025) + 10-Q Note 5(2026-06-30); 净额已与资产负债表跨表核对一致 || 折旧年限(招股书会计政策附注): 服务器及网络设备 5-6年 · 卫星 3-5年 · 机器设备 3-10年 · 飞行器硬件 5-25次飞行(按次而非按年) · 数据中心基础设施 20-25年 · 发射场 7-20年 · 房屋及改良 30年 · 租赁资产改良 取7-20年与租期孰短 || 在建工程口径(10-Q Note 5原文): 主要为在建/扩建设施设备及**尚未投用的AI基础设施**"
+科目,2024-12-31,2025-12-31,2026-06-30
+服务器及网络设备 Servers and networking equipment,6892,22694,34771
+卫星 Satellites,7591,11949,13788
+机器设备 Machinery and equipment,5343,6343,9453
+数据中心基础设施 Data center infrastructure,224,2960,3991
+发射场 Launch sites,2121,2404,3118
+"土地房屋及改良 Land, buildings and improvements",913,1876,2958
+飞行器硬件 Flight vehicle hardware,1577,1689,1557
+租赁资产改良 Leasehold improvements,1019,784,881
+在建工程 Construction-in-progress,3007,4604,12554
+固定资产原值 Gross PP&E,28687,55303,83071
+减:累计折旧 Accumulated depreciation,-7540,-12701,-17335
+固定资产净额 Net PP&E,21147,42602,65736

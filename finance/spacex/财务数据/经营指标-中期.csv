@@ -1,0 +1,10 @@
+"# 经营(非财务)指标; 来源: 10-Q(2026-08-04) Key Business Metrics + 招股书(2026Q1); 2025Q1/2026Q1 的发射数由 H1−Q2 反推, 已与招股书正文「2026Q1 发射 40 枚 Falcon」交叉核对一致"
+科目,2025Q1,2025Q2,2025H1,2026Q1,2026Q2,2026H1
+"Starlink 订阅数(百万,期末) Starlink subscribers",5.0,6.0,6.0,10.3,12.0,12.0
+Starlink ARPU(美元/月) Starlink ARPU,86,85,85,66,66,66
+Falcon 发射次数 Falcon launches,36,45,81,40,37,77
+其中客户发射 customer launches,12,9,21,7,10,17
+其中内部发射 internal launches,24,36,60,33,27,60
+Starship 发射次数 Starship launches,2,1,3,0,1,1
+入轨质量(公吨) Mass to orbit,450,,,556,,
+"算力铭牌功率(GW,期末) Nameplate compute draw",,0.4,0.4,1.0,1.4,1.4

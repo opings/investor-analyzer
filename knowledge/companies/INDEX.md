@@ -31,6 +31,7 @@
 | 三环集团 | 300408 | 三环 / CCTC |
 | 长江电力 | 600900 | 长电 / 三峡 / 中国长江电力 |
 | google | GOOGL | Alphabet / 谷歌 / GOOG / 字母表 / Google Inc(旧主体) |
+| spacex | SPCX | SpaceX / Space Exploration Technologies / 星链 / Starlink / xAI / X(原Twitter·2026-02 起并入报告主体) |
 | 云铝股份 | 000807 | 云南铝业 / 云铝 |
 | 华致酒行 | 300755 | 华致 / Vats Liquor |
 
