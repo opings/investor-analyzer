@@ -1,0 +1,35 @@
+# ============================================================
+# 规则白名单 —— investor-framework 同步范围（唯一权威）
+# ============================================================
+# 一行一个路径（相对主库根）：目录 = 整棵子树，文件 = 单文件。
+# 只有列在这里的内容才会被导出；数据层（finance/<公司>、judgments/<公司>、
+# gurus/<slug>、knowledge/companies|daily、fraud-cases/<案例>、report/）
+# 永远不列入 —— 白名单制保证新增数据不可能被误发。
+# 同步工具自身（本文件 / export-rules.sh / git-hooks/）不在名单内，不导出。
+#
+# 语义：导出 = 全量镜像（规则库中除自有文件 README/LICENSE/.gitignore 外全部重建），
+#       所以从名单删条目后跑一次导出即可自动收敛，无需手工清理。
+
+# —— 流程宪法（客观 canonical + 主观 canonical）——
+knowledge/frameworks
+
+# —— 编排层（7 个 skill）——
+.claude/skills
+
+# —— 客观层模板（模板说明 / 财报阅读规则 / 分析模板 等 6 件）——
+finance/_模板
+
+# —— 主观层模板（估值 / 估值记录 / 能力圈 / 观点变更）——
+judgments/_模板
+
+# —— 大V层骨架（结构规范 + 目录模板）——
+gurus/_schema
+gurus/_模板
+
+# —— 公司事实编年模板 ——
+knowledge/companies/_模板
+
+# —— 造假案例：库规则说明 + 录入模板 + 蒸馏成果（红旗模式库）——
+knowledge/fraud-cases/README.md
+knowledge/fraud-cases/_案例模板.md
+knowledge/fraud-cases/造假模式库.md

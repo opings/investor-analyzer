@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+# ============================================================
+# post-commit：本次提交若触及规则白名单路径，提醒同步规则库
+# ============================================================
+# 启用（每台机器一次）：git config core.hooksPath scripts/git-hooks
+# 只提醒、不自动推送 —— push 前留一道人眼，防止误发。
+
+REPO="$(git rev-parse --show-toplevel)" || exit 0
+MANIFEST="$REPO/scripts/rules-manifest.txt"
+[ -f "$MANIFEST" ] || exit 0
+
+changed="$(git diff-tree --no-commit-id --name-only -r HEAD)"
+[ -n "$changed" ] || exit 0
+
+hit=""
+while IFS= read -r entry; do
+  case "$entry" in ''|'#'*) continue ;; esac
+  entry="${entry%/}"
+  while IFS= read -r f; do
+    case "$f" in
+      "$entry"|"$entry"/*) hit="$entry"; break ;;
+    esac
+  done <<< "$changed"
+  [ -n "$hit" ] && break
+done < "$MANIFEST"
+
+if [ -n "$hit" ]; then
+  echo ""
+  echo "📤 本次提交触及规则文件（$hit …）—— 记得同步规则库："
+  echo "   bash scripts/export-rules.sh"
+fi
+
+exit 0
