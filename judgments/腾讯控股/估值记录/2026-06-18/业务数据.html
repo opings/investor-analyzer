@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>腾讯控股 · 估值基石业务数据 · 2026-06-18(迁移档)</title>
+<style>
+  :root{--ink:#1f2937;--sub:#6b7280;--line:#e5e7eb;--bg:#f8fafc;--card:#ffffff;}
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;color:var(--ink);background:var(--bg);padding:24px;}
+  .wrap{max-width:1280px;margin:0 auto;}
+  h1{font-size:20px;margin-bottom:6px;}
+  .meta{color:var(--sub);font-size:13px;margin-bottom:14px;line-height:1.6;}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(560px,1fr));gap:16px;}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px 10px;}
+  .card h3{font-size:14.5px;margin-bottom:2px;}
+  .card .why{font-size:12px;color:var(--sub);margin-bottom:8px;line-height:1.5;}
+  .card .src{font-size:11px;color:#9ca3af;margin-top:4px;}
+  svg text{font-family:inherit;}
+  footer{margin-top:24px;color:#9ca3af;font-size:12px;border-top:1px solid var(--line);padding-top:10px;line-height:1.7;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>腾讯控股(00700) · 估值基石业务数据 · 2026-06-18(迁移档·补作)</h1>
+  <div class="meta">⚠️ 本页为 2026-08-17 迁移归档时按<b>当轮已知数据</b>补作(截至 2025 年报 + 2026Q1 业绩),不含其后信息。当轮定稿:P₁=2,596.26(2026 增速 0%·AI 重投入年)· g=8% · 买点 44,970 亿 ≈493 元/536 港元。配套 <code>推导.md</code>。</div>
+
+  <div class="grid">
+    <div class="card">
+      <h3>① Non-IFRS 归母净利(2014-2025 + 2026E 持平假设)</h3>
+      <div class="why"><b>当轮判断底</b>:11 年复合 ~25%,2025 +16.6% 重新加速;但 Q1'26 公告披露 AI 拖累(剔除 +17% vs 含 +9%)→ 2026E 保守取持平(虚线)。</div>
+      <div id="c1"></div>
+      <div class="src">历年业绩公告 Non-IFRS 序列(迁移档核定·2020 年已修正旧 xlsx 误填)</div>
+    </div>
+    <div class="card">
+      <h3>② 2025 分部收入与同比(亿元)</h3>
+      <div class="why"><b>当轮判断底</b>:三引擎全正增长且毛利率全面提升(VAS 60%/营销 58%/金科 51%)——"质量型重新加速"的证据。</div>
+      <div id="c2"></div>
+      <div class="src">2025 年报分部披露(分部营收.csv)</div>
+    </div>
+    <div class="card">
+      <h3>③ 资本开支(公告口径·亿元):当时的"未失控"判断</h3>
+      <div class="why"><b>当轮判断底</b>:2025 仅 +3%(占 Non-IFRS 净利 30.5%、占比反降)→ 判"AI 烧钱隐忧缓解";但 Q1'26 已回升 +16%(319 亿),故留下"待中报观察"的 refine 条件——两个月后应验。</div>
+      <div id="c3"></div>
+      <div class="src">2024/2025 年报 + 2026Q1 业绩公告</div>
+    </div>
+    <div class="card">
+      <h3>④ 前瞻增速敏感性:买点阶梯(亿元·当轮)</h3>
+      <div class="why"><b>当轮输出</b>:g=6/8/10% → 买点 42,518/44,970/47,515(每股 466/493/521 元);采用 8%(保守档)。当轮未记录现价位置("待更新"),故无市值对照线。</div>
+      <div id="c4"></div>
+      <div class="src">迁移档 敏感性表(原 xlsx F4 可调)</div>
+    </div>
+  </div>
+
+  <footer>补作于 2026-08-17(迁移归档)· 原始推导见同目录 <code>推导.md</code>(自 git <code>17bf014^</code> 恢复)· 后续轮次见 <code>../2026-08-16/</code></footer>
+</div>
+
+<script>
+const NS='http://www.w3.org/2000/svg';
+function el(t,a,p){const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e;}
+function txt(p,x,y,s,o){o=o||{};const t=el('text',{x:x,y:y,'font-size':o.size||10.5,fill:o.fill||'#6b7280','text-anchor':o.anchor||'middle','font-weight':o.weight||'normal'},p);t.textContent=s;return t;}
+function fmtW(v){return Math.round(v).toLocaleString('en-US');}
+function base(id,W,H){return el('svg',{viewBox:'0 0 '+W+' '+H,width:'100%'},document.getElementById(id));}
+function scale(vals,forceZero){let lo=Math.min.apply(null,vals),hi=Math.max.apply(null,vals);
+  if(forceZero!==false)lo=Math.min(0,lo);const span=hi-lo||1;hi+=span*0.12;if(lo<0)lo-=span*0.08;return[lo,hi];}
+function grid(svg,W,H,padL,padR,padT,padB,lo,hi){
+  for(let k=0;k<=4;k++){const v=lo+(hi-lo)*k/4,y=padT+(H-padT-padB)*(1-(v-lo)/(hi-lo));
+    el('line',{x1:padL,x2:W-padR,y1:y,y2:y,stroke:'#eef1f5'},svg);
+    txt(svg,padL-6,y+3.5,fmtW(v),{anchor:'end',size:9.5,fill:'#9ca3af'});}}
+function legend(svg,series,x,y){let cx=x;series.forEach(s=>{
+  el('rect',{x:cx,y:y-8,width:10,height:10,fill:s.color,rx:2},svg);
+  txt(svg,cx+14,y+1,s.name,{anchor:'start',size:10,fill:'#4b5563'});
+  cx+=14+s.name.length*10.5+18;});}
+function lineChart(id,labels,series){
+  const W=640,H=300,padL=58,padR=14,padT=24,padB=40;
+  const svg=base(id,W,H);let vals=[];series.forEach(s=>s.data.forEach(v=>{if(v!=null)vals.push(v)}));
+  const se=scale(vals),lo=se[0],hi=se[1];grid(svg,W,H,padL,padR,padT,padB,lo,hi);
+  const X=i=>padL+(W-padL-padR)*(i/(labels.length-1));
+  const Y=v=>padT+(H-padT-padB)*(1-(v-lo)/(hi-lo));
+  labels.forEach((lb,i)=>{if(labels.length>10&&i%2===1&&i!==labels.length-1)return;txt(svg,X(i),H-padB+15,lb,{size:9.5});});
+  series.forEach(s=>{let d='';s.data.forEach((v,i)=>{if(v==null)return;d+=(d?' L':'M')+X(i)+' '+Y(v);});
+    el('path',{d:d,fill:'none',stroke:s.color,'stroke-width':2.2,'stroke-dasharray':s.dash||'none'},svg);
+    s.data.forEach((v,i)=>{if(v==null)return;el('circle',{cx:X(i),cy:Y(v),r:2.6,fill:s.color},svg);
+      if(s.showVals)txt(svg,X(i),Y(v)-8,fmtW(v),{size:9,fill:s.color,weight:'600'});});});
+  legend(svg,series,padL,12);}
+function barChart(id,labels,series,valueSuffix){
+  const W=640,H=300,padL=58,padR=14,padT=24,padB=40;
+  const svg=base(id,W,H);let vals=[];series.forEach(s=>s.data.forEach(v=>{if(v!=null)vals.push(v)}));
+  const se=scale(vals),lo=se[0],hi=se[1];grid(svg,W,H,padL,padR,padT,padB,lo,hi);
+  const gw=(W-padL-padR)/labels.length,n=series.length,bw=Math.min(56,gw*0.7/n);
+  const Y=v=>padT+(H-padT-padB)*(1-(v-lo)/(hi-lo));
+  labels.forEach((lb,i)=>txt(svg,padL+gw*(i+0.5),H-padB+15,lb,{size:10}));
+  series.forEach((s,j)=>{s.data.forEach((v,i)=>{if(v==null)return;
+    const x=padL+gw*(i+0.5)-(n*bw)/2+j*bw,y0=Y(Math.max(0,lo)),y1=Y(v);
+    el('rect',{x:x,y:Math.min(y0,y1),width:bw-3,height:Math.abs(y0-y1),fill:s.color,rx:2},svg);
+    txt(svg,x+(bw-3)/2,Math.min(y0,y1)-5,fmtW(v)+(s.suffix||''),{size:9.5,fill:s.color,weight:'600'});});});
+  if(series.length>1)legend(svg,series,padL,12);}
+function hbar(id,rows){
+  const W=640,H=50+rows.length*46,padL=190,padR=80,padT=14,padB=14;
+  const svg=base(id,W,H);const hi=Math.max.apply(null,rows.map(r=>r.v))*1.06;
+  const X=v=>padL+(W-padL-padR)*v/hi;
+  rows.forEach((r,i)=>{const y=padT+i*46+8,bh=26;
+    el('rect',{x:padL,y:y,width:Math.max(2,X(r.v)-padL),height:bh,fill:r.color,rx:4},svg);
+    txt(svg,padL-8,y+bh/2+4,r.name,{anchor:'end',size:11,fill:'#374151',weight:r.bold?'700':'normal'});
+    txt(svg,X(r.v)+6,y+bh/2+4,fmtW(r.v)+(r.suffix||''),{anchor:'start',size:10.5,fill:r.color,weight:'700'});});}
+
+// ① Non-IFRS 序列 + 2026E 持平
+lineChart('c1',
+  ['2014','2015','2016','2017','2018','2019','2020','2021','2022','2023','2024','2025','2026E'],
+  [{name:'Non-IFRS 归母(亿)',color:'#f59e0b',data:[219,324,454,651,775,944,1227,1238,1156,1577,2227,2596,null],showVals:true},
+   {name:'2026E=2,596(持平假设)',color:'#f59e0b',dash:'5 4',data:[null,null,null,null,null,null,null,null,null,null,null,2596,2596]}]);
+// ② 2025 分部
+barChart('c2',['增值服务(+16%)','金融科技及企服(+8%)','营销服务(+19%)','其他(+4%)'],
+  [{name:'2025 收入(亿)',color:'#6366f1',data:[3693,2294,1450,81]}]);
+// ③ capex
+barChart('c3',['2024','2025(+3%)',"2026Q1(单季·+16%)"],
+  [{name:'资本开支(亿)',color:'#ef4444',data:[768,792,319]}]);
+// ④ 买点阶梯
+hbar('c4',
+  [{name:'买点 @ g=6%',v:42518,color:'#cbd5e1'},
+   {name:'买点 @ g=8%(采用)',v:44970,color:'#2563eb',bold:true},
+   {name:'买点 @ g=10%',v:47515,color:'#94a3b8'}]);
+</script>
+</body>
+</html>

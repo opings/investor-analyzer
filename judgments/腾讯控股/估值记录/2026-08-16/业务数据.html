@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>腾讯控股 · 估值基石业务数据 · 2026-08-16</title>
+<style>
+  :root{--ink:#1f2937;--sub:#6b7280;--line:#e5e7eb;--bg:#f8fafc;--card:#ffffff;
+        --blue:#2563eb;--amber:#f59e0b;--vas:#6366f1;--ads:#10b981;--fin:#f97316;
+        --red:#ef4444;--green:#16a34a;--gray:#94a3b8;}
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;color:var(--ink);background:var(--bg);padding:24px;}
+  .wrap{max-width:1280px;margin:0 auto;}
+  h1{font-size:22px;margin-bottom:6px;}
+  .meta{color:var(--sub);font-size:13px;margin-bottom:14px;}
+  .callout{background:#fffbeb;border:1px solid #fcd34d;border-left:4px solid var(--amber);border-radius:8px;padding:12px 16px;font-size:13.5px;line-height:1.7;margin-bottom:14px;}
+  .callout b{color:#92400e;}
+  .strip{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:20px;}
+  .pill{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:8px 14px;font-size:13px;}
+  .pill b{font-size:15px;}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(560px,1fr));gap:16px;}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px 10px;}
+  .card h3{font-size:14.5px;margin-bottom:2px;}
+  .card .why{font-size:12px;color:var(--sub);margin-bottom:8px;line-height:1.5;}
+  .card .why b{color:#374151;}
+  .card .src{font-size:11px;color:#9ca3af;margin-top:4px;}
+  .sec{font-size:16px;font-weight:700;margin:26px 0 10px;padding-left:10px;border-left:4px solid var(--blue);}
+  svg text{font-family:inherit;}
+  footer{margin-top:28px;color:#9ca3af;font-size:12px;line-height:1.8;border-top:1px solid var(--line);padding-top:12px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>腾讯控股(00700) · 估值基石业务数据 · 2026-08-16</h1>
+  <div class="meta">配套推导文档:同目录 <code>推导.md</code> ｜ 数据真源:<code>finance/腾讯控股/财务数据/</code>(利润表/分部营收/中期财务-2026 各 CSV·203 项勾稽)</div>
+
+  <div class="callout">
+    ⚠️ <b>本估值的核心含义:g = 0% 是明确的悲观基准——假设 AI 大额投入将持续存在,并把 2027-2029 三年的利润增长全部吃掉</b>(2029 年 Non-IFRS 归母 = 2026 年水平 2,715 亿、三年零增长)。买点 471 港元不含任何 AI 变现成功;本估值容忍 AI 高强度投入,只要利润不<b>倒退</b>;失效边界 = FCF 连续两季负(剔预付口径也负)或预付膨胀而交付不兑现。下方图表即此判断的业务数据基石。
+  </div>
+
+  <div class="strip">
+    <div class="pill">结论 <b>买(边际)</b></div>
+    <div class="pill">买点 <b>471 港元</b>(37,331 亿)</div>
+    <div class="pill">当时价 <b>440 港元</b>(= 买点 93%)</div>
+    <div class="pill">卖点一 <b>1,714 港元</b></div>
+    <div class="pill">P₁ <b>2,715 亿</b>(+4.6%)</div>
+    <div class="pill">g <b>0%</b> → P₃ <b>2,715 亿</b></div>
+    <div class="pill">仓位上限 <b>40%</b></div>
+  </div>
+
+  <div class="sec">A · 增长引擎:收入侧仍在增长(估值没死在分子上)</div>
+  <div class="grid">
+    <div class="card">
+      <h3>① 年度营收 vs Non-IFRS 归母(2014-2025 + 2026E)</h3>
+      <div class="why"><b>支撑:P₀=2,596.26 的位置感</b>——11 年利润复合 ~25%,2022 唯一下蹲后连续三年新高;2026E 2,715(虚线)只要求 +4.6%。</div>
+      <div id="c1"></div>
+      <div class="src">利润表.csv · Non-IFRS 序列自历年业绩公告(2026-06-18 档核定)</div>
+    </div>
+    <div class="card">
+      <h3>② 分部收入(2019-2025·亿元)</h3>
+      <div class="why"><b>支撑:三引擎无一熄火</b>——营销服务 2023 起重加速(AI 投放),金科企服稳步,增值服务 2025 创新高;这是 H2'26 分部增速假设(+7%/+18%/+9%)的历史底。</div>
+      <div id="c2"></div>
+      <div class="src">分部营收.csv(2019 起金融科技单列口径)</div>
+    </div>
+    <div class="card">
+      <h3>③ 季度节奏:收入与 Non-IFRS 归母(近三季·亿元)</h3>
+      <div class="why"><b>支撑:P₁ 的"上半年实绩打底"</b>——收入逐季上台阶(+11% yoy),Non-IFRS 归母 +9% yoy;利润增速低于收入增速的差 = AI 拖累。</div>
+      <div id="c3"></div>
+      <div class="src">中期财务-2026.csv 利润表段(Q2'25 / Q1'26 / Q2'26)</div>
+    </div>
+    <div class="card">
+      <h3>④ 递延收入(蓄水池·亿元)</h3>
+      <div class="why"><b>支撑:游戏基本盘的领先指标健康</b>——2026-06-30 同比 +8.4%(vs 2025-06-30);先充值后确认,H2 游戏收入的钱已在池里。关注要点变量#3 本期 🟢。</div>
+      <div id="c4"></div>
+      <div class="src">资产负债表.csv(年末) + 中期财务-2026.csv / 2025-Q2 公告(中期点)</div>
+    </div>
+  </div>
+
+  <div class="sec">B · AI 投入的三张价签:利润表 / 现金表 / 资产负债表(g=0% 的由来)</div>
+  <div class="grid">
+    <div class="card">
+      <h3>⑤ 毛利率走势(2018-2025 + H1'26·%)</h3>
+      <div class="why"><b>支撑:结构改善 vs AI 成本的赛跑现状</b>——2022 谷底 43.1% 抬到 H1'26 的 57.2%,自研游戏/高毛利收入仍在赢;g 的悲观在于假设 2027 起折旧台阶反超此趋势。</div>
+      <div id="c5"></div>
+      <div class="src">利润表.csv(毛利÷收入) · 中期财务-2026.csv</div>
+    </div>
+    <div class="card">
+      <h3>⑥ 资本开支 vs 经营现金流(公告口径·亿元)</h3>
+      <div class="why"><b>支撑:变量#1 触线的事实</b>——2026 仅半年 capex(847 亿)已超 2025 全年(792 亿);capex/OCF 从 26% 跳到 55%。这是前提②降 ⚠️ 和 g 砍到 0% 的第一现场。</div>
+      <div id="c6"></div>
+      <div class="src">中期财务-2026.csv 其他财务资料段 · 现金流量表.csv</div>
+    </div>
+    <div class="card">
+      <h3>⑦ Q2'26 自由现金流瀑布(亿元)</h3>
+      <div class="why"><b>支撑:FCF 上市以来罕见单季转负的拆解</b>——主业造血 527 亿,被算力采购(付款 593 亿)+内容+租赁吃穿;剔算力预付款口径仍 +376 亿(虚线),负号来自进攻不是失血。</div>
+      <div id="c7"></div>
+      <div class="src">2026 中期业绩公告 MD&A P17(中期财务-2026.csv 派生指标段)</div>
+    </div>
+    <div class="card">
+      <h3>⑧ 新 AI 产品对 Non-IFRS 经营盈利的拖累(亿/季)</h3>
+      <div class="why"><b>支撑:拖累斜率是 P₁ 三情景与 Q3 复核的核心变量</b>——Q1 86 → Q2 105 逐季走阔;紧 C 情景(P₁=2,715)即假设 H2 继续按此斜率加深。口径=剔除新 AI 产品(Hy/元宝/CodeBuddy/WorkBuddy/小微)前后差。</div>
+      <div id="c8"></div>
+      <div class="src">2026 Q1/Q2 业绩公告注 7(公司披露口径)</div>
+    </div>
+    <div class="card">
+      <h3>⑨ 净现金余额(亿元·公告口径)</h3>
+      <div class="why"><b>支撑:投入的资金约束还很远</b>——Q2 单季 −60%(capex 593 + 年度股息 416 双重支出)但仍为正 582 亿;同比口径 −22%。持续为正是"容忍高投入"判断的前提。</div>
+      <div id="c9"></div>
+      <div class="src">各季业绩公告"流动资金及财务资源"(现金+存款理财−借款−票据)</div>
+    </div>
+  </div>
+
+  <div class="sec">C · 估值输出:假设阶梯 vs 市场定价</div>
+  <div class="grid">
+    <div class="card">
+      <h3>⑩ g 阶梯下的买点 vs 当时市值(亿元)</h3>
+      <div class="why"><b>支撑:结论"便宜(边际)"与它的脆弱度</b>——定稿 g=0% 的买点 37,331 仍高于市值 34,847(红线);市场定价隐含 2029 利润比 2026E 低 6.7%(连续三年倒退),比本估值更悲观。缓冲仅 7%:股价过 471 港元即转「观察」。</div>
+      <div id="c10"></div>
+      <div class="src">推导.md 第四节 g 阶梯 · 卖点一 135,750 亿(≈1,714 港元)远超图幅未画</div>
+    </div>
+  </div>
+
+  <footer>
+    生成:2026-08-17 · 估值轮次:2026-08-16(定稿 g=0%) ｜ 快照:现价 440.00 港元(08-14 收盘·scripts/quote.py)·股本 9,103,091,717 股(FF305 一手)·汇率 0.87(中期公告股息双币隐含)<br>
+    本页自包含(无外链/无 CDN),所有数字可在 <code>finance/腾讯控股/财务数据/</code> 对应 CSV 与 <code>推导.md</code> 复核;若与 CSV 冲突以 CSV 为准。
+  </footer>
+</div>
+
+<script>
+const NS='http://www.w3.org/2000/svg';
+function el(t,a,p){const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e;}
+function txt(p,x,y,s,o){o=o||{};const t=el('text',{x:x,y:y,'font-size':o.size||10.5,fill:o.fill||'#6b7280','text-anchor':o.anchor||'middle','font-weight':o.weight||'normal'},p);t.textContent=s;return t;}
+function fmtW(v){ // 万->亿 friendly integer with thousands sep
+  return Math.round(v).toLocaleString('en-US');
+}
+function base(id,W,H){const svg=el('svg',{viewBox:'0 0 '+W+' '+H,width:'100%'},document.getElementById(id));return svg;}
+function scale(vals,forceZero){let lo=Math.min.apply(null,vals),hi=Math.max.apply(null,vals);
+  if(forceZero!==false)lo=Math.min(0,lo);const span=hi-lo||1;hi+=span*0.12;if(lo<0)lo-=span*0.08;return[lo,hi];}
+function grid(svg,W,H,padL,padR,padT,padB,lo,hi,fmt){
+  for(let k=0;k<=4;k++){const v=lo+(hi-lo)*k/4,y=padT+(H-padT-padB)*(1-(v-lo)/(hi-lo));
+    el('line',{x1:padL,x2:W-padR,y1:y,y2:y,stroke:'#eef1f5'},svg);
+    txt(svg,padL-6,y+3.5,fmt?fmt(v):fmtW(v),{anchor:'end',size:9.5,fill:'#9ca3af'});}
+}
+// 折线(多系列, 可点标)
+function lineChart(id,labels,series,opt){
+  opt=opt||{};const W=640,H=300,padL=58,padR=14,padT=24,padB=40;
+  const svg=base(id,W,H);let vals=[];series.forEach(s=>s.data.forEach(v=>{if(v!=null)vals.push(v)}));
+  const se=scale(vals,opt.forceZero),lo=se[0],hi=se[1];
+  grid(svg,W,H,padL,padR,padT,padB,lo,hi,opt.yfmt);
+  const X=i=>padL+(W-padL-padR)*(labels.length===1?0.5:i/(labels.length-1));
+  const Y=v=>padT+(H-padT-padB)*(1-(v-lo)/(hi-lo));
+  labels.forEach((lb,i)=>{if(labels.length>10&&i%2===1&&i!==labels.length-1)return;txt(svg,X(i),H-padB+15,lb,{size:9.5});});
+  series.forEach(s=>{
+    let d='';s.data.forEach((v,i)=>{if(v==null)return;d+=(d?' L':'M')+X(i)+' '+Y(v);});
+    el('path',{d:d,fill:'none',stroke:s.color,'stroke-width':2.2,'stroke-dasharray':s.dash||'none'},svg);
+    s.data.forEach((v,i)=>{if(v==null)return;el('circle',{cx:X(i),cy:Y(v),r:2.6,fill:s.color},svg);
+      if(s.labelEvery&&i%s.labelEvery!==0&&i!==s.data.length-1)return;
+      if(s.showVals)txt(svg,X(i),Y(v)-8,(s.vfmt||fmtW)(v),{size:9,fill:s.color,weight:'600'});});
+  });
+  legend(svg,series,padL,12);
+}
+// 分组柱(多系列, 值标)
+function barChart(id,labels,series,opt){
+  opt=opt||{};const W=640,H=300,padL=58,padR=14,padT=24,padB=40;
+  const svg=base(id,W,H);let vals=[];series.forEach(s=>s.data.forEach(v=>{if(v!=null)vals.push(v)}));
+  if(opt.hline!=null)vals.push(opt.hline);
+  const se=scale(vals),lo=se[0],hi=se[1];
+  grid(svg,W,H,padL,padR,padT,padB,lo,hi,opt.yfmt);
+  const gw=(W-padL-padR)/labels.length,n=series.length,bw=Math.min(38,gw*0.7/n);
+  const Y=v=>padT+(H-padT-padB)*(1-(v-lo)/(hi-lo));
+  labels.forEach((lb,i)=>txt(svg,padL+gw*(i+0.5),H-padB+15,lb,{size:9.5}));
+  series.forEach((s,j)=>{s.data.forEach((v,i)=>{if(v==null)return;
+    const x=padL+gw*(i+0.5)-(n*bw)/2+j*bw,y0=Y(0),y1=Y(v);
+    el('rect',{x:x,y:Math.min(y0,y1),width:bw-3,height:Math.abs(y0-y1),fill:s.color,rx:2,opacity:s.opacity||1},svg);
+    txt(svg,x+(bw-3)/2,Math.min(y0,y1)-5,(s.vfmt||fmtW)(v),{size:9,fill:s.color,weight:'600'});});});
+  if(opt.hline!=null){const y=Y(opt.hline);
+    el('line',{x1:padL,x2:W-padR,y1:y,y2:y,stroke:'#ef4444','stroke-width':1.5,'stroke-dasharray':'6 4'},svg);
+    txt(svg,W-padR-4,y-6,opt.hlineLabel||'',{anchor:'end',size:10,fill:'#ef4444',weight:'600'});}
+  legend(svg,series,padL,12);
+}
+// 瀑布
+function waterfall(id,steps,opt){
+  opt=opt||{};const W=640,H=300,padL=58,padR=14,padT=24,padB=44;
+  const svg=base(id,W,H);
+  let cum=0,tops=[0];steps.forEach(s=>{if(!s.total){cum+=s.v;}tops.push(cum);});
+  let vals=[0];let run=0;steps.forEach(s=>{if(!s.total){run+=s.v;vals.push(run);}else vals.push(s.v);});
+  if(opt.refline!=null)vals.push(opt.refline);
+  const se=scale(vals),lo=se[0],hi=se[1];
+  grid(svg,W,H,padL,padR,padT,padB,lo,hi);
+  const gw=(W-padL-padR)/steps.length,bw=Math.min(64,gw*0.62);
+  const Y=v=>padT+(H-padT-padB)*(1-(v-lo)/(hi-lo));
+  let running=0;
+  steps.forEach((s,i)=>{
+    const x=padL+gw*(i+0.5)-bw/2;let a,b,col;
+    if(s.total){a=0;b=s.v;col=s.v>=0?'#16a34a':'#ef4444';}
+    else{a=running;b=running+s.v;col=s.v>=0?'#2563eb':'#f97316';running=b;}
+    el('rect',{x:x,y:Math.min(Y(a),Y(b)),width:bw,height:Math.max(2,Math.abs(Y(a)-Y(b))),fill:col,rx:2},svg);
+    txt(svg,padL+gw*(i+0.5),Math.min(Y(a),Y(b))-6,(s.v>0&&!s.total?'+':'')+fmtW(s.v),{size:10,fill:col,weight:'700'});
+    txt(svg,padL+gw*(i+0.5),H-padB+15,s.name,{size:9.5});
+    if(i<steps.length-1&&!s.total)el('line',{x1:x+bw,x2:padL+gw*(i+1.5)-bw/2,y1:Y(b),y2:Y(b),stroke:'#cbd5e1','stroke-dasharray':'3 3'},svg);
+  });
+  el('line',{x1:padL,x2:W-padR,y1:Y(0),y2:Y(0),stroke:'#94a3b8','stroke-width':1},svg);
+  if(opt.refline!=null){const y=Y(opt.refline);
+    el('line',{x1:padL,x2:W-padR,y1:y,y2:y,stroke:'#16a34a','stroke-width':1.4,'stroke-dasharray':'6 4'},svg);
+    txt(svg,W-padR-4,y-6,opt.refLabel||'',{anchor:'end',size:10,fill:'#16a34a',weight:'600'});}
+}
+// 横向条(估值阶梯)
+function hbar(id,rows,opt){
+  opt=opt||{};const W=640,H=60+rows.length*46,padL=170,padR=70,padT=16,padB=26;
+  const svg=base(id,W,H);
+  let vals=rows.map(r=>r.v);if(opt.vline!=null)vals.push(opt.vline);
+  const hi=Math.max.apply(null,vals)*1.06,lo=0;
+  const X=v=>padL+(W-padL-padR)*(v-lo)/(hi-lo);
+  rows.forEach((r,i)=>{
+    const y=padT+i*46+8,bh=26;
+    el('rect',{x:padL,y:y,width:Math.max(2,X(r.v)-padL),height:bh,fill:r.color||'#2563eb',rx:4,opacity:r.opacity||1},svg);
+    txt(svg,padL-8,y+bh/2+4,r.name,{anchor:'end',size:11,fill:'#374151',weight:r.bold?'700':'normal'});
+    txt(svg,X(r.v)+6,y+bh/2+4,fmtW(r.v)+(r.suffix||''),{anchor:'start',size:10.5,fill:r.color||'#2563eb',weight:'700'});
+  });
+  if(opt.vline!=null){const x=X(opt.vline);
+    el('line',{x1:x,x2:x,y1:padT-4,y2:H-padB+4,stroke:'#ef4444','stroke-width':1.6,'stroke-dasharray':'6 4'},svg);
+    txt(svg,x,H-padB+18,opt.vlineLabel||'',{size:10.5,fill:'#ef4444',weight:'700'});}
+}
+function legend(svg,series,x,y){let cx=x;series.forEach(s=>{
+  el('rect',{x:cx,y:y-8,width:10,height:10,fill:s.color,rx:2},svg);
+  const t=txt(svg,cx+14,y+1,s.name,{anchor:'start',size:10,fill:'#4b5563'});
+  cx+=14+s.name.length*10.5+18;});}
+
+/* ============ 数据(全部可在 CSV/推导.md 复核) ============ */
+// ① 年度营收 & Non-IFRS 归母
+lineChart('c1',
+  ['2014','2015','2016','2017','2018','2019','2020','2021','2022','2023','2024','2025','2026E'],
+  [{name:'营收(亿)',color:'#2563eb',data:[789,1029,1519,2378,3127,3773,4821,5601,5546,6090,6603,7518,null],showVals:true,labelEvery:3},
+   {name:'Non-IFRS 归母(亿)',color:'#f59e0b',data:[219,324,454,651,775,944,1227,1238,1156,1577,2227,2596,null],showVals:true,labelEvery:3},
+   {name:'P₁=2,715(2026E)',color:'#f59e0b',dash:'5 4',data:[null,null,null,null,null,null,null,null,null,null,null,2596,2715],showVals:false}]);
+// ② 分部收入
+lineChart('c2',
+  ['2019','2020','2021','2022','2023','2024','2025'],
+  [{name:'增值服务',color:'#6366f1',data:[2000,2642,2916,2876,2984,3192,3693],showVals:true,labelEvery:2},
+   {name:'金融科技及企业服务',color:'#f97316',data:[1014,1281,1722,1771,2038,2120,2294],showVals:true,labelEvery:2},
+   {name:'营销服务',color:'#10b981',data:[684,823,887,827,1015,1214,1450],showVals:true,labelEvery:2}]);
+// ③ 季度
+barChart('c3',['Q2 2025','Q1 2026','Q2 2026'],
+  [{name:'收入(亿)',color:'#2563eb',data:[1845,1965,2048]},
+   {name:'Non-IFRS 归母(亿)',color:'#f59e0b',data:[631,679,684]}]);
+// ④ 递延收入
+lineChart('c4',
+  ['2019末','2020末','2021末','2022末','2023末','2024末','2025-06','2025末','2026-06'],
+  [{name:'递延收入合计(亿)',color:'#0ea5e9',data:[683,895,924,857,896,1063,1253,1125,1358],showVals:true,labelEvery:1}]);
+// ⑤ 毛利率
+lineChart('c5',
+  ['2018','2019','2020','2021','2022','2023','2024','2025',"H1'26"],
+  [{name:'毛利率 %',color:'#16a34a',data:[45.4,44.4,46.0,43.9,43.1,48.1,52.9,56.2,57.2],showVals:true,labelEvery:1,vfmt:v=>v.toFixed(1)}],
+  {forceZero:false,yfmt:v=>v.toFixed(0)+'%'});
+// ⑥ capex vs OCF
+barChart('c6',['2024','2025',"2026 H1(半年!)"],
+  [{name:'经营现金流(亿)',color:'#2563eb',data:[2585,3031,1541]},
+   {name:'资本开支·公告口径(亿)',color:'#ef4444',data:[768,792,847]}]);
+// ⑦ FCF 瀑布
+waterfall('c7',
+  [{name:'经营现金流',v:527},{name:'资本开支付款',v:-593},{name:'媒体内容付款',v:-50},{name:'租赁付款',v:-22},{name:'自由现金流',v:-138,total:true}],
+  {refline:376,refLabel:'剔算力预付款口径 +376'});
+// ⑧ AI 拖累
+barChart('c8',['Q1 2026','Q2 2026'],
+  [{name:'新 AI 产品拖累(亿/季)',color:'#f97316',data:[86,105]}]);
+// ⑨ 净现金
+lineChart('c9',
+  ['2025-03','2025-06','2025-12','2026-03','2026-06'],
+  [{name:'净现金(亿)',color:'#0891b2',data:[902,746,1071,1469,582],showVals:true,labelEvery:1}]);
+// ⑩ 估值阶梯
+hbar('c10',
+  [{name:'买点 @ g=6%(初版)',v:44462,color:'#cbd5e1'},
+   {name:'买点 @ g=3%(修订2)',v:40793,color:'#94a3b8'},
+   {name:'买点 @ g=0%(定稿)',v:37331,color:'#2563eb',bold:true},
+   {name:'当时市值(440 港元)',v:34847,color:'#ef4444',bold:true},
+   {name:'市价隐含 P₃≈2,534 对应',v:34847,color:'#fca5a5',opacity:0.7}],
+  {vline:34847,vlineLabel:'市值 34,847 亿'});
+</script>
+</body>
+</html>
