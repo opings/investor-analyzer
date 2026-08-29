@@ -35,6 +35,7 @@
 | 云铝股份 | 000807 | 云南铝业 / 云铝 |
 | 华致酒行 | 300755 | 华致 / Vats Liquor |
 | 拼多多 | PDD | PDD Holdings / Pinduoduo Inc.(旧名) / Temu / 多多买菜 / 拼好货(前身) |
+| 福耀玻璃 | 600660 | 福耀 / 3606(H股) / Fuyao Glass / FYG / 福耀集团 |
 
 ## 约定
 
