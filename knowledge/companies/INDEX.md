@@ -34,6 +34,7 @@
 | spacex | SPCX | SpaceX / Space Exploration Technologies / 星链 / Starlink / xAI / X(原Twitter·2026-02 起并入报告主体) |
 | 云铝股份 | 000807 | 云南铝业 / 云铝 |
 | 华致酒行 | 300755 | 华致 / Vats Liquor |
+| 拼多多 | PDD | PDD Holdings / Pinduoduo Inc.(旧名) / Temu / 多多买菜 / 拼好货(前身) |
 
 ## 约定
 
