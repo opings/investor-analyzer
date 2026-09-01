@@ -1,0 +1,63 @@
+# 单位:千美元;流入+/流出−;覆盖2020-2025;稳定币持有人存款变动列在融资活动(美国同业惯例);2020-21 若干 S-4 单列项按 2022+ 口径归并(归并规则见脚本内注记·分项和=净额勾稽闭环);来源同利润表
+科目,2020,2021,2022,2023,2024,2025
+净利润 Net income (loss) (2026中报起为持续经营净利),3790,-508206,-768847,267562,155667,-69518
+折旧摊销 Depreciation and amortization,4500,3945,13277,34887,50854,76627
+AFS债券溢折价摊销 Accretion of premium on AFS debt securities,0,11112,-353422,-7738,-2268,0
+数字资产已实现/未实现损益 Realized & unrealized (gains) losses on digital assets,,,269277,-13010,-12878,-18223
+数字资产减值损失 Digital assets impairment loss,1256,38256,,,,
+"可转债/权证/内嵌衍生品公允价值变动 Change in FV of convertible debt, warrants & embedded derivatives",3701,389908,486938,-25343,-10024,71422
+服务取得数字资产 Digital assets received for services,-791,-3377,-7235,-4476,-1500,-28567
+服务取得股权证券 Equity securities received for services,-421,-791,,,,-3302
+递延税 Deferred taxes,4187,-4733,-786,-32893,-2806,-2153
+AFS债券及战略投资已实现/未实现损益 (gains) losses on AFS & strategic investments,-13390,-4630,26877,1749,-434,-294
+长期资产出售损益 (Gains) losses on sale of long-lived assets,,,,-21521,73,22
+债务清偿收益 Gain on extinguishment of debt,-33158,0,,,,
+SPAC终止对价股份 Shares issued for merger termination,,,15520,,,
+汇率重计量损益 Foreign currency remeasurement losses (gains),,,,1428,-565,7790
+股权激励费用 Stock-based compensation,3583,20824,69266,107999,50134,566177
+普通股权证计提 Provision for warrants in common stock,,,,,,23592
+Circle基金会捐赠 Charitable contributions to Circle Foundation,,,,,,23149
+其他非现金及一次性项目 Other non-cash & one-off items (2020-21含多笔处置/抵押收益·归并明细见脚本注记),-2310,-28410,5547,3383,887,4936
+经营性资产负债变动-应收账款 Accounts receivable,-676,-21113,18735,2244,-4569,-39379
+经营性资产负债变动-预付及其他流动资产 Prepaid & other current assets,-859,-14304,-77571,-51161,-21764,-146502
+经营性资产负债变动-应付及应计 Accounts payable and accrued expenses,15532,29667,227300,-123833,132878,81237
+经营性资产负债变动-其他流动负债/递延收入 Other current liabilities / deferred revenue,133,-473,2431,291,10891,-4885
+经营活动现金流量净额 Net cash provided by (used in) operating activities,-14923,-92325,-72693,139568,344576,542129
+购买AFS债券 Purchase of AFS debt securities,0,-15695264,-102850973,-311639,-99313,0
+出售/到期AFS债券 Sales and maturities of AFS securities,0,15676545,94442236,8827550,341561,0
+业务/资产处置收回 Proceeds from divestitures (Poloniex/Circle Invest/discontinued),10858,3000,1000,,,
+权益法关联方并入取得现金 Cash acquired from acquisition of equity method affiliate (Centre),,,,1629,,
+出售股权证券/投资收回 Proceeds from sale of equity securities & investments,,25988,,1107,739,1426
+购买投资 Purchase of investments,,-24022,-16032,-2661,-4265,-9291
+"并购净现金流出 Business combinations & acquisition consideration, net of cash",-21846,-12305,-43456,,,-7734
+出售数字资产收回/购买 Proceeds from sale / (purchase) of digital assets,-3906,5080,0,27301,4805,196
+资本化软件开发支出 Capitalization of software development costs,-3177,-6813,-18315,-32862,-39098,-56200
+购置长期资产 Purchase of long-lived / fixed assets,0,-1059,-3050,-654,-18128,-12432
+其他投资活动 Other investing (fixed asset sales),137,0,,,,
+投资活动现金流量净额 Net cash provided by (used in) investing activities,-17934,-28850,-8488590,8509771,186301,-84035
+稳定币持有人存款净变动 Net changes in deposits held for stablecoin holders (2020-21含客户存款),3499489,38283027,2176756,-20322155,19452147,31139764
+购买库存股 Purchase of treasury stock,,,0,-8745,0,0
+"IPO及增发净募资 Proceeds from IPO & follow-on offering, net",,,,,,1013097
+发行优先股 Proceeds from issuance of preferred stock (Series F),,,400999,,,
+发行可转债 Issuance of convertible notes,0,451025,,,,
+借款净变动 Loans (Genesis/PPP proceeds & repayments),26758,-12488,,,,
+RSU结算代扣税款 Payment of withholding taxes on RSU settlement,,,,,,-269732
+少数股东注资 Capital contribution from noncontrolling interest,,,,,,1472
+资本化交易成本 Capitalized transaction costs,,,,0,-3870,0
+行权发行普通股 Proceeds from exercise of stock options / common stock,689,482,486,1037,1614,51759
+融资活动现金流量净额 Net cash provided by (used in) financing activities,3526936,38722046,2578241,-20329863,19449891,31936360
+汇率变动影响 Effect of exchange rate changes,165,137,3620,1097,-7099,57675
+现金等价物中AFS债券未实现损益 Unrealized g/(l) on AFS debt securities classified as cash equivalents,,,136,-254,-224,0
+"现金及受限隔离现金净变动 Net increase (decrease) in cash, restricted & segregated cash",3494244,38601008,-5979286,-11679681,19973445,32452129
+期初现金及受限隔离现金 Beginning of period,557874,4052118,42653126,36673840,24994159,44967604
+期末现金及受限隔离现金 End of period,4052118,42653126,36673840,24994159,44967604,77419733
+——期末构成: 现金及现金等价物,26421,161564,664650,368623,750981,1526046
+——期末构成: 受限现金,961,20959,15914,3575,3558,2792
+——期末构成: 隔离现金-公司自持稳定币,,,5311,275809,294493,822963
+——期末构成: 隔离现金-稳定币持有人(2020-21含客户),4024736,42470603,35987965,24346152,43918572,75067932
+补充披露: 已付所得税现金 Cash paid for income taxes,0,30,7424,81037,75579,13330
+补充披露: 已付利息现金 Cash paid for interest,380,0,350,253,258,180
+非现金: 可转债转股 Conversion of convertible debt,,,,0,14967,89003
+非现金: 并购/资产收购股份对价 Non-cash consideration for acquisitions,,,-141618,-209938,0,-92294
+非现金: 资本化股权激励(内部开发软件) Capitalized SBC related to internally developed software,,,6262,13118,13646,86905
+非现金: 优先股转普通股(IPO) Preferred converted to common at IPO,,,,,,1140502

@@ -1,0 +1,55 @@
+# 单位:千美元;覆盖2020-2025;2022列=部分科目(FY2022资产负债表全表无一手披露·仅权益表+现金流尾注可得,恒等式勾稽跳过该年);2024列取10-K口径(归还抵押义务570并入其他流动负债);来源同利润表
+科目,2020,2021,2022,2023,2024,2025
+现金及现金等价物 Cash and cash equivalents,26421,161564,664650,368623,750981,1526046
+隔离现金-公司自持稳定币 Segregated for corporate-held stablecoins,,,5311,275809,294493,822963
+隔离现金-稳定币持有人 Segregated for the benefit of stablecoin holders,,,35987965,24346152,43918572,75067932
+隔离现金-客户及稳定币持有人(2020-21合并口径) Segregated for customers and stablecoin holders,4024735,42470603,,,,
+短期投资 Short-term investments,13631,0,,,,
+"AFS债券-流动 Available-for-sale debt securities, current",,,,152183,0,
+"应收账款净额 Accounts receivable, net",1590,22703,,1940,6418,62866
+"稳定币应收净额 Stablecoins (USDC) receivable, net",,154837,,22559,6957,0
+客户数字资产保障资产 Assets related to safeguarding obligations,67598,738365,,,,
+"待收处置对价-流动 Divestment consideration receivable, current",3000,1000,,,,
+预付及其他流动资产 Prepaid expenses and other current assets,5922,23163,,146645,187528,321660
+流动资产合计 Total current assets,4142897,43572235,,25313911,45164949,77801467
+受限现金 Restricted cash,961,20959,15914,3575,3558,2792
+"待收处置对价-非流动 Divestment consideration receivable, non-current",2000,1000,,,,
+"AFS债券-非流动 Available-for-sale debt securities, non-current",,,,87940,0,
+投资 Investments (2020-21列名 Long-term investments),2307,28233,,75874,84114,84265
+"固定资产净额 Fixed assets, net",443,1225,,2619,18682,22791
+数字资产 Digital assets,4665,242073,,11339,31330,86515
+商誉 Goodwill,24014,24014,,169544,169544,265742
+"无形资产净额 Intangible assets, net",3462,6606,,327381,331394,411146
+"递延税资产净额 Deferred tax assets, net",,,,0,10223,11110
+其他非流动资产 Other non-current assets,,,,4400,20615,27379
+资产总计 Total assets,4180749,43896345,,25996583,45834409,78713207
+应付账款及应计费用 Accounts payable and accrued expenses,23678,53343,,152586,287007,360609
+递延收入(单列期) Deferred revenue,888,415,,,,
+"借款-流动 Loans payable, current",1758,24039,,,,
+"可转债-流动 Convertible debt, current",10740,0,,,0,36821
+"收购应付-流动 Acquisition payables, current",2371,0,,,,
+USDC借入 USDC borrowed,,154837,,,,
+归还数字资产抵押义务 Obligations to return digital asset collateral,,191810,,4662,,
+客户数字资产保障义务 Obligations related to safeguarding digital assets,67598,738365,,,,
+稳定币持有人存款 Deposits from stablecoin holders (2020-21含客户存款),4021292,42316946,,24276065,43727363,74912567
+其他流动负债 Other current liabilities (2024含归还抵押义务570·10-K口径),,,,4225,16597,18398
+流动负债合计 Total current liabilities,4128325,43479755,,24437538,44030967,75328395
+"可转债-非流动 Convertible debt, non-current",19874,904122,,58487,40717,0
+"借款-非流动 Loans payable, non-current",24800,0,,,,
+递延租金 Deferred rent,411,301,,,,
+"递延税负债净额 Deferred tax liabilities, net",4733,0,,19616,29559,28702
+"收购应付-非流动 Acquisition payables, non-current",9905,0,,,,
+权证负债 Warrant liability,212,1349,,1642,1591,0
+其他非流动负债 Other non-current liabilities,,,,8569,21281,25337
+非流动负债合计 Total non-current liabilities,59935,905772,,88314,93148,54039
+负债合计 Total liabilities,4188260,44385527,,24525852,44124115,75382434
+可赎回可转优先股(夹层) Redeemable convertible preferred stock,279002,279226,1131260,1131260,1139765,0
+普通股/A类普通股 Common / Class A common stock,4,5,5,6,6,24
+B类普通股 Class B common stock,,,,,,2
+库存股 Treasury stock at cost,-2877,-2877,-2877,-2877,-2877,-2721
+资本公积 Additional paid-in capital,91798,113103,1399612,1723020,1792969,4610216
+累计亏损 Accumulated deficit,-374920,-883350,-1652197,-1385607,-1223213,-1292709
+累计其他全面收益 Accumulated other comprehensive income (loss),-518,4711,3356,4929,3644,14515
+归母权益 Total stockholders' equity attributable to common stockholders,-286513,-768408,-252101,339471,570529,3329327
+少数股东权益 Noncontrolling interests,,,,,,1446
+股东权益合计 Total stockholders' equity (deficit),-286513,-768408,-252101,339471,570529,3330773

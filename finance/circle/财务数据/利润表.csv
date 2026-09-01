@@ -1,0 +1,43 @@
+# 单位:千美元(USD thousands·与SEC申报印刷一致);费用/损失=负数;EPS=美元/股;覆盖2020-2025;来源:一手申报印刷报表逐行转录(S-4/A 2022-11-14→FY2020-21·424B4 2025-06-05→FY2022·10-K FY2025→FY2023-25·report/circle/);FY2023-25 经 SEC XBRL companyfacts 逐格独立核;2020-21与2022+收入/成本列报口径不同(断点见README)
+科目,2020,2021,2022,2023,2024,2025
+储备收入 Reserve income (2020-21列名为 Reserve interest income),4435,28464,735885,1430606,1661084,2636822
+交易与财资服务收入 Transaction and Treasury services (2020-21旧口径),2589,47547,,,,
+其他收入 Other revenue,8417,8866,36167,19860,15169,109820
+营业总收入 Total revenue and reserve income,15441,84877,772052,1450466,1676253,2746642
+分销与交易成本 Distribution and transaction costs (2020-21为 Reserve income sharing and transaction costs),-2826,-11890,-286953,-719806,-1010811,-1661549
+交易与财资服务成本 Transaction and Treasury services costs (2020-21旧口径),-785,-30731,,,,
+其他成本 Other costs,,,-22401,-7918,-6553,-2102
+"分销交易及其他成本合计 Total distribution, transaction and other costs",-3611,-42621,-309354,-727724,-1017364,-1663651
+薪酬费用 Compensation expenses,-18932,-68170,-212961,-296055,-263410,-844878
+一般及行政费用 General and administrative expenses,-13916,-31125,-82272,-100128,-137283,-190272
+折旧摊销费用 Depreciation and amortization expenses,-4500,-3945,-13277,-34887,-50854,-76627
+IT基础设施成本 IT infrastructure costs,-3716,-5379,-11835,-20722,-27109,-36638
+营销费用 Marketing expenses,-400,-13697,-78839,-36544,-17326,-25718
+无形资产出售收益 Gain on sale of intangible assets,,,,21634,,
+SPAC合并终止费用 Merger termination expenses (Concord),,,-44194,,,
+数字资产损益及减值 Digital assets (losses)/gains and impairment,-1256,-6038,-57436,13488,4251,-5293
+营业费用合计 Total operating expenses,-42720,-128354,-500814,-453214,-491731,-1179426
+持续经营营业利润 Operating income (loss) from continuing operations,-30890,-86098,-38116,269528,167158,-96435
+"其他收益(费用)净额 Other income (expense), net",13692,-417761,-720393,49421,54416,-6458
+除税前利润 Net income (loss) from continuing operations before income taxes,-17198,-503859,-758509,318949,221574,-102893
+所得税(费用)收益 Income tax (expense) benefit,-115,-4854,-3263,-47400,-64583,33375
+持续经营净利润 Net income (loss) from continuing operations,-17313,-508713,-761772,271549,156991,-69518
+终止经营净损益 Income (loss) from discontinued operations,21103,507,-7075,-3987,-1324,0
+——其中 Circle Trade (终止经营),-58,1650,,,,
+——其中 Circle Invest (终止经营·2020含处置收益0.6M),730,28,,,,
+——其中 Poloniex (终止经营),20431,-1171,,,,
+净利润 Net income (loss),3790,-508206,-768847,267562,155667,-69518
+少数股东损益 Net loss attributable to noncontrolling interests,,,,,,-10
+归母净利润 Net income (loss) attributable to common stockholders,3790,-508206,-768847,267562,155667,-69508
+"——外币折算差异(OCI) FX translation adjustment, net of tax",165,137,625,1460,-1899,10904
+"——AFS债券未实现损益(OCI) Unrealized g/(l) on AFS debt securities, net of tax",0,120,1175,-1069,-226,0
+"——可转债信用风险未实现损益(OCI) Unrealized g/(l) on convertible notes – credit risk, net of tax",0,4972,-3155,1182,840,-49
+"OCI合计 Total other comprehensive income (loss), net of tax",165,5229,-1355,1573,-1285,10855
+OCI归少数股东 OCI attributable to NCI,,,,,,-16
+OCI归母 OCI attributable to common stockholders,165,5229,-1355,1573,-1285,10871
+全面收益(归母) Comprehensive income (loss) attributable to common stockholders,3955,-502977,-770202,269135,154382,-58637
+基本每股收益(美元) Basic EPS,0,-11.46,-16.48,0.95,0.33,-0.44
+稀释每股收益(美元) Diluted EPS,0,-11.46,-16.48,0.78,0.3,-0.44
+基本每股收益-持续经营(美元) Basic EPS - continuing ops,0,-11.47,-16.33,0.95,0.33,-0.44
+加权平均股数-基本(千股) Weighted-avg shares basic,36089.496,44347.508,46663,47265,54413,158699
+加权平均股数-稀释(千股) Weighted-avg shares diluted,51850.396,44347.508,46663,67549,73042,158699

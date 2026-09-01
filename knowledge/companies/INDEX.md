@@ -39,6 +39,7 @@
 | 上海耀皮 | 600819 | 耀皮玻璃 / 耀皮 / 900918(B股·耀皮B) / 上海耀皮玻璃集团 / 上海耀华皮尔金顿玻璃(2011 年前旧名) / SYP |
 | AGC旭硝子 | 5201 | AGC / AGC Inc. / 旭硝子(2018 年前旧名) / Asahi Glass / 艾杰旭(中国名) / 5201.T(东证) |
 | NSG板硝子 | 5202 | NSG / 日本板硝子 / Nippon Sheet Glass / 板硝子 / 5202.T(东证) / 皮尔金顿(Pilkington·2006 年起全资子公司) / 日米板硝子(1931 年前旧名) |
+| circle | CRCL | Circle Internet Group / Circle Internet Financial(2024-07 前爱尔兰旧主体) / USDC(主产品) / EURC / USYC / Arc(自建L1链) / Circle Reserve Fund(USDXX·储备基金) |
 
 ## 约定
 
