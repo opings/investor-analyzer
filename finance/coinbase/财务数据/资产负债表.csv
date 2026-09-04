@@ -1,0 +1,52 @@
+单位:千美元(USD thousands);费用/流出=负数;空=该年申报 presentation 无此科目
+各年 canonical 来源(as-reported):2019=424B4(2021-04-14) F-4/F-6/F-8 | 2020=424B4(2021-04-14) F-4/F-6/F-8 | 2021=10-K FY2021 P117/118/121 | 2022=10-K FY2022 P127/129/131 | 2023=10-K FY2023 P125/126/129 | 2024=10-K FY2024 P120/121/124 | 2025=10-K FY2025 P116/117/120
+⚠️ 三大口径断点见 重述与口径变更.csv:A=SAB121→122(2022-2023 表内保管客户加密资产) B=客户托管资金流经营↔融资重分类(2020/2021) C=支付稳定币改记现金等价物(2023/2024 追溯)
+科目,2019,2020,2021,2022,2023,2024,2025
+【资产】现金及现金等价物 Cash and cash equivalents,548945,1061850,7123478,4425021,5139351,8543903,11285452
+受限现金(及等价物) Restricted cash (and cash equivalents),34122,30787,30951,25873,22992,38519,334318
+USDC(2019-2024 单列·FY2025 起并入现金等价物),88429,48938,100096,861149,576028,1241808,
+客户托管资金 Customer custodial funds,1201350,3763392,10526233,5041119,4570845,6158949,5347428
+保管客户加密资产 Safeguarding customer crypto assets(SAB121·仅2022-2023),,,,75413188,192583060,,
+经营用加密资产 Crypto assets held for operations,,,,,,82781,120831
+贷款应收 Loan receivables,,,,,,475370,1354692
+作为抵押品的加密资产 Crypto assets held as collateral,,,,,,767484,822827
+借入的加密资产 Crypto assets borrowed,,,,,,261052,318849
+"应收账款净额 Accounts receivable, net",17496,,,,,265251,307119
+"应收账款及贷款净额 Accounts and loans receivable, net(合并列示年份)",,189471,396025,404376,361715,,
+可交易投资 Marketable investments,,,,,,,309765
+应收所得税 Income tax receivable,74171,,61231,60441,63726,,
+预付费用及其他流动资产 Prepaid expenses and other current assets,22433,39510,135849,217048,148814,277536,187164
+流动资产合计 Total current assets,1986946,5133948,18373863,86448215,203466531,18112653,20388445
+持有的加密资产 Crypto assets held(ASU2023-08 前合并列示),33932,316094,988193,424393,449925,,
+投资用加密资产 Crypto assets held for investment(ASU2023-08 后·公允价值),,,,,,1552995,1998871
+战略投资 Strategic investments,,,,,,,622985
+递延所得税资产 Deferred tax assets,,,,,1272233,941298,570819
+租赁使用权资产 Lease right-of-use assets,123386,100845,98385,69357,12737,,
+"固定资产净额 Property and equipment, net / Software and equipment, net",47117,49250,59230,171853,192550,200080,264573
+商誉 Goodwill,54696,77212,625758,1073906,1139670,1139670,4168967
+"无形资产净额 Intangible assets, net",70137,60825,176689,135429,86422,46804,1397794
+其他非流动资产 Other non-current assets,75555,117240,952307,1401720,362885,548451,259378
+总资产 Total assets,2391769,5855414,21274425,89724873,206982953,22541951,29671832
+【负债】应付客户托管资金 Custodial funds due to customers / Customer custodial fund liabilities,1106815,3849468,10480612,4829587,4570845,6158949,5347428
+保管客户加密负债 Safeguarding customer crypto liabilities(SAB121·仅2022-2023),,,,75413188,192583060,,
+应付账款 Accounts payable,,12031,39833,56043,39294,63316,117605
+应付账款及应计费用 Accounts payable and accrued expenses(2019 合并列示),45453,,,,,,
+应计费用及其他流动负债 Accrued expenses and other current liabilities,,88783,439559,331236,447050,626820,687676
+其他流动负债 Other current liabilities(2019 单列),47401,,,,,,
+加密资产借款 Crypto asset borrowings,,271303,426665,151505,62980,300110,
+短期借款 Short-term borrowings,,,,,,,452105
+长期债务-一年内到期 Current portion of long-term debt,,,,,,,1269585
+应返还抵押品义务 Obligation to return collateral,,,,,,792125,826883
+"租赁负债-流动 Lease liabilities, current",23775,25270,32366,33734,10902,,
+流动负债合计 Total current liabilities,1223444,4246855,11419035,80815293,197714131,7941320,8701282
+"租赁负债-非流动 Lease liabilities, non-current",106542,82508,74078,42044,3821,,
+长期债务 Long-term debt,,,3384795,3393448,2979957,4234081,5937034
+其他非流动负债 Other non-current liabilities,,,14828,19531,3395,89708,240458
+总负债 Total liabilities,1329986,4329363,14892736,84270316,200701304,12265109,14878774
+可转换优先股(夹层) Convertible preferred stock,564697,562467,,,,,
+"普通股面值 Common stock (Class A+B, par)",0,0,2,2,2,2,3
+资本公积 Additional paid-in capital,93820,231024,2034658,3767686,4491571,5365990,8566854
+累计其他综合收益(损失) AOCI,-721,6256,-3395,-38606,-30270,-50051,4973
+留存收益 Retained earnings,403987,726304,4350424,1725475,1820346,4960901,6221228
+股东权益合计 Total stockholders' / shareholders' equity,497086,963584,6381689,5454557,6281649,10276842,14793058
+负债+夹层+权益合计 Total L + mezzanine + E,2391769,5855414,21274425,89724873,206982953,22541951,29671832

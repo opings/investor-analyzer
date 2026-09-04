@@ -1,0 +1,84 @@
+单位:千美元(USD thousands);费用/流出=负数;空=该年申报 presentation 无此科目
+各年 canonical 来源(as-reported):2019=424B4(2021-04-14) F-4/F-6/F-8 | 2020=424B4(2021-04-14) F-4/F-6/F-8 | 2021=10-K FY2021 P117/118/121 | 2022=10-K FY2022 P127/129/131 | 2023=10-K FY2023 P125/126/129 | 2024=10-K FY2024 P120/121/124 | 2025=10-K FY2025 P116/117/120
+⚠️ 三大口径断点见 重述与口径变更.csv:A=SAB121→122(2022-2023 表内保管客户加密资产) B=客户托管资金流经营↔融资重分类(2020/2021) C=支付稳定币改记现金等价物(2023/2024 追溯)
+科目,2019,2020,2021,2022,2023,2024,2025
+【经营】净利润 Net income (loss),-30387,322317,3624120,-2624949,94871,2579066,1260327
+折旧与摊销 Depreciation and amortization,16878,30962,63651,154069,139642,127518,188428
+股权薪酬费用 Stock-based compensation expense,31147,70548,820685,1565823,780668,912838,839440
+重组相关股权薪酬 Restructuring stock-based compensation,,,,,84042,,
+减值费用(合并列示) Impairment expense,2252,8355,329652,,,,
+加密资产减值费用 Crypto asset impairment expense(ASU2023-08 前),,,,757257,96783,,
+投资减值费用 Investment impairment expense,,,,101445,29375,18717,
+其他减值费用 Other impairment expense,,,,26518,18793,,
+递延所得税 Deferred income taxes,-20903,474,-558329,-468035,-216334,151315,238308
+经营性加密资产损益 (Gains) losses on crypto held for operations,,,,,,-71725,20704
+投资性加密资产损益 (Gains) losses on crypto held for investment,,,,,,-687055,528857
+"投资(收益)损失净额 (Gains) losses on investments, net",245,150,-20138,3056,-50121,,-680520
+"债务清偿收益净额 Gains on extinguishment of long-term debt, net",,,,,-117383,,
+加密资产已实现损益 Realized (gain) loss on crypto assets(ASU2023-08 前),5662,-23682,-178234,-36666,-145594,,
+加密资产作为收入收取(非现金) Crypto assets received as revenue(ASU2023-08 前),-11408,-94158,-1015920,-470591,-460878,,
+以加密资产支付费用(非现金) Crypto asset payments for expenses(ASU2023-08 前),11622,40205,815783,383221,298255,,
+交易损失及坏账计提 Provision for transaction losses and doubtful accounts,-4679,-2966,22390,-13051,11059,,
+非现金租赁费用 Non-cash lease expense,13323,25012,34542,31123,40429,,
+衍生品公允价值(收益)损失 Fair value (gain) loss on derivatives,,5254,-32056,7410,-41033,,
+外汇未实现(收益)损失 Unrealized (gain) loss on foreign exchange,-3106,1057,-14944,28516,17190,,
+处置固定资产(收益)损失 Loss (gain) on disposal of property and equipment,9073,355,1425,-58,,,
+或有对价公允价值变动 Change in fair value of contingent consideration,,3281,-924,-8312,,,
+债务折价及发行费摊销 Amortization of debt discount and issuance costs,,,5031,9253,,,
+"其他经营活动净额 Other operating activities, net",,,,,16981,4172,62246
+营运资本:USDC,35303,37936,-77471,-848138,,,
+营运资本:应收账款(及贷款) Accounts (and loans) receivable,30703,-157156,-8016,-141023,,,-1983
+营运资本:在途存款/客户托管资金在途 Deposits / customer custodial funds in transit,,,,28952,,,57152
+"营运资本:所得税净额 Income taxes, net",-1912,86791,-62145,1906,,,-147449
+营运资本:其他流动及非流动资产 Other current and non-current assets,-38594,-48677,-20060,19237,,,-47228
+营运资本:应付客户托管资金(**经营口径**·仅 2019-2021 as-reported) Custodial funds due to customers,-130122,2710522,6691859,,,,
+营运资本:应付账款(及应计费用) Accounts payable (and accrued expenses),-788,20837,27330,18612,,,
+营运资本:租赁负债 Lease liabilities,-11025,-24998,-20596,-10223,,,
+营运资本:其他流动及非流动负债 Other current and non-current liabilities,16122,-8349,302396,-100771,,,108101
+营运资本变动合计(印刷单行·仅 2023/2024) Net changes in operating assets and liabilities,,,,,326206,-478002,
+经营活动现金流净额(当年原披露) Net cash provided by (used in) operating activities,-80594,3004070,10730031,-1585419,922951,2556844,2426383
+【投资】购建固定资产 Purchase of property and equipment,-33521,-9913,-2910,-2933,,,
+处置固定资产所得 Proceeds from sale of property and equipment,2293,,31,83,,,
+资本化内部开发软件(现金) Capitalized internal-use software development costs,-6950,-8889,-22073,-61038,-63202,,
+"业务并购净现金 Business combinations, net of cash acquired",-5698,33615,-70911,-186150,-30730,,-742038
+购买投资 Purchase of investments,-7938,-10329,-326513,-63048,-11822,,-377426
+处置/结算投资 Dispositions / settlement of investments,374,303,5159,1551,,,490298
+资产收购 Asset acquisition,-55389,,,,,,
+购买人才团队 Purchase of assembled workforce,,,-60800,,,,
+发放贷款 Loans originated (fiat / all),,,-336189,-207349,-586691,-1700055,-12453223
+贷款回收 Proceeds from repayment of loans,,,124520,327539,513698,1488500,11664530
+质押抵押品 Assets pledged as collateral,,,,-41630,-27899,,-16009
+质押抵押品返还 Assets pledged as collateral returned,,,,,68338,,16188
+购买加密资产 Purchase of crypto assets held(ASU2023-08 前),-271266,-528080,-3009086,-1400032,-277367,,
+处置加密资产 Disposal of crypto assets held(ASU2023-08 前),272742,574115,2574032,969185,461325,,
+购买投资用加密资产 Purchases of crypto assets held for investment,,,,,,,-787821
+处置投资用加密资产 Dispositions of crypto assets held for investment,,,,,,,266546
+加密期货合约结算 Settlement of crypto futures contract,,,,,-43339,,
+"其他投资活动净额 Other investing activities, net",,,,,3081,-70830,-110595
+投资活动现金流净额(当年原披露) Net cash provided by (used in) investing activities,-105353,50822,-1124740,-663822,5392,-282385,-2049550
+"【融资】期权行权发行普通股净额 Issuance of common stock upon exercise of stock options, net",4353,20731,217064,51497,47944,126140,78286
+回购股权激励支付现金 Cash paid to repurchase equity awards,-20958,-1930,,,,,
+认股权证行权 Issuance of shares from exercise of warrants,,,433,,,,
+ESPP 所得 Proceeds received under the ESPP,,,19889,20848,16297,,
+股权激励净额结算代缴税款 Taxes paid related to net share settlement of equity awards,,,-262794,-351867,-277798,-117225,-402791
+"发行可转换优先票据净额 Issuance of convertible senior notes, net",,,1403753,,,1246025,2957135
+"发行高级票据净额 Issuance of senior notes, net",,,1976011,,,,
+购买上限看涨期权 Purchases of capped calls,,,-90131,,,-104110,-224250
+偿还长期债务 Repayment of long-term debt,,,,,-303533,,
+回购普通股 Repurchase of common stock,,,,,,,-790195
+客户托管资金负债变动(**融资口径**·2022 起) Customer custodial (cash) fund liabilities,,,,-5562558,-274822,1638087,-936205
+收取客户抵押品 Customer / fiat collateral received,,,,,66014,567806,871389
+返还客户抵押品 Customer / fiat collateral returned,,,,,-64952,-544228,-891967
+短期借款所得 Proceeds from short-term borrowings,,,20000,190956,31640,,626428
+短期借款偿还 Repayments of short-term borrowings,,,,-191073,-52122,,-580664
+"其他融资活动净额 Other financing activities, net",,,,3679,,16426,33116
+融资活动现金流净额(当年原披露) Net cash provided by (used in) financing activities,-16605,18801,3284225,-5838518,-811332,2828921,740282
+现金净增(减) Net increase (decrease) in cash,-202552,3073693,12889516,-8087759,117011,5103380,1117115
+汇率影响 Effect of exchange rates on cash,-170,-2081,-64883,-163257,8772,-48367,92850
+"期初现金(含受限及客户托管现金) Cash, beginning of period",1987139,1784417,4856029,17680662,9429646,9555429,15683455
+"期末现金(含受限及客户托管现金) Cash, end of period",1784417,4856029,17680662,9429646,9555429,14610442,16893420
+对账:现金及现金等价物 Recon: Cash and cash equivalents,548945,1061850,7123478,4425021,5139351,8543903,11285452
+对账:受限现金 Recon: Restricted cash,34122,30787,30951,25873,22992,38519,334318
+对账:客户托管现金 Recon: Customer custodial cash,1201350,3763392,10526233,4978752,4393086,6028020,5273650
+补充:已付利息 Cash paid for interest,0,0,3793,82399,76142,,
+补充:已付所得税 Cash paid for income taxes,2165,62060,68614,35888,39122,,
