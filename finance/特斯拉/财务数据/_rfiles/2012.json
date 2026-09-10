@@ -1,0 +1,1061 @@
+{
+ "fy": 2012,
+ "acc": "0001193125-13-096241",
+ "statements": {
+  "BS": {
+   "file": "R2.htm",
+   "short": "Consolidated Balance Sheets",
+   "unit": "Consolidated Balance Sheets (USD $) In Thousands, unless otherwise specified",
+   "periods": [
+    "Dec. 31, 2012",
+    "Dec. 31, 2011"
+   ],
+   "rows": [
+    {
+     "label": "Current assets",
+     "tag": "us-gaap_AssetsCurrentAbstract",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Cash and cash equivalents",
+     "tag": "us-gaap_CashAndCashEquivalentsAtCarryingValue",
+     "vals": [
+      201890.0,
+      255266.0
+     ]
+    },
+    {
+     "label": "Short-term marketable securities",
+     "tag": "us-gaap_MarketableSecuritiesCurrent",
+     "vals": [
+      null,
+      25061.0
+     ]
+    },
+    {
+     "label": "Restricted cash",
+     "tag": "us-gaap_RestrictedCashAndCashEquivalentsAtCarryingValue",
+     "vals": [
+      19094.0,
+      23476.0
+     ]
+    },
+    {
+     "label": "Accounts receivable",
+     "tag": "us-gaap_AccountsReceivableNetCurrent",
+     "vals": [
+      26842.0,
+      9539.0
+     ]
+    },
+    {
+     "label": "Inventory",
+     "tag": "us-gaap_InventoryNet",
+     "vals": [
+      268504.0,
+      50082.0
+     ]
+    },
+    {
+     "label": "Prepaid expenses and other current assets",
+     "tag": "us-gaap_PrepaidExpenseAndOtherAssetsCurrent",
+     "vals": [
+      8438.0,
+      9414.0
+     ]
+    },
+    {
+     "label": "Total current assets",
+     "tag": "us-gaap_AssetsCurrent",
+     "vals": [
+      524768.0,
+      372838.0
+     ]
+    },
+    {
+     "label": "Operating lease vehicles, net",
+     "tag": "us-gaap_PropertySubjectToOrAvailableForOperatingLeaseNet",
+     "vals": [
+      10071.0,
+      11757.0
+     ]
+    },
+    {
+     "label": "Property, plant and equipment, net",
+     "tag": "us-gaap_PropertyPlantAndEquipmentNet",
+     "vals": [
+      552229.0,
+      298414.0
+     ]
+    },
+    {
+     "label": "Restricted cash",
+     "tag": "us-gaap_RestrictedCashAndCashEquivalentsNoncurrent",
+     "vals": [
+      5159.0,
+      8068.0
+     ]
+    },
+    {
+     "label": "Other assets",
+     "tag": "us-gaap_OtherAssetsNoncurrent",
+     "vals": [
+      21963.0,
+      22371.0
+     ]
+    },
+    {
+     "label": "Total assets",
+     "tag": "us-gaap_Assets",
+     "vals": [
+      1114190.0,
+      713448.0
+     ]
+    },
+    {
+     "label": "Current liabilities",
+     "tag": "us-gaap_LiabilitiesCurrentAbstract",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Accounts payable",
+     "tag": "us-gaap_AccountsPayableCurrent",
+     "vals": [
+      303382.0,
+      56141.0
+     ]
+    },
+    {
+     "label": "Accrued liabilities",
+     "tag": "us-gaap_AccruedLiabilitiesCurrent",
+     "vals": [
+      39798.0,
+      32109.0
+     ]
+    },
+    {
+     "label": "Deferred revenue",
+     "tag": "us-gaap_DeferredRevenueCurrent",
+     "vals": [
+      1905.0,
+      2345.0
+     ]
+    },
+    {
+     "label": "Capital lease obligations, current portion",
+     "tag": "us-gaap_CapitalLeaseObligationsCurrent",
+     "vals": [
+      4365.0,
+      1067.0
+     ]
+    },
+    {
+     "label": "Reservation payments",
+     "tag": "us-gaap_CustomerAdvancesCurrent",
+     "vals": [
+      138817.0,
+      91761.0
+     ]
+    },
+    {
+     "label": "Long-term debt, current portion",
+     "tag": "us-gaap_LongTermDebtCurrent",
+     "vals": [
+      50841.0,
+      7916.0
+     ]
+    },
+    {
+     "label": "Total current liabilities",
+     "tag": "us-gaap_LiabilitiesCurrent",
+     "vals": [
+      539108.0,
+      191339.0
+     ]
+    },
+    {
+     "label": "Common stock warrant liability",
+     "tag": "us-gaap_DerivativeLiabilitiesNoncurrent",
+     "vals": [
+      10692.0,
+      8838.0
+     ]
+    },
+    {
+     "label": "Capital lease obligations, less current portion",
+     "tag": "us-gaap_CapitalLeaseObligationsNoncurrent",
+     "vals": [
+      9965.0,
+      2830.0
+     ]
+    },
+    {
+     "label": "Deferred revenue, less current portion",
+     "tag": "us-gaap_DeferredRevenueNoncurrent",
+     "vals": [
+      3060.0,
+      3146.0
+     ]
+    },
+    {
+     "label": "Long-term debt, less current portion",
+     "tag": "us-gaap_LongTermDebtNoncurrent",
+     "vals": [
+      401495.0,
+      268335.0
+     ]
+    },
+    {
+     "label": "Other long-term liabilities",
+     "tag": "us-gaap_OtherLiabilitiesNoncurrent",
+     "vals": [
+      25170.0,
+      14915.0
+     ]
+    },
+    {
+     "label": "Total liabilities",
+     "tag": "us-gaap_Liabilities",
+     "vals": [
+      989490.0,
+      489403.0
+     ]
+    },
+    {
+     "label": "Commitments and contingencies (Note 14)",
+     "tag": "us-gaap_CommitmentsAndContingencies",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Stockholders' equity:",
+     "tag": "us-gaap_StockholdersEquityAbstract",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Preferred stock; $0.001 par value; 100,000,000 shares authorized; no shares issued and outstanding",
+     "tag": "us-gaap_PreferredStockValue",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Common stock; $0.001 par value; 2,000,000,000 shares authorized as of December 31, 2012 and 2011, respectively; 114,214,274 and 104,530,305 shares issued and outstanding as of December 31, 2012 and 2011, respectively",
+     "tag": "us-gaap_CommonStockValue",
+     "vals": [
+      115.0,
+      104.0
+     ]
+    },
+    {
+     "label": "Additional paid-in capital",
+     "tag": "us-gaap_AdditionalPaidInCapital",
+     "vals": [
+      1190191.0,
+      893336.0
+     ]
+    },
+    {
+     "label": "Accumulated other comprehensive loss",
+     "tag": "us-gaap_AccumulatedOtherComprehensiveIncomeLossNetOfTax",
+     "vals": [
+      null,
+      -3.0
+     ]
+    },
+    {
+     "label": "Accumulated deficit",
+     "tag": "us-gaap_RetainedEarningsAccumulatedDeficit",
+     "vals": [
+      -1065606.0,
+      -669392.0
+     ]
+    },
+    {
+     "label": "Total stockholders' equity",
+     "tag": "us-gaap_StockholdersEquity",
+     "vals": [
+      124700.0,
+      224045.0
+     ]
+    },
+    {
+     "label": "Total liabilities and stockholders' equity",
+     "tag": "us-gaap_LiabilitiesAndStockholdersEquity",
+     "vals": [
+      1114190.0,
+      713448.0
+     ]
+    }
+   ]
+  },
+  "IS": {
+   "file": "R4.htm",
+   "short": "Consolidated Statements of Operations",
+   "unit": "Consolidated Statements of Operations (USD $) In Thousands, except Share data, unless otherwise specified",
+   "periods": [
+    "Dec. 31, 2012",
+    "Dec. 31, 2011",
+    "Dec. 31, 2010"
+   ],
+   "rows": [
+    {
+     "label": "Revenues",
+     "tag": "us-gaap_RevenuesAbstract",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Automotive sales",
+     "tag": "us-gaap_SalesRevenueGoodsNet",
+     "vals": [
+      385699.0,
+      148568.0,
+      97078.0
+     ]
+    },
+    {
+     "label": "Development services",
+     "tag": "us-gaap_SalesRevenueServicesNet",
+     "vals": [
+      27557.0,
+      55674.0,
+      19666.0
+     ]
+    },
+    {
+     "label": "Total revenues",
+     "tag": "us-gaap_Revenues",
+     "vals": [
+      413256.0,
+      204242.0,
+      116744.0
+     ]
+    },
+    {
+     "label": "Cost of revenues",
+     "tag": "us-gaap_CostOfRevenueAbstract",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Automotive sales",
+     "tag": "us-gaap_CostOfGoodsSold",
+     "vals": [
+      371658.0,
+      115482.0,
+      79982.0
+     ]
+    },
+    {
+     "label": "Development services",
+     "tag": "us-gaap_CostOfServices",
+     "vals": [
+      11531.0,
+      27165.0,
+      6031.0
+     ]
+    },
+    {
+     "label": "Total cost of revenues",
+     "tag": "us-gaap_CostOfRevenue",
+     "vals": [
+      383189.0,
+      142647.0,
+      86013.0
+     ]
+    },
+    {
+     "label": "Gross profit",
+     "tag": "us-gaap_GrossProfit",
+     "vals": [
+      30067.0,
+      61595.0,
+      30731.0
+     ]
+    },
+    {
+     "label": "Operating expenses",
+     "tag": "us-gaap_OperatingExpensesAbstract",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Research and development",
+     "tag": "us-gaap_ResearchAndDevelopmentExpense",
+     "vals": [
+      273978.0,
+      208981.0,
+      92996.0
+     ]
+    },
+    {
+     "label": "Selling, general and administrative",
+     "tag": "us-gaap_SellingGeneralAndAdministrativeExpense",
+     "vals": [
+      150372.0,
+      104102.0,
+      84573.0
+     ]
+    },
+    {
+     "label": "Total operating expenses",
+     "tag": "us-gaap_OperatingExpenses",
+     "vals": [
+      424350.0,
+      313083.0,
+      177569.0
+     ]
+    },
+    {
+     "label": "Loss from operations",
+     "tag": "us-gaap_OperatingIncomeLoss",
+     "vals": [
+      -394283.0,
+      -251488.0,
+      -146838.0
+     ]
+    },
+    {
+     "label": "Interest income",
+     "tag": "us-gaap_InvestmentIncomeInterest",
+     "vals": [
+      288.0,
+      255.0,
+      258.0
+     ]
+    },
+    {
+     "label": "Interest expense",
+     "tag": "us-gaap_InterestExpense",
+     "vals": [
+      -254.0,
+      -43.0,
+      -992.0
+     ]
+    },
+    {
+     "label": "Other expense, net",
+     "tag": "us-gaap_OtherNonoperatingIncomeExpense",
+     "vals": [
+      -1828.0,
+      -2646.0,
+      -6583.0
+     ]
+    },
+    {
+     "label": "Loss before income taxes",
+     "tag": "us-gaap_IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+     "vals": [
+      -396077.0,
+      -253922.0,
+      -154155.0
+     ]
+    },
+    {
+     "label": "Provision for income taxes",
+     "tag": "us-gaap_IncomeTaxExpenseBenefit",
+     "vals": [
+      136.0,
+      489.0,
+      173.0
+     ]
+    },
+    {
+     "label": "Net loss",
+     "tag": "us-gaap_NetIncomeLoss",
+     "vals": [
+      -396213.0,
+      -254411.0,
+      -154328.0
+     ]
+    },
+    {
+     "label": "Net loss per share of common stock, basic and diluted",
+     "tag": "us-gaap_IncomeLossFromContinuingOperationsPerBasicAndDilutedShare",
+     "vals": [
+      -3.69,
+      -2.53,
+      -3.04
+     ]
+    },
+    {
+     "label": "Weighted average shares used in computing net loss per share of common stock, basic and diluted",
+     "tag": "tsla_WeightedAverageNumberOfSharesOutstandingBasicAndDilutedOne",
+     "vals": [
+      107349188.0,
+      100388815.0,
+      50718302.0
+     ]
+    }
+   ]
+  },
+  "CI": {
+   "file": "R5.htm",
+   "short": "Consolidated Statements of Comprehensive Loss",
+   "unit": "Consolidated Statements of Comprehensive Loss (USD $) In Thousands, unless otherwise specified",
+   "periods": [
+    "Dec. 31, 2012",
+    "Dec. 31, 2011",
+    "Dec. 31, 2010"
+   ],
+   "rows": [
+    {
+     "label": "Net loss",
+     "tag": "us-gaap_NetIncomeLoss",
+     "vals": [
+      396213.0,
+      254411.0,
+      154328.0
+     ]
+    },
+    {
+     "label": "Other comprehensive income (loss), net of tax:",
+     "tag": "us-gaap_OtherComprehensiveIncomeLossNetOfTaxPortionAttributableToParentAbstract",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Unrealized net loss on short-term marketable securities",
+     "tag": "us-gaap_MarketableSecuritiesUnrealizedGainLoss",
+     "vals": [
+      null,
+      -3.0,
+      null
+     ]
+    },
+    {
+     "label": "Reclassification adjustment for gain included in net income",
+     "tag": "us-gaap_OtherComprehensiveIncomeLossReclassificationAdjustmentForSaleOfSecuritiesIncludedInNetIncomeNetOfTax",
+     "vals": [
+      3.0,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Other comprehensive income (loss)",
+     "tag": "us-gaap_OtherComprehensiveIncomeLossNetOfTax",
+     "vals": [
+      3.0,
+      -3.0,
+      null
+     ]
+    },
+    {
+     "label": "Comprehensive loss",
+     "tag": "us-gaap_ComprehensiveIncomeNetOfTax",
+     "vals": [
+      396210.0,
+      254414.0,
+      154328.0
+     ]
+    }
+   ]
+  },
+  "CF": {
+   "file": "R8.htm",
+   "short": "Consolidated Statements of Cash Flows",
+   "unit": "Consolidated Statements of Cash Flows (USD $) In Thousands, unless otherwise specified",
+   "periods": [
+    "Dec. 31, 2012",
+    "Dec. 31, 2011",
+    "Dec. 31, 2010"
+   ],
+   "rows": [
+    {
+     "label": "Cash Flows From Operating Activities",
+     "tag": "us-gaap_NetCashProvidedByUsedInOperatingActivitiesAbstract",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Net loss",
+     "tag": "us-gaap_NetIncomeLoss",
+     "vals": [
+      -396213.0,
+      -254411.0,
+      -154328.0
+     ]
+    },
+    {
+     "label": "Adjustments to reconcile net loss to net cash used in operating activities:",
+     "tag": "us-gaap_AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Depreciation and amortization",
+     "tag": "us-gaap_DepreciationAndAmortization",
+     "vals": [
+      28825.0,
+      16919.0,
+      10623.0
+     ]
+    },
+    {
+     "label": "Change in fair value of warrant liabilities",
+     "tag": "us-gaap_UnrealizedGainLossOnDerivatives",
+     "vals": [
+      1854.0,
+      2750.0,
+      5022.0
+     ]
+    },
+    {
+     "label": "Discounts and premiums on short-term marketable securities",
+     "tag": "us-gaap_AccretionAmortizationOfDiscountsAndPremiumsInvestments",
+     "vals": [
+      56.0,
+      -112.0,
+      null
+     ]
+    },
+    {
+     "label": "Stock-based compensation",
+     "tag": "us-gaap_ShareBasedCompensation",
+     "vals": [
+      50145.0,
+      29419.0,
+      21156.0
+     ]
+    },
+    {
+     "label": "Excess tax benefits from stock-based compensation",
+     "tag": "us-gaap_ExcessTaxBenefitFromShareBasedCompensationOperatingActivities",
+     "vals": [
+      null,
+      null,
+      -74.0
+     ]
+    },
+    {
+     "label": "Loss on abandonment of fixed assets",
+     "tag": "us-gaap_GainLossOnDispositionOfProperty",
+     "vals": [
+      1504.0,
+      345.0,
+      8.0
+     ]
+    },
+    {
+     "label": "Inventory write-downs",
+     "tag": "us-gaap_InventoryWriteDown",
+     "vals": [
+      4929.0,
+      1828.0,
+      951.0
+     ]
+    },
+    {
+     "label": "Changes in operating assets and liabilities",
+     "tag": "us-gaap_IncreaseDecreaseInOperatingCapitalAbstract",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Accounts receivable",
+     "tag": "us-gaap_IncreaseDecreaseInAccountsReceivable",
+     "vals": [
+      -17303.0,
+      -2829.0,
+      -3222.0
+     ]
+    },
+    {
+     "label": "Inventories and operating lease vehicles",
+     "tag": "tsla_IncreaseDecreaseInInventoriesAndPropertySubjectToOrAvailableForOperatingLease",
+     "vals": [
+      -194726.0,
+      -13638.0,
+      -28513.0
+     ]
+    },
+    {
+     "label": "Prepaid expenses and other current assets",
+     "tag": "us-gaap_IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets",
+     "vals": [
+      1121.0,
+      -248.0,
+      -4977.0
+     ]
+    },
+    {
+     "label": "Other assets",
+     "tag": "us-gaap_IncreaseDecreaseInOtherOperatingAssets",
+     "vals": [
+      -482.0,
+      -288.0,
+      -463.0
+     ]
+    },
+    {
+     "label": "Accounts payable",
+     "tag": "us-gaap_IncreaseDecreaseInAccountsPayable",
+     "vals": [
+      187821.0,
+      19891.0,
+      -212.0
+     ]
+    },
+    {
+     "label": "Accrued liabilities",
+     "tag": "us-gaap_IncreaseDecreaseInAccruedLiabilities",
+     "vals": [
+      9603.0,
+      10620.0,
+      13345.0
+     ]
+    },
+    {
+     "label": "Deferred development compensation",
+     "tag": "tsla_IncreaseDecreaseInDeferredDevelopmentCompensation",
+     "vals": [
+      null,
+      null,
+      -156.0
+     ]
+    },
+    {
+     "label": "Deferred revenue",
+     "tag": "us-gaap_IncreaseDecreaseInDeferredRevenue",
+     "vals": [
+      -526.0,
+      -1927.0,
+      4801.0
+     ]
+    },
+    {
+     "label": "Reservation payments",
+     "tag": "us-gaap_IncreaseDecreaseInDeferredRevenueAndCustomerAdvancesAndDeposits",
+     "vals": [
+      47056.0,
+      61006.0,
+      4707.0
+     ]
+    },
+    {
+     "label": "Other long-term liabilities",
+     "tag": "us-gaap_IncreaseDecreaseInOtherNoncurrentLiabilities",
+     "vals": [
+      10255.0,
+      2641.0,
+      3515.0
+     ]
+    },
+    {
+     "label": "Net cash used in operating activities",
+     "tag": "us-gaap_NetCashProvidedByUsedInOperatingActivities",
+     "vals": [
+      -266081.0,
+      -128304.0,
+      -127817.0
+     ]
+    },
+    {
+     "label": "Cash Flows From Investing Activities",
+     "tag": "us-gaap_NetCashProvidedByUsedInInvestingActivitiesAbstract",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Purchases of marketable securities",
+     "tag": "us-gaap_PaymentsToAcquireMarketableSecurities",
+     "vals": [
+      -14992.0,
+      -64952.0,
+      null
+     ]
+    },
+    {
+     "label": "Maturities of short-term marketable securities",
+     "tag": "us-gaap_ProceedsFromMaturitiesPrepaymentsAndCallsOfAvailableForSaleSecurities",
+     "vals": [
+      40000.0,
+      40000.0,
+      null
+     ]
+    },
+    {
+     "label": "Payments related to acquisition of Fremont manufacturing facility and related assets",
+     "tag": "us-gaap_PaymentsToAcquireAssetsInvestingActivities",
+     "vals": [
+      null,
+      null,
+      -65210.0
+     ]
+    },
+    {
+     "label": "Purchases of property and equipment excluding capital leases",
+     "tag": "us-gaap_PaymentsToAcquirePropertyPlantAndEquipment",
+     "vals": [
+      -239228.0,
+      -184226.0,
+      -40203.0
+     ]
+    },
+    {
+     "label": "Withdrawals out of (transfers into) our dedicated Department of Energy account, net",
+     "tag": "tsla_IncreaseDecreaseInRestrictedCashAndCashEquivalents",
+     "vals": [
+      8620.0,
+      50121.0,
+      -73597.0
+     ]
+    },
+    {
+     "label": "Increase in other restricted cash",
+     "tag": "us-gaap_IncreaseDecreaseInRestrictedCash",
+     "vals": [
+      -1330.0,
+      -3201.0,
+      -1287.0
+     ]
+    },
+    {
+     "label": "Net cash used in investing activities",
+     "tag": "us-gaap_NetCashProvidedByUsedInInvestingActivities",
+     "vals": [
+      -206930.0,
+      -162258.0,
+      -180297.0
+     ]
+    },
+    {
+     "label": "Cash Flows From Financing Activities",
+     "tag": "us-gaap_NetCashProvidedByUsedInFinancingActivitiesAbstract",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Proceeds from issuance of common stock in public offerings, net",
+     "tag": "tsla_ProceedsFromIssuancePublicOffering",
+     "vals": [
+      221496.0,
+      172410.0,
+      188842.0
+     ]
+    },
+    {
+     "label": "Proceeds from issuance of common stock in private placements",
+     "tag": "us-gaap_ProceedsFromIssuanceOfPrivatePlacement",
+     "vals": [
+      null,
+      59058.0,
+      80000.0
+     ]
+    },
+    {
+     "label": "Principal payments on capital leases and other debt",
+     "tag": "us-gaap_ProceedsFromRepaymentsOfLongTermDebtAndCapitalSecurities",
+     "vals": [
+      -2832.0,
+      -416.0,
+      -315.0
+     ]
+    },
+    {
+     "label": "Proceeds from long-term debt and other long-term liabilities",
+     "tag": "us-gaap_ProceedsFromIssuanceOfLongTermDebt",
+     "vals": [
+      188796.0,
+      204423.0,
+      71828.0
+     ]
+    },
+    {
+     "label": "Principal payments on long-term debt",
+     "tag": "us-gaap_RepaymentsOfLongTermDebt",
+     "vals": [
+      -12710.0,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Proceeds from exercise of stock options and other stock issuances",
+     "tag": "us-gaap_ProceedsFromIssuanceOfSharesUnderIncentiveAndShareBasedCompensationPlansIncludingStockOptions",
+     "vals": [
+      24885.0,
+      10525.0,
+      1350.0
+     ]
+    },
+    {
+     "label": "Excess tax benefits from stock-based compensation",
+     "tag": "us-gaap_ExcessTaxBenefitFromShareBasedCompensationFinancingActivities",
+     "vals": [
+      null,
+      null,
+      74.0
+     ]
+    },
+    {
+     "label": "Deferred common stock and loan facility issuance costs",
+     "tag": "us-gaap_PaymentOfFinancingAndStockIssuanceCosts",
+     "vals": [
+      null,
+      null,
+      -3734.0
+     ]
+    },
+    {
+     "label": "Net cash provided by financing activities",
+     "tag": "us-gaap_NetCashProvidedByUsedInFinancingActivities",
+     "vals": [
+      419635.0,
+      446000.0,
+      338045.0
+     ]
+    },
+    {
+     "label": "Net increase (decrease) in cash and cash equivalents",
+     "tag": "us-gaap_CashAndCashEquivalentsPeriodIncreaseDecrease",
+     "vals": [
+      -53376.0,
+      155708.0,
+      29931.0
+     ]
+    },
+    {
+     "label": "Cash and cash equivalents at beginning of period",
+     "tag": "us-gaap_CashAndCashEquivalentsAtCarryingValue",
+     "vals": [
+      255266.0,
+      99558.0,
+      69627.0
+     ]
+    },
+    {
+     "label": "Cash and cash equivalents at end of period",
+     "tag": "us-gaap_CashAndCashEquivalentsAtCarryingValue",
+     "vals": [
+      201890.0,
+      255266.0,
+      99558.0
+     ]
+    },
+    {
+     "label": "Supplemental Disclosures",
+     "tag": "us-gaap_SupplementalCashFlowInformationAbstract",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Interest paid",
+     "tag": "us-gaap_InterestPaid",
+     "vals": [
+      6938.0,
+      3472.0,
+      1138.0
+     ]
+    },
+    {
+     "label": "Income taxes paid",
+     "tag": "us-gaap_IncomeTaxesPaid",
+     "vals": [
+      117.0,
+      282.0,
+      9.0
+     ]
+    },
+    {
+     "label": "Supplemental noncash investing and financing activities",
+     "tag": "us-gaap_OtherNoncashInvestingAndFinancingItemsAbstract",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Conversion of preferred stock to common stock",
+     "tag": "us-gaap_ConversionOfStockAmountConverted1",
+     "vals": [
+      null,
+      null,
+      319225.0
+     ]
+    },
+    {
+     "label": "Issuance of common stock upon net exercise of warrants",
+     "tag": "tsla_StockIssuedDuringPeriodNetExerciseOfConvertibleSecuritiesAmount",
+     "vals": [
+      null,
+      null,
+      6962.0
+     ]
+    },
+    {
+     "label": "Issuance of convertible preferred stock warrant",
+     "tag": "tsla_IssuanceOfConvertiblePreferredStockWarrantAmount",
+     "vals": [
+      null,
+      null,
+      6294.0
+     ]
+    },
+    {
+     "label": "Issuance of common stock warrant",
+     "tag": "tsla_IssuanceOfCommonStockWarrantAmount",
+     "vals": [
+      null,
+      null,
+      1701.0
+     ]
+    },
+    {
+     "label": "Acquisition of property and equipment",
+     "tag": "us-gaap_NoncashOrPartNoncashAcquisitionValueOfAssetsAcquired1",
+     "vals": [
+      44890.0,
+      15592.0,
+      4482.0
+     ]
+    }
+   ]
+  }
+ }
+}

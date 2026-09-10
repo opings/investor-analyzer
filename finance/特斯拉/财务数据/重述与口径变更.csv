@@ -1,0 +1,80 @@
+# 跨申报交叉核分歧登记：同一会计年份在「本年自己的 10-K」与「后续 10-K 的比较列」中数值不一致的全部落点。
+"# 检出方法=对每份 10-K 的 2-3 个期间列全量采集后按(科目,会计年份)比对；单位千美元。"
+# 处置=「修正」类已在三表 CSV 中采用后续申报值(本年申报自身是 SEC 渲染/filer 标注错误)；「重述」类保留本年 as-reported，跨年比较时须注意。
+报表,科目,会计年份,本年申报值,后续申报值,后续申报份数,判定与处置
+CF,us-gaap_IncreaseDecreaseInAccountsPayable,2011,31859,19891,2,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+CF,us-gaap_IncreaseDecreaseInAccruedLiabilities,2011,12321,10620,2,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+CF,us-gaap_NetCashProvidedByUsedInInvestingActivities,2011,-175928,-162258,2,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+CF,us-gaap_NetCashProvidedByUsedInOperatingActivities,2011,-114364,-128304,2,多份后续申报互不一致→保留本年 as-reported
+CF,us-gaap_NoncashOrPartNoncashAcquisitionValueOfAssetsAcquired1,2011,2703,15592,2,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+CF,us-gaap_PaymentsToAcquirePropertyPlantAndEquipment,2011,-197896,-184226,2,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+CF,tsla_IncreaseDecreaseInInventoriesAndPropertySubjectToOrAvailableForOperatingLease,2013,-463270,-460561,2,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+CF,us-gaap_ForeignCurrencyTransactionGainLossBeforeTax,2013,3655,-13498,2,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+CF,us-gaap_IncreaseDecreaseInAccountsPayable,2013,-243,20995,1,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+CF,us-gaap_IncreaseDecreaseInAccountsReceivable,2013,-21917,-21705,2,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+CF,us-gaap_IncreaseDecreaseInAccruedLiabilities,2013,66837,66418,1,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+CF,us-gaap_IncreaseDecreaseInDeferredRevenue,2013,268153,268098,2,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+CF,us-gaap_IncreaseDecreaseInDeferredRevenueAndCustomerAdvancesAndDeposits,2013,24243,24354,2,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+CF,us-gaap_IncreaseDecreaseInOtherNoncurrentLiabilities,2013,32971,33027,2,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+CF,us-gaap_IncreaseDecreaseInOtherOperatingAssets,2013,-342,-434,2,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+CF,us-gaap_IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets,2013,-17466,-17533,2,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+CF,us-gaap_InventoryWriteDown,2013,8648,8918,2,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+BS,us-gaap_Assets,2014,5849251,5830667,1,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+BS,us-gaap_AssetsCurrent,2014,3198657,3180073,1,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+BS,us-gaap_Liabilities,2014,4879345,4860761,1,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+BS,us-gaap_LiabilitiesAndStockholdersEquity,2014,5849251,5830667,1,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+BS,us-gaap_OtherLiabilitiesNoncurrent,2014,173244,154660,1,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+BS,us-gaap_PrepaidExpenseAndOtherAssetsCurrent,2014,94718,76134,1,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+BS,us-gaap_RetainedEarningsAccumulatedDeficit,2014,-1433682,-1433660,1,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+CF,us-gaap_GainLossOnDispositionOfAssets1,2014,141781,14178,1,本年申报数量级错 10×(filer XBRL 错标)→按后续申报修正
+CF,us-gaap_NoncashOrPartNoncashAcquisitionValueOfAssetsAcquired1,2014,2543931,254393,2,本年申报数量级错 10×(filer XBRL 错标)→按后续申报修正
+IS,us-gaap_CostOfGoodsSold,2014,2310011,2145749,2,多份后续申报互不一致→保留本年 as-reported
+IS,us-gaap_SalesRevenueGoodsNet,2014,3192723,3007012,2,多份后续申报互不一致→保留本年 as-reported
+BS,us-gaap_AdditionalPaidInCapitalCommonStock,2015,3414692,3409452,1,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+BS,us-gaap_Assets,2015,8092460,8067939,1,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+BS,us-gaap_AssetsCurrent,2015,2791568,2782006,1,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+BS,us-gaap_DebtInstrumentConvertibleCarryingAmountOfTheEquityComponent,2015,42045,47285,1,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+BS,us-gaap_Liabilities,2015,6961471,6936950,1,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+BS,us-gaap_LiabilitiesAndStockholdersEquity,2015,8092460,8067939,1,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+BS,us-gaap_LiabilitiesCurrent,2015,2816274,2811035,1,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+BS,us-gaap_LongTermDebtAndCapitalLeaseObligations,2015,2040375,2021093,1,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+BS,us-gaap_LongTermDebtAndCapitalLeaseObligationsCurrent,2015,633166,627927,1,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+BS,us-gaap_OtherAssetsNoncurrent,2015,74633,46858,1,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+BS,us-gaap_PrepaidExpenseAndOtherAssetsCurrent,2015,125229,115667,1,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+BS,us-gaap_StockholdersEquity,2015,1088944,1083704,1,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+IS,tsla_CostOfServicesAndOther,2015,299220,286933,2,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+IS,tsla_SalesRevenueServicesAndOtherNet,2015,305052,290575,2,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+IS,us-gaap_CostOfGoodsSold,2015,2823302,2639926,2,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+IS,us-gaap_SalesRevenueGoodsNet,2015,3740973,3431587,2,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+CF,tsla_NoncashInterestIncomeExpenseAndOtherOperatingActivities,2016,-7775,-15179,2,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+BS,us-gaap_LongTermDebtAndCapitalLeaseObligations,2017,9415700,9418319,1,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+BS,tsla_AccruedAndOtherCurrentLiabilities,2019,2905000,3222000,1,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+BS,us-gaap_OtherAssetsNoncurrent,2019,808000,1470000,1,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+BS,us-gaap_OtherLiabilitiesNoncurrent,2019,2655000,2691000,1,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+BS,us-gaap_PrepaidExpenseAndOtherAssetsCurrent,2019,713000,959000,1,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+CF,us-gaap_IncreaseDecreaseInAccountsPayableAndAccruedLiabilities,2019,682000,646000,2,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+CF,us-gaap_IncreaseDecreaseInOtherNoncurrentLiabilities,2019,109000,-5000,2,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+IS,us-gaap_WeightedAverageNumberOfDilutedSharesOutstanding,2019,177000,887000,2,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+IS,us-gaap_WeightedAverageNumberOfSharesOutstandingBasic,2019,177000,887000,2,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+CF,tsla_NoncashInterestIncomeExpenseAndOtherOperatingActivities,2020,228000,525000,2,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+IS,us-gaap_RevenueFromContractWithCustomerExcludingAssessedTax@automotive sales,2020,26184000,24604000,1,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+BS,us-gaap_CommonStockValue,2021,1000,3000,1,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+BS,us-gaap_RetainedEarningsAccumulatedDeficit,2021,331000,329000,1,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+CF,tsla_IncreaseDecreaseInOperatingLeaseVehicles,2021,2114000,-2114000,2,符号相反(本年申报 SEC 渲染未套用 negatedLabel)→按后续申报修正
+CF,tsla_PaymentsForBuyOutsOfNoncontrollingInterestsInSubsidiaries,2021,10000,-10000,2,符号相反(本年申报 SEC 渲染未套用 negatedLabel)→按后续申报修正
+CF,tsla_PaymentsForSolarEnergySystemsNetOfSales,2021,32000,-32000,2,符号相反(本年申报 SEC 渲染未套用 negatedLabel)→按后续申报修正
+CF,tsla_PurchaseOfDigitalAssets,2021,1500000,-1500000,2,符号相反(本年申报 SEC 渲染未套用 negatedLabel)→按后续申报修正
+CF,tsla_RepaymentsOfConvertibleAndOtherDebt,2021,14167000,-14167000,1,符号相反(本年申报 SEC 渲染未套用 negatedLabel)→按后续申报修正
+CF,us-gaap_IncreaseDecreaseInAccountsReceivable,2021,130000,-130000,2,符号相反(本年申报 SEC 渲染未套用 negatedLabel)→按后续申报修正
+CF,us-gaap_IncreaseDecreaseInInventories,2021,1709000,-1709000,2,符号相反(本年申报 SEC 渲染未套用 negatedLabel)→按后续申报修正
+CF,us-gaap_IncreaseDecreaseInOtherNoncurrentAssets,2021,1291000,-1291000,1,符号相反(本年申报 SEC 渲染未套用 negatedLabel)→按后续申报修正
+CF,us-gaap_IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets,2021,271000,-271000,2,符号相反(本年申报 SEC 渲染未套用 negatedLabel)→按后续申报修正
+CF,us-gaap_PaymentsToAcquireIntangibleAssets,2021,-1500000,0,0,"FY2021 申报把购买数字资产 1,500 重复标注到无形资产 tag→整行剔除(后续申报 + 分项勾稽双证)"
+IS,us-gaap_WeightedAverageNumberOfDilutedSharesOutstanding,2021,1129000,3386000,2,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+IS,us-gaap_WeightedAverageNumberOfSharesOutstandingBasic,2021,986000,2959000,2,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+BS,tsla_AccruedAndOtherCurrentLiabilities,2022,7142000,8205000,1,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+BS,us-gaap_OtherAssetsNoncurrent,2022,4193000,3865000,1,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+CF,us-gaap_IncreaseDecreaseInAccountsPayableAndAccruedLiabilities,2022,6029000,8029000,2,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+CF,us-gaap_IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets,2022,-1417000,-3713000,2,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+BS,us-gaap_OtherAssetsNoncurrent,2024,4215000,4609000,1,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported
+CF,us-gaap_PaymentsToAcquirePropertyPlantAndEquipment,2024,-11339000,-11342000,1,跨申报数值不一致(重述/追溯调整)→保留本年 as-reported

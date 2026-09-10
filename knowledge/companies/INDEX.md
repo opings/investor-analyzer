@@ -41,6 +41,7 @@
 | NSG板硝子 | 5202 | NSG / 日本板硝子 / Nippon Sheet Glass / 板硝子 / 5202.T(东证) / 皮尔金顿(Pilkington·2006 年起全资子公司) / 日米板硝子(1931 年前旧名) |
 | circle | CRCL | Circle Internet Group / Circle Internet Financial(2024-07 前爱尔兰旧主体) / USDC(主产品) / EURC / USYC / Arc(自建L1链) / Circle Reserve Fund(USDXX·储备基金) |
 | coinbase | COIN | Coinbase / Coinbase Global, Inc. / CIK 1679788 / Deribit(2025-08 起全资子公司) / Sentillia B.V.(Deribit 法人名) / Echo(Gm Echo Ltd·2025-10 起全资子公司) ⚠️勿与「币安 Binance」混淆(不同公司) |
+| 特斯拉 | TSLA | Tesla / Tesla, Inc. / CIK 1318605 / TESLA MOTORS INC(2017-02 前旧名) / Model S/3/X/Y / Cybertruck / Semi / Megapack / Powerwall / Supercharger / FSD / Robotaxi / Optimus / SolarCity(2016-11 起全资子公司) ⚠️注册地 2024-06 由特拉华迁得克萨斯 |
 
 ## 约定
 
