@@ -116,6 +116,10 @@ scripts/.venv/bin/pip install -r scripts/requirements.txt
 
 ## 版本控制约定
 
+> 📌 **改动怎么提交（分支 / PR / 合并方式 / 为什么分支必须短命）→ 见 `CLAUDE.md`。**
+> 一句话版：**走 PR，不直接 push `main`**；分支一个主题、同会话开同会话合；合并用 `rebase` 保持线性历史。
+> 本节只讲**什么该入库**。
+
 仓库托管在 `opings/investor-analyzer`（private）。**只入库蒸馏后的成果与可复用逻辑，不入库源档、工作文件、机器专属配置。**
 判断规则（已写进 `.gitignore`，新增内容前对照一下，别手滑把下面这些 `git add` 进来）：
 
