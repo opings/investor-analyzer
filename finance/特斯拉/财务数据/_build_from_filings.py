@@ -1255,6 +1255,7 @@ def build_ratios(IS, BS, CF):
         sti = g(BS, y, "短期投资 Short-term investments") or 0
         ppe = g(BS, y, "固定资产净额 Property, plant and equipment, net")
         gw = g(BS, y, "商誉 Goodwill")
+        ppd = g(BS, y, "预付及其他流动资产 Prepaid expenses and other current assets")
         dr_c = g(BS, y, "递延收入-流动 Deferred revenue, current")
         dr_n = g(BS, y, "递延收入-非流动 Deferred revenue, non-current")
         dep_c = g(BS, y, "客户存款 Customer deposits")
@@ -1291,6 +1292,9 @@ def build_ratios(IS, BS, CF):
             put(y, "应付账款周转天数 DPO", (ap + ap0) / 2 / abs(cost) * 365)
         put(y, "应收账款/营收 AR / revenue", div(ar, rev))
         put(y, "存货/营收 Inventory / revenue", div(inv, rev))
+        # 「垃圾筐」科目监控：预付及其他流动资产是假利润常见藏身处（财报阅读规则 Step 3.0 第 6 条）。
+        # 该科目 10-K 未单独拆分明细，故只能靠占营收比做鼓包探针。
+        put(y, "预付及其他流动资产/营收 Prepaid & other current assets / revenue", div(ppd, rev))
         put(y, "现金及短投/总资产 Cash & ST investments / assets", None if cash is None else div(cash + sti, ta))
         put(y, "固定资产/总资产 PP&E / assets", div(ppe, ta))
         put(y, "商誉/归母净资产 Goodwill / equity", div(gw, eq))
@@ -1318,6 +1322,7 @@ def build_ratios(IS, BS, CF):
              "自由现金流 FCF = OCF + capex(千美元)", "股份支付/营收 SBC / revenue", "股份支付/归母净利 SBC / net income",
              "应收账款周转天数 DSO", "存货周转天数 DIO", "应付账款周转天数 DPO",
              "应收账款/营收 AR / revenue", "存货/营收 Inventory / revenue",
+             "预付及其他流动资产/营收 Prepaid & other current assets / revenue",
              "现金及短投/总资产 Cash & ST investments / assets", "固定资产/总资产 PP&E / assets",
              "商誉/归母净资产 Goodwill / equity",
              "预收类负债(递延收入+客户存款)/营收 Deferred revenue & deposits / revenue",

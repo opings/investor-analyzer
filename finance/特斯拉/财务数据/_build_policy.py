@@ -70,6 +70,9 @@ ROWS = [
     "能源板块毛利率(报告口径) Energy gross margin, as reported",
     "能源抵免÷能源板块毛利 Energy credits / energy gross profit",
     "能源板块毛利率(剔除制造抵免) Energy gross margin, ex-credits",
+    "汽车板块毛利率(报告口径) Automotive gross margin, as reported",
+    "汽车板块毛利率(剔除制造抵免) Automotive gross margin, ex-credits",
+    "能源领先汽车的毛利率差(同口径·均剔除制造抵免·百分点) Energy-minus-auto margin gap, both ex-credits (pp)",
     "监管积分÷归母净利 Regulatory credits / net income",
     "政策相关合计÷归母净利 Policy-related total / net income",
 ]
@@ -121,6 +124,20 @@ def main():
         d["能源抵免÷能源板块毛利 Energy credits / energy gross profit"] = None if (me is None or not egp) else me / egp
         d["能源板块毛利率(剔除制造抵免) Energy gross margin, ex-credits"] = (
             None if (me is None or not erev or egp is None) else (egp - me) / erev)
+
+        # 汽车侧同口径：报告口径的汽车板块毛利率同样含 IRA 制造抵免（冲减成本），
+        # 只剔能源侧会得到「能源 ex-credit vs 汽车 as-reported」的非对称比较，
+        # 低估汽车侧受补贴的程度。故两边同口径各算一份，差值单列（百分点）。
+        arev = num(seg, "汽车板块合计 Total automotive revenues", y)
+        acost = num(seg, "【成本】汽车板块合计 Total automotive", y)
+        agp = None if (arev is None or acost is None) else arev - acost
+        d["汽车板块毛利率(报告口径) Automotive gross margin, as reported"] = None if not arev else agp / arev
+        a_ex = None if (ma is None or not arev or agp is None) else (agp - ma) / arev
+        d["汽车板块毛利率(剔除制造抵免) Automotive gross margin, ex-credits"] = a_ex
+        e_ex = d["能源板块毛利率(剔除制造抵免) Energy gross margin, ex-credits"]
+        d["能源领先汽车的毛利率差(同口径·均剔除制造抵免·百分点) Energy-minus-auto margin gap, both ex-credits (pp)"] = (
+            None if (a_ex is None or e_ex is None) else (e_ex - a_ex) * 100)
+
         d["监管积分÷归母净利 Regulatory credits / net income"] = None if (rc is None or not ni or ni <= 0) else rc / ni
         pt = d["政策相关合计(监管积分+制造抵免) Policy-related total"]
         d["政策相关合计÷归母净利 Policy-related total / net income"] = None if (pt is None or not ni or ni <= 0) else pt / ni
@@ -139,12 +156,23 @@ def main():
             nchk += 1
             if me > egp:
                 errs.append(f"[{y}] 能源抵免 {me:,.0f} 超过能源板块毛利 {egp:,.0f}（数值或口径有误）")
+        if ma is not None and agp is not None and arev:
+            nchk += 1
+            if d["汽车板块毛利率(剔除制造抵免) Automotive gross margin, ex-credits"] >= d["汽车板块毛利率(报告口径) Automotive gross margin, as reported"]:
+                errs.append(f"[{y}] 汽车剔除抵免后毛利率未低于报告毛利率（抵免加回方向错）")
+        if arev is not None and acost is not None:
+            nchk += 1
+            rev_chk = num(seg, "总营收 Total revenues", y)
+            if rev_chk and arev > rev_chk:
+                errs.append(f"[{y}] 汽车板块营收 {arev:,.0f} 超过总营收 {rev_chk:,.0f}")
 
     # 完整性自检：派生行必须真的算出来了。「0 条错误」不等于「输出完整」——
     # 若上游取数失败，派生值全为 None，会被「全空则不写」的过滤器静默丢掉。
     MUST = {"能源板块毛利(报告口径) Energy gross profit, as reported": (2023, 2024, 2025),
             "能源抵免÷能源板块毛利 Energy credits / energy gross profit": (2023, 2024, 2025),
             "能源板块毛利率(剔除制造抵免) Energy gross margin, ex-credits": (2023, 2024, 2025),
+            "汽车板块毛利率(剔除制造抵免) Automotive gross margin, ex-credits": (2023, 2024, 2025),
+            "能源领先汽车的毛利率差(同口径·均剔除制造抵免·百分点) Energy-minus-auto margin gap, both ex-credits (pp)": (2023, 2024, 2025),
             "政策相关合计÷归母净利 Policy-related total / net income": (2023, 2024, 2025)}
     missing = [f"{r}@{y}" for r, ys in MUST.items() for y in ys if data.get(y, {}).get(r) is None]
     if missing:

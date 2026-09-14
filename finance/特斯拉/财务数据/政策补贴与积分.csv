@@ -15,5 +15,8 @@
 "能源板块毛利率(报告口径) Energy gross margin, as reported",0.1224,0.1241,0.0090,-0.0463,0.0737,0.1891,0.2617,0.2977
 能源抵免÷能源板块毛利 Energy credits / energy gross profit,,,,,,0.1008,0.2864,0.2946
 "能源板块毛利率(剔除制造抵免) Energy gross margin, ex-credits",,,,,,0.1700,0.1868,0.2100
+"汽车板块毛利率(报告口径) Automotive gross margin, as reported",0.2345,0.2124,0.2562,0.2930,0.2848,0.1945,0.1842,0.1778
+"汽车板块毛利率(剔除制造抵免) Automotive gross margin, ex-credits",,,,,,0.1901,0.1761,0.1697
+"能源领先汽车的毛利率差(同口径·均剔除制造抵免·百分点) Energy-minus-auto margin gap, both ex-credits (pp)",,,,,,-2.0130,1.0694,4.0344
 监管积分÷归母净利 Regulatory credits / net income,,,2.1914,0.2654,0.1414,0.1194,0.3896,0.5253
 政策相关合计÷归母净利 Policy-related total / net income,,,2.1914,0.2654,0.1414,0.1510,0.5844,0.9694

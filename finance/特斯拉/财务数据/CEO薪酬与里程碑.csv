@@ -1,0 +1,47 @@
+单位:股数为股;金额为千美元(USD thousands);交付量为辆。空=一手申报无此披露
+来源:2026Q2 10-Q(acc 0001628280-26-049270) Note 9 Equity Incentive Plans / Note 3 Acquisition;在外股本取 10-K/10-Q **封面页**;调整后 EBITDA 与累计交付由本库三表+经营指标派生
+"⚠️ 手工转录附注叙述,每季更新前人工 grep 复核关键词(⚠️**检索串须用英文原文搜,勿译后搜**):operational milestones generally required / considered probable of achievement / unrecognized stock-based compensation expense / shares of the registrant's common stock outstanding"
+   上述四个检索串字面义依次为:「一般需达成的运营里程碑」/「被认定为很可能达成」/「未确认的股份支付费用」/「注册人在外流通普通股股数」
+"🔴 调整后 EBITDA 官方定义(10-Q 原文):归母净利 **before** 利息费用/所得税/折旧摊销及减值/股份支付/数字资产损益,且取**紧邻判定日的连续四个季度(TTM)**。本表按财政年度算,仅在 12-31 判定日与 TTM 一致"
+
+【A · 2025 CEO Performance Award 的 12 个运营里程碑】(每个 tranche 需同时达成「市值里程碑」+「任一运营里程碑」)
+里程碑#,类别,门槛(10-Q 原文),门槛数值,单位,probable判定@2026-06-30,本库可核验当前读数,缺口/说明
+1,产品/交付,20 million Tesla vehicles delivered,20000000,辆,probable,9510628,"距门槛尚缺约 10,489,372 辆;⚠️本读数为**下限**——2017 年及 2016 年前交付量不在本库 ⏳"
+2,产品/软件,10 million active FSD subscriptions,10000000,个活跃订阅,not probable,,🔴 公司**零量化披露** ⏳ —— 该里程碑无任何可核验进度读数
+3,产品/机器人,1 million bots delivered,1000000,台,not probable,,🔴 公司**零量化披露** ⏳ —— 该里程碑无任何可核验进度读数
+4,产品/Robotaxi,1 million Robotaxis in commercial operation,1000000,台,not probable,,🔴 公司**零量化披露** ⏳ —— 该里程碑无任何可核验进度读数
+5,财务,$50 billion of Adjusted EBITDA,50000,百万美元,not probable,14596,"🔑 **最低的一档财务里程碑**:需 FY2025 水平的 3.4 倍。⚠️ 该指标已连跌两年(2023 峰值 26633 → 2025 14596 百万美元,-45%),方向与门槛相反"
+6,财务,$80 billion of Adjusted EBITDA,80000,百万美元,not probable,14596,需 FY2025 水平的 5.5 倍
+7,财务,$130 billion of Adjusted EBITDA,130000,百万美元,not probable,14596,需 FY2025 水平的 8.9 倍
+8,财务,$210 billion of Adjusted EBITDA,210000,百万美元,not probable,14596,需 FY2025 水平的 14.4 倍
+9,财务,$300 billion of Adjusted EBITDA,300000,百万美元,not probable,14596,需 FY2025 水平的 20.6 倍
+10,财务,$400 billion of Adjusted EBITDA(需三个不重叠期间),400000,百万美元,not probable,14596,需 FY2025 水平的 27.4 倍
+11,财务,$400 billion of Adjusted EBITDA(需三个不重叠期间),400000,百万美元,not probable,14596,需 FY2025 水平的 27.4 倍
+12,财务,$400 billion of Adjusted EBITDA(需三个不重叠期间),400000,百万美元,not probable,14596,需 FY2025 水平的 27.4 倍
+
+【B · 奖励本体与股本】
+项目,值,日期/期间,来源与说明
+2025 CEO Performance Award 授予股数,423700000,2025-09-03 授予,10-Q 附注 9 原文「approximately 423.7 million shares of performance-based restricted stock」(译:约 4.237 亿股业绩型限制性股票);2025-11-06 股东批准=**会计授予日**
+├ 分 tranche 数,12,—,每个 tranche = 市值里程碑 + 任一运营里程碑
+├ 已确认 SBC(2026Q2 单季),267000,2026Q2,计入销售及行政费用(SG&A)
+├ 已确认 SBC(2026H1),527000,2026H1,"⚠️ 同期公司**全部** SBC 为 2,181,000 千美元 → 该奖励只解释其中约 24%,勿把 H1 股份支付同比 +80.5% 整体归因于 CEO 薪酬方案"
+├ 未确认 SBC(已判 probable 部分),9820000,截至 2026-06-30,预计在约 **9.2 年**内确认
+├ 未确认 SBC(未判 probable 部分·下限),105820000,截至 2026-06-30,区间下限
+├ 未确认 SBC(未判 probable 部分·上限),120370000,截至 2026-06-30,区间上限
+└ 确认期,,约 7.5 或 10 年,自 2025 CEO Performance Award **会计**授予日起算
+,,,
+🔴 2025 CEO Interim Award 授予股数,96000000,2025-08-03 授予,**已于 2026-04-21 全部作废(forfeited)**
+└ 作废原因,,2026-04-21 董事会认定,特拉华最高法院推翻 Chancery 撤销令、**恢复 2018 CEO Performance Award**(2026-03-18 Chancery 最终命令)→ 构成 Tornetta Decision Event → 依「no double dip」原则立即作废。⚠️ 作废前**从未确认任何 SBC**
+,,,
+2018 CEO Performance Award 本季行权期权数,304000000,2026Q2,"净额结算抵扣行权价约 17,500,000 股;授予日公允价值此前已全部确认→无增量 SBC"
+└ 净额结算股数,17500000,2026Q2,同上
+,,,
+在外股本(shares outstanding),3752431984,截至 **2026-01-23**,FY2025 10-K **封面页**。⚠️ 封面日口径 ≠ 2025-12-31 期末口径
+在外股本(shares outstanding),3949547394,截至 **2026-07-16**,"2026Q2 10-Q **封面页**。⚠️ 封面日口径 ≠ 2026-06-30 期末口径。两个封面日之间增加 197,115,410 股"
+,,,
+🟡 AI 硬件公司资产收购(对价),1950000,2026Q2,"10-Q Note 3:以 **Tesla 普通股与股权奖励**支付;其中 1,730,000 千美元附服务/业绩条件(取决于技术能否成功部署)、222,000 千美元分配至专利及已开发技术无形资产。⚠️ 2026Q2 未确认相关 SBC——业绩条件被判定为 **improbable**。公司未披露标的名称"
+
+【C · 调整后 EBITDA 年度序列(按官方定义派生·财政年度口径)】
+年份,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025
+调整后 EBITDA(千美元),-74954,-74344,-44809,-121384,-207541,-316853,148328,204677,-136184,831918,644168,2394891,2985000,5817000,11594000,19326000,26633000,16056000,14596000
+距里程碑#5($500亿)倍数,,,,,,,337.09,244.29,,60.10,77.62,20.88,16.75,8.60,4.31,2.59,1.88,3.11,3.43
