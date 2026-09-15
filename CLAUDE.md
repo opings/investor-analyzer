@@ -49,13 +49,21 @@ repo admin 能绕过，但**绕过不是流程** —— 直接 push 会返回 `r
 
 ## 开工前的一次性检查
 
-`git push` 通 **≠** `gh` 能建 PR —— 两者可能是**不同身份**：`git` 走 remote 里配的协议（本仓库用 SSH），`gh` 走它自己的 OAuth token。二者可以分属不同 GitHub 账号，且这种割裂平时不会暴露。
+**账号与传输协议按环境而定** —— 不同机器可能用不同 GitHub 账号、不同协议（SSH / HTTPS）。本文件**不规定用哪个**，只规定开工前要做的**检查动作**。
+
+要检查的原因：**`git push` 通 ≠ `gh` 能建 PR**。两者是各自独立的身份 —— `git` 用 remote 配的协议与凭证，`gh` 用它自己的 OAuth token。二者可以分属不同账号，而这种割裂平时不暴露，**只在建 PR 那一刻才炸**。
+
+每换一个环境先跑一次，两条都过才开工：
 
 ```bash
-gh repo view --json nameWithOwner,viewerPermission
+gh repo view --json nameWithOwner,viewerPermission   # 期望 WRITE 或 ADMIN
+git push --dry-run                                   # 确认传输通道通
 ```
 
-期望 `WRITE` 或 `ADMIN`。若是 `READ`，`gh pr create` 会失败 —— 用 `gh auth login` 换成有写权限的账号（多账号可共存，`gh auth switch` 切换）。
+任一条不过，先解决，别等 commit 完了才发现推不上去：
+
+- `viewerPermission` 是 `READ` → `gh auth login` 换成对本仓库有写权限的账号（多账号可共存，`gh auth switch` 切换）
+- `git push` 不通 → 换协议或修网络。**用 SSH 还是 HTTPS 是环境的事，不是仓库的约定**；凭证被本机钥匙串/helper 抢走也归此类
 
 ---
 
