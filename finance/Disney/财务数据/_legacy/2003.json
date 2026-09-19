@@ -1,0 +1,8346 @@
+{
+ "key": "2003",
+ "src": "2003.htm",
+ "statements": {
+  "IS": [
+   {
+    "periods": [
+     "2003",
+     "2002",
+     "2001"
+    ],
+    "score": 2,
+    "offset": 709603,
+    "rows": [
+     {
+      "label": "Net income (loss)",
+      "full": "OPERATING ACTIVITIES Net income (loss)",
+      "vals": [
+       1267.0,
+       1236.0,
+       -158.0
+      ]
+     },
+     {
+      "label": "Depreciation",
+      "full": "Depreciation",
+      "vals": [
+       1059.0,
+       1021.0,
+       987.0
+      ]
+     },
+     {
+      "label": "Amortization of intangible assets",
+      "full": "Amortization of intangible assets",
+      "vals": [
+       18.0,
+       21.0,
+       767.0
+      ]
+     },
+     {
+      "label": "Deferred income taxes",
+      "full": "Deferred income taxes",
+      "vals": [
+       441.0,
+       327.0,
+       58.0
+      ]
+     },
+     {
+      "label": "Equity in the income of investees",
+      "full": "Equity in the income of investees",
+      "vals": [
+       -334.0,
+       -225.0,
+       -300.0
+      ]
+     },
+     {
+      "label": "Cash distributions received from equity investees",
+      "full": "Cash distributions received from equity investees",
+      "vals": [
+       340.0,
+       234.0,
+       255.0
+      ]
+     },
+     {
+      "label": "Minority interests",
+      "full": "Minority interests",
+      "vals": [
+       127.0,
+       101.0,
+       104.0
+      ]
+     },
+     {
+      "label": "Change in film and television costs",
+      "full": "Change in film and television costs",
+      "vals": [
+       -369.0,
+       -97.0,
+       -13.0
+      ]
+     },
+     {
+      "label": "Gain on sale of businesses",
+      "full": "Gain on sale of businesses",
+      "vals": [
+       -16.0,
+       -34.0,
+       -22.0
+      ]
+     },
+     {
+      "label": "Gain on sale of Knight-Ridder, Inc. shares",
+      "full": "Gain on sale of Knight-Ridder, Inc. shares",
+      "vals": [
+       null,
+       -216.0,
+       null
+      ]
+     },
+     {
+      "label": "Restructuring and impairment charges",
+      "full": "Restructuring and impairment charges",
+      "vals": [
+       13.0,
+       null,
+       1247.0
+      ]
+     },
+     {
+      "label": "Write-off of aircraft leveraged lease",
+      "full": "Write-off of aircraft leveraged lease",
+      "vals": [
+       114.0,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Cumulative effect of accounting changes",
+      "full": "Cumulative effect of accounting changes",
+      "vals": [
+       null,
+       null,
+       278.0
+      ]
+     },
+     {
+      "label": "Other",
+      "full": "Other",
+      "vals": [
+       -23.0,
+       -55.0,
+       90.0
+      ]
+     },
+     {
+      "label": "OPERATING ACTIVITIES 合计",
+      "full": "OPERATING ACTIVITIES 合计",
+      "vals": [
+       1370.0,
+       1077.0,
+       3451.0
+      ]
+     },
+     {
+      "label": "Receivables",
+      "full": "Changes in working capital Receivables",
+      "vals": [
+       -194.0,
+       -535.0,
+       279.0
+      ]
+     },
+     {
+      "label": "Inventories",
+      "full": "Inventories",
+      "vals": [
+       -6.0,
+       -35.0,
+       54.0
+      ]
+     },
+     {
+      "label": "Other current assets",
+      "full": "Other current assets",
+      "vals": [
+       -28.0,
+       -86.0,
+       6.0
+      ]
+     },
+     {
+      "label": "Accounts payable and other accrued liabilities",
+      "full": "Accounts payable and other accrued liabilities",
+      "vals": [
+       275.0,
+       225.0,
+       -435.0
+      ]
+     },
+     {
+      "label": "Television costs",
+      "full": "Television costs",
+      "vals": [
+       217.0,
+       404.0,
+       -149.0
+      ]
+     },
+     {
+      "label": "Changes in working capital 合计",
+      "full": "Changes in working capital 合计",
+      "vals": [
+       264.0,
+       -27.0,
+       -245.0
+      ]
+     },
+     {
+      "label": "Cash provided by operations",
+      "full": "Cash provided by operations",
+      "vals": [
+       2901.0,
+       2286.0,
+       3048.0
+      ]
+     },
+     {
+      "label": "Investments in parks, resorts and other property",
+      "full": "INVESTING ACTIVITIES Investments in parks, resorts and other property",
+      "vals": [
+       -1049.0,
+       -1086.0,
+       -1795.0
+      ]
+     },
+     {
+      "label": "Acquisitions (net of cash acquired)",
+      "full": "Acquisitions (net of cash acquired)",
+      "vals": [
+       -130.0,
+       -2845.0,
+       -480.0
+      ]
+     },
+     {
+      "label": "Dispositions",
+      "full": "Dispositions",
+      "vals": [
+       166.0,
+       200.0,
+       137.0
+      ]
+     },
+     {
+      "label": "Proceeds from sale of investments",
+      "full": "Proceeds from sale of investments",
+      "vals": [
+       40.0,
+       601.0,
+       235.0
+      ]
+     },
+     {
+      "label": "Purchases of investments",
+      "full": "Purchases of investments",
+      "vals": [
+       -14.0,
+       -9.0,
+       -88.0
+      ]
+     },
+     {
+      "label": "Other",
+      "full": "Other",
+      "vals": [
+       -47.0,
+       -37.0,
+       -24.0
+      ]
+     },
+     {
+      "label": "Cash used by investing activities",
+      "full": "Cash used by investing activities",
+      "vals": [
+       -1034.0,
+       -3176.0,
+       -2015.0
+      ]
+     },
+     {
+      "label": "Borrowings",
+      "full": "FINANCING ACTIVITIES Borrowings",
+      "vals": [
+       1635.0,
+       4038.0,
+       3070.0
+      ]
+     },
+     {
+      "label": "Reduction of borrowings",
+      "full": "Reduction of borrowings",
+      "vals": [
+       -2059.0,
+       -2113.0,
+       -2807.0
+      ]
+     },
+     {
+      "label": "Commercial paper borrowings, net",
+      "full": "Commercial paper borrowings, net",
+      "vals": [
+       -721.0,
+       -33.0,
+       -186.0
+      ]
+     },
+     {
+      "label": "Repurchases of common stock",
+      "full": "Repurchases of common stock",
+      "vals": [
+       null,
+       null,
+       -1073.0
+      ]
+     },
+     {
+      "label": "Dividends",
+      "full": "Dividends",
+      "vals": [
+       -429.0,
+       -428.0,
+       -438.0
+      ]
+     },
+     {
+      "label": "Exercise of stock options and other",
+      "full": "Exercise of stock options and other",
+      "vals": [
+       51.0,
+       47.0,
+       177.0
+      ]
+     },
+     {
+      "label": "Cash (used) provided by financing activities",
+      "full": "Cash (used) provided by financing activities",
+      "vals": [
+       -1523.0,
+       1511.0,
+       -1257.0
+      ]
+     },
+     {
+      "label": "Increase (decrease) in cash and cash equivalents",
+      "full": "Increase (decrease) in cash and cash equivalents",
+      "vals": [
+       344.0,
+       621.0,
+       -224.0
+      ]
+     },
+     {
+      "label": "Cash and cash equivalents, beginning of year",
+      "full": "Cash and cash equivalents, beginning of year",
+      "vals": [
+       1239.0,
+       618.0,
+       842.0
+      ]
+     },
+     {
+      "label": "Cash and cash equivalents, end of year",
+      "full": "Cash and cash equivalents, end of year",
+      "vals": [
+       1583.0,
+       1239.0,
+       618.0
+      ]
+     },
+     {
+      "label": "Interest paid",
+      "full": "Supplemental disclosure of cash flow information: Interest paid",
+      "vals": [
+       705.0,
+       674.0,
+       625.0
+      ]
+     },
+     {
+      "label": "Income taxes paid",
+      "full": "Income taxes paid",
+      "vals": [
+       371.0,
+       447.0,
+       881.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2003",
+     "2002",
+     "2001"
+    ],
+    "score": 2,
+    "offset": 631761,
+    "rows": [
+     {
+      "label": "Revenues",
+      "full": "Revenues",
+      "vals": [
+       27061.0,
+       25329.0,
+       25172.0
+      ]
+     },
+     {
+      "label": "Costs and expenses",
+      "full": "Costs and expenses",
+      "vals": [
+       -24330.0,
+       -22924.0,
+       -21573.0
+      ]
+     },
+     {
+      "label": "Amortization of intangible assets",
+      "full": "Amortization of intangible assets",
+      "vals": [
+       -18.0,
+       -21.0,
+       -767.0
+      ]
+     },
+     {
+      "label": "Gain on sale of businesses",
+      "full": "Gain on sale of businesses",
+      "vals": [
+       16.0,
+       34.0,
+       22.0
+      ]
+     },
+     {
+      "label": "Net interest expense",
+      "full": "Net interest expense",
+      "vals": [
+       -793.0,
+       -453.0,
+       -417.0
+      ]
+     },
+     {
+      "label": "Equity in the income of investees",
+      "full": "Equity in the income of investees",
+      "vals": [
+       334.0,
+       225.0,
+       300.0
+      ]
+     },
+     {
+      "label": "Restructuring and impairment charges",
+      "full": "Restructuring and impairment charges",
+      "vals": [
+       -16.0,
+       null,
+       -1454.0
+      ]
+     },
+     {
+      "label": "Income before income taxes, minority interests and the cumulative effect of accounting changes",
+      "full": "Income before income taxes, minority interests and the cumulative effect of accounting changes",
+      "vals": [
+       2254.0,
+       2190.0,
+       1283.0
+      ]
+     },
+     {
+      "label": "Income taxes",
+      "full": "Income taxes",
+      "vals": [
+       -789.0,
+       -853.0,
+       -1059.0
+      ]
+     },
+     {
+      "label": "Minority interests",
+      "full": "Minority interests",
+      "vals": [
+       -127.0,
+       -101.0,
+       -104.0
+      ]
+     },
+     {
+      "label": "Income before the cumulative effect of accounting changes",
+      "full": "Income before the cumulative effect of accounting changes",
+      "vals": [
+       1338.0,
+       1236.0,
+       120.0
+      ]
+     },
+     {
+      "label": "Film accounting",
+      "full": "Cumulative effect of accounting changes: Film accounting",
+      "vals": [
+       null,
+       null,
+       -228.0
+      ]
+     },
+     {
+      "label": "Derivative accounting",
+      "full": "Derivative accounting",
+      "vals": [
+       null,
+       null,
+       -50.0
+      ]
+     },
+     {
+      "label": "Multiple element revenue accounting",
+      "full": "Multiple element revenue accounting",
+      "vals": [
+       -71.0,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Net income (loss)",
+      "full": "Net income (loss)",
+      "vals": [
+       1267.0,
+       1236.0,
+       -158.0
+      ]
+     },
+     {
+      "label": "Earnings (loss) attributed to Disney common stock (1)",
+      "full": "Earnings (loss) attributed to Disney common stock (1)",
+      "vals": [
+       1267.0,
+       1236.0,
+       -41.0
+      ]
+     },
+     {
+      "label": "Diluted",
+      "full": "Earnings per share attributed to Disney common stock before the cumulative effect of accounting changes: (1) Diluted",
+      "vals": [
+       0.65,
+       0.6,
+       0.11
+      ]
+     },
+     {
+      "label": "Basic",
+      "full": "Basic",
+      "vals": [
+       0.65,
+       0.61,
+       0.11
+      ]
+     },
+     {
+      "label": "Film accounting",
+      "full": "Cumulative effect of accounting changes per diluted share of Disney common stock: Film accounting",
+      "vals": [
+       null,
+       null,
+       -0.11
+      ]
+     },
+     {
+      "label": "Derivative accounting",
+      "full": "Derivative accounting",
+      "vals": [
+       null,
+       null,
+       -0.02
+      ]
+     },
+     {
+      "label": "Multiple element revenue accounting",
+      "full": "Multiple element revenue accounting",
+      "vals": [
+       -0.03,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Cumulative effect of accounting changes per diluted share of Disney common stock: 合计",
+      "full": "Cumulative effect of accounting changes per diluted share of Disney common stock: 合计",
+      "vals": [
+       -0.03,
+       null,
+       -0.13
+      ]
+     },
+     {
+      "label": "Diluted",
+      "full": "Earnings (loss) per share attributed to Disney common stock: (1) Diluted",
+      "vals": [
+       0.62,
+       0.6,
+       -0.02
+      ]
+     },
+     {
+      "label": "Basic",
+      "full": "Basic",
+      "vals": [
+       0.62,
+       0.61,
+       -0.02
+      ]
+     },
+     {
+      "label": "Diluted",
+      "full": "Average number of common and common equivalent shares outstanding for Disney common stock: Diluted",
+      "vals": [
+       2067.0,
+       2044.0,
+       2100.0
+      ]
+     },
+     {
+      "label": "Basic",
+      "full": "Basic",
+      "vals": [
+       2043.0,
+       2040.0,
+       2085.0
+      ]
+     },
+     {
+      "label": "Loss attributed to Internet Group common stock",
+      "full": "Loss attributed to Internet Group common stock",
+      "vals": [
+       -117.0
+      ]
+     },
+     {
+      "label": "Loss per share attributed to Internet Group common stock (basic and diluted)",
+      "full": "Loss per share attributed to Internet Group common stock (basic and diluted)",
+      "vals": [
+       -2.72
+      ]
+     },
+     {
+      "label": "Average number of common and common equivalent shares outstanding for Internet Group common stock",
+      "full": "Average number of common and common equivalent shares outstanding for Internet Group common stock",
+      "vals": [
+       43.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2003",
+     "2002",
+     "2001"
+    ],
+    "score": 2,
+    "offset": 262809,
+    "rows": [
+     {
+      "label": "Revenues",
+      "full": "Revenues",
+      "vals": [
+       27061.0,
+       25329.0,
+       25172.0
+      ]
+     },
+     {
+      "label": "Costs and expenses",
+      "full": "Costs and expenses",
+      "vals": [
+       -24330.0,
+       -22924.0,
+       -21573.0
+      ]
+     },
+     {
+      "label": "Amortization of intangible assets",
+      "full": "Amortization of intangible assets",
+      "vals": [
+       -18.0,
+       -21.0,
+       -767.0
+      ]
+     },
+     {
+      "label": "Gain on sale of businesses",
+      "full": "Gain on sale of businesses",
+      "vals": [
+       16.0,
+       34.0,
+       22.0
+      ]
+     },
+     {
+      "label": "Net interest expense",
+      "full": "Net interest expense",
+      "vals": [
+       -793.0,
+       -453.0,
+       -417.0
+      ]
+     },
+     {
+      "label": "Equity in the income of investees",
+      "full": "Equity in the income of investees",
+      "vals": [
+       334.0,
+       225.0,
+       300.0
+      ]
+     },
+     {
+      "label": "Restructuring and impairment charges",
+      "full": "Restructuring and impairment charges",
+      "vals": [
+       -16.0,
+       null,
+       -1454.0
+      ]
+     },
+     {
+      "label": "Income before income taxes, minority interests and the cumulative effect of accounting changes",
+      "full": "Income before income taxes, minority interests and the cumulative effect of accounting changes",
+      "vals": [
+       2254.0,
+       2190.0,
+       1283.0
+      ]
+     },
+     {
+      "label": "Income taxes",
+      "full": "Income taxes",
+      "vals": [
+       -789.0,
+       -853.0,
+       -1059.0
+      ]
+     },
+     {
+      "label": "Minority interests",
+      "full": "Minority interests",
+      "vals": [
+       -127.0,
+       -101.0,
+       -104.0
+      ]
+     },
+     {
+      "label": "Income before the cumulative effect of accounting changes",
+      "full": "Income before the cumulative effect of accounting changes",
+      "vals": [
+       1338.0,
+       1236.0,
+       120.0
+      ]
+     },
+     {
+      "label": "Film accounting",
+      "full": "Cumulative effect of accounting changes: Film accounting",
+      "vals": [
+       null,
+       null,
+       -228.0
+      ]
+     },
+     {
+      "label": "Derivative accounting",
+      "full": "Derivative accounting",
+      "vals": [
+       null,
+       null,
+       -50.0
+      ]
+     },
+     {
+      "label": "Multiple element revenue accounting",
+      "full": "Multiple element revenue accounting",
+      "vals": [
+       -71.0,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Net income (loss)",
+      "full": "Net income (loss)",
+      "vals": [
+       1267.0,
+       1236.0,
+       -158.0
+      ]
+     },
+     {
+      "label": "Earnings (loss) attributed to Disney common stock (1)",
+      "full": "Earnings (loss) attributed to Disney common stock (1)",
+      "vals": [
+       1267.0,
+       1236.0,
+       -41.0
+      ]
+     },
+     {
+      "label": "Diluted (2)",
+      "full": "Earnings per share before the cumulative effect of accounting changes attributed to Disney common stock: Diluted (2)",
+      "vals": [
+       0.65,
+       0.6,
+       0.11
+      ]
+     },
+     {
+      "label": "Basic",
+      "full": "Basic",
+      "vals": [
+       0.65,
+       0.61,
+       0.11
+      ]
+     },
+     {
+      "label": "Film accounting",
+      "full": "Cumulative effect of accounting changes per share: Film accounting",
+      "vals": [
+       null,
+       null,
+       -0.11
+      ]
+     },
+     {
+      "label": "Derivative accounting",
+      "full": "Derivative accounting",
+      "vals": [
+       null,
+       null,
+       -0.02
+      ]
+     },
+     {
+      "label": "Multiple element revenue accounting",
+      "full": "Multiple element revenue accounting",
+      "vals": [
+       -0.03,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Cumulative effect of accounting changes per share: 合计",
+      "full": "Cumulative effect of accounting changes per share: 合计",
+      "vals": [
+       -0.03,
+       null,
+       -0.13
+      ]
+     },
+     {
+      "label": "Diluted (2)",
+      "full": "Earnings (loss) per share attributed to Disney common stock: (1) Diluted (2)",
+      "vals": [
+       0.62,
+       0.6,
+       -0.02
+      ]
+     },
+     {
+      "label": "Basic",
+      "full": "Basic",
+      "vals": [
+       0.62,
+       0.61,
+       -0.02
+      ]
+     },
+     {
+      "label": "Diluted",
+      "full": "Average number of common and common equivalent shares outstanding of Disney common stock: Diluted",
+      "vals": [
+       2067.0,
+       2044.0,
+       2100.0
+      ]
+     },
+     {
+      "label": "Basic",
+      "full": "Basic",
+      "vals": [
+       2043.0,
+       2040.0,
+       2085.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [],
+    "score": 2,
+    "offset": 1094034,
+    "rows": [
+     {
+      "label": "Revenues",
+      "full": "Hong Kong As Reported Results of Operations: Revenues",
+      "vals": [
+       27061.0,
+       1077.0,
+       5.0,
+       -10.0,
+       28133.0
+      ]
+     },
+     {
+      "label": "Cost and expenses",
+      "full": "Cost and expenses",
+      "vals": [
+       -24330.0,
+       -1032.0,
+       -7.0,
+       9.0,
+       -25360.0
+      ]
+     },
+     {
+      "label": "Amortization of intangibles assets",
+      "full": "Amortization of intangibles assets",
+      "vals": [
+       -18.0,
+       null,
+       null,
+       null,
+       -18.0
+      ]
+     },
+     {
+      "label": "Gain on sale of business",
+      "full": "Gain on sale of business",
+      "vals": [
+       16.0,
+       null,
+       null,
+       null,
+       16.0
+      ]
+     },
+     {
+      "label": "Net interest expense",
+      "full": "Net interest expense",
+      "vals": [
+       -793.0,
+       -101.0,
+       null,
+       null,
+       -894.0
+      ]
+     },
+     {
+      "label": "Equity in the income of investees",
+      "full": "Equity in the income of investees",
+      "vals": [
+       334.0,
+       null,
+       null,
+       24.0,
+       358.0
+      ]
+     },
+     {
+      "label": "Restructuring and impairment charges",
+      "full": "Restructuring and impairment charges",
+      "vals": [
+       -16.0,
+       null,
+       null,
+       null,
+       -16.0
+      ]
+     },
+     {
+      "label": "Income before income taxes, minority interests and the cumulative effect of accounting change",
+      "full": "Income before income taxes, minority interests and the cumulative effect of accounting change",
+      "vals": [
+       2254.0,
+       -56.0,
+       -2.0,
+       23.0,
+       2219.0
+      ]
+     },
+     {
+      "label": "Income taxes",
+      "full": "Income taxes",
+      "vals": [
+       -789.0,
+       null,
+       null,
+       13.0,
+       -776.0
+      ]
+     },
+     {
+      "label": "Minority interests",
+      "full": "Minority interests",
+      "vals": [
+       -127.0,
+       null,
+       null,
+       22.0,
+       -105.0
+      ]
+     },
+     {
+      "label": "Cumulative effect of accounting change",
+      "full": "Cumulative effect of accounting change",
+      "vals": [
+       -71.0,
+       null,
+       null,
+       null,
+       -71.0
+      ]
+     },
+     {
+      "label": "Net income/(loss)",
+      "full": "Net income/(loss)",
+      "vals": [
+       1267.0,
+       -56.0,
+       -2.0,
+       58.0,
+       1267.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2003",
+     "2002",
+     "2001"
+    ],
+    "score": 1,
+    "offset": 1013252,
+    "rows": [
+     {
+      "label": "As reported",
+      "full": "Net income (loss) attributed to Disney common stock: As reported",
+      "vals": [
+       1267.0,
+       1236.0,
+       -41.0
+      ]
+     },
+     {
+      "label": "Less stock option expense, net of tax",
+      "full": "Less stock option expense, net of tax",
+      "vals": [
+       -294.0,
+       -306.0,
+       -284.0
+      ]
+     },
+     {
+      "label": "Pro forma after option expense",
+      "full": "Pro forma after option expense",
+      "vals": [
+       973.0,
+       930.0,
+       -325.0
+      ]
+     },
+     {
+      "label": "As reported",
+      "full": "Diluted earnings (loss) per share attributed to Disney common stock: As reported",
+      "vals": [
+       0.62,
+       0.6,
+       -0.02
+      ]
+     },
+     {
+      "label": "Pro forma after option expense",
+      "full": "Pro forma after option expense",
+      "vals": [
+       0.48,
+       0.45,
+       -0.15
+      ]
+     },
+     {
+      "label": "As reported",
+      "full": "Basic earnings (loss) per share attributed to Disney common stock: As reported",
+      "vals": [
+       0.62,
+       0.61,
+       -0.02
+      ]
+     },
+     {
+      "label": "Pro forma after option expense",
+      "full": "Pro forma after option expense",
+      "vals": [
+       0.48,
+       0.46,
+       -0.15
+      ]
+     },
+     {
+      "label": "Receivables",
+      "full": "Receivables",
+      "vals": [
+       182.0
+      ]
+     },
+     {
+      "label": "Programming costs",
+      "full": "Programming costs",
+      "vals": [
+       309.0
+      ]
+     },
+     {
+      "label": "Other assets",
+      "full": "Other assets",
+      "vals": [
+       535.0
+      ]
+     },
+     {
+      "label": "Intangible assets",
+      "full": "Intangible assets",
+      "vals": [
+       47.0
+      ]
+     },
+     {
+      "label": "Goodwill",
+      "full": "Goodwill",
+      "vals": [
+       4996.0
+      ]
+     },
+     {
+      "label": "Total assets",
+      "full": "Total assets",
+      "vals": [
+       6069.0
+      ]
+     },
+     {
+      "label": "Accounts payable and accrued liabilities",
+      "full": "Accounts payable and accrued liabilities",
+      "vals": [
+       -555.0
+      ]
+     },
+     {
+      "label": "Other liabilities",
+      "full": "Other liabilities",
+      "vals": [
+       -269.0
+      ]
+     },
+     {
+      "label": "Minority interest",
+      "full": "Minority interest",
+      "vals": [
+       -49.0
+      ]
+     },
+     {
+      "label": "Total liabilities",
+      "full": "Total liabilities",
+      "vals": [
+       -873.0
+      ]
+     },
+     {
+      "label": "Fair value of net assets acquired",
+      "full": "Fair value of net assets acquired",
+      "vals": [
+       5196.0
+      ]
+     },
+     {
+      "label": "Borrowings and preferred stock assumed",
+      "full": "Borrowings and preferred stock assumed",
+      "vals": [
+       -2371.0
+      ]
+     },
+     {
+      "label": "Cash purchase price, net of cash acquired",
+      "full": "Cash purchase price, net of cash acquired",
+      "vals": [
+       2825.0
+      ]
+     },
+     {
+      "label": "Investments, at equity (1)",
+      "full": "Investments, at equity (1)",
+      "vals": [
+       1051.0,
+       970.0
+      ]
+     },
+     {
+      "label": "Investments, at cost (2)",
+      "full": "Investments, at cost (2)",
+      "vals": [
+       106.0,
+       162.0
+      ]
+     },
+     {
+      "label": "Investment in leveraged leases",
+      "full": "Investment in leveraged leases",
+      "vals": [
+       175.0,
+       289.0
+      ]
+     },
+     {
+      "label": "Notes receivable and other investments",
+      "full": "Notes receivable and other investments",
+      "vals": [
+       517.0,
+       389.0
+      ]
+     },
+     {
+      "label": "(无标签小计)",
+      "full": "(无标签小计)",
+      "vals": [
+       1849.0,
+       1810.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2003",
+     "2002",
+     "2001"
+    ],
+    "score": 1,
+    "offset": 981403,
+    "rows": [
+     {
+      "label": "Attractions",
+      "full": "Attractions",
+      "vals": [
+       25.0,
+       40.0
+      ]
+     },
+     {
+      "label": "Buildings and improvements",
+      "full": "Buildings and improvements",
+      "vals": [
+       40.0
+      ]
+     },
+     {
+      "label": "Land improvements",
+      "full": "Leasehold improvements Land improvements",
+      "vals": [
+       25.0,
+       40.0
+      ]
+     },
+     {
+      "label": "Furniture, fixtures and equipment",
+      "full": "Furniture, fixtures and equipment",
+      "vals": [
+       2.0,
+       10.0
+      ]
+     },
+     {
+      "label": "Copyrights",
+      "full": "Copyrights",
+      "vals": [
+       10.0,
+       31.0
+      ]
+     },
+     {
+      "label": "Other",
+      "full": "Other",
+      "vals": [
+       4.0,
+       50.0
+      ]
+     },
+     {
+      "label": "Income before the cumulative effect of accounting changes attributed to Disney common stock",
+      "full": "Year Ended September 30, Income before the cumulative effect of accounting changes attributed to Disney common stock",
+      "vals": [
+       1338.0,
+       1236.0,
+       237.0
+      ]
+     },
+     {
+      "label": "Interest expense on convertible senior notes (net of tax)",
+      "full": "Interest expense on convertible senior notes (net of tax)",
+      "vals": [
+       10.0,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "September 30, 合计",
+      "full": "September 30, 合计",
+      "vals": [
+       1348.0,
+       1236.0,
+       237.0
+      ]
+     },
+     {
+      "label": "Weighted average number of common shares outstanding (basic)",
+      "full": "Weighted average number of common shares outstanding (basic)",
+      "vals": [
+       2043.0,
+       2040.0,
+       2085.0
+      ]
+     },
+     {
+      "label": "Weighted average dilutive stock options",
+      "full": "Weighted average dilutive stock options",
+      "vals": [
+       3.0,
+       4.0,
+       15.0
+      ]
+     },
+     {
+      "label": "Weighted average assumed conversion of convertible senior notes",
+      "full": "Weighted average assumed conversion of convertible senior notes",
+      "vals": [
+       21.0,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Weighted average number of common and common equivalent shares outstanding (diluted)",
+      "full": "Weighted average number of common and common equivalent shares outstanding (diluted)",
+      "vals": [
+       2067.0,
+       2044.0,
+       2100.0
+      ]
+     },
+     {
+      "label": "As reported",
+      "full": "Net income (loss) attributed to Disney common stock: As reported",
+      "vals": [
+       1267.0,
+       1236.0,
+       -41.0
+      ]
+     },
+     {
+      "label": "Less stock option expense, net of tax",
+      "full": "Less stock option expense, net of tax",
+      "vals": [
+       -294.0,
+       -306.0,
+       -284.0
+      ]
+     },
+     {
+      "label": "Pro forma after option expense",
+      "full": "Pro forma after option expense",
+      "vals": [
+       973.0,
+       930.0,
+       -325.0
+      ]
+     },
+     {
+      "label": "As reported",
+      "full": "Diluted earnings (loss) per share attributed to Disney common stock: As reported",
+      "vals": [
+       0.62,
+       0.6,
+       -0.02
+      ]
+     },
+     {
+      "label": "Pro forma after option expense",
+      "full": "Pro forma after option expense",
+      "vals": [
+       0.48,
+       0.45,
+       -0.15
+      ]
+     },
+     {
+      "label": "As reported",
+      "full": "Basic earnings (loss) per share attributed to Disney common stock: As reported",
+      "vals": [
+       0.62,
+       0.61,
+       -0.02
+      ]
+     },
+     {
+      "label": "Pro forma after option expense",
+      "full": "Pro forma after option expense",
+      "vals": [
+       0.48,
+       0.46,
+       -0.15
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2002",
+     "2002"
+    ],
+    "score": 1,
+    "offset": 1507433,
+    "rows": [
+     {
+      "label": "(unaudited)",
+      "full": "(unaudited)",
+      "vals": [
+       31.0,
+       31.0,
+       30.0,
+       30.0
+      ]
+     },
+     {
+      "label": "(无标签小计)",
+      "full": "(无标签小计)",
+      "vals": [
+       2003.0,
+       -1.0
+      ]
+     },
+     {
+      "label": "Revenues",
+      "full": "Revenues",
+      "vals": [
+       7170.0,
+       6500.0,
+       6377.0,
+       7014.0
+      ]
+     },
+     {
+      "label": "Segment operating income",
+      "full": "Segment operating income",
+      "vals": [
+       482.0,
+       814.0,
+       1048.0,
+       830.0
+      ]
+     },
+     {
+      "label": "Income before the cumulative effect of accounting change",
+      "full": "Income before the cumulative effect of accounting change",
+      "vals": [
+       107.0,
+       314.0,
+       502.0,
+       415.0
+      ]
+     },
+     {
+      "label": "Diluted",
+      "full": "Earnings per share before the cumulative effect of accounting change: Diluted",
+      "vals": [
+       0.06,
+       0.15,
+       0.24,
+       0.2
+      ]
+     },
+     {
+      "label": "Basic",
+      "full": "Basic",
+      "vals": [
+       0.06,
+       0.15,
+       0.25,
+       0.2
+      ]
+     },
+     {
+      "label": "Earnings per share before the cumulative effect of accounting change: 合计",
+      "full": "Earnings per share before the cumulative effect of accounting change: 合计",
+      "vals": [
+       2002.0
+      ]
+     },
+     {
+      "label": "Revenues",
+      "full": "Revenues",
+      "vals": [
+       7016.0,
+       5856.0,
+       5795.0,
+       6662.0
+      ]
+     },
+     {
+      "label": "Segment operating income",
+      "full": "Segment operating income",
+      "vals": [
+       753.0,
+       702.0,
+       828.0,
+       539.0
+      ]
+     },
+     {
+      "label": "Net income",
+      "full": "Net income",
+      "vals": [
+       438.0,
+       259.0,
+       364.0,
+       175.0
+      ]
+     },
+     {
+      "label": "Diluted",
+      "full": "Earnings per share: Diluted",
+      "vals": [
+       0.21,
+       0.13,
+       0.18,
+       0.09
+      ]
+     },
+     {
+      "label": "Basic",
+      "full": "Basic",
+      "vals": [
+       0.21,
+       0.13,
+       0.18,
+       0.09
+      ]
+     },
+     {
+      "label": "Diluted",
+      "full": "Diluted",
+      "vals": [
+       0.12,
+       0.17,
+       0.22,
+       0.07
+      ]
+     },
+     {
+      "label": "Basic",
+      "full": "Basic",
+      "vals": [
+       0.12,
+       0.17,
+       0.22,
+       0.07
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2003",
+     "2002",
+     "2001"
+    ],
+    "score": 1,
+    "offset": 394133,
+    "rows": [
+     {
+      "label": "Revenues",
+      "full": "Year Ended September 30, Revenues",
+      "vals": [
+       918.0,
+       983.0
+      ]
+     },
+     {
+      "label": "Operating loss",
+      "full": "Operating loss",
+      "vals": [
+       -84.0,
+       -15.0
+      ]
+     },
+     {
+      "label": "As reported",
+      "full": "Year Ended September 30, Net income (loss) attributed to Disney common stock: As reported",
+      "vals": [
+       1267.0,
+       1236.0,
+       -41.0
+      ]
+     },
+     {
+      "label": "Pro forma after stock option expense",
+      "full": "Pro forma after stock option expense",
+      "vals": [
+       973.0,
+       930.0,
+       -325.0
+      ]
+     },
+     {
+      "label": "As reported",
+      "full": "Diluted earnings (loss) per share attributed to Disney common stock: As reported",
+      "vals": [
+       0.62,
+       0.6,
+       -0.02
+      ]
+     },
+     {
+      "label": "Pro forma after stock option expense",
+      "full": "Pro forma after stock option expense",
+      "vals": [
+       0.48,
+       0.45,
+       -0.15
+      ]
+     },
+     {
+      "label": "Disney",
+      "full": "Average Disney",
+      "vals": [
+       2003.0
+      ]
+     },
+     {
+      "label": "Share Price",
+      "full": "Share Price",
+      "vals": [
+       -1.0,
+       -3.0
+      ]
+     },
+     {
+      "label": "38 million",
+      "full": "38 million",
+      "vals": [
+       null,
+       -2.0,
+       null,
+       0.0
+      ]
+     },
+     {
+      "label": "119 million",
+      "full": "119 million",
+      "vals": [
+       12.0,
+       0.6,
+       -0.01
+      ]
+     },
+     {
+      "label": "147 million",
+      "full": "147 million",
+      "vals": [
+       24.0,
+       1.2,
+       -0.01
+      ]
+     },
+     {
+      "label": "212 million",
+      "full": "212 million",
+      "vals": [
+       49.0,
+       2.4,
+       -0.02
+      ]
+     },
+     {
+      "label": "220 million",
+      "full": "220 million",
+      "vals": [
+       66.0,
+       3.2,
+       -0.02
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2003",
+     "2002",
+     "2001"
+    ],
+    "score": 1,
+    "offset": 402066,
+    "rows": [
+     {
+      "label": "As reported",
+      "full": "Year Ended September 30, Net income (loss) attributed to Disney common stock: As reported",
+      "vals": [
+       1267.0,
+       1236.0,
+       -41.0
+      ]
+     },
+     {
+      "label": "Pro forma after stock option expense",
+      "full": "Pro forma after stock option expense",
+      "vals": [
+       973.0,
+       930.0,
+       -325.0
+      ]
+     },
+     {
+      "label": "As reported",
+      "full": "Diluted earnings (loss) per share attributed to Disney common stock: As reported",
+      "vals": [
+       0.62,
+       0.6,
+       -0.02
+      ]
+     },
+     {
+      "label": "Pro forma after stock option expense",
+      "full": "Pro forma after stock option expense",
+      "vals": [
+       0.48,
+       0.45,
+       -0.15
+      ]
+     },
+     {
+      "label": "Disney",
+      "full": "Average Disney",
+      "vals": [
+       2003.0
+      ]
+     },
+     {
+      "label": "Share Price",
+      "full": "Share Price",
+      "vals": [
+       -1.0,
+       -3.0
+      ]
+     },
+     {
+      "label": "38 million",
+      "full": "38 million",
+      "vals": [
+       null,
+       -2.0,
+       null,
+       0.0
+      ]
+     },
+     {
+      "label": "119 million",
+      "full": "119 million",
+      "vals": [
+       12.0,
+       0.6,
+       -0.01
+      ]
+     },
+     {
+      "label": "147 million",
+      "full": "147 million",
+      "vals": [
+       24.0,
+       1.2,
+       -0.01
+      ]
+     },
+     {
+      "label": "212 million",
+      "full": "212 million",
+      "vals": [
+       49.0,
+       2.4,
+       -0.02
+      ]
+     },
+     {
+      "label": "220 million",
+      "full": "220 million",
+      "vals": [
+       66.0,
+       3.2,
+       -0.02
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2003",
+     "2002",
+     "2001"
+    ],
+    "score": 0,
+    "offset": 1150670,
+    "rows": [
+     {
+      "label": "Released, less amortization",
+      "full": "Theatrical film costs Released, less amortization",
+      "vals": [
+       2359.0,
+       2384.0
+      ]
+     },
+     {
+      "label": "Completed, not released",
+      "full": "Completed, not released",
+      "vals": [
+       856.0,
+       819.0
+      ]
+     },
+     {
+      "label": "In-process",
+      "full": "In-process",
+      "vals": [
+       1236.0,
+       790.0
+      ]
+     },
+     {
+      "label": "In development or pre-production",
+      "full": "In development or pre-production",
+      "vals": [
+       113.0,
+       147.0
+      ]
+     },
+     {
+      "label": "Theatrical film costs 合计",
+      "full": "Theatrical film costs 合计",
+      "vals": [
+       4564.0,
+       4140.0
+      ]
+     },
+     {
+      "label": "Released, less amortization",
+      "full": "Television costs Released, less amortization",
+      "vals": [
+       961.0,
+       909.0
+      ]
+     },
+     {
+      "label": "Completed, not released",
+      "full": "Completed, not released",
+      "vals": [
+       126.0,
+       131.0
+      ]
+     },
+     {
+      "label": "In-process",
+      "full": "In-process",
+      "vals": [
+       283.0,
+       292.0
+      ]
+     },
+     {
+      "label": "In development or pre-production",
+      "full": "In development or pre-production",
+      "vals": [
+       11.0,
+       25.0
+      ]
+     },
+     {
+      "label": "Television costs 合计",
+      "full": "Television costs 合计",
+      "vals": [
+       1381.0,
+       1357.0
+      ]
+     },
+     {
+      "label": "Television broadcast rights",
+      "full": "Television broadcast rights",
+      "vals": [
+       828.0,
+       1123.0
+      ]
+     },
+     {
+      "label": "Television costs 合计",
+      "full": "Television costs 合计",
+      "vals": [
+       6773.0,
+       6620.0
+      ]
+     },
+     {
+      "label": "Less current portion",
+      "full": "Less current portion",
+      "vals": [
+       568.0,
+       661.0
+      ]
+     },
+     {
+      "label": "Non-current portion",
+      "full": "Non-current portion",
+      "vals": [
+       6205.0,
+       5959.0
+      ]
+     },
+     {
+      "label": "Film and television cost spending",
+      "full": "Film and television cost spending",
+      "vals": [
+       -2915.0,
+       -2315.0,
+       -2273.0
+      ]
+     },
+     {
+      "label": "Film and television cost amortization",
+      "full": "Film and television cost amortization",
+      "vals": [
+       2546.0,
+       2218.0,
+       2260.0
+      ]
+     },
+     {
+      "label": "Film and television cost",
+      "full": "Film and television cost",
+      "vals": [
+       -369.0,
+       -97.0,
+       -13.0
+      ]
+     },
+     {
+      "label": "(无标签小计)",
+      "full": "(无标签小计)",
+      "vals": [
+       2001.0
+      ]
+     },
+     {
+      "label": "Reported net loss attributed to Disney common stock",
+      "full": "Earnings Amount Reported net loss attributed to Disney common stock",
+      "vals": [
+       -41.0,
+       -0.02
+      ]
+     },
+     {
+      "label": "Cumulative effect of accounting changes",
+      "full": "Cumulative effect of accounting changes",
+      "vals": [
+       278.0,
+       0.13
+      ]
+     },
+     {
+      "label": "Reported earnings attributed to Disney common stock before the cumulative effect of accounting changes",
+      "full": "Reported earnings attributed to Disney common stock before the cumulative effect of accounting changes",
+      "vals": [
+       237.0,
+       0.11
+      ]
+     },
+     {
+      "label": "Goodwill",
+      "full": "Add back amortization (net of tax): Goodwill",
+      "vals": [
+       604.0,
+       0.29
+      ]
+     },
+     {
+      "label": "Indefinite life intangible assets",
+      "full": "Indefinite life intangible assets",
+      "vals": [
+       50.0,
+       0.02
+      ]
+     },
+     {
+      "label": "Adjusted earnings attributed to Disney common stock before the cumulative effect of accounting changes",
+      "full": "Adjusted earnings attributed to Disney common stock before the cumulative effect of accounting changes",
+      "vals": [
+       891.0,
+       0.42
+      ]
+     },
+     {
+      "label": "Balance as of October 1, 2002",
+      "full": "Media Network Balance as of October 1, 2002",
+      "vals": [
+       17008.0,
+       75.0,
+       17083.0
+      ]
+     },
+     {
+      "label": "Goodwill acquired during the period",
+      "full": "Goodwill acquired during the period",
+      "vals": [
+       18.0,
+       1.0,
+       19.0
+      ]
+     },
+     {
+      "label": "Capital Cities/ ABC, Inc. acquisition adjustment and other",
+      "full": "Capital Cities/ ABC, Inc. acquisition adjustment and other",
+      "vals": [
+       -136.0,
+       null,
+       -136.0
+      ]
+     },
+     {
+      "label": "Balance as of September 30, 2003",
+      "full": "Balance as of September 30, 2003",
+      "vals": [
+       16890.0,
+       76.0,
+       16966.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [],
+    "score": 0,
+    "offset": 9443,
+    "rows": [
+     {
+      "label": "ITEM 1.",
+      "full": "Page PART I ITEM 1.",
+      "vals": [
+       1.0
+      ]
+     },
+     {
+      "label": "ITEM 2.",
+      "full": "ITEM 2.",
+      "vals": [
+       20.0
+      ]
+     },
+     {
+      "label": "ITEM 3.",
+      "full": "ITEM 3.",
+      "vals": [
+       21.0
+      ]
+     },
+     {
+      "label": "ITEM 4.",
+      "full": "ITEM 4.",
+      "vals": [
+       23.0
+      ]
+     },
+     {
+      "label": "ITEM 5.",
+      "full": "PART II ITEM 5.",
+      "vals": [
+       24.0
+      ]
+     },
+     {
+      "label": "ITEM 6.",
+      "full": "ITEM 6.",
+      "vals": [
+       25.0
+      ]
+     },
+     {
+      "label": "ITEM 7.",
+      "full": "ITEM 7.",
+      "vals": [
+       26.0
+      ]
+     },
+     {
+      "label": "ITEM 7A.",
+      "full": "ITEM 7A.",
+      "vals": [
+       53.0
+      ]
+     },
+     {
+      "label": "ITEM 8.",
+      "full": "ITEM 8.",
+      "vals": [
+       54.0
+      ]
+     },
+     {
+      "label": "ITEM 9.",
+      "full": "ITEM 9.",
+      "vals": [
+       54.0
+      ]
+     },
+     {
+      "label": "ITEM 9A.",
+      "full": "ITEM 9A.",
+      "vals": [
+       55.0
+      ]
+     },
+     {
+      "label": "ITEM 10.",
+      "full": "PART III ITEM 10.",
+      "vals": [
+       56.0
+      ]
+     },
+     {
+      "label": "ITEM 11.",
+      "full": "ITEM 11.",
+      "vals": [
+       56.0
+      ]
+     },
+     {
+      "label": "ITEM 12.",
+      "full": "ITEM 12.",
+      "vals": [
+       56.0
+      ]
+     },
+     {
+      "label": "ITEM 13.",
+      "full": "ITEM 13.",
+      "vals": [
+       56.0
+      ]
+     },
+     {
+      "label": "ITEM 14.",
+      "full": "ITEM 14.",
+      "vals": [
+       56.0
+      ]
+     },
+     {
+      "label": "ITEM 15.",
+      "full": "PART IV ITEM 15.",
+      "vals": [
+       8.0,
+       57.0
+      ]
+     },
+     {
+      "label": "SIGNATURES",
+      "full": "SIGNATURES",
+      "vals": [
+       60.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [],
+    "score": 0,
+    "offset": 168091,
+    "rows": [
+     {
+      "label": "Michael D. Eisner",
+      "full": "Executive Name Michael D. Eisner",
+      "vals": [
+       61.0,
+       1984.0
+      ]
+     },
+     {
+      "label": "Roy E. Disney",
+      "full": "Roy E. Disney",
+      "vals": [
+       73.0,
+       -3.0,
+       1984.0
+      ]
+     },
+     {
+      "label": "Robert A. Iger",
+      "full": "Robert A. Iger",
+      "vals": [
+       52.0,
+       -1.0,
+       2000.0
+      ]
+     },
+     {
+      "label": "Thomas O. Staggs",
+      "full": "Thomas O. Staggs",
+      "vals": [
+       42.0,
+       1998.0
+      ]
+     },
+     {
+      "label": "Peter E. Murphy",
+      "full": "Peter E. Murphy",
+      "vals": [
+       40.0,
+       1998.0
+      ]
+     },
+     {
+      "label": "Alan N. Braverman",
+      "full": "Alan N. Braverman",
+      "vals": [
+       56.0,
+       -2.0,
+       2003.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2002",
+     "2003",
+     "2003",
+     "2003",
+     "2003"
+    ],
+    "score": 0,
+    "offset": 495168,
+    "rows": [
+     {
+      "label": "(in millions, except per share data)",
+      "full": "Three Months Ended Net (in millions, except per share data)",
+      "vals": [
+       -1.0,
+       -1.0,
+       -1.0,
+       -1.0,
+       -1.0
+      ]
+     },
+     {
+      "label": "Results prior to EITF 00-21 adoption",
+      "full": "Results prior to EITF 00-21 adoption",
+      "vals": [
+       256.0,
+       0.13,
+       229.0,
+       0.11,
+       400.0,
+       0.19,
+       417.0,
+       0.2,
+       1302.0,
+       0.63
+      ]
+     },
+     {
+      "label": "Quarterly impact of accounting change",
+      "full": "Quarterly impact of accounting change",
+      "vals": [
+       -149.0,
+       -0.07,
+       85.0,
+       0.04,
+       102.0,
+       0.05,
+       -2.0,
+       -0.0,
+       36.0,
+       0.02
+      ]
+     },
+     {
+      "label": "Net 合计",
+      "full": "Net 合计",
+      "vals": [
+       107.0,
+       0.06,
+       314.0,
+       0.15,
+       502.0,
+       0.24,
+       415.0,
+       0.2,
+       1338.0,
+       0.65
+      ]
+     },
+     {
+      "label": "Cumulative effect of accounting change",
+      "full": "Cumulative effect of accounting change",
+      "vals": [
+       -71.0,
+       -0.03,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       -71.0,
+       -0.03
+      ]
+     },
+     {
+      "label": "Results subsequent to EITF 00-21 adoption",
+      "full": "Results subsequent to EITF 00-21 adoption",
+      "vals": [
+       36.0,
+       0.02,
+       314.0,
+       0.15,
+       502.0,
+       0.24,
+       415.0,
+       0.2,
+       1267.0,
+       0.62
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2003",
+     "2002"
+    ],
+    "score": 0,
+    "offset": 1038148,
+    "rows": [
+     {
+      "label": "Investments, at equity (1)",
+      "full": "Investments, at equity (1)",
+      "vals": [
+       1051.0,
+       970.0
+      ]
+     },
+     {
+      "label": "Investments, at cost (2)",
+      "full": "Investments, at cost (2)",
+      "vals": [
+       106.0,
+       162.0
+      ]
+     },
+     {
+      "label": "Investment in leveraged leases",
+      "full": "Investment in leveraged leases",
+      "vals": [
+       175.0,
+       289.0
+      ]
+     },
+     {
+      "label": "Notes receivable and other investments",
+      "full": "Notes receivable and other investments",
+      "vals": [
+       517.0,
+       389.0
+      ]
+     },
+     {
+      "label": "(无标签小计)",
+      "full": "(无标签小计)",
+      "vals": [
+       1849.0,
+       1810.0
+      ]
+     }
+    ]
+   }
+  ],
+  "BS": [
+   {
+    "periods": [
+     "2003",
+     "2002"
+    ],
+    "score": 3,
+    "offset": 673406,
+    "rows": [
+     {
+      "label": "Cash and cash equivalents",
+      "full": "ASSETS Current assets Cash and cash equivalents",
+      "vals": [
+       1583.0,
+       1239.0
+      ]
+     },
+     {
+      "label": "Receivables",
+      "full": "Receivables",
+      "vals": [
+       4238.0,
+       4049.0
+      ]
+     },
+     {
+      "label": "Inventories",
+      "full": "Inventories",
+      "vals": [
+       703.0,
+       697.0
+      ]
+     },
+     {
+      "label": "Television costs",
+      "full": "Television costs",
+      "vals": [
+       568.0,
+       661.0
+      ]
+     },
+     {
+      "label": "Deferred income taxes",
+      "full": "Deferred income taxes",
+      "vals": [
+       674.0,
+       624.0
+      ]
+     },
+     {
+      "label": "Other current assets",
+      "full": "Other current assets",
+      "vals": [
+       548.0,
+       579.0
+      ]
+     },
+     {
+      "label": "Total current assets",
+      "full": "Total current assets",
+      "vals": [
+       8314.0,
+       7849.0
+      ]
+     },
+     {
+      "label": "Film and television costs",
+      "full": "Film and television costs",
+      "vals": [
+       6205.0,
+       5959.0
+      ]
+     },
+     {
+      "label": "Investments",
+      "full": "Investments",
+      "vals": [
+       1849.0,
+       1810.0
+      ]
+     },
+     {
+      "label": "Attractions, buildings and equipment",
+      "full": "Parks, resorts and other property, at cost Attractions, buildings and equipment",
+      "vals": [
+       19499.0,
+       18917.0
+      ]
+     },
+     {
+      "label": "Accumulated depreciation",
+      "full": "Accumulated depreciation",
+      "vals": [
+       -8794.0,
+       -8133.0
+      ]
+     },
+     {
+      "label": "Parks, resorts and other property, at cost 合计",
+      "full": "Parks, resorts and other property, at cost 合计",
+      "vals": [
+       10705.0,
+       10784.0
+      ]
+     },
+     {
+      "label": "Projects in progress",
+      "full": "Projects in progress",
+      "vals": [
+       1076.0,
+       1148.0
+      ]
+     },
+     {
+      "label": "Land",
+      "full": "Land",
+      "vals": [
+       897.0,
+       848.0
+      ]
+     },
+     {
+      "label": "Parks, resorts and other property, at cost 合计",
+      "full": "Parks, resorts and other property, at cost 合计",
+      "vals": [
+       12678.0,
+       12780.0
+      ]
+     },
+     {
+      "label": "Intangible assets, net",
+      "full": "Intangible assets, net",
+      "vals": [
+       2786.0,
+       2776.0
+      ]
+     },
+     {
+      "label": "Goodwill",
+      "full": "Goodwill",
+      "vals": [
+       16966.0,
+       17083.0
+      ]
+     },
+     {
+      "label": "Other assets",
+      "full": "Other assets",
+      "vals": [
+       1190.0,
+       1788.0
+      ]
+     },
+     {
+      "label": "Parks, resorts and other property, at cost 合计",
+      "full": "Parks, resorts and other property, at cost 合计",
+      "vals": [
+       49988.0,
+       50045.0
+      ]
+     },
+     {
+      "label": "Accounts payable and other accrued liabilities",
+      "full": "LIABILITIES AND SHAREHOLDERS’ EQUITY Current liabilities Accounts payable and other accrued liabilities",
+      "vals": [
+       5044.0,
+       5173.0
+      ]
+     },
+     {
+      "label": "Current portion of borrowings",
+      "full": "Current portion of borrowings",
+      "vals": [
+       2457.0,
+       1663.0
+      ]
+     },
+     {
+      "label": "Unearned royalties and other advances",
+      "full": "Unearned royalties and other advances",
+      "vals": [
+       1168.0,
+       983.0
+      ]
+     },
+     {
+      "label": "Total current liabilities",
+      "full": "Total current liabilities",
+      "vals": [
+       8669.0,
+       7819.0
+      ]
+     },
+     {
+      "label": "Borrowings",
+      "full": "Borrowings",
+      "vals": [
+       10643.0,
+       12467.0
+      ]
+     },
+     {
+      "label": "Deferred income taxes",
+      "full": "Deferred income taxes",
+      "vals": [
+       2712.0,
+       2597.0
+      ]
+     },
+     {
+      "label": "Other long-term liabilities",
+      "full": "Other long-term liabilities",
+      "vals": [
+       3745.0,
+       3283.0
+      ]
+     },
+     {
+      "label": "Minority interests",
+      "full": "Minority interests",
+      "vals": [
+       428.0,
+       434.0
+      ]
+     },
+     {
+      "label": "Authorized – 3.6 billion shares, Issued – 2.1 billion shares",
+      "full": "Commitments and contingencies (Note 14) Shareholders’ equity Preferred stock, $.01 par value Authorized – 100 million shares, Issued – none Common stock Common stock – Disney, $.01 par value Authorized – 3.6 billion shares, Issued – 2.1 billion shares",
+      "vals": [
+       12154.0,
+       12107.0
+      ]
+     },
+     {
+      "label": "Authorized – 1.0 billion shares, Issued – none",
+      "full": "Common stock – Internet Group, $.01 par value Authorized – 1.0 billion shares, Issued – none",
+      "vals": [
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Retained earnings",
+      "full": "Retained earnings",
+      "vals": [
+       13817.0,
+       12979.0
+      ]
+     },
+     {
+      "label": "Accumulated other comprehensive loss",
+      "full": "Accumulated other comprehensive loss",
+      "vals": [
+       -653.0,
+       -85.0
+      ]
+     },
+     {
+      "label": "Common stock – Internet Group, $.01 par value 合计",
+      "full": "Common stock – Internet Group, $.01 par value 合计",
+      "vals": [
+       25318.0,
+       25001.0
+      ]
+     },
+     {
+      "label": "Treasury stock, at cost, 86.7 million and 81.4 million Disney shares",
+      "full": "Treasury stock, at cost, 86.7 million and 81.4 million Disney shares",
+      "vals": [
+       -1527.0,
+       -1395.0
+      ]
+     },
+     {
+      "label": "Shares held by TWDC Stock Compensation Fund II, at cost – None and 6.6 million Disney shares",
+      "full": "Shares held by TWDC Stock Compensation Fund II, at cost – None and 6.6 million Disney shares",
+      "vals": [
+       null,
+       -161.0
+      ]
+     },
+     {
+      "label": "Common stock – Internet Group, $.01 par value 合计",
+      "full": "Common stock – Internet Group, $.01 par value 合计",
+      "vals": [
+       23791.0,
+       23445.0
+      ]
+     },
+     {
+      "label": "Common stock – Internet Group, $.01 par value 合计",
+      "full": "Common stock – Internet Group, $.01 par value 合计",
+      "vals": [
+       49988.0,
+       50045.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [],
+    "score": 3,
+    "offset": 1116025,
+    "rows": [
+     {
+      "label": "Cash and cash equivalents",
+      "full": "Hong Kong As Reported Balance Sheet: Cash and cash equivalents",
+      "vals": [
+       1583.0,
+       103.0,
+       76.0,
+       null,
+       1762.0
+      ]
+     },
+     {
+      "label": "Other current assets",
+      "full": "Other current assets",
+      "vals": [
+       6731.0,
+       191.0,
+       9.0,
+       -9.0,
+       6922.0
+      ]
+     },
+     {
+      "label": "Total current assets",
+      "full": "Total current assets",
+      "vals": [
+       8314.0,
+       294.0,
+       85.0,
+       -9.0,
+       8684.0
+      ]
+     },
+     {
+      "label": "Investments",
+      "full": "Investments",
+      "vals": [
+       1849.0,
+       null,
+       null,
+       -623.0,
+       1226.0
+      ]
+     },
+     {
+      "label": "Fixed assets",
+      "full": "Fixed assets",
+      "vals": [
+       12678.0,
+       2951.0,
+       524.0,
+       null,
+       16153.0
+      ]
+     },
+     {
+      "label": "Intangible assets",
+      "full": "Intangible assets",
+      "vals": [
+       2786.0,
+       null,
+       null,
+       null,
+       2786.0
+      ]
+     },
+     {
+      "label": "Goodwill",
+      "full": "Goodwill",
+      "vals": [
+       16966.0,
+       null,
+       null,
+       null,
+       16966.0
+      ]
+     },
+     {
+      "label": "Other assets",
+      "full": "Other assets",
+      "vals": [
+       7395.0,
+       128.0,
+       9.0,
+       null,
+       7532.0
+      ]
+     },
+     {
+      "label": "Total assets",
+      "full": "Total assets",
+      "vals": [
+       49988.0,
+       3373.0,
+       618.0,
+       -632.0,
+       53347.0
+      ]
+     },
+     {
+      "label": "Current portion of borrowings (1)",
+      "full": "Current portion of borrowings (1)",
+      "vals": [
+       2457.0,
+       2528.0,
+       null,
+       -388.0,
+       4597.0
+      ]
+     },
+     {
+      "label": "Other current liabilities",
+      "full": "Other current liabilities",
+      "vals": [
+       6212.0,
+       487.0,
+       61.0,
+       -85.0,
+       6675.0
+      ]
+     },
+     {
+      "label": "Total current liabilities",
+      "full": "Total current liabilities",
+      "vals": [
+       8669.0,
+       3015.0,
+       61.0,
+       -473.0,
+       11272.0
+      ]
+     },
+     {
+      "label": "Borrowings",
+      "full": "Borrowings",
+      "vals": [
+       10643.0,
+       null,
+       237.0,
+       null,
+       10880.0
+      ]
+     },
+     {
+      "label": "Deferred income taxes",
+      "full": "Deferred income taxes",
+      "vals": [
+       2712.0,
+       null,
+       null,
+       null,
+       2712.0
+      ]
+     },
+     {
+      "label": "Other long-term liabilities",
+      "full": "Other long-term liabilities",
+      "vals": [
+       3745.0,
+       289.0,
+       null,
+       -71.0,
+       3963.0
+      ]
+     },
+     {
+      "label": "Minority interest",
+      "full": "Minority interest",
+      "vals": [
+       428.0,
+       null,
+       null,
+       301.0,
+       729.0
+      ]
+     },
+     {
+      "label": "Shareholders’ equity",
+      "full": "Shareholders’ equity",
+      "vals": [
+       23791.0,
+       69.0,
+       320.0,
+       -389.0,
+       23791.0
+      ]
+     },
+     {
+      "label": "Total liabilities and shareholders’ equity",
+      "full": "Total liabilities and shareholders’ equity",
+      "vals": [
+       49988.0,
+       3373.0,
+       618.0,
+       -632.0,
+       53347.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2003",
+     "2002",
+     "2001"
+    ],
+    "score": 2,
+    "offset": 709603,
+    "rows": [
+     {
+      "label": "Net income (loss)",
+      "full": "OPERATING ACTIVITIES Net income (loss)",
+      "vals": [
+       1267.0,
+       1236.0,
+       -158.0
+      ]
+     },
+     {
+      "label": "Depreciation",
+      "full": "Depreciation",
+      "vals": [
+       1059.0,
+       1021.0,
+       987.0
+      ]
+     },
+     {
+      "label": "Amortization of intangible assets",
+      "full": "Amortization of intangible assets",
+      "vals": [
+       18.0,
+       21.0,
+       767.0
+      ]
+     },
+     {
+      "label": "Deferred income taxes",
+      "full": "Deferred income taxes",
+      "vals": [
+       441.0,
+       327.0,
+       58.0
+      ]
+     },
+     {
+      "label": "Equity in the income of investees",
+      "full": "Equity in the income of investees",
+      "vals": [
+       -334.0,
+       -225.0,
+       -300.0
+      ]
+     },
+     {
+      "label": "Cash distributions received from equity investees",
+      "full": "Cash distributions received from equity investees",
+      "vals": [
+       340.0,
+       234.0,
+       255.0
+      ]
+     },
+     {
+      "label": "Minority interests",
+      "full": "Minority interests",
+      "vals": [
+       127.0,
+       101.0,
+       104.0
+      ]
+     },
+     {
+      "label": "Change in film and television costs",
+      "full": "Change in film and television costs",
+      "vals": [
+       -369.0,
+       -97.0,
+       -13.0
+      ]
+     },
+     {
+      "label": "Gain on sale of businesses",
+      "full": "Gain on sale of businesses",
+      "vals": [
+       -16.0,
+       -34.0,
+       -22.0
+      ]
+     },
+     {
+      "label": "Gain on sale of Knight-Ridder, Inc. shares",
+      "full": "Gain on sale of Knight-Ridder, Inc. shares",
+      "vals": [
+       null,
+       -216.0,
+       null
+      ]
+     },
+     {
+      "label": "Restructuring and impairment charges",
+      "full": "Restructuring and impairment charges",
+      "vals": [
+       13.0,
+       null,
+       1247.0
+      ]
+     },
+     {
+      "label": "Write-off of aircraft leveraged lease",
+      "full": "Write-off of aircraft leveraged lease",
+      "vals": [
+       114.0,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Cumulative effect of accounting changes",
+      "full": "Cumulative effect of accounting changes",
+      "vals": [
+       null,
+       null,
+       278.0
+      ]
+     },
+     {
+      "label": "Other",
+      "full": "Other",
+      "vals": [
+       -23.0,
+       -55.0,
+       90.0
+      ]
+     },
+     {
+      "label": "OPERATING ACTIVITIES 合计",
+      "full": "OPERATING ACTIVITIES 合计",
+      "vals": [
+       1370.0,
+       1077.0,
+       3451.0
+      ]
+     },
+     {
+      "label": "Receivables",
+      "full": "Changes in working capital Receivables",
+      "vals": [
+       -194.0,
+       -535.0,
+       279.0
+      ]
+     },
+     {
+      "label": "Inventories",
+      "full": "Inventories",
+      "vals": [
+       -6.0,
+       -35.0,
+       54.0
+      ]
+     },
+     {
+      "label": "Other current assets",
+      "full": "Other current assets",
+      "vals": [
+       -28.0,
+       -86.0,
+       6.0
+      ]
+     },
+     {
+      "label": "Accounts payable and other accrued liabilities",
+      "full": "Accounts payable and other accrued liabilities",
+      "vals": [
+       275.0,
+       225.0,
+       -435.0
+      ]
+     },
+     {
+      "label": "Television costs",
+      "full": "Television costs",
+      "vals": [
+       217.0,
+       404.0,
+       -149.0
+      ]
+     },
+     {
+      "label": "Changes in working capital 合计",
+      "full": "Changes in working capital 合计",
+      "vals": [
+       264.0,
+       -27.0,
+       -245.0
+      ]
+     },
+     {
+      "label": "Cash provided by operations",
+      "full": "Cash provided by operations",
+      "vals": [
+       2901.0,
+       2286.0,
+       3048.0
+      ]
+     },
+     {
+      "label": "Investments in parks, resorts and other property",
+      "full": "INVESTING ACTIVITIES Investments in parks, resorts and other property",
+      "vals": [
+       -1049.0,
+       -1086.0,
+       -1795.0
+      ]
+     },
+     {
+      "label": "Acquisitions (net of cash acquired)",
+      "full": "Acquisitions (net of cash acquired)",
+      "vals": [
+       -130.0,
+       -2845.0,
+       -480.0
+      ]
+     },
+     {
+      "label": "Dispositions",
+      "full": "Dispositions",
+      "vals": [
+       166.0,
+       200.0,
+       137.0
+      ]
+     },
+     {
+      "label": "Proceeds from sale of investments",
+      "full": "Proceeds from sale of investments",
+      "vals": [
+       40.0,
+       601.0,
+       235.0
+      ]
+     },
+     {
+      "label": "Purchases of investments",
+      "full": "Purchases of investments",
+      "vals": [
+       -14.0,
+       -9.0,
+       -88.0
+      ]
+     },
+     {
+      "label": "Other",
+      "full": "Other",
+      "vals": [
+       -47.0,
+       -37.0,
+       -24.0
+      ]
+     },
+     {
+      "label": "Cash used by investing activities",
+      "full": "Cash used by investing activities",
+      "vals": [
+       -1034.0,
+       -3176.0,
+       -2015.0
+      ]
+     },
+     {
+      "label": "Borrowings",
+      "full": "FINANCING ACTIVITIES Borrowings",
+      "vals": [
+       1635.0,
+       4038.0,
+       3070.0
+      ]
+     },
+     {
+      "label": "Reduction of borrowings",
+      "full": "Reduction of borrowings",
+      "vals": [
+       -2059.0,
+       -2113.0,
+       -2807.0
+      ]
+     },
+     {
+      "label": "Commercial paper borrowings, net",
+      "full": "Commercial paper borrowings, net",
+      "vals": [
+       -721.0,
+       -33.0,
+       -186.0
+      ]
+     },
+     {
+      "label": "Repurchases of common stock",
+      "full": "Repurchases of common stock",
+      "vals": [
+       null,
+       null,
+       -1073.0
+      ]
+     },
+     {
+      "label": "Dividends",
+      "full": "Dividends",
+      "vals": [
+       -429.0,
+       -428.0,
+       -438.0
+      ]
+     },
+     {
+      "label": "Exercise of stock options and other",
+      "full": "Exercise of stock options and other",
+      "vals": [
+       51.0,
+       47.0,
+       177.0
+      ]
+     },
+     {
+      "label": "Cash (used) provided by financing activities",
+      "full": "Cash (used) provided by financing activities",
+      "vals": [
+       -1523.0,
+       1511.0,
+       -1257.0
+      ]
+     },
+     {
+      "label": "Increase (decrease) in cash and cash equivalents",
+      "full": "Increase (decrease) in cash and cash equivalents",
+      "vals": [
+       344.0,
+       621.0,
+       -224.0
+      ]
+     },
+     {
+      "label": "Cash and cash equivalents, beginning of year",
+      "full": "Cash and cash equivalents, beginning of year",
+      "vals": [
+       1239.0,
+       618.0,
+       842.0
+      ]
+     },
+     {
+      "label": "Cash and cash equivalents, end of year",
+      "full": "Cash and cash equivalents, end of year",
+      "vals": [
+       1583.0,
+       1239.0,
+       618.0
+      ]
+     },
+     {
+      "label": "Interest paid",
+      "full": "Supplemental disclosure of cash flow information: Interest paid",
+      "vals": [
+       705.0,
+       674.0,
+       625.0
+      ]
+     },
+     {
+      "label": "Income taxes paid",
+      "full": "Income taxes paid",
+      "vals": [
+       371.0,
+       447.0,
+       881.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2003",
+     "2002"
+    ],
+    "score": 2,
+    "offset": 1060185,
+    "rows": [
+     {
+      "label": "Cash and cash equivalents",
+      "full": "Balance Sheet: Cash and cash equivalents",
+      "vals": [
+       103.0,
+       66.0
+      ]
+     },
+     {
+      "label": "Other current assets",
+      "full": "Other current assets",
+      "vals": [
+       191.0,
+       199.0
+      ]
+     },
+     {
+      "label": "Total current assets",
+      "full": "Total current assets",
+      "vals": [
+       294.0,
+       265.0
+      ]
+     },
+     {
+      "label": "Parks, resorts and other property, net",
+      "full": "Parks, resorts and other property, net",
+      "vals": [
+       2951.0,
+       2687.0
+      ]
+     },
+     {
+      "label": "Other non-current assets",
+      "full": "Other non-current assets",
+      "vals": [
+       128.0,
+       60.0
+      ]
+     },
+     {
+      "label": "Balance Sheet: 合计",
+      "full": "Balance Sheet: 合计",
+      "vals": [
+       3373.0,
+       3012.0
+      ]
+     },
+     {
+      "label": "Accounts payable and other accrued liabilities",
+      "full": "Accounts payable and other accrued liabilities",
+      "vals": [
+       421.0,
+       404.0
+      ]
+     },
+     {
+      "label": "Current portion of borrowings (1)",
+      "full": "Current portion of borrowings (1)",
+      "vals": [
+       2528.0,
+       47.0
+      ]
+     },
+     {
+      "label": "Other current liabilities",
+      "full": "Other current liabilities",
+      "vals": [
+       66.0,
+       81.0
+      ]
+     },
+     {
+      "label": "Total current liabilities",
+      "full": "Total current liabilities",
+      "vals": [
+       3015.0,
+       532.0
+      ]
+     },
+     {
+      "label": "Borrowings",
+      "full": "Borrowings",
+      "vals": [
+       null,
+       2126.0
+      ]
+     },
+     {
+      "label": "Other non-current liabilities",
+      "full": "Other non-current liabilities",
+      "vals": [
+       289.0,
+       244.0
+      ]
+     },
+     {
+      "label": "Shareholders’ equity",
+      "full": "Shareholders’ equity",
+      "vals": [
+       69.0,
+       110.0
+      ]
+     },
+     {
+      "label": "Balance Sheet: 合计",
+      "full": "Balance Sheet: 合计",
+      "vals": [
+       3373.0,
+       3012.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [],
+    "score": 2,
+    "offset": 1028824,
+    "rows": [
+     {
+      "label": "Receivables",
+      "full": "Receivables",
+      "vals": [
+       182.0
+      ]
+     },
+     {
+      "label": "Programming costs",
+      "full": "Programming costs",
+      "vals": [
+       309.0
+      ]
+     },
+     {
+      "label": "Other assets",
+      "full": "Other assets",
+      "vals": [
+       535.0
+      ]
+     },
+     {
+      "label": "Intangible assets",
+      "full": "Intangible assets",
+      "vals": [
+       47.0
+      ]
+     },
+     {
+      "label": "Goodwill",
+      "full": "Goodwill",
+      "vals": [
+       4996.0
+      ]
+     },
+     {
+      "label": "Total assets",
+      "full": "Total assets",
+      "vals": [
+       6069.0
+      ]
+     },
+     {
+      "label": "Accounts payable and accrued liabilities",
+      "full": "Accounts payable and accrued liabilities",
+      "vals": [
+       -555.0
+      ]
+     },
+     {
+      "label": "Other liabilities",
+      "full": "Other liabilities",
+      "vals": [
+       -269.0
+      ]
+     },
+     {
+      "label": "Minority interest",
+      "full": "Minority interest",
+      "vals": [
+       -49.0
+      ]
+     },
+     {
+      "label": "Total liabilities",
+      "full": "Total liabilities",
+      "vals": [
+       -873.0
+      ]
+     },
+     {
+      "label": "Fair value of net assets acquired",
+      "full": "Fair value of net assets acquired",
+      "vals": [
+       5196.0
+      ]
+     },
+     {
+      "label": "Borrowings and preferred stock assumed",
+      "full": "Borrowings and preferred stock assumed",
+      "vals": [
+       -2371.0
+      ]
+     },
+     {
+      "label": "Cash purchase price, net of cash acquired",
+      "full": "Cash purchase price, net of cash acquired",
+      "vals": [
+       2825.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2003",
+     "2002",
+     "2001"
+    ],
+    "score": 0,
+    "offset": 625341,
+    "rows": [
+     {
+      "label": "Revenues",
+      "full": "Revenues",
+      "vals": [
+       27061.0,
+       25329.0,
+       25172.0
+      ]
+     },
+     {
+      "label": "Costs and expenses",
+      "full": "Costs and expenses",
+      "vals": [
+       -24330.0,
+       -22924.0,
+       -21573.0
+      ]
+     },
+     {
+      "label": "Amortization of intangible assets",
+      "full": "Amortization of intangible assets",
+      "vals": [
+       -18.0,
+       -21.0,
+       -767.0
+      ]
+     },
+     {
+      "label": "Gain on sale of businesses",
+      "full": "Gain on sale of businesses",
+      "vals": [
+       16.0,
+       34.0,
+       22.0
+      ]
+     },
+     {
+      "label": "Net interest expense",
+      "full": "Net interest expense",
+      "vals": [
+       -793.0,
+       -453.0,
+       -417.0
+      ]
+     },
+     {
+      "label": "Equity in the income of investees",
+      "full": "Equity in the income of investees",
+      "vals": [
+       334.0,
+       225.0,
+       300.0
+      ]
+     },
+     {
+      "label": "Restructuring and impairment charges",
+      "full": "Restructuring and impairment charges",
+      "vals": [
+       -16.0,
+       null,
+       -1454.0
+      ]
+     },
+     {
+      "label": "Income before income taxes, minority interests and the cumulative effect of accounting changes",
+      "full": "Income before income taxes, minority interests and the cumulative effect of accounting changes",
+      "vals": [
+       2254.0,
+       2190.0,
+       1283.0
+      ]
+     },
+     {
+      "label": "Income taxes",
+      "full": "Income taxes",
+      "vals": [
+       -789.0,
+       -853.0,
+       -1059.0
+      ]
+     },
+     {
+      "label": "Minority interests",
+      "full": "Minority interests",
+      "vals": [
+       -127.0,
+       -101.0,
+       -104.0
+      ]
+     },
+     {
+      "label": "Income before the cumulative effect of accounting changes",
+      "full": "Income before the cumulative effect of accounting changes",
+      "vals": [
+       1338.0,
+       1236.0,
+       120.0
+      ]
+     },
+     {
+      "label": "Film accounting",
+      "full": "Cumulative effect of accounting changes: Film accounting",
+      "vals": [
+       null,
+       null,
+       -228.0
+      ]
+     },
+     {
+      "label": "Derivative accounting",
+      "full": "Derivative accounting",
+      "vals": [
+       null,
+       null,
+       -50.0
+      ]
+     },
+     {
+      "label": "Multiple element revenue accounting",
+      "full": "Multiple element revenue accounting",
+      "vals": [
+       -71.0,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Net income (loss)",
+      "full": "Net income (loss)",
+      "vals": [
+       1267.0,
+       1236.0,
+       -158.0
+      ]
+     },
+     {
+      "label": "Earnings (loss) attributed to Disney common stock (1)",
+      "full": "Earnings (loss) attributed to Disney common stock (1)",
+      "vals": [
+       1267.0,
+       1236.0,
+       -41.0
+      ]
+     },
+     {
+      "label": "Diluted",
+      "full": "Earnings per share attributed to Disney common stock before the cumulative effect of accounting changes: (1) Diluted",
+      "vals": [
+       0.65,
+       0.6,
+       0.11
+      ]
+     },
+     {
+      "label": "Basic",
+      "full": "Basic",
+      "vals": [
+       0.65,
+       0.61,
+       0.11
+      ]
+     },
+     {
+      "label": "Film accounting",
+      "full": "Cumulative effect of accounting changes per diluted share of Disney common stock: Film accounting",
+      "vals": [
+       null,
+       null,
+       -0.11
+      ]
+     },
+     {
+      "label": "Derivative accounting",
+      "full": "Derivative accounting",
+      "vals": [
+       null,
+       null,
+       -0.02
+      ]
+     },
+     {
+      "label": "Multiple element revenue accounting",
+      "full": "Multiple element revenue accounting",
+      "vals": [
+       -0.03,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Cumulative effect of accounting changes per diluted share of Disney common stock: 合计",
+      "full": "Cumulative effect of accounting changes per diluted share of Disney common stock: 合计",
+      "vals": [
+       -0.03,
+       null,
+       -0.13
+      ]
+     },
+     {
+      "label": "Diluted",
+      "full": "Earnings (loss) per share attributed to Disney common stock: (1) Diluted",
+      "vals": [
+       0.62,
+       0.6,
+       -0.02
+      ]
+     },
+     {
+      "label": "Basic",
+      "full": "Basic",
+      "vals": [
+       0.62,
+       0.61,
+       -0.02
+      ]
+     },
+     {
+      "label": "Diluted",
+      "full": "Average number of common and common equivalent shares outstanding for Disney common stock: Diluted",
+      "vals": [
+       2067.0,
+       2044.0,
+       2100.0
+      ]
+     },
+     {
+      "label": "Basic",
+      "full": "Basic",
+      "vals": [
+       2043.0,
+       2040.0,
+       2085.0
+      ]
+     },
+     {
+      "label": "Loss attributed to Internet Group common stock",
+      "full": "Loss attributed to Internet Group common stock",
+      "vals": [
+       -117.0
+      ]
+     },
+     {
+      "label": "Loss per share attributed to Internet Group common stock (basic and diluted)",
+      "full": "Loss per share attributed to Internet Group common stock (basic and diluted)",
+      "vals": [
+       -2.72
+      ]
+     },
+     {
+      "label": "Average number of common and common equivalent shares outstanding for Internet Group common stock",
+      "full": "Average number of common and common equivalent shares outstanding for Internet Group common stock",
+      "vals": [
+       43.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2003",
+     "2002",
+     "2001",
+     "2003",
+     "2002",
+     "2001"
+    ],
+    "score": 0,
+    "offset": 1286124,
+    "rows": [
+     {
+      "label": "Service costs",
+      "full": "Postretirement Pension Plans Service costs",
+      "vals": [
+       114.0,
+       97.0,
+       88.0,
+       23.0,
+       22.0,
+       13.0
+      ]
+     },
+     {
+      "label": "Interest costs",
+      "full": "Interest costs",
+      "vals": [
+       204.0,
+       157.0,
+       143.0,
+       48.0,
+       43.0,
+       33.0
+      ]
+     },
+     {
+      "label": "Expected return on plan assets",
+      "full": "Expected return on plan assets",
+      "vals": [
+       -262.0,
+       -241.0,
+       -237.0,
+       -19.0,
+       -21.0,
+       -21.0
+      ]
+     },
+     {
+      "label": "Amortization of prior year service costs",
+      "full": "Amortization of prior year service costs",
+      "vals": [
+       2.0,
+       1.0,
+       null,
+       -1.0,
+       1.0,
+       1.0
+      ]
+     },
+     {
+      "label": "Recognized net actuarial loss",
+      "full": "Recognized net actuarial loss",
+      "vals": [
+       -1.0,
+       null,
+       -18.0,
+       23.0,
+       12.0,
+       null
+      ]
+     },
+     {
+      "label": "Net periodic benefit cost (credit)",
+      "full": "Net periodic benefit cost (credit)",
+      "vals": [
+       57.0,
+       14.0,
+       -24.0,
+       74.0,
+       57.0,
+       26.0
+      ]
+     },
+     {
+      "label": "Discount rate",
+      "full": "Assumptions: Discount rate",
+      "vals": [
+       5.85,
+       7.2,
+       7.5,
+       5.85,
+       7.2,
+       7.5
+      ]
+     },
+     {
+      "label": "Rate of return on plans’ assets",
+      "full": "Rate of return on plans’ assets",
+      "vals": [
+       7.5,
+       8.5,
+       9.5,
+       7.5,
+       8.5,
+       9.5
+      ]
+     },
+     {
+      "label": "Salary increases",
+      "full": "Salary increases",
+      "vals": [
+       3.75,
+       4.65,
+       5.0
+      ]
+     },
+     {
+      "label": "Annual increase in cost of benefits",
+      "full": "Annual increase in cost of benefits",
+      "vals": [
+       10.0,
+       10.0,
+       10.0
+      ]
+     },
+     {
+      "label": "1% point decrease",
+      "full": "Pension Plans Expected Long-Term Assumed Health Care Cost Trend Rate Total Service and Interest Costs 1% point decrease",
+      "vals": [
+       -20.0,
+       -186.0,
+       28.0,
+       650.0,
+       31.0
+      ]
+     },
+     {
+      "label": "1% point increase",
+      "full": "1% point increase",
+      "vals": [
+       27.0,
+       244.0,
+       -26.0,
+       -541.0,
+       -31.0
+      ]
+     },
+     {
+      "label": "Outstanding at beginning of year",
+      "full": "Weighted Average Exercise Shares Outstanding at beginning of year",
+      "vals": [
+       216.0,
+       27.48,
+       188.0,
+       29.54,
+       162.0,
+       27.24
+      ]
+     },
+     {
+      "label": "Awards canceled",
+      "full": "Awards canceled",
+      "vals": [
+       -14.0,
+       44.41,
+       -14.0,
+       33.64,
+       -13.0,
+       36.3
+      ]
+     },
+     {
+      "label": "Awards granted",
+      "full": "Awards granted",
+      "vals": [
+       30.0,
+       17.34,
+       50.0,
+       21.99,
+       43.0,
+       29.71
+      ]
+     },
+     {
+      "label": "Awards exercised",
+      "full": "Awards exercised",
+      "vals": [
+       -3.0,
+       14.57,
+       -2.0,
+       18.02,
+       -9.0,
+       18.72
+      ]
+     },
+     {
+      "label": "Awards expired",
+      "full": "Awards expired",
+      "vals": [
+       -10.0,
+       47.73,
+       -6.0,
+       34.72,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Options converted (1)",
+      "full": "Options converted (1)",
+      "vals": [
+       null,
+       null,
+       null,
+       null,
+       5.0,
+       102.61
+      ]
+     },
+     {
+      "label": "Outstanding at September 30",
+      "full": "Outstanding at September 30",
+      "vals": [
+       219.0,
+       26.44,
+       216.0,
+       27.48,
+       188.0,
+       29.54
+      ]
+     },
+     {
+      "label": "Exercisable at September 30",
+      "full": "Exercisable at September 30",
+      "vals": [
+       109.0,
+       27.86,
+       88.0,
+       26.89,
+       66.0,
+       25.64
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [],
+    "score": 0,
+    "offset": 9566,
+    "rows": [
+     {
+      "label": "ITEM 1.",
+      "full": "Page PART I ITEM 1.",
+      "vals": [
+       1.0
+      ]
+     },
+     {
+      "label": "ITEM 2.",
+      "full": "ITEM 2.",
+      "vals": [
+       20.0
+      ]
+     },
+     {
+      "label": "ITEM 3.",
+      "full": "ITEM 3.",
+      "vals": [
+       21.0
+      ]
+     },
+     {
+      "label": "ITEM 4.",
+      "full": "ITEM 4.",
+      "vals": [
+       23.0
+      ]
+     },
+     {
+      "label": "ITEM 5.",
+      "full": "PART II ITEM 5.",
+      "vals": [
+       24.0
+      ]
+     },
+     {
+      "label": "ITEM 6.",
+      "full": "ITEM 6.",
+      "vals": [
+       25.0
+      ]
+     },
+     {
+      "label": "ITEM 7.",
+      "full": "ITEM 7.",
+      "vals": [
+       26.0
+      ]
+     },
+     {
+      "label": "ITEM 7A.",
+      "full": "ITEM 7A.",
+      "vals": [
+       53.0
+      ]
+     },
+     {
+      "label": "ITEM 8.",
+      "full": "ITEM 8.",
+      "vals": [
+       54.0
+      ]
+     },
+     {
+      "label": "ITEM 9.",
+      "full": "ITEM 9.",
+      "vals": [
+       54.0
+      ]
+     },
+     {
+      "label": "ITEM 9A.",
+      "full": "ITEM 9A.",
+      "vals": [
+       55.0
+      ]
+     },
+     {
+      "label": "ITEM 10.",
+      "full": "PART III ITEM 10.",
+      "vals": [
+       56.0
+      ]
+     },
+     {
+      "label": "ITEM 11.",
+      "full": "ITEM 11.",
+      "vals": [
+       56.0
+      ]
+     },
+     {
+      "label": "ITEM 12.",
+      "full": "ITEM 12.",
+      "vals": [
+       56.0
+      ]
+     },
+     {
+      "label": "ITEM 13.",
+      "full": "ITEM 13.",
+      "vals": [
+       56.0
+      ]
+     },
+     {
+      "label": "ITEM 14.",
+      "full": "ITEM 14.",
+      "vals": [
+       56.0
+      ]
+     },
+     {
+      "label": "ITEM 15.",
+      "full": "PART IV ITEM 15.",
+      "vals": [
+       8.0,
+       57.0
+      ]
+     },
+     {
+      "label": "SIGNATURES",
+      "full": "SIGNATURES",
+      "vals": [
+       60.0
+      ]
+     }
+    ]
+   }
+  ],
+  "CF": [
+   {
+    "periods": [
+     "2003",
+     "2002",
+     "2001"
+    ],
+    "score": 3,
+    "offset": 709603,
+    "rows": [
+     {
+      "label": "Net income (loss)",
+      "full": "OPERATING ACTIVITIES Net income (loss)",
+      "vals": [
+       1267.0,
+       1236.0,
+       -158.0
+      ]
+     },
+     {
+      "label": "Depreciation",
+      "full": "Depreciation",
+      "vals": [
+       1059.0,
+       1021.0,
+       987.0
+      ]
+     },
+     {
+      "label": "Amortization of intangible assets",
+      "full": "Amortization of intangible assets",
+      "vals": [
+       18.0,
+       21.0,
+       767.0
+      ]
+     },
+     {
+      "label": "Deferred income taxes",
+      "full": "Deferred income taxes",
+      "vals": [
+       441.0,
+       327.0,
+       58.0
+      ]
+     },
+     {
+      "label": "Equity in the income of investees",
+      "full": "Equity in the income of investees",
+      "vals": [
+       -334.0,
+       -225.0,
+       -300.0
+      ]
+     },
+     {
+      "label": "Cash distributions received from equity investees",
+      "full": "Cash distributions received from equity investees",
+      "vals": [
+       340.0,
+       234.0,
+       255.0
+      ]
+     },
+     {
+      "label": "Minority interests",
+      "full": "Minority interests",
+      "vals": [
+       127.0,
+       101.0,
+       104.0
+      ]
+     },
+     {
+      "label": "Change in film and television costs",
+      "full": "Change in film and television costs",
+      "vals": [
+       -369.0,
+       -97.0,
+       -13.0
+      ]
+     },
+     {
+      "label": "Gain on sale of businesses",
+      "full": "Gain on sale of businesses",
+      "vals": [
+       -16.0,
+       -34.0,
+       -22.0
+      ]
+     },
+     {
+      "label": "Gain on sale of Knight-Ridder, Inc. shares",
+      "full": "Gain on sale of Knight-Ridder, Inc. shares",
+      "vals": [
+       null,
+       -216.0,
+       null
+      ]
+     },
+     {
+      "label": "Restructuring and impairment charges",
+      "full": "Restructuring and impairment charges",
+      "vals": [
+       13.0,
+       null,
+       1247.0
+      ]
+     },
+     {
+      "label": "Write-off of aircraft leveraged lease",
+      "full": "Write-off of aircraft leveraged lease",
+      "vals": [
+       114.0,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Cumulative effect of accounting changes",
+      "full": "Cumulative effect of accounting changes",
+      "vals": [
+       null,
+       null,
+       278.0
+      ]
+     },
+     {
+      "label": "Other",
+      "full": "Other",
+      "vals": [
+       -23.0,
+       -55.0,
+       90.0
+      ]
+     },
+     {
+      "label": "OPERATING ACTIVITIES 合计",
+      "full": "OPERATING ACTIVITIES 合计",
+      "vals": [
+       1370.0,
+       1077.0,
+       3451.0
+      ]
+     },
+     {
+      "label": "Receivables",
+      "full": "Changes in working capital Receivables",
+      "vals": [
+       -194.0,
+       -535.0,
+       279.0
+      ]
+     },
+     {
+      "label": "Inventories",
+      "full": "Inventories",
+      "vals": [
+       -6.0,
+       -35.0,
+       54.0
+      ]
+     },
+     {
+      "label": "Other current assets",
+      "full": "Other current assets",
+      "vals": [
+       -28.0,
+       -86.0,
+       6.0
+      ]
+     },
+     {
+      "label": "Accounts payable and other accrued liabilities",
+      "full": "Accounts payable and other accrued liabilities",
+      "vals": [
+       275.0,
+       225.0,
+       -435.0
+      ]
+     },
+     {
+      "label": "Television costs",
+      "full": "Television costs",
+      "vals": [
+       217.0,
+       404.0,
+       -149.0
+      ]
+     },
+     {
+      "label": "Changes in working capital 合计",
+      "full": "Changes in working capital 合计",
+      "vals": [
+       264.0,
+       -27.0,
+       -245.0
+      ]
+     },
+     {
+      "label": "Cash provided by operations",
+      "full": "Cash provided by operations",
+      "vals": [
+       2901.0,
+       2286.0,
+       3048.0
+      ]
+     },
+     {
+      "label": "Investments in parks, resorts and other property",
+      "full": "INVESTING ACTIVITIES Investments in parks, resorts and other property",
+      "vals": [
+       -1049.0,
+       -1086.0,
+       -1795.0
+      ]
+     },
+     {
+      "label": "Acquisitions (net of cash acquired)",
+      "full": "Acquisitions (net of cash acquired)",
+      "vals": [
+       -130.0,
+       -2845.0,
+       -480.0
+      ]
+     },
+     {
+      "label": "Dispositions",
+      "full": "Dispositions",
+      "vals": [
+       166.0,
+       200.0,
+       137.0
+      ]
+     },
+     {
+      "label": "Proceeds from sale of investments",
+      "full": "Proceeds from sale of investments",
+      "vals": [
+       40.0,
+       601.0,
+       235.0
+      ]
+     },
+     {
+      "label": "Purchases of investments",
+      "full": "Purchases of investments",
+      "vals": [
+       -14.0,
+       -9.0,
+       -88.0
+      ]
+     },
+     {
+      "label": "Other",
+      "full": "Other",
+      "vals": [
+       -47.0,
+       -37.0,
+       -24.0
+      ]
+     },
+     {
+      "label": "Cash used by investing activities",
+      "full": "Cash used by investing activities",
+      "vals": [
+       -1034.0,
+       -3176.0,
+       -2015.0
+      ]
+     },
+     {
+      "label": "Borrowings",
+      "full": "FINANCING ACTIVITIES Borrowings",
+      "vals": [
+       1635.0,
+       4038.0,
+       3070.0
+      ]
+     },
+     {
+      "label": "Reduction of borrowings",
+      "full": "Reduction of borrowings",
+      "vals": [
+       -2059.0,
+       -2113.0,
+       -2807.0
+      ]
+     },
+     {
+      "label": "Commercial paper borrowings, net",
+      "full": "Commercial paper borrowings, net",
+      "vals": [
+       -721.0,
+       -33.0,
+       -186.0
+      ]
+     },
+     {
+      "label": "Repurchases of common stock",
+      "full": "Repurchases of common stock",
+      "vals": [
+       null,
+       null,
+       -1073.0
+      ]
+     },
+     {
+      "label": "Dividends",
+      "full": "Dividends",
+      "vals": [
+       -429.0,
+       -428.0,
+       -438.0
+      ]
+     },
+     {
+      "label": "Exercise of stock options and other",
+      "full": "Exercise of stock options and other",
+      "vals": [
+       51.0,
+       47.0,
+       177.0
+      ]
+     },
+     {
+      "label": "Cash (used) provided by financing activities",
+      "full": "Cash (used) provided by financing activities",
+      "vals": [
+       -1523.0,
+       1511.0,
+       -1257.0
+      ]
+     },
+     {
+      "label": "Increase (decrease) in cash and cash equivalents",
+      "full": "Increase (decrease) in cash and cash equivalents",
+      "vals": [
+       344.0,
+       621.0,
+       -224.0
+      ]
+     },
+     {
+      "label": "Cash and cash equivalents, beginning of year",
+      "full": "Cash and cash equivalents, beginning of year",
+      "vals": [
+       1239.0,
+       618.0,
+       842.0
+      ]
+     },
+     {
+      "label": "Cash and cash equivalents, end of year",
+      "full": "Cash and cash equivalents, end of year",
+      "vals": [
+       1583.0,
+       1239.0,
+       618.0
+      ]
+     },
+     {
+      "label": "Interest paid",
+      "full": "Supplemental disclosure of cash flow information: Interest paid",
+      "vals": [
+       705.0,
+       674.0,
+       625.0
+      ]
+     },
+     {
+      "label": "Income taxes paid",
+      "full": "Income taxes paid",
+      "vals": [
+       371.0,
+       447.0,
+       881.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2003",
+     "2002",
+     "2001"
+    ],
+    "score": 3,
+    "offset": 420987,
+    "rows": [
+     {
+      "label": "Cash provided by operations",
+      "full": "Year Ended September 30, Cash provided by operations",
+      "vals": [
+       2901.0,
+       2286.0,
+       3048.0
+      ]
+     },
+     {
+      "label": "Cash used by investing activities",
+      "full": "Cash used by investing activities",
+      "vals": [
+       -1034.0,
+       -3176.0,
+       -2015.0
+      ]
+     },
+     {
+      "label": "Cash (used) provided by financing activities",
+      "full": "Cash (used) provided by financing activities",
+      "vals": [
+       -1523.0,
+       1511.0,
+       -1257.0
+      ]
+     },
+     {
+      "label": "Increase (decrease) in cash and cash equivalents",
+      "full": "Increase (decrease) in cash and cash equivalents",
+      "vals": [
+       344.0,
+       621.0,
+       -224.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2003",
+     "2002",
+     "2001",
+     "2000",
+     "1999"
+    ],
+    "score": 2,
+    "offset": 234110,
+    "rows": [
+     {
+      "label": "Revenues",
+      "full": "Statements of income Revenues",
+      "vals": [
+       27061.0,
+       25329.0,
+       25172.0,
+       25325.0,
+       23373.0
+      ]
+     },
+     {
+      "label": "Income before the cumulative effect of accounting changes",
+      "full": "Income before the cumulative effect of accounting changes",
+      "vals": [
+       1338.0,
+       1236.0,
+       120.0,
+       920.0,
+       1300.0
+      ]
+     },
+     {
+      "label": "Diluted",
+      "full": "Per Disney share – Earnings before the cumulative effect of accounting changes Diluted",
+      "vals": [
+       0.65,
+       0.6,
+       0.11,
+       0.57,
+       0.62
+      ]
+     },
+     {
+      "label": "Basic",
+      "full": "Basic",
+      "vals": [
+       0.65,
+       0.61,
+       0.11,
+       0.58,
+       0.63
+      ]
+     },
+     {
+      "label": "Dividends",
+      "full": "Dividends",
+      "vals": [
+       0.21,
+       0.21,
+       0.21,
+       0.21,
+       0.21
+      ]
+     },
+     {
+      "label": "Total assets",
+      "full": "Balance sheets Total assets",
+      "vals": [
+       49988.0,
+       50045.0,
+       43810.0,
+       45027.0,
+       43679.0
+      ]
+     },
+     {
+      "label": "Borrowings",
+      "full": "Borrowings",
+      "vals": [
+       13100.0,
+       14130.0,
+       9769.0,
+       9461.0,
+       11693.0
+      ]
+     },
+     {
+      "label": "Shareholders’ equity",
+      "full": "Shareholders’ equity",
+      "vals": [
+       23791.0,
+       23445.0,
+       22672.0,
+       24100.0,
+       20975.0
+      ]
+     },
+     {
+      "label": "Operating activities",
+      "full": "Statements of cash flows Cash provided by (used for): Operating activities",
+      "vals": [
+       2901.0,
+       2286.0,
+       3048.0,
+       3755.0,
+       2568.0
+      ]
+     },
+     {
+      "label": "Investing activities",
+      "full": "Investing activities",
+      "vals": [
+       -1034.0,
+       -3176.0,
+       -2015.0,
+       -1091.0,
+       -2290.0
+      ]
+     },
+     {
+      "label": "Financing activities",
+      "full": "Financing activities",
+      "vals": [
+       -1523.0,
+       1511.0,
+       -1257.0,
+       -2236.0,
+       9.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2003",
+     "2002",
+     "2001"
+    ],
+    "score": 0,
+    "offset": 1000977,
+    "rows": [
+     {
+      "label": "Income before the cumulative effect of accounting changes attributed to Disney common stock",
+      "full": "Year Ended September 30, Income before the cumulative effect of accounting changes attributed to Disney common stock",
+      "vals": [
+       1338.0,
+       1236.0,
+       237.0
+      ]
+     },
+     {
+      "label": "Interest expense on convertible senior notes (net of tax)",
+      "full": "Interest expense on convertible senior notes (net of tax)",
+      "vals": [
+       10.0,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "September 30, 合计",
+      "full": "September 30, 合计",
+      "vals": [
+       1348.0,
+       1236.0,
+       237.0
+      ]
+     },
+     {
+      "label": "Weighted average number of common shares outstanding (basic)",
+      "full": "Weighted average number of common shares outstanding (basic)",
+      "vals": [
+       2043.0,
+       2040.0,
+       2085.0
+      ]
+     },
+     {
+      "label": "Weighted average dilutive stock options",
+      "full": "Weighted average dilutive stock options",
+      "vals": [
+       3.0,
+       4.0,
+       15.0
+      ]
+     },
+     {
+      "label": "Weighted average assumed conversion of convertible senior notes",
+      "full": "Weighted average assumed conversion of convertible senior notes",
+      "vals": [
+       21.0,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Weighted average number of common and common equivalent shares outstanding (diluted)",
+      "full": "Weighted average number of common and common equivalent shares outstanding (diluted)",
+      "vals": [
+       2067.0,
+       2044.0,
+       2100.0
+      ]
+     },
+     {
+      "label": "As reported",
+      "full": "Net income (loss) attributed to Disney common stock: As reported",
+      "vals": [
+       1267.0,
+       1236.0,
+       -41.0
+      ]
+     },
+     {
+      "label": "Less stock option expense, net of tax",
+      "full": "Less stock option expense, net of tax",
+      "vals": [
+       -294.0,
+       -306.0,
+       -284.0
+      ]
+     },
+     {
+      "label": "Pro forma after option expense",
+      "full": "Pro forma after option expense",
+      "vals": [
+       973.0,
+       930.0,
+       -325.0
+      ]
+     },
+     {
+      "label": "As reported",
+      "full": "Diluted earnings (loss) per share attributed to Disney common stock: As reported",
+      "vals": [
+       0.62,
+       0.6,
+       -0.02
+      ]
+     },
+     {
+      "label": "Pro forma after option expense",
+      "full": "Pro forma after option expense",
+      "vals": [
+       0.48,
+       0.45,
+       -0.15
+      ]
+     },
+     {
+      "label": "As reported",
+      "full": "Basic earnings (loss) per share attributed to Disney common stock: As reported",
+      "vals": [
+       0.62,
+       0.61,
+       -0.02
+      ]
+     },
+     {
+      "label": "Pro forma after option expense",
+      "full": "Pro forma after option expense",
+      "vals": [
+       0.48,
+       0.46,
+       -0.15
+      ]
+     },
+     {
+      "label": "Receivables",
+      "full": "Receivables",
+      "vals": [
+       182.0
+      ]
+     },
+     {
+      "label": "Programming costs",
+      "full": "Programming costs",
+      "vals": [
+       309.0
+      ]
+     },
+     {
+      "label": "Other assets",
+      "full": "Other assets",
+      "vals": [
+       535.0
+      ]
+     },
+     {
+      "label": "Intangible assets",
+      "full": "Intangible assets",
+      "vals": [
+       47.0
+      ]
+     },
+     {
+      "label": "Goodwill",
+      "full": "Goodwill",
+      "vals": [
+       4996.0
+      ]
+     },
+     {
+      "label": "Total assets",
+      "full": "Total assets",
+      "vals": [
+       6069.0
+      ]
+     },
+     {
+      "label": "Accounts payable and accrued liabilities",
+      "full": "Accounts payable and accrued liabilities",
+      "vals": [
+       -555.0
+      ]
+     },
+     {
+      "label": "Other liabilities",
+      "full": "Other liabilities",
+      "vals": [
+       -269.0
+      ]
+     },
+     {
+      "label": "Minority interest",
+      "full": "Minority interest",
+      "vals": [
+       -49.0
+      ]
+     },
+     {
+      "label": "Total liabilities",
+      "full": "Total liabilities",
+      "vals": [
+       -873.0
+      ]
+     },
+     {
+      "label": "Fair value of net assets acquired",
+      "full": "Fair value of net assets acquired",
+      "vals": [
+       5196.0
+      ]
+     },
+     {
+      "label": "Borrowings and preferred stock assumed",
+      "full": "Borrowings and preferred stock assumed",
+      "vals": [
+       -2371.0
+      ]
+     },
+     {
+      "label": "Cash purchase price, net of cash acquired",
+      "full": "Cash purchase price, net of cash acquired",
+      "vals": [
+       2825.0
+      ]
+     },
+     {
+      "label": "Investments, at equity (1)",
+      "full": "Investments, at equity (1)",
+      "vals": [
+       1051.0,
+       970.0
+      ]
+     },
+     {
+      "label": "Investments, at cost (2)",
+      "full": "Investments, at cost (2)",
+      "vals": [
+       106.0,
+       162.0
+      ]
+     },
+     {
+      "label": "Investment in leveraged leases",
+      "full": "Investment in leveraged leases",
+      "vals": [
+       175.0,
+       289.0
+      ]
+     },
+     {
+      "label": "Notes receivable and other investments",
+      "full": "Notes receivable and other investments",
+      "vals": [
+       517.0,
+       389.0
+      ]
+     },
+     {
+      "label": "(无标签小计)",
+      "full": "(无标签小计)",
+      "vals": [
+       1849.0,
+       1810.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2003",
+     "2002",
+     "2001"
+    ],
+    "score": 0,
+    "offset": 625842,
+    "rows": [
+     {
+      "label": "Revenues",
+      "full": "Revenues",
+      "vals": [
+       27061.0,
+       25329.0,
+       25172.0
+      ]
+     },
+     {
+      "label": "Costs and expenses",
+      "full": "Costs and expenses",
+      "vals": [
+       -24330.0,
+       -22924.0,
+       -21573.0
+      ]
+     },
+     {
+      "label": "Amortization of intangible assets",
+      "full": "Amortization of intangible assets",
+      "vals": [
+       -18.0,
+       -21.0,
+       -767.0
+      ]
+     },
+     {
+      "label": "Gain on sale of businesses",
+      "full": "Gain on sale of businesses",
+      "vals": [
+       16.0,
+       34.0,
+       22.0
+      ]
+     },
+     {
+      "label": "Net interest expense",
+      "full": "Net interest expense",
+      "vals": [
+       -793.0,
+       -453.0,
+       -417.0
+      ]
+     },
+     {
+      "label": "Equity in the income of investees",
+      "full": "Equity in the income of investees",
+      "vals": [
+       334.0,
+       225.0,
+       300.0
+      ]
+     },
+     {
+      "label": "Restructuring and impairment charges",
+      "full": "Restructuring and impairment charges",
+      "vals": [
+       -16.0,
+       null,
+       -1454.0
+      ]
+     },
+     {
+      "label": "Income before income taxes, minority interests and the cumulative effect of accounting changes",
+      "full": "Income before income taxes, minority interests and the cumulative effect of accounting changes",
+      "vals": [
+       2254.0,
+       2190.0,
+       1283.0
+      ]
+     },
+     {
+      "label": "Income taxes",
+      "full": "Income taxes",
+      "vals": [
+       -789.0,
+       -853.0,
+       -1059.0
+      ]
+     },
+     {
+      "label": "Minority interests",
+      "full": "Minority interests",
+      "vals": [
+       -127.0,
+       -101.0,
+       -104.0
+      ]
+     },
+     {
+      "label": "Income before the cumulative effect of accounting changes",
+      "full": "Income before the cumulative effect of accounting changes",
+      "vals": [
+       1338.0,
+       1236.0,
+       120.0
+      ]
+     },
+     {
+      "label": "Film accounting",
+      "full": "Cumulative effect of accounting changes: Film accounting",
+      "vals": [
+       null,
+       null,
+       -228.0
+      ]
+     },
+     {
+      "label": "Derivative accounting",
+      "full": "Derivative accounting",
+      "vals": [
+       null,
+       null,
+       -50.0
+      ]
+     },
+     {
+      "label": "Multiple element revenue accounting",
+      "full": "Multiple element revenue accounting",
+      "vals": [
+       -71.0,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Net income (loss)",
+      "full": "Net income (loss)",
+      "vals": [
+       1267.0,
+       1236.0,
+       -158.0
+      ]
+     },
+     {
+      "label": "Earnings (loss) attributed to Disney common stock (1)",
+      "full": "Earnings (loss) attributed to Disney common stock (1)",
+      "vals": [
+       1267.0,
+       1236.0,
+       -41.0
+      ]
+     },
+     {
+      "label": "Diluted",
+      "full": "Earnings per share attributed to Disney common stock before the cumulative effect of accounting changes: (1) Diluted",
+      "vals": [
+       0.65,
+       0.6,
+       0.11
+      ]
+     },
+     {
+      "label": "Basic",
+      "full": "Basic",
+      "vals": [
+       0.65,
+       0.61,
+       0.11
+      ]
+     },
+     {
+      "label": "Film accounting",
+      "full": "Cumulative effect of accounting changes per diluted share of Disney common stock: Film accounting",
+      "vals": [
+       null,
+       null,
+       -0.11
+      ]
+     },
+     {
+      "label": "Derivative accounting",
+      "full": "Derivative accounting",
+      "vals": [
+       null,
+       null,
+       -0.02
+      ]
+     },
+     {
+      "label": "Multiple element revenue accounting",
+      "full": "Multiple element revenue accounting",
+      "vals": [
+       -0.03,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Cumulative effect of accounting changes per diluted share of Disney common stock: 合计",
+      "full": "Cumulative effect of accounting changes per diluted share of Disney common stock: 合计",
+      "vals": [
+       -0.03,
+       null,
+       -0.13
+      ]
+     },
+     {
+      "label": "Diluted",
+      "full": "Earnings (loss) per share attributed to Disney common stock: (1) Diluted",
+      "vals": [
+       0.62,
+       0.6,
+       -0.02
+      ]
+     },
+     {
+      "label": "Basic",
+      "full": "Basic",
+      "vals": [
+       0.62,
+       0.61,
+       -0.02
+      ]
+     },
+     {
+      "label": "Diluted",
+      "full": "Average number of common and common equivalent shares outstanding for Disney common stock: Diluted",
+      "vals": [
+       2067.0,
+       2044.0,
+       2100.0
+      ]
+     },
+     {
+      "label": "Basic",
+      "full": "Basic",
+      "vals": [
+       2043.0,
+       2040.0,
+       2085.0
+      ]
+     },
+     {
+      "label": "Loss attributed to Internet Group common stock",
+      "full": "Loss attributed to Internet Group common stock",
+      "vals": [
+       -117.0
+      ]
+     },
+     {
+      "label": "Loss per share attributed to Internet Group common stock (basic and diluted)",
+      "full": "Loss per share attributed to Internet Group common stock (basic and diluted)",
+      "vals": [
+       -2.72
+      ]
+     },
+     {
+      "label": "Average number of common and common equivalent shares outstanding for Internet Group common stock",
+      "full": "Average number of common and common equivalent shares outstanding for Internet Group common stock",
+      "vals": [
+       43.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [],
+    "score": 0,
+    "offset": 9683,
+    "rows": [
+     {
+      "label": "ITEM 1.",
+      "full": "Page PART I ITEM 1.",
+      "vals": [
+       1.0
+      ]
+     },
+     {
+      "label": "ITEM 2.",
+      "full": "ITEM 2.",
+      "vals": [
+       20.0
+      ]
+     },
+     {
+      "label": "ITEM 3.",
+      "full": "ITEM 3.",
+      "vals": [
+       21.0
+      ]
+     },
+     {
+      "label": "ITEM 4.",
+      "full": "ITEM 4.",
+      "vals": [
+       23.0
+      ]
+     },
+     {
+      "label": "ITEM 5.",
+      "full": "PART II ITEM 5.",
+      "vals": [
+       24.0
+      ]
+     },
+     {
+      "label": "ITEM 6.",
+      "full": "ITEM 6.",
+      "vals": [
+       25.0
+      ]
+     },
+     {
+      "label": "ITEM 7.",
+      "full": "ITEM 7.",
+      "vals": [
+       26.0
+      ]
+     },
+     {
+      "label": "ITEM 7A.",
+      "full": "ITEM 7A.",
+      "vals": [
+       53.0
+      ]
+     },
+     {
+      "label": "ITEM 8.",
+      "full": "ITEM 8.",
+      "vals": [
+       54.0
+      ]
+     },
+     {
+      "label": "ITEM 9.",
+      "full": "ITEM 9.",
+      "vals": [
+       54.0
+      ]
+     },
+     {
+      "label": "ITEM 9A.",
+      "full": "ITEM 9A.",
+      "vals": [
+       55.0
+      ]
+     },
+     {
+      "label": "ITEM 10.",
+      "full": "PART III ITEM 10.",
+      "vals": [
+       56.0
+      ]
+     },
+     {
+      "label": "ITEM 11.",
+      "full": "ITEM 11.",
+      "vals": [
+       56.0
+      ]
+     },
+     {
+      "label": "ITEM 12.",
+      "full": "ITEM 12.",
+      "vals": [
+       56.0
+      ]
+     },
+     {
+      "label": "ITEM 13.",
+      "full": "ITEM 13.",
+      "vals": [
+       56.0
+      ]
+     },
+     {
+      "label": "ITEM 14.",
+      "full": "ITEM 14.",
+      "vals": [
+       56.0
+      ]
+     },
+     {
+      "label": "ITEM 15.",
+      "full": "PART IV ITEM 15.",
+      "vals": [
+       8.0,
+       57.0
+      ]
+     },
+     {
+      "label": "SIGNATURES",
+      "full": "SIGNATURES",
+      "vals": [
+       60.0
+      ]
+     }
+    ]
+   }
+  ],
+  "SEG": [
+   {
+    "periods": [
+     "2003",
+     "2002",
+     "2001"
+    ],
+    "score": 4,
+    "offset": 858820,
+    "rows": [
+     {
+      "label": "Media Networks",
+      "full": "Segment operating income Media Networks",
+      "vals": [
+       1213.0,
+       986.0,
+       1758.0
+      ]
+     },
+     {
+      "label": "Parks and Resorts",
+      "full": "Parks and Resorts",
+      "vals": [
+       957.0,
+       1169.0,
+       1586.0
+      ]
+     },
+     {
+      "label": "Studio Entertainment",
+      "full": "Studio Entertainment",
+      "vals": [
+       620.0,
+       273.0,
+       260.0
+      ]
+     },
+     {
+      "label": "Consumer Products",
+      "full": "Consumer Products",
+      "vals": [
+       384.0,
+       394.0,
+       401.0
+      ]
+     },
+     {
+      "label": "Total segment operating income",
+      "full": "Total segment operating income",
+      "vals": [
+       3174.0,
+       2822.0,
+       4005.0
+      ]
+     },
+     {
+      "label": "Segment operating income",
+      "full": "Reconciliation of segment operating income to income before income taxes, minority interests and the cumulative effect of accounting changes Segment operating income",
+      "vals": [
+       3174.0,
+       2822.0,
+       4005.0
+      ]
+     },
+     {
+      "label": "Corporate and unallocated shared expenses",
+      "full": "Corporate and unallocated shared expenses",
+      "vals": [
+       -443.0,
+       -417.0,
+       -406.0
+      ]
+     },
+     {
+      "label": "Amortization of intangible assets",
+      "full": "Amortization of intangible assets",
+      "vals": [
+       -18.0,
+       -21.0,
+       -767.0
+      ]
+     },
+     {
+      "label": "Gain on sale of businesses",
+      "full": "Gain on sale of businesses",
+      "vals": [
+       16.0,
+       34.0,
+       22.0
+      ]
+     },
+     {
+      "label": "Net interest expense",
+      "full": "Net interest expense",
+      "vals": [
+       -793.0,
+       -453.0,
+       -417.0
+      ]
+     },
+     {
+      "label": "Equity in the income of investees",
+      "full": "Equity in the income of investees",
+      "vals": [
+       334.0,
+       225.0,
+       300.0
+      ]
+     },
+     {
+      "label": "Restructuring and impairment charges",
+      "full": "Restructuring and impairment charges",
+      "vals": [
+       -16.0,
+       null,
+       -1454.0
+      ]
+     },
+     {
+      "label": "Income before income taxes, minority interests and the cumulative effect of accounting changes",
+      "full": "Income before income taxes, minority interests and the cumulative effect of accounting changes",
+      "vals": [
+       2254.0,
+       2190.0,
+       1283.0
+      ]
+     },
+     {
+      "label": "Media Networks",
+      "full": "Capital expenditures Media Networks",
+      "vals": [
+       203.0,
+       151.0,
+       207.0
+      ]
+     },
+     {
+      "label": "Parks and Resorts",
+      "full": "Parks and Resorts",
+      "vals": [
+       577.0,
+       636.0,
+       1278.0
+      ]
+     },
+     {
+      "label": "Studio Entertainment",
+      "full": "Studio Entertainment",
+      "vals": [
+       49.0,
+       37.0,
+       36.0
+      ]
+     },
+     {
+      "label": "Consumer Products",
+      "full": "Consumer Products",
+      "vals": [
+       44.0,
+       58.0,
+       70.0
+      ]
+     },
+     {
+      "label": "Corporate",
+      "full": "Corporate",
+      "vals": [
+       176.0,
+       204.0,
+       204.0
+      ]
+     },
+     {
+      "label": "Total consolidated capital expenditures",
+      "full": "Total consolidated capital expenditures",
+      "vals": [
+       1049.0,
+       1086.0,
+       1795.0
+      ]
+     },
+     {
+      "label": "Media Networks",
+      "full": "Depreciation expense Media Networks",
+      "vals": [
+       169.0,
+       180.0,
+       176.0
+      ]
+     },
+     {
+      "label": "Parks and Resorts",
+      "full": "Parks and Resorts",
+      "vals": [
+       681.0,
+       648.0,
+       604.0
+      ]
+     },
+     {
+      "label": "Studio Entertainment",
+      "full": "Studio Entertainment",
+      "vals": [
+       39.0,
+       46.0,
+       47.0
+      ]
+     },
+     {
+      "label": "Consumer Products",
+      "full": "Consumer Products",
+      "vals": [
+       63.0,
+       58.0,
+       90.0
+      ]
+     },
+     {
+      "label": "Corporate",
+      "full": "Corporate",
+      "vals": [
+       107.0,
+       89.0,
+       70.0
+      ]
+     },
+     {
+      "label": "Total consolidated depreciation expense",
+      "full": "Total consolidated depreciation expense",
+      "vals": [
+       1059.0,
+       1021.0,
+       987.0
+      ]
+     },
+     {
+      "label": "Media Networks",
+      "full": "Intangible asset amortization expense Media Networks",
+      "vals": [
+       8.0,
+       8.0,
+       748.0
+      ]
+     },
+     {
+      "label": "Parks and Resorts",
+      "full": "Parks and Resorts",
+      "vals": [
+       5.0,
+       9.0,
+       15.0
+      ]
+     },
+     {
+      "label": "Studio Entertainment",
+      "full": "Studio Entertainment",
+      "vals": [
+       1.0,
+       1.0,
+       3.0
+      ]
+     },
+     {
+      "label": "Consumer Products",
+      "full": "Consumer Products",
+      "vals": [
+       4.0,
+       3.0,
+       1.0
+      ]
+     },
+     {
+      "label": "Total consolidated amortization expense",
+      "full": "Total consolidated amortization expense",
+      "vals": [
+       18.0,
+       21.0,
+       767.0
+      ]
+     },
+     {
+      "label": "Media Networks (1)(2)",
+      "full": "Identifiable assets Media Networks (1)(2)",
+      "vals": [
+       25883.0,
+       26038.0
+      ]
+     },
+     {
+      "label": "Parks and Resorts (1)",
+      "full": "Parks and Resorts (1)",
+      "vals": [
+       11067.0,
+       11305.0
+      ]
+     },
+     {
+      "label": "Studio Entertainment",
+      "full": "Studio Entertainment",
+      "vals": [
+       7832.0,
+       7879.0
+      ]
+     },
+     {
+      "label": "Consumer Products",
+      "full": "Consumer Products",
+      "vals": [
+       966.0,
+       1125.0
+      ]
+     },
+     {
+      "label": "Corporate (3)",
+      "full": "Corporate (3)",
+      "vals": [
+       4240.0,
+       3698.0
+      ]
+     },
+     {
+      "label": "Total consolidated assets",
+      "full": "Total consolidated assets",
+      "vals": [
+       49988.0,
+       50045.0
+      ]
+     },
+     {
+      "label": "Advertising",
+      "full": "Supplemental revenue data Media Networks Advertising",
+      "vals": [
+       6319.0,
+       5566.0,
+       5988.0
+      ]
+     },
+     {
+      "label": "Subscriptions",
+      "full": "Subscriptions",
+      "vals": [
+       3682.0,
+       3294.0,
+       2466.0
+      ]
+     },
+     {
+      "label": "Merchandise, food and beverage",
+      "full": "Parks and Resorts Merchandise, food and beverage",
+      "vals": [
+       1987.0,
+       1987.0,
+       2046.0
+      ]
+     },
+     {
+      "label": "Admissions",
+      "full": "Admissions",
+      "vals": [
+       1887.0,
+       1819.0,
+       2050.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2003",
+     "2002",
+     "2001"
+    ],
+    "score": 4,
+    "offset": 321010,
+    "rows": [
+     {
+      "label": "Media Networks",
+      "full": "Year Ended September 30, Revenues: Media Networks",
+      "vals": [
+       10941.0,
+       9733.0,
+       9569.0
+      ]
+     },
+     {
+      "label": "Parks and Resorts",
+      "full": "Parks and Resorts",
+      "vals": [
+       6412.0,
+       6465.0,
+       7004.0
+      ]
+     },
+     {
+      "label": "Studio Entertainment",
+      "full": "Studio Entertainment",
+      "vals": [
+       7364.0,
+       6691.0,
+       6009.0
+      ]
+     },
+     {
+      "label": "Consumer Products",
+      "full": "Consumer Products",
+      "vals": [
+       2344.0,
+       2440.0,
+       2590.0
+      ]
+     },
+     {
+      "label": "Revenues: 合计",
+      "full": "Revenues: 合计",
+      "vals": [
+       27061.0,
+       25329.0,
+       25172.0
+      ]
+     },
+     {
+      "label": "Media Networks",
+      "full": "Segment operating income: Media Networks",
+      "vals": [
+       1213.0,
+       986.0,
+       1758.0
+      ]
+     },
+     {
+      "label": "Parks and Resorts",
+      "full": "Parks and Resorts",
+      "vals": [
+       957.0,
+       1169.0,
+       1586.0
+      ]
+     },
+     {
+      "label": "Studio Entertainment",
+      "full": "Studio Entertainment",
+      "vals": [
+       620.0,
+       273.0,
+       260.0
+      ]
+     },
+     {
+      "label": "Consumer Products",
+      "full": "Consumer Products",
+      "vals": [
+       384.0,
+       394.0,
+       401.0
+      ]
+     },
+     {
+      "label": "Segment operating income: 合计",
+      "full": "Segment operating income: 合计",
+      "vals": [
+       3174.0,
+       2822.0,
+       4005.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2003",
+     "2002",
+     "2001"
+    ],
+    "score": 4,
+    "offset": 844049,
+    "rows": [
+     {
+      "label": "Media Networks",
+      "full": "Revenues Media Networks",
+      "vals": [
+       10941.0,
+       9733.0,
+       9569.0
+      ]
+     },
+     {
+      "label": "Parks and Resorts",
+      "full": "Parks and Resorts",
+      "vals": [
+       6412.0,
+       6465.0,
+       7004.0
+      ]
+     },
+     {
+      "label": "Third parties",
+      "full": "Studio Entertainment Third parties",
+      "vals": [
+       7312.0,
+       6622.0,
+       5952.0
+      ]
+     },
+     {
+      "label": "Intersegment",
+      "full": "Intersegment",
+      "vals": [
+       52.0,
+       69.0,
+       57.0
+      ]
+     },
+     {
+      "label": "Studio Entertainment 合计",
+      "full": "Studio Entertainment 合计",
+      "vals": [
+       7364.0,
+       6691.0,
+       6009.0
+      ]
+     },
+     {
+      "label": "Third parties",
+      "full": "Consumer Products Third parties",
+      "vals": [
+       2396.0,
+       2509.0,
+       2647.0
+      ]
+     },
+     {
+      "label": "Intersegment",
+      "full": "Intersegment",
+      "vals": [
+       -52.0,
+       -69.0,
+       -57.0
+      ]
+     },
+     {
+      "label": "Consumer Products 合计",
+      "full": "Consumer Products 合计",
+      "vals": [
+       2344.0,
+       2440.0,
+       2590.0
+      ]
+     },
+     {
+      "label": "Total consolidated revenues",
+      "full": "Total consolidated revenues",
+      "vals": [
+       27061.0,
+       25329.0,
+       25172.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2003",
+     "2002",
+     "2001"
+    ],
+    "score": 4,
+    "offset": 345992,
+    "rows": [
+     {
+      "label": "Media Networks",
+      "full": "Year Ended September 30, Media Networks",
+      "vals": [
+       169.0,
+       180.0,
+       176.0
+      ]
+     },
+     {
+      "label": "Parks and Resorts",
+      "full": "Parks and Resorts",
+      "vals": [
+       681.0,
+       648.0,
+       604.0
+      ]
+     },
+     {
+      "label": "Studio Entertainment",
+      "full": "Studio Entertainment",
+      "vals": [
+       39.0,
+       46.0,
+       47.0
+      ]
+     },
+     {
+      "label": "Consumer Products",
+      "full": "Consumer Products",
+      "vals": [
+       63.0,
+       58.0,
+       90.0
+      ]
+     },
+     {
+      "label": "Segment depreciation expense",
+      "full": "Segment depreciation expense",
+      "vals": [
+       952.0,
+       932.0,
+       917.0
+      ]
+     },
+     {
+      "label": "Corporate",
+      "full": "Corporate",
+      "vals": [
+       107.0,
+       89.0,
+       70.0
+      ]
+     },
+     {
+      "label": "Total depreciation expense",
+      "full": "Total depreciation expense",
+      "vals": [
+       1059.0,
+       1021.0,
+       987.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2003",
+     "2002",
+     "2001"
+    ],
+    "score": 4,
+    "offset": 430279,
+    "rows": [
+     {
+      "label": "Media Networks",
+      "full": "Year Ended September 30, Media Networks",
+      "vals": [
+       203.0,
+       151.0,
+       207.0
+      ]
+     },
+     {
+      "label": "Parks and Resorts",
+      "full": "Parks and Resorts",
+      "vals": [
+       577.0,
+       636.0,
+       1278.0
+      ]
+     },
+     {
+      "label": "Studio Entertainment",
+      "full": "Studio Entertainment",
+      "vals": [
+       49.0,
+       37.0,
+       36.0
+      ]
+     },
+     {
+      "label": "Consumer Products",
+      "full": "Consumer Products",
+      "vals": [
+       44.0,
+       58.0,
+       70.0
+      ]
+     },
+     {
+      "label": "Corporate and unallocated shared expenditures",
+      "full": "Corporate and unallocated shared expenditures",
+      "vals": [
+       176.0,
+       204.0,
+       204.0
+      ]
+     },
+     {
+      "label": "Year Ended September 30, 合计",
+      "full": "Year Ended September 30, 合计",
+      "vals": [
+       1049.0,
+       1086.0,
+       1795.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [],
+    "score": 2,
+    "offset": 930582,
+    "rows": [
+     {
+      "label": "Media Networks",
+      "full": "Media Networks",
+      "vals": [
+       898.0,
+       860.0
+      ]
+     },
+     {
+      "label": "Parks and Resorts",
+      "full": "Parks and Resorts",
+      "vals": [
+       623.0,
+       459.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [],
+    "score": 0,
+    "offset": 25629,
+    "rows": [
+     {
+      "label": "Market",
+      "full": "Television Market Market",
+      "vals": [
+       -1.0
+      ]
+     },
+     {
+      "label": "New York, NY",
+      "full": "New York, NY",
+      "vals": [
+       7.0,
+       1.0
+      ]
+     },
+     {
+      "label": "Los Angeles, CA",
+      "full": "Los Angeles, CA",
+      "vals": [
+       7.0,
+       2.0
+      ]
+     },
+     {
+      "label": "Chicago, IL",
+      "full": "Chicago, IL",
+      "vals": [
+       7.0,
+       3.0
+      ]
+     },
+     {
+      "label": "Philadelphia, PA",
+      "full": "Philadelphia, PA",
+      "vals": [
+       6.0,
+       4.0
+      ]
+     },
+     {
+      "label": "San Francisco, CA",
+      "full": "San Francisco, CA",
+      "vals": [
+       7.0,
+       5.0
+      ]
+     },
+     {
+      "label": "Houston, TX",
+      "full": "Houston, TX",
+      "vals": [
+       13.0,
+       11.0
+      ]
+     },
+     {
+      "label": "Raleigh-Durham, NC",
+      "full": "Raleigh-Durham, NC",
+      "vals": [
+       11.0,
+       29.0
+      ]
+     },
+     {
+      "label": "Fresno, CA",
+      "full": "Fresno, CA",
+      "vals": [
+       30.0,
+       57.0
+      ]
+     },
+     {
+      "label": "Flint, MI",
+      "full": "Flint, MI",
+      "vals": [
+       12.0,
+       64.0
+      ]
+     },
+     {
+      "label": "Toledo, OH",
+      "full": "Toledo, OH",
+      "vals": [
+       13.0,
+       68.0
+      ]
+     },
+     {
+      "label": "Market",
+      "full": "Radio Radio Market",
+      "vals": [
+       -2.0
+      ]
+     },
+     {
+      "label": "New York, NY",
+      "full": "New York, NY",
+      "vals": [
+       1.0
+      ]
+     },
+     {
+      "label": "New York, NY",
+      "full": "New York, NY",
+      "vals": [
+       1.0
+      ]
+     },
+     {
+      "label": "New York, NY",
+      "full": "New York, NY",
+      "vals": [
+       1.0
+      ]
+     },
+     {
+      "label": "Los Angeles, CA",
+      "full": "Los Angeles, CA",
+      "vals": [
+       2.0
+      ]
+     },
+     {
+      "label": "Los Angeles, CA",
+      "full": "Los Angeles, CA",
+      "vals": [
+       2.0
+      ]
+     },
+     {
+      "label": "Los Angeles, CA",
+      "full": "Los Angeles, CA",
+      "vals": [
+       2.0
+      ]
+     },
+     {
+      "label": "Los Angeles, CA",
+      "full": "Los Angeles, CA",
+      "vals": [
+       2.0
+      ]
+     },
+     {
+      "label": "Chicago, IL",
+      "full": "Chicago, IL",
+      "vals": [
+       3.0
+      ]
+     },
+     {
+      "label": "Chicago, IL",
+      "full": "Chicago, IL",
+      "vals": [
+       3.0
+      ]
+     },
+     {
+      "label": "Chicago, IL",
+      "full": "Chicago, IL",
+      "vals": [
+       3.0
+      ]
+     },
+     {
+      "label": "Chicago, IL",
+      "full": "Chicago, IL",
+      "vals": [
+       3.0
+      ]
+     },
+     {
+      "label": "San Francisco, CA",
+      "full": "San Francisco, CA",
+      "vals": [
+       4.0
+      ]
+     },
+     {
+      "label": "San Francisco, CA",
+      "full": "San Francisco, CA",
+      "vals": [
+       4.0
+      ]
+     },
+     {
+      "label": "San Francisco, CA",
+      "full": "San Francisco, CA",
+      "vals": [
+       4.0
+      ]
+     },
+     {
+      "label": "Dallas-Fort Worth, TX",
+      "full": "Dallas-Fort Worth, TX",
+      "vals": [
+       5.0
+      ]
+     },
+     {
+      "label": "Dallas-Fort Worth, TX",
+      "full": "Dallas-Fort Worth, TX",
+      "vals": [
+       5.0
+      ]
+     },
+     {
+      "label": "Dallas-Fort Worth, TX",
+      "full": "Dallas-Fort Worth, TX",
+      "vals": [
+       5.0
+      ]
+     },
+     {
+      "label": "Dallas-Fort Worth, TX",
+      "full": "Dallas-Fort Worth, TX",
+      "vals": [
+       5.0
+      ]
+     },
+     {
+      "label": "Dallas-Fort Worth, TX",
+      "full": "Dallas-Fort Worth, TX",
+      "vals": [
+       5.0
+      ]
+     },
+     {
+      "label": "Philadelphia, PA",
+      "full": "Philadelphia, PA",
+      "vals": [
+       6.0
+      ]
+     },
+     {
+      "label": "Houston, TX",
+      "full": "Houston, TX",
+      "vals": [
+       7.0
+      ]
+     },
+     {
+      "label": "Washington, D.C.",
+      "full": "Washington, D.C.",
+      "vals": [
+       8.0
+      ]
+     },
+     {
+      "label": "Washington, D.C.",
+      "full": "Washington, D.C.",
+      "vals": [
+       8.0
+      ]
+     },
+     {
+      "label": "Washington, D.C.",
+      "full": "Washington, D.C.",
+      "vals": [
+       8.0
+      ]
+     },
+     {
+      "label": "Boston, MA",
+      "full": "Boston, MA",
+      "vals": [
+       9.0
+      ]
+     },
+     {
+      "label": "Detroit, MI",
+      "full": "Detroit, MI",
+      "vals": [
+       10.0
+      ]
+     },
+     {
+      "label": "Detroit, MI",
+      "full": "Detroit, MI",
+      "vals": [
+       10.0
+      ]
+     },
+     {
+      "label": "Detroit, MI",
+      "full": "Detroit, MI",
+      "vals": [
+       10.0
+      ]
+     },
+     {
+      "label": "Atlanta, GA",
+      "full": "Atlanta, GA",
+      "vals": [
+       11.0
+      ]
+     },
+     {
+      "label": "Atlanta, GA",
+      "full": "Atlanta, GA",
+      "vals": [
+       11.0
+      ]
+     },
+     {
+      "label": "Atlanta, GA",
+      "full": "Atlanta, GA",
+      "vals": [
+       11.0
+      ]
+     },
+     {
+      "label": "Miami, FL",
+      "full": "Miami, FL",
+      "vals": [
+       12.0
+      ]
+     },
+     {
+      "label": "Market",
+      "full": "Radio Market Market",
+      "vals": [
+       -2.0
+      ]
+     },
+     {
+      "label": "Seattle, WA",
+      "full": "Seattle, WA",
+      "vals": [
+       14.0
+      ]
+     },
+     {
+      "label": "Phoenix, AZ",
+      "full": "Phoenix, AZ",
+      "vals": [
+       15.0
+      ]
+     },
+     {
+      "label": "Minneapolis, MN",
+      "full": "Minneapolis, MN",
+      "vals": [
+       16.0
+      ]
+     },
+     {
+      "label": "Minneapolis, MN",
+      "full": "Minneapolis, MN",
+      "vals": [
+       16.0
+      ]
+     },
+     {
+      "label": "Minneapolis, MN",
+      "full": "Minneapolis, MN",
+      "vals": [
+       16.0
+      ]
+     },
+     {
+      "label": "Minneapolis, MN",
+      "full": "Minneapolis, MN",
+      "vals": [
+       16.0
+      ]
+     },
+     {
+      "label": "Minneapolis, MN",
+      "full": "Minneapolis, MN",
+      "vals": [
+       16.0
+      ]
+     },
+     {
+      "label": "Minneapolis, MN",
+      "full": "Minneapolis, MN",
+      "vals": [
+       16.0
+      ]
+     },
+     {
+      "label": "St. Louis, MO",
+      "full": "St. Louis, MO",
+      "vals": [
+       20.0
+      ]
+     },
+     {
+      "label": "Tampa, FL",
+      "full": "Tampa, FL",
+      "vals": [
+       21.0
+      ]
+     },
+     {
+      "label": "Denver, CO",
+      "full": "Denver, CO",
+      "vals": [
+       22.0
+      ]
+     },
+     {
+      "label": "Pittsburgh, PA",
+      "full": "Pittsburgh, PA",
+      "vals": [
+       23.0
+      ]
+     },
+     {
+      "label": "Portland, OR",
+      "full": "Portland, OR",
+      "vals": [
+       24.0
+      ]
+     },
+     {
+      "label": "Portland, OR",
+      "full": "Portland, OR",
+      "vals": [
+       24.0
+      ]
+     },
+     {
+      "label": "Cleveland, OH",
+      "full": "Cleveland, OH",
+      "vals": [
+       25.0
+      ]
+     },
+     {
+      "label": "Sacramento, CA",
+      "full": "Sacramento, CA",
+      "vals": [
+       27.0
+      ]
+     },
+     {
+      "label": "Kansas City, MO",
+      "full": "Kansas City, MO",
+      "vals": [
+       29.0
+      ]
+     },
+     {
+      "label": "San Antonio, TX",
+      "full": "San Antonio, TX",
+      "vals": [
+       31.0
+      ]
+     },
+     {
+      "label": "Salt Lake City, UT",
+      "full": "Salt Lake City, UT",
+      "vals": [
+       32.0
+      ]
+     },
+     {
+      "label": "Milwaukee, WI",
+      "full": "Milwaukee, WI",
+      "vals": [
+       33.0
+      ]
+     },
+     {
+      "label": "Providence, RI",
+      "full": "Providence, RI",
+      "vals": [
+       34.0
+      ]
+     },
+     {
+      "label": "Charlotte, NC",
+      "full": "Charlotte, NC",
+      "vals": [
+       37.0
+      ]
+     },
+     {
+      "label": "Orlando, FL",
+      "full": "Orlando, FL",
+      "vals": [
+       38.0
+      ]
+     },
+     {
+      "label": "Norfolk, VA",
+      "full": "Norfolk, VA",
+      "vals": [
+       40.0
+      ]
+     },
+     {
+      "label": "Norfolk, VA",
+      "full": "Norfolk, VA",
+      "vals": [
+       40.0
+      ]
+     },
+     {
+      "label": "Indianapolis, IN",
+      "full": "Indianapolis, IN",
+      "vals": [
+       41.0
+      ]
+     },
+     {
+      "label": "New Orleans, LA",
+      "full": "New Orleans, LA",
+      "vals": [
+       44.0
+      ]
+     },
+     {
+      "label": "West Palm Beach, FL",
+      "full": "West Palm Beach, FL",
+      "vals": [
+       47.0
+      ]
+     },
+     {
+      "label": "Hartford, CT",
+      "full": "Hartford, CT",
+      "vals": [
+       49.0
+      ]
+     },
+     {
+      "label": "Jacksonville, FL",
+      "full": "Jacksonville, FL",
+      "vals": [
+       50.0
+      ]
+     },
+     {
+      "label": "Louisville, KY",
+      "full": "Louisville, KY",
+      "vals": [
+       55.0
+      ]
+     },
+     {
+      "label": "Richmond, VA",
+      "full": "Richmond, VA",
+      "vals": [
+       56.0
+      ]
+     },
+     {
+      "label": "Albany, NY",
+      "full": "Albany, NY",
+      "vals": [
+       64.0
+      ]
+     },
+     {
+      "label": "Tulsa, OK",
+      "full": "Tulsa, OK",
+      "vals": [
+       65.0
+      ]
+     },
+     {
+      "label": "Albuquerque, NM",
+      "full": "Albuquerque, NM",
+      "vals": [
+       71.0
+      ]
+     },
+     {
+      "label": "Fremont, OH",
+      "full": "Fremont, OH",
+      "vals": [
+       82.0
+      ]
+     },
+     {
+      "label": "Little Rock, AR",
+      "full": "Little Rock, AR",
+      "vals": [
+       85.0
+      ]
+     },
+     {
+      "label": "Mobile, AL",
+      "full": "Mobile, AL",
+      "vals": [
+       93.0
+      ]
+     },
+     {
+      "label": "Wichita, KS",
+      "full": "Wichita, KS",
+      "vals": [
+       95.0
+      ]
+     },
+     {
+      "label": "Flint, MI",
+      "full": "Flint, MI",
+      "vals": [
+       125.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2003",
+     "2002",
+     "2001"
+    ],
+    "score": 0,
+    "offset": 624853,
+    "rows": [
+     {
+      "label": "Revenues",
+      "full": "Revenues",
+      "vals": [
+       27061.0,
+       25329.0,
+       25172.0
+      ]
+     },
+     {
+      "label": "Costs and expenses",
+      "full": "Costs and expenses",
+      "vals": [
+       -24330.0,
+       -22924.0,
+       -21573.0
+      ]
+     },
+     {
+      "label": "Amortization of intangible assets",
+      "full": "Amortization of intangible assets",
+      "vals": [
+       -18.0,
+       -21.0,
+       -767.0
+      ]
+     },
+     {
+      "label": "Gain on sale of businesses",
+      "full": "Gain on sale of businesses",
+      "vals": [
+       16.0,
+       34.0,
+       22.0
+      ]
+     },
+     {
+      "label": "Net interest expense",
+      "full": "Net interest expense",
+      "vals": [
+       -793.0,
+       -453.0,
+       -417.0
+      ]
+     },
+     {
+      "label": "Equity in the income of investees",
+      "full": "Equity in the income of investees",
+      "vals": [
+       334.0,
+       225.0,
+       300.0
+      ]
+     },
+     {
+      "label": "Restructuring and impairment charges",
+      "full": "Restructuring and impairment charges",
+      "vals": [
+       -16.0,
+       null,
+       -1454.0
+      ]
+     },
+     {
+      "label": "Income before income taxes, minority interests and the cumulative effect of accounting changes",
+      "full": "Income before income taxes, minority interests and the cumulative effect of accounting changes",
+      "vals": [
+       2254.0,
+       2190.0,
+       1283.0
+      ]
+     },
+     {
+      "label": "Income taxes",
+      "full": "Income taxes",
+      "vals": [
+       -789.0,
+       -853.0,
+       -1059.0
+      ]
+     },
+     {
+      "label": "Minority interests",
+      "full": "Minority interests",
+      "vals": [
+       -127.0,
+       -101.0,
+       -104.0
+      ]
+     },
+     {
+      "label": "Income before the cumulative effect of accounting changes",
+      "full": "Income before the cumulative effect of accounting changes",
+      "vals": [
+       1338.0,
+       1236.0,
+       120.0
+      ]
+     },
+     {
+      "label": "Film accounting",
+      "full": "Cumulative effect of accounting changes: Film accounting",
+      "vals": [
+       null,
+       null,
+       -228.0
+      ]
+     },
+     {
+      "label": "Derivative accounting",
+      "full": "Derivative accounting",
+      "vals": [
+       null,
+       null,
+       -50.0
+      ]
+     },
+     {
+      "label": "Multiple element revenue accounting",
+      "full": "Multiple element revenue accounting",
+      "vals": [
+       -71.0,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Net income (loss)",
+      "full": "Net income (loss)",
+      "vals": [
+       1267.0,
+       1236.0,
+       -158.0
+      ]
+     },
+     {
+      "label": "Earnings (loss) attributed to Disney common stock (1)",
+      "full": "Earnings (loss) attributed to Disney common stock (1)",
+      "vals": [
+       1267.0,
+       1236.0,
+       -41.0
+      ]
+     },
+     {
+      "label": "Diluted",
+      "full": "Earnings per share attributed to Disney common stock before the cumulative effect of accounting changes: (1) Diluted",
+      "vals": [
+       0.65,
+       0.6,
+       0.11
+      ]
+     },
+     {
+      "label": "Basic",
+      "full": "Basic",
+      "vals": [
+       0.65,
+       0.61,
+       0.11
+      ]
+     },
+     {
+      "label": "Film accounting",
+      "full": "Cumulative effect of accounting changes per diluted share of Disney common stock: Film accounting",
+      "vals": [
+       null,
+       null,
+       -0.11
+      ]
+     },
+     {
+      "label": "Derivative accounting",
+      "full": "Derivative accounting",
+      "vals": [
+       null,
+       null,
+       -0.02
+      ]
+     },
+     {
+      "label": "Multiple element revenue accounting",
+      "full": "Multiple element revenue accounting",
+      "vals": [
+       -0.03,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Cumulative effect of accounting changes per diluted share of Disney common stock: 合计",
+      "full": "Cumulative effect of accounting changes per diluted share of Disney common stock: 合计",
+      "vals": [
+       -0.03,
+       null,
+       -0.13
+      ]
+     },
+     {
+      "label": "Diluted",
+      "full": "Earnings (loss) per share attributed to Disney common stock: (1) Diluted",
+      "vals": [
+       0.62,
+       0.6,
+       -0.02
+      ]
+     },
+     {
+      "label": "Basic",
+      "full": "Basic",
+      "vals": [
+       0.62,
+       0.61,
+       -0.02
+      ]
+     },
+     {
+      "label": "Diluted",
+      "full": "Average number of common and common equivalent shares outstanding for Disney common stock: Diluted",
+      "vals": [
+       2067.0,
+       2044.0,
+       2100.0
+      ]
+     },
+     {
+      "label": "Basic",
+      "full": "Basic",
+      "vals": [
+       2043.0,
+       2040.0,
+       2085.0
+      ]
+     },
+     {
+      "label": "Loss attributed to Internet Group common stock",
+      "full": "Loss attributed to Internet Group common stock",
+      "vals": [
+       -117.0
+      ]
+     },
+     {
+      "label": "Loss per share attributed to Internet Group common stock (basic and diluted)",
+      "full": "Loss per share attributed to Internet Group common stock (basic and diluted)",
+      "vals": [
+       -2.72
+      ]
+     },
+     {
+      "label": "Average number of common and common equivalent shares outstanding for Internet Group common stock",
+      "full": "Average number of common and common equivalent shares outstanding for Internet Group common stock",
+      "vals": [
+       43.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2003",
+     "2002",
+     "2001"
+    ],
+    "score": 0,
+    "offset": 1150670,
+    "rows": [
+     {
+      "label": "Released, less amortization",
+      "full": "Theatrical film costs Released, less amortization",
+      "vals": [
+       2359.0,
+       2384.0
+      ]
+     },
+     {
+      "label": "Completed, not released",
+      "full": "Completed, not released",
+      "vals": [
+       856.0,
+       819.0
+      ]
+     },
+     {
+      "label": "In-process",
+      "full": "In-process",
+      "vals": [
+       1236.0,
+       790.0
+      ]
+     },
+     {
+      "label": "In development or pre-production",
+      "full": "In development or pre-production",
+      "vals": [
+       113.0,
+       147.0
+      ]
+     },
+     {
+      "label": "Theatrical film costs 合计",
+      "full": "Theatrical film costs 合计",
+      "vals": [
+       4564.0,
+       4140.0
+      ]
+     },
+     {
+      "label": "Released, less amortization",
+      "full": "Television costs Released, less amortization",
+      "vals": [
+       961.0,
+       909.0
+      ]
+     },
+     {
+      "label": "Completed, not released",
+      "full": "Completed, not released",
+      "vals": [
+       126.0,
+       131.0
+      ]
+     },
+     {
+      "label": "In-process",
+      "full": "In-process",
+      "vals": [
+       283.0,
+       292.0
+      ]
+     },
+     {
+      "label": "In development or pre-production",
+      "full": "In development or pre-production",
+      "vals": [
+       11.0,
+       25.0
+      ]
+     },
+     {
+      "label": "Television costs 合计",
+      "full": "Television costs 合计",
+      "vals": [
+       1381.0,
+       1357.0
+      ]
+     },
+     {
+      "label": "Television broadcast rights",
+      "full": "Television broadcast rights",
+      "vals": [
+       828.0,
+       1123.0
+      ]
+     },
+     {
+      "label": "Television costs 合计",
+      "full": "Television costs 合计",
+      "vals": [
+       6773.0,
+       6620.0
+      ]
+     },
+     {
+      "label": "Less current portion",
+      "full": "Less current portion",
+      "vals": [
+       568.0,
+       661.0
+      ]
+     },
+     {
+      "label": "Non-current portion",
+      "full": "Non-current portion",
+      "vals": [
+       6205.0,
+       5959.0
+      ]
+     },
+     {
+      "label": "Film and television cost spending",
+      "full": "Film and television cost spending",
+      "vals": [
+       -2915.0,
+       -2315.0,
+       -2273.0
+      ]
+     },
+     {
+      "label": "Film and television cost amortization",
+      "full": "Film and television cost amortization",
+      "vals": [
+       2546.0,
+       2218.0,
+       2260.0
+      ]
+     },
+     {
+      "label": "Film and television cost",
+      "full": "Film and television cost",
+      "vals": [
+       -369.0,
+       -97.0,
+       -13.0
+      ]
+     },
+     {
+      "label": "(无标签小计)",
+      "full": "(无标签小计)",
+      "vals": [
+       2001.0
+      ]
+     },
+     {
+      "label": "Reported net loss attributed to Disney common stock",
+      "full": "Earnings Amount Reported net loss attributed to Disney common stock",
+      "vals": [
+       -41.0,
+       -0.02
+      ]
+     },
+     {
+      "label": "Cumulative effect of accounting changes",
+      "full": "Cumulative effect of accounting changes",
+      "vals": [
+       278.0,
+       0.13
+      ]
+     },
+     {
+      "label": "Reported earnings attributed to Disney common stock before the cumulative effect of accounting changes",
+      "full": "Reported earnings attributed to Disney common stock before the cumulative effect of accounting changes",
+      "vals": [
+       237.0,
+       0.11
+      ]
+     },
+     {
+      "label": "Goodwill",
+      "full": "Add back amortization (net of tax): Goodwill",
+      "vals": [
+       604.0,
+       0.29
+      ]
+     },
+     {
+      "label": "Indefinite life intangible assets",
+      "full": "Indefinite life intangible assets",
+      "vals": [
+       50.0,
+       0.02
+      ]
+     },
+     {
+      "label": "Adjusted earnings attributed to Disney common stock before the cumulative effect of accounting changes",
+      "full": "Adjusted earnings attributed to Disney common stock before the cumulative effect of accounting changes",
+      "vals": [
+       891.0,
+       0.42
+      ]
+     },
+     {
+      "label": "Balance as of October 1, 2002",
+      "full": "Media Network Balance as of October 1, 2002",
+      "vals": [
+       17008.0,
+       75.0,
+       17083.0
+      ]
+     },
+     {
+      "label": "Goodwill acquired during the period",
+      "full": "Goodwill acquired during the period",
+      "vals": [
+       18.0,
+       1.0,
+       19.0
+      ]
+     },
+     {
+      "label": "Capital Cities/ ABC, Inc. acquisition adjustment and other",
+      "full": "Capital Cities/ ABC, Inc. acquisition adjustment and other",
+      "vals": [
+       -136.0,
+       null,
+       -136.0
+      ]
+     },
+     {
+      "label": "Balance as of September 30, 2003",
+      "full": "Balance as of September 30, 2003",
+      "vals": [
+       16890.0,
+       76.0,
+       16966.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2003",
+     "2002",
+     "2001"
+    ],
+    "score": 0,
+    "offset": 1013252,
+    "rows": [
+     {
+      "label": "As reported",
+      "full": "Net income (loss) attributed to Disney common stock: As reported",
+      "vals": [
+       1267.0,
+       1236.0,
+       -41.0
+      ]
+     },
+     {
+      "label": "Less stock option expense, net of tax",
+      "full": "Less stock option expense, net of tax",
+      "vals": [
+       -294.0,
+       -306.0,
+       -284.0
+      ]
+     },
+     {
+      "label": "Pro forma after option expense",
+      "full": "Pro forma after option expense",
+      "vals": [
+       973.0,
+       930.0,
+       -325.0
+      ]
+     },
+     {
+      "label": "As reported",
+      "full": "Diluted earnings (loss) per share attributed to Disney common stock: As reported",
+      "vals": [
+       0.62,
+       0.6,
+       -0.02
+      ]
+     },
+     {
+      "label": "Pro forma after option expense",
+      "full": "Pro forma after option expense",
+      "vals": [
+       0.48,
+       0.45,
+       -0.15
+      ]
+     },
+     {
+      "label": "As reported",
+      "full": "Basic earnings (loss) per share attributed to Disney common stock: As reported",
+      "vals": [
+       0.62,
+       0.61,
+       -0.02
+      ]
+     },
+     {
+      "label": "Pro forma after option expense",
+      "full": "Pro forma after option expense",
+      "vals": [
+       0.48,
+       0.46,
+       -0.15
+      ]
+     },
+     {
+      "label": "Receivables",
+      "full": "Receivables",
+      "vals": [
+       182.0
+      ]
+     },
+     {
+      "label": "Programming costs",
+      "full": "Programming costs",
+      "vals": [
+       309.0
+      ]
+     },
+     {
+      "label": "Other assets",
+      "full": "Other assets",
+      "vals": [
+       535.0
+      ]
+     },
+     {
+      "label": "Intangible assets",
+      "full": "Intangible assets",
+      "vals": [
+       47.0
+      ]
+     },
+     {
+      "label": "Goodwill",
+      "full": "Goodwill",
+      "vals": [
+       4996.0
+      ]
+     },
+     {
+      "label": "Total assets",
+      "full": "Total assets",
+      "vals": [
+       6069.0
+      ]
+     },
+     {
+      "label": "Accounts payable and accrued liabilities",
+      "full": "Accounts payable and accrued liabilities",
+      "vals": [
+       -555.0
+      ]
+     },
+     {
+      "label": "Other liabilities",
+      "full": "Other liabilities",
+      "vals": [
+       -269.0
+      ]
+     },
+     {
+      "label": "Minority interest",
+      "full": "Minority interest",
+      "vals": [
+       -49.0
+      ]
+     },
+     {
+      "label": "Total liabilities",
+      "full": "Total liabilities",
+      "vals": [
+       -873.0
+      ]
+     },
+     {
+      "label": "Fair value of net assets acquired",
+      "full": "Fair value of net assets acquired",
+      "vals": [
+       5196.0
+      ]
+     },
+     {
+      "label": "Borrowings and preferred stock assumed",
+      "full": "Borrowings and preferred stock assumed",
+      "vals": [
+       -2371.0
+      ]
+     },
+     {
+      "label": "Cash purchase price, net of cash acquired",
+      "full": "Cash purchase price, net of cash acquired",
+      "vals": [
+       2825.0
+      ]
+     },
+     {
+      "label": "Investments, at equity (1)",
+      "full": "Investments, at equity (1)",
+      "vals": [
+       1051.0,
+       970.0
+      ]
+     },
+     {
+      "label": "Investments, at cost (2)",
+      "full": "Investments, at cost (2)",
+      "vals": [
+       106.0,
+       162.0
+      ]
+     },
+     {
+      "label": "Investment in leveraged leases",
+      "full": "Investment in leveraged leases",
+      "vals": [
+       175.0,
+       289.0
+      ]
+     },
+     {
+      "label": "Notes receivable and other investments",
+      "full": "Notes receivable and other investments",
+      "vals": [
+       517.0,
+       389.0
+      ]
+     },
+     {
+      "label": "(无标签小计)",
+      "full": "(无标签小计)",
+      "vals": [
+       1849.0,
+       1810.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2003",
+     "2002",
+     "2001"
+    ],
+    "score": 0,
+    "offset": 981403,
+    "rows": [
+     {
+      "label": "Attractions",
+      "full": "Attractions",
+      "vals": [
+       25.0,
+       40.0
+      ]
+     },
+     {
+      "label": "Buildings and improvements",
+      "full": "Buildings and improvements",
+      "vals": [
+       40.0
+      ]
+     },
+     {
+      "label": "Land improvements",
+      "full": "Leasehold improvements Land improvements",
+      "vals": [
+       25.0,
+       40.0
+      ]
+     },
+     {
+      "label": "Furniture, fixtures and equipment",
+      "full": "Furniture, fixtures and equipment",
+      "vals": [
+       2.0,
+       10.0
+      ]
+     },
+     {
+      "label": "Copyrights",
+      "full": "Copyrights",
+      "vals": [
+       10.0,
+       31.0
+      ]
+     },
+     {
+      "label": "Other",
+      "full": "Other",
+      "vals": [
+       4.0,
+       50.0
+      ]
+     },
+     {
+      "label": "Income before the cumulative effect of accounting changes attributed to Disney common stock",
+      "full": "Year Ended September 30, Income before the cumulative effect of accounting changes attributed to Disney common stock",
+      "vals": [
+       1338.0,
+       1236.0,
+       237.0
+      ]
+     },
+     {
+      "label": "Interest expense on convertible senior notes (net of tax)",
+      "full": "Interest expense on convertible senior notes (net of tax)",
+      "vals": [
+       10.0,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "September 30, 合计",
+      "full": "September 30, 合计",
+      "vals": [
+       1348.0,
+       1236.0,
+       237.0
+      ]
+     },
+     {
+      "label": "Weighted average number of common shares outstanding (basic)",
+      "full": "Weighted average number of common shares outstanding (basic)",
+      "vals": [
+       2043.0,
+       2040.0,
+       2085.0
+      ]
+     },
+     {
+      "label": "Weighted average dilutive stock options",
+      "full": "Weighted average dilutive stock options",
+      "vals": [
+       3.0,
+       4.0,
+       15.0
+      ]
+     },
+     {
+      "label": "Weighted average assumed conversion of convertible senior notes",
+      "full": "Weighted average assumed conversion of convertible senior notes",
+      "vals": [
+       21.0,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Weighted average number of common and common equivalent shares outstanding (diluted)",
+      "full": "Weighted average number of common and common equivalent shares outstanding (diluted)",
+      "vals": [
+       2067.0,
+       2044.0,
+       2100.0
+      ]
+     },
+     {
+      "label": "As reported",
+      "full": "Net income (loss) attributed to Disney common stock: As reported",
+      "vals": [
+       1267.0,
+       1236.0,
+       -41.0
+      ]
+     },
+     {
+      "label": "Less stock option expense, net of tax",
+      "full": "Less stock option expense, net of tax",
+      "vals": [
+       -294.0,
+       -306.0,
+       -284.0
+      ]
+     },
+     {
+      "label": "Pro forma after option expense",
+      "full": "Pro forma after option expense",
+      "vals": [
+       973.0,
+       930.0,
+       -325.0
+      ]
+     },
+     {
+      "label": "As reported",
+      "full": "Diluted earnings (loss) per share attributed to Disney common stock: As reported",
+      "vals": [
+       0.62,
+       0.6,
+       -0.02
+      ]
+     },
+     {
+      "label": "Pro forma after option expense",
+      "full": "Pro forma after option expense",
+      "vals": [
+       0.48,
+       0.45,
+       -0.15
+      ]
+     },
+     {
+      "label": "As reported",
+      "full": "Basic earnings (loss) per share attributed to Disney common stock: As reported",
+      "vals": [
+       0.62,
+       0.61,
+       -0.02
+      ]
+     },
+     {
+      "label": "Pro forma after option expense",
+      "full": "Pro forma after option expense",
+      "vals": [
+       0.48,
+       0.46,
+       -0.15
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [],
+    "score": 0,
+    "offset": 9443,
+    "rows": [
+     {
+      "label": "ITEM 1.",
+      "full": "Page PART I ITEM 1.",
+      "vals": [
+       1.0
+      ]
+     },
+     {
+      "label": "ITEM 2.",
+      "full": "ITEM 2.",
+      "vals": [
+       20.0
+      ]
+     },
+     {
+      "label": "ITEM 3.",
+      "full": "ITEM 3.",
+      "vals": [
+       21.0
+      ]
+     },
+     {
+      "label": "ITEM 4.",
+      "full": "ITEM 4.",
+      "vals": [
+       23.0
+      ]
+     },
+     {
+      "label": "ITEM 5.",
+      "full": "PART II ITEM 5.",
+      "vals": [
+       24.0
+      ]
+     },
+     {
+      "label": "ITEM 6.",
+      "full": "ITEM 6.",
+      "vals": [
+       25.0
+      ]
+     },
+     {
+      "label": "ITEM 7.",
+      "full": "ITEM 7.",
+      "vals": [
+       26.0
+      ]
+     },
+     {
+      "label": "ITEM 7A.",
+      "full": "ITEM 7A.",
+      "vals": [
+       53.0
+      ]
+     },
+     {
+      "label": "ITEM 8.",
+      "full": "ITEM 8.",
+      "vals": [
+       54.0
+      ]
+     },
+     {
+      "label": "ITEM 9.",
+      "full": "ITEM 9.",
+      "vals": [
+       54.0
+      ]
+     },
+     {
+      "label": "ITEM 9A.",
+      "full": "ITEM 9A.",
+      "vals": [
+       55.0
+      ]
+     },
+     {
+      "label": "ITEM 10.",
+      "full": "PART III ITEM 10.",
+      "vals": [
+       56.0
+      ]
+     },
+     {
+      "label": "ITEM 11.",
+      "full": "ITEM 11.",
+      "vals": [
+       56.0
+      ]
+     },
+     {
+      "label": "ITEM 12.",
+      "full": "ITEM 12.",
+      "vals": [
+       56.0
+      ]
+     },
+     {
+      "label": "ITEM 13.",
+      "full": "ITEM 13.",
+      "vals": [
+       56.0
+      ]
+     },
+     {
+      "label": "ITEM 14.",
+      "full": "ITEM 14.",
+      "vals": [
+       56.0
+      ]
+     },
+     {
+      "label": "ITEM 15.",
+      "full": "PART IV ITEM 15.",
+      "vals": [
+       8.0,
+       57.0
+      ]
+     },
+     {
+      "label": "SIGNATURES",
+      "full": "SIGNATURES",
+      "vals": [
+       60.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2002",
+     "2002"
+    ],
+    "score": 0,
+    "offset": 1507433,
+    "rows": [
+     {
+      "label": "(unaudited)",
+      "full": "(unaudited)",
+      "vals": [
+       31.0,
+       31.0,
+       30.0,
+       30.0
+      ]
+     },
+     {
+      "label": "(无标签小计)",
+      "full": "(无标签小计)",
+      "vals": [
+       2003.0,
+       -1.0
+      ]
+     },
+     {
+      "label": "Revenues",
+      "full": "Revenues",
+      "vals": [
+       7170.0,
+       6500.0,
+       6377.0,
+       7014.0
+      ]
+     },
+     {
+      "label": "Segment operating income",
+      "full": "Segment operating income",
+      "vals": [
+       482.0,
+       814.0,
+       1048.0,
+       830.0
+      ]
+     },
+     {
+      "label": "Income before the cumulative effect of accounting change",
+      "full": "Income before the cumulative effect of accounting change",
+      "vals": [
+       107.0,
+       314.0,
+       502.0,
+       415.0
+      ]
+     },
+     {
+      "label": "Diluted",
+      "full": "Earnings per share before the cumulative effect of accounting change: Diluted",
+      "vals": [
+       0.06,
+       0.15,
+       0.24,
+       0.2
+      ]
+     },
+     {
+      "label": "Basic",
+      "full": "Basic",
+      "vals": [
+       0.06,
+       0.15,
+       0.25,
+       0.2
+      ]
+     },
+     {
+      "label": "Earnings per share before the cumulative effect of accounting change: 合计",
+      "full": "Earnings per share before the cumulative effect of accounting change: 合计",
+      "vals": [
+       2002.0
+      ]
+     },
+     {
+      "label": "Revenues",
+      "full": "Revenues",
+      "vals": [
+       7016.0,
+       5856.0,
+       5795.0,
+       6662.0
+      ]
+     },
+     {
+      "label": "Segment operating income",
+      "full": "Segment operating income",
+      "vals": [
+       753.0,
+       702.0,
+       828.0,
+       539.0
+      ]
+     },
+     {
+      "label": "Net income",
+      "full": "Net income",
+      "vals": [
+       438.0,
+       259.0,
+       364.0,
+       175.0
+      ]
+     },
+     {
+      "label": "Diluted",
+      "full": "Earnings per share: Diluted",
+      "vals": [
+       0.21,
+       0.13,
+       0.18,
+       0.09
+      ]
+     },
+     {
+      "label": "Basic",
+      "full": "Basic",
+      "vals": [
+       0.21,
+       0.13,
+       0.18,
+       0.09
+      ]
+     },
+     {
+      "label": "Diluted",
+      "full": "Diluted",
+      "vals": [
+       0.12,
+       0.17,
+       0.22,
+       0.07
+      ]
+     },
+     {
+      "label": "Basic",
+      "full": "Basic",
+      "vals": [
+       0.12,
+       0.17,
+       0.22,
+       0.07
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2003",
+     "2002",
+     "2001"
+    ],
+    "score": 0,
+    "offset": 394133,
+    "rows": [
+     {
+      "label": "Revenues",
+      "full": "Year Ended September 30, Revenues",
+      "vals": [
+       918.0,
+       983.0
+      ]
+     },
+     {
+      "label": "Operating loss",
+      "full": "Operating loss",
+      "vals": [
+       -84.0,
+       -15.0
+      ]
+     },
+     {
+      "label": "As reported",
+      "full": "Year Ended September 30, Net income (loss) attributed to Disney common stock: As reported",
+      "vals": [
+       1267.0,
+       1236.0,
+       -41.0
+      ]
+     },
+     {
+      "label": "Pro forma after stock option expense",
+      "full": "Pro forma after stock option expense",
+      "vals": [
+       973.0,
+       930.0,
+       -325.0
+      ]
+     },
+     {
+      "label": "As reported",
+      "full": "Diluted earnings (loss) per share attributed to Disney common stock: As reported",
+      "vals": [
+       0.62,
+       0.6,
+       -0.02
+      ]
+     },
+     {
+      "label": "Pro forma after stock option expense",
+      "full": "Pro forma after stock option expense",
+      "vals": [
+       0.48,
+       0.45,
+       -0.15
+      ]
+     },
+     {
+      "label": "Disney",
+      "full": "Average Disney",
+      "vals": [
+       2003.0
+      ]
+     },
+     {
+      "label": "Share Price",
+      "full": "Share Price",
+      "vals": [
+       -1.0,
+       -3.0
+      ]
+     },
+     {
+      "label": "38 million",
+      "full": "38 million",
+      "vals": [
+       null,
+       -2.0,
+       null,
+       0.0
+      ]
+     },
+     {
+      "label": "119 million",
+      "full": "119 million",
+      "vals": [
+       12.0,
+       0.6,
+       -0.01
+      ]
+     },
+     {
+      "label": "147 million",
+      "full": "147 million",
+      "vals": [
+       24.0,
+       1.2,
+       -0.01
+      ]
+     },
+     {
+      "label": "212 million",
+      "full": "212 million",
+      "vals": [
+       49.0,
+       2.4,
+       -0.02
+      ]
+     },
+     {
+      "label": "220 million",
+      "full": "220 million",
+      "vals": [
+       66.0,
+       3.2,
+       -0.02
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2003",
+     "2002",
+     "2001"
+    ],
+    "score": 0,
+    "offset": 402066,
+    "rows": [
+     {
+      "label": "As reported",
+      "full": "Year Ended September 30, Net income (loss) attributed to Disney common stock: As reported",
+      "vals": [
+       1267.0,
+       1236.0,
+       -41.0
+      ]
+     },
+     {
+      "label": "Pro forma after stock option expense",
+      "full": "Pro forma after stock option expense",
+      "vals": [
+       973.0,
+       930.0,
+       -325.0
+      ]
+     },
+     {
+      "label": "As reported",
+      "full": "Diluted earnings (loss) per share attributed to Disney common stock: As reported",
+      "vals": [
+       0.62,
+       0.6,
+       -0.02
+      ]
+     },
+     {
+      "label": "Pro forma after stock option expense",
+      "full": "Pro forma after stock option expense",
+      "vals": [
+       0.48,
+       0.45,
+       -0.15
+      ]
+     },
+     {
+      "label": "Disney",
+      "full": "Average Disney",
+      "vals": [
+       2003.0
+      ]
+     },
+     {
+      "label": "Share Price",
+      "full": "Share Price",
+      "vals": [
+       -1.0,
+       -3.0
+      ]
+     },
+     {
+      "label": "38 million",
+      "full": "38 million",
+      "vals": [
+       null,
+       -2.0,
+       null,
+       0.0
+      ]
+     },
+     {
+      "label": "119 million",
+      "full": "119 million",
+      "vals": [
+       12.0,
+       0.6,
+       -0.01
+      ]
+     },
+     {
+      "label": "147 million",
+      "full": "147 million",
+      "vals": [
+       24.0,
+       1.2,
+       -0.01
+      ]
+     },
+     {
+      "label": "212 million",
+      "full": "212 million",
+      "vals": [
+       49.0,
+       2.4,
+       -0.02
+      ]
+     },
+     {
+      "label": "220 million",
+      "full": "220 million",
+      "vals": [
+       66.0,
+       3.2,
+       -0.02
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [],
+    "score": 0,
+    "offset": 168091,
+    "rows": [
+     {
+      "label": "Michael D. Eisner",
+      "full": "Executive Name Michael D. Eisner",
+      "vals": [
+       61.0,
+       1984.0
+      ]
+     },
+     {
+      "label": "Roy E. Disney",
+      "full": "Roy E. Disney",
+      "vals": [
+       73.0,
+       -3.0,
+       1984.0
+      ]
+     },
+     {
+      "label": "Robert A. Iger",
+      "full": "Robert A. Iger",
+      "vals": [
+       52.0,
+       -1.0,
+       2000.0
+      ]
+     },
+     {
+      "label": "Thomas O. Staggs",
+      "full": "Thomas O. Staggs",
+      "vals": [
+       42.0,
+       1998.0
+      ]
+     },
+     {
+      "label": "Peter E. Murphy",
+      "full": "Peter E. Murphy",
+      "vals": [
+       40.0,
+       1998.0
+      ]
+     },
+     {
+      "label": "Alan N. Braverman",
+      "full": "Alan N. Braverman",
+      "vals": [
+       56.0,
+       -2.0,
+       2003.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2002",
+     "2003",
+     "2003",
+     "2003",
+     "2003"
+    ],
+    "score": 0,
+    "offset": 495168,
+    "rows": [
+     {
+      "label": "(in millions, except per share data)",
+      "full": "Three Months Ended Net (in millions, except per share data)",
+      "vals": [
+       -1.0,
+       -1.0,
+       -1.0,
+       -1.0,
+       -1.0
+      ]
+     },
+     {
+      "label": "Results prior to EITF 00-21 adoption",
+      "full": "Results prior to EITF 00-21 adoption",
+      "vals": [
+       256.0,
+       0.13,
+       229.0,
+       0.11,
+       400.0,
+       0.19,
+       417.0,
+       0.2,
+       1302.0,
+       0.63
+      ]
+     },
+     {
+      "label": "Quarterly impact of accounting change",
+      "full": "Quarterly impact of accounting change",
+      "vals": [
+       -149.0,
+       -0.07,
+       85.0,
+       0.04,
+       102.0,
+       0.05,
+       -2.0,
+       -0.0,
+       36.0,
+       0.02
+      ]
+     },
+     {
+      "label": "Net 合计",
+      "full": "Net 合计",
+      "vals": [
+       107.0,
+       0.06,
+       314.0,
+       0.15,
+       502.0,
+       0.24,
+       415.0,
+       0.2,
+       1338.0,
+       0.65
+      ]
+     },
+     {
+      "label": "Cumulative effect of accounting change",
+      "full": "Cumulative effect of accounting change",
+      "vals": [
+       -71.0,
+       -0.03,
+       null,
+       null,
+       null,
+       null,
+       null,
+       null,
+       -71.0,
+       -0.03
+      ]
+     },
+     {
+      "label": "Results subsequent to EITF 00-21 adoption",
+      "full": "Results subsequent to EITF 00-21 adoption",
+      "vals": [
+       36.0,
+       0.02,
+       314.0,
+       0.15,
+       502.0,
+       0.24,
+       415.0,
+       0.2,
+       1267.0,
+       0.62
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2003",
+     "2002"
+    ],
+    "score": 0,
+    "offset": 1038148,
+    "rows": [
+     {
+      "label": "Investments, at equity (1)",
+      "full": "Investments, at equity (1)",
+      "vals": [
+       1051.0,
+       970.0
+      ]
+     },
+     {
+      "label": "Investments, at cost (2)",
+      "full": "Investments, at cost (2)",
+      "vals": [
+       106.0,
+       162.0
+      ]
+     },
+     {
+      "label": "Investment in leveraged leases",
+      "full": "Investment in leveraged leases",
+      "vals": [
+       175.0,
+       289.0
+      ]
+     },
+     {
+      "label": "Notes receivable and other investments",
+      "full": "Notes receivable and other investments",
+      "vals": [
+       517.0,
+       389.0
+      ]
+     },
+     {
+      "label": "(无标签小计)",
+      "full": "(无标签小计)",
+      "vals": [
+       1849.0,
+       1810.0
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

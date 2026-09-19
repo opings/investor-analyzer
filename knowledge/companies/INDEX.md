@@ -42,6 +42,7 @@
 | circle | CRCL | Circle Internet Group / Circle Internet Financial(2024-07 前爱尔兰旧主体) / USDC(主产品) / EURC / USYC / Arc(自建L1链) / Circle Reserve Fund(USDXX·储备基金) |
 | coinbase | COIN | Coinbase / Coinbase Global, Inc. / CIK 1679788 / Deribit(2025-08 起全资子公司) / Sentillia B.V.(Deribit 法人名) / Echo(Gm Echo Ltd·2025-10 起全资子公司) ⚠️勿与「币安 Binance」混淆(不同公司) |
 | 特斯拉 | TSLA | Tesla / Tesla, Inc. / CIK 1318605 / TESLA MOTORS INC(2017-02 前旧名) / Model S/3/X/Y / Cybertruck / Semi / Megapack / Powerwall / Supercharger / FSD / Robotaxi / Optimus / SolarCity(2016-11 起全资子公司) ⚠️注册地 2024-06 由特拉华迁得克萨斯 |
+| Disney | DIS | 迪士尼 / The Walt Disney Company / TWDC / 华特迪士尼 / Disney+ / Hulu / ESPN / Pixar(2006 收购) / Marvel(2009) / Lucasfilm(2012) / 21st Century Fox(2019) / Disney Cruise Line / DVC ⚠️**三个 CIK**：29082(FY1993-95·旧名 DISNEY WALT CO) / 1001039(FY1996-2018·TWDC Enterprises 18 Corp) / 1744489(FY2019 起·现主体) |
 
 ## 约定
 

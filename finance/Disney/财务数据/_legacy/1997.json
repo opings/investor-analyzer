@@ -1,0 +1,4728 @@
+{
+ "key": "1997",
+ "src": "1997.txt",
+ "statements": {
+  "IS": [
+   {
+    "periods": [
+     "1997",
+     "1996",
+     "1995"
+    ],
+    "score": 2,
+    "offset": 117793,
+    "rows": [
+     {
+      "label": "NET INCOME",
+      "full": "NET INCOME",
+      "vals": [
+       1966.0,
+       1214.0,
+       1380.0
+      ]
+     },
+     {
+      "label": "Amortization of film and television costs",
+      "full": "ITEMS NOT REQUIRING CASH OUTLAYS Amortization of film and television costs",
+      "vals": [
+       3781.0,
+       2762.0,
+       1383.0
+      ]
+     },
+     {
+      "label": "Depreciation",
+      "full": "Depreciation",
+      "vals": [
+       738.0,
+       672.0,
+       470.0
+      ]
+     },
+     {
+      "label": "Amortization of intangible assets",
+      "full": "Amortization of intangible assets",
+      "vals": [
+       439.0,
+       301.0,
+       null
+      ]
+     },
+     {
+      "label": "Gain on sale of KCAL",
+      "full": "Gain on sale of KCAL",
+      "vals": [
+       -135.0,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Accounting change",
+      "full": "Accounting change",
+      "vals": [
+       null,
+       300.0,
+       null
+      ]
+     },
+     {
+      "label": "Other",
+      "full": "Other",
+      "vals": [
+       -15.0,
+       22.0,
+       133.0
+      ]
+     },
+     {
+      "label": "Investments in trading securities",
+      "full": "CHANGES IN Investments in trading securities",
+      "vals": [
+       null,
+       85.0,
+       1.0
+      ]
+     },
+     {
+      "label": "Receivables",
+      "full": "Receivables",
+      "vals": [
+       -386.0,
+       -426.0,
+       -122.0
+      ]
+     },
+     {
+      "label": "Inventories",
+      "full": "Inventories",
+      "vals": [
+       -6.0,
+       -95.0,
+       -156.0
+      ]
+     },
+     {
+      "label": "Other assets",
+      "full": "Other assets",
+      "vals": [
+       -169.0,
+       -160.0,
+       -288.0
+      ]
+     },
+     {
+      "label": "Accounts and taxes payable and accrued liabilities",
+      "full": "Accounts and taxes payable and accrued liabilities",
+      "vals": [
+       566.0,
+       -246.0,
+       415.0
+      ]
+     },
+     {
+      "label": "Unearned royalty and other advances",
+      "full": "Unearned royalty and other advances",
+      "vals": [
+       -7.0,
+       274.0,
+       161.0
+      ]
+     },
+     {
+      "label": "Deferred income taxes",
+      "full": "Deferred income taxes",
+      "vals": [
+       292.0,
+       -78.0,
+       133.0
+      ]
+     },
+     {
+      "label": "CHANGES IN 合计",
+      "full": "CHANGES IN 合计",
+      "vals": [
+       5098.0,
+       3411.0,
+       2130.0
+      ]
+     },
+     {
+      "label": "CASH PROVIDED BY OPERATIONS",
+      "full": "CASH PROVIDED BY OPERATIONS",
+      "vals": [
+       7064.0,
+       4625.0,
+       3510.0
+      ]
+     },
+     {
+      "label": "Proceeds from disposal of KCAL",
+      "full": "INVESTING ACTIVITIES Proceeds from disposal of KCAL",
+      "vals": [
+       387.0,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Proceeds from disposal of publishing operations",
+      "full": "Proceeds from disposal of publishing operations",
+      "vals": [
+       1214.0,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Acquisition of ABC, net of cash acquired",
+      "full": "Acquisition of ABC, net of cash acquired",
+      "vals": [
+       null,
+       -8432.0,
+       null
+      ]
+     },
+     {
+      "label": "Film and television costs",
+      "full": "Film and television costs",
+      "vals": [
+       -5054.0,
+       -3678.0,
+       -1886.0
+      ]
+     },
+     {
+      "label": "property",
+      "full": "Investments in theme parks, resorts and other property",
+      "vals": [
+       -1922.0,
+       -1745.0,
+       -896.0
+      ]
+     },
+     {
+      "label": "Investment in and loan for E! Entertainment",
+      "full": "Investment in and loan for E! Entertainment",
+      "vals": [
+       -321.0,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Purchases of marketable securities",
+      "full": "Purchases of marketable securities",
+      "vals": [
+       -56.0,
+       -18.0,
+       -1033.0
+      ]
+     },
+     {
+      "label": "Proceeds from sales of marketable securities",
+      "full": "Proceeds from sales of marketable securities",
+      "vals": [
+       31.0,
+       409.0,
+       1460.0
+      ]
+     },
+     {
+      "label": "Other",
+      "full": "Other",
+      "vals": [
+       -180.0,
+       null,
+       67.0
+      ]
+     },
+     {
+      "label": "Investments in theme parks, resorts and other 合计",
+      "full": "INVESTING ACTIVITIES 合计",
+      "vals": [
+       -5901.0,
+       -13464.0,
+       -2288.0
+      ]
+     },
+     {
+      "label": "Borrowings",
+      "full": "FINANCING ACTIVITIES Borrowings",
+      "vals": [
+       2437.0,
+       13560.0,
+       786.0
+      ]
+     },
+     {
+      "label": "Proceeds from formation of REITs",
+      "full": "Proceeds from formation of REITs",
+      "vals": [
+       1312.0,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Reduction of borrowings",
+      "full": "Reduction of borrowings",
+      "vals": [
+       -4078.0,
+       -4872.0,
+       -772.0
+      ]
+     },
+     {
+      "label": "Repurchases of common stock",
+      "full": "Repurchases of common stock",
+      "vals": [
+       -633.0,
+       -462.0,
+       -349.0
+      ]
+     },
+     {
+      "label": "Dividends",
+      "full": "Dividends",
+      "vals": [
+       -342.0,
+       -271.0,
+       -180.0
+      ]
+     },
+     {
+      "label": "Exercise of stock options and other",
+      "full": "Exercise of stock options and other",
+      "vals": [
+       180.0,
+       85.0,
+       183.0
+      ]
+     },
+     {
+      "label": "FINANCING ACTIVITIES 合计",
+      "full": "FINANCING ACTIVITIES 合计",
+      "vals": [
+       -1124.0,
+       8040.0,
+       -332.0
+      ]
+     },
+     {
+      "label": "Increase (Decrease) in Cash and Cash Equivalents",
+      "full": "Increase (Decrease) in Cash and Cash Equivalents",
+      "vals": [
+       39.0,
+       -799.0,
+       890.0
+      ]
+     },
+     {
+      "label": "Cash and Cash Equivalents, Beginning of Year",
+      "full": "Cash and Cash Equivalents, Beginning of Year",
+      "vals": [
+       278.0,
+       1077.0,
+       187.0
+      ]
+     },
+     {
+      "label": "Cash and Cash Equivalents, End of Year",
+      "full": "Cash and Cash Equivalents, End of Year",
+      "vals": [
+       317.0,
+       278.0,
+       1077.0
+      ]
+     },
+     {
+      "label": "Interest paid",
+      "full": "Supplemental disclosure of cash flow information: Interest paid",
+      "vals": [
+       777.0,
+       379.0,
+       123.0
+      ]
+     },
+     {
+      "label": "Income taxes paid",
+      "full": "Income taxes paid",
+      "vals": [
+       958.0,
+       689.0,
+       557.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "1997",
+     "1996",
+     "1995",
+     "1996",
+     "1995"
+    ],
+    "score": 2,
+    "offset": 62683,
+    "rows": [
+     {
+      "label": "Creative Content",
+      "full": "PRO FORMA AS REPORTED            (unaudited) Revenues: Creative Content",
+      "vals": [
+       10937.0,
+       10159.0,
+       7736.0,
+       10607.0,
+       9086.0
+      ]
+     },
+     {
+      "label": "Broadcasting",
+      "full": "Broadcasting",
+      "vals": [
+       6522.0,
+       4078.0,
+       414.0,
+       6129.0,
+       5862.0
+      ]
+     },
+     {
+      "label": "Theme Parks and Resorts",
+      "full": "Theme Parks and Resorts",
+      "vals": [
+       5014.0,
+       4502.0,
+       4001.0,
+       4502.0,
+       4001.0
+      ]
+     },
+     {
+      "label": "Total",
+      "full": "Total",
+      "vals": [
+       22473.0,
+       18739.0,
+       12151.0,
+       21238.0,
+       18949.0
+      ]
+     },
+     {
+      "label": "Creative Content",
+      "full": "Creative Content",
+      "vals": [
+       1882.0,
+       1561.0,
+       1531.0,
+       1555.0,
+       1565.0
+      ]
+     },
+     {
+      "label": "Broadcasting",
+      "full": "Broadcasting",
+      "vals": [
+       1294.0,
+       782.0,
+       76.0,
+       1100.0,
+       982.0
+      ]
+     },
+     {
+      "label": "Theme Parks and Resorts",
+      "full": "Theme Parks and Resorts",
+      "vals": [
+       1136.0,
+       990.0,
+       859.0,
+       990.0,
+       859.0
+      ]
+     },
+     {
+      "label": "Gain on sale of KCAL",
+      "full": "Gain on sale of KCAL",
+      "vals": [
+       135.0,
+       null,
+       null,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Accounting change",
+      "full": "Accounting change",
+      "vals": [
+       null,
+       -300.0,
+       null,
+       -300.0,
+       null
+      ]
+     },
+     {
+      "label": "Total",
+      "full": "Total",
+      "vals": [
+       4447.0,
+       3033.0,
+       2466.0,
+       3345.0,
+       3406.0
+      ]
+     },
+     {
+      "label": "Corporate activities and other",
+      "full": "Corporate activities and other",
+      "vals": [
+       -367.0,
+       -309.0,
+       -239.0,
+       -249.0,
+       -255.0
+      ]
+     },
+     {
+      "label": "Net interest expense",
+      "full": "Net interest expense",
+      "vals": [
+       -693.0,
+       -438.0,
+       -110.0,
+       -698.0,
+       -775.0
+      ]
+     },
+     {
+      "label": "Acquisition-related costs",
+      "full": "Acquisition-related costs",
+      "vals": [
+       null,
+       -225.0,
+       null,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Income before income taxes",
+      "full": "Income before income taxes",
+      "vals": [
+       3387.0,
+       2061.0,
+       2117.0,
+       2398.0,
+       2376.0
+      ]
+     },
+     {
+      "label": "Income taxes",
+      "full": "Income taxes",
+      "vals": [
+       -1421.0,
+       -847.0,
+       -737.0,
+       -1067.0,
+       -1069.0
+      ]
+     },
+     {
+      "label": "Net income",
+      "full": "Net income",
+      "vals": [
+       1966.0,
+       1214.0,
+       1380.0,
+       1331.0,
+       1307.0
+      ]
+     },
+     {
+      "label": "Earnings per share",
+      "full": "Earnings per share",
+      "vals": [
+       2.86,
+       1.96,
+       2.6,
+       1.93,
+       1.91
+      ]
+     },
+     {
+      "label": "recurring items (2)",
+      "full": "Net income excluding non- recurring items (2)",
+      "vals": [
+       1886.0,
+       1534.0,
+       1380.0,
+       1514.0,
+       1307.0
+      ]
+     },
+     {
+      "label": "non-recurring items (2)",
+      "full": "Earnings per share excluding non-recurring items (2)",
+      "vals": [
+       2.75,
+       2.48,
+       2.6,
+       2.2,
+       1.91
+      ]
+     },
+     {
+      "label": "income",
+      "full": "Amortization of intangible assets included in operating income",
+      "vals": [
+       439.0,
+       301.0,
+       null,
+       476.0,
+       476.0
+      ]
+     },
+     {
+      "label": "outstanding",
+      "full": "Average number of common and common equivalent shares outstanding",
+      "vals": [
+       687.0,
+       619.0,
+       530.0,
+       689.0,
+       685.0
+      ]
+     },
+     {
+      "label": "Creative Content",
+      "full": "Creative Content",
+      "vals": [
+       222.0,
+       186.0,
+       107.0,
+       230.0,
+       199.0
+      ]
+     },
+     {
+      "label": "Broadcasting",
+      "full": "Broadcasting",
+      "vals": [
+       508.0,
+       382.0,
+       8.0,
+       521.0,
+       510.0
+      ]
+     },
+     {
+      "label": "Theme Parks and Resorts",
+      "full": "Theme Parks and Resorts",
+      "vals": [
+       408.0,
+       358.0,
+       335.0,
+       358.0,
+       335.0
+      ]
+     },
+     {
+      "label": "common equivalent shares 合计",
+      "full": "Average number of common and 合计",
+      "vals": [
+       1138.0,
+       926.0,
+       450.0,
+       1109.0,
+       1044.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [],
+    "score": 2,
+    "offset": 528873,
+    "rows": [
+     {
+      "label": "Revenues",
+      "full": "PRO FORMA HISTORICAL             ADJUSTMENTS            PRO FORMA Revenues",
+      "vals": [
+       22473.0,
+       -839.0,
+       -1.0,
+       21613.0
+      ]
+     },
+     {
+      "label": "HISTORICAL             ADJUSTMENTS            PRO FORMA 合计",
+      "full": "HISTORICAL             ADJUSTMENTS            PRO FORMA 合计",
+      "vals": [
+       -21.0,
+       -2.0
+      ]
+     },
+     {
+      "label": "Costs and expenses",
+      "full": "Costs and expenses",
+      "vals": [
+       -18161.0,
+       650.0,
+       -1.0,
+       -17499.0
+      ]
+     },
+     {
+      "label": "HISTORICAL             ADJUSTMENTS            PRO FORMA 合计",
+      "full": "HISTORICAL             ADJUSTMENTS            PRO FORMA 合计",
+      "vals": [
+       17.0,
+       -2.0
+      ]
+     },
+     {
+      "label": "HISTORICAL             ADJUSTMENTS            PRO FORMA 合计",
+      "full": "HISTORICAL             ADJUSTMENTS            PRO FORMA 合计",
+      "vals": [
+       -5.0,
+       -3.0
+      ]
+     },
+     {
+      "label": "Gain on sale of KCAL",
+      "full": "Gain on sale of KCAL",
+      "vals": [
+       135.0,
+       -135.0,
+       -2.0
+      ]
+     },
+     {
+      "label": "Operating income",
+      "full": "Operating income",
+      "vals": [
+       4447.0,
+       -333.0,
+       4114.0
+      ]
+     },
+     {
+      "label": "Corporate activities and other",
+      "full": "Corporate activities and other",
+      "vals": [
+       -367.0,
+       -367.0
+      ]
+     },
+     {
+      "label": "Net interest expense",
+      "full": "Net interest expense",
+      "vals": [
+       -693.0,
+       -693.0
+      ]
+     },
+     {
+      "label": "Income before income taxes",
+      "full": "Income before income taxes",
+      "vals": [
+       3387.0,
+       -333.0,
+       3054.0
+      ]
+     },
+     {
+      "label": "Income taxes",
+      "full": "Income taxes",
+      "vals": [
+       -1421.0,
+       139.0,
+       -4.0,
+       -1282.0
+      ]
+     },
+     {
+      "label": "Net income",
+      "full": "Net income",
+      "vals": [
+       1966.0,
+       -194.0,
+       1772.0
+      ]
+     },
+     {
+      "label": "Earnings per share",
+      "full": "Earnings per share",
+      "vals": [
+       2.86,
+       2.58
+      ]
+     },
+     {
+      "label": "equivalent shares outstanding",
+      "full": "Average number of common and common equivalent shares outstanding",
+      "vals": [
+       687.0,
+       687.0
+      ]
+     },
+     {
+      "label": "non-recurring items/(a)/",
+      "full": "Other Data: Net income excluding non-recurring items/(a)/",
+      "vals": [
+       1886.0,
+       -114.0,
+       1772.0
+      ]
+     },
+     {
+      "label": "non-recurring items/(a)/",
+      "full": "Earnings per share excluding non-recurring items/(a)/",
+      "vals": [
+       2.75,
+       2.58
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [],
+    "score": 2,
+    "offset": 536785,
+    "rows": [
+     {
+      "label": "Creative Content",
+      "full": "- --------------------------------------------------------------------------------------------          Fiscal Revenues Creative Content",
+      "vals": [
+       2812.0,
+       2287.0,
+       2034.0,
+       2431.0,
+       9564.0
+      ]
+     },
+     {
+      "label": "Broadcasting",
+      "full": "Broadcasting",
+      "vals": [
+       1790.0,
+       1369.0,
+       1499.0,
+       1351.0,
+       6009.0
+      ]
+     },
+     {
+      "label": "Theme Parks and Resorts",
+      "full": "Theme Parks and Resorts",
+      "vals": [
+       994.0,
+       1055.0,
+       1249.0,
+       1204.0,
+       4502.0
+      ]
+     },
+     {
+      "label": "Revenues 合计",
+      "full": "Revenues 合计",
+      "vals": [
+       5596.0,
+       4711.0,
+       4782.0,
+       4986.0,
+       20075.0
+      ]
+     },
+     {
+      "label": "Creative Content",
+      "full": "Operating Income Creative Content",
+      "vals": [
+       618.0,
+       233.0,
+       249.0,
+       335.0,
+       1435.0
+      ]
+     },
+     {
+      "label": "Broadcasting",
+      "full": "Broadcasting",
+      "vals": [
+       341.0,
+       198.0,
+       309.0,
+       236.0,
+       1084.0
+      ]
+     },
+     {
+      "label": "Theme Parks and Resorts",
+      "full": "Theme Parks and Resorts",
+      "vals": [
+       196.0,
+       202.0,
+       350.0,
+       242.0,
+       990.0
+      ]
+     },
+     {
+      "label": "Operating Income 合计",
+      "full": "Operating Income 合计",
+      "vals": [
+       1155.0,
+       633.0,
+       908.0,
+       813.0,
+       3509.0
+      ]
+     },
+     {
+      "label": "Accounting change (1)",
+      "full": "Accounting change (1)",
+      "vals": [
+       0.0,
+       -300.0,
+       0.0,
+       0.0,
+       -300.0
+      ]
+     },
+     {
+      "label": "Operating Income 合计",
+      "full": "Operating Income 合计",
+      "vals": [
+       1155.0,
+       333.0,
+       908.0,
+       813.0,
+       3209.0
+      ]
+     },
+     {
+      "label": "Corporate activities and other",
+      "full": "Corporate activities and other",
+      "vals": [
+       -24.0,
+       -98.0,
+       -66.0,
+       -61.0,
+       -249.0
+      ]
+     },
+     {
+      "label": "Net interest expense",
+      "full": "Net interest expense",
+      "vals": [
+       -167.0,
+       -189.0,
+       -171.0,
+       -171.0,
+       -698.0
+      ]
+     },
+     {
+      "label": "Income before income taxes",
+      "full": "Income before income taxes",
+      "vals": [
+       964.0,
+       46.0,
+       671.0,
+       581.0,
+       2262.0
+      ]
+     },
+     {
+      "label": "Income taxes",
+      "full": "Income taxes",
+      "vals": [
+       -418.0,
+       -31.0,
+       -289.0,
+       -250.0,
+       -988.0
+      ]
+     },
+     {
+      "label": "Net income",
+      "full": "Net income",
+      "vals": [
+       546.0,
+       15.0,
+       382.0,
+       331.0,
+       1274.0
+      ]
+     },
+     {
+      "label": "Earnings per share",
+      "full": "Earnings per share",
+      "vals": [
+       0.79,
+       0.04,
+       0.55,
+       0.48,
+       1.85
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [],
+    "score": 2,
+    "offset": 533643,
+    "rows": [
+     {
+      "label": "Creative Content",
+      "full": "- --------------------------------------------------------------------------------------------         Fiscal Revenues Creative Content",
+      "vals": [
+       2962.0,
+       2487.0,
+       2004.0,
+       2645.0,
+       10098.0
+      ]
+     },
+     {
+      "label": "Broadcasting",
+      "full": "Broadcasting",
+      "vals": [
+       1872.0,
+       1528.0,
+       1609.0,
+       1492.0,
+       6501.0
+      ]
+     },
+     {
+      "label": "Theme Parks and Resorts",
+      "full": "Theme Parks and Resorts",
+      "vals": [
+       1150.0,
+       1203.0,
+       1369.0,
+       1292.0,
+       5014.0
+      ]
+     },
+     {
+      "label": "Revenues 合计",
+      "full": "Revenues 合计",
+      "vals": [
+       5984.0,
+       5218.0,
+       4982.0,
+       5429.0,
+       21613.0
+      ]
+     },
+     {
+      "label": "Creative Content",
+      "full": "Operating income Creative Content",
+      "vals": [
+       668.0,
+       354.0,
+       257.0,
+       414.0,
+       1693.0
+      ]
+     },
+     {
+      "label": "Broadcasting",
+      "full": "Broadcasting",
+      "vals": [
+       469.0,
+       238.0,
+       337.0,
+       241.0,
+       1285.0
+      ]
+     },
+     {
+      "label": "Theme Parks and Resorts",
+      "full": "Theme Parks and Resorts",
+      "vals": [
+       238.0,
+       236.0,
+       390.0,
+       272.0,
+       1136.0
+      ]
+     },
+     {
+      "label": "Operating income 合计",
+      "full": "Operating income 合计",
+      "vals": [
+       1375.0,
+       828.0,
+       984.0,
+       927.0,
+       4114.0
+      ]
+     },
+     {
+      "label": "Corporate activities and other",
+      "full": "Corporate activities and other",
+      "vals": [
+       -90.0,
+       -108.0,
+       -69.0,
+       -100.0,
+       -367.0
+      ]
+     },
+     {
+      "label": "Net interest expense",
+      "full": "Net interest expense",
+      "vals": [
+       -171.0,
+       -184.0,
+       -185.0,
+       -153.0,
+       -693.0
+      ]
+     },
+     {
+      "label": "Income before income taxes",
+      "full": "Income before income taxes",
+      "vals": [
+       1114.0,
+       536.0,
+       730.0,
+       674.0,
+       3054.0
+      ]
+     },
+     {
+      "label": "Income taxes",
+      "full": "Income taxes",
+      "vals": [
+       -473.0,
+       -220.0,
+       -305.0,
+       -284.0,
+       -1282.0
+      ]
+     },
+     {
+      "label": "Net income",
+      "full": "Net income",
+      "vals": [
+       641.0,
+       316.0,
+       425.0,
+       390.0,
+       1772.0
+      ]
+     },
+     {
+      "label": "Earnings per share",
+      "full": "Earnings per share",
+      "vals": [
+       0.93,
+       0.46,
+       0.62,
+       0.57,
+       2.58
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "1997",
+     "1996",
+     "1995"
+    ],
+    "score": 2,
+    "offset": 112343,
+    "rows": [
+     {
+      "label": "Revenues",
+      "full": "Revenues",
+      "vals": [
+       22473.0,
+       18739.0,
+       12151.0
+      ]
+     },
+     {
+      "label": "Costs and expenses",
+      "full": "Costs and expenses",
+      "vals": [
+       -18161.0,
+       -15406.0,
+       -9685.0
+      ]
+     },
+     {
+      "label": "Gain on sale of KCAL",
+      "full": "Gain on sale of KCAL",
+      "vals": [
+       135.0,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Accounting change",
+      "full": "Accounting change",
+      "vals": [
+       null,
+       -300.0,
+       null
+      ]
+     },
+     {
+      "label": "Operating income",
+      "full": "Operating income",
+      "vals": [
+       4447.0,
+       3033.0,
+       2466.0
+      ]
+     },
+     {
+      "label": "Corporate activities and other",
+      "full": "Corporate activities and other",
+      "vals": [
+       -367.0,
+       -309.0,
+       -239.0
+      ]
+     },
+     {
+      "label": "Net interest expense",
+      "full": "Net interest expense",
+      "vals": [
+       -693.0,
+       -438.0,
+       -110.0
+      ]
+     },
+     {
+      "label": "Acquisition-related costs",
+      "full": "Acquisition-related costs",
+      "vals": [
+       null,
+       -225.0,
+       null
+      ]
+     },
+     {
+      "label": "Income before taxes",
+      "full": "Income before taxes",
+      "vals": [
+       3387.0,
+       2061.0,
+       2117.0
+      ]
+     },
+     {
+      "label": "Income taxes",
+      "full": "Income taxes",
+      "vals": [
+       -1421.0,
+       -847.0,
+       -737.0
+      ]
+     },
+     {
+      "label": "Net income",
+      "full": "Net income",
+      "vals": [
+       1966.0,
+       1214.0,
+       1380.0
+      ]
+     },
+     {
+      "label": "Earnings per share",
+      "full": "Earnings per share",
+      "vals": [
+       2.86,
+       1.96,
+       2.6
+      ]
+     },
+     {
+      "label": "shares outstanding",
+      "full": "Average number of common and common equivalent shares outstanding",
+      "vals": [
+       687.0,
+       619.0,
+       530.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "1996",
+     "1995"
+    ],
+    "score": 1,
+    "offset": 132019,
+    "rows": [
+     {
+      "label": "Revenues",
+      "full": "Revenues",
+      "vals": [
+       21238.0,
+       18949.0
+      ]
+     },
+     {
+      "label": "Net income (a)",
+      "full": "Net income (a)",
+      "vals": [
+       1331.0,
+       1307.0
+      ]
+     },
+     {
+      "label": "Earnings per share (a)",
+      "full": "Earnings per share (a)",
+      "vals": [
+       1.93,
+       1.91
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [],
+    "score": 0,
+    "offset": 396196,
+    "rows": [
+     {
+      "label": "SECTION 1  PURPOSES AND AUTHORIZED SHARES",
+      "full": "Page SECTION 1  PURPOSES AND AUTHORIZED SHARES",
+      "vals": [
+       1.0
+      ]
+     },
+     {
+      "label": "SECTION 2  DEFINITIONS",
+      "full": "SECTION 2  DEFINITIONS",
+      "vals": [
+       1.0
+      ]
+     },
+     {
+      "label": "SECTION 3  PARTICIPATION",
+      "full": "SECTION 3  PARTICIPATION",
+      "vals": [
+       3.0
+      ]
+     },
+     {
+      "label": "SECTION 4  SHARE OR DEFERRAL ELECTIONS",
+      "full": "SECTION 4  SHARE OR DEFERRAL ELECTIONS",
+      "vals": [
+       3.0
+      ]
+     },
+     {
+      "label": "Page 合计",
+      "full": "Page 合计",
+      "vals": [
+       4.1,
+       3.0
+      ]
+     },
+     {
+      "label": "Page 合计",
+      "full": "Page 合计",
+      "vals": [
+       4.2,
+       4.0
+      ]
+     },
+     {
+      "label": "SECTION 5  DEFERRAL ACCOUNTS",
+      "full": "SECTION 5  DEFERRAL ACCOUNTS",
+      "vals": [
+       4.0
+      ]
+     },
+     {
+      "label": "Page 合计",
+      "full": "Page 合计",
+      "vals": [
+       5.1,
+       4.0
+      ]
+     },
+     {
+      "label": "Page 合计",
+      "full": "Page 合计",
+      "vals": [
+       5.2,
+       4.0
+      ]
+     },
+     {
+      "label": "Page 合计",
+      "full": "Page 合计",
+      "vals": [
+       5.3,
+       5.0
+      ]
+     },
+     {
+      "label": "Page 合计",
+      "full": "Page 合计",
+      "vals": [
+       5.4,
+       5.0
+      ]
+     },
+     {
+      "label": "Page 合计",
+      "full": "Page 合计",
+      "vals": [
+       5.5,
+       5.0
+      ]
+     },
+     {
+      "label": "Page 合计",
+      "full": "Page 合计",
+      "vals": [
+       5.6,
+       6.0
+      ]
+     },
+     {
+      "label": "Page 合计",
+      "full": "Page 合计",
+      "vals": [
+       5.7,
+       7.0
+      ]
+     },
+     {
+      "label": "SECTION 6  ADMINISTRATION",
+      "full": "SECTION 6  ADMINISTRATION",
+      "vals": [
+       8.0
+      ]
+     },
+     {
+      "label": "Page 合计",
+      "full": "Page 合计",
+      "vals": [
+       6.1,
+       8.0
+      ]
+     },
+     {
+      "label": "Page 合计",
+      "full": "Page 合计",
+      "vals": [
+       6.2,
+       8.0
+      ]
+     },
+     {
+      "label": "Page 合计",
+      "full": "Page 合计",
+      "vals": [
+       6.3,
+       8.0
+      ]
+     },
+     {
+      "label": "SECTION 7  PLAN CHANGES AND TERMINATION",
+      "full": "SECTION 7  PLAN CHANGES AND TERMINATION",
+      "vals": [
+       9.0
+      ]
+     },
+     {
+      "label": "Page 合计",
+      "full": "Page 合计",
+      "vals": [
+       7.1,
+       9.0
+      ]
+     },
+     {
+      "label": "Page 合计",
+      "full": "Page 合计",
+      "vals": [
+       7.2,
+       9.0
+      ]
+     },
+     {
+      "label": "SECTION 8  MISCELLANEOUS",
+      "full": "SECTION 8  MISCELLANEOUS",
+      "vals": [
+       9.0
+      ]
+     },
+     {
+      "label": "Page 合计",
+      "full": "Page 合计",
+      "vals": [
+       8.1
+      ]
+     },
+     {
+      "label": "Directors' Rights",
+      "full": "Directors' Rights",
+      "vals": [
+       9.0
+      ]
+     },
+     {
+      "label": "Page 合计",
+      "full": "Page 合计",
+      "vals": [
+       8.2,
+       10.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [],
+    "score": 0,
+    "offset": 29967,
+    "rows": [
+     {
+      "label": "Michael D. Eisner",
+      "full": "Executive Officer Name        Age                    Title                           Since Michael D. Eisner",
+      "vals": [
+       55.0,
+       1984.0
+      ]
+     },
+     {
+      "label": "Roy E. Disney",
+      "full": "Officer Roy E. Disney",
+      "vals": [
+       67.0,
+       1984.0
+      ]
+     },
+     {
+      "label": "Sanford M. Litvack",
+      "full": "Sanford M. Litvack",
+      "vals": [
+       61.0,
+       1991.0
+      ]
+     },
+     {
+      "label": "Richard D. Nanula",
+      "full": "of Corporate Operations Richard D. Nanula",
+      "vals": [
+       37.0,
+       1996.0
+      ]
+     },
+     {
+      "label": "John F. Cooke",
+      "full": "John F. Cooke",
+      "vals": [
+       55.0,
+       2.0,
+       1995.0
+      ]
+     },
+     {
+      "label": "Lawrence P. Murphy",
+      "full": "Lawrence P. Murphy",
+      "vals": [
+       45.0,
+       1985.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [],
+    "score": 0,
+    "offset": 77716,
+    "rows": [
+     {
+      "label": "VAR as of September 30, 1997",
+      "full": "Interest Rate         Currency Sensitive Financial Sensitive Financial Combined Instruments         Instruments     Portfolio VAR as of September 30, 1997",
+      "vals": [
+       27.0,
+       24.0,
+       33.0
+      ]
+     },
+     {
+      "label": "Average VAR during the year",
+      "full": "Average VAR during the year",
+      "vals": [
+       31.0,
+       22.0,
+       34.0
+      ]
+     }
+    ]
+   }
+  ],
+  "BS": [
+   {
+    "periods": [
+     "1997",
+     "1996"
+    ],
+    "score": 3,
+    "offset": 114316,
+    "rows": [
+     {
+      "label": "Cash and cash equivalents",
+      "full": "ASSETS Cash and cash equivalents",
+      "vals": [
+       317.0,
+       278.0
+      ]
+     },
+     {
+      "label": "Receivables",
+      "full": "Receivables",
+      "vals": [
+       3726.0,
+       3343.0
+      ]
+     },
+     {
+      "label": "Inventories",
+      "full": "Inventories",
+      "vals": [
+       942.0,
+       951.0
+      ]
+     },
+     {
+      "label": "Film and television costs",
+      "full": "Film and television costs",
+      "vals": [
+       4401.0,
+       3259.0
+      ]
+     },
+     {
+      "label": "Investments",
+      "full": "Investments",
+      "vals": [
+       1897.0,
+       1009.0
+      ]
+     },
+     {
+      "label": "Attractions, buildings and equipment",
+      "full": "Theme parks, resorts and other property, at cost Attractions, buildings and equipment",
+      "vals": [
+       11787.0,
+       11019.0
+      ]
+     },
+     {
+      "label": "Accumulated depreciation",
+      "full": "Accumulated depreciation",
+      "vals": [
+       -4857.0,
+       -4448.0
+      ]
+     },
+     {
+      "label": "Theme parks, resorts and other property, at cost 合计",
+      "full": "ASSETS 合计",
+      "vals": [
+       6930.0,
+       6571.0
+      ]
+     },
+     {
+      "label": "Projects in process",
+      "full": "Projects in process",
+      "vals": [
+       1928.0,
+       1342.0
+      ]
+     },
+     {
+      "label": "Land",
+      "full": "Land",
+      "vals": [
+       93.0,
+       118.0
+      ]
+     },
+     {
+      "label": "Theme parks, resorts and other property, at cost 合计",
+      "full": "ASSETS 合计",
+      "vals": [
+       8951.0,
+       8031.0
+      ]
+     },
+     {
+      "label": "Intangible assets, net",
+      "full": "Intangible assets, net",
+      "vals": [
+       16011.0,
+       18045.0
+      ]
+     },
+     {
+      "label": "Other assets",
+      "full": "Other assets",
+      "vals": [
+       1531.0,
+       1710.0
+      ]
+     },
+     {
+      "label": "Theme parks, resorts and other property, at cost 合计",
+      "full": "ASSETS 合计",
+      "vals": [
+       37776.0,
+       36626.0
+      ]
+     },
+     {
+      "label": "Accounts payable and other accrued liabilities",
+      "full": "LIABILITIES AND STOCKHOLDERS' EQUITY Accounts payable and other accrued liabilities",
+      "vals": [
+       5577.0,
+       5694.0
+      ]
+     },
+     {
+      "label": "Income taxes payable",
+      "full": "Income taxes payable",
+      "vals": [
+       995.0,
+       582.0
+      ]
+     },
+     {
+      "label": "Borrowings",
+      "full": "Borrowings",
+      "vals": [
+       11068.0,
+       12342.0
+      ]
+     },
+     {
+      "label": "Unearned royalty and other advances",
+      "full": "Unearned royalty and other advances",
+      "vals": [
+       1172.0,
+       1179.0
+      ]
+     },
+     {
+      "label": "Deferred income taxes",
+      "full": "Deferred income taxes",
+      "vals": [
+       1679.0,
+       743.0
+      ]
+     },
+     {
+      "label": "Issued--683 million shares and 682 million shares",
+      "full": "Stockholders' equity Issued--none Issued--683 million shares and 682 million shares",
+      "vals": [
+       8534.0,
+       8576.0
+      ]
+     },
+     {
+      "label": "Retained earnings",
+      "full": "Retained earnings",
+      "vals": [
+       9557.0,
+       7933.0
+      ]
+     },
+     {
+      "label": "Cumulative translation and other",
+      "full": "Cumulative translation and other",
+      "vals": [
+       -12.0,
+       39.0
+      ]
+     },
+     {
+      "label": "Issued--none 合计",
+      "full": "LIABILITIES AND STOCKHOLDERS' EQUITY 合计",
+      "vals": [
+       18079.0,
+       16548.0
+      ]
+     },
+     {
+      "label": "Treasury stock, at cost, 8 million shares",
+      "full": "Treasury stock, at cost, 8 million shares",
+      "vals": [
+       -462.0,
+       -462.0
+      ]
+     },
+     {
+      "label": "Shares held by TWDC Stock Compensation Fund, at cost, 合计",
+      "full": "LIABILITIES AND STOCKHOLDERS' EQUITY 合计",
+      "vals": [
+       4.0,
+       -332.0,
+       null
+      ]
+     },
+     {
+      "label": "Shares held by TWDC Stock Compensation Fund, at cost, 合计",
+      "full": "LIABILITIES AND STOCKHOLDERS' EQUITY 合计",
+      "vals": [
+       17285.0,
+       16086.0
+      ]
+     },
+     {
+      "label": "Shares held by TWDC Stock Compensation Fund, at cost, 合计",
+      "full": "LIABILITIES AND STOCKHOLDERS' EQUITY 合计",
+      "vals": [
+       37776.0,
+       36626.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [],
+    "score": 0,
+    "offset": 524950,
+    "rows": [
+     {
+      "label": "Revenues",
+      "full": "PRO FORMA HISTORICAL             ADJUSTMENTS            PRO FORMA Revenues",
+      "vals": [
+       22473.0,
+       -839.0,
+       -1.0,
+       21613.0
+      ]
+     },
+     {
+      "label": "HISTORICAL             ADJUSTMENTS            PRO FORMA 合计",
+      "full": "HISTORICAL             ADJUSTMENTS            PRO FORMA 合计",
+      "vals": [
+       -21.0,
+       -2.0
+      ]
+     },
+     {
+      "label": "Costs and expenses",
+      "full": "Costs and expenses",
+      "vals": [
+       -18161.0,
+       650.0,
+       -1.0,
+       -17499.0
+      ]
+     },
+     {
+      "label": "HISTORICAL             ADJUSTMENTS            PRO FORMA 合计",
+      "full": "HISTORICAL             ADJUSTMENTS            PRO FORMA 合计",
+      "vals": [
+       17.0,
+       -2.0
+      ]
+     },
+     {
+      "label": "HISTORICAL             ADJUSTMENTS            PRO FORMA 合计",
+      "full": "HISTORICAL             ADJUSTMENTS            PRO FORMA 合计",
+      "vals": [
+       -5.0,
+       -3.0
+      ]
+     },
+     {
+      "label": "Gain on sale of KCAL",
+      "full": "Gain on sale of KCAL",
+      "vals": [
+       135.0,
+       -135.0,
+       -2.0
+      ]
+     },
+     {
+      "label": "Operating income",
+      "full": "Operating income",
+      "vals": [
+       4447.0,
+       -333.0,
+       4114.0
+      ]
+     },
+     {
+      "label": "Corporate activities and other",
+      "full": "Corporate activities and other",
+      "vals": [
+       -367.0,
+       -367.0
+      ]
+     },
+     {
+      "label": "Net interest expense",
+      "full": "Net interest expense",
+      "vals": [
+       -693.0,
+       -693.0
+      ]
+     },
+     {
+      "label": "Income before income taxes",
+      "full": "Income before income taxes",
+      "vals": [
+       3387.0,
+       -333.0,
+       3054.0
+      ]
+     },
+     {
+      "label": "Income taxes",
+      "full": "Income taxes",
+      "vals": [
+       -1421.0,
+       139.0,
+       -4.0,
+       -1282.0
+      ]
+     },
+     {
+      "label": "Net income",
+      "full": "Net income",
+      "vals": [
+       1966.0,
+       -194.0,
+       1772.0
+      ]
+     },
+     {
+      "label": "Earnings per share",
+      "full": "Earnings per share",
+      "vals": [
+       2.86,
+       2.58
+      ]
+     },
+     {
+      "label": "equivalent shares outstanding",
+      "full": "Average number of common and common equivalent shares outstanding",
+      "vals": [
+       687.0,
+       687.0
+      ]
+     },
+     {
+      "label": "non-recurring items/(a)/",
+      "full": "Other Data: Net income excluding non-recurring items/(a)/",
+      "vals": [
+       1886.0,
+       -114.0,
+       1772.0
+      ]
+     },
+     {
+      "label": "non-recurring items/(a)/",
+      "full": "Earnings per share excluding non-recurring items/(a)/",
+      "vals": [
+       2.75,
+       2.58
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "1997",
+     "1996",
+     "1995"
+    ],
+    "score": 0,
+    "offset": 109219,
+    "rows": [
+     {
+      "label": "Revenues",
+      "full": "Revenues",
+      "vals": [
+       22473.0,
+       18739.0,
+       12151.0
+      ]
+     },
+     {
+      "label": "Costs and expenses",
+      "full": "Costs and expenses",
+      "vals": [
+       -18161.0,
+       -15406.0,
+       -9685.0
+      ]
+     },
+     {
+      "label": "Gain on sale of KCAL",
+      "full": "Gain on sale of KCAL",
+      "vals": [
+       135.0,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Accounting change",
+      "full": "Accounting change",
+      "vals": [
+       null,
+       -300.0,
+       null
+      ]
+     },
+     {
+      "label": "Operating income",
+      "full": "Operating income",
+      "vals": [
+       4447.0,
+       3033.0,
+       2466.0
+      ]
+     },
+     {
+      "label": "Corporate activities and other",
+      "full": "Corporate activities and other",
+      "vals": [
+       -367.0,
+       -309.0,
+       -239.0
+      ]
+     },
+     {
+      "label": "Net interest expense",
+      "full": "Net interest expense",
+      "vals": [
+       -693.0,
+       -438.0,
+       -110.0
+      ]
+     },
+     {
+      "label": "Acquisition-related costs",
+      "full": "Acquisition-related costs",
+      "vals": [
+       null,
+       -225.0,
+       null
+      ]
+     },
+     {
+      "label": "Income before taxes",
+      "full": "Income before taxes",
+      "vals": [
+       3387.0,
+       2061.0,
+       2117.0
+      ]
+     },
+     {
+      "label": "Income taxes",
+      "full": "Income taxes",
+      "vals": [
+       -1421.0,
+       -847.0,
+       -737.0
+      ]
+     },
+     {
+      "label": "Net income",
+      "full": "Net income",
+      "vals": [
+       1966.0,
+       1214.0,
+       1380.0
+      ]
+     },
+     {
+      "label": "Earnings per share",
+      "full": "Earnings per share",
+      "vals": [
+       2.86,
+       1.96,
+       2.6
+      ]
+     },
+     {
+      "label": "shares outstanding",
+      "full": "Average number of common and common equivalent shares outstanding",
+      "vals": [
+       687.0,
+       619.0,
+       530.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "1997",
+     "1996",
+     "1995"
+    ],
+    "score": 0,
+    "offset": 154452,
+    "rows": [
+     {
+      "label": "year",
+      "full": "WEIGHTED        Weighted        Weighted AVERAGE         Average         Average EXERCISE        Exercise        Exercise SHARES  PRICE   Shares  Price   Shares  Price Outstanding at beginning of year",
+      "vals": [
+       63.0,
+       47.51,
+       35.0,
+       33.6,
+       39.0,
+       27.73
+      ]
+     },
+     {
+      "label": "Awards canceled",
+      "full": "Awards canceled",
+      "vals": [
+       -6.0,
+       57.95,
+       -2.0,
+       51.29,
+       -4.0,
+       35.99
+      ]
+     },
+     {
+      "label": "Awards granted",
+      "full": "Awards granted",
+      "vals": [
+       9.0,
+       76.93,
+       32.0,
+       58.9,
+       8.0,
+       49.42
+      ]
+     },
+     {
+      "label": "Awards exercised",
+      "full": "Awards exercised",
+      "vals": [
+       -5.0,
+       33.41,
+       -3.0,
+       31.59,
+       -8.0,
+       22.02
+      ]
+     },
+     {
+      "label": "Awards transferred (ABC)",
+      "full": "Awards transferred (ABC)",
+      "vals": [
+       null,
+       1.0,
+       33.15,
+       null
+      ]
+     },
+     {
+      "label": "Outstanding at September 30",
+      "full": "Outstanding at September 30",
+      "vals": [
+       61.0,
+       52.32,
+       63.0,
+       47.51,
+       35.0,
+       33.6
+      ]
+     },
+     {
+      "label": "Exercisable at September 30",
+      "full": "Exercisable at September 30",
+      "vals": [
+       21.0,
+       35.31,
+       17.0,
+       28.21,
+       15.0,
+       24.58
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "1996",
+     "1995"
+    ],
+    "score": 0,
+    "offset": 138084,
+    "rows": [
+     {
+      "label": "Revenues",
+      "full": "Revenues",
+      "vals": [
+       21238.0,
+       18949.0
+      ]
+     },
+     {
+      "label": "Net income (a)",
+      "full": "Net income (a)",
+      "vals": [
+       1331.0,
+       1307.0
+      ]
+     },
+     {
+      "label": "Earnings per share (a)",
+      "full": "Earnings per share (a)",
+      "vals": [
+       1.93,
+       1.91
+      ]
+     }
+    ]
+   }
+  ],
+  "CF": [
+   {
+    "periods": [
+     "1997",
+     "1996",
+     "1995"
+    ],
+    "score": 3,
+    "offset": 117793,
+    "rows": [
+     {
+      "label": "NET INCOME",
+      "full": "NET INCOME",
+      "vals": [
+       1966.0,
+       1214.0,
+       1380.0
+      ]
+     },
+     {
+      "label": "Amortization of film and television costs",
+      "full": "ITEMS NOT REQUIRING CASH OUTLAYS Amortization of film and television costs",
+      "vals": [
+       3781.0,
+       2762.0,
+       1383.0
+      ]
+     },
+     {
+      "label": "Depreciation",
+      "full": "Depreciation",
+      "vals": [
+       738.0,
+       672.0,
+       470.0
+      ]
+     },
+     {
+      "label": "Amortization of intangible assets",
+      "full": "Amortization of intangible assets",
+      "vals": [
+       439.0,
+       301.0,
+       null
+      ]
+     },
+     {
+      "label": "Gain on sale of KCAL",
+      "full": "Gain on sale of KCAL",
+      "vals": [
+       -135.0,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Accounting change",
+      "full": "Accounting change",
+      "vals": [
+       null,
+       300.0,
+       null
+      ]
+     },
+     {
+      "label": "Other",
+      "full": "Other",
+      "vals": [
+       -15.0,
+       22.0,
+       133.0
+      ]
+     },
+     {
+      "label": "Investments in trading securities",
+      "full": "CHANGES IN Investments in trading securities",
+      "vals": [
+       null,
+       85.0,
+       1.0
+      ]
+     },
+     {
+      "label": "Receivables",
+      "full": "Receivables",
+      "vals": [
+       -386.0,
+       -426.0,
+       -122.0
+      ]
+     },
+     {
+      "label": "Inventories",
+      "full": "Inventories",
+      "vals": [
+       -6.0,
+       -95.0,
+       -156.0
+      ]
+     },
+     {
+      "label": "Other assets",
+      "full": "Other assets",
+      "vals": [
+       -169.0,
+       -160.0,
+       -288.0
+      ]
+     },
+     {
+      "label": "Accounts and taxes payable and accrued liabilities",
+      "full": "Accounts and taxes payable and accrued liabilities",
+      "vals": [
+       566.0,
+       -246.0,
+       415.0
+      ]
+     },
+     {
+      "label": "Unearned royalty and other advances",
+      "full": "Unearned royalty and other advances",
+      "vals": [
+       -7.0,
+       274.0,
+       161.0
+      ]
+     },
+     {
+      "label": "Deferred income taxes",
+      "full": "Deferred income taxes",
+      "vals": [
+       292.0,
+       -78.0,
+       133.0
+      ]
+     },
+     {
+      "label": "CHANGES IN 合计",
+      "full": "CHANGES IN 合计",
+      "vals": [
+       5098.0,
+       3411.0,
+       2130.0
+      ]
+     },
+     {
+      "label": "CASH PROVIDED BY OPERATIONS",
+      "full": "CASH PROVIDED BY OPERATIONS",
+      "vals": [
+       7064.0,
+       4625.0,
+       3510.0
+      ]
+     },
+     {
+      "label": "Proceeds from disposal of KCAL",
+      "full": "INVESTING ACTIVITIES Proceeds from disposal of KCAL",
+      "vals": [
+       387.0,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Proceeds from disposal of publishing operations",
+      "full": "Proceeds from disposal of publishing operations",
+      "vals": [
+       1214.0,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Acquisition of ABC, net of cash acquired",
+      "full": "Acquisition of ABC, net of cash acquired",
+      "vals": [
+       null,
+       -8432.0,
+       null
+      ]
+     },
+     {
+      "label": "Film and television costs",
+      "full": "Film and television costs",
+      "vals": [
+       -5054.0,
+       -3678.0,
+       -1886.0
+      ]
+     },
+     {
+      "label": "property",
+      "full": "Investments in theme parks, resorts and other property",
+      "vals": [
+       -1922.0,
+       -1745.0,
+       -896.0
+      ]
+     },
+     {
+      "label": "Investment in and loan for E! Entertainment",
+      "full": "Investment in and loan for E! Entertainment",
+      "vals": [
+       -321.0,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Purchases of marketable securities",
+      "full": "Purchases of marketable securities",
+      "vals": [
+       -56.0,
+       -18.0,
+       -1033.0
+      ]
+     },
+     {
+      "label": "Proceeds from sales of marketable securities",
+      "full": "Proceeds from sales of marketable securities",
+      "vals": [
+       31.0,
+       409.0,
+       1460.0
+      ]
+     },
+     {
+      "label": "Other",
+      "full": "Other",
+      "vals": [
+       -180.0,
+       null,
+       67.0
+      ]
+     },
+     {
+      "label": "Investments in theme parks, resorts and other 合计",
+      "full": "INVESTING ACTIVITIES 合计",
+      "vals": [
+       -5901.0,
+       -13464.0,
+       -2288.0
+      ]
+     },
+     {
+      "label": "Borrowings",
+      "full": "FINANCING ACTIVITIES Borrowings",
+      "vals": [
+       2437.0,
+       13560.0,
+       786.0
+      ]
+     },
+     {
+      "label": "Proceeds from formation of REITs",
+      "full": "Proceeds from formation of REITs",
+      "vals": [
+       1312.0,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Reduction of borrowings",
+      "full": "Reduction of borrowings",
+      "vals": [
+       -4078.0,
+       -4872.0,
+       -772.0
+      ]
+     },
+     {
+      "label": "Repurchases of common stock",
+      "full": "Repurchases of common stock",
+      "vals": [
+       -633.0,
+       -462.0,
+       -349.0
+      ]
+     },
+     {
+      "label": "Dividends",
+      "full": "Dividends",
+      "vals": [
+       -342.0,
+       -271.0,
+       -180.0
+      ]
+     },
+     {
+      "label": "Exercise of stock options and other",
+      "full": "Exercise of stock options and other",
+      "vals": [
+       180.0,
+       85.0,
+       183.0
+      ]
+     },
+     {
+      "label": "FINANCING ACTIVITIES 合计",
+      "full": "FINANCING ACTIVITIES 合计",
+      "vals": [
+       -1124.0,
+       8040.0,
+       -332.0
+      ]
+     },
+     {
+      "label": "Increase (Decrease) in Cash and Cash Equivalents",
+      "full": "Increase (Decrease) in Cash and Cash Equivalents",
+      "vals": [
+       39.0,
+       -799.0,
+       890.0
+      ]
+     },
+     {
+      "label": "Cash and Cash Equivalents, Beginning of Year",
+      "full": "Cash and Cash Equivalents, Beginning of Year",
+      "vals": [
+       278.0,
+       1077.0,
+       187.0
+      ]
+     },
+     {
+      "label": "Cash and Cash Equivalents, End of Year",
+      "full": "Cash and Cash Equivalents, End of Year",
+      "vals": [
+       317.0,
+       278.0,
+       1077.0
+      ]
+     },
+     {
+      "label": "Interest paid",
+      "full": "Supplemental disclosure of cash flow information: Interest paid",
+      "vals": [
+       777.0,
+       379.0,
+       123.0
+      ]
+     },
+     {
+      "label": "Income taxes paid",
+      "full": "Income taxes paid",
+      "vals": [
+       958.0,
+       689.0,
+       557.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "1997",
+     "1996",
+     "1995",
+     "1994",
+     "1993"
+    ],
+    "score": 3,
+    "offset": 57746,
+    "rows": [
+     {
+      "label": "Revenues",
+      "full": "Statements of income Revenues",
+      "vals": [
+       22473.0,
+       18739.0,
+       12151.0,
+       10090.0,
+       8531.0
+      ]
+     },
+     {
+      "label": "Operating income",
+      "full": "Operating income",
+      "vals": [
+       4447.0,
+       3033.0,
+       2466.0,
+       1972.0,
+       1722.0
+      ]
+     },
+     {
+      "label": "effect of accounting changes",
+      "full": "Income before cumulative effect of accounting changes",
+      "vals": [
+       1966.0,
+       1214.0,
+       1380.0,
+       1110.0,
+       671.0
+      ]
+     },
+     {
+      "label": "accounting changes",
+      "full": "Cumulative effect of accounting changes",
+      "vals": [
+       null,
+       null,
+       null,
+       null,
+       -371.0
+      ]
+     },
+     {
+      "label": "Net income",
+      "full": "Net income",
+      "vals": [
+       1966.0,
+       1214.0,
+       1380.0,
+       1110.0,
+       300.0
+      ]
+     },
+     {
+      "label": "effect of accounting changes $",
+      "full": "Per share Earnings before cumulative effect of accounting changes $",
+      "vals": [
+       2.86,
+       1.96,
+       2.6,
+       2.04,
+       1.23
+      ]
+     },
+     {
+      "label": "accounting changes",
+      "full": "Cumulative effect of accounting changes",
+      "vals": [
+       null,
+       null,
+       null,
+       null,
+       68.0
+      ]
+     },
+     {
+      "label": "Earnings",
+      "full": "Earnings",
+      "vals": [
+       2.86,
+       1.96,
+       2.6,
+       2.04,
+       55.0
+      ]
+     },
+     {
+      "label": "Total assets",
+      "full": "Balance sheets Total assets",
+      "vals": [
+       37776.0,
+       36626.0,
+       14606.0,
+       12826.0,
+       11751.0
+      ]
+     },
+     {
+      "label": "Borrowings",
+      "full": "Borrowings",
+      "vals": [
+       11068.0,
+       12342.0,
+       2984.0,
+       2937.0,
+       2386.0
+      ]
+     },
+     {
+      "label": "Stockholders' equity",
+      "full": "Stockholders' equity",
+      "vals": [
+       17285.0,
+       16086.0,
+       6651.0,
+       5508.0,
+       5031.0
+      ]
+     },
+     {
+      "label": "Cash provided by operations",
+      "full": "Statements of cash flows Cash provided by operations",
+      "vals": [
+       7064.0,
+       4625.0,
+       3510.0,
+       2808.0,
+       2145.0
+      ]
+     },
+     {
+      "label": "Investing activities",
+      "full": "Investing activities",
+      "vals": [
+       -5901.0,
+       -13464.0,
+       -2288.0,
+       -2887.0,
+       -2660.0
+      ]
+     },
+     {
+      "label": "Financing activities",
+      "full": "Financing activities",
+      "vals": [
+       -1124.0,
+       8040.0,
+       -332.0,
+       -97.0,
+       113.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "1997",
+     "1996",
+     "1995"
+    ],
+    "score": 0,
+    "offset": 109299,
+    "rows": [
+     {
+      "label": "Revenues",
+      "full": "Revenues",
+      "vals": [
+       22473.0,
+       18739.0,
+       12151.0
+      ]
+     },
+     {
+      "label": "Costs and expenses",
+      "full": "Costs and expenses",
+      "vals": [
+       -18161.0,
+       -15406.0,
+       -9685.0
+      ]
+     },
+     {
+      "label": "Gain on sale of KCAL",
+      "full": "Gain on sale of KCAL",
+      "vals": [
+       135.0,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Accounting change",
+      "full": "Accounting change",
+      "vals": [
+       null,
+       -300.0,
+       null
+      ]
+     },
+     {
+      "label": "Operating income",
+      "full": "Operating income",
+      "vals": [
+       4447.0,
+       3033.0,
+       2466.0
+      ]
+     },
+     {
+      "label": "Corporate activities and other",
+      "full": "Corporate activities and other",
+      "vals": [
+       -367.0,
+       -309.0,
+       -239.0
+      ]
+     },
+     {
+      "label": "Net interest expense",
+      "full": "Net interest expense",
+      "vals": [
+       -693.0,
+       -438.0,
+       -110.0
+      ]
+     },
+     {
+      "label": "Acquisition-related costs",
+      "full": "Acquisition-related costs",
+      "vals": [
+       null,
+       -225.0,
+       null
+      ]
+     },
+     {
+      "label": "Income before taxes",
+      "full": "Income before taxes",
+      "vals": [
+       3387.0,
+       2061.0,
+       2117.0
+      ]
+     },
+     {
+      "label": "Income taxes",
+      "full": "Income taxes",
+      "vals": [
+       -1421.0,
+       -847.0,
+       -737.0
+      ]
+     },
+     {
+      "label": "Net income",
+      "full": "Net income",
+      "vals": [
+       1966.0,
+       1214.0,
+       1380.0
+      ]
+     },
+     {
+      "label": "Earnings per share",
+      "full": "Earnings per share",
+      "vals": [
+       2.86,
+       1.96,
+       2.6
+      ]
+     },
+     {
+      "label": "shares outstanding",
+      "full": "Average number of common and common equivalent shares outstanding",
+      "vals": [
+       687.0,
+       619.0,
+       530.0
+      ]
+     }
+    ]
+   }
+  ],
+  "SEG": [
+   {
+    "periods": [
+     "1997",
+     "1996",
+     "1995"
+    ],
+    "score": 5,
+    "offset": 166665,
+    "rows": [
+     {
+      "label": "Creative Content",
+      "full": "Revenues Creative Content",
+      "vals": [
+       10937.0,
+       10159.0,
+       7736.0
+      ]
+     },
+     {
+      "label": "Broadcasting",
+      "full": "Broadcasting",
+      "vals": [
+       6522.0,
+       4078.0,
+       414.0
+      ]
+     },
+     {
+      "label": "Theme Parks and Resorts",
+      "full": "Theme Parks and Resorts",
+      "vals": [
+       5014.0,
+       4502.0,
+       4001.0
+      ]
+     },
+     {
+      "label": "Revenues 合计",
+      "full": "Revenues 合计",
+      "vals": [
+       22473.0,
+       18739.0,
+       12151.0
+      ]
+     },
+     {
+      "label": "Creative Content",
+      "full": "Operating income Creative Content",
+      "vals": [
+       1882.0,
+       1561.0,
+       1531.0
+      ]
+     },
+     {
+      "label": "Broadcasting",
+      "full": "Broadcasting",
+      "vals": [
+       1294.0,
+       782.0,
+       76.0
+      ]
+     },
+     {
+      "label": "Theme Parks and Resorts",
+      "full": "Theme Parks and Resorts",
+      "vals": [
+       1136.0,
+       990.0,
+       859.0
+      ]
+     },
+     {
+      "label": "KCAL gain",
+      "full": "KCAL gain",
+      "vals": [
+       135.0,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Accounting change",
+      "full": "Accounting change",
+      "vals": [
+       null,
+       -300.0,
+       null
+      ]
+     },
+     {
+      "label": "Operating income 合计",
+      "full": "Operating income 合计",
+      "vals": [
+       4447.0,
+       3033.0,
+       2466.0
+      ]
+     },
+     {
+      "label": "Creative Content",
+      "full": "Capital expenditures Creative Content",
+      "vals": [
+       301.0,
+       359.0,
+       232.0
+      ]
+     },
+     {
+      "label": "Broadcasting",
+      "full": "Broadcasting",
+      "vals": [
+       152.0,
+       113.0,
+       8.0
+      ]
+     },
+     {
+      "label": "Theme Parks and Resorts",
+      "full": "Theme Parks and Resorts",
+      "vals": [
+       1266.0,
+       1196.0,
+       635.0
+      ]
+     },
+     {
+      "label": "Corporate",
+      "full": "Corporate",
+      "vals": [
+       203.0,
+       77.0,
+       21.0
+      ]
+     },
+     {
+      "label": "Capital expenditures 合计",
+      "full": "Capital expenditures 合计",
+      "vals": [
+       1922.0,
+       1745.0,
+       896.0
+      ]
+     },
+     {
+      "label": "Creative Content",
+      "full": "Depreciation expense Creative Content",
+      "vals": [
+       187.0,
+       163.0,
+       107.0
+      ]
+     },
+     {
+      "label": "Broadcasting",
+      "full": "Broadcasting",
+      "vals": [
+       104.0,
+       104.0,
+       8.0
+      ]
+     },
+     {
+      "label": "Theme Parks and Resorts",
+      "full": "Theme Parks and Resorts",
+      "vals": [
+       408.0,
+       358.0,
+       335.0
+      ]
+     },
+     {
+      "label": "Corporate",
+      "full": "Corporate",
+      "vals": [
+       39.0,
+       47.0,
+       20.0
+      ]
+     },
+     {
+      "label": "Depreciation expense 合计",
+      "full": "Depreciation expense 合计",
+      "vals": [
+       738.0,
+       672.0,
+       470.0
+      ]
+     },
+     {
+      "label": "Creative Content",
+      "full": "Identifiable assets Creative Content",
+      "vals": [
+       8832.0,
+       8837.0,
+       5232.0
+      ]
+     },
+     {
+      "label": "Broadcasting",
+      "full": "Broadcasting",
+      "vals": [
+       19036.0,
+       19576.0,
+       564.0
+      ]
+     },
+     {
+      "label": "Theme Parks and Resorts",
+      "full": "Theme Parks and Resorts",
+      "vals": [
+       8051.0,
+       7066.0,
+       6149.0
+      ]
+     },
+     {
+      "label": "Corporate",
+      "full": "Corporate",
+      "vals": [
+       1857.0,
+       1147.0,
+       2661.0
+      ]
+     },
+     {
+      "label": "Identifiable assets 合计",
+      "full": "Identifiable assets 合计",
+      "vals": [
+       37776.0,
+       36626.0,
+       14606.0
+      ]
+     },
+     {
+      "label": "Theatrical product",
+      "full": "Supplemental revenues data Creative Content Theatrical product",
+      "vals": [
+       5540.0,
+       5306.0,
+       4453.0
+      ]
+     },
+     {
+      "label": "Consumer products",
+      "full": "Consumer products",
+      "vals": [
+       2992.0,
+       2597.0,
+       2120.0
+      ]
+     },
+     {
+      "label": "Advertising",
+      "full": "Broadcasting Advertising",
+      "vals": [
+       4937.0,
+       3092.0,
+       98.0
+      ]
+     },
+     {
+      "label": "Merchandise, food and beverage",
+      "full": "Theme Parks and Resorts Merchandise, food and beverage",
+      "vals": [
+       1754.0,
+       1555.0,
+       1424.0
+      ]
+     },
+     {
+      "label": "Admissions",
+      "full": "Admissions",
+      "vals": [
+       1603.0,
+       1493.0,
+       1346.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "1997",
+     "1996",
+     "1995",
+     "1996",
+     "1995"
+    ],
+    "score": 4,
+    "offset": 62683,
+    "rows": [
+     {
+      "label": "Creative Content",
+      "full": "PRO FORMA AS REPORTED            (unaudited) Revenues: Creative Content",
+      "vals": [
+       10937.0,
+       10159.0,
+       7736.0,
+       10607.0,
+       9086.0
+      ]
+     },
+     {
+      "label": "Broadcasting",
+      "full": "Broadcasting",
+      "vals": [
+       6522.0,
+       4078.0,
+       414.0,
+       6129.0,
+       5862.0
+      ]
+     },
+     {
+      "label": "Theme Parks and Resorts",
+      "full": "Theme Parks and Resorts",
+      "vals": [
+       5014.0,
+       4502.0,
+       4001.0,
+       4502.0,
+       4001.0
+      ]
+     },
+     {
+      "label": "Total",
+      "full": "Total",
+      "vals": [
+       22473.0,
+       18739.0,
+       12151.0,
+       21238.0,
+       18949.0
+      ]
+     },
+     {
+      "label": "Creative Content",
+      "full": "Creative Content",
+      "vals": [
+       1882.0,
+       1561.0,
+       1531.0,
+       1555.0,
+       1565.0
+      ]
+     },
+     {
+      "label": "Broadcasting",
+      "full": "Broadcasting",
+      "vals": [
+       1294.0,
+       782.0,
+       76.0,
+       1100.0,
+       982.0
+      ]
+     },
+     {
+      "label": "Theme Parks and Resorts",
+      "full": "Theme Parks and Resorts",
+      "vals": [
+       1136.0,
+       990.0,
+       859.0,
+       990.0,
+       859.0
+      ]
+     },
+     {
+      "label": "Gain on sale of KCAL",
+      "full": "Gain on sale of KCAL",
+      "vals": [
+       135.0,
+       null,
+       null,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Accounting change",
+      "full": "Accounting change",
+      "vals": [
+       null,
+       -300.0,
+       null,
+       -300.0,
+       null
+      ]
+     },
+     {
+      "label": "Total",
+      "full": "Total",
+      "vals": [
+       4447.0,
+       3033.0,
+       2466.0,
+       3345.0,
+       3406.0
+      ]
+     },
+     {
+      "label": "Corporate activities and other",
+      "full": "Corporate activities and other",
+      "vals": [
+       -367.0,
+       -309.0,
+       -239.0,
+       -249.0,
+       -255.0
+      ]
+     },
+     {
+      "label": "Net interest expense",
+      "full": "Net interest expense",
+      "vals": [
+       -693.0,
+       -438.0,
+       -110.0,
+       -698.0,
+       -775.0
+      ]
+     },
+     {
+      "label": "Acquisition-related costs",
+      "full": "Acquisition-related costs",
+      "vals": [
+       null,
+       -225.0,
+       null,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Income before income taxes",
+      "full": "Income before income taxes",
+      "vals": [
+       3387.0,
+       2061.0,
+       2117.0,
+       2398.0,
+       2376.0
+      ]
+     },
+     {
+      "label": "Income taxes",
+      "full": "Income taxes",
+      "vals": [
+       -1421.0,
+       -847.0,
+       -737.0,
+       -1067.0,
+       -1069.0
+      ]
+     },
+     {
+      "label": "Net income",
+      "full": "Net income",
+      "vals": [
+       1966.0,
+       1214.0,
+       1380.0,
+       1331.0,
+       1307.0
+      ]
+     },
+     {
+      "label": "Earnings per share",
+      "full": "Earnings per share",
+      "vals": [
+       2.86,
+       1.96,
+       2.6,
+       1.93,
+       1.91
+      ]
+     },
+     {
+      "label": "recurring items (2)",
+      "full": "Net income excluding non- recurring items (2)",
+      "vals": [
+       1886.0,
+       1534.0,
+       1380.0,
+       1514.0,
+       1307.0
+      ]
+     },
+     {
+      "label": "non-recurring items (2)",
+      "full": "Earnings per share excluding non-recurring items (2)",
+      "vals": [
+       2.75,
+       2.48,
+       2.6,
+       2.2,
+       1.91
+      ]
+     },
+     {
+      "label": "income",
+      "full": "Amortization of intangible assets included in operating income",
+      "vals": [
+       439.0,
+       301.0,
+       null,
+       476.0,
+       476.0
+      ]
+     },
+     {
+      "label": "outstanding",
+      "full": "Average number of common and common equivalent shares outstanding",
+      "vals": [
+       687.0,
+       619.0,
+       530.0,
+       689.0,
+       685.0
+      ]
+     },
+     {
+      "label": "Creative Content",
+      "full": "Creative Content",
+      "vals": [
+       222.0,
+       186.0,
+       107.0,
+       230.0,
+       199.0
+      ]
+     },
+     {
+      "label": "Broadcasting",
+      "full": "Broadcasting",
+      "vals": [
+       508.0,
+       382.0,
+       8.0,
+       521.0,
+       510.0
+      ]
+     },
+     {
+      "label": "Theme Parks and Resorts",
+      "full": "Theme Parks and Resorts",
+      "vals": [
+       408.0,
+       358.0,
+       335.0,
+       358.0,
+       335.0
+      ]
+     },
+     {
+      "label": "common equivalent shares 合计",
+      "full": "Average number of common and 合计",
+      "vals": [
+       1138.0,
+       926.0,
+       450.0,
+       1109.0,
+       1044.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [],
+    "score": 4,
+    "offset": 536785,
+    "rows": [
+     {
+      "label": "Creative Content",
+      "full": "- --------------------------------------------------------------------------------------------          Fiscal Revenues Creative Content",
+      "vals": [
+       2812.0,
+       2287.0,
+       2034.0,
+       2431.0,
+       9564.0
+      ]
+     },
+     {
+      "label": "Broadcasting",
+      "full": "Broadcasting",
+      "vals": [
+       1790.0,
+       1369.0,
+       1499.0,
+       1351.0,
+       6009.0
+      ]
+     },
+     {
+      "label": "Theme Parks and Resorts",
+      "full": "Theme Parks and Resorts",
+      "vals": [
+       994.0,
+       1055.0,
+       1249.0,
+       1204.0,
+       4502.0
+      ]
+     },
+     {
+      "label": "Revenues 合计",
+      "full": "Revenues 合计",
+      "vals": [
+       5596.0,
+       4711.0,
+       4782.0,
+       4986.0,
+       20075.0
+      ]
+     },
+     {
+      "label": "Creative Content",
+      "full": "Operating Income Creative Content",
+      "vals": [
+       618.0,
+       233.0,
+       249.0,
+       335.0,
+       1435.0
+      ]
+     },
+     {
+      "label": "Broadcasting",
+      "full": "Broadcasting",
+      "vals": [
+       341.0,
+       198.0,
+       309.0,
+       236.0,
+       1084.0
+      ]
+     },
+     {
+      "label": "Theme Parks and Resorts",
+      "full": "Theme Parks and Resorts",
+      "vals": [
+       196.0,
+       202.0,
+       350.0,
+       242.0,
+       990.0
+      ]
+     },
+     {
+      "label": "Operating Income 合计",
+      "full": "Operating Income 合计",
+      "vals": [
+       1155.0,
+       633.0,
+       908.0,
+       813.0,
+       3509.0
+      ]
+     },
+     {
+      "label": "Accounting change (1)",
+      "full": "Accounting change (1)",
+      "vals": [
+       0.0,
+       -300.0,
+       0.0,
+       0.0,
+       -300.0
+      ]
+     },
+     {
+      "label": "Operating Income 合计",
+      "full": "Operating Income 合计",
+      "vals": [
+       1155.0,
+       333.0,
+       908.0,
+       813.0,
+       3209.0
+      ]
+     },
+     {
+      "label": "Corporate activities and other",
+      "full": "Corporate activities and other",
+      "vals": [
+       -24.0,
+       -98.0,
+       -66.0,
+       -61.0,
+       -249.0
+      ]
+     },
+     {
+      "label": "Net interest expense",
+      "full": "Net interest expense",
+      "vals": [
+       -167.0,
+       -189.0,
+       -171.0,
+       -171.0,
+       -698.0
+      ]
+     },
+     {
+      "label": "Income before income taxes",
+      "full": "Income before income taxes",
+      "vals": [
+       964.0,
+       46.0,
+       671.0,
+       581.0,
+       2262.0
+      ]
+     },
+     {
+      "label": "Income taxes",
+      "full": "Income taxes",
+      "vals": [
+       -418.0,
+       -31.0,
+       -289.0,
+       -250.0,
+       -988.0
+      ]
+     },
+     {
+      "label": "Net income",
+      "full": "Net income",
+      "vals": [
+       546.0,
+       15.0,
+       382.0,
+       331.0,
+       1274.0
+      ]
+     },
+     {
+      "label": "Earnings per share",
+      "full": "Earnings per share",
+      "vals": [
+       0.79,
+       0.04,
+       0.55,
+       0.48,
+       1.85
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [],
+    "score": 4,
+    "offset": 533643,
+    "rows": [
+     {
+      "label": "Creative Content",
+      "full": "- --------------------------------------------------------------------------------------------         Fiscal Revenues Creative Content",
+      "vals": [
+       2962.0,
+       2487.0,
+       2004.0,
+       2645.0,
+       10098.0
+      ]
+     },
+     {
+      "label": "Broadcasting",
+      "full": "Broadcasting",
+      "vals": [
+       1872.0,
+       1528.0,
+       1609.0,
+       1492.0,
+       6501.0
+      ]
+     },
+     {
+      "label": "Theme Parks and Resorts",
+      "full": "Theme Parks and Resorts",
+      "vals": [
+       1150.0,
+       1203.0,
+       1369.0,
+       1292.0,
+       5014.0
+      ]
+     },
+     {
+      "label": "Revenues 合计",
+      "full": "Revenues 合计",
+      "vals": [
+       5984.0,
+       5218.0,
+       4982.0,
+       5429.0,
+       21613.0
+      ]
+     },
+     {
+      "label": "Creative Content",
+      "full": "Operating income Creative Content",
+      "vals": [
+       668.0,
+       354.0,
+       257.0,
+       414.0,
+       1693.0
+      ]
+     },
+     {
+      "label": "Broadcasting",
+      "full": "Broadcasting",
+      "vals": [
+       469.0,
+       238.0,
+       337.0,
+       241.0,
+       1285.0
+      ]
+     },
+     {
+      "label": "Theme Parks and Resorts",
+      "full": "Theme Parks and Resorts",
+      "vals": [
+       238.0,
+       236.0,
+       390.0,
+       272.0,
+       1136.0
+      ]
+     },
+     {
+      "label": "Operating income 合计",
+      "full": "Operating income 合计",
+      "vals": [
+       1375.0,
+       828.0,
+       984.0,
+       927.0,
+       4114.0
+      ]
+     },
+     {
+      "label": "Corporate activities and other",
+      "full": "Corporate activities and other",
+      "vals": [
+       -90.0,
+       -108.0,
+       -69.0,
+       -100.0,
+       -367.0
+      ]
+     },
+     {
+      "label": "Net interest expense",
+      "full": "Net interest expense",
+      "vals": [
+       -171.0,
+       -184.0,
+       -185.0,
+       -153.0,
+       -693.0
+      ]
+     },
+     {
+      "label": "Income before income taxes",
+      "full": "Income before income taxes",
+      "vals": [
+       1114.0,
+       536.0,
+       730.0,
+       674.0,
+       3054.0
+      ]
+     },
+     {
+      "label": "Income taxes",
+      "full": "Income taxes",
+      "vals": [
+       -473.0,
+       -220.0,
+       -305.0,
+       -284.0,
+       -1282.0
+      ]
+     },
+     {
+      "label": "Net income",
+      "full": "Net income",
+      "vals": [
+       641.0,
+       316.0,
+       425.0,
+       390.0,
+       1772.0
+      ]
+     },
+     {
+      "label": "Earnings per share",
+      "full": "Earnings per share",
+      "vals": [
+       0.93,
+       0.46,
+       0.62,
+       0.57,
+       2.58
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [],
+    "score": 0,
+    "offset": 396196,
+    "rows": [
+     {
+      "label": "SECTION 1  PURPOSES AND AUTHORIZED SHARES",
+      "full": "Page SECTION 1  PURPOSES AND AUTHORIZED SHARES",
+      "vals": [
+       1.0
+      ]
+     },
+     {
+      "label": "SECTION 2  DEFINITIONS",
+      "full": "SECTION 2  DEFINITIONS",
+      "vals": [
+       1.0
+      ]
+     },
+     {
+      "label": "SECTION 3  PARTICIPATION",
+      "full": "SECTION 3  PARTICIPATION",
+      "vals": [
+       3.0
+      ]
+     },
+     {
+      "label": "SECTION 4  SHARE OR DEFERRAL ELECTIONS",
+      "full": "SECTION 4  SHARE OR DEFERRAL ELECTIONS",
+      "vals": [
+       3.0
+      ]
+     },
+     {
+      "label": "Page 合计",
+      "full": "Page 合计",
+      "vals": [
+       4.1,
+       3.0
+      ]
+     },
+     {
+      "label": "Page 合计",
+      "full": "Page 合计",
+      "vals": [
+       4.2,
+       4.0
+      ]
+     },
+     {
+      "label": "SECTION 5  DEFERRAL ACCOUNTS",
+      "full": "SECTION 5  DEFERRAL ACCOUNTS",
+      "vals": [
+       4.0
+      ]
+     },
+     {
+      "label": "Page 合计",
+      "full": "Page 合计",
+      "vals": [
+       5.1,
+       4.0
+      ]
+     },
+     {
+      "label": "Page 合计",
+      "full": "Page 合计",
+      "vals": [
+       5.2,
+       4.0
+      ]
+     },
+     {
+      "label": "Page 合计",
+      "full": "Page 合计",
+      "vals": [
+       5.3,
+       5.0
+      ]
+     },
+     {
+      "label": "Page 合计",
+      "full": "Page 合计",
+      "vals": [
+       5.4,
+       5.0
+      ]
+     },
+     {
+      "label": "Page 合计",
+      "full": "Page 合计",
+      "vals": [
+       5.5,
+       5.0
+      ]
+     },
+     {
+      "label": "Page 合计",
+      "full": "Page 合计",
+      "vals": [
+       5.6,
+       6.0
+      ]
+     },
+     {
+      "label": "Page 合计",
+      "full": "Page 合计",
+      "vals": [
+       5.7,
+       7.0
+      ]
+     },
+     {
+      "label": "SECTION 6  ADMINISTRATION",
+      "full": "SECTION 6  ADMINISTRATION",
+      "vals": [
+       8.0
+      ]
+     },
+     {
+      "label": "Page 合计",
+      "full": "Page 合计",
+      "vals": [
+       6.1,
+       8.0
+      ]
+     },
+     {
+      "label": "Page 合计",
+      "full": "Page 合计",
+      "vals": [
+       6.2,
+       8.0
+      ]
+     },
+     {
+      "label": "Page 合计",
+      "full": "Page 合计",
+      "vals": [
+       6.3,
+       8.0
+      ]
+     },
+     {
+      "label": "SECTION 7  PLAN CHANGES AND TERMINATION",
+      "full": "SECTION 7  PLAN CHANGES AND TERMINATION",
+      "vals": [
+       9.0
+      ]
+     },
+     {
+      "label": "Page 合计",
+      "full": "Page 合计",
+      "vals": [
+       7.1,
+       9.0
+      ]
+     },
+     {
+      "label": "Page 合计",
+      "full": "Page 合计",
+      "vals": [
+       7.2,
+       9.0
+      ]
+     },
+     {
+      "label": "SECTION 8  MISCELLANEOUS",
+      "full": "SECTION 8  MISCELLANEOUS",
+      "vals": [
+       9.0
+      ]
+     },
+     {
+      "label": "Page 合计",
+      "full": "Page 合计",
+      "vals": [
+       8.1
+      ]
+     },
+     {
+      "label": "Directors' Rights",
+      "full": "Directors' Rights",
+      "vals": [
+       9.0
+      ]
+     },
+     {
+      "label": "Page 合计",
+      "full": "Page 合计",
+      "vals": [
+       8.2,
+       10.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [],
+    "score": 0,
+    "offset": 4586,
+    "rows": [
+     {
+      "label": "WABC-TV (New York, NY)",
+      "full": "EXPIRATION   TELEVISION DATE OF FCC    MARKET WABC-TV (New York, NY)",
+      "vals": [
+       7.0,
+       1.0,
+       1999.0,
+       1.0
+      ]
+     },
+     {
+      "label": "KABC-TV (Los Angeles, CA)",
+      "full": "KABC-TV (Los Angeles, CA)",
+      "vals": [
+       7.0,
+       1.0,
+       1998.0,
+       2.0
+      ]
+     },
+     {
+      "label": "WLS-TV (Chicago, IL)",
+      "full": "WLS-TV (Chicago, IL)",
+      "vals": [
+       7.0,
+       -2.0,
+       3.0
+      ]
+     },
+     {
+      "label": "WPVI-TV (Philadelphia, PA)",
+      "full": "WPVI-TV (Philadelphia, PA)",
+      "vals": [
+       6.0,
+       1.0,
+       1999.0,
+       4.0
+      ]
+     },
+     {
+      "label": "KGO-TV (San Francisco, CA)",
+      "full": "KGO-TV (San Francisco, CA)",
+      "vals": [
+       7.0,
+       1.0,
+       1998.0,
+       5.0
+      ]
+     },
+     {
+      "label": "KTRK-TV (Houston, TX)",
+      "full": "KTRK-TV (Houston, TX)",
+      "vals": [
+       13.0,
+       1.0,
+       1998.0,
+       11.0
+      ]
+     },
+     {
+      "label": "WTVD-TV (Raleigh-Durham, NC)",
+      "full": "WTVD-TV (Raleigh-Durham, NC)",
+      "vals": [
+       11.0,
+       1.0,
+       2004.0,
+       29.0
+      ]
+     },
+     {
+      "label": "KFSN-TV (Fresno, CA)",
+      "full": "KFSN-TV (Fresno, CA)",
+      "vals": [
+       30.0,
+       1.0,
+       1998.0,
+       55.0
+      ]
+     },
+     {
+      "label": "WJRT-TV (Flint, MI)",
+      "full": "WJRT-TV (Flint, MI)",
+      "vals": [
+       12.0,
+       1.0,
+       2005.0,
+       63.0
+      ]
+     },
+     {
+      "label": "WTVG-TV (Toledo, OH)",
+      "full": "WTVG-TV (Toledo, OH)",
+      "vals": [
+       13.0,
+       1.0,
+       2005.0,
+       66.0
+      ]
+     },
+     {
+      "label": "WABC (New York, NY)",
+      "full": "RADIO STATIONS FREQUENCY    EXPIRATION      RADIO AM-KILOHERTZ  DATE OF FCC    MARKET WABC (New York, NY)",
+      "vals": [
+       770.0,
+       1.0,
+       1998.0,
+       1.0
+      ]
+     },
+     {
+      "label": "KABC (Los Angeles, CA)",
+      "full": "KABC (Los Angeles, CA)",
+      "vals": [
+       790.0,
+       -2.0,
+       2.0
+      ]
+     },
+     {
+      "label": "KTZN (Los Angeles, CA)",
+      "full": "KTZN (Los Angeles, CA)",
+      "vals": [
+       710.0,
+       -2.0,
+       2.0
+      ]
+     },
+     {
+      "label": "WLS (Chicago, IL)",
+      "full": "WLS (Chicago, IL)",
+      "vals": [
+       890.0,
+       1.0,
+       2004.0,
+       3.0
+      ]
+     },
+     {
+      "label": "KGO (San Francisco, CA)",
+      "full": "KGO (San Francisco, CA)",
+      "vals": [
+       810.0,
+       -2.0,
+       4.0
+      ]
+     },
+     {
+      "label": "KSFO (San Francisco, CA)",
+      "full": "KSFO (San Francisco, CA)",
+      "vals": [
+       560.0,
+       -2.0,
+       4.0
+      ]
+     },
+     {
+      "label": "WJR (Detroit-MI)",
+      "full": "WJR (Detroit-MI)",
+      "vals": [
+       760.0,
+       1.0,
+       2004.0,
+       6.0
+      ]
+     },
+     {
+      "label": "WBAP (Dallas-Fort Worth, TX)",
+      "full": "WBAP (Dallas-Fort Worth, TX)",
+      "vals": [
+       820.0,
+       1.0,
+       2005.0,
+       7.0
+      ]
+     },
+     {
+      "label": "WMAL (Washington, DC)",
+      "full": "WMAL (Washington, DC)",
+      "vals": [
+       630.0,
+       1.0,
+       2003.0,
+       8.0
+      ]
+     },
+     {
+      "label": "WDWD (Atlanta, GA)",
+      "full": "WDWD (Atlanta, GA)",
+      "vals": [
+       590.0,
+       1.0,
+       2004.0,
+       12.0
+      ]
+     },
+     {
+      "label": "KDIZ (Minneapolis-St.Paul, MN)",
+      "full": "KDIZ (Minneapolis-St.Paul, MN)",
+      "vals": [
+       1440.0,
+       1.0,
+       2005.0,
+       16.0
+      ]
+     },
+     {
+      "label": "WPLJ (FM) (New York, NY)",
+      "full": "WPLJ (FM) (New York, NY)",
+      "vals": [
+       95.5,
+       1.0,
+       1998.0,
+       1.0
+      ]
+     },
+     {
+      "label": "KLOS (FM) (Los Angeles, CA)",
+      "full": "KLOS (FM) (Los Angeles, CA)",
+      "vals": [
+       95.5,
+       -2.0,
+       2.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [],
+    "score": 0,
+    "offset": 524991,
+    "rows": [
+     {
+      "label": "Revenues",
+      "full": "PRO FORMA HISTORICAL             ADJUSTMENTS            PRO FORMA Revenues",
+      "vals": [
+       22473.0,
+       -839.0,
+       -1.0,
+       21613.0
+      ]
+     },
+     {
+      "label": "HISTORICAL             ADJUSTMENTS            PRO FORMA 合计",
+      "full": "HISTORICAL             ADJUSTMENTS            PRO FORMA 合计",
+      "vals": [
+       -21.0,
+       -2.0
+      ]
+     },
+     {
+      "label": "Costs and expenses",
+      "full": "Costs and expenses",
+      "vals": [
+       -18161.0,
+       650.0,
+       -1.0,
+       -17499.0
+      ]
+     },
+     {
+      "label": "HISTORICAL             ADJUSTMENTS            PRO FORMA 合计",
+      "full": "HISTORICAL             ADJUSTMENTS            PRO FORMA 合计",
+      "vals": [
+       17.0,
+       -2.0
+      ]
+     },
+     {
+      "label": "HISTORICAL             ADJUSTMENTS            PRO FORMA 合计",
+      "full": "HISTORICAL             ADJUSTMENTS            PRO FORMA 合计",
+      "vals": [
+       -5.0,
+       -3.0
+      ]
+     },
+     {
+      "label": "Gain on sale of KCAL",
+      "full": "Gain on sale of KCAL",
+      "vals": [
+       135.0,
+       -135.0,
+       -2.0
+      ]
+     },
+     {
+      "label": "Operating income",
+      "full": "Operating income",
+      "vals": [
+       4447.0,
+       -333.0,
+       4114.0
+      ]
+     },
+     {
+      "label": "Corporate activities and other",
+      "full": "Corporate activities and other",
+      "vals": [
+       -367.0,
+       -367.0
+      ]
+     },
+     {
+      "label": "Net interest expense",
+      "full": "Net interest expense",
+      "vals": [
+       -693.0,
+       -693.0
+      ]
+     },
+     {
+      "label": "Income before income taxes",
+      "full": "Income before income taxes",
+      "vals": [
+       3387.0,
+       -333.0,
+       3054.0
+      ]
+     },
+     {
+      "label": "Income taxes",
+      "full": "Income taxes",
+      "vals": [
+       -1421.0,
+       139.0,
+       -4.0,
+       -1282.0
+      ]
+     },
+     {
+      "label": "Net income",
+      "full": "Net income",
+      "vals": [
+       1966.0,
+       -194.0,
+       1772.0
+      ]
+     },
+     {
+      "label": "Earnings per share",
+      "full": "Earnings per share",
+      "vals": [
+       2.86,
+       2.58
+      ]
+     },
+     {
+      "label": "equivalent shares outstanding",
+      "full": "Average number of common and common equivalent shares outstanding",
+      "vals": [
+       687.0,
+       687.0
+      ]
+     },
+     {
+      "label": "non-recurring items/(a)/",
+      "full": "Other Data: Net income excluding non-recurring items/(a)/",
+      "vals": [
+       1886.0,
+       -114.0,
+       1772.0
+      ]
+     },
+     {
+      "label": "non-recurring items/(a)/",
+      "full": "Earnings per share excluding non-recurring items/(a)/",
+      "vals": [
+       2.75,
+       2.58
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "1997",
+     "1996",
+     "1995"
+    ],
+    "score": 0,
+    "offset": 166683,
+    "rows": [
+     {
+      "label": "United States",
+      "full": "Revenues United States",
+      "vals": [
+       17868.0,
+       14422.0,
+       8876.0
+      ]
+     },
+     {
+      "label": "United States export",
+      "full": "United States export",
+      "vals": [
+       874.0,
+       746.0,
+       608.0
+      ]
+     },
+     {
+      "label": "Europe",
+      "full": "Europe",
+      "vals": [
+       2073.0,
+       2086.0,
+       1677.0
+      ]
+     },
+     {
+      "label": "Rest of world",
+      "full": "Rest of world",
+      "vals": [
+       1658.0,
+       1485.0,
+       990.0
+      ]
+     },
+     {
+      "label": "Revenues 合计",
+      "full": "Revenues 合计",
+      "vals": [
+       22473.0,
+       18739.0,
+       12151.0
+      ]
+     },
+     {
+      "label": "United States",
+      "full": "Operating income United States",
+      "vals": [
+       3712.0,
+       2229.0,
+       1665.0
+      ]
+     },
+     {
+      "label": "Europe",
+      "full": "Europe",
+      "vals": [
+       499.0,
+       633.0,
+       486.0
+      ]
+     },
+     {
+      "label": "Rest of world",
+      "full": "Rest of world",
+      "vals": [
+       397.0,
+       382.0,
+       402.0
+      ]
+     },
+     {
+      "label": "Unallocated expenses",
+      "full": "Unallocated expenses",
+      "vals": [
+       -161.0,
+       -211.0,
+       -87.0
+      ]
+     },
+     {
+      "label": "Operating income 合计",
+      "full": "Operating income 合计",
+      "vals": [
+       4447.0,
+       3033.0,
+       2466.0
+      ]
+     },
+     {
+      "label": "United States",
+      "full": "Identifiable assets United States",
+      "vals": [
+       35985.0,
+       34762.0,
+       13438.0
+      ]
+     },
+     {
+      "label": "Europe",
+      "full": "Europe",
+      "vals": [
+       1275.0,
+       1495.0,
+       1060.0
+      ]
+     },
+     {
+      "label": "Rest of world",
+      "full": "Rest of world",
+      "vals": [
+       516.0,
+       369.0,
+       108.0
+      ]
+     },
+     {
+      "label": "Identifiable assets 合计",
+      "full": "Identifiable assets 合计",
+      "vals": [
+       37776.0,
+       36626.0,
+       14606.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "1997",
+     "1996",
+     "1995"
+    ],
+    "score": 0,
+    "offset": 109069,
+    "rows": [
+     {
+      "label": "Revenues",
+      "full": "Revenues",
+      "vals": [
+       22473.0,
+       18739.0,
+       12151.0
+      ]
+     },
+     {
+      "label": "Costs and expenses",
+      "full": "Costs and expenses",
+      "vals": [
+       -18161.0,
+       -15406.0,
+       -9685.0
+      ]
+     },
+     {
+      "label": "Gain on sale of KCAL",
+      "full": "Gain on sale of KCAL",
+      "vals": [
+       135.0,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Accounting change",
+      "full": "Accounting change",
+      "vals": [
+       null,
+       -300.0,
+       null
+      ]
+     },
+     {
+      "label": "Operating income",
+      "full": "Operating income",
+      "vals": [
+       4447.0,
+       3033.0,
+       2466.0
+      ]
+     },
+     {
+      "label": "Corporate activities and other",
+      "full": "Corporate activities and other",
+      "vals": [
+       -367.0,
+       -309.0,
+       -239.0
+      ]
+     },
+     {
+      "label": "Net interest expense",
+      "full": "Net interest expense",
+      "vals": [
+       -693.0,
+       -438.0,
+       -110.0
+      ]
+     },
+     {
+      "label": "Acquisition-related costs",
+      "full": "Acquisition-related costs",
+      "vals": [
+       null,
+       -225.0,
+       null
+      ]
+     },
+     {
+      "label": "Income before taxes",
+      "full": "Income before taxes",
+      "vals": [
+       3387.0,
+       2061.0,
+       2117.0
+      ]
+     },
+     {
+      "label": "Income taxes",
+      "full": "Income taxes",
+      "vals": [
+       -1421.0,
+       -847.0,
+       -737.0
+      ]
+     },
+     {
+      "label": "Net income",
+      "full": "Net income",
+      "vals": [
+       1966.0,
+       1214.0,
+       1380.0
+      ]
+     },
+     {
+      "label": "Earnings per share",
+      "full": "Earnings per share",
+      "vals": [
+       2.86,
+       1.96,
+       2.6
+      ]
+     },
+     {
+      "label": "shares outstanding",
+      "full": "Average number of common and common equivalent shares outstanding",
+      "vals": [
+       687.0,
+       619.0,
+       530.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [],
+    "score": 0,
+    "offset": 29967,
+    "rows": [
+     {
+      "label": "Michael D. Eisner",
+      "full": "Executive Officer Name        Age                    Title                           Since Michael D. Eisner",
+      "vals": [
+       55.0,
+       1984.0
+      ]
+     },
+     {
+      "label": "Roy E. Disney",
+      "full": "Officer Roy E. Disney",
+      "vals": [
+       67.0,
+       1984.0
+      ]
+     },
+     {
+      "label": "Sanford M. Litvack",
+      "full": "Sanford M. Litvack",
+      "vals": [
+       61.0,
+       1991.0
+      ]
+     },
+     {
+      "label": "Richard D. Nanula",
+      "full": "of Corporate Operations Richard D. Nanula",
+      "vals": [
+       37.0,
+       1996.0
+      ]
+     },
+     {
+      "label": "John F. Cooke",
+      "full": "John F. Cooke",
+      "vals": [
+       55.0,
+       2.0,
+       1995.0
+      ]
+     },
+     {
+      "label": "Lawrence P. Murphy",
+      "full": "Lawrence P. Murphy",
+      "vals": [
+       45.0,
+       1985.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "1996",
+     "1995"
+    ],
+    "score": 0,
+    "offset": 132019,
+    "rows": [
+     {
+      "label": "Revenues",
+      "full": "Revenues",
+      "vals": [
+       21238.0,
+       18949.0
+      ]
+     },
+     {
+      "label": "Net income (a)",
+      "full": "Net income (a)",
+      "vals": [
+       1331.0,
+       1307.0
+      ]
+     },
+     {
+      "label": "Earnings per share (a)",
+      "full": "Earnings per share (a)",
+      "vals": [
+       1.93,
+       1.91
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [],
+    "score": 0,
+    "offset": 67833,
+    "rows": [
+     {
+      "label": "VAR as of September 30, 1997",
+      "full": "Interest Rate         Currency Sensitive Financial Sensitive Financial Combined Instruments         Instruments     Portfolio VAR as of September 30, 1997",
+      "vals": [
+       27.0,
+       24.0,
+       33.0
+      ]
+     },
+     {
+      "label": "Average VAR during the year",
+      "full": "Average VAR during the year",
+      "vals": [
+       31.0,
+       22.0,
+       34.0
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}
