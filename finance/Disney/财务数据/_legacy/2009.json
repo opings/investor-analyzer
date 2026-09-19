@@ -1,0 +1,8431 @@
+{
+ "key": "2009",
+ "src": "2009.htm",
+ "statements": {
+  "IS": [
+   {
+    "periods": [
+     "2009",
+     "2008",
+     "2007"
+    ],
+    "score": 2,
+    "offset": 894474,
+    "rows": [
+     {
+      "label": "Net income",
+      "full": "OPERATING ACTIVITIES OF CONTINUING OPERATIONS Net income",
+      "vals": [
+       3307.0,
+       4427.0,
+       4687.0
+      ]
+     },
+     {
+      "label": "Income from discontinued operations",
+      "full": "Income from discontinued operations",
+      "vals": [
+       null,
+       null,
+       -13.0
+      ]
+     },
+     {
+      "label": "Depreciation and amortization",
+      "full": "Depreciation and amortization",
+      "vals": [
+       1631.0,
+       1582.0,
+       1491.0
+      ]
+     },
+     {
+      "label": "Gains on sales of equity investments and businesses",
+      "full": "Gains on sales of equity investments and businesses",
+      "vals": [
+       -342.0,
+       -14.0,
+       -1052.0
+      ]
+     },
+     {
+      "label": "Deferred income taxes",
+      "full": "Deferred income taxes",
+      "vals": [
+       323.0,
+       -128.0,
+       -137.0
+      ]
+     },
+     {
+      "label": "Equity in the income of investees",
+      "full": "Equity in the income of investees",
+      "vals": [
+       -577.0,
+       -581.0,
+       -485.0
+      ]
+     },
+     {
+      "label": "Cash distributions received from equity investees",
+      "full": "Cash distributions received from equity investees",
+      "vals": [
+       505.0,
+       476.0,
+       420.0
+      ]
+     },
+     {
+      "label": "Minority interests",
+      "full": "Minority interests",
+      "vals": [
+       302.0,
+       302.0,
+       177.0
+      ]
+     },
+     {
+      "label": "Net change in film and television costs",
+      "full": "Net change in film and television costs",
+      "vals": [
+       -43.0,
+       -301.0,
+       115.0
+      ]
+     },
+     {
+      "label": "Equity-based compensation",
+      "full": "Equity-based compensation",
+      "vals": [
+       457.0,
+       402.0,
+       419.0
+      ]
+     },
+     {
+      "label": "Impairment charges",
+      "full": "Impairment charges",
+      "vals": [
+       279.0,
+       39.0,
+       26.0
+      ]
+     },
+     {
+      "label": "Other",
+      "full": "Other",
+      "vals": [
+       -247.0,
+       -209.0,
+       -91.0
+      ]
+     },
+     {
+      "label": "Receivables",
+      "full": "Changes in operating assets and liabilities Receivables",
+      "vals": [
+       468.0,
+       -594.0,
+       -355.0
+      ]
+     },
+     {
+      "label": "Inventories",
+      "full": "Inventories",
+      "vals": [
+       -117.0,
+       -329.0,
+       52.0
+      ]
+     },
+     {
+      "label": "Other assets",
+      "full": "Other assets",
+      "vals": [
+       -565.0,
+       -64.0,
+       9.0
+      ]
+     },
+     {
+      "label": "Accounts payable and other accrued liabilities",
+      "full": "Accounts payable and other accrued liabilities",
+      "vals": [
+       -325.0,
+       488.0,
+       77.0
+      ]
+     },
+     {
+      "label": "Income taxes",
+      "full": "Income taxes",
+      "vals": [
+       8.0,
+       -50.0,
+       58.0
+      ]
+     },
+     {
+      "label": "Cash provided by continuing operations",
+      "full": "Cash provided by continuing operations",
+      "vals": [
+       5064.0,
+       5446.0,
+       5398.0
+      ]
+     },
+     {
+      "label": "Investments in parks, resorts and other property",
+      "full": "INVESTING ACTIVITIES OF CONTINUING OPERATIONS Investments in parks, resorts and other property",
+      "vals": [
+       -1753.0,
+       -1578.0,
+       -1566.0
+      ]
+     },
+     {
+      "label": "Sales of investments",
+      "full": "Sales of investments",
+      "vals": [
+       46.0,
+       70.0,
+       5.0
+      ]
+     },
+     {
+      "label": "Proceeds from sales of equity investments and businesses",
+      "full": "Proceeds from sales of equity investments and businesses",
+      "vals": [
+       185.0,
+       14.0,
+       1530.0
+      ]
+     },
+     {
+      "label": "Acquisitions",
+      "full": "Acquisitions",
+      "vals": [
+       -517.0,
+       -660.0,
+       -608.0
+      ]
+     },
+     {
+      "label": "Other",
+      "full": "Other",
+      "vals": [
+       -57.0,
+       -8.0,
+       21.0
+      ]
+     },
+     {
+      "label": "Cash used in continuing investing activities",
+      "full": "Cash used in continuing investing activities",
+      "vals": [
+       -2096.0,
+       -2162.0,
+       -618.0
+      ]
+     },
+     {
+      "label": "Commercial paper borrowings, net",
+      "full": "FINANCING ACTIVITIES OF CONTINUING OPERATIONS Commercial paper borrowings, net",
+      "vals": [
+       -1985.0,
+       -701.0,
+       1847.0
+      ]
+     },
+     {
+      "label": "Borrowings",
+      "full": "Borrowings",
+      "vals": [
+       1750.0,
+       1706.0,
+       3143.0
+      ]
+     },
+     {
+      "label": "Reduction of borrowings",
+      "full": "Reduction of borrowings",
+      "vals": [
+       -1617.0,
+       -477.0,
+       -2294.0
+      ]
+     },
+     {
+      "label": "Dividends",
+      "full": "Dividends",
+      "vals": [
+       -648.0,
+       -664.0,
+       -637.0
+      ]
+     },
+     {
+      "label": "Repurchases of common stock",
+      "full": "Repurchases of common stock",
+      "vals": [
+       -138.0,
+       -4453.0,
+       -6923.0
+      ]
+     },
+     {
+      "label": "Exercise of stock options and other",
+      "full": "Exercise of stock options and other",
+      "vals": [
+       86.0,
+       636.0,
+       1245.0
+      ]
+     },
+     {
+      "label": "Cash used in continuing financing activities",
+      "full": "Cash used in continuing financing activities",
+      "vals": [
+       -2552.0,
+       -3953.0,
+       -3619.0
+      ]
+     },
+     {
+      "label": "Net cash provided by operating activities of discontinued operations",
+      "full": "CASH FLOWS OF DISCONTINUED OPERATIONS Net cash provided by operating activities of discontinued operations",
+      "vals": [
+       null,
+       null,
+       23.0
+      ]
+     },
+     {
+      "label": "Net cash used in investing activities of discontinued operations",
+      "full": "Net cash used in investing activities of discontinued operations",
+      "vals": [
+       null,
+       null,
+       -3.0
+      ]
+     },
+     {
+      "label": "Net cash provided by financing activities of discontinued operations",
+      "full": "Net cash provided by financing activities of discontinued operations",
+      "vals": [
+       null,
+       null,
+       78.0
+      ]
+     },
+     {
+      "label": "Increase/(decrease) in cash and cash equivalents",
+      "full": "Increase/(decrease) in cash and cash equivalents",
+      "vals": [
+       416.0,
+       -669.0,
+       1259.0
+      ]
+     },
+     {
+      "label": "Cash and cash equivalents, beginning of year",
+      "full": "Cash and cash equivalents, beginning of year",
+      "vals": [
+       3001.0,
+       3670.0,
+       2411.0
+      ]
+     },
+     {
+      "label": "Cash and cash equivalents, end of year",
+      "full": "Cash and cash equivalents, end of year",
+      "vals": [
+       3417.0,
+       3001.0,
+       3670.0
+      ]
+     },
+     {
+      "label": "Interest paid",
+      "full": "Supplemental disclosure of cash flow information: Interest paid",
+      "vals": [
+       485.0,
+       555.0,
+       551.0
+      ]
+     },
+     {
+      "label": "Income taxes paid",
+      "full": "Income taxes paid",
+      "vals": [
+       1609.0,
+       2768.0,
+       2796.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2009",
+     "2008",
+     "2007",
+     "2009",
+     "2008",
+     "2008",
+     "2007"
+    ],
+    "score": 2,
+    "offset": 338960,
+    "rows": [
+     {
+      "label": "Revenues",
+      "full": "% Change Better/(Worse) Revenues",
+      "vals": [
+       36149.0,
+       37843.0,
+       35510.0,
+       -4.0,
+       7.0
+      ]
+     },
+     {
+      "label": "Costs and expenses",
+      "full": "Costs and expenses",
+      "vals": [
+       -30452.0,
+       -30400.0,
+       -28655.0,
+       null,
+       -6.0
+      ]
+     },
+     {
+      "label": "Restructuring and impairment charges",
+      "full": "Restructuring and impairment charges",
+      "vals": [
+       -492.0,
+       -39.0,
+       -26.0,
+       -50.0
+      ]
+     },
+     {
+      "label": "Other income (expense)",
+      "full": "Other income (expense)",
+      "vals": [
+       342.0,
+       -59.0,
+       1004.0
+      ]
+     },
+     {
+      "label": "Net interest expense",
+      "full": "Net interest expense",
+      "vals": [
+       -466.0,
+       -524.0,
+       -593.0,
+       11.0,
+       12.0
+      ]
+     },
+     {
+      "label": "Equity in the income of investees",
+      "full": "Equity in the income of investees",
+      "vals": [
+       577.0,
+       581.0,
+       485.0,
+       -1.0,
+       20.0
+      ]
+     },
+     {
+      "label": "Income from continuing operations before income taxes and minority interests",
+      "full": "Income from continuing operations before income taxes and minority interests",
+      "vals": [
+       5658.0,
+       7402.0,
+       7725.0,
+       -24.0,
+       -4.0
+      ]
+     },
+     {
+      "label": "Income taxes",
+      "full": "Income taxes",
+      "vals": [
+       -2049.0,
+       -2673.0,
+       -2874.0,
+       23.0,
+       7.0
+      ]
+     },
+     {
+      "label": "Minority interests",
+      "full": "Minority interests",
+      "vals": [
+       -302.0,
+       -302.0,
+       -177.0,
+       null,
+       -71.0
+      ]
+     },
+     {
+      "label": "Income from continuing operations",
+      "full": "Income from continuing operations",
+      "vals": [
+       3307.0,
+       4427.0,
+       4674.0,
+       -25.0,
+       -5.0
+      ]
+     },
+     {
+      "label": "Discontinued operations, net of tax",
+      "full": "Discontinued operations, net of tax",
+      "vals": [
+       null,
+       null,
+       13.0
+      ]
+     },
+     {
+      "label": "Net income",
+      "full": "Net income",
+      "vals": [
+       3307.0,
+       4427.0,
+       4687.0,
+       -25.0,
+       -6.0
+      ]
+     },
+     {
+      "label": "Earnings per share, continuing operations",
+      "full": "Diluted Earnings per share (1) : Earnings per share, continuing operations",
+      "vals": [
+       1.76,
+       2.28,
+       2.24,
+       -23.0,
+       2.0
+      ]
+     },
+     {
+      "label": "Earnings per share, discontinued operations",
+      "full": "Earnings per share, discontinued operations",
+      "vals": [
+       null,
+       null,
+       0.01
+      ]
+     },
+     {
+      "label": "Earnings per share",
+      "full": "Earnings per share",
+      "vals": [
+       1.76,
+       2.28,
+       2.25,
+       -23.0,
+       1.0
+      ]
+     },
+     {
+      "label": "Earnings per share, continuing operations",
+      "full": "Basic Earnings per share: Earnings per share, continuing operations",
+      "vals": [
+       1.78,
+       2.34,
+       2.33,
+       -24.0,
+       null
+      ]
+     },
+     {
+      "label": "Earnings per share, discontinued operations",
+      "full": "Earnings per share, discontinued operations",
+      "vals": [
+       null,
+       null,
+       0.01
+      ]
+     },
+     {
+      "label": "Earnings per share",
+      "full": "Earnings per share",
+      "vals": [
+       1.78,
+       2.34,
+       2.34,
+       -24.0,
+       null
+      ]
+     },
+     {
+      "label": "Diluted",
+      "full": "Weighted average number of common and common equivalent shares outstanding: Diluted",
+      "vals": [
+       1875.0,
+       1948.0,
+       2092.0
+      ]
+     },
+     {
+      "label": "Basic",
+      "full": "Basic",
+      "vals": [
+       1856.0,
+       1890.0,
+       2004.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2009",
+     "2008",
+     "2007"
+    ],
+    "score": 2,
+    "offset": 824081,
+    "rows": [
+     {
+      "label": "Revenues",
+      "full": "Revenues",
+      "vals": [
+       36149.0,
+       37843.0,
+       35510.0
+      ]
+     },
+     {
+      "label": "Costs and expenses",
+      "full": "Costs and expenses",
+      "vals": [
+       -30452.0,
+       -30400.0,
+       -28655.0
+      ]
+     },
+     {
+      "label": "Restructuring and impairment charges",
+      "full": "Restructuring and impairment charges",
+      "vals": [
+       -492.0,
+       -39.0,
+       -26.0
+      ]
+     },
+     {
+      "label": "Other income (expense)",
+      "full": "Other income (expense)",
+      "vals": [
+       342.0,
+       -59.0,
+       1004.0
+      ]
+     },
+     {
+      "label": "Net interest expense",
+      "full": "Net interest expense",
+      "vals": [
+       -466.0,
+       -524.0,
+       -593.0
+      ]
+     },
+     {
+      "label": "Equity in the income of investees",
+      "full": "Equity in the income of investees",
+      "vals": [
+       577.0,
+       581.0,
+       485.0
+      ]
+     },
+     {
+      "label": "Income from continuing operations before income taxes and minority interests",
+      "full": "Income from continuing operations before income taxes and minority interests",
+      "vals": [
+       5658.0,
+       7402.0,
+       7725.0
+      ]
+     },
+     {
+      "label": "Income taxes",
+      "full": "Income taxes",
+      "vals": [
+       -2049.0,
+       -2673.0,
+       -2874.0
+      ]
+     },
+     {
+      "label": "Minority interests",
+      "full": "Minority interests",
+      "vals": [
+       -302.0,
+       -302.0,
+       -177.0
+      ]
+     },
+     {
+      "label": "Income from continuing operations",
+      "full": "Income from continuing operations",
+      "vals": [
+       3307.0,
+       4427.0,
+       4674.0
+      ]
+     },
+     {
+      "label": "Discontinued operations, net of tax",
+      "full": "Discontinued operations, net of tax",
+      "vals": [
+       null,
+       null,
+       13.0
+      ]
+     },
+     {
+      "label": "Net income",
+      "full": "Net income",
+      "vals": [
+       3307.0,
+       4427.0,
+       4687.0
+      ]
+     },
+     {
+      "label": "Earnings per share, continuing operations",
+      "full": "Diluted Earnings per share: Earnings per share, continuing operations",
+      "vals": [
+       1.76,
+       2.28,
+       2.24
+      ]
+     },
+     {
+      "label": "Earnings per share, discontinued operations",
+      "full": "Earnings per share, discontinued operations",
+      "vals": [
+       null,
+       null,
+       0.01
+      ]
+     },
+     {
+      "label": "Earnings per share",
+      "full": "Earnings per share",
+      "vals": [
+       1.76,
+       2.28,
+       2.25
+      ]
+     },
+     {
+      "label": "Earnings per share, continuing operations",
+      "full": "Basic Earnings per share: Earnings per share, continuing operations",
+      "vals": [
+       1.78,
+       2.34,
+       2.33
+      ]
+     },
+     {
+      "label": "Earnings per share, discontinued operations",
+      "full": "Earnings per share, discontinued operations",
+      "vals": [
+       null,
+       null,
+       0.01
+      ]
+     },
+     {
+      "label": "Earnings per share",
+      "full": "Earnings per share",
+      "vals": [
+       1.78,
+       2.34,
+       2.34
+      ]
+     },
+     {
+      "label": "Diluted",
+      "full": "Weighted average number of common and common equivalent shares outstanding: Diluted",
+      "vals": [
+       1875.0,
+       1948.0,
+       2092.0
+      ]
+     },
+     {
+      "label": "Basic",
+      "full": "Basic",
+      "vals": [
+       1856.0,
+       1890.0,
+       2004.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [],
+    "score": 2,
+    "offset": 1311253,
+    "rows": [
+     {
+      "label": "Revenues",
+      "full": "Before Euro Disney and Hong Kong Disneyland Consolidation (1) Revenues",
+      "vals": [
+       34174.0,
+       1975.0,
+       36149.0
+      ]
+     },
+     {
+      "label": "Cost and expenses",
+      "full": "Cost and expenses",
+      "vals": [
+       -28486.0,
+       -1966.0,
+       -30452.0
+      ]
+     },
+     {
+      "label": "Restructuring and impairment charges",
+      "full": "Restructuring and impairment charges",
+      "vals": [
+       -492.0,
+       null,
+       -492.0
+      ]
+     },
+     {
+      "label": "Other expense",
+      "full": "Other expense",
+      "vals": [
+       342.0,
+       null,
+       342.0
+      ]
+     },
+     {
+      "label": "Net interest expense",
+      "full": "Net interest expense",
+      "vals": [
+       -324.0,
+       -142.0,
+       -466.0
+      ]
+     },
+     {
+      "label": "Equity in the income of investees",
+      "full": "Equity in the income of investees",
+      "vals": [
+       523.0,
+       54.0,
+       577.0
+      ]
+     },
+     {
+      "label": "Income (loss) before income taxes and minority interests",
+      "full": "Income (loss) before income taxes and minority interests",
+      "vals": [
+       5737.0,
+       -79.0,
+       5658.0
+      ]
+     },
+     {
+      "label": "Income taxes",
+      "full": "Income taxes",
+      "vals": [
+       -2049.0,
+       null,
+       -2049.0
+      ]
+     },
+     {
+      "label": "Minority interests",
+      "full": "Minority interests",
+      "vals": [
+       -381.0,
+       79.0,
+       -302.0
+      ]
+     },
+     {
+      "label": "Net income",
+      "full": "Net income",
+      "vals": [
+       3307.0,
+       null,
+       3307.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [],
+    "score": 0,
+    "offset": 93755,
+    "rows": [
+     {
+      "label": "Market",
+      "full": "Market",
+      "vals": [
+       -1.0
+      ]
+     },
+     {
+      "label": "New York, NY",
+      "full": "New York, NY",
+      "vals": [
+       1.0
+      ]
+     },
+     {
+      "label": "Los Angeles, CA",
+      "full": "Los Angeles, CA",
+      "vals": [
+       2.0
+      ]
+     },
+     {
+      "label": "Chicago, IL",
+      "full": "Chicago, IL",
+      "vals": [
+       3.0
+      ]
+     },
+     {
+      "label": "San Francisco, CA",
+      "full": "San Francisco, CA",
+      "vals": [
+       4.0
+      ]
+     },
+     {
+      "label": "Dallas-Fort Worth, TX",
+      "full": "Dallas-Fort Worth, TX",
+      "vals": [
+       5.0
+      ]
+     },
+     {
+      "label": "Houston, TX",
+      "full": "Houston, TX",
+      "vals": [
+       6.0
+      ]
+     },
+     {
+      "label": "Atlanta, GA",
+      "full": "Atlanta, GA",
+      "vals": [
+       7.0
+      ]
+     },
+     {
+      "label": "Philadelphia, PA",
+      "full": "Philadelphia, PA",
+      "vals": [
+       8.0
+      ]
+     },
+     {
+      "label": "Boston, MA",
+      "full": "Boston, MA",
+      "vals": [
+       10.0
+      ]
+     },
+     {
+      "label": "Detroit, MI",
+      "full": "Detroit, MI",
+      "vals": [
+       11.0
+      ]
+     },
+     {
+      "label": "Miami, FL",
+      "full": "Miami, FL",
+      "vals": [
+       12.0
+      ]
+     },
+     {
+      "label": "Seattle, WA",
+      "full": "Seattle, WA",
+      "vals": [
+       13.0
+      ]
+     },
+     {
+      "label": "Phoenix, AZ",
+      "full": "Phoenix, AZ",
+      "vals": [
+       15.0
+      ]
+     },
+     {
+      "label": "Minneapolis, MN",
+      "full": "Minneapolis, MN",
+      "vals": [
+       16.0
+      ]
+     },
+     {
+      "label": "Tampa, FL",
+      "full": "Tampa, FL",
+      "vals": [
+       19.0
+      ]
+     },
+     {
+      "label": "Denver, CO",
+      "full": "Denver, CO",
+      "vals": [
+       20.0
+      ]
+     },
+     {
+      "label": "St. Louis, MO",
+      "full": "St. Louis, MO",
+      "vals": [
+       21.0
+      ]
+     },
+     {
+      "label": "Portland, OR",
+      "full": "Portland, OR",
+      "vals": [
+       23.0
+      ]
+     },
+     {
+      "label": "Charlotte, NC",
+      "full": "Charlotte, NC",
+      "vals": [
+       24.0
+      ]
+     },
+     {
+      "label": "Sacramento, CA",
+      "full": "Sacramento, CA",
+      "vals": [
+       27.0
+      ]
+     },
+     {
+      "label": "Cleveland, OH",
+      "full": "Cleveland, OH",
+      "vals": [
+       29.0
+      ]
+     },
+     {
+      "label": "Salt Lake City, UT",
+      "full": "Salt Lake City, UT",
+      "vals": [
+       30.0
+      ]
+     },
+     {
+      "label": "San Antonio, TX",
+      "full": "San Antonio, TX",
+      "vals": [
+       31.0
+      ]
+     },
+     {
+      "label": "Kansas City, MO",
+      "full": "Kansas City, MO",
+      "vals": [
+       32.0
+      ]
+     },
+     {
+      "label": "Orlando, FL",
+      "full": "Orlando, FL",
+      "vals": [
+       34.0
+      ]
+     },
+     {
+      "label": "Milwaukee, WI",
+      "full": "Milwaukee, WI",
+      "vals": [
+       37.0
+      ]
+     },
+     {
+      "label": "Indianapolis, IN",
+      "full": "Indianapolis, IN",
+      "vals": [
+       39.0
+      ]
+     },
+     {
+      "label": "Providence, RI",
+      "full": "Providence, RI",
+      "vals": [
+       41.0
+      ]
+     },
+     {
+      "label": "Norfolk, VA",
+      "full": "Norfolk, VA",
+      "vals": [
+       43.0
+      ]
+     },
+     {
+      "label": "Greensboro, NC",
+      "full": "Greensboro, NC",
+      "vals": [
+       45.0
+      ]
+     },
+     {
+      "label": "Jacksonville, FL",
+      "full": "Jacksonville, FL",
+      "vals": [
+       46.0
+      ]
+     },
+     {
+      "label": "West Palm Beach, FL",
+      "full": "West Palm Beach, FL",
+      "vals": [
+       47.0
+      ]
+     },
+     {
+      "label": "Hartford, CT",
+      "full": "Hartford, CT",
+      "vals": [
+       50.0
+      ]
+     },
+     {
+      "label": "New Orleans, LA",
+      "full": "New Orleans, LA",
+      "vals": [
+       52.0
+      ]
+     },
+     {
+      "label": "Louisville, KY",
+      "full": "Louisville, KY",
+      "vals": [
+       54.0
+      ]
+     },
+     {
+      "label": "Richmond, VA",
+      "full": "Richmond, VA",
+      "vals": [
+       55.0
+      ]
+     },
+     {
+      "label": "Albany, NY",
+      "full": "Albany, NY",
+      "vals": [
+       63.0
+      ]
+     },
+     {
+      "label": "Tulsa, OK",
+      "full": "Tulsa, OK",
+      "vals": [
+       65.0
+      ]
+     },
+     {
+      "label": "Albuquerque, NM",
+      "full": "Albuquerque, NM",
+      "vals": [
+       68.0
+      ]
+     },
+     {
+      "label": "Little Rock, AR",
+      "full": "Little Rock, AR",
+      "vals": [
+       85.0
+      ]
+     },
+     {
+      "label": "Wichita, KS",
+      "full": "Wichita, KS",
+      "vals": [
+       98.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2009",
+     "2008",
+     "2007",
+     "2009",
+     "2008",
+     "2008",
+     "2007"
+    ],
+    "score": 0,
+    "offset": 452530,
+    "rows": [
+     {
+      "label": "Cable Networks",
+      "full": "% Change Better/(Worse) Revenues Cable Networks",
+      "vals": [
+       10555.0,
+       10041.0,
+       9167.0,
+       5.0,
+       10.0
+      ]
+     },
+     {
+      "label": "Broadcasting",
+      "full": "Broadcasting",
+      "vals": [
+       5654.0,
+       5816.0,
+       5746.0,
+       -3.0,
+       1.0
+      ]
+     },
+     {
+      "label": "2 %",
+      "full": "2 %",
+      "vals": [
+       6.0
+      ]
+     },
+     {
+      "label": "Cable Networks",
+      "full": "Segment operating income Cable Networks",
+      "vals": [
+       4260.0,
+       4139.0,
+       3603.0,
+       3.0,
+       15.0
+      ]
+     },
+     {
+      "label": "Broadcasting",
+      "full": "Broadcasting",
+      "vals": [
+       505.0,
+       842.0,
+       931.0,
+       -40.0,
+       -10.0
+      ]
+     },
+     {
+      "label": "(4) %",
+      "full": "(4) %",
+      "vals": [
+       10.0
+      ]
+     },
+     {
+      "label": "Attendance",
+      "full": "East Coast Parks Increase/ (decrease) Attendance",
+      "vals": [
+       null,
+       2.0,
+       7.0,
+       null,
+       2.0,
+       2.0
+      ]
+     },
+     {
+      "label": "Per Capita Guest Spending",
+      "full": "Per Capita Guest Spending",
+      "vals": [
+       -4.0,
+       3.0,
+       -9.0,
+       2.0,
+       -6.0,
+       3.0
+      ]
+     },
+     {
+      "label": "Occupancy",
+      "full": "Hotels (1) Occupancy",
+      "vals": [
+       87.0,
+       90.0,
+       80.0,
+       88.0,
+       87.0,
+       89.0
+      ]
+     },
+     {
+      "label": "Available Room Nights (in thousands)",
+      "full": "Available Room Nights (in thousands)",
+      "vals": [
+       8732.0,
+       8566.0,
+       817.0,
+       801.0,
+       9549.0,
+       9367.0
+      ]
+     },
+     {
+      "label": "Per Room Guest Spending",
+      "full": "Per Room Guest Spending",
+      "vals": [
+       205.0,
+       223.0,
+       315.0,
+       339.0,
+       214.0,
+       233.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2009",
+     "2008",
+     "2007"
+    ],
+    "score": 0,
+    "offset": 1163294,
+    "rows": [
+     {
+      "label": "Attractions",
+      "full": "Attractions",
+      "vals": [
+       25.0,
+       40.0
+      ]
+     },
+     {
+      "label": "Buildings and improvements",
+      "full": "Buildings and improvements",
+      "vals": [
+       20.0,
+       40.0
+      ]
+     },
+     {
+      "label": "Land improvements",
+      "full": "Leasehold improvements Land improvements",
+      "vals": [
+       20.0,
+       40.0
+      ]
+     },
+     {
+      "label": "Furniture, fixtures and equipment",
+      "full": "Furniture, fixtures and equipment",
+      "vals": [
+       3.0,
+       25.0
+      ]
+     },
+     {
+      "label": "Income from continuing operations",
+      "full": "Income from continuing operations",
+      "vals": [
+       3307.0,
+       4427.0,
+       4674.0
+      ]
+     },
+     {
+      "label": "Interest expense on convertible senior notes (net of tax)",
+      "full": "Interest expense on convertible senior notes (net of tax)",
+      "vals": [
+       null,
+       12.0,
+       21.0
+      ]
+     },
+     {
+      "label": "(无标签小计)",
+      "full": "(无标签小计)",
+      "vals": [
+       3307.0,
+       4439.0,
+       4695.0
+      ]
+     },
+     {
+      "label": "Weighted average number of common shares outstanding (basic)",
+      "full": "Weighted average number of common shares outstanding (basic)",
+      "vals": [
+       1856.0,
+       1890.0,
+       2004.0
+      ]
+     },
+     {
+      "label": "Weighted average dilutive impact of equity-based compensations awards",
+      "full": "Weighted average dilutive impact of equity-based compensations awards",
+      "vals": [
+       19.0,
+       34.0,
+       43.0
+      ]
+     },
+     {
+      "label": "Weighted average assumed conversion of convertible senior notes",
+      "full": "Weighted average assumed conversion of convertible senior notes",
+      "vals": [
+       null,
+       24.0,
+       45.0
+      ]
+     },
+     {
+      "label": "Weighted average number of common and common equivalent shares outstanding (diluted)",
+      "full": "Weighted average number of common and common equivalent shares outstanding (diluted)",
+      "vals": [
+       1875.0,
+       1948.0,
+       2092.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2009",
+     "2008",
+     "2007"
+    ],
+    "score": 0,
+    "offset": 706317,
+    "rows": [
+     {
+      "label": "Risk-free interest rate",
+      "full": "Risk-free interest rate",
+      "vals": [
+       2.0,
+       3.6,
+       4.5
+      ]
+     },
+     {
+      "label": "Expected volatility",
+      "full": "Expected volatility",
+      "vals": [
+       47.0,
+       29.0,
+       26.0
+      ]
+     },
+     {
+      "label": "Dividend yield",
+      "full": "Dividend yield",
+      "vals": [
+       1.19,
+       1.02,
+       0.79
+      ]
+     },
+     {
+      "label": "Termination rate",
+      "full": "Termination rate",
+      "vals": [
+       7.5,
+       7.5,
+       7.4
+      ]
+     },
+     {
+      "label": "Exercise multiple",
+      "full": "Exercise multiple",
+      "vals": [
+       1.39,
+       1.39,
+       1.38
+      ]
+     },
+     {
+      "label": "Year end VAR",
+      "full": "Fiscal Year 2009 Year end VAR",
+      "vals": [
+       24.0,
+       19.0,
+       0.0,
+       34.0
+      ]
+     },
+     {
+      "label": "Average VAR",
+      "full": "Average VAR",
+      "vals": [
+       52.0,
+       23.0,
+       1.0,
+       66.0
+      ]
+     },
+     {
+      "label": "Highest VAR",
+      "full": "Highest VAR",
+      "vals": [
+       86.0,
+       33.0,
+       1.0,
+       100.0
+      ]
+     },
+     {
+      "label": "Lowest VAR",
+      "full": "Lowest VAR",
+      "vals": [
+       24.0,
+       19.0,
+       0.0,
+       34.0
+      ]
+     },
+     {
+      "label": "Beginning of year VAR (year end fiscal 2008)",
+      "full": "Beginning of year VAR (year end fiscal 2008)",
+      "vals": [
+       53.0,
+       24.0,
+       1.0,
+       68.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2009",
+     "2008",
+     "2007"
+    ],
+    "score": 0,
+    "offset": 1251206,
+    "rows": [
+     {
+      "label": "Gain on Lifetime/AETN transaction",
+      "full": "Gain on Lifetime/AETN transaction",
+      "vals": [
+       228.0,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Gain on sale of investment in two pay television services in Latin America",
+      "full": "Gain on sale of investment in two pay television services in Latin America",
+      "vals": [
+       114.0,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Gain related to the acquisition of the Disney Stores North America",
+      "full": "Gain related to the acquisition of the Disney Stores North America",
+      "vals": [
+       null,
+       18.0,
+       null
+      ]
+     },
+     {
+      "label": "Gain on sale of movies.com",
+      "full": "Gain on sale of movies.com",
+      "vals": [
+       null,
+       14.0,
+       null
+      ]
+     },
+     {
+      "label": "Bad debt charge for Lehman Brothers receivable",
+      "full": "Bad debt charge for Lehman Brothers receivable",
+      "vals": [
+       null,
+       -91.0,
+       null
+      ]
+     },
+     {
+      "label": "Gain on sale of equity investment in E!",
+      "full": "Gain on sale of equity investment in E!",
+      "vals": [
+       null,
+       null,
+       780.0
+      ]
+     },
+     {
+      "label": "Gain on sale of equity investment in Us Weekly",
+      "full": "Gain on sale of equity investment in Us Weekly",
+      "vals": [
+       null,
+       null,
+       272.0
+      ]
+     },
+     {
+      "label": "Equity-based compensation plan modification charge",
+      "full": "Equity-based compensation plan modification charge",
+      "vals": [
+       null,
+       null,
+       -48.0
+      ]
+     },
+     {
+      "label": "Other income (expense)",
+      "full": "Other income (expense)",
+      "vals": [
+       342.0,
+       -59.0,
+       1004.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [],
+    "score": 0,
+    "offset": 1220240,
+    "rows": [
+     {
+      "label": "Balance at September 29, 2007",
+      "full": "Media Networks Balance at September 29, 2007",
+      "vals": [
+       15456.0,
+       173.0,
+       4788.0,
+       425.0,
+       557.0,
+       21399.0
+      ]
+     },
+     {
+      "label": "Acquisitions",
+      "full": "Acquisitions",
+      "vals": [
+       30.0,
+       null,
+       null,
+       null,
+       61.0,
+       91.0
+      ]
+     },
+     {
+      "label": "Other, net",
+      "full": "Other, net",
+      "vals": [
+       14.0,
+       -1.0,
+       -37.0,
+       -2.0,
+       1.0,
+       -25.0
+      ]
+     },
+     {
+      "label": "Balance at September 27, 2008",
+      "full": "Balance at September 27, 2008",
+      "vals": [
+       15500.0,
+       172.0,
+       4751.0,
+       423.0,
+       619.0,
+       21465.0
+      ]
+     },
+     {
+      "label": "Acquisitions",
+      "full": "Acquisitions",
+      "vals": [
+       258.0,
+       null,
+       null,
+       null,
+       20.0,
+       278.0
+      ]
+     },
+     {
+      "label": "Impairments",
+      "full": "Impairments",
+      "vals": [
+       null,
+       null,
+       null,
+       null,
+       -29.0,
+       -29.0
+      ]
+     },
+     {
+      "label": "Other, net",
+      "full": "Other, net",
+      "vals": [
+       -14.0,
+       null,
+       -14.0,
+       -1.0,
+       -2.0,
+       -31.0
+      ]
+     },
+     {
+      "label": "Balance at October 3, 2009",
+      "full": "Balance at October 3, 2009",
+      "vals": [
+       15744.0,
+       172.0,
+       4737.0,
+       422.0,
+       608.0,
+       21683.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2009",
+     "2008",
+     "2007"
+    ],
+    "score": 0,
+    "offset": 1180377,
+    "rows": [
+     {
+      "label": "Income from continuing operations",
+      "full": "Income from continuing operations",
+      "vals": [
+       3307.0,
+       4427.0,
+       4674.0
+      ]
+     },
+     {
+      "label": "Interest expense on convertible senior notes (net of tax)",
+      "full": "Interest expense on convertible senior notes (net of tax)",
+      "vals": [
+       null,
+       12.0,
+       21.0
+      ]
+     },
+     {
+      "label": "(无标签小计)",
+      "full": "(无标签小计)",
+      "vals": [
+       3307.0,
+       4439.0,
+       4695.0
+      ]
+     },
+     {
+      "label": "Weighted average number of common shares outstanding (basic)",
+      "full": "Weighted average number of common shares outstanding (basic)",
+      "vals": [
+       1856.0,
+       1890.0,
+       2004.0
+      ]
+     },
+     {
+      "label": "Weighted average dilutive impact of equity-based compensations awards",
+      "full": "Weighted average dilutive impact of equity-based compensations awards",
+      "vals": [
+       19.0,
+       34.0,
+       43.0
+      ]
+     },
+     {
+      "label": "Weighted average assumed conversion of convertible senior notes",
+      "full": "Weighted average assumed conversion of convertible senior notes",
+      "vals": [
+       null,
+       24.0,
+       45.0
+      ]
+     },
+     {
+      "label": "Weighted average number of common and common equivalent shares outstanding (diluted)",
+      "full": "Weighted average number of common and common equivalent shares outstanding (diluted)",
+      "vals": [
+       1875.0,
+       1948.0,
+       2092.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [],
+    "score": 0,
+    "offset": 724038,
+    "rows": [
+     {
+      "label": "Year end VAR",
+      "full": "Fiscal Year 2009 Year end VAR",
+      "vals": [
+       24.0,
+       19.0,
+       0.0,
+       34.0
+      ]
+     },
+     {
+      "label": "Average VAR",
+      "full": "Average VAR",
+      "vals": [
+       52.0,
+       23.0,
+       1.0,
+       66.0
+      ]
+     },
+     {
+      "label": "Highest VAR",
+      "full": "Highest VAR",
+      "vals": [
+       86.0,
+       33.0,
+       1.0,
+       100.0
+      ]
+     },
+     {
+      "label": "Lowest VAR",
+      "full": "Lowest VAR",
+      "vals": [
+       24.0,
+       19.0,
+       0.0,
+       34.0
+      ]
+     },
+     {
+      "label": "Beginning of year VAR (year end fiscal 2008)",
+      "full": "Beginning of year VAR (year end fiscal 2008)",
+      "vals": [
+       53.0,
+       24.0,
+       1.0,
+       68.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [],
+    "score": 0,
+    "offset": 786370,
+    "rows": [
+     {
+      "label": "*",
+      "full": "*",
+      "vals": [
+       906.0
+      ]
+     }
+    ]
+   }
+  ],
+  "BS": [
+   {
+    "periods": [
+     "2009",
+     "2008",
+     "2007"
+    ],
+    "score": 3,
+    "offset": 811315,
+    "rows": [
+     {
+      "label": "Revenues",
+      "full": "Revenues",
+      "vals": [
+       36149.0,
+       37843.0,
+       35510.0
+      ]
+     },
+     {
+      "label": "Costs and expenses",
+      "full": "Costs and expenses",
+      "vals": [
+       -30452.0,
+       -30400.0,
+       -28655.0
+      ]
+     },
+     {
+      "label": "Restructuring and impairment charges",
+      "full": "Restructuring and impairment charges",
+      "vals": [
+       -492.0,
+       -39.0,
+       -26.0
+      ]
+     },
+     {
+      "label": "Other income (expense)",
+      "full": "Other income (expense)",
+      "vals": [
+       342.0,
+       -59.0,
+       1004.0
+      ]
+     },
+     {
+      "label": "Net interest expense",
+      "full": "Net interest expense",
+      "vals": [
+       -466.0,
+       -524.0,
+       -593.0
+      ]
+     },
+     {
+      "label": "Equity in the income of investees",
+      "full": "Equity in the income of investees",
+      "vals": [
+       577.0,
+       581.0,
+       485.0
+      ]
+     },
+     {
+      "label": "Income from continuing operations before income taxes and minority interests",
+      "full": "Income from continuing operations before income taxes and minority interests",
+      "vals": [
+       5658.0,
+       7402.0,
+       7725.0
+      ]
+     },
+     {
+      "label": "Income taxes",
+      "full": "Income taxes",
+      "vals": [
+       -2049.0,
+       -2673.0,
+       -2874.0
+      ]
+     },
+     {
+      "label": "Minority interests",
+      "full": "Minority interests",
+      "vals": [
+       -302.0,
+       -302.0,
+       -177.0
+      ]
+     },
+     {
+      "label": "Income from continuing operations",
+      "full": "Income from continuing operations",
+      "vals": [
+       3307.0,
+       4427.0,
+       4674.0
+      ]
+     },
+     {
+      "label": "Discontinued operations, net of tax",
+      "full": "Discontinued operations, net of tax",
+      "vals": [
+       null,
+       null,
+       13.0
+      ]
+     },
+     {
+      "label": "Net income",
+      "full": "Net income",
+      "vals": [
+       3307.0,
+       4427.0,
+       4687.0
+      ]
+     },
+     {
+      "label": "Earnings per share, continuing operations",
+      "full": "Diluted Earnings per share: Earnings per share, continuing operations",
+      "vals": [
+       1.76,
+       2.28,
+       2.24
+      ]
+     },
+     {
+      "label": "Earnings per share, discontinued operations",
+      "full": "Earnings per share, discontinued operations",
+      "vals": [
+       null,
+       null,
+       0.01
+      ]
+     },
+     {
+      "label": "Earnings per share",
+      "full": "Earnings per share",
+      "vals": [
+       1.76,
+       2.28,
+       2.25
+      ]
+     },
+     {
+      "label": "Earnings per share, continuing operations",
+      "full": "Basic Earnings per share: Earnings per share, continuing operations",
+      "vals": [
+       1.78,
+       2.34,
+       2.33
+      ]
+     },
+     {
+      "label": "Earnings per share, discontinued operations",
+      "full": "Earnings per share, discontinued operations",
+      "vals": [
+       null,
+       null,
+       0.01
+      ]
+     },
+     {
+      "label": "Earnings per share",
+      "full": "Earnings per share",
+      "vals": [
+       1.78,
+       2.34,
+       2.34
+      ]
+     },
+     {
+      "label": "Diluted",
+      "full": "Weighted average number of common and common equivalent shares outstanding: Diluted",
+      "vals": [
+       1875.0,
+       1948.0,
+       2092.0
+      ]
+     },
+     {
+      "label": "Basic",
+      "full": "Basic",
+      "vals": [
+       1856.0,
+       1890.0,
+       2004.0
+      ]
+     },
+     {
+      "label": "Cash and cash equivalents",
+      "full": "ASSETS Current assets Cash and cash equivalents",
+      "vals": [
+       3417.0,
+       3001.0
+      ]
+     },
+     {
+      "label": "Receivables",
+      "full": "Receivables",
+      "vals": [
+       4854.0,
+       5373.0
+      ]
+     },
+     {
+      "label": "Inventories",
+      "full": "Inventories",
+      "vals": [
+       1271.0,
+       1124.0
+      ]
+     },
+     {
+      "label": "Television costs",
+      "full": "Television costs",
+      "vals": [
+       631.0,
+       541.0
+      ]
+     },
+     {
+      "label": "Deferred income taxes",
+      "full": "Deferred income taxes",
+      "vals": [
+       1140.0,
+       1024.0
+      ]
+     },
+     {
+      "label": "Other current assets",
+      "full": "Other current assets",
+      "vals": [
+       576.0,
+       603.0
+      ]
+     },
+     {
+      "label": "Total current assets",
+      "full": "Total current assets",
+      "vals": [
+       11889.0,
+       11666.0
+      ]
+     },
+     {
+      "label": "Film and television costs",
+      "full": "Film and television costs",
+      "vals": [
+       5125.0,
+       5394.0
+      ]
+     },
+     {
+      "label": "Investments",
+      "full": "Investments",
+      "vals": [
+       2554.0,
+       2249.0
+      ]
+     },
+     {
+      "label": "Parks, resorts and other property, at cost Attractions, buildings and equipment",
+      "full": "Parks, resorts and other property, at cost Attractions, buildings and equipment",
+      "vals": [
+       32475.0,
+       31493.0
+      ]
+     },
+     {
+      "label": "Accumulated depreciation",
+      "full": "Accumulated depreciation",
+      "vals": [
+       -17395.0,
+       -16310.0
+      ]
+     },
+     {
+      "label": "Current assets 合计",
+      "full": "Current assets 合计",
+      "vals": [
+       15080.0,
+       15183.0
+      ]
+     },
+     {
+      "label": "Projects in progress",
+      "full": "Projects in progress",
+      "vals": [
+       1350.0,
+       1169.0
+      ]
+     },
+     {
+      "label": "Land",
+      "full": "Land",
+      "vals": [
+       1167.0,
+       1180.0
+      ]
+     },
+     {
+      "label": "Current assets 合计",
+      "full": "Current assets 合计",
+      "vals": [
+       17597.0,
+       17532.0
+      ]
+     },
+     {
+      "label": "Intangible assets, net",
+      "full": "Intangible assets, net",
+      "vals": [
+       2247.0,
+       2428.0
+      ]
+     },
+     {
+      "label": "Goodwill",
+      "full": "Goodwill",
+      "vals": [
+       21683.0,
+       21465.0
+      ]
+     },
+     {
+      "label": "Other assets",
+      "full": "Other assets",
+      "vals": [
+       2022.0,
+       1763.0
+      ]
+     },
+     {
+      "label": "Current assets 合计",
+      "full": "Current assets 合计",
+      "vals": [
+       63117.0,
+       62497.0
+      ]
+     },
+     {
+      "label": "Accounts payable and other accrued liabilities",
+      "full": "LIABILITIES AND SHAREHOLDERS’ EQUITY Current liabilities Accounts payable and other accrued liabilities",
+      "vals": [
+       5616.0,
+       5980.0
+      ]
+     },
+     {
+      "label": "Current portion of borrowings",
+      "full": "Current portion of borrowings",
+      "vals": [
+       1206.0,
+       3529.0
+      ]
+     },
+     {
+      "label": "Unearned royalties and other advances",
+      "full": "Unearned royalties and other advances",
+      "vals": [
+       2112.0,
+       2082.0
+      ]
+     },
+     {
+      "label": "Total current liabilities",
+      "full": "Total current liabilities",
+      "vals": [
+       8934.0,
+       11591.0
+      ]
+     },
+     {
+      "label": "Borrowings",
+      "full": "Borrowings",
+      "vals": [
+       11495.0,
+       11110.0
+      ]
+     },
+     {
+      "label": "Deferred income taxes",
+      "full": "Deferred income taxes",
+      "vals": [
+       1819.0,
+       2350.0
+      ]
+     },
+     {
+      "label": "Other long-term liabilities",
+      "full": "Other long-term liabilities",
+      "vals": [
+       5444.0,
+       3779.0
+      ]
+     },
+     {
+      "label": "Minority interests",
+      "full": "Minority interests",
+      "vals": [
+       1691.0,
+       1344.0
+      ]
+     },
+     {
+      "label": "Preferred stock, $.01 par value Authorized – 100 million shares, Issued – none",
+      "full": "Commitments and contingencies (Note 15) Shareholders’ equity Preferred stock, $.01 par value Authorized – 100 million shares, Issued – none",
+      "vals": [
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Common stock, $.01 par value Authorized – 3.6 billion shares, Issued – 2.6 billion shares",
+      "full": "Common stock, $.01 par value Authorized – 3.6 billion shares, Issued – 2.6 billion shares",
+      "vals": [
+       27038.0,
+       26546.0
+      ]
+     },
+     {
+      "label": "Retained earnings",
+      "full": "Retained earnings",
+      "vals": [
+       31033.0,
+       28413.0
+      ]
+     },
+     {
+      "label": "Accumulated other comprehensive loss",
+      "full": "Accumulated other comprehensive loss",
+      "vals": [
+       -1644.0,
+       -81.0
+      ]
+     },
+     {
+      "label": "Shareholders’ equity 合计",
+      "full": "Shareholders’ equity 合计",
+      "vals": [
+       56427.0,
+       54878.0
+      ]
+     },
+     {
+      "label": "Treasury stock, at cost, 781.7 million shares at October 3, 2009 and 777.1 million shares at September 27, 2008",
+      "full": "Treasury stock, at cost, 781.7 million shares at October 3, 2009 and 777.1 million shares at September 27, 2008",
+      "vals": [
+       -22693.0,
+       -22555.0
+      ]
+     },
+     {
+      "label": "Shareholders’ equity 合计",
+      "full": "Shareholders’ equity 合计",
+      "vals": [
+       33734.0,
+       32323.0
+      ]
+     },
+     {
+      "label": "Shareholders’ equity 合计",
+      "full": "Shareholders’ equity 合计",
+      "vals": [
+       63117.0,
+       62497.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2009",
+     "2008"
+    ],
+    "score": 3,
+    "offset": 858156,
+    "rows": [
+     {
+      "label": "Cash and cash equivalents",
+      "full": "ASSETS Current assets Cash and cash equivalents",
+      "vals": [
+       3417.0,
+       3001.0
+      ]
+     },
+     {
+      "label": "Receivables",
+      "full": "Receivables",
+      "vals": [
+       4854.0,
+       5373.0
+      ]
+     },
+     {
+      "label": "Inventories",
+      "full": "Inventories",
+      "vals": [
+       1271.0,
+       1124.0
+      ]
+     },
+     {
+      "label": "Television costs",
+      "full": "Television costs",
+      "vals": [
+       631.0,
+       541.0
+      ]
+     },
+     {
+      "label": "Deferred income taxes",
+      "full": "Deferred income taxes",
+      "vals": [
+       1140.0,
+       1024.0
+      ]
+     },
+     {
+      "label": "Other current assets",
+      "full": "Other current assets",
+      "vals": [
+       576.0,
+       603.0
+      ]
+     },
+     {
+      "label": "Total current assets",
+      "full": "Total current assets",
+      "vals": [
+       11889.0,
+       11666.0
+      ]
+     },
+     {
+      "label": "Film and television costs",
+      "full": "Film and television costs",
+      "vals": [
+       5125.0,
+       5394.0
+      ]
+     },
+     {
+      "label": "Investments",
+      "full": "Investments",
+      "vals": [
+       2554.0,
+       2249.0
+      ]
+     },
+     {
+      "label": "Parks, resorts and other property, at cost Attractions, buildings and equipment",
+      "full": "Parks, resorts and other property, at cost Attractions, buildings and equipment",
+      "vals": [
+       32475.0,
+       31493.0
+      ]
+     },
+     {
+      "label": "Accumulated depreciation",
+      "full": "Accumulated depreciation",
+      "vals": [
+       -17395.0,
+       -16310.0
+      ]
+     },
+     {
+      "label": "Current assets 合计",
+      "full": "Current assets 合计",
+      "vals": [
+       15080.0,
+       15183.0
+      ]
+     },
+     {
+      "label": "Projects in progress",
+      "full": "Projects in progress",
+      "vals": [
+       1350.0,
+       1169.0
+      ]
+     },
+     {
+      "label": "Land",
+      "full": "Land",
+      "vals": [
+       1167.0,
+       1180.0
+      ]
+     },
+     {
+      "label": "Current assets 合计",
+      "full": "Current assets 合计",
+      "vals": [
+       17597.0,
+       17532.0
+      ]
+     },
+     {
+      "label": "Intangible assets, net",
+      "full": "Intangible assets, net",
+      "vals": [
+       2247.0,
+       2428.0
+      ]
+     },
+     {
+      "label": "Goodwill",
+      "full": "Goodwill",
+      "vals": [
+       21683.0,
+       21465.0
+      ]
+     },
+     {
+      "label": "Other assets",
+      "full": "Other assets",
+      "vals": [
+       2022.0,
+       1763.0
+      ]
+     },
+     {
+      "label": "Current assets 合计",
+      "full": "Current assets 合计",
+      "vals": [
+       63117.0,
+       62497.0
+      ]
+     },
+     {
+      "label": "Accounts payable and other accrued liabilities",
+      "full": "LIABILITIES AND SHAREHOLDERS’ EQUITY Current liabilities Accounts payable and other accrued liabilities",
+      "vals": [
+       5616.0,
+       5980.0
+      ]
+     },
+     {
+      "label": "Current portion of borrowings",
+      "full": "Current portion of borrowings",
+      "vals": [
+       1206.0,
+       3529.0
+      ]
+     },
+     {
+      "label": "Unearned royalties and other advances",
+      "full": "Unearned royalties and other advances",
+      "vals": [
+       2112.0,
+       2082.0
+      ]
+     },
+     {
+      "label": "Total current liabilities",
+      "full": "Total current liabilities",
+      "vals": [
+       8934.0,
+       11591.0
+      ]
+     },
+     {
+      "label": "Borrowings",
+      "full": "Borrowings",
+      "vals": [
+       11495.0,
+       11110.0
+      ]
+     },
+     {
+      "label": "Deferred income taxes",
+      "full": "Deferred income taxes",
+      "vals": [
+       1819.0,
+       2350.0
+      ]
+     },
+     {
+      "label": "Other long-term liabilities",
+      "full": "Other long-term liabilities",
+      "vals": [
+       5444.0,
+       3779.0
+      ]
+     },
+     {
+      "label": "Minority interests",
+      "full": "Minority interests",
+      "vals": [
+       1691.0,
+       1344.0
+      ]
+     },
+     {
+      "label": "Preferred stock, $.01 par value Authorized – 100 million shares, Issued – none",
+      "full": "Commitments and contingencies (Note 15) Shareholders’ equity Preferred stock, $.01 par value Authorized – 100 million shares, Issued – none",
+      "vals": [
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Common stock, $.01 par value Authorized – 3.6 billion shares, Issued – 2.6 billion shares",
+      "full": "Common stock, $.01 par value Authorized – 3.6 billion shares, Issued – 2.6 billion shares",
+      "vals": [
+       27038.0,
+       26546.0
+      ]
+     },
+     {
+      "label": "Retained earnings",
+      "full": "Retained earnings",
+      "vals": [
+       31033.0,
+       28413.0
+      ]
+     },
+     {
+      "label": "Accumulated other comprehensive loss",
+      "full": "Accumulated other comprehensive loss",
+      "vals": [
+       -1644.0,
+       -81.0
+      ]
+     },
+     {
+      "label": "Shareholders’ equity 合计",
+      "full": "Shareholders’ equity 合计",
+      "vals": [
+       56427.0,
+       54878.0
+      ]
+     },
+     {
+      "label": "Treasury stock, at cost, 781.7 million shares at October 3, 2009 and 777.1 million shares at September 27, 2008",
+      "full": "Treasury stock, at cost, 781.7 million shares at October 3, 2009 and 777.1 million shares at September 27, 2008",
+      "vals": [
+       -22693.0,
+       -22555.0
+      ]
+     },
+     {
+      "label": "Shareholders’ equity 合计",
+      "full": "Shareholders’ equity 合计",
+      "vals": [
+       33734.0,
+       32323.0
+      ]
+     },
+     {
+      "label": "Shareholders’ equity 合计",
+      "full": "Shareholders’ equity 合计",
+      "vals": [
+       63117.0,
+       62497.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [],
+    "score": 3,
+    "offset": 1289645,
+    "rows": [
+     {
+      "label": "Cash and cash equivalents",
+      "full": "Before Euro Disney and Hong Kong Disneyland Consolidation Cash and cash equivalents",
+      "vals": [
+       2811.0,
+       606.0,
+       3417.0
+      ]
+     },
+     {
+      "label": "Other current assets",
+      "full": "Other current assets",
+      "vals": [
+       8218.0,
+       254.0,
+       8472.0
+      ]
+     },
+     {
+      "label": "Total current assets",
+      "full": "Total current assets",
+      "vals": [
+       11029.0,
+       860.0,
+       11889.0
+      ]
+     },
+     {
+      "label": "Investments",
+      "full": "Investments",
+      "vals": [
+       3600.0,
+       -1046.0,
+       2554.0
+      ]
+     },
+     {
+      "label": "Fixed assets",
+      "full": "Fixed assets",
+      "vals": [
+       13080.0,
+       4517.0,
+       17597.0
+      ]
+     },
+     {
+      "label": "Other assets",
+      "full": "Other assets",
+      "vals": [
+       31009.0,
+       68.0,
+       31077.0
+      ]
+     },
+     {
+      "label": "Total assets",
+      "full": "Total assets",
+      "vals": [
+       58718.0,
+       4399.0,
+       63117.0
+      ]
+     },
+     {
+      "label": "Current portion of borrowings",
+      "full": "Current portion of borrowings",
+      "vals": [
+       1075.0,
+       131.0,
+       1206.0
+      ]
+     },
+     {
+      "label": "Other current liabilities",
+      "full": "Other current liabilities",
+      "vals": [
+       7178.0,
+       550.0,
+       7728.0
+      ]
+     },
+     {
+      "label": "Total current liabilities",
+      "full": "Total current liabilities",
+      "vals": [
+       8253.0,
+       681.0,
+       8934.0
+      ]
+     },
+     {
+      "label": "Borrowings",
+      "full": "Borrowings",
+      "vals": [
+       8758.0,
+       2737.0,
+       11495.0
+      ]
+     },
+     {
+      "label": "Deferred income taxes and other long-term liabilities",
+      "full": "Deferred income taxes and other long-term liabilities",
+      "vals": [
+       7084.0,
+       179.0,
+       7263.0
+      ]
+     },
+     {
+      "label": "Minority interests",
+      "full": "Minority interests",
+      "vals": [
+       889.0,
+       802.0,
+       1691.0
+      ]
+     },
+     {
+      "label": "Shareholders’ equity",
+      "full": "Shareholders’ equity",
+      "vals": [
+       33734.0,
+       null,
+       33734.0
+      ]
+     },
+     {
+      "label": "Total liabilities and shareholders’ equity",
+      "full": "Total liabilities and shareholders’ equity",
+      "vals": [
+       58718.0,
+       4399.0,
+       63117.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2009",
+     "2008",
+     "2007"
+    ],
+    "score": 2,
+    "offset": 894474,
+    "rows": [
+     {
+      "label": "Net income",
+      "full": "OPERATING ACTIVITIES OF CONTINUING OPERATIONS Net income",
+      "vals": [
+       3307.0,
+       4427.0,
+       4687.0
+      ]
+     },
+     {
+      "label": "Income from discontinued operations",
+      "full": "Income from discontinued operations",
+      "vals": [
+       null,
+       null,
+       -13.0
+      ]
+     },
+     {
+      "label": "Depreciation and amortization",
+      "full": "Depreciation and amortization",
+      "vals": [
+       1631.0,
+       1582.0,
+       1491.0
+      ]
+     },
+     {
+      "label": "Gains on sales of equity investments and businesses",
+      "full": "Gains on sales of equity investments and businesses",
+      "vals": [
+       -342.0,
+       -14.0,
+       -1052.0
+      ]
+     },
+     {
+      "label": "Deferred income taxes",
+      "full": "Deferred income taxes",
+      "vals": [
+       323.0,
+       -128.0,
+       -137.0
+      ]
+     },
+     {
+      "label": "Equity in the income of investees",
+      "full": "Equity in the income of investees",
+      "vals": [
+       -577.0,
+       -581.0,
+       -485.0
+      ]
+     },
+     {
+      "label": "Cash distributions received from equity investees",
+      "full": "Cash distributions received from equity investees",
+      "vals": [
+       505.0,
+       476.0,
+       420.0
+      ]
+     },
+     {
+      "label": "Minority interests",
+      "full": "Minority interests",
+      "vals": [
+       302.0,
+       302.0,
+       177.0
+      ]
+     },
+     {
+      "label": "Net change in film and television costs",
+      "full": "Net change in film and television costs",
+      "vals": [
+       -43.0,
+       -301.0,
+       115.0
+      ]
+     },
+     {
+      "label": "Equity-based compensation",
+      "full": "Equity-based compensation",
+      "vals": [
+       457.0,
+       402.0,
+       419.0
+      ]
+     },
+     {
+      "label": "Impairment charges",
+      "full": "Impairment charges",
+      "vals": [
+       279.0,
+       39.0,
+       26.0
+      ]
+     },
+     {
+      "label": "Other",
+      "full": "Other",
+      "vals": [
+       -247.0,
+       -209.0,
+       -91.0
+      ]
+     },
+     {
+      "label": "Receivables",
+      "full": "Changes in operating assets and liabilities Receivables",
+      "vals": [
+       468.0,
+       -594.0,
+       -355.0
+      ]
+     },
+     {
+      "label": "Inventories",
+      "full": "Inventories",
+      "vals": [
+       -117.0,
+       -329.0,
+       52.0
+      ]
+     },
+     {
+      "label": "Other assets",
+      "full": "Other assets",
+      "vals": [
+       -565.0,
+       -64.0,
+       9.0
+      ]
+     },
+     {
+      "label": "Accounts payable and other accrued liabilities",
+      "full": "Accounts payable and other accrued liabilities",
+      "vals": [
+       -325.0,
+       488.0,
+       77.0
+      ]
+     },
+     {
+      "label": "Income taxes",
+      "full": "Income taxes",
+      "vals": [
+       8.0,
+       -50.0,
+       58.0
+      ]
+     },
+     {
+      "label": "Cash provided by continuing operations",
+      "full": "Cash provided by continuing operations",
+      "vals": [
+       5064.0,
+       5446.0,
+       5398.0
+      ]
+     },
+     {
+      "label": "Investments in parks, resorts and other property",
+      "full": "INVESTING ACTIVITIES OF CONTINUING OPERATIONS Investments in parks, resorts and other property",
+      "vals": [
+       -1753.0,
+       -1578.0,
+       -1566.0
+      ]
+     },
+     {
+      "label": "Sales of investments",
+      "full": "Sales of investments",
+      "vals": [
+       46.0,
+       70.0,
+       5.0
+      ]
+     },
+     {
+      "label": "Proceeds from sales of equity investments and businesses",
+      "full": "Proceeds from sales of equity investments and businesses",
+      "vals": [
+       185.0,
+       14.0,
+       1530.0
+      ]
+     },
+     {
+      "label": "Acquisitions",
+      "full": "Acquisitions",
+      "vals": [
+       -517.0,
+       -660.0,
+       -608.0
+      ]
+     },
+     {
+      "label": "Other",
+      "full": "Other",
+      "vals": [
+       -57.0,
+       -8.0,
+       21.0
+      ]
+     },
+     {
+      "label": "Cash used in continuing investing activities",
+      "full": "Cash used in continuing investing activities",
+      "vals": [
+       -2096.0,
+       -2162.0,
+       -618.0
+      ]
+     },
+     {
+      "label": "Commercial paper borrowings, net",
+      "full": "FINANCING ACTIVITIES OF CONTINUING OPERATIONS Commercial paper borrowings, net",
+      "vals": [
+       -1985.0,
+       -701.0,
+       1847.0
+      ]
+     },
+     {
+      "label": "Borrowings",
+      "full": "Borrowings",
+      "vals": [
+       1750.0,
+       1706.0,
+       3143.0
+      ]
+     },
+     {
+      "label": "Reduction of borrowings",
+      "full": "Reduction of borrowings",
+      "vals": [
+       -1617.0,
+       -477.0,
+       -2294.0
+      ]
+     },
+     {
+      "label": "Dividends",
+      "full": "Dividends",
+      "vals": [
+       -648.0,
+       -664.0,
+       -637.0
+      ]
+     },
+     {
+      "label": "Repurchases of common stock",
+      "full": "Repurchases of common stock",
+      "vals": [
+       -138.0,
+       -4453.0,
+       -6923.0
+      ]
+     },
+     {
+      "label": "Exercise of stock options and other",
+      "full": "Exercise of stock options and other",
+      "vals": [
+       86.0,
+       636.0,
+       1245.0
+      ]
+     },
+     {
+      "label": "Cash used in continuing financing activities",
+      "full": "Cash used in continuing financing activities",
+      "vals": [
+       -2552.0,
+       -3953.0,
+       -3619.0
+      ]
+     },
+     {
+      "label": "Net cash provided by operating activities of discontinued operations",
+      "full": "CASH FLOWS OF DISCONTINUED OPERATIONS Net cash provided by operating activities of discontinued operations",
+      "vals": [
+       null,
+       null,
+       23.0
+      ]
+     },
+     {
+      "label": "Net cash used in investing activities of discontinued operations",
+      "full": "Net cash used in investing activities of discontinued operations",
+      "vals": [
+       null,
+       null,
+       -3.0
+      ]
+     },
+     {
+      "label": "Net cash provided by financing activities of discontinued operations",
+      "full": "Net cash provided by financing activities of discontinued operations",
+      "vals": [
+       null,
+       null,
+       78.0
+      ]
+     },
+     {
+      "label": "Increase/(decrease) in cash and cash equivalents",
+      "full": "Increase/(decrease) in cash and cash equivalents",
+      "vals": [
+       416.0,
+       -669.0,
+       1259.0
+      ]
+     },
+     {
+      "label": "Cash and cash equivalents, beginning of year",
+      "full": "Cash and cash equivalents, beginning of year",
+      "vals": [
+       3001.0,
+       3670.0,
+       2411.0
+      ]
+     },
+     {
+      "label": "Cash and cash equivalents, end of year",
+      "full": "Cash and cash equivalents, end of year",
+      "vals": [
+       3417.0,
+       3001.0,
+       3670.0
+      ]
+     },
+     {
+      "label": "Interest paid",
+      "full": "Supplemental disclosure of cash flow information: Interest paid",
+      "vals": [
+       485.0,
+       555.0,
+       551.0
+      ]
+     },
+     {
+      "label": "Income taxes paid",
+      "full": "Income taxes paid",
+      "vals": [
+       1609.0,
+       2768.0,
+       2796.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2009",
+     "2008"
+    ],
+    "score": 0,
+    "offset": 1807475,
+    "rows": [
+     {
+      "label": "Investments",
+      "full": "Asset/(Liability) Investments",
+      "vals": [
+       78.0,
+       78.0,
+       74.0,
+       74.0
+      ]
+     },
+     {
+      "label": "Borrowings",
+      "full": "Borrowings",
+      "vals": [
+       -12701.0,
+       -12643.0,
+       -14639.0,
+       -14848.0
+      ]
+     },
+     {
+      "label": "Derivative contracts",
+      "full": "Derivative contracts",
+      "vals": [
+       252.0,
+       252.0,
+       224.0,
+       224.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [],
+    "score": 0,
+    "offset": 786414,
+    "rows": [
+     {
+      "label": "*",
+      "full": "*",
+      "vals": [
+       906.0
+      ]
+     }
+    ]
+   }
+  ],
+  "CF": [
+   {
+    "periods": [
+     "2009",
+     "2008",
+     "2007"
+    ],
+    "score": 3,
+    "offset": 811794,
+    "rows": [
+     {
+      "label": "Revenues",
+      "full": "Revenues",
+      "vals": [
+       36149.0,
+       37843.0,
+       35510.0
+      ]
+     },
+     {
+      "label": "Costs and expenses",
+      "full": "Costs and expenses",
+      "vals": [
+       -30452.0,
+       -30400.0,
+       -28655.0
+      ]
+     },
+     {
+      "label": "Restructuring and impairment charges",
+      "full": "Restructuring and impairment charges",
+      "vals": [
+       -492.0,
+       -39.0,
+       -26.0
+      ]
+     },
+     {
+      "label": "Other income (expense)",
+      "full": "Other income (expense)",
+      "vals": [
+       342.0,
+       -59.0,
+       1004.0
+      ]
+     },
+     {
+      "label": "Net interest expense",
+      "full": "Net interest expense",
+      "vals": [
+       -466.0,
+       -524.0,
+       -593.0
+      ]
+     },
+     {
+      "label": "Equity in the income of investees",
+      "full": "Equity in the income of investees",
+      "vals": [
+       577.0,
+       581.0,
+       485.0
+      ]
+     },
+     {
+      "label": "Income from continuing operations before income taxes and minority interests",
+      "full": "Income from continuing operations before income taxes and minority interests",
+      "vals": [
+       5658.0,
+       7402.0,
+       7725.0
+      ]
+     },
+     {
+      "label": "Income taxes",
+      "full": "Income taxes",
+      "vals": [
+       -2049.0,
+       -2673.0,
+       -2874.0
+      ]
+     },
+     {
+      "label": "Minority interests",
+      "full": "Minority interests",
+      "vals": [
+       -302.0,
+       -302.0,
+       -177.0
+      ]
+     },
+     {
+      "label": "Income from continuing operations",
+      "full": "Income from continuing operations",
+      "vals": [
+       3307.0,
+       4427.0,
+       4674.0
+      ]
+     },
+     {
+      "label": "Discontinued operations, net of tax",
+      "full": "Discontinued operations, net of tax",
+      "vals": [
+       null,
+       null,
+       13.0
+      ]
+     },
+     {
+      "label": "Net income",
+      "full": "Net income",
+      "vals": [
+       3307.0,
+       4427.0,
+       4687.0
+      ]
+     },
+     {
+      "label": "Earnings per share, continuing operations",
+      "full": "Diluted Earnings per share: Earnings per share, continuing operations",
+      "vals": [
+       1.76,
+       2.28,
+       2.24
+      ]
+     },
+     {
+      "label": "Earnings per share, discontinued operations",
+      "full": "Earnings per share, discontinued operations",
+      "vals": [
+       null,
+       null,
+       0.01
+      ]
+     },
+     {
+      "label": "Earnings per share",
+      "full": "Earnings per share",
+      "vals": [
+       1.76,
+       2.28,
+       2.25
+      ]
+     },
+     {
+      "label": "Earnings per share, continuing operations",
+      "full": "Basic Earnings per share: Earnings per share, continuing operations",
+      "vals": [
+       1.78,
+       2.34,
+       2.33
+      ]
+     },
+     {
+      "label": "Earnings per share, discontinued operations",
+      "full": "Earnings per share, discontinued operations",
+      "vals": [
+       null,
+       null,
+       0.01
+      ]
+     },
+     {
+      "label": "Earnings per share",
+      "full": "Earnings per share",
+      "vals": [
+       1.78,
+       2.34,
+       2.34
+      ]
+     },
+     {
+      "label": "Diluted",
+      "full": "Weighted average number of common and common equivalent shares outstanding: Diluted",
+      "vals": [
+       1875.0,
+       1948.0,
+       2092.0
+      ]
+     },
+     {
+      "label": "Basic",
+      "full": "Basic",
+      "vals": [
+       1856.0,
+       1890.0,
+       2004.0
+      ]
+     },
+     {
+      "label": "Cash and cash equivalents",
+      "full": "ASSETS Current assets Cash and cash equivalents",
+      "vals": [
+       3417.0,
+       3001.0
+      ]
+     },
+     {
+      "label": "Receivables",
+      "full": "Receivables",
+      "vals": [
+       4854.0,
+       5373.0
+      ]
+     },
+     {
+      "label": "Inventories",
+      "full": "Inventories",
+      "vals": [
+       1271.0,
+       1124.0
+      ]
+     },
+     {
+      "label": "Television costs",
+      "full": "Television costs",
+      "vals": [
+       631.0,
+       541.0
+      ]
+     },
+     {
+      "label": "Deferred income taxes",
+      "full": "Deferred income taxes",
+      "vals": [
+       1140.0,
+       1024.0
+      ]
+     },
+     {
+      "label": "Other current assets",
+      "full": "Other current assets",
+      "vals": [
+       576.0,
+       603.0
+      ]
+     },
+     {
+      "label": "Total current assets",
+      "full": "Total current assets",
+      "vals": [
+       11889.0,
+       11666.0
+      ]
+     },
+     {
+      "label": "Film and television costs",
+      "full": "Film and television costs",
+      "vals": [
+       5125.0,
+       5394.0
+      ]
+     },
+     {
+      "label": "Investments",
+      "full": "Investments",
+      "vals": [
+       2554.0,
+       2249.0
+      ]
+     },
+     {
+      "label": "Parks, resorts and other property, at cost Attractions, buildings and equipment",
+      "full": "Parks, resorts and other property, at cost Attractions, buildings and equipment",
+      "vals": [
+       32475.0,
+       31493.0
+      ]
+     },
+     {
+      "label": "Accumulated depreciation",
+      "full": "Accumulated depreciation",
+      "vals": [
+       -17395.0,
+       -16310.0
+      ]
+     },
+     {
+      "label": "Current assets 合计",
+      "full": "Current assets 合计",
+      "vals": [
+       15080.0,
+       15183.0
+      ]
+     },
+     {
+      "label": "Projects in progress",
+      "full": "Projects in progress",
+      "vals": [
+       1350.0,
+       1169.0
+      ]
+     },
+     {
+      "label": "Land",
+      "full": "Land",
+      "vals": [
+       1167.0,
+       1180.0
+      ]
+     },
+     {
+      "label": "Current assets 合计",
+      "full": "Current assets 合计",
+      "vals": [
+       17597.0,
+       17532.0
+      ]
+     },
+     {
+      "label": "Intangible assets, net",
+      "full": "Intangible assets, net",
+      "vals": [
+       2247.0,
+       2428.0
+      ]
+     },
+     {
+      "label": "Goodwill",
+      "full": "Goodwill",
+      "vals": [
+       21683.0,
+       21465.0
+      ]
+     },
+     {
+      "label": "Other assets",
+      "full": "Other assets",
+      "vals": [
+       2022.0,
+       1763.0
+      ]
+     },
+     {
+      "label": "Current assets 合计",
+      "full": "Current assets 合计",
+      "vals": [
+       63117.0,
+       62497.0
+      ]
+     },
+     {
+      "label": "Accounts payable and other accrued liabilities",
+      "full": "LIABILITIES AND SHAREHOLDERS’ EQUITY Current liabilities Accounts payable and other accrued liabilities",
+      "vals": [
+       5616.0,
+       5980.0
+      ]
+     },
+     {
+      "label": "Current portion of borrowings",
+      "full": "Current portion of borrowings",
+      "vals": [
+       1206.0,
+       3529.0
+      ]
+     },
+     {
+      "label": "Unearned royalties and other advances",
+      "full": "Unearned royalties and other advances",
+      "vals": [
+       2112.0,
+       2082.0
+      ]
+     },
+     {
+      "label": "Total current liabilities",
+      "full": "Total current liabilities",
+      "vals": [
+       8934.0,
+       11591.0
+      ]
+     },
+     {
+      "label": "Borrowings",
+      "full": "Borrowings",
+      "vals": [
+       11495.0,
+       11110.0
+      ]
+     },
+     {
+      "label": "Deferred income taxes",
+      "full": "Deferred income taxes",
+      "vals": [
+       1819.0,
+       2350.0
+      ]
+     },
+     {
+      "label": "Other long-term liabilities",
+      "full": "Other long-term liabilities",
+      "vals": [
+       5444.0,
+       3779.0
+      ]
+     },
+     {
+      "label": "Minority interests",
+      "full": "Minority interests",
+      "vals": [
+       1691.0,
+       1344.0
+      ]
+     },
+     {
+      "label": "Preferred stock, $.01 par value Authorized – 100 million shares, Issued – none",
+      "full": "Commitments and contingencies (Note 15) Shareholders’ equity Preferred stock, $.01 par value Authorized – 100 million shares, Issued – none",
+      "vals": [
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Common stock, $.01 par value Authorized – 3.6 billion shares, Issued – 2.6 billion shares",
+      "full": "Common stock, $.01 par value Authorized – 3.6 billion shares, Issued – 2.6 billion shares",
+      "vals": [
+       27038.0,
+       26546.0
+      ]
+     },
+     {
+      "label": "Retained earnings",
+      "full": "Retained earnings",
+      "vals": [
+       31033.0,
+       28413.0
+      ]
+     },
+     {
+      "label": "Accumulated other comprehensive loss",
+      "full": "Accumulated other comprehensive loss",
+      "vals": [
+       -1644.0,
+       -81.0
+      ]
+     },
+     {
+      "label": "Shareholders’ equity 合计",
+      "full": "Shareholders’ equity 合计",
+      "vals": [
+       56427.0,
+       54878.0
+      ]
+     },
+     {
+      "label": "Treasury stock, at cost, 781.7 million shares at October 3, 2009 and 777.1 million shares at September 27, 2008",
+      "full": "Treasury stock, at cost, 781.7 million shares at October 3, 2009 and 777.1 million shares at September 27, 2008",
+      "vals": [
+       -22693.0,
+       -22555.0
+      ]
+     },
+     {
+      "label": "Shareholders’ equity 合计",
+      "full": "Shareholders’ equity 合计",
+      "vals": [
+       33734.0,
+       32323.0
+      ]
+     },
+     {
+      "label": "Shareholders’ equity 合计",
+      "full": "Shareholders’ equity 合计",
+      "vals": [
+       63117.0,
+       62497.0
+      ]
+     },
+     {
+      "label": "Net income",
+      "full": "OPERATING ACTIVITIES OF CONTINUING OPERATIONS Net income",
+      "vals": [
+       3307.0,
+       4427.0,
+       4687.0
+      ]
+     },
+     {
+      "label": "Income from discontinued operations",
+      "full": "Income from discontinued operations",
+      "vals": [
+       null,
+       null,
+       -13.0
+      ]
+     },
+     {
+      "label": "Depreciation and amortization",
+      "full": "Depreciation and amortization",
+      "vals": [
+       1631.0,
+       1582.0,
+       1491.0
+      ]
+     },
+     {
+      "label": "Gains on sales of equity investments and businesses",
+      "full": "Gains on sales of equity investments and businesses",
+      "vals": [
+       -342.0,
+       -14.0,
+       -1052.0
+      ]
+     },
+     {
+      "label": "Deferred income taxes",
+      "full": "Deferred income taxes",
+      "vals": [
+       323.0,
+       -128.0,
+       -137.0
+      ]
+     },
+     {
+      "label": "Equity in the income of investees",
+      "full": "Equity in the income of investees",
+      "vals": [
+       -577.0,
+       -581.0,
+       -485.0
+      ]
+     },
+     {
+      "label": "Cash distributions received from equity investees",
+      "full": "Cash distributions received from equity investees",
+      "vals": [
+       505.0,
+       476.0,
+       420.0
+      ]
+     },
+     {
+      "label": "Minority interests",
+      "full": "Minority interests",
+      "vals": [
+       302.0,
+       302.0,
+       177.0
+      ]
+     },
+     {
+      "label": "Net change in film and television costs",
+      "full": "Net change in film and television costs",
+      "vals": [
+       -43.0,
+       -301.0,
+       115.0
+      ]
+     },
+     {
+      "label": "Equity-based compensation",
+      "full": "Equity-based compensation",
+      "vals": [
+       457.0,
+       402.0,
+       419.0
+      ]
+     },
+     {
+      "label": "Impairment charges",
+      "full": "Impairment charges",
+      "vals": [
+       279.0,
+       39.0,
+       26.0
+      ]
+     },
+     {
+      "label": "Other",
+      "full": "Other",
+      "vals": [
+       -247.0,
+       -209.0,
+       -91.0
+      ]
+     },
+     {
+      "label": "Receivables",
+      "full": "Changes in operating assets and liabilities Receivables",
+      "vals": [
+       468.0,
+       -594.0,
+       -355.0
+      ]
+     },
+     {
+      "label": "Inventories",
+      "full": "Inventories",
+      "vals": [
+       -117.0,
+       -329.0,
+       52.0
+      ]
+     },
+     {
+      "label": "Other assets",
+      "full": "Other assets",
+      "vals": [
+       -565.0,
+       -64.0,
+       9.0
+      ]
+     },
+     {
+      "label": "Accounts payable and other accrued liabilities",
+      "full": "Accounts payable and other accrued liabilities",
+      "vals": [
+       -325.0,
+       488.0,
+       77.0
+      ]
+     },
+     {
+      "label": "Income taxes",
+      "full": "Income taxes",
+      "vals": [
+       8.0,
+       -50.0,
+       58.0
+      ]
+     },
+     {
+      "label": "Cash provided by continuing operations",
+      "full": "Cash provided by continuing operations",
+      "vals": [
+       5064.0,
+       5446.0,
+       5398.0
+      ]
+     },
+     {
+      "label": "Investments in parks, resorts and other property",
+      "full": "INVESTING ACTIVITIES OF CONTINUING OPERATIONS Investments in parks, resorts and other property",
+      "vals": [
+       -1753.0,
+       -1578.0,
+       -1566.0
+      ]
+     },
+     {
+      "label": "Sales of investments",
+      "full": "Sales of investments",
+      "vals": [
+       46.0,
+       70.0,
+       5.0
+      ]
+     },
+     {
+      "label": "Proceeds from sales of equity investments and businesses",
+      "full": "Proceeds from sales of equity investments and businesses",
+      "vals": [
+       185.0,
+       14.0,
+       1530.0
+      ]
+     },
+     {
+      "label": "Acquisitions",
+      "full": "Acquisitions",
+      "vals": [
+       -517.0,
+       -660.0,
+       -608.0
+      ]
+     },
+     {
+      "label": "Other",
+      "full": "Other",
+      "vals": [
+       -57.0,
+       -8.0,
+       21.0
+      ]
+     },
+     {
+      "label": "Cash used in continuing investing activities",
+      "full": "Cash used in continuing investing activities",
+      "vals": [
+       -2096.0,
+       -2162.0,
+       -618.0
+      ]
+     },
+     {
+      "label": "Commercial paper borrowings, net",
+      "full": "FINANCING ACTIVITIES OF CONTINUING OPERATIONS Commercial paper borrowings, net",
+      "vals": [
+       -1985.0,
+       -701.0,
+       1847.0
+      ]
+     },
+     {
+      "label": "Borrowings",
+      "full": "Borrowings",
+      "vals": [
+       1750.0,
+       1706.0,
+       3143.0
+      ]
+     },
+     {
+      "label": "Reduction of borrowings",
+      "full": "Reduction of borrowings",
+      "vals": [
+       -1617.0,
+       -477.0,
+       -2294.0
+      ]
+     },
+     {
+      "label": "Dividends",
+      "full": "Dividends",
+      "vals": [
+       -648.0,
+       -664.0,
+       -637.0
+      ]
+     },
+     {
+      "label": "Repurchases of common stock",
+      "full": "Repurchases of common stock",
+      "vals": [
+       -138.0,
+       -4453.0,
+       -6923.0
+      ]
+     },
+     {
+      "label": "Exercise of stock options and other",
+      "full": "Exercise of stock options and other",
+      "vals": [
+       86.0,
+       636.0,
+       1245.0
+      ]
+     },
+     {
+      "label": "Cash used in continuing financing activities",
+      "full": "Cash used in continuing financing activities",
+      "vals": [
+       -2552.0,
+       -3953.0,
+       -3619.0
+      ]
+     },
+     {
+      "label": "Net cash provided by operating activities of discontinued operations",
+      "full": "CASH FLOWS OF DISCONTINUED OPERATIONS Net cash provided by operating activities of discontinued operations",
+      "vals": [
+       null,
+       null,
+       23.0
+      ]
+     },
+     {
+      "label": "Net cash used in investing activities of discontinued operations",
+      "full": "Net cash used in investing activities of discontinued operations",
+      "vals": [
+       null,
+       null,
+       -3.0
+      ]
+     },
+     {
+      "label": "Net cash provided by financing activities of discontinued operations",
+      "full": "Net cash provided by financing activities of discontinued operations",
+      "vals": [
+       null,
+       null,
+       78.0
+      ]
+     },
+     {
+      "label": "Increase/(decrease) in cash and cash equivalents",
+      "full": "Increase/(decrease) in cash and cash equivalents",
+      "vals": [
+       416.0,
+       -669.0,
+       1259.0
+      ]
+     },
+     {
+      "label": "Cash and cash equivalents, beginning of year",
+      "full": "Cash and cash equivalents, beginning of year",
+      "vals": [
+       3001.0,
+       3670.0,
+       2411.0
+      ]
+     },
+     {
+      "label": "Cash and cash equivalents, end of year",
+      "full": "Cash and cash equivalents, end of year",
+      "vals": [
+       3417.0,
+       3001.0,
+       3670.0
+      ]
+     },
+     {
+      "label": "Interest paid",
+      "full": "Supplemental disclosure of cash flow information: Interest paid",
+      "vals": [
+       485.0,
+       555.0,
+       551.0
+      ]
+     },
+     {
+      "label": "Income taxes paid",
+      "full": "Income taxes paid",
+      "vals": [
+       1609.0,
+       2768.0,
+       2796.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2009",
+     "2008",
+     "2007"
+    ],
+    "score": 3,
+    "offset": 894474,
+    "rows": [
+     {
+      "label": "Net income",
+      "full": "OPERATING ACTIVITIES OF CONTINUING OPERATIONS Net income",
+      "vals": [
+       3307.0,
+       4427.0,
+       4687.0
+      ]
+     },
+     {
+      "label": "Income from discontinued operations",
+      "full": "Income from discontinued operations",
+      "vals": [
+       null,
+       null,
+       -13.0
+      ]
+     },
+     {
+      "label": "Depreciation and amortization",
+      "full": "Depreciation and amortization",
+      "vals": [
+       1631.0,
+       1582.0,
+       1491.0
+      ]
+     },
+     {
+      "label": "Gains on sales of equity investments and businesses",
+      "full": "Gains on sales of equity investments and businesses",
+      "vals": [
+       -342.0,
+       -14.0,
+       -1052.0
+      ]
+     },
+     {
+      "label": "Deferred income taxes",
+      "full": "Deferred income taxes",
+      "vals": [
+       323.0,
+       -128.0,
+       -137.0
+      ]
+     },
+     {
+      "label": "Equity in the income of investees",
+      "full": "Equity in the income of investees",
+      "vals": [
+       -577.0,
+       -581.0,
+       -485.0
+      ]
+     },
+     {
+      "label": "Cash distributions received from equity investees",
+      "full": "Cash distributions received from equity investees",
+      "vals": [
+       505.0,
+       476.0,
+       420.0
+      ]
+     },
+     {
+      "label": "Minority interests",
+      "full": "Minority interests",
+      "vals": [
+       302.0,
+       302.0,
+       177.0
+      ]
+     },
+     {
+      "label": "Net change in film and television costs",
+      "full": "Net change in film and television costs",
+      "vals": [
+       -43.0,
+       -301.0,
+       115.0
+      ]
+     },
+     {
+      "label": "Equity-based compensation",
+      "full": "Equity-based compensation",
+      "vals": [
+       457.0,
+       402.0,
+       419.0
+      ]
+     },
+     {
+      "label": "Impairment charges",
+      "full": "Impairment charges",
+      "vals": [
+       279.0,
+       39.0,
+       26.0
+      ]
+     },
+     {
+      "label": "Other",
+      "full": "Other",
+      "vals": [
+       -247.0,
+       -209.0,
+       -91.0
+      ]
+     },
+     {
+      "label": "Receivables",
+      "full": "Changes in operating assets and liabilities Receivables",
+      "vals": [
+       468.0,
+       -594.0,
+       -355.0
+      ]
+     },
+     {
+      "label": "Inventories",
+      "full": "Inventories",
+      "vals": [
+       -117.0,
+       -329.0,
+       52.0
+      ]
+     },
+     {
+      "label": "Other assets",
+      "full": "Other assets",
+      "vals": [
+       -565.0,
+       -64.0,
+       9.0
+      ]
+     },
+     {
+      "label": "Accounts payable and other accrued liabilities",
+      "full": "Accounts payable and other accrued liabilities",
+      "vals": [
+       -325.0,
+       488.0,
+       77.0
+      ]
+     },
+     {
+      "label": "Income taxes",
+      "full": "Income taxes",
+      "vals": [
+       8.0,
+       -50.0,
+       58.0
+      ]
+     },
+     {
+      "label": "Cash provided by continuing operations",
+      "full": "Cash provided by continuing operations",
+      "vals": [
+       5064.0,
+       5446.0,
+       5398.0
+      ]
+     },
+     {
+      "label": "Investments in parks, resorts and other property",
+      "full": "INVESTING ACTIVITIES OF CONTINUING OPERATIONS Investments in parks, resorts and other property",
+      "vals": [
+       -1753.0,
+       -1578.0,
+       -1566.0
+      ]
+     },
+     {
+      "label": "Sales of investments",
+      "full": "Sales of investments",
+      "vals": [
+       46.0,
+       70.0,
+       5.0
+      ]
+     },
+     {
+      "label": "Proceeds from sales of equity investments and businesses",
+      "full": "Proceeds from sales of equity investments and businesses",
+      "vals": [
+       185.0,
+       14.0,
+       1530.0
+      ]
+     },
+     {
+      "label": "Acquisitions",
+      "full": "Acquisitions",
+      "vals": [
+       -517.0,
+       -660.0,
+       -608.0
+      ]
+     },
+     {
+      "label": "Other",
+      "full": "Other",
+      "vals": [
+       -57.0,
+       -8.0,
+       21.0
+      ]
+     },
+     {
+      "label": "Cash used in continuing investing activities",
+      "full": "Cash used in continuing investing activities",
+      "vals": [
+       -2096.0,
+       -2162.0,
+       -618.0
+      ]
+     },
+     {
+      "label": "Commercial paper borrowings, net",
+      "full": "FINANCING ACTIVITIES OF CONTINUING OPERATIONS Commercial paper borrowings, net",
+      "vals": [
+       -1985.0,
+       -701.0,
+       1847.0
+      ]
+     },
+     {
+      "label": "Borrowings",
+      "full": "Borrowings",
+      "vals": [
+       1750.0,
+       1706.0,
+       3143.0
+      ]
+     },
+     {
+      "label": "Reduction of borrowings",
+      "full": "Reduction of borrowings",
+      "vals": [
+       -1617.0,
+       -477.0,
+       -2294.0
+      ]
+     },
+     {
+      "label": "Dividends",
+      "full": "Dividends",
+      "vals": [
+       -648.0,
+       -664.0,
+       -637.0
+      ]
+     },
+     {
+      "label": "Repurchases of common stock",
+      "full": "Repurchases of common stock",
+      "vals": [
+       -138.0,
+       -4453.0,
+       -6923.0
+      ]
+     },
+     {
+      "label": "Exercise of stock options and other",
+      "full": "Exercise of stock options and other",
+      "vals": [
+       86.0,
+       636.0,
+       1245.0
+      ]
+     },
+     {
+      "label": "Cash used in continuing financing activities",
+      "full": "Cash used in continuing financing activities",
+      "vals": [
+       -2552.0,
+       -3953.0,
+       -3619.0
+      ]
+     },
+     {
+      "label": "Net cash provided by operating activities of discontinued operations",
+      "full": "CASH FLOWS OF DISCONTINUED OPERATIONS Net cash provided by operating activities of discontinued operations",
+      "vals": [
+       null,
+       null,
+       23.0
+      ]
+     },
+     {
+      "label": "Net cash used in investing activities of discontinued operations",
+      "full": "Net cash used in investing activities of discontinued operations",
+      "vals": [
+       null,
+       null,
+       -3.0
+      ]
+     },
+     {
+      "label": "Net cash provided by financing activities of discontinued operations",
+      "full": "Net cash provided by financing activities of discontinued operations",
+      "vals": [
+       null,
+       null,
+       78.0
+      ]
+     },
+     {
+      "label": "Increase/(decrease) in cash and cash equivalents",
+      "full": "Increase/(decrease) in cash and cash equivalents",
+      "vals": [
+       416.0,
+       -669.0,
+       1259.0
+      ]
+     },
+     {
+      "label": "Cash and cash equivalents, beginning of year",
+      "full": "Cash and cash equivalents, beginning of year",
+      "vals": [
+       3001.0,
+       3670.0,
+       2411.0
+      ]
+     },
+     {
+      "label": "Cash and cash equivalents, end of year",
+      "full": "Cash and cash equivalents, end of year",
+      "vals": [
+       3417.0,
+       3001.0,
+       3670.0
+      ]
+     },
+     {
+      "label": "Interest paid",
+      "full": "Supplemental disclosure of cash flow information: Interest paid",
+      "vals": [
+       485.0,
+       555.0,
+       551.0
+      ]
+     },
+     {
+      "label": "Income taxes paid",
+      "full": "Income taxes paid",
+      "vals": [
+       1609.0,
+       2768.0,
+       2796.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [],
+    "score": 3,
+    "offset": 1327019,
+    "rows": [
+     {
+      "label": "Cash provided by operations",
+      "full": "Before Euro Disney and Hong Kong Disneyland Consolidation Cash provided by operations",
+      "vals": [
+       4896.0,
+       168.0,
+       5064.0
+      ]
+     },
+     {
+      "label": "Investments in parks, resorts, and other property",
+      "full": "Investments in parks, resorts, and other property",
+      "vals": [
+       -1610.0,
+       -143.0,
+       -1753.0
+      ]
+     },
+     {
+      "label": "Other investing activities",
+      "full": "Other investing activities",
+      "vals": [
+       -726.0,
+       383.0,
+       -343.0
+      ]
+     },
+     {
+      "label": "Cash used in financing activities",
+      "full": "Cash used in financing activities",
+      "vals": [
+       -2057.0,
+       -495.0,
+       -2552.0
+      ]
+     },
+     {
+      "label": "Increase/(decrease) in cash and cash equivalents",
+      "full": "Increase/(decrease) in cash and cash equivalents",
+      "vals": [
+       503.0,
+       -87.0,
+       416.0
+      ]
+     },
+     {
+      "label": "Cash and cash equivalents, beginning of year",
+      "full": "Cash and cash equivalents, beginning of year",
+      "vals": [
+       2308.0,
+       693.0,
+       3001.0
+      ]
+     },
+     {
+      "label": "Cash and cash equivalents, end of year",
+      "full": "Cash and cash equivalents, end of year",
+      "vals": [
+       2811.0,
+       606.0,
+       3417.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2009",
+     "2008",
+     "2007"
+    ],
+    "score": 3,
+    "offset": 564068,
+    "rows": [
+     {
+      "label": "Cash provided by continuing operations",
+      "full": "Cash provided by continuing operations",
+      "vals": [
+       5064.0,
+       5446.0,
+       5398.0
+      ]
+     },
+     {
+      "label": "Cash used by continuing investing activities",
+      "full": "Cash used by continuing investing activities",
+      "vals": [
+       -2096.0,
+       -2162.0,
+       -618.0
+      ]
+     },
+     {
+      "label": "Cash used by continuing financing activities",
+      "full": "Cash used by continuing financing activities",
+      "vals": [
+       -2552.0,
+       -3953.0,
+       -3619.0
+      ]
+     },
+     {
+      "label": "Cash flows from discontinued operations",
+      "full": "Cash flows from discontinued operations",
+      "vals": [
+       null,
+       null,
+       98.0
+      ]
+     },
+     {
+      "label": "Increase/(decrease) in cash and cash equivalents",
+      "full": "Increase/(decrease) in cash and cash equivalents",
+      "vals": [
+       416.0,
+       -669.0,
+       1259.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2009",
+     "2008",
+     "2007",
+     "2006",
+     "2005"
+    ],
+    "score": 2,
+    "offset": 305679,
+    "rows": [
+     {
+      "label": "Revenues",
+      "full": "Statements of income Revenues",
+      "vals": [
+       36149.0,
+       37843.0,
+       35510.0,
+       33747.0,
+       31374.0
+      ]
+     },
+     {
+      "label": "Income from continuing operations before the cumulative effect of accounting changes",
+      "full": "Income from continuing operations before the cumulative effect of accounting changes",
+      "vals": [
+       3307.0,
+       4427.0,
+       4674.0,
+       3304.0,
+       2460.0
+      ]
+     },
+     {
+      "label": "Diluted",
+      "full": "Per common share Earnings from continuing operations before the cumulative effect of accounting changes Diluted",
+      "vals": [
+       1.76,
+       2.28,
+       2.24,
+       1.6,
+       1.19
+      ]
+     },
+     {
+      "label": "Basic",
+      "full": "Basic",
+      "vals": [
+       1.78,
+       2.34,
+       2.33,
+       1.65,
+       1.21
+      ]
+     },
+     {
+      "label": "Dividends",
+      "full": "Dividends",
+      "vals": [
+       0.35,
+       0.35,
+       0.31,
+       0.27,
+       0.24
+      ]
+     },
+     {
+      "label": "Total assets",
+      "full": "Balance sheets Total assets",
+      "vals": [
+       63117.0,
+       62497.0,
+       60928.0,
+       59998.0,
+       53158.0
+      ]
+     },
+     {
+      "label": "Long-term obligations",
+      "full": "Long-term obligations",
+      "vals": [
+       16939.0,
+       14889.0,
+       14916.0,
+       13974.0,
+       14102.0
+      ]
+     },
+     {
+      "label": "Shareholders’ equity",
+      "full": "Shareholders’ equity",
+      "vals": [
+       33734.0,
+       32323.0,
+       30753.0,
+       31820.0,
+       26210.0
+      ]
+     },
+     {
+      "label": "Continuing operating activities",
+      "full": "Statements of cash flows Cash provided (used) by: Continuing operating activities",
+      "vals": [
+       5064.0,
+       5446.0,
+       5398.0,
+       5960.0,
+       4139.0
+      ]
+     },
+     {
+      "label": "Continuing investing activities",
+      "full": "Continuing investing activities",
+      "vals": [
+       -2096.0,
+       -2162.0,
+       -618.0,
+       -220.0,
+       -1682.0
+      ]
+     },
+     {
+      "label": "Continuing financing activities",
+      "full": "Continuing financing activities",
+      "vals": [
+       -2552.0,
+       -3953.0,
+       -3619.0,
+       -5166.0,
+       -2899.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2009",
+     "2008",
+     "2007"
+    ],
+    "score": 0,
+    "offset": 1184563,
+    "rows": [
+     {
+      "label": "Income from continuing operations",
+      "full": "Income from continuing operations",
+      "vals": [
+       3307.0,
+       4427.0,
+       4674.0
+      ]
+     },
+     {
+      "label": "Interest expense on convertible senior notes (net of tax)",
+      "full": "Interest expense on convertible senior notes (net of tax)",
+      "vals": [
+       null,
+       12.0,
+       21.0
+      ]
+     },
+     {
+      "label": "(无标签小计)",
+      "full": "(无标签小计)",
+      "vals": [
+       3307.0,
+       4439.0,
+       4695.0
+      ]
+     },
+     {
+      "label": "Weighted average number of common shares outstanding (basic)",
+      "full": "Weighted average number of common shares outstanding (basic)",
+      "vals": [
+       1856.0,
+       1890.0,
+       2004.0
+      ]
+     },
+     {
+      "label": "Weighted average dilutive impact of equity-based compensations awards",
+      "full": "Weighted average dilutive impact of equity-based compensations awards",
+      "vals": [
+       19.0,
+       34.0,
+       43.0
+      ]
+     },
+     {
+      "label": "Weighted average assumed conversion of convertible senior notes",
+      "full": "Weighted average assumed conversion of convertible senior notes",
+      "vals": [
+       null,
+       24.0,
+       45.0
+      ]
+     },
+     {
+      "label": "Weighted average number of common and common equivalent shares outstanding (diluted)",
+      "full": "Weighted average number of common and common equivalent shares outstanding (diluted)",
+      "vals": [
+       1875.0,
+       1948.0,
+       2092.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [],
+    "score": 0,
+    "offset": 786453,
+    "rows": [
+     {
+      "label": "*",
+      "full": "*",
+      "vals": [
+       906.0
+      ]
+     }
+    ]
+   }
+  ],
+  "SEG": [
+   {
+    "periods": [
+     "2009",
+     "2008",
+     "2007"
+    ],
+    "score": 5,
+    "offset": 1079956,
+    "rows": [
+     {
+      "label": "Cable Networks",
+      "full": "Capital expenditures from continuing operations Media Networks Cable Networks",
+      "vals": [
+       151.0,
+       206.0,
+       127.0
+      ]
+     },
+     {
+      "label": "Broadcasting",
+      "full": "Broadcasting",
+      "vals": [
+       143.0,
+       132.0,
+       106.0
+      ]
+     },
+     {
+      "label": "Domestic",
+      "full": "Parks and Resorts Domestic",
+      "vals": [
+       1039.0,
+       793.0,
+       816.0
+      ]
+     },
+     {
+      "label": "International",
+      "full": "International",
+      "vals": [
+       143.0,
+       140.0,
+       256.0
+      ]
+     },
+     {
+      "label": "Studio Entertainment",
+      "full": "Studio Entertainment",
+      "vals": [
+       135.0,
+       126.0,
+       85.0
+      ]
+     },
+     {
+      "label": "Consumer Products",
+      "full": "Consumer Products",
+      "vals": [
+       46.0,
+       51.0,
+       30.0
+      ]
+     },
+     {
+      "label": "Interactive Media",
+      "full": "Interactive Media",
+      "vals": [
+       21.0,
+       40.0,
+       38.0
+      ]
+     },
+     {
+      "label": "Corporate",
+      "full": "Corporate",
+      "vals": [
+       75.0,
+       90.0,
+       108.0
+      ]
+     },
+     {
+      "label": "Total capital expenditures from continuing operations",
+      "full": "Total capital expenditures from continuing operations",
+      "vals": [
+       1753.0,
+       1578.0,
+       1566.0
+      ]
+     },
+     {
+      "label": "Media Networks",
+      "full": "Depreciation expense from continuing operations Media Networks",
+      "vals": [
+       197.0,
+       179.0,
+       168.0
+      ]
+     },
+     {
+      "label": "Domestic",
+      "full": "Parks and Resorts Domestic",
+      "vals": [
+       822.0,
+       803.0,
+       790.0
+      ]
+     },
+     {
+      "label": "International",
+      "full": "International",
+      "vals": [
+       326.0,
+       342.0,
+       304.0
+      ]
+     },
+     {
+      "label": "Studio Entertainment",
+      "full": "Studio Entertainment",
+      "vals": [
+       50.0,
+       41.0,
+       31.0
+      ]
+     },
+     {
+      "label": "Consumer Products",
+      "full": "Consumer Products",
+      "vals": [
+       29.0,
+       18.0,
+       16.0
+      ]
+     },
+     {
+      "label": "Interactive Media",
+      "full": "Interactive Media",
+      "vals": [
+       28.0,
+       21.0,
+       18.0
+      ]
+     },
+     {
+      "label": "Corporate",
+      "full": "Corporate",
+      "vals": [
+       128.0,
+       123.0,
+       132.0
+      ]
+     },
+     {
+      "label": "Total depreciation expense from continuing operations",
+      "full": "Total depreciation expense from continuing operations",
+      "vals": [
+       1580.0,
+       1527.0,
+       1459.0
+      ]
+     },
+     {
+      "label": "Media Networks",
+      "full": "Identifiable assets (1)(2) Media Networks",
+      "vals": [
+       26936.0,
+       26786.0
+      ]
+     },
+     {
+      "label": "Parks and Resorts",
+      "full": "Parks and Resorts",
+      "vals": [
+       16945.0,
+       16916.0
+      ]
+     },
+     {
+      "label": "Studio Entertainment",
+      "full": "Studio Entertainment",
+      "vals": [
+       11104.0,
+       11123.0
+      ]
+     },
+     {
+      "label": "Consumer Products",
+      "full": "Consumer Products",
+      "vals": [
+       1278.0,
+       1393.0
+      ]
+     },
+     {
+      "label": "Interactive Media",
+      "full": "Interactive Media",
+      "vals": [
+       988.0,
+       987.0
+      ]
+     },
+     {
+      "label": "Corporate (3)",
+      "full": "Corporate (3)",
+      "vals": [
+       5866.0,
+       5292.0
+      ]
+     },
+     {
+      "label": "Total consolidated assets",
+      "full": "Total consolidated assets",
+      "vals": [
+       63117.0,
+       62497.0
+      ]
+     },
+     {
+      "label": "Advertising (4)",
+      "full": "Supplemental revenue data Media Networks Advertising (4)",
+      "vals": [
+       6624.0,
+       7197.0,
+       7112.0
+      ]
+     },
+     {
+      "label": "Affiliate Fees",
+      "full": "Affiliate Fees",
+      "vals": [
+       7407.0,
+       6793.0,
+       6139.0
+      ]
+     },
+     {
+      "label": "Merchandise, food and beverage",
+      "full": "Parks and Resorts Merchandise, food and beverage",
+      "vals": [
+       3445.0,
+       3653.0,
+       3454.0
+      ]
+     },
+     {
+      "label": "Admissions",
+      "full": "Admissions",
+      "vals": [
+       3403.0,
+       3623.0,
+       3342.0
+      ]
+     },
+     {
+      "label": "United States and Canada",
+      "full": "Revenues United States and Canada",
+      "vals": [
+       27508.0,
+       28506.0,
+       27286.0
+      ]
+     },
+     {
+      "label": "Europe",
+      "full": "Europe",
+      "vals": [
+       6012.0,
+       6805.0,
+       5898.0
+      ]
+     },
+     {
+      "label": "Asia Pacific",
+      "full": "Asia Pacific",
+      "vals": [
+       1860.0,
+       1811.0,
+       1732.0
+      ]
+     },
+     {
+      "label": "Latin America and Other",
+      "full": "Latin America and Other",
+      "vals": [
+       769.0,
+       721.0,
+       594.0
+      ]
+     },
+     {
+      "label": "Revenues 合计",
+      "full": "Revenues 合计",
+      "vals": [
+       36149.0,
+       37843.0,
+       35510.0
+      ]
+     },
+     {
+      "label": "United States and Canada",
+      "full": "Segment operating income United States and Canada",
+      "vals": [
+       4923.0,
+       6500.0,
+       6052.0
+      ]
+     },
+     {
+      "label": "Europe",
+      "full": "Europe",
+      "vals": [
+       1158.0,
+       1423.0,
+       1192.0
+      ]
+     },
+     {
+      "label": "Asia Pacific",
+      "full": "Asia Pacific",
+      "vals": [
+       430.0,
+       386.0,
+       437.0
+      ]
+     },
+     {
+      "label": "Latin America and Other",
+      "full": "Latin America and Other",
+      "vals": [
+       161.0,
+       175.0,
+       156.0
+      ]
+     },
+     {
+      "label": "Segment operating income 合计",
+      "full": "Segment operating income 合计",
+      "vals": [
+       6672.0,
+       8484.0,
+       7837.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2009",
+     "2008",
+     "2007"
+    ],
+    "score": 5,
+    "offset": 555523,
+    "rows": [
+     {
+      "label": "Interest expense",
+      "full": "Interest expense",
+      "vals": [
+       -712.0,
+       -746.0,
+       5.0
+      ]
+     },
+     {
+      "label": "Interest and investment income",
+      "full": "Interest and investment income",
+      "vals": [
+       188.0,
+       153.0,
+       23.0
+      ]
+     },
+     {
+      "label": "Net interest expense",
+      "full": "Net interest expense",
+      "vals": [
+       -524.0,
+       -593.0,
+       12.0
+      ]
+     },
+     {
+      "label": "Cash provided by continuing operations",
+      "full": "Cash provided by continuing operations",
+      "vals": [
+       5064.0,
+       5446.0,
+       5398.0
+      ]
+     },
+     {
+      "label": "Cash used by continuing investing activities",
+      "full": "Cash used by continuing investing activities",
+      "vals": [
+       -2096.0,
+       -2162.0,
+       -618.0
+      ]
+     },
+     {
+      "label": "Cash used by continuing financing activities",
+      "full": "Cash used by continuing financing activities",
+      "vals": [
+       -2552.0,
+       -3953.0,
+       -3619.0
+      ]
+     },
+     {
+      "label": "Cash flows from discontinued operations",
+      "full": "Cash flows from discontinued operations",
+      "vals": [
+       null,
+       null,
+       98.0
+      ]
+     },
+     {
+      "label": "Increase/(decrease) in cash and cash equivalents",
+      "full": "Increase/(decrease) in cash and cash equivalents",
+      "vals": [
+       416.0,
+       -669.0,
+       1259.0
+      ]
+     },
+     {
+      "label": "Cable Networks",
+      "full": "Media Networks Cable Networks",
+      "vals": [
+       108.0,
+       89.0,
+       89.0
+      ]
+     },
+     {
+      "label": "Broadcasting",
+      "full": "Broadcasting",
+      "vals": [
+       89.0,
+       90.0,
+       79.0
+      ]
+     },
+     {
+      "label": "Total Media Networks",
+      "full": "Total Media Networks",
+      "vals": [
+       197.0,
+       179.0,
+       168.0
+      ]
+     },
+     {
+      "label": "Domestic",
+      "full": "Parks and Resorts Domestic",
+      "vals": [
+       822.0,
+       803.0,
+       790.0
+      ]
+     },
+     {
+      "label": "International",
+      "full": "International",
+      "vals": [
+       326.0,
+       342.0,
+       304.0
+      ]
+     },
+     {
+      "label": "Total Parks and Resorts",
+      "full": "Total Parks and Resorts",
+      "vals": [
+       1148.0,
+       1145.0,
+       1094.0
+      ]
+     },
+     {
+      "label": "Studio Entertainment",
+      "full": "Studio Entertainment",
+      "vals": [
+       50.0,
+       41.0,
+       31.0
+      ]
+     },
+     {
+      "label": "Consumer Products",
+      "full": "Consumer Products",
+      "vals": [
+       29.0,
+       18.0,
+       16.0
+      ]
+     },
+     {
+      "label": "Interactive Media",
+      "full": "Interactive Media",
+      "vals": [
+       28.0,
+       21.0,
+       18.0
+      ]
+     },
+     {
+      "label": "Corporate",
+      "full": "Corporate",
+      "vals": [
+       128.0,
+       123.0,
+       132.0
+      ]
+     },
+     {
+      "label": "Total depreciation expense from continuing operations",
+      "full": "Total depreciation expense from continuing operations",
+      "vals": [
+       1580.0,
+       1527.0,
+       1459.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2009",
+     "2008",
+     "2007"
+    ],
+    "score": 5,
+    "offset": 574186,
+    "rows": [
+     {
+      "label": "Cable Networks",
+      "full": "Media Networks Cable Networks",
+      "vals": [
+       108.0,
+       89.0,
+       89.0
+      ]
+     },
+     {
+      "label": "Broadcasting",
+      "full": "Broadcasting",
+      "vals": [
+       89.0,
+       90.0,
+       79.0
+      ]
+     },
+     {
+      "label": "Total Media Networks",
+      "full": "Total Media Networks",
+      "vals": [
+       197.0,
+       179.0,
+       168.0
+      ]
+     },
+     {
+      "label": "Domestic",
+      "full": "Parks and Resorts Domestic",
+      "vals": [
+       822.0,
+       803.0,
+       790.0
+      ]
+     },
+     {
+      "label": "International",
+      "full": "International",
+      "vals": [
+       326.0,
+       342.0,
+       304.0
+      ]
+     },
+     {
+      "label": "Total Parks and Resorts",
+      "full": "Total Parks and Resorts",
+      "vals": [
+       1148.0,
+       1145.0,
+       1094.0
+      ]
+     },
+     {
+      "label": "Studio Entertainment",
+      "full": "Studio Entertainment",
+      "vals": [
+       50.0,
+       41.0,
+       31.0
+      ]
+     },
+     {
+      "label": "Consumer Products",
+      "full": "Consumer Products",
+      "vals": [
+       29.0,
+       18.0,
+       16.0
+      ]
+     },
+     {
+      "label": "Interactive Media",
+      "full": "Interactive Media",
+      "vals": [
+       28.0,
+       21.0,
+       18.0
+      ]
+     },
+     {
+      "label": "Corporate",
+      "full": "Corporate",
+      "vals": [
+       128.0,
+       123.0,
+       132.0
+      ]
+     },
+     {
+      "label": "Total depreciation expense from continuing operations",
+      "full": "Total depreciation expense from continuing operations",
+      "vals": [
+       1580.0,
+       1527.0,
+       1459.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2009",
+     "2008",
+     "2007"
+    ],
+    "score": 5,
+    "offset": 612432,
+    "rows": [
+     {
+      "label": "Cable Networks",
+      "full": "Media Networks: Cable Networks",
+      "vals": [
+       151.0,
+       206.0,
+       127.0
+      ]
+     },
+     {
+      "label": "Broadcasting",
+      "full": "Broadcasting",
+      "vals": [
+       143.0,
+       132.0,
+       106.0
+      ]
+     },
+     {
+      "label": "Domestic",
+      "full": "Parks and Resorts: Domestic",
+      "vals": [
+       1039.0,
+       793.0,
+       816.0
+      ]
+     },
+     {
+      "label": "International",
+      "full": "International",
+      "vals": [
+       143.0,
+       140.0,
+       256.0
+      ]
+     },
+     {
+      "label": "Studio Entertainment",
+      "full": "Studio Entertainment",
+      "vals": [
+       135.0,
+       126.0,
+       85.0
+      ]
+     },
+     {
+      "label": "Consumer Products",
+      "full": "Consumer Products",
+      "vals": [
+       46.0,
+       51.0,
+       30.0
+      ]
+     },
+     {
+      "label": "Interactive Media",
+      "full": "Interactive Media",
+      "vals": [
+       21.0,
+       40.0,
+       38.0
+      ]
+     },
+     {
+      "label": "Corporate",
+      "full": "Corporate",
+      "vals": [
+       75.0,
+       90.0,
+       108.0
+      ]
+     },
+     {
+      "label": "Parks and Resorts: 合计",
+      "full": "Parks and Resorts: 合计",
+      "vals": [
+       1753.0,
+       1578.0,
+       1566.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2009",
+     "2008",
+     "2007"
+    ],
+    "score": 4,
+    "offset": 1041388,
+    "rows": [
+     {
+      "label": "Media Networks",
+      "full": "Revenues Media Networks",
+      "vals": [
+       16209.0,
+       15857.0,
+       14913.0
+      ]
+     },
+     {
+      "label": "Parks and Resorts",
+      "full": "Parks and Resorts",
+      "vals": [
+       10667.0,
+       11504.0,
+       10626.0
+      ]
+     },
+     {
+      "label": "Third parties",
+      "full": "Studio Entertainment Third parties",
+      "vals": [
+       6016.0,
+       7167.0,
+       7308.0
+      ]
+     },
+     {
+      "label": "Intersegment",
+      "full": "Intersegment",
+      "vals": [
+       120.0,
+       181.0,
+       183.0
+      ]
+     },
+     {
+      "label": "Studio Entertainment 合计",
+      "full": "Studio Entertainment 合计",
+      "vals": [
+       6136.0,
+       7348.0,
+       7491.0
+      ]
+     },
+     {
+      "label": "Third parties",
+      "full": "Consumer Products Third parties",
+      "vals": [
+       2533.0,
+       2569.0,
+       2140.0
+      ]
+     },
+     {
+      "label": "Intersegment",
+      "full": "Intersegment",
+      "vals": [
+       -108.0,
+       -154.0,
+       -150.0
+      ]
+     },
+     {
+      "label": "Consumer Products 合计",
+      "full": "Consumer Products 合计",
+      "vals": [
+       2425.0,
+       2415.0,
+       1990.0
+      ]
+     },
+     {
+      "label": "Third parties",
+      "full": "Interactive Media Third parties",
+      "vals": [
+       724.0,
+       746.0,
+       523.0
+      ]
+     },
+     {
+      "label": "Intersegment",
+      "full": "Intersegment",
+      "vals": [
+       -12.0,
+       -27.0,
+       -33.0
+      ]
+     },
+     {
+      "label": "Interactive Media 合计",
+      "full": "Interactive Media 合计",
+      "vals": [
+       712.0,
+       719.0,
+       490.0
+      ]
+     },
+     {
+      "label": "Total consolidated revenues",
+      "full": "Total consolidated revenues",
+      "vals": [
+       36149.0,
+       37843.0,
+       35510.0
+      ]
+     },
+     {
+      "label": "Media Networks",
+      "full": "Segment operating income (loss) Media Networks",
+      "vals": [
+       4765.0,
+       4981.0,
+       4534.0
+      ]
+     },
+     {
+      "label": "Parks and Resorts",
+      "full": "Parks and Resorts",
+      "vals": [
+       1418.0,
+       1897.0,
+       1710.0
+      ]
+     },
+     {
+      "label": "Studio Entertainment",
+      "full": "Studio Entertainment",
+      "vals": [
+       175.0,
+       1086.0,
+       1195.0
+      ]
+     },
+     {
+      "label": "Consumer Products",
+      "full": "Consumer Products",
+      "vals": [
+       609.0,
+       778.0,
+       689.0
+      ]
+     },
+     {
+      "label": "Interactive Media",
+      "full": "Interactive Media",
+      "vals": [
+       -295.0,
+       -258.0,
+       -291.0
+      ]
+     },
+     {
+      "label": "Total segment operating income",
+      "full": "Total segment operating income",
+      "vals": [
+       6672.0,
+       8484.0,
+       7837.0
+      ]
+     },
+     {
+      "label": "Segment operating income",
+      "full": "Reconciliation of segment operating income to income from continuing operations before income taxes and minority interests Segment operating income",
+      "vals": [
+       6672.0,
+       8484.0,
+       7837.0
+      ]
+     },
+     {
+      "label": "Corporate and unallocated shared expenses",
+      "full": "Corporate and unallocated shared expenses",
+      "vals": [
+       -398.0,
+       -460.0,
+       -497.0
+      ]
+     },
+     {
+      "label": "Restructuring and impairment charges",
+      "full": "Restructuring and impairment charges",
+      "vals": [
+       -492.0,
+       -39.0,
+       -26.0
+      ]
+     },
+     {
+      "label": "Other income (expense)",
+      "full": "Other income (expense)",
+      "vals": [
+       342.0,
+       -59.0,
+       1004.0
+      ]
+     },
+     {
+      "label": "Net interest expense",
+      "full": "Net interest expense",
+      "vals": [
+       -466.0,
+       -524.0,
+       -593.0
+      ]
+     },
+     {
+      "label": "Income from continuing operations before income taxes and minority interests",
+      "full": "Income from continuing operations before income taxes and minority interests",
+      "vals": [
+       5658.0,
+       7402.0,
+       7725.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2009",
+     "2008",
+     "2007",
+     "2009",
+     "2008",
+     "2008",
+     "2007"
+    ],
+    "score": 4,
+    "offset": 407591,
+    "rows": [
+     {
+      "label": "Media Networks",
+      "full": "% Change Better/(Worse) Revenues: Media Networks",
+      "vals": [
+       16209.0,
+       15857.0,
+       14913.0,
+       2.0,
+       6.0
+      ]
+     },
+     {
+      "label": "Parks and Resorts",
+      "full": "Parks and Resorts",
+      "vals": [
+       10667.0,
+       11504.0,
+       10626.0,
+       -7.0,
+       8.0
+      ]
+     },
+     {
+      "label": "Studio Entertainment",
+      "full": "Studio Entertainment",
+      "vals": [
+       6136.0,
+       7348.0,
+       7491.0,
+       -16.0,
+       -2.0
+      ]
+     },
+     {
+      "label": "Consumer Products",
+      "full": "Consumer Products",
+      "vals": [
+       2425.0,
+       2415.0,
+       1990.0,
+       null,
+       21.0
+      ]
+     },
+     {
+      "label": "Interactive Media",
+      "full": "Interactive Media",
+      "vals": [
+       712.0,
+       719.0,
+       490.0,
+       -1.0,
+       47.0
+      ]
+     },
+     {
+      "label": "%",
+      "full": "%",
+      "vals": [
+       7.0
+      ]
+     },
+     {
+      "label": "Media Networks",
+      "full": "Segment operating income (loss) (1) : Media Networks",
+      "vals": [
+       4765.0,
+       4981.0,
+       4534.0,
+       -4.0,
+       10.0
+      ]
+     },
+     {
+      "label": "Parks and Resorts",
+      "full": "Parks and Resorts",
+      "vals": [
+       1418.0,
+       1897.0,
+       1710.0,
+       -25.0,
+       11.0
+      ]
+     },
+     {
+      "label": "Studio Entertainment",
+      "full": "Studio Entertainment",
+      "vals": [
+       175.0,
+       1086.0,
+       1195.0,
+       -84.0,
+       -9.0
+      ]
+     },
+     {
+      "label": "Consumer Products",
+      "full": "Consumer Products",
+      "vals": [
+       609.0,
+       778.0,
+       689.0,
+       -22.0,
+       13.0
+      ]
+     },
+     {
+      "label": "Interactive Media",
+      "full": "Interactive Media",
+      "vals": [
+       -295.0,
+       -258.0,
+       -291.0,
+       -14.0,
+       11.0
+      ]
+     },
+     {
+      "label": "%",
+      "full": "%",
+      "vals": [
+       8.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2009",
+     "2008"
+    ],
+    "score": 4,
+    "offset": 1147154,
+    "rows": [
+     {
+      "label": "Media Networks",
+      "full": "Media Networks",
+      "vals": [
+       17438.0,
+       17340.0
+      ]
+     },
+     {
+      "label": "Parks and Resorts",
+      "full": "Parks and Resorts",
+      "vals": [
+       172.0,
+       172.0
+      ]
+     },
+     {
+      "label": "Studio Entertainment",
+      "full": "Studio Entertainment",
+      "vals": [
+       5032.0,
+       5021.0
+      ]
+     },
+     {
+      "label": "Consumer Products",
+      "full": "Consumer Products",
+      "vals": [
+       410.0,
+       446.0
+      ]
+     },
+     {
+      "label": "Interactive Media",
+      "full": "Interactive Media",
+      "vals": [
+       650.0,
+       677.0
+      ]
+     },
+     {
+      "label": "Corporate",
+      "full": "Corporate",
+      "vals": [
+       228.0,
+       237.0
+      ]
+     },
+     {
+      "label": "(无标签小计)",
+      "full": "(无标签小计)",
+      "vals": [
+       23930.0,
+       23893.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2009",
+     "2008",
+     "2007"
+    ],
+    "score": 3,
+    "offset": 1030235,
+    "rows": [
+     {
+      "label": "Media Networks (1)",
+      "full": "Media Networks (1)",
+      "vals": [
+       567.0,
+       596.0,
+       484.0
+      ]
+     },
+     {
+      "label": "Studio Entertainment",
+      "full": "Studio Entertainment",
+      "vals": [
+       -4.0,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Consumer Products",
+      "full": "Consumer Products",
+      "vals": [
+       2.0,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Interactive Media",
+      "full": "Interactive Media",
+      "vals": [
+       2.0,
+       -3.0,
+       null
+      ]
+     },
+     {
+      "label": "Corporate",
+      "full": "Corporate",
+      "vals": [
+       10.0,
+       -12.0,
+       1.0
+      ]
+     },
+     {
+      "label": "(无标签小计)",
+      "full": "(无标签小计)",
+      "vals": [
+       577.0,
+       581.0,
+       485.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2009",
+     "2008"
+    ],
+    "score": 2,
+    "offset": 1141442,
+    "rows": [
+     {
+      "label": "Media Networks",
+      "full": "Media Networks",
+      "vals": [
+       2166.0,
+       1861.0
+      ]
+     },
+     {
+      "label": "Studio Entertainment",
+      "full": "Studio Entertainment",
+      "vals": [
+       2.0,
+       6.0
+      ]
+     },
+     {
+      "label": "Corporate",
+      "full": "Corporate",
+      "vals": [
+       5.0,
+       6.0
+      ]
+     },
+     {
+      "label": "(无标签小计)",
+      "full": "(无标签小计)",
+      "vals": [
+       2173.0,
+       1873.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2009",
+     "2008",
+     "2007",
+     "2009",
+     "2008",
+     "2008",
+     "2007"
+    ],
+    "score": 1,
+    "offset": 452530,
+    "rows": [
+     {
+      "label": "Cable Networks",
+      "full": "% Change Better/(Worse) Revenues Cable Networks",
+      "vals": [
+       10555.0,
+       10041.0,
+       9167.0,
+       5.0,
+       10.0
+      ]
+     },
+     {
+      "label": "Broadcasting",
+      "full": "Broadcasting",
+      "vals": [
+       5654.0,
+       5816.0,
+       5746.0,
+       -3.0,
+       1.0
+      ]
+     },
+     {
+      "label": "2 %",
+      "full": "2 %",
+      "vals": [
+       6.0
+      ]
+     },
+     {
+      "label": "Cable Networks",
+      "full": "Segment operating income Cable Networks",
+      "vals": [
+       4260.0,
+       4139.0,
+       3603.0,
+       3.0,
+       15.0
+      ]
+     },
+     {
+      "label": "Broadcasting",
+      "full": "Broadcasting",
+      "vals": [
+       505.0,
+       842.0,
+       931.0,
+       -40.0,
+       -10.0
+      ]
+     },
+     {
+      "label": "(4) %",
+      "full": "(4) %",
+      "vals": [
+       10.0
+      ]
+     },
+     {
+      "label": "Attendance",
+      "full": "East Coast Parks Increase/ (decrease) Attendance",
+      "vals": [
+       null,
+       2.0,
+       7.0,
+       null,
+       2.0,
+       2.0
+      ]
+     },
+     {
+      "label": "Per Capita Guest Spending",
+      "full": "Per Capita Guest Spending",
+      "vals": [
+       -4.0,
+       3.0,
+       -9.0,
+       2.0,
+       -6.0,
+       3.0
+      ]
+     },
+     {
+      "label": "Occupancy",
+      "full": "Hotels (1) Occupancy",
+      "vals": [
+       87.0,
+       90.0,
+       80.0,
+       88.0,
+       87.0,
+       89.0
+      ]
+     },
+     {
+      "label": "Available Room Nights (in thousands)",
+      "full": "Available Room Nights (in thousands)",
+      "vals": [
+       8732.0,
+       8566.0,
+       817.0,
+       801.0,
+       9549.0,
+       9367.0
+      ]
+     },
+     {
+      "label": "Per Room Guest Spending",
+      "full": "Per Room Guest Spending",
+      "vals": [
+       205.0,
+       223.0,
+       315.0,
+       339.0,
+       214.0,
+       233.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [],
+    "score": 1,
+    "offset": 1220240,
+    "rows": [
+     {
+      "label": "Balance at September 29, 2007",
+      "full": "Media Networks Balance at September 29, 2007",
+      "vals": [
+       15456.0,
+       173.0,
+       4788.0,
+       425.0,
+       557.0,
+       21399.0
+      ]
+     },
+     {
+      "label": "Acquisitions",
+      "full": "Acquisitions",
+      "vals": [
+       30.0,
+       null,
+       null,
+       null,
+       61.0,
+       91.0
+      ]
+     },
+     {
+      "label": "Other, net",
+      "full": "Other, net",
+      "vals": [
+       14.0,
+       -1.0,
+       -37.0,
+       -2.0,
+       1.0,
+       -25.0
+      ]
+     },
+     {
+      "label": "Balance at September 27, 2008",
+      "full": "Balance at September 27, 2008",
+      "vals": [
+       15500.0,
+       172.0,
+       4751.0,
+       423.0,
+       619.0,
+       21465.0
+      ]
+     },
+     {
+      "label": "Acquisitions",
+      "full": "Acquisitions",
+      "vals": [
+       258.0,
+       null,
+       null,
+       null,
+       20.0,
+       278.0
+      ]
+     },
+     {
+      "label": "Impairments",
+      "full": "Impairments",
+      "vals": [
+       null,
+       null,
+       null,
+       null,
+       -29.0,
+       -29.0
+      ]
+     },
+     {
+      "label": "Other, net",
+      "full": "Other, net",
+      "vals": [
+       -14.0,
+       null,
+       -14.0,
+       -1.0,
+       -2.0,
+       -31.0
+      ]
+     },
+     {
+      "label": "Balance at October 3, 2009",
+      "full": "Balance at October 3, 2009",
+      "vals": [
+       15744.0,
+       172.0,
+       4737.0,
+       422.0,
+       608.0,
+       21683.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2009",
+     "2008",
+     "2007"
+    ],
+    "score": 0,
+    "offset": 810784,
+    "rows": [
+     {
+      "label": "Revenues",
+      "full": "Revenues",
+      "vals": [
+       36149.0,
+       37843.0,
+       35510.0
+      ]
+     },
+     {
+      "label": "Costs and expenses",
+      "full": "Costs and expenses",
+      "vals": [
+       -30452.0,
+       -30400.0,
+       -28655.0
+      ]
+     },
+     {
+      "label": "Restructuring and impairment charges",
+      "full": "Restructuring and impairment charges",
+      "vals": [
+       -492.0,
+       -39.0,
+       -26.0
+      ]
+     },
+     {
+      "label": "Other income (expense)",
+      "full": "Other income (expense)",
+      "vals": [
+       342.0,
+       -59.0,
+       1004.0
+      ]
+     },
+     {
+      "label": "Net interest expense",
+      "full": "Net interest expense",
+      "vals": [
+       -466.0,
+       -524.0,
+       -593.0
+      ]
+     },
+     {
+      "label": "Equity in the income of investees",
+      "full": "Equity in the income of investees",
+      "vals": [
+       577.0,
+       581.0,
+       485.0
+      ]
+     },
+     {
+      "label": "Income from continuing operations before income taxes and minority interests",
+      "full": "Income from continuing operations before income taxes and minority interests",
+      "vals": [
+       5658.0,
+       7402.0,
+       7725.0
+      ]
+     },
+     {
+      "label": "Income taxes",
+      "full": "Income taxes",
+      "vals": [
+       -2049.0,
+       -2673.0,
+       -2874.0
+      ]
+     },
+     {
+      "label": "Minority interests",
+      "full": "Minority interests",
+      "vals": [
+       -302.0,
+       -302.0,
+       -177.0
+      ]
+     },
+     {
+      "label": "Income from continuing operations",
+      "full": "Income from continuing operations",
+      "vals": [
+       3307.0,
+       4427.0,
+       4674.0
+      ]
+     },
+     {
+      "label": "Discontinued operations, net of tax",
+      "full": "Discontinued operations, net of tax",
+      "vals": [
+       null,
+       null,
+       13.0
+      ]
+     },
+     {
+      "label": "Net income",
+      "full": "Net income",
+      "vals": [
+       3307.0,
+       4427.0,
+       4687.0
+      ]
+     },
+     {
+      "label": "Earnings per share, continuing operations",
+      "full": "Diluted Earnings per share: Earnings per share, continuing operations",
+      "vals": [
+       1.76,
+       2.28,
+       2.24
+      ]
+     },
+     {
+      "label": "Earnings per share, discontinued operations",
+      "full": "Earnings per share, discontinued operations",
+      "vals": [
+       null,
+       null,
+       0.01
+      ]
+     },
+     {
+      "label": "Earnings per share",
+      "full": "Earnings per share",
+      "vals": [
+       1.76,
+       2.28,
+       2.25
+      ]
+     },
+     {
+      "label": "Earnings per share, continuing operations",
+      "full": "Basic Earnings per share: Earnings per share, continuing operations",
+      "vals": [
+       1.78,
+       2.34,
+       2.33
+      ]
+     },
+     {
+      "label": "Earnings per share, discontinued operations",
+      "full": "Earnings per share, discontinued operations",
+      "vals": [
+       null,
+       null,
+       0.01
+      ]
+     },
+     {
+      "label": "Earnings per share",
+      "full": "Earnings per share",
+      "vals": [
+       1.78,
+       2.34,
+       2.34
+      ]
+     },
+     {
+      "label": "Diluted",
+      "full": "Weighted average number of common and common equivalent shares outstanding: Diluted",
+      "vals": [
+       1875.0,
+       1948.0,
+       2092.0
+      ]
+     },
+     {
+      "label": "Basic",
+      "full": "Basic",
+      "vals": [
+       1856.0,
+       1890.0,
+       2004.0
+      ]
+     },
+     {
+      "label": "Cash and cash equivalents",
+      "full": "ASSETS Current assets Cash and cash equivalents",
+      "vals": [
+       3417.0,
+       3001.0
+      ]
+     },
+     {
+      "label": "Receivables",
+      "full": "Receivables",
+      "vals": [
+       4854.0,
+       5373.0
+      ]
+     },
+     {
+      "label": "Inventories",
+      "full": "Inventories",
+      "vals": [
+       1271.0,
+       1124.0
+      ]
+     },
+     {
+      "label": "Television costs",
+      "full": "Television costs",
+      "vals": [
+       631.0,
+       541.0
+      ]
+     },
+     {
+      "label": "Deferred income taxes",
+      "full": "Deferred income taxes",
+      "vals": [
+       1140.0,
+       1024.0
+      ]
+     },
+     {
+      "label": "Other current assets",
+      "full": "Other current assets",
+      "vals": [
+       576.0,
+       603.0
+      ]
+     },
+     {
+      "label": "Total current assets",
+      "full": "Total current assets",
+      "vals": [
+       11889.0,
+       11666.0
+      ]
+     },
+     {
+      "label": "Film and television costs",
+      "full": "Film and television costs",
+      "vals": [
+       5125.0,
+       5394.0
+      ]
+     },
+     {
+      "label": "Investments",
+      "full": "Investments",
+      "vals": [
+       2554.0,
+       2249.0
+      ]
+     },
+     {
+      "label": "Parks, resorts and other property, at cost Attractions, buildings and equipment",
+      "full": "Parks, resorts and other property, at cost Attractions, buildings and equipment",
+      "vals": [
+       32475.0,
+       31493.0
+      ]
+     },
+     {
+      "label": "Accumulated depreciation",
+      "full": "Accumulated depreciation",
+      "vals": [
+       -17395.0,
+       -16310.0
+      ]
+     },
+     {
+      "label": "Current assets 合计",
+      "full": "Current assets 合计",
+      "vals": [
+       15080.0,
+       15183.0
+      ]
+     },
+     {
+      "label": "Projects in progress",
+      "full": "Projects in progress",
+      "vals": [
+       1350.0,
+       1169.0
+      ]
+     },
+     {
+      "label": "Land",
+      "full": "Land",
+      "vals": [
+       1167.0,
+       1180.0
+      ]
+     },
+     {
+      "label": "Current assets 合计",
+      "full": "Current assets 合计",
+      "vals": [
+       17597.0,
+       17532.0
+      ]
+     },
+     {
+      "label": "Intangible assets, net",
+      "full": "Intangible assets, net",
+      "vals": [
+       2247.0,
+       2428.0
+      ]
+     },
+     {
+      "label": "Goodwill",
+      "full": "Goodwill",
+      "vals": [
+       21683.0,
+       21465.0
+      ]
+     },
+     {
+      "label": "Other assets",
+      "full": "Other assets",
+      "vals": [
+       2022.0,
+       1763.0
+      ]
+     },
+     {
+      "label": "Current assets 合计",
+      "full": "Current assets 合计",
+      "vals": [
+       63117.0,
+       62497.0
+      ]
+     },
+     {
+      "label": "Accounts payable and other accrued liabilities",
+      "full": "LIABILITIES AND SHAREHOLDERS’ EQUITY Current liabilities Accounts payable and other accrued liabilities",
+      "vals": [
+       5616.0,
+       5980.0
+      ]
+     },
+     {
+      "label": "Current portion of borrowings",
+      "full": "Current portion of borrowings",
+      "vals": [
+       1206.0,
+       3529.0
+      ]
+     },
+     {
+      "label": "Unearned royalties and other advances",
+      "full": "Unearned royalties and other advances",
+      "vals": [
+       2112.0,
+       2082.0
+      ]
+     },
+     {
+      "label": "Total current liabilities",
+      "full": "Total current liabilities",
+      "vals": [
+       8934.0,
+       11591.0
+      ]
+     },
+     {
+      "label": "Borrowings",
+      "full": "Borrowings",
+      "vals": [
+       11495.0,
+       11110.0
+      ]
+     },
+     {
+      "label": "Deferred income taxes",
+      "full": "Deferred income taxes",
+      "vals": [
+       1819.0,
+       2350.0
+      ]
+     },
+     {
+      "label": "Other long-term liabilities",
+      "full": "Other long-term liabilities",
+      "vals": [
+       5444.0,
+       3779.0
+      ]
+     },
+     {
+      "label": "Minority interests",
+      "full": "Minority interests",
+      "vals": [
+       1691.0,
+       1344.0
+      ]
+     },
+     {
+      "label": "Preferred stock, $.01 par value Authorized – 100 million shares, Issued – none",
+      "full": "Commitments and contingencies (Note 15) Shareholders’ equity Preferred stock, $.01 par value Authorized – 100 million shares, Issued – none",
+      "vals": [
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Common stock, $.01 par value Authorized – 3.6 billion shares, Issued – 2.6 billion shares",
+      "full": "Common stock, $.01 par value Authorized – 3.6 billion shares, Issued – 2.6 billion shares",
+      "vals": [
+       27038.0,
+       26546.0
+      ]
+     },
+     {
+      "label": "Retained earnings",
+      "full": "Retained earnings",
+      "vals": [
+       31033.0,
+       28413.0
+      ]
+     },
+     {
+      "label": "Accumulated other comprehensive loss",
+      "full": "Accumulated other comprehensive loss",
+      "vals": [
+       -1644.0,
+       -81.0
+      ]
+     },
+     {
+      "label": "Shareholders’ equity 合计",
+      "full": "Shareholders’ equity 合计",
+      "vals": [
+       56427.0,
+       54878.0
+      ]
+     },
+     {
+      "label": "Treasury stock, at cost, 781.7 million shares at October 3, 2009 and 777.1 million shares at September 27, 2008",
+      "full": "Treasury stock, at cost, 781.7 million shares at October 3, 2009 and 777.1 million shares at September 27, 2008",
+      "vals": [
+       -22693.0,
+       -22555.0
+      ]
+     },
+     {
+      "label": "Shareholders’ equity 合计",
+      "full": "Shareholders’ equity 合计",
+      "vals": [
+       33734.0,
+       32323.0
+      ]
+     },
+     {
+      "label": "Shareholders’ equity 合计",
+      "full": "Shareholders’ equity 合计",
+      "vals": [
+       63117.0,
+       62497.0
+      ]
+     },
+     {
+      "label": "Net income",
+      "full": "OPERATING ACTIVITIES OF CONTINUING OPERATIONS Net income",
+      "vals": [
+       3307.0,
+       4427.0,
+       4687.0
+      ]
+     },
+     {
+      "label": "Income from discontinued operations",
+      "full": "Income from discontinued operations",
+      "vals": [
+       null,
+       null,
+       -13.0
+      ]
+     },
+     {
+      "label": "Depreciation and amortization",
+      "full": "Depreciation and amortization",
+      "vals": [
+       1631.0,
+       1582.0,
+       1491.0
+      ]
+     },
+     {
+      "label": "Gains on sales of equity investments and businesses",
+      "full": "Gains on sales of equity investments and businesses",
+      "vals": [
+       -342.0,
+       -14.0,
+       -1052.0
+      ]
+     },
+     {
+      "label": "Deferred income taxes",
+      "full": "Deferred income taxes",
+      "vals": [
+       323.0,
+       -128.0,
+       -137.0
+      ]
+     },
+     {
+      "label": "Equity in the income of investees",
+      "full": "Equity in the income of investees",
+      "vals": [
+       -577.0,
+       -581.0,
+       -485.0
+      ]
+     },
+     {
+      "label": "Cash distributions received from equity investees",
+      "full": "Cash distributions received from equity investees",
+      "vals": [
+       505.0,
+       476.0,
+       420.0
+      ]
+     },
+     {
+      "label": "Minority interests",
+      "full": "Minority interests",
+      "vals": [
+       302.0,
+       302.0,
+       177.0
+      ]
+     },
+     {
+      "label": "Net change in film and television costs",
+      "full": "Net change in film and television costs",
+      "vals": [
+       -43.0,
+       -301.0,
+       115.0
+      ]
+     },
+     {
+      "label": "Equity-based compensation",
+      "full": "Equity-based compensation",
+      "vals": [
+       457.0,
+       402.0,
+       419.0
+      ]
+     },
+     {
+      "label": "Impairment charges",
+      "full": "Impairment charges",
+      "vals": [
+       279.0,
+       39.0,
+       26.0
+      ]
+     },
+     {
+      "label": "Other",
+      "full": "Other",
+      "vals": [
+       -247.0,
+       -209.0,
+       -91.0
+      ]
+     },
+     {
+      "label": "Receivables",
+      "full": "Changes in operating assets and liabilities Receivables",
+      "vals": [
+       468.0,
+       -594.0,
+       -355.0
+      ]
+     },
+     {
+      "label": "Inventories",
+      "full": "Inventories",
+      "vals": [
+       -117.0,
+       -329.0,
+       52.0
+      ]
+     },
+     {
+      "label": "Other assets",
+      "full": "Other assets",
+      "vals": [
+       -565.0,
+       -64.0,
+       9.0
+      ]
+     },
+     {
+      "label": "Accounts payable and other accrued liabilities",
+      "full": "Accounts payable and other accrued liabilities",
+      "vals": [
+       -325.0,
+       488.0,
+       77.0
+      ]
+     },
+     {
+      "label": "Income taxes",
+      "full": "Income taxes",
+      "vals": [
+       8.0,
+       -50.0,
+       58.0
+      ]
+     },
+     {
+      "label": "Cash provided by continuing operations",
+      "full": "Cash provided by continuing operations",
+      "vals": [
+       5064.0,
+       5446.0,
+       5398.0
+      ]
+     },
+     {
+      "label": "Investments in parks, resorts and other property",
+      "full": "INVESTING ACTIVITIES OF CONTINUING OPERATIONS Investments in parks, resorts and other property",
+      "vals": [
+       -1753.0,
+       -1578.0,
+       -1566.0
+      ]
+     },
+     {
+      "label": "Sales of investments",
+      "full": "Sales of investments",
+      "vals": [
+       46.0,
+       70.0,
+       5.0
+      ]
+     },
+     {
+      "label": "Proceeds from sales of equity investments and businesses",
+      "full": "Proceeds from sales of equity investments and businesses",
+      "vals": [
+       185.0,
+       14.0,
+       1530.0
+      ]
+     },
+     {
+      "label": "Acquisitions",
+      "full": "Acquisitions",
+      "vals": [
+       -517.0,
+       -660.0,
+       -608.0
+      ]
+     },
+     {
+      "label": "Other",
+      "full": "Other",
+      "vals": [
+       -57.0,
+       -8.0,
+       21.0
+      ]
+     },
+     {
+      "label": "Cash used in continuing investing activities",
+      "full": "Cash used in continuing investing activities",
+      "vals": [
+       -2096.0,
+       -2162.0,
+       -618.0
+      ]
+     },
+     {
+      "label": "Commercial paper borrowings, net",
+      "full": "FINANCING ACTIVITIES OF CONTINUING OPERATIONS Commercial paper borrowings, net",
+      "vals": [
+       -1985.0,
+       -701.0,
+       1847.0
+      ]
+     },
+     {
+      "label": "Borrowings",
+      "full": "Borrowings",
+      "vals": [
+       1750.0,
+       1706.0,
+       3143.0
+      ]
+     },
+     {
+      "label": "Reduction of borrowings",
+      "full": "Reduction of borrowings",
+      "vals": [
+       -1617.0,
+       -477.0,
+       -2294.0
+      ]
+     },
+     {
+      "label": "Dividends",
+      "full": "Dividends",
+      "vals": [
+       -648.0,
+       -664.0,
+       -637.0
+      ]
+     },
+     {
+      "label": "Repurchases of common stock",
+      "full": "Repurchases of common stock",
+      "vals": [
+       -138.0,
+       -4453.0,
+       -6923.0
+      ]
+     },
+     {
+      "label": "Exercise of stock options and other",
+      "full": "Exercise of stock options and other",
+      "vals": [
+       86.0,
+       636.0,
+       1245.0
+      ]
+     },
+     {
+      "label": "Cash used in continuing financing activities",
+      "full": "Cash used in continuing financing activities",
+      "vals": [
+       -2552.0,
+       -3953.0,
+       -3619.0
+      ]
+     },
+     {
+      "label": "Net cash provided by operating activities of discontinued operations",
+      "full": "CASH FLOWS OF DISCONTINUED OPERATIONS Net cash provided by operating activities of discontinued operations",
+      "vals": [
+       null,
+       null,
+       23.0
+      ]
+     },
+     {
+      "label": "Net cash used in investing activities of discontinued operations",
+      "full": "Net cash used in investing activities of discontinued operations",
+      "vals": [
+       null,
+       null,
+       -3.0
+      ]
+     },
+     {
+      "label": "Net cash provided by financing activities of discontinued operations",
+      "full": "Net cash provided by financing activities of discontinued operations",
+      "vals": [
+       null,
+       null,
+       78.0
+      ]
+     },
+     {
+      "label": "Increase/(decrease) in cash and cash equivalents",
+      "full": "Increase/(decrease) in cash and cash equivalents",
+      "vals": [
+       416.0,
+       -669.0,
+       1259.0
+      ]
+     },
+     {
+      "label": "Cash and cash equivalents, beginning of year",
+      "full": "Cash and cash equivalents, beginning of year",
+      "vals": [
+       3001.0,
+       3670.0,
+       2411.0
+      ]
+     },
+     {
+      "label": "Cash and cash equivalents, end of year",
+      "full": "Cash and cash equivalents, end of year",
+      "vals": [
+       3417.0,
+       3001.0,
+       3670.0
+      ]
+     },
+     {
+      "label": "Interest paid",
+      "full": "Supplemental disclosure of cash flow information: Interest paid",
+      "vals": [
+       485.0,
+       555.0,
+       551.0
+      ]
+     },
+     {
+      "label": "Income taxes paid",
+      "full": "Income taxes paid",
+      "vals": [
+       1609.0,
+       2768.0,
+       2796.0
+      ]
+     },
+     {
+      "label": "BALANCE AT SEPTEMBER 30, 2006",
+      "full": "Shares BALANCE AT SEPTEMBER 30, 2006",
+      "vals": [
+       2062.0,
+       22377.0,
+       20630.0,
+       -8.0,
+       -11179.0,
+       31820.0
+      ]
+     },
+     {
+      "label": "Net income",
+      "full": "Net income",
+      "vals": [
+       null,
+       null,
+       4687.0,
+       null,
+       null,
+       4687.0
+      ]
+     },
+     {
+      "label": "Market value adjustments for investments and hedges",
+      "full": "Market value adjustments for investments and hedges",
+      "vals": [
+       null,
+       null,
+       null,
+       -71.0,
+       null,
+       -71.0
+      ]
+     },
+     {
+      "label": "Foreign currency translation and other",
+      "full": "Foreign currency translation and other",
+      "vals": [
+       null,
+       null,
+       null,
+       77.0,
+       null,
+       77.0
+      ]
+     },
+     {
+      "label": "Increase in minimum pension liability adjustment",
+      "full": "Increase in minimum pension liability adjustment",
+      "vals": [
+       null,
+       null,
+       null,
+       106.0,
+       null,
+       106.0
+      ]
+     },
+     {
+      "label": "Comprehensive income",
+      "full": "Comprehensive income",
+      "vals": [
+       4799.0
+      ]
+     },
+     {
+      "label": "Exercise of stock options and issuance of restricted stock and stock options",
+      "full": "Exercise of stock options and issuance of restricted stock and stock options",
+      "vals": [
+       57.0,
+       1823.0,
+       null,
+       null,
+       null,
+       1823.0
+      ]
+     },
+     {
+      "label": "Common stock repurchases",
+      "full": "Common stock repurchases",
+      "vals": [
+       -202.0,
+       null,
+       null,
+       null,
+       -6923.0,
+       -6923.0
+      ]
+     },
+     {
+      "label": "Dividends ($0.31 per share)",
+      "full": "Dividends ($0.31 per share)",
+      "vals": [
+       null,
+       7.0,
+       -644.0,
+       null,
+       null,
+       -637.0
+      ]
+     },
+     {
+      "label": "Adoption of new benefit plan accounting guidance (net of tax of $154 million)",
+      "full": "Adoption of new benefit plan accounting guidance (net of tax of $154 million)",
+      "vals": [
+       null,
+       null,
+       null,
+       -261.0,
+       null,
+       -261.0
+      ]
+     },
+     {
+      "label": "Distribution of ABC Radio business",
+      "full": "Distribution of ABC Radio business",
+      "vals": [
+       null,
+       null,
+       132.0,
+       null,
+       null,
+       132.0
+      ]
+     },
+     {
+      "label": "BALANCE AT SEPTEMBER 29, 2007",
+      "full": "BALANCE AT SEPTEMBER 29, 2007",
+      "vals": [
+       1917.0,
+       24207.0,
+       24805.0,
+       -157.0,
+       -18102.0,
+       30753.0
+      ]
+     },
+     {
+      "label": "Net income",
+      "full": "Net income",
+      "vals": [
+       null,
+       null,
+       4427.0,
+       null,
+       null,
+       4427.0
+      ]
+     },
+     {
+      "label": "Market value adjustments for investments and hedges",
+      "full": "Market value adjustments for investments and hedges",
+      "vals": [
+       null,
+       null,
+       null,
+       120.0,
+       null,
+       120.0
+      ]
+     },
+     {
+      "label": "Foreign currency translation and other",
+      "full": "Foreign currency translation and other",
+      "vals": [
+       null,
+       null,
+       null,
+       -27.0,
+       null,
+       -27.0
+      ]
+     },
+     {
+      "label": "Reclassification of prior losses to net income",
+      "full": "Pension and postretirement medical plan adjustments: Reclassification of prior losses to net income",
+      "vals": [
+       25.0,
+       25.0
+      ]
+     },
+     {
+      "label": "Net actuarial loss",
+      "full": "Net actuarial loss",
+      "vals": [
+       null,
+       null,
+       null,
+       -42.0,
+       null,
+       -42.0
+      ]
+     },
+     {
+      "label": "Comprehensive income",
+      "full": "Comprehensive income",
+      "vals": [
+       4503.0
+      ]
+     },
+     {
+      "label": "Exercise of stock options and issuance of restricted stock and stock options",
+      "full": "Exercise of stock options and issuance of restricted stock and stock options",
+      "vals": [
+       31.0,
+       1012.0,
+       null,
+       null,
+       null,
+       1012.0
+      ]
+     },
+     {
+      "label": "Redemption of convertible senior notes",
+      "full": "Redemption of convertible senior notes",
+      "vals": [
+       45.0,
+       1320.0,
+       null,
+       null,
+       null,
+       1320.0
+      ]
+     },
+     {
+      "label": "Common stock repurchases",
+      "full": "Common stock repurchases",
+      "vals": [
+       -139.0,
+       null,
+       null,
+       null,
+       -4453.0,
+       -4453.0
+      ]
+     },
+     {
+      "label": "Dividends ($0.35 per share)",
+      "full": "Dividends ($0.35 per share)",
+      "vals": [
+       null,
+       7.0,
+       -671.0,
+       null,
+       null,
+       -664.0
+      ]
+     },
+     {
+      "label": "Adoption of new income tax guidance",
+      "full": "Adoption of new income tax guidance",
+      "vals": [
+       null,
+       null,
+       -148.0,
+       null,
+       null,
+       -148.0
+      ]
+     },
+     {
+      "label": "BALANCE AT SEPTEMBER 27, 2008",
+      "full": "BALANCE AT SEPTEMBER 27, 2008",
+      "vals": [
+       1854.0,
+       26546.0,
+       28413.0,
+       -81.0,
+       -22555.0,
+       32323.0
+      ]
+     },
+     {
+      "label": "Net income",
+      "full": "Net income",
+      "vals": [
+       null,
+       null,
+       3307.0,
+       null,
+       null,
+       3307.0
+      ]
+     },
+     {
+      "label": "Market value adjustments for investments and hedges",
+      "full": "Market value adjustments for investments and hedges",
+      "vals": [
+       null,
+       null,
+       null,
+       -57.0,
+       null,
+       -57.0
+      ]
+     },
+     {
+      "label": "Foreign currency translation and other",
+      "full": "Foreign currency translation and other",
+      "vals": [
+       null,
+       null,
+       null,
+       -33.0,
+       null,
+       -33.0
+      ]
+     },
+     {
+      "label": "Reclassification of prior net gains to net income",
+      "full": "Pension and postretirement medical plan adjustments: Reclassification of prior net gains to net income",
+      "vals": [
+       null,
+       null,
+       null,
+       -4.0,
+       null,
+       -4.0
+      ]
+     },
+     {
+      "label": "Net actuarial loss",
+      "full": "Net actuarial loss",
+      "vals": [
+       null,
+       null,
+       null,
+       -1569.0,
+       null,
+       -1569.0
+      ]
+     },
+     {
+      "label": "Comprehensive income",
+      "full": "Comprehensive income",
+      "vals": [
+       1644.0
+      ]
+     },
+     {
+      "label": "Adoption of new pension and postretirement medical plan measurement date and other (net of tax of $37 million)",
+      "full": "Adoption of new pension and postretirement medical plan measurement date and other (net of tax of $37 million)",
+      "vals": [
+       null,
+       null,
+       -32.0,
+       100.0,
+       null,
+       68.0
+      ]
+     },
+     {
+      "label": "Exercise of stock options and issuance of restricted stock and stock options",
+      "full": "Exercise of stock options and issuance of restricted stock and stock options",
+      "vals": [
+       12.0,
+       485.0,
+       null,
+       null,
+       null,
+       485.0
+      ]
+     },
+     {
+      "label": "Common stock repurchases",
+      "full": "Common stock repurchases",
+      "vals": [
+       -5.0,
+       null,
+       null,
+       null,
+       -138.0,
+       -138.0
+      ]
+     },
+     {
+      "label": "Dividends ($0.35 per share)",
+      "full": "Dividends ($0.35 per share)",
+      "vals": [
+       null,
+       7.0,
+       -655.0,
+       null,
+       null,
+       -648.0
+      ]
+     },
+     {
+      "label": "BALANCE AT OCTOBER 3, 2009",
+      "full": "BALANCE AT OCTOBER 3, 2009",
+      "vals": [
+       1861.0,
+       27038.0,
+       31033.0,
+       -1644.0,
+       -22693.0,
+       33734.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [],
+    "score": 0,
+    "offset": 93755,
+    "rows": [
+     {
+      "label": "Market",
+      "full": "Market",
+      "vals": [
+       -1.0
+      ]
+     },
+     {
+      "label": "New York, NY",
+      "full": "New York, NY",
+      "vals": [
+       1.0
+      ]
+     },
+     {
+      "label": "Los Angeles, CA",
+      "full": "Los Angeles, CA",
+      "vals": [
+       2.0
+      ]
+     },
+     {
+      "label": "Chicago, IL",
+      "full": "Chicago, IL",
+      "vals": [
+       3.0
+      ]
+     },
+     {
+      "label": "San Francisco, CA",
+      "full": "San Francisco, CA",
+      "vals": [
+       4.0
+      ]
+     },
+     {
+      "label": "Dallas-Fort Worth, TX",
+      "full": "Dallas-Fort Worth, TX",
+      "vals": [
+       5.0
+      ]
+     },
+     {
+      "label": "Houston, TX",
+      "full": "Houston, TX",
+      "vals": [
+       6.0
+      ]
+     },
+     {
+      "label": "Atlanta, GA",
+      "full": "Atlanta, GA",
+      "vals": [
+       7.0
+      ]
+     },
+     {
+      "label": "Philadelphia, PA",
+      "full": "Philadelphia, PA",
+      "vals": [
+       8.0
+      ]
+     },
+     {
+      "label": "Boston, MA",
+      "full": "Boston, MA",
+      "vals": [
+       10.0
+      ]
+     },
+     {
+      "label": "Detroit, MI",
+      "full": "Detroit, MI",
+      "vals": [
+       11.0
+      ]
+     },
+     {
+      "label": "Miami, FL",
+      "full": "Miami, FL",
+      "vals": [
+       12.0
+      ]
+     },
+     {
+      "label": "Seattle, WA",
+      "full": "Seattle, WA",
+      "vals": [
+       13.0
+      ]
+     },
+     {
+      "label": "Phoenix, AZ",
+      "full": "Phoenix, AZ",
+      "vals": [
+       15.0
+      ]
+     },
+     {
+      "label": "Minneapolis, MN",
+      "full": "Minneapolis, MN",
+      "vals": [
+       16.0
+      ]
+     },
+     {
+      "label": "Tampa, FL",
+      "full": "Tampa, FL",
+      "vals": [
+       19.0
+      ]
+     },
+     {
+      "label": "Denver, CO",
+      "full": "Denver, CO",
+      "vals": [
+       20.0
+      ]
+     },
+     {
+      "label": "St. Louis, MO",
+      "full": "St. Louis, MO",
+      "vals": [
+       21.0
+      ]
+     },
+     {
+      "label": "Portland, OR",
+      "full": "Portland, OR",
+      "vals": [
+       23.0
+      ]
+     },
+     {
+      "label": "Charlotte, NC",
+      "full": "Charlotte, NC",
+      "vals": [
+       24.0
+      ]
+     },
+     {
+      "label": "Sacramento, CA",
+      "full": "Sacramento, CA",
+      "vals": [
+       27.0
+      ]
+     },
+     {
+      "label": "Cleveland, OH",
+      "full": "Cleveland, OH",
+      "vals": [
+       29.0
+      ]
+     },
+     {
+      "label": "Salt Lake City, UT",
+      "full": "Salt Lake City, UT",
+      "vals": [
+       30.0
+      ]
+     },
+     {
+      "label": "San Antonio, TX",
+      "full": "San Antonio, TX",
+      "vals": [
+       31.0
+      ]
+     },
+     {
+      "label": "Kansas City, MO",
+      "full": "Kansas City, MO",
+      "vals": [
+       32.0
+      ]
+     },
+     {
+      "label": "Orlando, FL",
+      "full": "Orlando, FL",
+      "vals": [
+       34.0
+      ]
+     },
+     {
+      "label": "Milwaukee, WI",
+      "full": "Milwaukee, WI",
+      "vals": [
+       37.0
+      ]
+     },
+     {
+      "label": "Indianapolis, IN",
+      "full": "Indianapolis, IN",
+      "vals": [
+       39.0
+      ]
+     },
+     {
+      "label": "Providence, RI",
+      "full": "Providence, RI",
+      "vals": [
+       41.0
+      ]
+     },
+     {
+      "label": "Norfolk, VA",
+      "full": "Norfolk, VA",
+      "vals": [
+       43.0
+      ]
+     },
+     {
+      "label": "Greensboro, NC",
+      "full": "Greensboro, NC",
+      "vals": [
+       45.0
+      ]
+     },
+     {
+      "label": "Jacksonville, FL",
+      "full": "Jacksonville, FL",
+      "vals": [
+       46.0
+      ]
+     },
+     {
+      "label": "West Palm Beach, FL",
+      "full": "West Palm Beach, FL",
+      "vals": [
+       47.0
+      ]
+     },
+     {
+      "label": "Hartford, CT",
+      "full": "Hartford, CT",
+      "vals": [
+       50.0
+      ]
+     },
+     {
+      "label": "New Orleans, LA",
+      "full": "New Orleans, LA",
+      "vals": [
+       52.0
+      ]
+     },
+     {
+      "label": "Louisville, KY",
+      "full": "Louisville, KY",
+      "vals": [
+       54.0
+      ]
+     },
+     {
+      "label": "Richmond, VA",
+      "full": "Richmond, VA",
+      "vals": [
+       55.0
+      ]
+     },
+     {
+      "label": "Albany, NY",
+      "full": "Albany, NY",
+      "vals": [
+       63.0
+      ]
+     },
+     {
+      "label": "Tulsa, OK",
+      "full": "Tulsa, OK",
+      "vals": [
+       65.0
+      ]
+     },
+     {
+      "label": "Albuquerque, NM",
+      "full": "Albuquerque, NM",
+      "vals": [
+       68.0
+      ]
+     },
+     {
+      "label": "Little Rock, AR",
+      "full": "Little Rock, AR",
+      "vals": [
+       85.0
+      ]
+     },
+     {
+      "label": "Wichita, KS",
+      "full": "Wichita, KS",
+      "vals": [
+       98.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2008",
+     "2007",
+     "2008",
+     "2007",
+     "2008",
+     "2007"
+    ],
+    "score": 0,
+    "offset": 507201,
+    "rows": [
+     {
+      "label": "Interest expense",
+      "full": "Interest expense",
+      "vals": [
+       -588.0,
+       -712.0,
+       17.0
+      ]
+     },
+     {
+      "label": "Interest and investment income",
+      "full": "Interest and investment income",
+      "vals": [
+       122.0,
+       188.0,
+       -35.0
+      ]
+     },
+     {
+      "label": "Net interest expense",
+      "full": "Net interest expense",
+      "vals": [
+       -466.0,
+       -524.0,
+       11.0
+      ]
+     },
+     {
+      "label": "(无标签小计)",
+      "full": "(无标签小计)",
+      "vals": [
+       2007.0
+      ]
+     },
+     {
+      "label": "Revenues",
+      "full": "Revenues",
+      "vals": [
+       372.0
+      ]
+     },
+     {
+      "label": "Income from discontinued operations before income taxes",
+      "full": "Income from discontinued operations before income taxes",
+      "vals": [
+       45.0
+      ]
+     },
+     {
+      "label": "Income from discontinued operations, net of tax",
+      "full": "Income from discontinued operations, net of tax",
+      "vals": [
+       13.0
+      ]
+     },
+     {
+      "label": "Diluted EPS, discontinued operations",
+      "full": "Diluted EPS, discontinued operations",
+      "vals": [
+       0.01
+      ]
+     },
+     {
+      "label": "Attendance",
+      "full": "East Coast Parks Increase/(decrease) Attendance",
+      "vals": [
+       2.0,
+       6.0,
+       null,
+       -1.0,
+       2.0,
+       3.0
+      ]
+     },
+     {
+      "label": "Per Capita Guest Spending",
+      "full": "Per Capita Guest Spending",
+      "vals": [
+       3.0,
+       3.0,
+       2.0,
+       2.0,
+       3.0,
+       3.0
+      ]
+     },
+     {
+      "label": "Occupancy",
+      "full": "Hotels (1) Occupancy",
+      "vals": [
+       90.0,
+       89.0,
+       88.0,
+       92.0,
+       89.0,
+       89.0
+      ]
+     },
+     {
+      "label": "Available Room Nights (in thousands)",
+      "full": "Available Room Nights (in thousands)",
+      "vals": [
+       8566.0,
+       8614.0,
+       801.0,
+       810.0,
+       9367.0,
+       9424.0
+      ]
+     },
+     {
+      "label": "Per Room Guest Spending",
+      "full": "Per Room Guest Spending",
+      "vals": [
+       223.0,
+       217.0,
+       339.0,
+       309.0,
+       233.0,
+       225.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [],
+    "score": 0,
+    "offset": 30633,
+    "rows": [
+     {
+      "label": "Market",
+      "full": "Market",
+      "vals": [
+       -1.0
+      ]
+     },
+     {
+      "label": "New York, NY",
+      "full": "New York, NY",
+      "vals": [
+       7.0,
+       1.0
+      ]
+     },
+     {
+      "label": "Los Angeles, CA",
+      "full": "Los Angeles, CA",
+      "vals": [
+       7.0,
+       2.0
+      ]
+     },
+     {
+      "label": "Chicago, IL",
+      "full": "Chicago, IL",
+      "vals": [
+       7.0,
+       3.0
+      ]
+     },
+     {
+      "label": "Philadelphia, PA",
+      "full": "Philadelphia, PA",
+      "vals": [
+       6.0,
+       4.0
+      ]
+     },
+     {
+      "label": "San Francisco, CA",
+      "full": "San Francisco, CA",
+      "vals": [
+       7.0,
+       6.0
+      ]
+     },
+     {
+      "label": "Houston, TX",
+      "full": "Houston, TX",
+      "vals": [
+       13.0,
+       10.0
+      ]
+     },
+     {
+      "label": "Raleigh-Durham, NC",
+      "full": "Raleigh-Durham, NC",
+      "vals": [
+       11.0,
+       27.0
+      ]
+     },
+     {
+      "label": "Fresno, CA",
+      "full": "Fresno, CA",
+      "vals": [
+       30.0,
+       55.0
+      ]
+     },
+     {
+      "label": "Flint, MI",
+      "full": "Flint, MI",
+      "vals": [
+       12.0,
+       66.0
+      ]
+     },
+     {
+      "label": "Toledo, OH",
+      "full": "Toledo, OH",
+      "vals": [
+       13.0,
+       73.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2009",
+     "2008",
+     "2007"
+    ],
+    "score": 0,
+    "offset": 1163294,
+    "rows": [
+     {
+      "label": "Attractions",
+      "full": "Attractions",
+      "vals": [
+       25.0,
+       40.0
+      ]
+     },
+     {
+      "label": "Buildings and improvements",
+      "full": "Buildings and improvements",
+      "vals": [
+       20.0,
+       40.0
+      ]
+     },
+     {
+      "label": "Land improvements",
+      "full": "Leasehold improvements Land improvements",
+      "vals": [
+       20.0,
+       40.0
+      ]
+     },
+     {
+      "label": "Furniture, fixtures and equipment",
+      "full": "Furniture, fixtures and equipment",
+      "vals": [
+       3.0,
+       25.0
+      ]
+     },
+     {
+      "label": "Income from continuing operations",
+      "full": "Income from continuing operations",
+      "vals": [
+       3307.0,
+       4427.0,
+       4674.0
+      ]
+     },
+     {
+      "label": "Interest expense on convertible senior notes (net of tax)",
+      "full": "Interest expense on convertible senior notes (net of tax)",
+      "vals": [
+       null,
+       12.0,
+       21.0
+      ]
+     },
+     {
+      "label": "(无标签小计)",
+      "full": "(无标签小计)",
+      "vals": [
+       3307.0,
+       4439.0,
+       4695.0
+      ]
+     },
+     {
+      "label": "Weighted average number of common shares outstanding (basic)",
+      "full": "Weighted average number of common shares outstanding (basic)",
+      "vals": [
+       1856.0,
+       1890.0,
+       2004.0
+      ]
+     },
+     {
+      "label": "Weighted average dilutive impact of equity-based compensations awards",
+      "full": "Weighted average dilutive impact of equity-based compensations awards",
+      "vals": [
+       19.0,
+       34.0,
+       43.0
+      ]
+     },
+     {
+      "label": "Weighted average assumed conversion of convertible senior notes",
+      "full": "Weighted average assumed conversion of convertible senior notes",
+      "vals": [
+       null,
+       24.0,
+       45.0
+      ]
+     },
+     {
+      "label": "Weighted average number of common and common equivalent shares outstanding (diluted)",
+      "full": "Weighted average number of common and common equivalent shares outstanding (diluted)",
+      "vals": [
+       1875.0,
+       1948.0,
+       2092.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2009",
+     "2008",
+     "2007"
+    ],
+    "score": 0,
+    "offset": 706317,
+    "rows": [
+     {
+      "label": "Risk-free interest rate",
+      "full": "Risk-free interest rate",
+      "vals": [
+       2.0,
+       3.6,
+       4.5
+      ]
+     },
+     {
+      "label": "Expected volatility",
+      "full": "Expected volatility",
+      "vals": [
+       47.0,
+       29.0,
+       26.0
+      ]
+     },
+     {
+      "label": "Dividend yield",
+      "full": "Dividend yield",
+      "vals": [
+       1.19,
+       1.02,
+       0.79
+      ]
+     },
+     {
+      "label": "Termination rate",
+      "full": "Termination rate",
+      "vals": [
+       7.5,
+       7.5,
+       7.4
+      ]
+     },
+     {
+      "label": "Exercise multiple",
+      "full": "Exercise multiple",
+      "vals": [
+       1.39,
+       1.39,
+       1.38
+      ]
+     },
+     {
+      "label": "Year end VAR",
+      "full": "Fiscal Year 2009 Year end VAR",
+      "vals": [
+       24.0,
+       19.0,
+       0.0,
+       34.0
+      ]
+     },
+     {
+      "label": "Average VAR",
+      "full": "Average VAR",
+      "vals": [
+       52.0,
+       23.0,
+       1.0,
+       66.0
+      ]
+     },
+     {
+      "label": "Highest VAR",
+      "full": "Highest VAR",
+      "vals": [
+       86.0,
+       33.0,
+       1.0,
+       100.0
+      ]
+     },
+     {
+      "label": "Lowest VAR",
+      "full": "Lowest VAR",
+      "vals": [
+       24.0,
+       19.0,
+       0.0,
+       34.0
+      ]
+     },
+     {
+      "label": "Beginning of year VAR (year end fiscal 2008)",
+      "full": "Beginning of year VAR (year end fiscal 2008)",
+      "vals": [
+       53.0,
+       24.0,
+       1.0,
+       68.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2009",
+     "2008",
+     "2007"
+    ],
+    "score": 0,
+    "offset": 1251206,
+    "rows": [
+     {
+      "label": "Gain on Lifetime/AETN transaction",
+      "full": "Gain on Lifetime/AETN transaction",
+      "vals": [
+       228.0,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Gain on sale of investment in two pay television services in Latin America",
+      "full": "Gain on sale of investment in two pay television services in Latin America",
+      "vals": [
+       114.0,
+       null,
+       null
+      ]
+     },
+     {
+      "label": "Gain related to the acquisition of the Disney Stores North America",
+      "full": "Gain related to the acquisition of the Disney Stores North America",
+      "vals": [
+       null,
+       18.0,
+       null
+      ]
+     },
+     {
+      "label": "Gain on sale of movies.com",
+      "full": "Gain on sale of movies.com",
+      "vals": [
+       null,
+       14.0,
+       null
+      ]
+     },
+     {
+      "label": "Bad debt charge for Lehman Brothers receivable",
+      "full": "Bad debt charge for Lehman Brothers receivable",
+      "vals": [
+       null,
+       -91.0,
+       null
+      ]
+     },
+     {
+      "label": "Gain on sale of equity investment in E!",
+      "full": "Gain on sale of equity investment in E!",
+      "vals": [
+       null,
+       null,
+       780.0
+      ]
+     },
+     {
+      "label": "Gain on sale of equity investment in Us Weekly",
+      "full": "Gain on sale of equity investment in Us Weekly",
+      "vals": [
+       null,
+       null,
+       272.0
+      ]
+     },
+     {
+      "label": "Equity-based compensation plan modification charge",
+      "full": "Equity-based compensation plan modification charge",
+      "vals": [
+       null,
+       null,
+       -48.0
+      ]
+     },
+     {
+      "label": "Other income (expense)",
+      "full": "Other income (expense)",
+      "vals": [
+       342.0,
+       -59.0,
+       1004.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [
+     "2009",
+     "2008",
+     "2007"
+    ],
+    "score": 0,
+    "offset": 1180377,
+    "rows": [
+     {
+      "label": "Income from continuing operations",
+      "full": "Income from continuing operations",
+      "vals": [
+       3307.0,
+       4427.0,
+       4674.0
+      ]
+     },
+     {
+      "label": "Interest expense on convertible senior notes (net of tax)",
+      "full": "Interest expense on convertible senior notes (net of tax)",
+      "vals": [
+       null,
+       12.0,
+       21.0
+      ]
+     },
+     {
+      "label": "(无标签小计)",
+      "full": "(无标签小计)",
+      "vals": [
+       3307.0,
+       4439.0,
+       4695.0
+      ]
+     },
+     {
+      "label": "Weighted average number of common shares outstanding (basic)",
+      "full": "Weighted average number of common shares outstanding (basic)",
+      "vals": [
+       1856.0,
+       1890.0,
+       2004.0
+      ]
+     },
+     {
+      "label": "Weighted average dilutive impact of equity-based compensations awards",
+      "full": "Weighted average dilutive impact of equity-based compensations awards",
+      "vals": [
+       19.0,
+       34.0,
+       43.0
+      ]
+     },
+     {
+      "label": "Weighted average assumed conversion of convertible senior notes",
+      "full": "Weighted average assumed conversion of convertible senior notes",
+      "vals": [
+       null,
+       24.0,
+       45.0
+      ]
+     },
+     {
+      "label": "Weighted average number of common and common equivalent shares outstanding (diluted)",
+      "full": "Weighted average number of common and common equivalent shares outstanding (diluted)",
+      "vals": [
+       1875.0,
+       1948.0,
+       2092.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [],
+    "score": 0,
+    "offset": 724038,
+    "rows": [
+     {
+      "label": "Year end VAR",
+      "full": "Fiscal Year 2009 Year end VAR",
+      "vals": [
+       24.0,
+       19.0,
+       0.0,
+       34.0
+      ]
+     },
+     {
+      "label": "Average VAR",
+      "full": "Average VAR",
+      "vals": [
+       52.0,
+       23.0,
+       1.0,
+       66.0
+      ]
+     },
+     {
+      "label": "Highest VAR",
+      "full": "Highest VAR",
+      "vals": [
+       86.0,
+       33.0,
+       1.0,
+       100.0
+      ]
+     },
+     {
+      "label": "Lowest VAR",
+      "full": "Lowest VAR",
+      "vals": [
+       24.0,
+       19.0,
+       0.0,
+       34.0
+      ]
+     },
+     {
+      "label": "Beginning of year VAR (year end fiscal 2008)",
+      "full": "Beginning of year VAR (year end fiscal 2008)",
+      "vals": [
+       53.0,
+       24.0,
+       1.0,
+       68.0
+      ]
+     }
+    ]
+   },
+   {
+    "periods": [],
+    "score": 0,
+    "offset": 786370,
+    "rows": [
+     {
+      "label": "*",
+      "full": "*",
+      "vals": [
+       906.0
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

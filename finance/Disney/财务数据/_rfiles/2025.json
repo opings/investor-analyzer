@@ -1,0 +1,1938 @@
+{
+ "key": "2025",
+ "cik": 1744489,
+ "acc": "0001744489-25-000155",
+ "statements": {
+  "IS": {
+   "file": "R3.htm",
+   "short": "CONSOLIDATED STATEMENTS OF INCOME",
+   "unit": "CONSOLIDATED STATEMENTS OF INCOME - USD ($) shares in Millions, $ in Millions",
+   "periods": [
+    "Sep. 27, 2025",
+    "Sep. 28, 2024",
+    "Sep. 30, 2023"
+   ],
+   "months": [
+    12,
+    12,
+    12
+   ],
+   "rows": [
+    {
+     "label": "Revenues",
+     "tag": "us-gaap_Revenues",
+     "vals": [
+      94425.0,
+      91361.0,
+      88898.0
+     ]
+    },
+    {
+     "label": "Selling, general, administrative and other",
+     "tag": "us-gaap_SellingGeneralAndAdministrativeExpense",
+     "vals": [
+      -16501.0,
+      -15759.0,
+      -15336.0
+     ]
+    },
+    {
+     "label": "Depreciation and amortization",
+     "tag": "us-gaap_DepreciationDepletionAndAmortization",
+     "vals": [
+      -5326.0,
+      -4990.0,
+      -5369.0
+     ]
+    },
+    {
+     "label": "Total costs and expenses",
+     "tag": "us-gaap_CostsAndExpenses",
+     "vals": [
+      -80593.0,
+      -79447.0,
+      -79906.0
+     ]
+    },
+    {
+     "label": "Restructuring and impairment charges",
+     "tag": "us-gaap_RestructuringSettlementAndImpairmentProvisions",
+     "vals": [
+      -819.0,
+      -3595.0,
+      -3892.0
+     ]
+    },
+    {
+     "label": "Other income (expense), net",
+     "tag": "us-gaap_NonoperatingIncomeExpense",
+     "vals": [
+      0.0,
+      -65.0,
+      96.0
+     ]
+    },
+    {
+     "label": "Interest expense, net",
+     "tag": "us-gaap_InterestIncomeExpenseNonoperatingNet",
+     "vals": [
+      -1305.0,
+      -1260.0,
+      -1209.0
+     ]
+    },
+    {
+     "label": "Equity in the income of investees",
+     "tag": "us-gaap_IncomeLossFromEquityMethodInvestments",
+     "vals": [
+      295.0,
+      575.0,
+      782.0
+     ]
+    },
+    {
+     "label": "Income before income taxes",
+     "tag": "us-gaap_IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+     "vals": [
+      12003.0,
+      7569.0,
+      4769.0
+     ]
+    },
+    {
+     "label": "Income taxes",
+     "tag": "us-gaap_IncomeTaxExpenseBenefit",
+     "vals": [
+      1428.0,
+      -1796.0,
+      -1379.0
+     ]
+    },
+    {
+     "label": "Net income",
+     "tag": "us-gaap_ProfitLoss",
+     "vals": [
+      13431.0,
+      5773.0,
+      3390.0
+     ]
+    },
+    {
+     "label": "Net income attributable to noncontrolling and redeemable noncontrolling interests",
+     "tag": "us-gaap_IncomeLossFromContinuingOperationsAttributableToNoncontrollingEntity",
+     "vals": [
+      -1027.0,
+      -801.0,
+      -1036.0
+     ]
+    },
+    {
+     "label": "Net income attributable to The Walt Disney Company (Disney)",
+     "tag": "us-gaap_NetIncomeLoss",
+     "vals": [
+      12404.0,
+      4972.0,
+      2354.0
+     ]
+    },
+    {
+     "label": "Earnings per share attributable to Disney",
+     "tag": "us-gaap_EarningsPerShareAbstract",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Diluted",
+     "tag": "us-gaap_EarningsPerShareDiluted",
+     "vals": [
+      6.85,
+      2.72,
+      1.29
+     ]
+    },
+    {
+     "label": "Basic",
+     "tag": "us-gaap_EarningsPerShareBasic",
+     "vals": [
+      6.88,
+      2.72,
+      1.29
+     ]
+    },
+    {
+     "label": "Weighted average number of common and common equivalent shares outstanding:",
+     "tag": "us-gaap_WeightedAverageNumberOfSharesOutstandingAbstract",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Diluted (shares)",
+     "tag": "us-gaap_WeightedAverageNumberOfDilutedSharesOutstanding",
+     "vals": [
+      1811.0,
+      1831.0,
+      1830.0
+     ]
+    },
+    {
+     "label": "Basic (shares)",
+     "tag": "us-gaap_WeightedAverageNumberOfSharesOutstandingBasic",
+     "vals": [
+      1804.0,
+      1825.0,
+      1828.0
+     ]
+    },
+    {
+     "label": "Service",
+     "tag": "srt_ProductOrServiceAxis",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Revenues",
+     "tag": "us-gaap_Revenues",
+     "vals": [
+      84588.0,
+      81841.0,
+      79562.0
+     ]
+    },
+    {
+     "label": "Cost of Product and Service Sold",
+     "tag": "us-gaap_CostOfGoodsAndServicesSold",
+     "vals": [
+      -52677.0,
+      -52509.0,
+      -53139.0
+     ]
+    },
+    {
+     "label": "Product",
+     "tag": "srt_ProductOrServiceAxis",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Revenues",
+     "tag": "us-gaap_Revenues",
+     "vals": [
+      9837.0,
+      9520.0,
+      9336.0
+     ]
+    },
+    {
+     "label": "Cost of Product and Service Sold",
+     "tag": "us-gaap_CostOfGoodsAndServicesSold",
+     "vals": [
+      -6089.0,
+      -6189.0,
+      -6062.0
+     ]
+    },
+    {
+     "label": "[1]",
+     "tag": "",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    }
+   ]
+  },
+  "CI": {
+   "file": "R4.htm",
+   "short": "CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME",
+   "unit": "CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME - USD ($) $ in Millions",
+   "periods": [
+    "Sep. 27, 2025",
+    "Sep. 28, 2024",
+    "Sep. 30, 2023"
+   ],
+   "months": [
+    12,
+    12,
+    12
+   ],
+   "rows": [
+    {
+     "label": "Net income",
+     "tag": "us-gaap_ProfitLoss",
+     "vals": [
+      13431.0,
+      5773.0,
+      3390.0
+     ]
+    },
+    {
+     "label": "Other comprehensive income (loss), net of tax:",
+     "tag": "us-gaap_OtherComprehensiveIncomeLossNetOfTaxPeriodIncreaseDecreaseAbstract",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Market value adjustments, primarily for hedges",
+     "tag": "us-gaap_OtherComprehensiveIncomeLossCashFlowHedgeGainLossAfterReclassificationAndTax",
+     "vals": [
+      -181.0,
+      -443.0,
+      -430.0
+     ]
+    },
+    {
+     "label": "Pension and postretirement medical plan adjustments",
+     "tag": "us-gaap_OtherComprehensiveIncomeLossPensionAndOtherPostretirementBenefitPlansAdjustmentNetOfTax",
+     "vals": [
+      257.0,
+      -57.0,
+      1214.0
+     ]
+    },
+    {
+     "label": "Foreign currency translation and other",
+     "tag": "us-gaap_OtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationAdjustmentNetOfTax",
+     "vals": [
+      672.0,
+      177.0,
+      10.0
+     ]
+    },
+    {
+     "label": "Other comprehensive income (loss)",
+     "tag": "us-gaap_OtherComprehensiveIncomeLossNetOfTax",
+     "vals": [
+      748.0,
+      -323.0,
+      794.0
+     ]
+    },
+    {
+     "label": "Comprehensive income",
+     "tag": "us-gaap_ComprehensiveIncomeNetOfTaxIncludingPortionAttributableToNoncontrollingInterest",
+     "vals": [
+      14179.0,
+      5450.0,
+      4184.0
+     ]
+    },
+    {
+     "label": "Net income attributable to noncontrolling interests",
+     "tag": "us-gaap_NetIncomeLossAttributableToNoncontrollingInterest",
+     "vals": [
+      -1027.0,
+      -801.0,
+      -1036.0
+     ]
+    },
+    {
+     "label": "Other comprehensive income (loss) attributable to noncontrolling interests",
+     "tag": "us-gaap_OtherComprehensiveIncomeLossNetOfTaxPortionAttributableToNoncontrollingInterest",
+     "vals": [
+      37.0,
+      -84.0,
+      33.0
+     ]
+    },
+    {
+     "label": "Comprehensive income attributable to Disney",
+     "tag": "us-gaap_ComprehensiveIncomeNetOfTax",
+     "vals": [
+      13189.0,
+      4565.0,
+      3181.0
+     ]
+    }
+   ]
+  },
+  "BS": {
+   "file": "R5.htm",
+   "short": "CONSOLIDATED BALANCE SHEETS",
+   "unit": "CONSOLIDATED BALANCE SHEETS - USD ($) $ in Millions",
+   "periods": [
+    "Sep. 27, 2025",
+    "Sep. 28, 2024"
+   ],
+   "months": [],
+   "rows": [
+    {
+     "label": "Current assets",
+     "tag": "us-gaap_AssetsCurrentAbstract",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Cash and cash equivalents",
+     "tag": "us-gaap_CashAndCashEquivalentsAtCarryingValue",
+     "vals": [
+      5695.0,
+      6002.0
+     ]
+    },
+    {
+     "label": "Receivables, net",
+     "tag": "us-gaap_ReceivablesNetCurrent",
+     "vals": [
+      13217.0,
+      12729.0
+     ]
+    },
+    {
+     "label": "Inventories",
+     "tag": "us-gaap_InventoryNet",
+     "vals": [
+      2134.0,
+      2022.0
+     ]
+    },
+    {
+     "label": "Content advances",
+     "tag": "dis_LicensedContentCostsAndAdvances",
+     "vals": [
+      2063.0,
+      2097.0
+     ]
+    },
+    {
+     "label": "Other current assets",
+     "tag": "us-gaap_OtherAssetsCurrent",
+     "vals": [
+      1158.0,
+      2391.0
+     ]
+    },
+    {
+     "label": "Total current assets",
+     "tag": "us-gaap_AssetsCurrent",
+     "vals": [
+      24267.0,
+      25241.0
+     ]
+    },
+    {
+     "label": "Produced and licensed content costs",
+     "tag": "dis_ProducedAndLicensedContentCosts",
+     "vals": [
+      31327.0,
+      32312.0
+     ]
+    },
+    {
+     "label": "Investments",
+     "tag": "us-gaap_LongTermInvestments",
+     "vals": [
+      8097.0,
+      4459.0
+     ]
+    },
+    {
+     "label": "Attractions, buildings and equipment",
+     "tag": "dis_ParksResortsAndOtherPropertyGrossExcludingProjectsAndLand",
+     "vals": [
+      82041.0,
+      76674.0
+     ]
+    },
+    {
+     "label": "Accumulated depreciation",
+     "tag": "us-gaap_AccumulatedDepreciationDepletionAndAmortizationPropertyPlantAndEquipment",
+     "vals": [
+      -48889.0,
+      -45506.0
+     ]
+    },
+    {
+     "label": "Parks, resorts and other property, before projects in progress and land, Total",
+     "tag": "dis_ParksResortsAndOtherPropertyAtCostExcludingProjectsAndLand",
+     "vals": [
+      33152.0,
+      31168.0
+     ]
+    },
+    {
+     "label": "Projects in progress",
+     "tag": "us-gaap_ConstructionInProgressGross",
+     "vals": [
+      6911.0,
+      4728.0
+     ]
+    },
+    {
+     "label": "Land",
+     "tag": "us-gaap_Land",
+     "vals": [
+      1192.0,
+      1145.0
+     ]
+    },
+    {
+     "label": "Parks, resorts and other property",
+     "tag": "us-gaap_PropertyPlantAndEquipmentNet",
+     "vals": [
+      41255.0,
+      37041.0
+     ]
+    },
+    {
+     "label": "Intangible assets, net",
+     "tag": "us-gaap_IntangibleAssetsNetExcludingGoodwill",
+     "vals": [
+      9272.0,
+      10739.0
+     ]
+    },
+    {
+     "label": "Goodwill",
+     "tag": "us-gaap_Goodwill",
+     "vals": [
+      73294.0,
+      73326.0
+     ]
+    },
+    {
+     "label": "Other assets",
+     "tag": "us-gaap_OtherAssetsNoncurrent",
+     "vals": [
+      10002.0,
+      13101.0
+     ]
+    },
+    {
+     "label": "Total assets",
+     "tag": "us-gaap_Assets",
+     "vals": [
+      197514.0,
+      196219.0
+     ]
+    },
+    {
+     "label": "Current liabilities",
+     "tag": "us-gaap_LiabilitiesCurrentAbstract",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Accounts payable and other accrued liabilities",
+     "tag": "us-gaap_AccountsPayableAndAccruedLiabilitiesCurrent",
+     "vals": [
+      21203.0,
+      21070.0
+     ]
+    },
+    {
+     "label": "Current portion of borrowings",
+     "tag": "us-gaap_LongTermDebtCurrent",
+     "vals": [
+      6711.0,
+      6845.0
+     ]
+    },
+    {
+     "label": "Deferred revenue and other",
+     "tag": "us-gaap_DeferredRevenueCurrent",
+     "vals": [
+      6248.0,
+      6684.0
+     ]
+    },
+    {
+     "label": "Total current liabilities",
+     "tag": "us-gaap_LiabilitiesCurrent",
+     "vals": [
+      34162.0,
+      34599.0
+     ]
+    },
+    {
+     "label": "Borrowings",
+     "tag": "us-gaap_LongTermDebtNoncurrent",
+     "vals": [
+      35315.0,
+      38970.0
+     ]
+    },
+    {
+     "label": "Deferred income taxes",
+     "tag": "us-gaap_DeferredTaxAndOtherLiabilitiesNoncurrent",
+     "vals": [
+      3524.0,
+      6277.0
+     ]
+    },
+    {
+     "label": "Other long-term liabilities",
+     "tag": "us-gaap_OtherLiabilitiesNoncurrent",
+     "vals": [
+      9901.0,
+      10851.0
+     ]
+    },
+    {
+     "label": "Commitments and contingencies",
+     "tag": "us-gaap_CommitmentsAndContingencies",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Equity",
+     "tag": "us-gaap_StockholdersEquityAbstract",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Preferred stock",
+     "tag": "us-gaap_PreferredStockValue",
+     "vals": [
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "label": "Common stock, $0.01 par value, Authorized – 4.6 billion shares, Issued – 1.9 billion shares",
+     "tag": "us-gaap_CommonStocksIncludingAdditionalPaidInCapital",
+     "vals": [
+      59814.0,
+      58592.0
+     ]
+    },
+    {
+     "label": "Retained earnings",
+     "tag": "us-gaap_RetainedEarningsAccumulatedDeficit",
+     "vals": [
+      60410.0,
+      49722.0
+     ]
+    },
+    {
+     "label": "Accumulated other comprehensive loss",
+     "tag": "us-gaap_AccumulatedOtherComprehensiveIncomeLossNetOfTax",
+     "vals": [
+      -2914.0,
+      -3699.0
+     ]
+    },
+    {
+     "label": "Treasury stock, at cost, 79 million shares at September 27, 2025 and 47 million shares at September 28, 2024",
+     "tag": "us-gaap_TreasuryStockValue",
+     "vals": [
+      -7441.0,
+      -3919.0
+     ]
+    },
+    {
+     "label": "Total Disney Shareholders’ equity",
+     "tag": "us-gaap_StockholdersEquity",
+     "vals": [
+      109869.0,
+      100696.0
+     ]
+    },
+    {
+     "label": "Noncontrolling interests",
+     "tag": "us-gaap_MinorityInterest",
+     "vals": [
+      4743.0,
+      4826.0
+     ]
+    },
+    {
+     "label": "Total equity",
+     "tag": "us-gaap_StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest",
+     "vals": [
+      114612.0,
+      105522.0
+     ]
+    },
+    {
+     "label": "Total liabilities and equity",
+     "tag": "us-gaap_LiabilitiesAndStockholdersEquity",
+     "vals": [
+      197514.0,
+      196219.0
+     ]
+    }
+   ]
+  },
+  "CF": {
+   "file": "R7.htm",
+   "short": "CONSOLIDATED STATEMENTS OF CASH FLOWS",
+   "unit": "CONSOLIDATED STATEMENTS OF CASH FLOWS - USD ($) $ in Millions",
+   "periods": [
+    "Sep. 27, 2025",
+    "Sep. 28, 2024",
+    "Sep. 30, 2023"
+   ],
+   "months": [
+    12,
+    12,
+    12
+   ],
+   "rows": [
+    {
+     "label": "Net income",
+     "tag": "us-gaap_ProfitLoss",
+     "vals": [
+      13431.0,
+      5773.0,
+      3390.0
+     ]
+    },
+    {
+     "label": "OPERATING ACTIVITIES",
+     "tag": "us-gaap_NetCashProvidedByUsedInOperatingActivitiesAbstract",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Depreciation and amortization",
+     "tag": "us-gaap_DepreciationDepletionAndAmortization",
+     "vals": [
+      5326.0,
+      4990.0,
+      5369.0
+     ]
+    },
+    {
+     "label": "Impairments of goodwill, produced and licensed content and other assets",
+     "tag": "us-gaap_GoodwillAndIntangibleAssetImpairment",
+     "vals": [
+      871.0,
+      3511.0,
+      3128.0
+     ]
+    },
+    {
+     "label": "Deferred income taxes",
+     "tag": "us-gaap_DeferredIncomeTaxesAndTaxCredits",
+     "vals": [
+      -2739.0,
+      -821.0,
+      -1346.0
+     ]
+    },
+    {
+     "label": "Equity in the income of investees",
+     "tag": "us-gaap_IncomeLossFromEquityMethodInvestments",
+     "vals": [
+      -295.0,
+      -575.0,
+      -782.0
+     ]
+    },
+    {
+     "label": "Cash distributions received from equity investees",
+     "tag": "us-gaap_EquityMethodInvestmentDividendsOrDistributions",
+     "vals": [
+      145.0,
+      437.0,
+      720.0
+     ]
+    },
+    {
+     "label": "Net change in produced and licensed content costs and advances",
+     "tag": "us-gaap_IncreaseDecreaseInFilmCosts1",
+     "vals": [
+      577.0,
+      1046.0,
+      -1908.0
+     ]
+    },
+    {
+     "label": "Equity-based compensation",
+     "tag": "us-gaap_ShareBasedCompensation",
+     "vals": [
+      1363.0,
+      1366.0,
+      1143.0
+     ]
+    },
+    {
+     "label": "Other, net",
+     "tag": "us-gaap_OtherOperatingActivitiesCashFlowStatement",
+     "vals": [
+      -148.0,
+      -143.0,
+      -25.0
+     ]
+    },
+    {
+     "label": "Changes in operating assets and liabilities",
+     "tag": "us-gaap_IncreaseDecreaseInOperatingCapitalAbstract",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Receivables",
+     "tag": "us-gaap_IncreaseDecreaseInReceivables",
+     "vals": [
+      -283.0,
+      -565.0,
+      358.0
+     ]
+    },
+    {
+     "label": "Inventories",
+     "tag": "us-gaap_IncreaseDecreaseInInventories",
+     "vals": [
+      -114.0,
+      -42.0,
+      -183.0
+     ]
+    },
+    {
+     "label": "Other assets",
+     "tag": "us-gaap_IncreaseDecreaseInOtherOperatingAssets",
+     "vals": [
+      -42.0,
+      265.0,
+      -201.0
+     ]
+    },
+    {
+     "label": "Accounts payable and other liabilities",
+     "tag": "us-gaap_IncreaseDecreaseInAccountsPayableAndAccruedLiabilities",
+     "vals": [
+      237.0,
+      156.0,
+      -1142.0
+     ]
+    },
+    {
+     "label": "Income taxes",
+     "tag": "us-gaap_IncreaseDecreaseInAccruedIncomeTaxesPayable",
+     "vals": [
+      -228.0,
+      -1427.0,
+      1345.0
+     ]
+    },
+    {
+     "label": "Cash provided by operations",
+     "tag": "us-gaap_NetCashProvidedByUsedInOperatingActivities",
+     "vals": [
+      18101.0,
+      13971.0,
+      9866.0
+     ]
+    },
+    {
+     "label": "INVESTING ACTIVITIES",
+     "tag": "us-gaap_NetCashProvidedByUsedInInvestingActivitiesAbstract",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Investments in parks, resorts and other property",
+     "tag": "us-gaap_PaymentsToAcquirePropertyPlantAndEquipment",
+     "vals": [
+      -8024.0,
+      -5412.0,
+      -4969.0
+     ]
+    },
+    {
+     "label": "Proceeds from sales of investments",
+     "tag": "us-gaap_PaymentsForProceedsFromInvestments",
+     "vals": [
+      4.0,
+      105.0,
+      458.0
+     ]
+    },
+    {
+     "label": "Purchase of investments",
+     "tag": "us-gaap_PaymentsToAcquireEquityMethodInvestments",
+     "vals": [
+      -98.0,
+      -1506.0,
+      0.0
+     ]
+    },
+    {
+     "label": "Other, net",
+     "tag": "us-gaap_PaymentsForProceedsFromOtherInvestingActivities",
+     "vals": [
+      75.0,
+      -68.0,
+      -130.0
+     ]
+    },
+    {
+     "label": "Cash used in investing activities",
+     "tag": "us-gaap_NetCashProvidedByUsedInInvestingActivities",
+     "vals": [
+      -8043.0,
+      -6881.0,
+      -4641.0
+     ]
+    },
+    {
+     "label": "FINANCING ACTIVITIES",
+     "tag": "us-gaap_NetCashProvidedByUsedInFinancingActivitiesAbstract",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Commercial paper borrowings (payments), net",
+     "tag": "us-gaap_ProceedsFromRepaymentsOfCommercialPaper",
+     "vals": [
+      -943.0,
+      1532.0,
+      -191.0
+     ]
+    },
+    {
+     "label": "Borrowings",
+     "tag": "us-gaap_ProceedsFromIssuanceOfLongTermDebt",
+     "vals": [
+      1057.0,
+      132.0,
+      83.0
+     ]
+    },
+    {
+     "label": "Reduction of borrowings",
+     "tag": "us-gaap_RepaymentsOfLongTermDebt",
+     "vals": [
+      -3735.0,
+      -3064.0,
+      -1675.0
+     ]
+    },
+    {
+     "label": "Dividends",
+     "tag": "us-gaap_PaymentsOfDividendsCommonStock",
+     "vals": [
+      -1803.0,
+      -1366.0,
+      0.0
+     ]
+    },
+    {
+     "label": "Repurchases of common stock",
+     "tag": "us-gaap_PaymentsForRepurchaseOfCommonStock",
+     "vals": [
+      -3500.0,
+      -2992.0,
+      0.0
+     ]
+    },
+    {
+     "label": "Contributions from noncontrolling interests",
+     "tag": "us-gaap_ProceedsFromMinorityShareholders",
+     "vals": [
+      12.0,
+      9.0,
+      735.0
+     ]
+    },
+    {
+     "label": "Acquisition of redeemable noncontrolling interests",
+     "tag": "dis_PaymentsforPurchaseofNoncontrollingandRedeemableNoncontrollingInterest",
+     "vals": [
+      -439.0,
+      -8610.0,
+      -900.0
+     ]
+    },
+    {
+     "label": "Other, net",
+     "tag": "us-gaap_ProceedsFromPaymentsForOtherFinancingActivities",
+     "vals": [
+      -1015.0,
+      -929.0,
+      -776.0
+     ]
+    },
+    {
+     "label": "Cash used in financing activities",
+     "tag": "us-gaap_NetCashProvidedByUsedInFinancingActivities",
+     "vals": [
+      -10366.0,
+      -15288.0,
+      -2724.0
+     ]
+    },
+    {
+     "label": "Effect of Exchange Rate on Cash, Cash Equivalent, Restricted Cash, and Restricted Cash Equivalent, Including Discontinued Operation",
+     "tag": "us-gaap_EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsIncludingDisposalGroupAndDiscontinuedOperations",
+     "vals": [
+      5.0,
+      65.0,
+      73.0
+     ]
+    },
+    {
+     "label": "Change in Cash, Cash Equivalents and Restricted Cash",
+     "tag": "us-gaap_CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
+     "vals": [
+      -303.0,
+      -8133.0,
+      2574.0
+     ]
+    },
+    {
+     "label": "Cash, cash equivalents and restricted cash, beginning of year",
+     "tag": "us-gaap_CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+     "vals": [
+      6102.0,
+      14235.0,
+      11661.0
+     ]
+    },
+    {
+     "label": "Cash, cash equivalents and restricted cash, end of year",
+     "tag": "us-gaap_CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+     "vals": [
+      5799.0,
+      6102.0,
+      14235.0
+     ]
+    },
+    {
+     "label": "Supplemental disclosure of cash flow information:",
+     "tag": "us-gaap_SupplementalCashFlowInformationAbstract",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Interest paid",
+     "tag": "us-gaap_InterestPaidNet",
+     "vals": [
+      2050.0,
+      2134.0,
+      2110.0
+     ]
+    },
+    {
+     "label": "Income taxes paid",
+     "tag": "us-gaap_IncomeTaxesPaid",
+     "vals": [
+      1221.0,
+      3963.0,
+      1193.0
+     ]
+    }
+   ]
+  },
+  "EQ": {
+   "file": "R8.htm",
+   "short": "CONSOLIDATED STATEMENTS OF SHAREHOLDERS' EQUITY",
+   "unit": "CONSOLIDATED STATEMENTS OF SHAREHOLDERS' EQUITY - USD ($) shares in Thousands, $ in Millions",
+   "periods": [],
+   "months": [],
+   "rows": [
+    {
+     "label": "BEGINNING BALANCE (in shares) at Oct. 01, 2022",
+     "tag": "us-gaap_CommonStockSharesOutstanding",
+     "vals": [
+      null,
+      1824000.0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "BEGINNING BALANCE at Oct. 01, 2022",
+     "tag": "us-gaap_StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest",
+     "vals": [
+      null,
+      56398.0,
+      43636.0,
+      -4119.0,
+      -907.0,
+      95008.0,
+      3871.0,
+      98879.0
+     ]
+    },
+    {
+     "label": "Increase (Decrease) in Stockholders' Equity [Roll Forward]",
+     "tag": "us-gaap_IncreaseDecreaseInStockholdersEquityRollForward",
+     "vals": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Comprehensive income (loss)",
+     "tag": "us-gaap_ComprehensiveIncomeNetOfTaxIncludingPortionAttributableToNoncontrollingInterest",
+     "vals": [
+      4184.0,
+      null,
+      2354.0,
+      827.0,
+      null,
+      3181.0,
+      549.0,
+      3730.0
+     ]
+    },
+    {
+     "label": "Equity compensation activity (in shares)",
+     "tag": "us-gaap_StockIssuedDuringPeriodSharesShareBasedCompensation",
+     "vals": [
+      null,
+      6000.0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Equity compensation activity",
+     "tag": "us-gaap_StockIssuedDuringPeriodValueShareBasedCompensation",
+     "vals": [
+      null,
+      1056.0,
+      null,
+      null,
+      null,
+      1056.0,
+      null,
+      1056.0
+     ]
+    },
+    {
+     "label": "Contributions",
+     "tag": "us-gaap_ProceedsFromMinorityShareholders",
+     "vals": [
+      735.0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      806.0,
+      806.0
+     ]
+    },
+    {
+     "label": "Distributions and other",
+     "tag": "dis_NoncontrollingInterestDecreaseFromDistributionsToNoncontrollingInterestHoldersAndOther",
+     "vals": [
+      null,
+      -71.0,
+      103.0,
+      null,
+      null,
+      32.0,
+      -546.0,
+      -514.0
+     ]
+    },
+    {
+     "label": "ENDING BALANCE (in shares) at Sep. 30, 2023",
+     "tag": "us-gaap_CommonStockSharesOutstanding",
+     "vals": [
+      null,
+      1830000.0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "ENDING BALANCE at Sep. 30, 2023",
+     "tag": "us-gaap_StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest",
+     "vals": [
+      null,
+      57383.0,
+      46093.0,
+      -3292.0,
+      -907.0,
+      99277.0,
+      4680.0,
+      103957.0
+     ]
+    },
+    {
+     "label": "Increase (Decrease) in Stockholders' Equity [Roll Forward]",
+     "tag": "us-gaap_IncreaseDecreaseInStockholdersEquityRollForward",
+     "vals": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Comprehensive income (loss)",
+     "tag": "us-gaap_ComprehensiveIncomeNetOfTaxIncludingPortionAttributableToNoncontrollingInterest",
+     "vals": [
+      5450.0,
+      null,
+      4972.0,
+      -407.0,
+      null,
+      4565.0,
+      730.0,
+      5295.0
+     ]
+    },
+    {
+     "label": "Equity compensation activity (in shares)",
+     "tag": "us-gaap_StockIssuedDuringPeriodSharesShareBasedCompensation",
+     "vals": [
+      null,
+      10000.0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Equity compensation activity",
+     "tag": "us-gaap_StockIssuedDuringPeriodValueShareBasedCompensation",
+     "vals": [
+      null,
+      1195.0,
+      null,
+      null,
+      null,
+      1195.0,
+      null,
+      1195.0
+     ]
+    },
+    {
+     "label": "Dividends",
+     "tag": "us-gaap_DividendsCommonStock",
+     "vals": [
+      null,
+      13.0,
+      -1379.0,
+      null,
+      null,
+      -1366.0,
+      null,
+      -1366.0
+     ]
+    },
+    {
+     "label": "Common stock repurchases (in shares)",
+     "tag": "us-gaap_TreasuryStockSharesAcquired",
+     "vals": [
+      -28000.0,
+      -28000.0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Common stock repurchases",
+     "tag": "us-gaap_TreasuryStockValueAcquiredCostMethod",
+     "vals": [
+      3000.0,
+      null,
+      null,
+      null,
+      -2992.0,
+      -2992.0,
+      null,
+      -2992.0
+     ]
+    },
+    {
+     "label": "Contributions",
+     "tag": "us-gaap_ProceedsFromMinorityShareholders",
+     "vals": [
+      9.0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      9.0,
+      9.0
+     ]
+    },
+    {
+     "label": "Distributions and other",
+     "tag": "dis_NoncontrollingInterestDecreaseFromDistributionsToNoncontrollingInterestHoldersAndOther",
+     "vals": [
+      null,
+      1.0,
+      36.0,
+      null,
+      -20.0,
+      17.0,
+      -593.0,
+      -576.0
+     ]
+    },
+    {
+     "label": "ENDING BALANCE (in shares) at Sep. 28, 2024",
+     "tag": "us-gaap_CommonStockSharesOutstanding",
+     "vals": [
+      1900000.0,
+      1812000.0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "ENDING BALANCE at Sep. 28, 2024",
+     "tag": "us-gaap_StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest",
+     "vals": [
+      105522.0,
+      58592.0,
+      49722.0,
+      -3699.0,
+      -3919.0,
+      100696.0,
+      4826.0,
+      105522.0
+     ]
+    },
+    {
+     "label": "Increase (Decrease) in Stockholders' Equity [Roll Forward]",
+     "tag": "us-gaap_IncreaseDecreaseInStockholdersEquityRollForward",
+     "vals": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Comprehensive income (loss)",
+     "tag": "us-gaap_ComprehensiveIncomeNetOfTaxIncludingPortionAttributableToNoncontrollingInterest",
+     "vals": [
+      14179.0,
+      null,
+      12404.0,
+      785.0,
+      null,
+      13189.0,
+      528.0,
+      13717.0
+     ]
+    },
+    {
+     "label": "Equity compensation activity (in shares)",
+     "tag": "us-gaap_StockIssuedDuringPeriodSharesShareBasedCompensation",
+     "vals": [
+      null,
+      12000.0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Equity compensation activity",
+     "tag": "us-gaap_StockIssuedDuringPeriodValueShareBasedCompensation",
+     "vals": [
+      null,
+      1200.0,
+      null,
+      null,
+      null,
+      1200.0,
+      null,
+      1200.0
+     ]
+    },
+    {
+     "label": "Dividends",
+     "tag": "us-gaap_DividendsCommonStock",
+     "vals": [
+      null,
+      17.0,
+      -1820.0,
+      null,
+      null,
+      -1803.0,
+      null,
+      -1803.0
+     ]
+    },
+    {
+     "label": "Common stock repurchases (in shares)",
+     "tag": "us-gaap_TreasuryStockSharesAcquired",
+     "vals": [
+      -32000.0,
+      -32000.0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Common stock repurchases",
+     "tag": "us-gaap_TreasuryStockValueAcquiredCostMethod",
+     "vals": [
+      3500.0,
+      null,
+      null,
+      null,
+      -3500.0,
+      -3500.0,
+      null,
+      -3500.0
+     ]
+    },
+    {
+     "label": "Contributions",
+     "tag": "us-gaap_ProceedsFromMinorityShareholders",
+     "vals": [
+      12.0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Stockholders' Equity, Other Shares",
+     "tag": "us-gaap_StockholdersEquityOtherShares",
+     "vals": [
+      null,
+      -1000.0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Distributions and other",
+     "tag": "dis_NoncontrollingInterestDecreaseFromDistributionsToNoncontrollingInterestHoldersAndOther",
+     "vals": [
+      null,
+      5.0,
+      104.0,
+      null,
+      -22.0,
+      87.0,
+      -611.0,
+      -524.0
+     ]
+    },
+    {
+     "label": "ENDING BALANCE (in shares) at Sep. 27, 2025",
+     "tag": "us-gaap_CommonStockSharesOutstanding",
+     "vals": [
+      1900000.0,
+      1791000.0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "ENDING BALANCE at Sep. 27, 2025",
+     "tag": "us-gaap_StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest",
+     "vals": [
+      114612.0,
+      59814.0,
+      60410.0,
+      -2914.0,
+      -7441.0,
+      109869.0,
+      4743.0,
+      114612.0
+     ]
+    },
+    {
+     "label": "[1]",
+     "tag": "",
+     "vals": [
+      null
+     ]
+    },
+    {
+     "label": "[2]",
+     "tag": "",
+     "vals": [
+      null
+     ]
+    }
+   ]
+  },
+  "SEG": {
+   "file": "R50.htm",
+   "short": "Financial Information by Operating Segments (Details)",
+   "unit": "Financial Information by Operating Segments (Details) - USD ($) $ in Millions",
+   "periods": [
+    "Sep. 27, 2025",
+    "Sep. 28, 2024",
+    "Sep. 30, 2023"
+   ],
+   "months": [
+    12,
+    12,
+    12
+   ],
+   "rows": [
+    {
+     "label": "Segment Reporting Information [Line Items]",
+     "tag": "us-gaap_SegmentReportingInformationLineItems",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Revenues",
+     "tag": "us-gaap_Revenues",
+     "vals": [
+      94425.0,
+      91361.0,
+      88898.0
+     ]
+    },
+    {
+     "label": "Segment Operating Income",
+     "tag": "us-gaap_OperatingIncomeLoss",
+     "vals": [
+      17551.0,
+      15601.0,
+      12863.0
+     ]
+    },
+    {
+     "label": "Total Segment",
+     "tag": "srt_ProductOrServiceAxis",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Segment Reporting Information [Line Items]",
+     "tag": "us-gaap_SegmentReportingInformationLineItems",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Revenues",
+     "tag": "us-gaap_Revenues",
+     "vals": [
+      94425.0,
+      91361.0,
+      88898.0
+     ]
+    },
+    {
+     "label": "Entertainment Segment",
+     "tag": "us-gaap_StatementBusinessSegmentsAxis",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Segment Reporting Information [Line Items]",
+     "tag": "us-gaap_SegmentReportingInformationLineItems",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Revenues",
+     "tag": "us-gaap_Revenues",
+     "vals": [
+      42466.0,
+      41186.0,
+      40635.0
+     ]
+    },
+    {
+     "label": "Segment Operating Income",
+     "tag": "us-gaap_OperatingIncomeLoss",
+     "vals": [
+      4674.0,
+      3923.0,
+      1444.0
+     ]
+    },
+    {
+     "label": "Entertainment Segment | Entertainment Third Party",
+     "tag": "us-gaap_StatementBusinessSegmentsAxis",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Segment Reporting Information [Line Items]",
+     "tag": "us-gaap_SegmentReportingInformationLineItems",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Revenues",
+     "tag": "us-gaap_Revenues",
+     "vals": [
+      42018.0,
+      40775.0,
+      40258.0
+     ]
+    },
+    {
+     "label": "Entertainment Segment | Intersegment Eliminations",
+     "tag": "us-gaap_StatementBusinessSegmentsAxis",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Segment Reporting Information [Line Items]",
+     "tag": "us-gaap_SegmentReportingInformationLineItems",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Revenues",
+     "tag": "us-gaap_Revenues",
+     "vals": [
+      448.0,
+      411.0,
+      377.0
+     ]
+    },
+    {
+     "label": "Sports Segment",
+     "tag": "us-gaap_StatementBusinessSegmentsAxis",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Segment Reporting Information [Line Items]",
+     "tag": "us-gaap_SegmentReportingInformationLineItems",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Revenues",
+     "tag": "us-gaap_Revenues",
+     "vals": [
+      17672.0,
+      17619.0,
+      17111.0
+     ]
+    },
+    {
+     "label": "Segment Operating Income",
+     "tag": "us-gaap_OperatingIncomeLoss",
+     "vals": [
+      2882.0,
+      2406.0,
+      2465.0
+     ]
+    },
+    {
+     "label": "Sports Segment | Sports Third Party",
+     "tag": "us-gaap_StatementBusinessSegmentsAxis",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Segment Reporting Information [Line Items]",
+     "tag": "us-gaap_SegmentReportingInformationLineItems",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Revenues",
+     "tag": "us-gaap_Revenues",
+     "vals": [
+      16251.0,
+      16435.0,
+      16091.0
+     ]
+    },
+    {
+     "label": "Sports Segment | Intersegment Eliminations",
+     "tag": "us-gaap_StatementBusinessSegmentsAxis",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Segment Reporting Information [Line Items]",
+     "tag": "us-gaap_SegmentReportingInformationLineItems",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Revenues",
+     "tag": "us-gaap_Revenues",
+     "vals": [
+      1421.0,
+      1184.0,
+      1020.0
+     ]
+    },
+    {
+     "label": "Experiences Segment",
+     "tag": "us-gaap_StatementBusinessSegmentsAxis",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Segment Reporting Information [Line Items]",
+     "tag": "us-gaap_SegmentReportingInformationLineItems",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Revenues",
+     "tag": "us-gaap_Revenues",
+     "vals": [
+      36156.0,
+      34151.0,
+      32549.0
+     ]
+    },
+    {
+     "label": "Segment Operating Income",
+     "tag": "us-gaap_OperatingIncomeLoss",
+     "vals": [
+      9995.0,
+      9272.0,
+      8954.0
+     ]
+    },
+    {
+     "label": "Segment Eliminations",
+     "tag": "us-gaap_StatementBusinessSegmentsAxis",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Segment Reporting Information [Line Items]",
+     "tag": "us-gaap_SegmentReportingInformationLineItems",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Revenues",
+     "tag": "us-gaap_Revenues",
+     "vals": [
+      -1869.0,
+      -1595.0,
+      -1397.0
+     ]
+    },
+    {
+     "label": "[1]",
+     "tag": "",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Entertainment",
+     "tag": "",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Sports",
+     "tag": "",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Experiences",
+     "tag": "",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Equity in the income of investees included in segment operating income",
+     "tag": "",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Equity in the loss of India joint venture",
+     "tag": "",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "A+E Gain(a)",
+     "tag": "",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Amortization of TFCF intangible assets related to equity investees",
+     "tag": "",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Equity in the income of investees",
+     "tag": "",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    }
+   ]
+  }
+ }
+}
