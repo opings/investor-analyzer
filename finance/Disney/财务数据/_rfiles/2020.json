@@ -4578,6 +4578,133 @@
      ]
     }
    ]
+  },
+  "AMORT": {
+   "file": "R78.htm",
+   "short": "Amortization of Produced and Licensed Content Costs (Details)",
+   "unit": "Amortization of Produced and Licensed Content Costs (Details) - USD ($) $ in Millions",
+   "periods": [
+    "Oct. 03, 2020",
+    "Sep. 28, 2019"
+   ],
+   "months": [
+    12,
+    12
+   ],
+   "rows": [
+    {
+     "label": "Amortization of Produced Theatrical Film Costs",
+     "tag": "dis_AmortizationOfProducedTheatricalFilmCosts",
+     "vals": [
+      2673.0,
+      null
+     ]
+    },
+    {
+     "label": "Amortization of Produced Television Costs",
+     "tag": "dis_AmortizationOfProducedTelevisionCosts",
+     "vals": [
+      6664.0,
+      null
+     ]
+    },
+    {
+     "label": "Amortization of Produced Content Costs",
+     "tag": "dis_AmortizationOfProducedContentCosts",
+     "vals": [
+      9337.0,
+      null
+     ]
+    },
+    {
+     "label": "Amortization of Licensed Television and Programming Rights",
+     "tag": "dis_AmortizationOfLicensedTelevisionAndProgrammingRights",
+     "vals": [
+      11241.0,
+      null
+     ]
+    },
+    {
+     "label": "Amortization of Produced and Licensed Content Costs, Total",
+     "tag": "dis_AmortizationOfProducedAndLicensedContentCostsTotal",
+     "vals": [
+      20578.0,
+      17100.0
+     ]
+    },
+    {
+     "label": "Monetized Individually",
+     "tag": "dis_MonetizationStrategyAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Amortization of Produced Theatrical Film Costs",
+     "tag": "dis_AmortizationOfProducedTheatricalFilmCosts",
+     "vals": [
+      1711.0,
+      null
+     ]
+    },
+    {
+     "label": "Amortization of Produced Television Costs",
+     "tag": "dis_AmortizationOfProducedTelevisionCosts",
+     "vals": [
+      2594.0,
+      null
+     ]
+    },
+    {
+     "label": "Amortization of Produced Content Costs",
+     "tag": "dis_AmortizationOfProducedContentCosts",
+     "vals": [
+      4305.0,
+      null
+     ]
+    },
+    {
+     "label": "Monetized as a Group",
+     "tag": "dis_MonetizationStrategyAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Amortization of Produced Theatrical Film Costs",
+     "tag": "dis_AmortizationOfProducedTheatricalFilmCosts",
+     "vals": [
+      962.0,
+      null
+     ]
+    },
+    {
+     "label": "Amortization of Produced Television Costs",
+     "tag": "dis_AmortizationOfProducedTelevisionCosts",
+     "vals": [
+      4070.0,
+      null
+     ]
+    },
+    {
+     "label": "Amortization of Produced Content Costs",
+     "tag": "dis_AmortizationOfProducedContentCosts",
+     "vals": [
+      5032.0,
+      null
+     ]
+    },
+    {
+     "label": "[1]",
+     "tag": "",
+     "vals": [
+      null,
+      null
+     ]
+    }
+   ]
   }
  }
 }
