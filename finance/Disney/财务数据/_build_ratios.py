@@ -41,10 +41,25 @@ def load(name):
     return years, out
 
 
+def load_content_spend():
+    """FY2020 起的毛内容支出，取自 成本构成.csv（该表从 MD&A 滚动表解析）。"""
+    path = os.path.join(HERE, "成本构成.csv")
+    if not os.path.exists(path):
+        return {}
+    rows = list(csv.reader(open(path)))
+    hdr = next((r for r in rows if r and r[0] == "科目"), None)
+    if not hdr:
+        return {}
+    ys = [int(y) for y in hdr[1:] if y.isdigit()]
+    r = next((r for r in rows if r and r[0].startswith("内容支出合计")), None)
+    return {y: float(v) for y, v in zip(ys, r[1:]) if v} if r else {}
+
+
 def main():
     years, IS = load("利润表.csv")
     _, BS = load("资产负债表.csv")
     _, CF = load("现金流量表.csv")
+    CSPEND = load_content_spend()
 
     def g(tbl, key, y):
         for k in tbl:
@@ -120,6 +135,25 @@ def main():
         lambda y: (ocf(y) + capex(y)) if None not in (ocf(y), capex(y)) else None, dec=0)
     add("自由现金流÷营收%",
         lambda y: div((ocf(y) + capex(y)) if None not in (ocf(y), capex(y)) else None, rev(y)), pct=True)
+
+    # 投入强度：只看 capex 会严重低估 Disney —— 内容支出走经营活动、规模是 capex 的数倍。
+    # ⏳ 毛内容支出只在两段可得：FY1993-2002（当时列在投资活动单行）与 FY2020 起
+    #    （ASU 2019-02 要求的滚动表）。**FY2003-2019 公司只披露与摊销轧差后的净额，
+    #    毛支出实证不可得**（已查现金流量表、影视成本附注主表与附加信息三处）。
+    def content(y):
+        # ⚠️ 两点：① 查表键**不带前导空格**（g() 内部已 strip，带空格永远匹配不上）；
+        #   ② 老口径只到 FY2000 为止 —— FY2001 起采用 SOP 00-2，影视支出主体已挪进
+        #   经营活动，投资活动那行只剩残值（FY2001 仅 183、FY2002 仅 97），
+        #   拿它当全年内容支出会把投入强度算成个位数，严重失真。
+        if y <= 2000:
+            v = g(CF, "影视内容支出", y)
+            return abs(v) if v is not None else None
+        return CSPEND.get(y)                                 # FY2020+ MD&A 滚动表
+
+    add("资本开支÷营收%", lambda y: divpos(amt(capex(y)), rev(y)), pct=True)
+    add("(资本开支+内容支出)÷营收%·投入强度⏳FY2003-2019毛内容支出不可得",
+        lambda y: divpos((amt(capex(y)) or 0) + content(y), rev(y))
+        if content(y) is not None else None, pct=True)
 
     rows.append(["── 资产结构(占总资产%) ──"] + [""] * len(years))
     for label, key in [("货币资金", "货币资金"), ("应收账款", "应收账款"), ("存货", "存货"),

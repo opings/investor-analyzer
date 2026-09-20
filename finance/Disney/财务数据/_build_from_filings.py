@@ -189,6 +189,13 @@ CF_CONCEPTS = [
     ("资本开支 Investments in parks, resorts and other property",
      ["us-gaap_PaymentsToAcquirePropertyPlantAndEquipment"],
      [r"investments in parks, resorts", r"investments in theme parks"]),
+    # 🔴 影视内容支出在两个时代列在不同地方：FY2001 以前（SOP 00-2 之前）作为
+    #   **投资活动**单列一行「Film and television costs」；FY2001 起并入经营活动、
+    #   且只披露与摊销轧差后的净额。把这一行单独取出来，内容支出序列才能往前接。
+    ("  影视内容支出(FY2001前列投资活动) Film and television costs", [],
+     [r"^film and television costs$"]),
+    ("  影视内容摊销(现金流加回) Amortization of film and television costs", [],
+     [r"^amortization of film and television costs$"]),
     # ⚠️ 小计行的措辞 30 年里换过多种：「Cash used in / used by / (used) provided by
     #    investing activities」，老年份还可能是**无标签小计**（合成成「… 合计」）。
     #    按 cash 后面的词去匹配会漏（FY2000 是 "used by"），改成按**行尾**匹配。
