@@ -4705,6 +4705,82 @@
      ]
     }
    ]
+  },
+  "INTAN": {
+   "file": "R122.htm",
+   "short": "Detail of Certain Balance Sheet Accounts - Intangible Assets (Detail)",
+   "unit": "Detail of Certain Balance Sheet Accounts - Intangible Assets (Detail) - USD ($) $ in Millions",
+   "periods": [
+    "Oct. 03, 2020",
+    "Sep. 28, 2019"
+   ],
+   "months": [],
+   "rows": [
+    {
+     "label": "Intangible assets",
+     "tag": "us-gaap_IntangibleAssetsNetExcludingGoodwillAbstract",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Character/Franchise intangibles, Copyrights and Trademarks",
+     "tag": "dis_FiniteLivedCharacterFranchiseIntangiblesandCopyrights",
+     "vals": [
+      10572.0,
+      10577.0
+     ]
+    },
+    {
+     "label": "Distribution Agreements",
+     "tag": "dis_FiniteLivedDistributionAgreements",
+     "vals": [
+      8098.0,
+      9900.0
+     ]
+    },
+    {
+     "label": "Other amortizable intangible assets",
+     "tag": "us-gaap_OtherFiniteLivedIntangibleAssetsGross",
+     "vals": [
+      4309.0,
+      4291.0
+     ]
+    },
+    {
+     "label": "Accumulated amortization",
+     "tag": "us-gaap_FiniteLivedIntangibleAssetsAccumulatedAmortization",
+     "vals": [
+      -5598.0,
+      -3393.0
+     ]
+    },
+    {
+     "label": "Net amortizable intangible assets",
+     "tag": "us-gaap_FiniteLivedIntangibleAssetsNet",
+     "vals": [
+      17381.0,
+      21375.0
+     ]
+    },
+    {
+     "label": "Other indefinite lived intangible assets",
+     "tag": "us-gaap_OtherIndefiniteLivedIntangibleAssets",
+     "vals": [
+      1792.0,
+      1840.0
+     ]
+    },
+    {
+     "label": "Intangible assets",
+     "tag": "us-gaap_IntangibleAssetsNetExcludingGoodwill",
+     "vals": [
+      19173.0,
+      23215.0
+     ]
+    }
+   ]
   }
  }
 }

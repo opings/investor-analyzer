@@ -2479,6 +2479,202 @@
      ]
     }
    ]
+  },
+  "INTAN": {
+   "file": "R119.htm",
+   "short": "Detail of Certain Balance Sheet Accounts - Intangible Assets (Detail)",
+   "unit": "Detail of Certain Balance Sheet Accounts - Intangible Assets (Detail) - USD ($) $ in Millions",
+   "periods": [
+    "Sep. 27, 2025",
+    "Sep. 28, 2024"
+   ],
+   "months": [],
+   "rows": [
+    {
+     "label": "Finite-Lived Intangible Assets [Line Items]",
+     "tag": "us-gaap_FiniteLivedIntangibleAssetsLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Finite-Lived Intangible Assets, Gross",
+     "tag": "us-gaap_FiniteLivedIntangibleAssetsGross",
+     "vals": [
+      20213.0,
+      20213.0
+     ]
+    },
+    {
+     "label": "Accumulated amortization",
+     "tag": "us-gaap_FiniteLivedIntangibleAssetsAccumulatedAmortization",
+     "vals": [
+      -12733.0,
+      -11266.0
+     ]
+    },
+    {
+     "label": "Finite-Lived Intangible Assets, Net",
+     "tag": "us-gaap_FiniteLivedIntangibleAssetsNet",
+     "vals": [
+      7480.0,
+      8947.0
+     ]
+    },
+    {
+     "label": "Other indefinite lived intangible assets",
+     "tag": "us-gaap_OtherIndefiniteLivedIntangibleAssets",
+     "vals": [
+      1792.0,
+      1792.0
+     ]
+    },
+    {
+     "label": "Intangible Assets, Gross (Excluding Goodwill)",
+     "tag": "us-gaap_IntangibleAssetsGrossExcludingGoodwill",
+     "vals": [
+      22005.0,
+      22005.0
+     ]
+    },
+    {
+     "label": "Intangible assets",
+     "tag": "us-gaap_IntangibleAssetsNetExcludingGoodwill",
+     "vals": [
+      9272.0,
+      10739.0
+     ]
+    },
+    {
+     "label": "Finite-Lived Character/Franchise Intangibles, Copyrights and Trademarks",
+     "tag": "us-gaap_FiniteLivedIntangibleAssetsByMajorClassAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Finite-Lived Intangible Assets [Line Items]",
+     "tag": "us-gaap_FiniteLivedIntangibleAssetsLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Finite-Lived Intangible Assets, Gross",
+     "tag": "us-gaap_FiniteLivedIntangibleAssetsGross",
+     "vals": [
+      9507.0,
+      9507.0
+     ]
+    },
+    {
+     "label": "Accumulated amortization",
+     "tag": "us-gaap_FiniteLivedIntangibleAssetsAccumulatedAmortization",
+     "vals": [
+      -4034.0,
+      -3604.0
+     ]
+    },
+    {
+     "label": "Finite-Lived Intangible Assets, Net",
+     "tag": "us-gaap_FiniteLivedIntangibleAssetsNet",
+     "vals": [
+      5473.0,
+      5903.0
+     ]
+    },
+    {
+     "label": "Distribution agreements",
+     "tag": "us-gaap_FiniteLivedIntangibleAssetsByMajorClassAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Finite-Lived Intangible Assets [Line Items]",
+     "tag": "us-gaap_FiniteLivedIntangibleAssetsLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Finite-Lived Intangible Assets, Gross",
+     "tag": "us-gaap_FiniteLivedIntangibleAssetsGross",
+     "vals": [
+      7213.0,
+      7213.0
+     ]
+    },
+    {
+     "label": "Accumulated amortization",
+     "tag": "us-gaap_FiniteLivedIntangibleAssetsAccumulatedAmortization",
+     "vals": [
+      -5543.0,
+      -4733.0
+     ]
+    },
+    {
+     "label": "Finite-Lived Intangible Assets, Net",
+     "tag": "us-gaap_FiniteLivedIntangibleAssetsNet",
+     "vals": [
+      1670.0,
+      2480.0
+     ]
+    },
+    {
+     "label": "Other Intangible Assets",
+     "tag": "us-gaap_FiniteLivedIntangibleAssetsByMajorClassAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Finite-Lived Intangible Assets [Line Items]",
+     "tag": "us-gaap_FiniteLivedIntangibleAssetsLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Finite-Lived Intangible Assets, Gross",
+     "tag": "us-gaap_FiniteLivedIntangibleAssetsGross",
+     "vals": [
+      3493.0,
+      3493.0
+     ]
+    },
+    {
+     "label": "Accumulated amortization",
+     "tag": "us-gaap_FiniteLivedIntangibleAssetsAccumulatedAmortization",
+     "vals": [
+      -3156.0,
+      -2929.0
+     ]
+    },
+    {
+     "label": "Finite-Lived Intangible Assets, Net",
+     "tag": "us-gaap_FiniteLivedIntangibleAssetsNet",
+     "vals": [
+      337.0,
+      564.0
+     ]
+    },
+    {
+     "label": "[1]",
+     "tag": "",
+     "vals": [
+      null,
+      null
+     ]
+    }
+   ]
   }
  }
 }
