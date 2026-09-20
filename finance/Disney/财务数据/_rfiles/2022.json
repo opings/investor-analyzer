@@ -1988,6 +1988,319 @@
      ]
     }
    ]
+  },
+  "CAPDA": {
+   "file": "R53.htm",
+   "short": "Capital Expenditures, Depreciation and Amortization by Segment (Details)",
+   "unit": "Capital Expenditures, Depreciation and Amortization by Segment (Details) - USD ($) $ in Millions",
+   "periods": [
+    "Oct. 01, 2022",
+    "Oct. 02, 2021",
+    "Oct. 03, 2020"
+   ],
+   "months": [
+    12,
+    12,
+    12
+   ],
+   "rows": [
+    {
+     "label": "Capital expenditures",
+     "tag": "us-gaap_PaymentsToAcquirePropertyPlantAndEquipment",
+     "vals": [
+      4943.0,
+      3578.0,
+      4022.0
+     ]
+    },
+    {
+     "label": "Depreciation expense",
+     "tag": "us-gaap_Depreciation",
+     "vals": [
+      3183.0,
+      3068.0,
+      3140.0
+     ]
+    },
+    {
+     "label": "Amortization of Intangible Assets",
+     "tag": "us-gaap_AmortizationOfIntangibleAssets",
+     "vals": [
+      1980.0,
+      2043.0,
+      2205.0
+     ]
+    },
+    {
+     "label": "Disney Media and Entertainment Distribution",
+     "tag": "us-gaap_StatementBusinessSegmentsAxis",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Capital expenditures",
+     "tag": "us-gaap_PaymentsToAcquirePropertyPlantAndEquipment",
+     "vals": [
+      810.0,
+      862.0,
+      783.0
+     ]
+    },
+    {
+     "label": "Depreciation expense",
+     "tag": "us-gaap_Depreciation",
+     "vals": [
+      650.0,
+      613.0,
+      638.0
+     ]
+    },
+    {
+     "label": "Amortization of Intangible Assets",
+     "tag": "us-gaap_AmortizationOfIntangibleAssets",
+     "vals": [
+      164.0,
+      178.0,
+      175.0
+     ]
+    },
+    {
+     "label": "Disney Parks, Experiences and Products",
+     "tag": "us-gaap_StatementBusinessSegmentsAxis",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Amortization of Intangible Assets",
+     "tag": "us-gaap_AmortizationOfIntangibleAssets",
+     "vals": [
+      109.0,
+      108.0,
+      109.0
+     ]
+    },
+    {
+     "label": "Disney Parks, Experiences and Products | Domestic",
+     "tag": "us-gaap_StatementBusinessSegmentsAxis",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Capital expenditures",
+     "tag": "us-gaap_PaymentsToAcquirePropertyPlantAndEquipment",
+     "vals": [
+      2680.0,
+      1597.0,
+      2145.0
+     ]
+    },
+    {
+     "label": "Depreciation expense",
+     "tag": "us-gaap_Depreciation",
+     "vals": [
+      1680.0,
+      1551.0,
+      1634.0
+     ]
+    },
+    {
+     "label": "Disney Parks, Experiences and Products | International",
+     "tag": "us-gaap_StatementBusinessSegmentsAxis",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Capital expenditures",
+     "tag": "us-gaap_PaymentsToAcquirePropertyPlantAndEquipment",
+     "vals": [
+      767.0,
+      675.0,
+      759.0
+     ]
+    },
+    {
+     "label": "Depreciation expense",
+     "tag": "us-gaap_Depreciation",
+     "vals": [
+      662.0,
+      718.0,
+      694.0
+     ]
+    },
+    {
+     "label": "Total Segments",
+     "tag": "us-gaap_StatementBusinessSegmentsAxis",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Depreciation expense",
+     "tag": "us-gaap_Depreciation",
+     "vals": [
+      2342.0,
+      2269.0,
+      2328.0
+     ]
+    },
+    {
+     "label": "Amortization of Intangible Assets",
+     "tag": "us-gaap_AmortizationOfIntangibleAssets",
+     "vals": [
+      273.0,
+      286.0,
+      284.0
+     ]
+    },
+    {
+     "label": "TFCF and Hulu",
+     "tag": "us-gaap_StatementBusinessSegmentsAxis",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Amortization of Intangible Assets",
+     "tag": "us-gaap_AmortizationOfIntangibleAssets",
+     "vals": [
+      1707.0,
+      1757.0,
+      1921.0
+     ]
+    },
+    {
+     "label": "Corporate",
+     "tag": "us-gaap_StatementBusinessSegmentsAxis",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Capital expenditures",
+     "tag": "us-gaap_PaymentsToAcquirePropertyPlantAndEquipment",
+     "vals": [
+      686.0,
+      444.0,
+      335.0
+     ]
+    },
+    {
+     "label": "Depreciation expense",
+     "tag": "us-gaap_Depreciation",
+     "vals": [
+      191.0,
+      186.0,
+      174.0
+     ]
+    }
+   ]
+  },
+  "AMORT": {
+   "file": "R77.htm",
+   "short": "Amortization of Produced and Licensed Content Costs (Details)",
+   "unit": "Amortization of Produced and Licensed Content Costs (Details) - USD ($) $ in Millions",
+   "periods": [
+    "Oct. 01, 2022",
+    "Oct. 02, 2021",
+    "Oct. 03, 2020"
+   ],
+   "months": [
+    12,
+    12,
+    12
+   ],
+   "rows": [
+    {
+     "label": "Amortization of Produced Content Costs",
+     "tag": "dis_AmortizationOfProducedContentCosts",
+     "vals": [
+      10224.0,
+      8175.0,
+      9337.0
+     ]
+    },
+    {
+     "label": "Amortization of Licensed Television and Programming Rights",
+     "tag": "dis_AmortizationOfLicensedTelevisionAndProgrammingRights",
+     "vals": [
+      13432.0,
+      12784.0,
+      11241.0
+     ]
+    },
+    {
+     "label": "Amortization of Produced and Licensed Content Costs, Total",
+     "tag": "dis_AmortizationOfProducedAndLicensedContentCostsTotal",
+     "vals": [
+      23656.0,
+      20959.0,
+      20578.0
+     ]
+    },
+    {
+     "label": "Monetized Individually",
+     "tag": "dis_MonetizationStrategyAxis",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Amortization of Produced Content Costs",
+     "tag": "dis_AmortizationOfProducedContentCosts",
+     "vals": [
+      3448.0,
+      2947.0,
+      4305.0
+     ]
+    },
+    {
+     "label": "Monetized as a Group",
+     "tag": "dis_MonetizationStrategyAxis",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Amortization of Produced Content Costs",
+     "tag": "dis_AmortizationOfProducedContentCosts",
+     "vals": [
+      6776.0,
+      5228.0,
+      5032.0
+     ]
+    },
+    {
+     "label": "[1]",
+     "tag": "",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    }
+   ]
   }
  }
 }

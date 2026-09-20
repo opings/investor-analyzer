@@ -181,7 +181,9 @@ def classify(short):
     if "(tables)" in s or "(policies)" in s:
         return None
     keep = ("financial information by operating segment" in s
-            or "reconciliation of segment operating income" in s)
+            or "reconciliation of segment operating income" in s
+            or "amortization of produced and licensed content" in s
+            or "capital expenditures, depreciation and amortization by segment" in s)
     if ("parenthetical" in s or "(detail" in s) and not keep:
         return None
     if "balance sheet" in s:
@@ -204,6 +206,12 @@ def classify(short):
     #   「已含在分部利润里的权益法收益」三样混成一个数（实测差 2,073）。
     if "reconciliation of segment operating income" in s and "footnote" not in s:
         return "REC"
+    # 成本性质拆分。利润表是**按功能**列成本（服务成本/产品成本/SG&A/折旧摊销），
+    # 「内容摊销多少、折旧多少、人工多少」在利润表上一个都看不到，只能从这两张附注表取。
+    if "amortization of produced and licensed content" in s:
+        return "AMORT"
+    if "capital expenditures, depreciation and amortization by segment" in s:
+        return "CAPDA"
     return None
 
 
