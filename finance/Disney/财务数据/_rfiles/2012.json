@@ -3709,6 +3709,90 @@
      ]
     }
    ]
+  },
+  "INTAN": {
+   "file": "R108.htm",
+   "short": "Intangible Assets (Detail)",
+   "unit": "Intangible Assets (Detail) (USD $) In Millions, unless otherwise specified",
+   "periods": [
+    "Sep. 29, 2012",
+    "Oct. 01, 2011"
+   ],
+   "months": [],
+   "rows": [
+    {
+     "label": "Intangible assets",
+     "tag": "us-gaap_IntangibleAssetsNetExcludingGoodwillAbstract",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Copyrights and other character intangibles",
+     "tag": "us-gaap_FiniteLivedTrademarksGross",
+     "vals": [
+      3197.0,
+      3202.0
+     ]
+    },
+    {
+     "label": "Other amortizable intangible assets",
+     "tag": "us-gaap_OtherFiniteLivedIntangibleAssetsGross",
+     "vals": [
+      603.0,
+      501.0
+     ]
+    },
+    {
+     "label": "Accumulated amortization",
+     "tag": "us-gaap_FiniteLivedIntangibleAssetsAccumulatedAmortization",
+     "vals": [
+      -745.0,
+      -542.0
+     ]
+    },
+    {
+     "label": "Net amortizable intangible assets",
+     "tag": "us-gaap_FiniteLivedIntangibleAssetsNet",
+     "vals": [
+      3055.0,
+      3161.0
+     ]
+    },
+    {
+     "label": "FCC licenses",
+     "tag": "us-gaap_IndefiniteLivedLicenseAgreements",
+     "vals": [
+      722.0,
+      722.0
+     ]
+    },
+    {
+     "label": "Trademarks",
+     "tag": "us-gaap_IndefiniteLivedTrademarks",
+     "vals": [
+      1218.0,
+      1218.0
+     ]
+    },
+    {
+     "label": "Other indefinite lived intangible assets",
+     "tag": "us-gaap_OtherIndefiniteLivedIntangibleAssets",
+     "vals": [
+      20.0,
+      20.0
+     ]
+    },
+    {
+     "label": "Intangible assets",
+     "tag": "us-gaap_IntangibleAssetsNetExcludingGoodwill",
+     "vals": [
+      5015.0,
+      5121.0
+     ]
+    }
+   ]
   }
  }
 }

@@ -183,9 +183,20 @@ def classify(short):
     keep = ("financial information by operating segment" in s
             or "reconciliation of segment operating income" in s
             or "amortization of produced and licensed content" in s
-            or "capital expenditures, depreciation and amortization by segment" in s)
+            or "capital expenditures, depreciation and amortization by segment" in s
+            or "intangible assets" in s)
     if ("parenthetical" in s or "(detail" in s) and not keep:
         return None
+    # 🔴 附注类判断必须排在正表之前。FY2013+ 的无形资产明细报表叫
+    #   「Detail of Certain Balance Sheet Accounts - Intangible Assets (Detail)」——
+    #   含 "balance sheet" 字样，若先跑 BS 分支会被当成资产负债表吞掉
+    #   （实测只有 FY2011/2012 侥幸采到，其余年份全丢）。
+    # ⚠️ 必须收紧成「ShortName 以 Intangible Assets (Detail) 结尾」：
+    #    若只判 "intangible assets" + "(detail"，会误吞
+    #    「Equity Method Investment and Intangible Assets Included in Identifiable
+    #     Assets by Segment Footnote (Details)」这张完全不同的表（FY2021 实测中招）。
+    if "intangible assets (detail" in s and "expected" not in s:
+        return "INTAN"
     if "balance sheet" in s:
         return "BS"
     if "cash flow" in s:
@@ -212,6 +223,12 @@ def classify(short):
         return "AMORT"
     if "capital expenditures, depreciation and amortization by segment" in s:
         return "CAPDA"
+    # 无形资产明细。🔴 分析价值在于：这里的「角色/系列无形资产」**只包含买来的 IP**
+    #   （皮克斯/漫威/卢卡斯/福克斯四笔并购的购买法产物）；米老鼠这类**自创 IP
+    #   在美国 GAAP 下直接费用化、账面价值接近零**。不看这张表会误以为
+    #   Disney 的 IP 都在资产负债表上。
+    if "intangible assets (detail" in s and "expected" not in s:
+        return "INTAN"
     return None
 
 
