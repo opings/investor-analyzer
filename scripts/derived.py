@@ -44,7 +44,11 @@ ALIASES = {
     "应收":   ["应收账款", "贸易应收款项及应收票据", "贸易应收款", "应收票据及应收账款", "应收账款及应收票据", "営業債権", "売上債権", "営業債権及びその他の債権"],
     "存货":   ["存货", "棚卸資産"],
     "应付":   ["应付账款", "应付票据及应付账款", "贸易应付款项及应付票据", "贸易应付款", "営業債務", "仕入債務", "営業債務及びその他の債務"],
-    "预付":   ["预付款项", "预付账款", "前払費用", "前渡金"],
+    # 裸前缀「预付」**必须放末尾**: pick() 按顺序取首个命中, 放前面会抢掉上面几个具体别名。
+    # 加它是为接住「预付及其他流动资产」「预付费用及…」这类不以「预付款项/账款」起头的写法
+    # (circle 曾因此漏算, 印出值仅为含预付口径的 1/76)。全库扫过以「预付」开头的 9 种行名,
+    # 均为预付性质资产, 无减值准备等负向项, 故不会误配。
+    "预付":   ["预付款项", "预付账款", "前払費用", "前渡金", "预付"],
     "PPE":    ["固定资产", "物业、厂房及设备", "物业厂房设备", "物业厂房及设备", "物业设备及器材", "有形固定資産"],
     "资产总计": ["资产总计", "资产总额", "資産合計"],  # 勿加"总资产"——会误配「总资产减流动负债」
     "非流动资产总额": ["非流动资产总额", "非流动资产合计", "非流動資産合計"],
@@ -219,7 +223,14 @@ def compute_common_ratios(PL, BS, CF):
     R.append(("固定资产PPE/总资产 PPE/TA", [d(val(ppe, i), ta(i)) for i in range(N)], "pct"))
     R.append(("存货/总资产 Inventory/TA", [d(val(inv, i), ta(i)) for i in range(N)], "pct"))
     rp = [((val(ar, i) or 0) + (val(prepay, i) or 0)) if (ar or prepay) else None for i in range(N)]
-    R.append(("(应收+预付)/总资产 Receivables&prepay/TA", [d(rp[i], ta(i)) for i in range(N)], "pct"))
+    # ⚠️ 行名必须跟着实际口径走: 上一行的 `or 0` 会把未匹配的一侧吞成 0 照样出数,
+    # 若行名恒写「应收+预付」, 缺预付的公司就会得到一行**标签承诺了、内容里没有**的实数
+    # (安踏/google/circle 三家曾如此; circle 更是漏掉了真实的流动资产预付行)。
+    # 静默降级比报错更危险——它不触发任何校验, 只能靠行名自己说实话。
+    rp_name = ("(应收+预付)/总资产 Receivables&prepay/TA" if (ar and prepay) else
+               "(应收)/总资产 Receivables/TA" if ar else
+               "(预付)/总资产 Prepay/TA")
+    R.append((rp_name, [d(rp[i], ta(i)) for i in range(N)], "pct"))
     # —— 股东回报
     R.append(("当年分红率 Payout ratio", [d(absr(div, i), val(parent, i)) for i in range(N)], "pct"))
     return R, unmatched
@@ -262,7 +273,10 @@ def main():
                 cells.append(f"{v:.2f}".rjust(w))
         print(name.ljust(30) + "".join(cells))
     if unmatched:
-        print("\n⚠️ 未匹配科目(相关比率为 —, 需补别名或该公司科目命名特殊):", "、".join(sorted(set(unmatched))))
+        print("\n⚠️ 未匹配科目(需补别名或该公司科目命名特殊):", "、".join(sorted(set(unmatched))))
+        print("   ↳ 后果分两种, **别默认是前者**:")
+        print("     · 整行为 — (该比率只依赖这一个科目)")
+        print("     · 行仍出实数、但口径缩水且行名已相应改写(如「应收+预付」缺预付时降为「(应收)/总资产」)")
     print("注: 这是【通用底】——各公司行业特有比率(消费税负担率/合同负债蓄水池/扣非估…)在该公司 _build_from_pdf.py 加。")
     print("注: A股分红行含付息, 分红率偏高; 扣非——A股取披露值、港股 n/a 由 build 自估。")
 
