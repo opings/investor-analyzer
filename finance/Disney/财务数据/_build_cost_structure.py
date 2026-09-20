@@ -112,6 +112,35 @@ def scan(st, key, rows_spec, data):
             break
 
 
+def content_spend():
+    """内容**支出**（不是摊销）——只在 MD&A 正文的滚动表里，没有独立 R 报表，故从正文抽。
+
+    🔴 为什么必须单列：内容支出走**经营活动**，既不在资本开支里、其摊销也不在利润表
+    「折旧与摊销」行里。只看 capex 或只看 D&A，都会完全看不到 Disney 最大的那条投资腿。
+    """
+    import html as _h
+    out = {}
+    for fy in range(2020, 2026):
+        p = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(HERE))),
+                         "report", "Disney", f"{fy}.htm")
+        if not os.path.exists(p):
+            continue
+        raw = open(p, "rb").read().decode("utf-8", "ignore")
+        raw = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", raw, flags=re.S | re.I)
+        t = re.sub(r"\s+", " ", _h.unescape(re.sub(r"<[^>]+>", " ", raw)))
+        m = re.search(r"Spending:\s*Licensed programming and rights\s+([\d,]+)\s+([\d,]+)\s+"
+                      r"Produced content\s+([\d,]+)\s+([\d,]+)\s+([\d,]+)\s+([\d,]+)", t)
+        if not m:
+            continue
+        n = [float(x.replace(",", "")) for x in m.groups()]
+        # 列序：本年/上年 × (授权, 自制, 合计)
+        for i, y in enumerate((fy, fy - 1)):
+            out.setdefault("  内容支出-授权节目与版权 Licensed programming & rights", {})[y] = n[i]
+            out.setdefault("  内容支出-自制内容 Produced content", {})[y] = n[2 + i]
+            out.setdefault("内容支出合计 Total content spend", {})[y] = n[4 + i]
+    return out
+
+
 def load_is():
     rows = list(csv.reader(open(os.path.join(HERE, "利润表.csv"))))
     h = next(r for r in rows if r and r[0] == "科目")
@@ -146,7 +175,8 @@ def main():
             if kk.startswith(k):
                 return v.get(y)
 
-    fys = sorted({y for kv in data.values() for y in kv})
+    fys = sorted({y for kv in list(data.values()) + list(content_spend().values())
+                  for y in kv if 2011 <= y <= 2025})
     out = []
     out.append(("── 按功能（利润表原样） ──", {}))
     for lbl, k in [("总成本及费用 Total costs and expenses", "总成本及费用"),
@@ -155,7 +185,13 @@ def main():
                    ("  销售及管理费用 SG&A", "  销售及管理费用"),
                    ("  折旧与摊销 D&A", "  折旧与摊销")]:
         out.append((lbl, {y: isline(k, y) for y in fys}))
-    out.append(("── 按性质（附注可取到的部分） ──", {}))
+    cs = content_spend()
+    out.append(("── 内容：支出 vs 摊销（支出走经营活动，两者都不在 capex 与 D&A 行里）──", {}))
+    for name in ("内容支出合计 Total content spend",
+                 "  内容支出-授权节目与版权 Licensed programming & rights",
+                 "  内容支出-自制内容 Produced content"):
+        if name in cs:
+            out.append((name, cs[name]))
     for name, _, _ in AMORT_ROWS:
         if name in data:
             out.append((name, data[name]))
