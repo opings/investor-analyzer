@@ -97,7 +97,15 @@ def main():
     add("总成本费用率%", lambda y: div(abs(g(IS, "总成本及费用", y) or 0) or None, rev(y)), pct=True)
     add("税前利润率%", lambda y: div(g(IS, "税前利润", y), rev(y)), pct=True)
     add("归母净利率%", lambda y: div(att(y), rev(y)), pct=True)
-    add("实际税率%", lambda y: div(abs(g(IS, "所得税", y) or 0) or None, g(IS, "税前利润", y)), pct=True)
+    # 🔴 实际税率 = −所得税 ÷ 税前利润（本库所得税为负数=费用、正数=净收益）。
+    #   **不能取 abs()**：那样会把「税收净收益」显示成「低税率」——FY2025 真实为
+    #   **−11.9%**（税项是 +1,428 的净收益），取绝对值会印成 +11.9%，
+    #   看起来只是税率低，完全掩盖「净利润大于税前利润」这个最关键的利润质量信号。
+    #   税前亏损年该比率无意义，留空。
+    add("实际税率%(负数=税收净收益·亏损年留空)",
+        lambda y: (-(g(IS, "所得税", y)) / g(IS, "税前利润", y))
+        if (g(IS, "所得税", y) is not None and (g(IS, "税前利润", y) or 0) > 0) else None,
+        pct=True)
     add("ROE%(归母净利÷期初期末平均归母权益)",
         lambda y: div(att(y), (ateq(y) + ateq(y - 1)) / 2
                       if (ateq(y) is not None and ateq(y - 1) is not None) else None), pct=True)
