@@ -2013,6 +2013,176 @@
      ]
     }
    ]
+  },
+  "REC": {
+   "file": "R54.htm",
+   "short": "Reconciliation of Segment Operating Income to Income before Income Taxes (Details)",
+   "unit": "Reconciliation of Segment Operating Income to Income before Income Taxes (Details) - USD ($) $ in Millions",
+   "periods": [
+    "Sep. 28, 2024",
+    "Sep. 30, 2023",
+    "Oct. 01, 2022"
+   ],
+   "months": [
+    12,
+    12,
+    12
+   ],
+   "rows": [
+    {
+     "label": "Segment Reporting, Reconciling Item for Operating Profit (Loss) from Segment to Consolidated [Line Items]",
+     "tag": "us-gaap_SegmentReportingReconcilingItemForOperatingProfitLossFromSegmentToConsolidatedLineItems",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Segment Operating Income",
+     "tag": "us-gaap_OperatingIncomeLoss",
+     "vals": [
+      15601.0,
+      12863.0,
+      12121.0
+     ]
+    },
+    {
+     "label": "Content License Early Termination",
+     "tag": "dis_ContentLicenseEarlyTermination",
+     "vals": [
+      0.0,
+      0.0,
+      -1023.0
+     ]
+    },
+    {
+     "label": "Corporate and unallocated shared expenses",
+     "tag": "us-gaap_OtherGeneralExpense",
+     "vals": [
+      -1435.0,
+      -1147.0,
+      -1159.0
+     ]
+    },
+    {
+     "label": "Restructuring and impairment charges",
+     "tag": "us-gaap_RestructuringCostsAndAssetImpairmentCharges",
+     "vals": [
+      -3595.0,
+      -3836.0,
+      -237.0
+     ]
+    },
+    {
+     "label": "Other income (expense), net",
+     "tag": "us-gaap_NonoperatingIncomeExpense",
+     "vals": [
+      -65.0,
+      96.0,
+      -667.0
+     ]
+    },
+    {
+     "label": "Interest expense, net",
+     "tag": "us-gaap_InterestIncomeExpenseNonoperatingNet",
+     "vals": [
+      -1260.0,
+      -1209.0,
+      -1397.0
+     ]
+    },
+    {
+     "label": "TFCF and Hulu acquisition amortization",
+     "tag": "dis_AmortizationofIntangibleAssetsandFairValueStepuponFilmandTelevisionCosts",
+     "vals": [
+      -1677.0,
+      -1998.0,
+      -2353.0
+     ]
+    },
+    {
+     "label": "Income from continuing operations before income taxes",
+     "tag": "us-gaap_IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+     "vals": [
+      7569.0,
+      4769.0,
+      5285.0
+     ]
+    },
+    {
+     "label": "[1]",
+     "tag": "",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Entertainment",
+     "tag": "",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Sports",
+     "tag": "",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Experiences",
+     "tag": "",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Equity in the income of investees included in segment operating income",
+     "tag": "",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "A+E Gain(1)",
+     "tag": "",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Amortization of TFCF intangible assets related to equity investees",
+     "tag": "",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Equity in the income of investees",
+     "tag": "",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    }
+   ]
   }
  }
 }

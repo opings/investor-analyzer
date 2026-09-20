@@ -180,8 +180,9 @@ def classify(short):
     s = short.lower()
     if "(tables)" in s or "(policies)" in s:
         return None
-    if ("parenthetical" in s or "(detail" in s) \
-            and "financial information by operating segment" not in s:
+    keep = ("financial information by operating segment" in s
+            or "reconciliation of segment operating income" in s)
+    if ("parenthetical" in s or "(detail" in s) and not keep:
         return None
     if "balance sheet" in s:
         return "BS"
@@ -198,6 +199,11 @@ def classify(short):
     # 不在正文三表；(Parenthetical) 是脚注不要。
     if "financial information by operating segment" in s and "parenthetical" not in s:
         return "SEG"
+    # 「分部经营利润 → 税前利润」的调节表。**这张表不抓，总部费用与并购无形摊销
+    #   就只能从税前利润倒挤**，而倒挤会把「公司总部费用」「TFCF/Hulu 并购无形摊销」
+    #   「已含在分部利润里的权益法收益」三样混成一个数（实测差 2,073）。
+    if "reconciliation of segment operating income" in s and "footnote" not in s:
+        return "REC"
     return None
 
 
