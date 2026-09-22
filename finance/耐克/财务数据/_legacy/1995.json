@@ -1,0 +1,968 @@
+{
+ "key": "1995",
+ "statements": {
+  "IS": {
+   "scale": 0.001,
+   "years": [
+    1995,
+    1994,
+    1993
+   ],
+   "rows": [
+    {
+     "label": "(IN THOUSANDS, EXCEPT PER SHARE DATA)",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "<",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Revenues",
+     "vals": [
+      4760834.0,
+      3789668.0,
+      3930984.0
+     ]
+    },
+    {
+     "label": "Costs and expenses:",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Costs of sales",
+     "vals": [
+      2865280.0,
+      2301423.0,
+      2386993.0
+     ]
+    },
+    {
+     "label": "Selling and administrative",
+     "vals": [
+      1209760.0,
+      974099.0,
+      922261.0
+     ]
+    },
+    {
+     "label": "Interest expense (Notes 3, 4 and 5)",
+     "vals": [
+      24208.0,
+      15282.0,
+      25739.0
+     ]
+    },
+    {
+     "label": "Other (income)/expense, net (Notes 1, 9 and 10)",
+     "vals": [
+      11722.0,
+      8270.0,
+      1475.0
+     ]
+    },
+    {
+     "label": "Costs and expenses 合计",
+     "vals": [
+      4110970.0,
+      3299074.0,
+      3336468.0
+     ]
+    },
+    {
+     "label": "Income before income taxes",
+     "vals": [
+      649864.0,
+      490594.0,
+      594516.0
+     ]
+    },
+    {
+     "label": "Income taxes (Note 6)",
+     "vals": [
+      250200.0,
+      191800.0,
+      229500.0
+     ]
+    },
+    {
+     "label": "Net income",
+     "vals": [
+      399664.0,
+      298794.0,
+      365016.0
+     ]
+    },
+    {
+     "label": "Net income per common share (Note 1)",
+     "vals": [
+      5.44,
+      3.96,
+      4.74
+     ]
+    },
+    {
+     "label": "Average number of common and common equivalent shares (Note 1)",
+     "vals": [
+      73503.0,
+      75456.0,
+      77063.0
+     ]
+    },
+    {
+     "label": "The accompanying notes to consolidated financial st",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    }
+   ],
+   "src": "txt"
+  },
+  "BS": {
+   "scale": 0.001,
+   "years": [
+    1995,
+    1994
+   ],
+   "rows": [
+    {
+     "label": "ASSETS",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Current Assets:",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Cash and equivalents",
+     "vals": [
+      216071.0,
+      518816.0
+     ]
+    },
+    {
+     "label": "Accounts receivable, less allowance for doubtful accounts of $32,663 and $28,291",
+     "vals": [
+      1053237.0,
+      703682.0
+     ]
+    },
+    {
+     "label": "Inventories (Note 2)",
+     "vals": [
+      629742.0,
+      470023.0
+     ]
+    },
+    {
+     "label": "Deferred income taxes (Note 6)",
+     "vals": [
+      72657.0,
+      37603.0
+     ]
+    },
+    {
+     "label": "Prepaid expenses",
+     "vals": [
+      74221.0,
+      40307.0
+     ]
+    },
+    {
+     "label": "Total current assets",
+     "vals": [
+      2045928.0,
+      1770431.0
+     ]
+    },
+    {
+     "label": "Property, plant and equipment, net (Notes 3 and 5)",
+     "vals": [
+      554879.0,
+      405845.0
+     ]
+    },
+    {
+     "label": "Identifiable intangible assets and goodwill (Note 1)",
+     "vals": [
+      495907.0,
+      163036.0
+     ]
+    },
+    {
+     "label": "Other assets",
+     "vals": [
+      46031.0,
+      34503.0
+     ]
+    },
+    {
+     "label": "Total assets",
+     "vals": [
+      3142745.0,
+      2373815.0
+     ]
+    },
+    {
+     "label": "LIABILITIES AND SHAREHOLDERS' EQUITY",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Current Liabilities:",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Current portion of long-term debt (Note 5)",
+     "vals": [
+      31943.0,
+      3857.0
+     ]
+    },
+    {
+     "label": "Notes payable (Note 4)",
+     "vals": [
+      397100.0,
+      127378.0
+     ]
+    },
+    {
+     "label": "Accounts payable (Note 4)",
+     "vals": [
+      297656.0,
+      210576.0
+     ]
+    },
+    {
+     "label": "Accrued liabilities",
+     "vals": [
+      345224.0,
+      181889.0
+     ]
+    },
+    {
+     "label": "Income taxes payable",
+     "vals": [
+      35612.0,
+      38287.0
+     ]
+    },
+    {
+     "label": "Total current liabilities",
+     "vals": [
+      1107535.0,
+      561987.0
+     ]
+    },
+    {
+     "label": "Long-term debt (Notes 5 and 13)",
+     "vals": [
+      10565.0,
+      12364.0
+     ]
+    },
+    {
+     "label": "Non-current deferred income taxes (Note 6)",
+     "vals": [
+      17789.0,
+      18228.0
+     ]
+    },
+    {
+     "label": "Other non-current liabilities (Note 1)",
+     "vals": [
+      41867.0,
+      39987.0
+     ]
+    },
+    {
+     "label": "Commitments and contingencies (Notes 11 and 14)",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Redeemable Preferred Stock (Note 7)",
+     "vals": [
+      300.0,
+      300.0
+     ]
+    },
+    {
+     "label": "Shareholders' equity (Note 8):",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Common Stock at stated value:",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Class A convertible - 25,895,and 26,679 shares outstanding",
+     "vals": [
+      155.0,
+      159.0
+     ]
+    },
+    {
+     "label": "Class B - 45,550 and 46,521 shares outstanding",
+     "vals": [
+      2698.0,
+      2704.0
+     ]
+    },
+    {
+     "label": "Capital in excess of stated value",
+     "vals": [
+      122436.0,
+      108284.0
+     ]
+    },
+    {
+     "label": "Foreign currency translation adjustment",
+     "vals": [
+      1585.0,
+      -15123.0
+     ]
+    },
+    {
+     "label": "Retained earnings",
+     "vals": [
+      1837815.0,
+      1644925.0
+     ]
+    },
+    {
+     "label": "Total shareholders' equity",
+     "vals": [
+      1964689.0,
+      1740949.0
+     ]
+    },
+    {
+     "label": "Total liabilities and shareholders' equity",
+     "vals": [
+      3142745.0,
+      2373815.0
+     ]
+    },
+    {
+     "label": "The accompanying notes to consolidated financial statements ar statement",
+     "vals": [
+      null,
+      null
+     ]
+    }
+   ],
+   "src": "txt"
+  },
+  "CF": {
+   "scale": 0.001,
+   "years": [
+    1995,
+    1994,
+    1993
+   ],
+   "rows": [
+    {
+     "label": "Cash provided (used) by operations:",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Net income",
+     "vals": [
+      399664.0,
+      298794.0,
+      365016.0
+     ]
+    },
+    {
+     "label": "Income charges (credits) not affecting cash:",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Depreciation",
+     "vals": [
+      71113.0,
+      64531.0,
+      60393.0
+     ]
+    },
+    {
+     "label": "Deferred income taxes and purchased tax benefits",
+     "vals": [
+      -24668.0,
+      -23876.0,
+      4310.0
+     ]
+    },
+    {
+     "label": "Other non-current liabilities",
+     "vals": [
+      -1359.0,
+      -3588.0,
+      19847.0
+     ]
+    },
+    {
+     "label": "Amortization and other",
+     "vals": [
+      19125.0,
+      8067.0,
+      12951.0
+     ]
+    },
+    {
+     "label": "Changes in certain working capital components:",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "(Increase) decrease in inventory",
+     "vals": [
+      -69676.0,
+      160823.0,
+      -97471.0
+     ]
+    },
+    {
+     "label": "(Increase) decrease in accounts receivable",
+     "vals": [
+      -301648.0,
+      23979.0,
+      -62538.0
+     ]
+    },
+    {
+     "label": "(Increase) decrease in other current assets",
+     "vals": [
+      -10276.0,
+      6888.0,
+      -5133.0
+     ]
+    },
+    {
+     "label": "Increase (decrease) in accounts payable, accrued liabilities and income taxes payable",
+     "vals": [
+      172638.0,
+      40845.0,
+      -32083.0
+     ]
+    },
+    {
+     "label": "Cash provided by operations",
+     "vals": [
+      254913.0,
+      576463.0,
+      265292.0
+     ]
+    },
+    {
+     "label": "Cash provided (used) by investing activities:",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Additions to property, plant and equipment",
+     "vals": [
+      -154125.0,
+      -95266.0,
+      -97041.0
+     ]
+    },
+    {
+     "label": "Disposals of property, plant and equipment",
+     "vals": [
+      9011.0,
+      12650.0,
+      5006.0
+     ]
+    },
+    {
+     "label": "Acquisition of subsidiaries:",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Identifiable intangible assets and goodwill",
+     "vals": [
+      -345901.0,
+      -2185.0,
+      -52003.0
+     ]
+    },
+    {
+     "label": "Net assets acquired",
+     "vals": [
+      -84119.0,
+      -1367.0,
+      -25858.0
+     ]
+    },
+    {
+     "label": "Additions to other non-current assets",
+     "vals": [
+      -6260.0,
+      -5450.0,
+      -3036.0
+     ]
+    },
+    {
+     "label": "Cash used by investing activities",
+     "vals": [
+      -581394.0,
+      -91618.0,
+      -172932.0
+     ]
+    },
+    {
+     "label": "Cash provided (used) by financing activities:",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Additions to long-term debt",
+     "vals": [
+      2971.0,
+      6044.0,
+      1536.0
+     ]
+    },
+    {
+     "label": "Reductions in long-term debt including current portion",
+     "vals": [
+      -39804.0,
+      -56986.0,
+      -5817.0
+     ]
+    },
+    {
+     "label": "Increase (decrease) in notes payable",
+     "vals": [
+      263874.0,
+      -2939.0,
+      -2017.0
+     ]
+    },
+    {
+     "label": "Proceeds from exercise of options",
+     "vals": [
+      6154.0,
+      4288.0,
+      7055.0
+     ]
+    },
+    {
+     "label": "Repurchase of stock",
+     "vals": [
+      -142919.0,
+      -140104.0,
+      null
+     ]
+    },
+    {
+     "label": "Dividends - common and preferred",
+     "vals": [
+      -65418.0,
+      -60282.0,
+      -53017.0
+     ]
+    },
+    {
+     "label": "Cash provided (used) by financing activities",
+     "vals": [
+      24858.0,
+      -249979.0,
+      -52260.0
+     ]
+    },
+    {
+     "label": "Effect of exchange rate changes on cash",
+     "vals": [
+      -1122.0,
+      -7334.0,
+      -8866.0
+     ]
+    },
+    {
+     "label": "Net (decrease) increase in cash and equivalents",
+     "vals": [
+      -302745.0,
+      227532.0,
+      31234.0
+     ]
+    },
+    {
+     "label": "Cash and equivalents, beginning of year",
+     "vals": [
+      518816.0,
+      291284.0,
+      260050.0
+     ]
+    },
+    {
+     "label": "Cash and equivalents, end of year",
+     "vals": [
+      216071.0,
+      518816.0,
+      291284.0
+     ]
+    }
+   ],
+   "src": "txt"
+  },
+  "SUM": {
+   "scale": 0.001,
+   "years": [
+    1995,
+    1994,
+    1993,
+    1992,
+    1991,
+    1990,
+    1989,
+    1988
+   ],
+   "rows": [
+    {
+     "label": "Year Ended May 31:",
+     "vals": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Revenues",
+     "vals": [
+      4760834.0,
+      3789668.0,
+      3930984.0,
+      3405211.0,
+      3003610.0,
+      2235244.0,
+      1710803.0,
+      1203440.0
+     ]
+    },
+    {
+     "label": "Gross margin",
+     "vals": [
+      1895554.0,
+      1488245.0,
+      1543991.0,
+      1316122.0,
+      1153080.0,
+      851072.0,
+      635972.0,
+      400060.0
+     ]
+    },
+    {
+     "label": "Gross margin %",
+     "vals": [
+      39.8,
+      39.3,
+      39.3,
+      38.7,
+      38.4,
+      38.1,
+      37.2,
+      33.2
+     ]
+    },
+    {
+     "label": "Net income",
+     "vals": [
+      399664.0,
+      298794.0,
+      365016.0,
+      329218.0,
+      287046.0,
+      242958.0,
+      167047.0,
+      101695.0
+     ]
+    },
+    {
+     "label": "Net income per common share",
+     "vals": [
+      5.44,
+      3.96,
+      4.74,
+      4.3,
+      3.77,
+      3.21,
+      2.22,
+      1.35
+     ]
+    },
+    {
+     "label": "Average number of common an common equivalent shares",
+     "vals": [
+      73503.0,
+      75456.0,
+      77063.0,
+      76602.0,
+      76067.0,
+      75668.0,
+      75144.0,
+      75278.0
+     ]
+    },
+    {
+     "label": "Cash dividends declared per common share",
+     "vals": [
+      0.95,
+      0.8,
+      0.75,
+      0.59,
+      0.52,
+      0.38,
+      0.27,
+      0.2
+     ]
+    },
+    {
+     "label": "Cash flow from operations",
+     "vals": [
+      254913.0,
+      576463.0,
+      265292.0,
+      435838.0,
+      11122.0,
+      127075.0,
+      169441.0,
+      19019.0
+     ]
+    },
+    {
+     "label": "Price range of common stock",
+     "vals": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "High",
+     "vals": [
+      80.0,
+      8.0,
+      4.0,
+      4.0,
+      8.0,
+      2.0,
+      2.0,
+      8.0
+     ]
+    },
+    {
+     "label": "Low",
+     "vals": [
+      56.0,
+      4.0,
+      8.0,
+      35.0,
+      8.0,
+      19.0,
+      11.0,
+      16.0
+     ]
+    },
+    {
+     "label": "At May 31:",
+     "vals": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Cash and equivalents",
+     "vals": [
+      216071.0,
+      518816.0,
+      291284.0,
+      260050.0,
+      119804.0,
+      90449.0,
+      85749.0,
+      75357.0
+     ]
+    },
+    {
+     "label": "Inventories",
+     "vals": [
+      629742.0,
+      470023.0,
+      592986.0,
+      471202.0,
+      586594.0,
+      309476.0,
+      222924.0,
+      198470.0
+     ]
+    },
+    {
+     "label": "Working capital",
+     "vals": [
+      938393.0,
+      1208444.0,
+      1165204.0,
+      964291.0,
+      662645.0,
+      561642.0,
+      419599.0,
+      295937.0
+     ]
+    },
+    {
+     "label": "Total assets",
+     "vals": [
+      3142745.0,
+      2373815.0,
+      2186269.0,
+      1871667.0,
+      1707236.0,
+      1093358.0,
+      824216.0,
+      707901.0
+     ]
+    },
+    {
+     "label": "Long-term debt",
+     "vals": [
+      10565.0,
+      12364.0,
+      15033.0,
+      69476.0,
+      29992.0,
+      25941.0,
+      34051.0,
+      30306.0
+     ]
+    },
+    {
+     "label": "Redeemable Preferred Stock",
+     "vals": [
+      300.0,
+      300.0,
+      300.0,
+      300.0,
+      300.0,
+      300.0,
+      300.0,
+      300.0
+     ]
+    },
+    {
+     "label": "Common shareholders' equity",
+     "vals": [
+      1964689.0,
+      1740949.0,
+      1642819.0,
+      1328488.0,
+      1029582.0,
+      781012.0,
+      558597.0,
+      408567.0
+     ]
+    },
+    {
+     "label": "Year-end stock price",
+     "vals": [
+      78.0,
+      8.0,
+      72.0,
+      1.0,
+      58.0,
+      39.0,
+      39.0,
+      19.0
+     ]
+    },
+    {
+     "label": "Market capitalization at May 31",
+     "vals": [
+      5635190.0,
+      4318800.0,
+      5499273.0,
+      4379574.0,
+      2993020.0,
+      2942679.0,
+      1417381.0,
+      899741.0
+     ]
+    }
+   ],
+   "src": "txt"
+  }
+ }
+}
