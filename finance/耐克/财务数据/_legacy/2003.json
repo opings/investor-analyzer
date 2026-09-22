@@ -1,0 +1,1549 @@
+{
+ "key": "2003",
+ "statements": {
+  "IS": {
+   "scale": 1.0,
+   "years": [
+    2003,
+    2002,
+    2001
+   ],
+   "rows": [
+    {
+     "label": "Year Ended May 31,",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "(In millions, except per share data)",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Revenues",
+     "vals": [
+      10697.0,
+      9893.0,
+      9488.8
+     ]
+    },
+    {
+     "label": "Cost of sales",
+     "vals": [
+      6313.6,
+      6004.7,
+      5784.9
+     ]
+    },
+    {
+     "label": "Gross Margin",
+     "vals": [
+      4383.4,
+      3888.3,
+      3703.9
+     ]
+    },
+    {
+     "label": "Selling and administrative",
+     "vals": [
+      3137.6,
+      2820.4,
+      2689.7
+     ]
+    },
+    {
+     "label": "Interest expense (Notes 6 and 7)",
+     "vals": [
+      42.9,
+      47.6,
+      58.7
+     ]
+    },
+    {
+     "label": "Other income/expense, net (Notes 1, 12 and 13)",
+     "vals": [
+      79.9,
+      3.0,
+      34.1
+     ]
+    },
+    {
+     "label": "Income before income taxes and cumulative effect accounting change",
+     "vals": [
+      1123.0,
+      1017.3,
+      921.4
+     ]
+    },
+    {
+     "label": "Income taxes (Note 8)",
+     "vals": [
+      382.9,
+      349.0,
+      331.7
+     ]
+    },
+    {
+     "label": "Income before cumulative effect of accounting change",
+     "vals": [
+      740.1,
+      668.3,
+      589.7
+     ]
+    },
+    {
+     "label": "Cumulative effect of accounting change, net of income taxes of ($-, $3.0 and $-) (Note 4, Note 1)",
+     "vals": [
+      266.1,
+      5.0,
+      null
+     ]
+    },
+    {
+     "label": "Net income",
+     "vals": [
+      474.0,
+      663.3,
+      589.7
+     ]
+    },
+    {
+     "label": "Basic earnings per common share — before accounting change (Notes 1 and 11)",
+     "vals": [
+      2.8,
+      2.5,
+      2.18
+     ]
+    },
+    {
+     "label": "Cumulative effect of accounting change",
+     "vals": [
+      1.01,
+      0.02,
+      null
+     ]
+    },
+    {
+     "label": "Diluted earnings per common share — before accounting change (Notes 1 and 11)",
+     "vals": [
+      2.77,
+      2.46,
+      2.16
+     ]
+    },
+    {
+     "label": "Cumulative effect of accounting change",
+     "vals": [
+      1.0,
+      0.02,
+      null
+     ]
+    }
+   ],
+   "src": "htm"
+  },
+  "BS": {
+   "scale": 1.0,
+   "years": [
+    2003,
+    2002
+   ],
+   "rows": [
+    {
+     "label": "May 31,",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "(In millions)",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "ASSETS",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Current Assets:",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Cash and equivalents",
+     "vals": [
+      634.0,
+      575.5
+     ]
+    },
+    {
+     "label": "Accounts receivable, less allowance for doubtful accounts of $87.9 and $80.4",
+     "vals": [
+      2101.1,
+      1804.1
+     ]
+    },
+    {
+     "label": "Inventories (Note 2)",
+     "vals": [
+      1514.9,
+      1373.8
+     ]
+    },
+    {
+     "label": "Deferred income taxes (Notes 1 and 8)",
+     "vals": [
+      163.7,
+      140.8
+     ]
+    },
+    {
+     "label": "Prepaid expenses and other current assets (Note 1)",
+     "vals": [
+      266.2,
+      260.5
+     ]
+    },
+    {
+     "label": "Total current assets",
+     "vals": [
+      4679.9,
+      4154.7
+     ]
+    },
+    {
+     "label": "Property, plant and equipment, net (Note 3)",
+     "vals": [
+      1620.8,
+      1614.5
+     ]
+    },
+    {
+     "label": "Identifiable intangible assets, net (Note 4)",
+     "vals": [
+      118.2,
+      206.0
+     ]
+    },
+    {
+     "label": "Goodwill (Note 4)",
+     "vals": [
+      65.6,
+      232.7
+     ]
+    },
+    {
+     "label": "Deferred income taxes and other assets (Notes 1 and 8)",
+     "vals": [
+      229.4,
+      232.1
+     ]
+    },
+    {
+     "label": "Total assets",
+     "vals": [
+      6713.9,
+      6440.0
+     ]
+    },
+    {
+     "label": "LIABILITIES AND SHAREHOLDERS’ EQUITY",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Current Liabilities:",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Current portion of long-term debt (Note 7)",
+     "vals": [
+      205.7,
+      55.3
+     ]
+    },
+    {
+     "label": "Notes payable (Note 6)",
+     "vals": [
+      75.4,
+      425.2
+     ]
+    },
+    {
+     "label": "Accounts payable (Note 6)",
+     "vals": [
+      572.7,
+      504.4
+     ]
+    },
+    {
+     "label": "Accrued liabilities (Notes 5 and 16)",
+     "vals": [
+      1054.2,
+      765.3
+     ]
+    },
+    {
+     "label": "Income taxes payable",
+     "vals": [
+      107.2,
+      83.0
+     ]
+    },
+    {
+     "label": "Total current liabilities",
+     "vals": [
+      2015.2,
+      1833.2
+     ]
+    },
+    {
+     "label": "Long-term debt (Note 7)",
+     "vals": [
+      551.6,
+      625.9
+     ]
+    },
+    {
+     "label": "Deferred income taxes and other liabilities (Notes 1 and 8)",
+     "vals": [
+      156.1,
+      141.6
+     ]
+    },
+    {
+     "label": "Commitments and contingencies (Notes 15 and 16)",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Redeemable Preferred Stock (Note 9)",
+     "vals": [
+      0.3,
+      0.3
+     ]
+    },
+    {
+     "label": "Shareholders’ Equity:",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Common Stock at stated value (Note 10):",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Class A convertible — 97.8 and 98.1 shares outstanding",
+     "vals": [
+      0.2,
+      0.2
+     ]
+    },
+    {
+     "label": "Class B — 165.8 and 168.0 shares outstanding",
+     "vals": [
+      2.6,
+      2.6
+     ]
+    },
+    {
+     "label": "Capital in excess of stated value",
+     "vals": [
+      589.0,
+      538.7
+     ]
+    },
+    {
+     "label": "Unearned stock compensation",
+     "vals": [
+      -0.6,
+      -5.1
+     ]
+    },
+    {
+     "label": "Accumulated other comprehensive loss (Note 14)",
+     "vals": [
+      -239.7,
+      -192.4
+     ]
+    },
+    {
+     "label": "Retained earnings",
+     "vals": [
+      3639.2,
+      3495.0
+     ]
+    },
+    {
+     "label": "Total shareholders’ equity",
+     "vals": [
+      3990.7,
+      3839.0
+     ]
+    },
+    {
+     "label": "Total liabilities and shareholders’ equity",
+     "vals": [
+      6713.9,
+      6440.0
+     ]
+    }
+   ],
+   "src": "htm"
+  },
+  "CF": {
+   "scale": 1.0,
+   "years": [
+    2003,
+    2002,
+    2001
+   ],
+   "rows": [
+    {
+     "label": "Year Ended May 31,",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "(In millions)",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Cash provided (used) by operations:",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Net income",
+     "vals": [
+      474.0,
+      663.3,
+      589.7
+     ]
+    },
+    {
+     "label": "Income charges not affecting cash:",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Cumulative effect of accounting change",
+     "vals": [
+      266.1,
+      5.0,
+      null
+     ]
+    },
+    {
+     "label": "Depreciation",
+     "vals": [
+      239.3,
+      223.5,
+      197.4
+     ]
+    },
+    {
+     "label": "Deferred income taxes",
+     "vals": [
+      50.4,
+      15.2,
+      79.8
+     ]
+    },
+    {
+     "label": "Amortization and other",
+     "vals": [
+      23.2,
+      48.1,
+      16.7
+     ]
+    },
+    {
+     "label": "Income tax benefit from exercise of stock options",
+     "vals": [
+      12.5,
+      13.9,
+      32.4
+     ]
+    },
+    {
+     "label": "Changes in certain working capital components:",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Increase in accounts receivable",
+     "vals": [
+      -136.3,
+      -135.2,
+      -141.4
+     ]
+    },
+    {
+     "label": "(Increase) decrease in inventories",
+     "vals": [
+      -102.8,
+      55.4,
+      -16.7
+     ]
+    },
+    {
+     "label": "Decrease in other current assets and income taxes receivable",
+     "vals": [
+      60.9,
+      16.9,
+      78.0
+     ]
+    },
+    {
+     "label": "Increase (decrease) in accounts payable, accrued liabilities and income taxes payable",
+     "vals": [
+      30.1,
+      175.4,
+      -179.4
+     ]
+    },
+    {
+     "label": "Cash provided by operations",
+     "vals": [
+      917.4,
+      1081.5,
+      656.5
+     ]
+    },
+    {
+     "label": "Cash provided (used) by investing activities:",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Additions to property, plant and equipment and other",
+     "vals": [
+      -185.9,
+      -282.8,
+      -317.6
+     ]
+    },
+    {
+     "label": "Disposals of property, plant and equipment",
+     "vals": [
+      14.8,
+      15.6,
+      12.7
+     ]
+    },
+    {
+     "label": "Increase in other assets",
+     "vals": [
+      -46.3,
+      -28.7,
+      -38.5
+     ]
+    },
+    {
+     "label": "Increase (decrease) in other liabilities",
+     "vals": [
+      1.8,
+      -6.9,
+      1.1
+     ]
+    },
+    {
+     "label": "Cash used by investing activities",
+     "vals": [
+      -215.6,
+      -302.8,
+      -342.3
+     ]
+    },
+    {
+     "label": "Cash provided (used) by financing activities:",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Proceeds from long-term debt issuance",
+     "vals": [
+      90.4,
+      329.9,
+      null
+     ]
+    },
+    {
+     "label": "Reductions in long-term debt including current portion",
+     "vals": [
+      -55.9,
+      -80.3,
+      -50.3
+     ]
+    },
+    {
+     "label": "Decrease in notes payable",
+     "vals": [
+      -349.8,
+      -431.5,
+      -68.9
+     ]
+    },
+    {
+     "label": "Proceeds from exercise of stock options and other stock issuances",
+     "vals": [
+      44.2,
+      59.5,
+      56.0
+     ]
+    },
+    {
+     "label": "Repurchase of stock",
+     "vals": [
+      -196.3,
+      -226.9,
+      -157.0
+     ]
+    },
+    {
+     "label": "Dividends — common and preferred",
+     "vals": [
+      -137.8,
+      -128.9,
+      -129.7
+     ]
+    },
+    {
+     "label": "Cash used by financing activities",
+     "vals": [
+      -605.2,
+      -478.2,
+      -349.9
+     ]
+    },
+    {
+     "label": "Effect of exchange rate changes",
+     "vals": [
+      -38.1,
+      -29.0,
+      85.4
+     ]
+    },
+    {
+     "label": "Net increase in cash and equivalents",
+     "vals": [
+      58.5,
+      271.5,
+      49.7
+     ]
+    },
+    {
+     "label": "Cash and equivalents, beginning of year",
+     "vals": [
+      575.5,
+      304.0,
+      254.3
+     ]
+    },
+    {
+     "label": "Cash and equivalents, end of year",
+     "vals": [
+      634.0,
+      575.5,
+      304.0
+     ]
+    },
+    {
+     "label": "Supplemental disclosure of cash flow information:",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Cash paid during the year for:",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Interest, net of capitalized interest",
+     "vals": [
+      38.9,
+      54.2,
+      68.5
+     ]
+    },
+    {
+     "label": "Income taxes",
+     "vals": [
+      330.2,
+      262.0,
+      173.1
+     ]
+    }
+   ],
+   "src": "htm"
+  },
+  "EPS": {
+   "scale": 1.0,
+   "years": [
+    2003,
+    2002,
+    2001
+   ],
+   "rows": [
+    {
+     "label": "Year Ended May 31,",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "(In millions, except per share data)",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Determination of shares:",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Average common shares outstanding",
+     "vals": [
+      264.5,
+      267.7,
+      270.0
+     ]
+    },
+    {
+     "label": "Assumed conversion of dilutive stock options and awards",
+     "vals": [
+      3.1,
+      4.5,
+      3.3
+     ]
+    },
+    {
+     "label": "Diluted average common shares outstanding",
+     "vals": [
+      267.6,
+      272.2,
+      273.3
+     ]
+    },
+    {
+     "label": "Basic earnings per common share — before cumulative effect of accounting change",
+     "vals": [
+      2.8,
+      2.5,
+      2.18
+     ]
+    },
+    {
+     "label": "Cumulative effect of accounting change",
+     "vals": [
+      1.01,
+      0.02,
+      null
+     ]
+    },
+    {
+     "label": "Diluted earnings per common share — before cumulative effect of accounting change",
+     "vals": [
+      2.77,
+      2.46,
+      2.16
+     ]
+    },
+    {
+     "label": "Cumulative effect of accounting change",
+     "vals": [
+      1.0,
+      0.02,
+      null
+     ]
+    }
+   ],
+   "src": "htm"
+  },
+  "SEG": {
+   "scale": 1.0,
+   "years": [
+    2003,
+    2002,
+    2001
+   ],
+   "rows": [
+    {
+     "label": "Year Ended May 31,",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "(In millions)",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Net Revenue",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "United States",
+     "vals": [
+      4658.4,
+      4669.6,
+      4648.9
+     ]
+    },
+    {
+     "label": "Europe, Middle East, and Africa",
+     "vals": [
+      3241.7,
+      2696.5,
+      2553.0
+     ]
+    },
+    {
+     "label": "Asia Pacific",
+     "vals": [
+      1358.8,
+      1142.2,
+      1065.1
+     ]
+    },
+    {
+     "label": "Americas",
+     "vals": [
+      527.0,
+      568.1,
+      539.1
+     ]
+    },
+    {
+     "label": "Other",
+     "vals": [
+      911.1,
+      816.6,
+      682.7
+     ]
+    },
+    {
+     "label": "Pre-tax Income",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "United States",
+     "vals": [
+      957.5,
+      956.0,
+      905.0
+     ]
+    },
+    {
+     "label": "Europe, Middle East, and Africa",
+     "vals": [
+      533.0,
+      422.4,
+      363.4
+     ]
+    },
+    {
+     "label": "Asia Pacific",
+     "vals": [
+      295.0,
+      216.2,
+      184.4
+     ]
+    },
+    {
+     "label": "Americas",
+     "vals": [
+      96.3,
+      92.1,
+      81.6
+     ]
+    },
+    {
+     "label": "Other",
+     "vals": [
+      18.9,
+      56.8,
+      74.2
+     ]
+    },
+    {
+     "label": "Corporate",
+     "vals": [
+      -777.7,
+      -726.2,
+      -687.2
+     ]
+    },
+    {
+     "label": "Additions to Long-lived Assets",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "United States",
+     "vals": [
+      27.1,
+      30.4,
+      45.2
+     ]
+    },
+    {
+     "label": "Europe, Middle East, and Africa",
+     "vals": [
+      29.2,
+      27.2,
+      26.2
+     ]
+    },
+    {
+     "label": "Asia Pacific",
+     "vals": [
+      26.2,
+      21.8,
+      52.9
+     ]
+    },
+    {
+     "label": "Americas",
+     "vals": [
+      3.5,
+      4.8,
+      5.1
+     ]
+    },
+    {
+     "label": "Other",
+     "vals": [
+      23.7,
+      79.7,
+      26.3
+     ]
+    },
+    {
+     "label": "Corporate",
+     "vals": [
+      76.2,
+      115.1,
+      161.9
+     ]
+    },
+    {
+     "label": "Depreciation",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "United States",
+     "vals": [
+      49.9,
+      50.5,
+      50.7
+     ]
+    },
+    {
+     "label": "Europe, Middle East, and Africa",
+     "vals": [
+      38.9,
+      35.2,
+      38.9
+     ]
+    },
+    {
+     "label": "Asia Pacific",
+     "vals": [
+      38.5,
+      38.4,
+      20.5
+     ]
+    },
+    {
+     "label": "Americas",
+     "vals": [
+      4.5,
+      5.3,
+      6.3
+     ]
+    },
+    {
+     "label": "Other",
+     "vals": [
+      25.4,
+      23.3,
+      24.1
+     ]
+    },
+    {
+     "label": "Corporate",
+     "vals": [
+      82.1,
+      70.8,
+      56.9
+     ]
+    },
+    {
+     "label": "Accounts Receivable, net",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "United States",
+     "vals": [
+      609.5,
+      654.4,
+      569.0
+     ]
+    },
+    {
+     "label": "Europe, Middle East, and Africa",
+     "vals": [
+      794.1,
+      571.1,
+      512.5
+     ]
+    },
+    {
+     "label": "Asia Pacific",
+     "vals": [
+      258.4,
+      189.6,
+      194.8
+     ]
+    },
+    {
+     "label": "Americas",
+     "vals": [
+      130.0,
+      122.3,
+      144.7
+     ]
+    },
+    {
+     "label": "Other",
+     "vals": [
+      278.8,
+      249.5,
+      172.1
+     ]
+    },
+    {
+     "label": "Corporate",
+     "vals": [
+      30.3,
+      17.2,
+      28.3
+     ]
+    }
+   ],
+   "src": "htm"
+  },
+  "SUM": {
+   "scale": 1.0,
+   "years": [
+    2003,
+    2002,
+    2001,
+    2000,
+    1999
+   ],
+   "rows": [
+    {
+     "label": "Financial History",
+     "vals": [
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "(In millions, except per share data, financial ratios and number of shareholders)",
+     "vals": [
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Year Ended May 31,",
+     "vals": [
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Revenues",
+     "vals": [
+      10697.0,
+      9893.0,
+      9488.8,
+      8995.1,
+      8776.9
+     ]
+    },
+    {
+     "label": "Gross margin",
+     "vals": [
+      4383.4,
+      3888.3,
+      3703.9,
+      3591.3,
+      3283.4
+     ]
+    },
+    {
+     "label": "Gross margin %",
+     "vals": [
+      41.0,
+      39.3,
+      39.0,
+      39.9,
+      37.4
+     ]
+    },
+    {
+     "label": "Restructuring charge, net",
+     "vals": [
+      null,
+      null,
+      0.1,
+      -2.5,
+      45.1
+     ]
+    },
+    {
+     "label": "Income before accounting change",
+     "vals": [
+      740.1,
+      668.3,
+      589.7,
+      579.1,
+      451.4
+     ]
+    },
+    {
+     "label": "Cumulative effect of change in accounting principle",
+     "vals": [
+      266.1,
+      5.0,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Net income",
+     "vals": [
+      474.0,
+      663.3,
+      589.7,
+      579.1,
+      451.4
+     ]
+    },
+    {
+     "label": "Basic earnings per common share:",
+     "vals": [
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Income before accounting change",
+     "vals": [
+      2.8,
+      2.5,
+      2.18,
+      2.1,
+      1.59
+     ]
+    },
+    {
+     "label": "Cumulative effect of change in accounting principle",
+     "vals": [
+      1.01,
+      0.02,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Net income",
+     "vals": [
+      1.79,
+      2.48,
+      2.18,
+      2.1,
+      1.59
+     ]
+    },
+    {
+     "label": "Diluted earnings per common share:",
+     "vals": [
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Income before accounting change",
+     "vals": [
+      2.77,
+      2.46,
+      2.16,
+      2.07,
+      1.57
+     ]
+    },
+    {
+     "label": "Cumulative effect of change in accounting principle",
+     "vals": [
+      1.0,
+      0.02,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Net income",
+     "vals": [
+      1.77,
+      2.44,
+      2.16,
+      2.07,
+      1.57
+     ]
+    },
+    {
+     "label": "Average common shares outstanding",
+     "vals": [
+      264.5,
+      267.7,
+      270.0,
+      275.7,
+      283.3
+     ]
+    },
+    {
+     "label": "Diluted average common shares outstanding",
+     "vals": [
+      267.6,
+      272.2,
+      273.3,
+      279.4,
+      288.3
+     ]
+    },
+    {
+     "label": "Cash dividends declared per common share",
+     "vals": [
+      0.54,
+      0.48,
+      0.48,
+      0.48,
+      0.48
+     ]
+    },
+    {
+     "label": "Cash flow from operations",
+     "vals": [
+      917.4,
+      1081.5,
+      656.5,
+      699.6,
+      941.4
+     ]
+    },
+    {
+     "label": "Price range of common stock",
+     "vals": [
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "High",
+     "vals": [
+      57.85,
+      63.99,
+      59.438,
+      64.125,
+      65.5
+     ]
+    },
+    {
+     "label": "Low",
+     "vals": [
+      38.53,
+      40.81,
+      35.188,
+      26.563,
+      31.75
+     ]
+    },
+    {
+     "label": "At May 31,",
+     "vals": [
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Cash and equivalents",
+     "vals": [
+      634.0,
+      575.5,
+      304.0,
+      254.3,
+      198.1
+     ]
+    },
+    {
+     "label": "Inventories",
+     "vals": [
+      1514.9,
+      1373.8,
+      1424.1,
+      1446.0,
+      1170.6
+     ]
+    },
+    {
+     "label": "Working capital",
+     "vals": [
+      2664.7,
+      2321.5,
+      1838.6,
+      1456.4,
+      1818.0
+     ]
+    },
+    {
+     "label": "Total assets",
+     "vals": [
+      6713.9,
+      6440.0,
+      5819.6,
+      5856.9,
+      5247.7
+     ]
+    },
+    {
+     "label": "Long-term debt",
+     "vals": [
+      551.6,
+      625.9,
+      435.9,
+      470.3,
+      386.1
+     ]
+    },
+    {
+     "label": "Redeemable Preferred Stock",
+     "vals": [
+      0.3,
+      0.3,
+      0.3,
+      0.3,
+      0.3
+     ]
+    },
+    {
+     "label": "Shareholders’ equity",
+     "vals": [
+      3990.7,
+      3839.0,
+      3494.5,
+      3136.0,
+      3334.6
+     ]
+    },
+    {
+     "label": "Year-end stock price",
+     "vals": [
+      55.99,
+      53.75,
+      41.1,
+      42.875,
+      60.938
+     ]
+    },
+    {
+     "label": "Market capitalization",
+     "vals": [
+      14758.8,
+      14302.5,
+      11039.5,
+      11559.1,
+      17202.2
+     ]
+    },
+    {
+     "label": "Financial Ratios:",
+     "vals": [
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Return on equity",
+     "vals": [
+      18.9,
+      18.2,
+      17.8,
+      17.9,
+      13.7
+     ]
+    },
+    {
+     "label": "Return on assets",
+     "vals": [
+      11.3,
+      10.9,
+      10.1,
+      10.4,
+      8.5
+     ]
+    },
+    {
+     "label": "Inventory turns",
+     "vals": [
+      4.4,
+      4.3,
+      4.0,
+      4.1,
+      4.3
+     ]
+    },
+    {
+     "label": "Current ratio at May 31",
+     "vals": [
+      2.3,
+      2.3,
+      2.0,
+      1.7,
+      2.3
+     ]
+    },
+    {
+     "label": "Price/Earnings ratio at May 31 (Diluted before accounting change)",
+     "vals": [
+      20.2,
+      21.8,
+      19.0,
+      20.7,
+      38.8
+     ]
+    }
+   ],
+   "src": "htm"
+  }
+ }
+}

@@ -1,0 +1,3914 @@
+{
+ "key": "2018",
+ "cik": 320187,
+ "acc": "0000320187-18-000142",
+ "statements": {
+  "ACCR": {
+   "file": "R45.htm",
+   "short": "Accrued Liabilities (Detail)",
+   "unit": "Accrued Liabilities (Detail) - USD ($) $ in Millions",
+   "periods": [
+    "May 31, 2018",
+    "May 31, 2017"
+   ],
+   "months": [],
+   "rows": [
+    {
+     "label": "Accrued Liabilities, Current [Abstract]",
+     "tag": "us-gaap_AccruedLiabilitiesCurrentAbstract",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Compensation and benefits, excluding taxes",
+     "tag": "nke_AccruedCompensationAndBenefitsExcludingTaxesCurrent",
+     "vals": [
+      897.0,
+      871.0
+     ]
+    },
+    {
+     "label": "Endorsement compensation",
+     "tag": "nke_AccruedEndorsementLiabilitiesCurrent",
+     "vals": [
+      425.0,
+      396.0
+     ]
+    },
+    {
+     "label": "Dividends payable",
+     "tag": "us-gaap_DividendsPayableCurrent",
+     "vals": [
+      320.0,
+      300.0
+     ]
+    },
+    {
+     "label": "Import and logistics costs",
+     "tag": "nke_AccruedImportAndLogisticsCostsCurrent",
+     "vals": [
+      268.0,
+      257.0
+     ]
+    },
+    {
+     "label": "Taxes other than income taxes payable",
+     "tag": "us-gaap_AccrualForTaxesOtherThanIncomeTaxesCurrent",
+     "vals": [
+      224.0,
+      196.0
+     ]
+    },
+    {
+     "label": "Fair value of derivatives",
+     "tag": "us-gaap_DerivativeLiabilitiesCurrent",
+     "vals": [
+      184.0,
+      168.0
+     ]
+    },
+    {
+     "label": "Advertising and marketing",
+     "tag": "us-gaap_AccruedMarketingCostsCurrent",
+     "vals": [
+      140.0,
+      125.0
+     ]
+    },
+    {
+     "label": "Collateral received from counterparties to hedging instruments",
+     "tag": "us-gaap_DerivativeAssetFairValueOfCollateral",
+     "vals": [
+      23.0,
+      0.0
+     ]
+    },
+    {
+     "label": "Other",
+     "tag": "us-gaap_OtherAccruedLiabilitiesCurrent",
+     "vals": [
+      788.0,
+      698.0
+     ]
+    },
+    {
+     "label": "TOTAL ACCRUED LIABILITIES",
+     "tag": "us-gaap_AccruedLiabilitiesCurrent",
+     "vals": [
+      3269.0,
+      3011.0
+     ]
+    }
+   ]
+  },
+  "BS": {
+   "file": "R4.htm",
+   "short": "Consolidated Balance Sheets",
+   "unit": "Consolidated Balance Sheets - USD ($) $ in Millions",
+   "periods": [
+    "May 31, 2018",
+    "May 31, 2017"
+   ],
+   "months": [],
+   "rows": [
+    {
+     "label": "Current assets:",
+     "tag": "us-gaap_AssetsCurrentAbstract",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Cash and equivalents",
+     "tag": "us-gaap_CashAndCashEquivalentsAtCarryingValue",
+     "vals": [
+      4249.0,
+      3808.0
+     ]
+    },
+    {
+     "label": "Short-term investments",
+     "tag": "us-gaap_AvailableForSaleSecuritiesCurrent",
+     "vals": [
+      996.0,
+      2371.0
+     ]
+    },
+    {
+     "label": "Accounts receivable, net",
+     "tag": "us-gaap_AccountsReceivableNetCurrent",
+     "vals": [
+      3498.0,
+      3677.0
+     ]
+    },
+    {
+     "label": "Inventories",
+     "tag": "us-gaap_InventoryFinishedGoodsNetOfReserves",
+     "vals": [
+      5261.0,
+      5055.0
+     ]
+    },
+    {
+     "label": "Prepaid expenses and other current assets",
+     "tag": "us-gaap_PrepaidExpenseAndOtherAssetsCurrent",
+     "vals": [
+      1130.0,
+      1150.0
+     ]
+    },
+    {
+     "label": "Total current assets",
+     "tag": "us-gaap_AssetsCurrent",
+     "vals": [
+      15134.0,
+      16061.0
+     ]
+    },
+    {
+     "label": "Property, plant and equipment, net",
+     "tag": "us-gaap_PropertyPlantAndEquipmentNet",
+     "vals": [
+      4454.0,
+      3989.0
+     ]
+    },
+    {
+     "label": "Identifiable intangible assets, net",
+     "tag": "us-gaap_IntangibleAssetsNetExcludingGoodwill",
+     "vals": [
+      285.0,
+      283.0
+     ]
+    },
+    {
+     "label": "Goodwill",
+     "tag": "us-gaap_Goodwill",
+     "vals": [
+      154.0,
+      139.0
+     ]
+    },
+    {
+     "label": "Deferred income taxes and other assets",
+     "tag": "us-gaap_DeferredIncomeTaxesAndOtherAssetsNoncurrent",
+     "vals": [
+      2509.0,
+      2787.0
+     ]
+    },
+    {
+     "label": "TOTAL ASSETS",
+     "tag": "us-gaap_Assets",
+     "vals": [
+      22536.0,
+      23259.0
+     ]
+    },
+    {
+     "label": "Current liabilities:",
+     "tag": "us-gaap_LiabilitiesCurrentAbstract",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Current portion of long-term debt",
+     "tag": "us-gaap_LongTermDebtCurrent",
+     "vals": [
+      6.0,
+      6.0
+     ]
+    },
+    {
+     "label": "Notes payable",
+     "tag": "us-gaap_ShortTermBorrowings",
+     "vals": [
+      336.0,
+      325.0
+     ]
+    },
+    {
+     "label": "Accounts payable",
+     "tag": "us-gaap_AccountsPayableCurrent",
+     "vals": [
+      2279.0,
+      2048.0
+     ]
+    },
+    {
+     "label": "Accrued liabilities",
+     "tag": "us-gaap_AccruedLiabilitiesCurrent",
+     "vals": [
+      3269.0,
+      3011.0
+     ]
+    },
+    {
+     "label": "Income taxes payable",
+     "tag": "us-gaap_AccruedIncomeTaxesCurrent",
+     "vals": [
+      150.0,
+      84.0
+     ]
+    },
+    {
+     "label": "Total current liabilities",
+     "tag": "us-gaap_LiabilitiesCurrent",
+     "vals": [
+      6040.0,
+      5474.0
+     ]
+    },
+    {
+     "label": "Long-term debt",
+     "tag": "us-gaap_LongTermDebtNoncurrent",
+     "vals": [
+      3468.0,
+      3471.0
+     ]
+    },
+    {
+     "label": "Deferred income taxes and other liabilities",
+     "tag": "us-gaap_DeferredIncomeTaxesAndOtherLiabilitiesNoncurrent",
+     "vals": [
+      3216.0,
+      1907.0
+     ]
+    },
+    {
+     "label": "Commitments and contingencies (Note 15)",
+     "tag": "us-gaap_CommitmentsAndContingencies",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Redeemable preferred stock",
+     "tag": "us-gaap_TemporaryEquityCarryingAmountAttributableToParent",
+     "vals": [
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "label": "Shareholders’ equity:",
+     "tag": "us-gaap_StockholdersEquityAbstract",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Capital in excess of stated value",
+     "tag": "us-gaap_AdditionalPaidInCapitalCommonStock",
+     "vals": [
+      6384.0,
+      5710.0
+     ]
+    },
+    {
+     "label": "Accumulated other comprehensive loss",
+     "tag": "us-gaap_AccumulatedOtherComprehensiveIncomeLossNetOfTax",
+     "vals": [
+      -92.0,
+      -213.0
+     ]
+    },
+    {
+     "label": "Retained earnings",
+     "tag": "us-gaap_RetainedEarningsAccumulatedDeficit",
+     "vals": [
+      3517.0,
+      6907.0
+     ]
+    },
+    {
+     "label": "Total shareholders’ equity",
+     "tag": "us-gaap_StockholdersEquity",
+     "vals": [
+      9812.0,
+      12407.0
+     ]
+    },
+    {
+     "label": "TOTAL LIABILITIES AND SHAREHOLDERS’ EQUITY",
+     "tag": "us-gaap_LiabilitiesAndStockholdersEquity",
+     "vals": [
+      22536.0,
+      23259.0
+     ]
+    },
+    {
+     "label": "Class A Convertible Common Stock",
+     "tag": "us-gaap_StatementClassOfStockAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Shareholders’ equity:",
+     "tag": "us-gaap_StockholdersEquityAbstract",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Common stock at stated value",
+     "tag": "us-gaap_CommonStockValue",
+     "vals": [
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "label": "Class B Common Stock",
+     "tag": "us-gaap_StatementClassOfStockAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Shareholders’ equity:",
+     "tag": "us-gaap_StockholdersEquityAbstract",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Common stock at stated value",
+     "tag": "us-gaap_CommonStockValue",
+     "vals": [
+      3.0,
+      3.0
+     ]
+    }
+   ]
+  },
+  "CF": {
+   "file": "R6.htm",
+   "short": "Consolidated Statements of Cash Flows",
+   "unit": "Consolidated Statements of Cash Flows - USD ($) $ in Millions",
+   "periods": [
+    "May 31, 2018",
+    "May 31, 2017",
+    "May 31, 2016"
+   ],
+   "months": [
+    12,
+    12,
+    12
+   ],
+   "rows": [
+    {
+     "label": "Cash provided by operations:",
+     "tag": "us-gaap_NetCashProvidedByUsedInOperatingActivitiesAbstract",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Net income",
+     "tag": "us-gaap_NetIncomeLoss",
+     "vals": [
+      1933.0,
+      4240.0,
+      3760.0
+     ]
+    },
+    {
+     "label": "Adjustments to reconcile net income to net cash provided by operations:",
+     "tag": "us-gaap_AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Depreciation",
+     "tag": "us-gaap_Depreciation",
+     "vals": [
+      747.0,
+      706.0,
+      649.0
+     ]
+    },
+    {
+     "label": "Deferred income taxes",
+     "tag": "us-gaap_DeferredIncomeTaxExpenseBenefit",
+     "vals": [
+      647.0,
+      -273.0,
+      -80.0
+     ]
+    },
+    {
+     "label": "Stock-based compensation",
+     "tag": "us-gaap_ShareBasedCompensation",
+     "vals": [
+      218.0,
+      215.0,
+      236.0
+     ]
+    },
+    {
+     "label": "Amortization and other",
+     "tag": "nke_AmortizationAndOther",
+     "vals": [
+      27.0,
+      10.0,
+      13.0
+     ]
+    },
+    {
+     "label": "Net foreign currency adjustments",
+     "tag": "us-gaap_ForeignCurrencyTransactionGainLossUnrealized",
+     "vals": [
+      -99.0,
+      -117.0,
+      98.0
+     ]
+    },
+    {
+     "label": "Changes in certain working capital components and other assets and liabilities:",
+     "tag": "us-gaap_IncreaseDecreaseInOperatingCapitalAbstract",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Decrease (increase) in accounts receivable",
+     "tag": "us-gaap_IncreaseDecreaseInAccountsReceivable",
+     "vals": [
+      187.0,
+      -426.0,
+      60.0
+     ]
+    },
+    {
+     "label": "(Increase) in inventories",
+     "tag": "us-gaap_IncreaseDecreaseInInventories",
+     "vals": [
+      -255.0,
+      -231.0,
+      -590.0
+     ]
+    },
+    {
+     "label": "Decrease (increase) in prepaid expenses and other current and non-current assets",
+     "tag": "us-gaap_IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets",
+     "vals": [
+      35.0,
+      -120.0,
+      -161.0
+     ]
+    },
+    {
+     "label": "Increase (decrease) in accounts payable, accrued liabilities and other current and non-current liabilities",
+     "tag": "us-gaap_IncreaseDecreaseInAccountsPayableAndOtherOperatingLiabilities",
+     "vals": [
+      1515.0,
+      -158.0,
+      -586.0
+     ]
+    },
+    {
+     "label": "Cash provided by operations",
+     "tag": "us-gaap_NetCashProvidedByUsedInOperatingActivities",
+     "vals": [
+      4955.0,
+      3846.0,
+      3399.0
+     ]
+    },
+    {
+     "label": "Cash provided (used) by investing activities:",
+     "tag": "us-gaap_NetCashProvidedByUsedInInvestingActivitiesAbstract",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Purchases of short-term investments",
+     "tag": "us-gaap_PaymentsToAcquireAvailableForSaleSecuritiesDebt",
+     "vals": [
+      -4783.0,
+      -5928.0,
+      -5367.0
+     ]
+    },
+    {
+     "label": "Maturities of short-term investments",
+     "tag": "us-gaap_ProceedsFromMaturitiesPrepaymentsAndCallsOfAvailableForSaleSecurities",
+     "vals": [
+      3613.0,
+      3623.0,
+      2924.0
+     ]
+    },
+    {
+     "label": "Sales of short-term investments",
+     "tag": "us-gaap_ProceedsFromSaleOfAvailableForSaleSecuritiesDebt",
+     "vals": [
+      2496.0,
+      2423.0,
+      2386.0
+     ]
+    },
+    {
+     "label": "Investments in reverse repurchase agreements",
+     "tag": "us-gaap_ProceedsFromPaymentsForSecuritiesPurchasedUnderAgreementsToResell",
+     "vals": [
+      0.0,
+      0.0,
+      150.0
+     ]
+    },
+    {
+     "label": "Additions to property, plant and equipment",
+     "tag": "us-gaap_PaymentsToAcquirePropertyPlantAndEquipment",
+     "vals": [
+      -1028.0,
+      -1105.0,
+      -1143.0
+     ]
+    },
+    {
+     "label": "Disposals of property, plant and equipment",
+     "tag": "us-gaap_ProceedsFromSaleOfPropertyPlantAndEquipment",
+     "vals": [
+      3.0,
+      13.0,
+      10.0
+     ]
+    },
+    {
+     "label": "Other investing activities",
+     "tag": "us-gaap_PaymentsForProceedsFromOtherInvestingActivities",
+     "vals": [
+      -25.0,
+      -34.0,
+      6.0
+     ]
+    },
+    {
+     "label": "Cash provided (used) by investing activities",
+     "tag": "us-gaap_NetCashProvidedByUsedInInvestingActivities",
+     "vals": [
+      276.0,
+      -1008.0,
+      -1034.0
+     ]
+    },
+    {
+     "label": "Cash used by financing activities:",
+     "tag": "us-gaap_NetCashProvidedByUsedInFinancingActivitiesAbstract",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Net proceeds from long-term debt issuance",
+     "tag": "us-gaap_ProceedsFromIssuanceOfLongTermDebt",
+     "vals": [
+      0.0,
+      1482.0,
+      981.0
+     ]
+    },
+    {
+     "label": "Long-term debt payments, including current portion",
+     "tag": "us-gaap_RepaymentsOfLongTermDebt",
+     "vals": [
+      -6.0,
+      -44.0,
+      -106.0
+     ]
+    },
+    {
+     "label": "Increase (decrease) in notes payable",
+     "tag": "us-gaap_ProceedsFromRepaymentsOfNotesPayable",
+     "vals": [
+      13.0,
+      327.0,
+      -67.0
+     ]
+    },
+    {
+     "label": "Payments on capital lease and other financing obligations",
+     "tag": "us-gaap_RepaymentsOfLongTermCapitalLeaseObligations",
+     "vals": [
+      -23.0,
+      -17.0,
+      -7.0
+     ]
+    },
+    {
+     "label": "Proceeds from exercise of stock options and other stock issuances",
+     "tag": "us-gaap_ProceedsFromIssuanceOrSaleOfEquity",
+     "vals": [
+      733.0,
+      489.0,
+      507.0
+     ]
+    },
+    {
+     "label": "Repurchase of common stock",
+     "tag": "us-gaap_PaymentsForRepurchaseOfCommonStock",
+     "vals": [
+      -4254.0,
+      -3223.0,
+      -3238.0
+     ]
+    },
+    {
+     "label": "Dividends — common and preferred",
+     "tag": "us-gaap_PaymentsOfDividendsCommonStock",
+     "vals": [
+      -1243.0,
+      -1133.0,
+      -1022.0
+     ]
+    },
+    {
+     "label": "Tax payments for net share settlement of equity awards",
+     "tag": "us-gaap_PaymentsRelatedToTaxWithholdingForShareBasedCompensation",
+     "vals": [
+      -55.0,
+      -29.0,
+      -22.0
+     ]
+    },
+    {
+     "label": "Cash used by financing activities",
+     "tag": "us-gaap_NetCashProvidedByUsedInFinancingActivities",
+     "vals": [
+      -4835.0,
+      -2148.0,
+      -2974.0
+     ]
+    },
+    {
+     "label": "Effect of exchange rate changes on cash and equivalents",
+     "tag": "us-gaap_EffectOfExchangeRateOnCashAndCashEquivalents",
+     "vals": [
+      45.0,
+      -20.0,
+      -105.0
+     ]
+    },
+    {
+     "label": "Net increase (decrease) in cash and equivalents",
+     "tag": "us-gaap_CashAndCashEquivalentsPeriodIncreaseDecrease",
+     "vals": [
+      441.0,
+      670.0,
+      -714.0
+     ]
+    },
+    {
+     "label": "Cash and equivalents, beginning of year",
+     "tag": "us-gaap_CashAndCashEquivalentsAtCarryingValue",
+     "vals": [
+      3808.0,
+      3138.0,
+      3852.0
+     ]
+    },
+    {
+     "label": "CASH AND EQUIVALENTS, END OF YEAR",
+     "tag": "us-gaap_CashAndCashEquivalentsAtCarryingValue",
+     "vals": [
+      4249.0,
+      3808.0,
+      3138.0
+     ]
+    },
+    {
+     "label": "Cash paid during the year for:",
+     "tag": "nke_CashPaidDuringPeriodForAbstract",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Interest, net of capitalized interest",
+     "tag": "us-gaap_InterestPaidNet",
+     "vals": [
+      125.0,
+      98.0,
+      70.0
+     ]
+    },
+    {
+     "label": "Income taxes",
+     "tag": "us-gaap_IncomeTaxesPaid",
+     "vals": [
+      529.0,
+      703.0,
+      748.0
+     ]
+    },
+    {
+     "label": "Non-cash additions to property, plant and equipment",
+     "tag": "us-gaap_CapitalExpendituresIncurredButNotYetPaid",
+     "vals": [
+      294.0,
+      266.0,
+      252.0
+     ]
+    },
+    {
+     "label": "Dividends declared and not paid",
+     "tag": "us-gaap_DividendsPayableCurrentAndNoncurrent",
+     "vals": [
+      320.0,
+      300.0,
+      271.0
+     ]
+    }
+   ]
+  },
+  "CI": {
+   "file": "R3.htm",
+   "short": "Consolidated Statements of Comprehensive Income",
+   "unit": "Consolidated Statements of Comprehensive Income - USD ($) $ in Millions",
+   "periods": [
+    "May 31, 2018",
+    "May 31, 2017",
+    "May 31, 2016"
+   ],
+   "months": [
+    12,
+    12,
+    12
+   ],
+   "rows": [
+    {
+     "label": "Statement of Comprehensive Income [Abstract]",
+     "tag": "us-gaap_StatementOfIncomeAndComprehensiveIncomeAbstract",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Net income",
+     "tag": "us-gaap_NetIncomeLoss",
+     "vals": [
+      1933.0,
+      4240.0,
+      3760.0
+     ]
+    },
+    {
+     "label": "Other comprehensive income (loss), net of tax:",
+     "tag": "us-gaap_OtherComprehensiveIncomeLossNetOfTaxPeriodIncreaseDecreaseAbstract",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Change in net foreign currency translation adjustment",
+     "tag": "us-gaap_OtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationAdjustmentNetOfTax",
+     "vals": [
+      -6.0,
+      16.0,
+      -176.0
+     ]
+    },
+    {
+     "label": "Change in net gains (losses) on cash flow hedges",
+     "tag": "us-gaap_OtherComprehensiveIncomeLossDerivativesQualifyingAsHedgesNetOfTax",
+     "vals": [
+      76.0,
+      -515.0,
+      -757.0
+     ]
+    },
+    {
+     "label": "Change in net gains (losses) on other",
+     "tag": "nke_OtherComprehensiveIncomeLossReclassificationAdjustmentFromAOCIOnOtherNetOfTax",
+     "vals": [
+      34.0,
+      -32.0,
+      5.0
+     ]
+    },
+    {
+     "label": "Total other comprehensive income (loss), net of tax",
+     "tag": "us-gaap_OtherComprehensiveIncomeLossNetOfTax",
+     "vals": [
+      104.0,
+      -531.0,
+      -928.0
+     ]
+    },
+    {
+     "label": "TOTAL COMPREHENSIVE INCOME",
+     "tag": "us-gaap_ComprehensiveIncomeNetOfTax",
+     "vals": [
+      2037.0,
+      3709.0,
+      2832.0
+     ]
+    }
+   ]
+  },
+  "DEBT": {
+   "file": "R51.htm",
+   "short": "Long-Term Debt - Net of Unamortized Premiums and Discounts and Swap Fair Value Adjustments (Detail)",
+   "unit": "May 31, 2018 USD ($)",
+   "periods": [
+    "May 31, 2018 JPY (¥)",
+    "May 31, 2017 USD ($)"
+   ],
+   "months": [],
+   "rows": [
+    {
+     "label": "Debt Instrument [Line Items]",
+     "tag": "us-gaap_DebtInstrumentLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Long Term Debt",
+     "tag": "us-gaap_LongTermDebt",
+     "vals": [
+      null,
+      3477000000.0
+     ]
+    },
+    {
+     "label": "Less current maturities",
+     "tag": "us-gaap_LongTermDebtCurrent",
+     "vals": [
+      null,
+      6000000.0
+     ]
+    },
+    {
+     "label": "TOTAL LONG-TERM DEBT",
+     "tag": "us-gaap_LongTermDebtNoncurrent",
+     "vals": [
+      null,
+      3471000000.0
+     ]
+    },
+    {
+     "label": "Corporate Bond Payables | 2.25% Corporate bond, payable May 1, 2023",
+     "tag": "us-gaap_LongtermDebtTypeAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Debt Instrument [Line Items]",
+     "tag": "us-gaap_DebtInstrumentLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Long-term debt, original principal",
+     "tag": "us-gaap_DebtInstrumentFaceAmount",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Long-term debt, interest rate",
+     "tag": "us-gaap_DebtInstrumentInterestRateStatedPercentage",
+     "vals": [
+      2.25,
+      null
+     ]
+    },
+    {
+     "label": "Long-term debt, interest payment",
+     "tag": "us-gaap_LongTermDebtMaturitiesRepaymentTerms",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Long Term Debt",
+     "tag": "us-gaap_LongTermDebt",
+     "vals": [
+      null,
+      497000000.0
+     ]
+    },
+    {
+     "label": "Corporate Bond Payables | 2.38% Corporate bond, payable November 1, 2026",
+     "tag": "us-gaap_LongtermDebtTypeAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Debt Instrument [Line Items]",
+     "tag": "us-gaap_DebtInstrumentLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Long-term debt, original principal",
+     "tag": "us-gaap_DebtInstrumentFaceAmount",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Long-term debt, interest rate",
+     "tag": "us-gaap_DebtInstrumentInterestRateStatedPercentage",
+     "vals": [
+      2.375,
+      null
+     ]
+    },
+    {
+     "label": "Long-term debt, interest payment",
+     "tag": "us-gaap_LongTermDebtMaturitiesRepaymentTerms",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Long Term Debt",
+     "tag": "us-gaap_LongTermDebt",
+     "vals": [
+      null,
+      993000000.0
+     ]
+    },
+    {
+     "label": "Corporate Bond Payables | 3.63% Corporate bond, payable May 1, 2043",
+     "tag": "us-gaap_LongtermDebtTypeAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Debt Instrument [Line Items]",
+     "tag": "us-gaap_DebtInstrumentLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Long-term debt, original principal",
+     "tag": "us-gaap_DebtInstrumentFaceAmount",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Long-term debt, interest rate",
+     "tag": "us-gaap_DebtInstrumentInterestRateStatedPercentage",
+     "vals": [
+      3.625,
+      null
+     ]
+    },
+    {
+     "label": "Long-term debt, interest payment",
+     "tag": "us-gaap_LongTermDebtMaturitiesRepaymentTerms",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Long Term Debt",
+     "tag": "us-gaap_LongTermDebt",
+     "vals": [
+      null,
+      495000000.0
+     ]
+    },
+    {
+     "label": "Corporate Bond Payables | 3.88% Corporate bond, payable November 1, 2045",
+     "tag": "us-gaap_LongtermDebtTypeAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Debt Instrument [Line Items]",
+     "tag": "us-gaap_DebtInstrumentLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Long-term debt, original principal",
+     "tag": "us-gaap_DebtInstrumentFaceAmount",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Long-term debt, interest rate",
+     "tag": "us-gaap_DebtInstrumentInterestRateStatedPercentage",
+     "vals": [
+      3.875,
+      null
+     ]
+    },
+    {
+     "label": "Long-term debt, interest payment",
+     "tag": "us-gaap_LongTermDebtMaturitiesRepaymentTerms",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Long Term Debt",
+     "tag": "us-gaap_LongTermDebt",
+     "vals": [
+      null,
+      981000000.0
+     ]
+    },
+    {
+     "label": "Corporate Bond Payables | 3.38% Corporate bond, payable November 1, 2046",
+     "tag": "us-gaap_LongtermDebtTypeAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Debt Instrument [Line Items]",
+     "tag": "us-gaap_DebtInstrumentLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Long-term debt, original principal",
+     "tag": "us-gaap_DebtInstrumentFaceAmount",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Long-term debt, interest rate",
+     "tag": "us-gaap_DebtInstrumentInterestRateStatedPercentage",
+     "vals": [
+      3.375,
+      null
+     ]
+    },
+    {
+     "label": "Long-term debt, interest payment",
+     "tag": "us-gaap_LongTermDebtMaturitiesRepaymentTerms",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Long Term Debt",
+     "tag": "us-gaap_LongTermDebt",
+     "vals": [
+      null,
+      490000000.0
+     ]
+    },
+    {
+     "label": "Notes Payable | 2.60% Japanese Yen note, maturing August 20, 2001 through November 20, 2020",
+     "tag": "us-gaap_LongtermDebtTypeAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Debt Instrument [Line Items]",
+     "tag": "us-gaap_DebtInstrumentLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Long-term debt, original principal | ¥",
+     "tag": "us-gaap_DebtInstrumentFaceAmount",
+     "vals": [
+      9000000000.0,
+      null
+     ]
+    },
+    {
+     "label": "Long-term debt, interest rate",
+     "tag": "us-gaap_DebtInstrumentInterestRateStatedPercentage",
+     "vals": [
+      2.6,
+      null
+     ]
+    },
+    {
+     "label": "Long-term debt, interest payment",
+     "tag": "us-gaap_LongTermDebtMaturitiesRepaymentTerms",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Long Term Debt",
+     "tag": "us-gaap_LongTermDebt",
+     "vals": [
+      null,
+      14000000.0
+     ]
+    },
+    {
+     "label": "Notes Payable | 2.00% Japanese Yen note, maturing August 20, 2001 through November 20, 2020",
+     "tag": "us-gaap_LongtermDebtTypeAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Debt Instrument [Line Items]",
+     "tag": "us-gaap_DebtInstrumentLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Long-term debt, original principal | ¥",
+     "tag": "us-gaap_DebtInstrumentFaceAmount",
+     "vals": [
+      4000000000.0,
+      null
+     ]
+    },
+    {
+     "label": "Long-term debt, interest rate",
+     "tag": "us-gaap_DebtInstrumentInterestRateStatedPercentage",
+     "vals": [
+      2.0,
+      null
+     ]
+    },
+    {
+     "label": "Long-term debt, interest payment",
+     "tag": "us-gaap_LongTermDebtMaturitiesRepaymentTerms",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Long Term Debt",
+     "tag": "us-gaap_LongTermDebt",
+     "vals": [
+      null,
+      7000000.0
+     ]
+    }
+   ]
+  },
+  "EPS": {
+   "file": "R67.htm",
+   "short": "Earnings Per Share - Reconciliation from Basic Earnings Per Share to Diluted Earnings Per Share (Detail)",
+   "unit": "Earnings Per Share - Reconciliation from Basic Earnings Per Share to Diluted Earnings Per Share (Detail) - $ / shares shares in Millions",
+   "periods": [
+    "May 31, 2018",
+    "May 31, 2017",
+    "May 31, 2016"
+   ],
+   "months": [
+    12,
+    12,
+    12
+   ],
+   "rows": [
+    {
+     "label": "Determination of shares:",
+     "tag": "us-gaap_WeightedAverageNumberOfSharesOutstandingAbstract",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Weighted average common shares outstanding",
+     "tag": "us-gaap_WeightedAverageNumberOfSharesOutstandingBasic",
+     "vals": [
+      1623.8,
+      1657.8,
+      1697.9
+     ]
+    },
+    {
+     "label": "Assumed conversion of dilutive stock options and awards",
+     "tag": "us-gaap_IncrementalCommonSharesAttributableToShareBasedPaymentArrangements",
+     "vals": [
+      35.3,
+      34.2,
+      44.6
+     ]
+    },
+    {
+     "label": "DILUTED WEIGHTED AVERAGE COMMON SHARES OUTSTANDING",
+     "tag": "us-gaap_WeightedAverageNumberOfDilutedSharesOutstanding",
+     "vals": [
+      1659.1,
+      1692.0,
+      1742.5
+     ]
+    },
+    {
+     "label": "Earnings per common share:",
+     "tag": "us-gaap_EarningsPerShareBasicAndDilutedAbstract",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Basic (in dollars per share)",
+     "tag": "us-gaap_EarningsPerShareBasic",
+     "vals": [
+      1.19,
+      2.56,
+      2.21
+     ]
+    },
+    {
+     "label": "Diluted (in dollars per share)",
+     "tag": "us-gaap_EarningsPerShareDiluted",
+     "vals": [
+      1.17,
+      2.51,
+      2.16
+     ]
+    }
+   ]
+  },
+  "EQ": {
+   "file": "R7.htm",
+   "short": "Consolidated Statements of Shareholders' Equity",
+   "unit": "Consolidated Statements of Shareholders' Equity - USD ($) shares in Millions, $ in Millions",
+   "periods": [],
+   "months": [],
+   "rows": [
+    {
+     "label": "Beginning Balance (in shares) at May. 31, 2015",
+     "tag": "us-gaap_CommonStockSharesOutstanding",
+     "vals": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      355.0,
+      null,
+      1357.0
+     ]
+    },
+    {
+     "label": "Beginning balance at May. 31, 2015",
+     "tag": "us-gaap_StockholdersEquity",
+     "vals": [
+      12707.0,
+      4165.0,
+      1246.0,
+      7293.0,
+      null,
+      0.0,
+      null,
+      3.0
+     ]
+    },
+    {
+     "label": "Increase (Decrease) in Stockholders' Equity [Roll Forward]",
+     "tag": "us-gaap_IncreaseDecreaseInStockholdersEquityRollForward",
+     "vals": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Stock options exercised (in shares)",
+     "tag": "us-gaap_StockIssuedDuringPeriodSharesStockOptionsExercised",
+     "vals": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      22.0
+     ]
+    },
+    {
+     "label": "Stock options exercised",
+     "tag": "us-gaap_StockIssuedDuringPeriodValueStockOptionsExercised",
+     "vals": [
+      680.0,
+      680.0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Conversion to Class B Common Stock (in shares)",
+     "tag": "us-gaap_StockIssuedDuringPeriodSharesConversionOfConvertibleSecurities",
+     "vals": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      -2.0,
+      null,
+      2.0
+     ]
+    },
+    {
+     "label": "Conversion to Class B Common Stock",
+     "tag": "us-gaap_StockIssuedDuringPeriodValueConversionOfConvertibleSecurities",
+     "vals": [
+      0.0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Repurchase of Class B Common Stock (in shares)",
+     "tag": "us-gaap_StockRepurchasedDuringPeriodShares",
+     "vals": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      -55.0
+     ]
+    },
+    {
+     "label": "Repurchase of Class B Common Stock",
+     "tag": "us-gaap_StockRepurchasedDuringPeriodValue",
+     "vals": [
+      -3238.0,
+      -148.0,
+      null,
+      -3090.0,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Dividends on common stock and preferred stock",
+     "tag": "us-gaap_Dividends",
+     "vals": [
+      -1053.0,
+      null,
+      null,
+      -1053.0,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Issuance of shares to employees, net of shares withheld for employee taxes (in shares)",
+     "tag": "nke_IssuanceOfSharesToEmployeesSharesNetOfSharesWithheldForTaxes",
+     "vals": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      3.0
+     ]
+    },
+    {
+     "label": "Issuance of shares to employees, net of shares withheld for employee taxes",
+     "tag": "nke_IssuanceOfSharesToEmployeesValueNetOfSharesWithheldForTaxes",
+     "vals": [
+      94.0,
+      105.0,
+      null,
+      -11.0,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Stock-based compensation",
+     "tag": "us-gaap_AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue",
+     "vals": [
+      236.0,
+      236.0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Net income",
+     "tag": "us-gaap_NetIncomeLoss",
+     "vals": [
+      3760.0,
+      null,
+      null,
+      3760.0,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Other comprehensive income (loss)",
+     "tag": "us-gaap_OtherComprehensiveIncomeLossNetOfTaxPortionAttributableToParent",
+     "vals": [
+      -928.0,
+      null,
+      -928.0,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Ending Balance (in shares) at May. 31, 2016",
+     "tag": "us-gaap_CommonStockSharesOutstanding",
+     "vals": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      353.0,
+      null,
+      1329.0
+     ]
+    },
+    {
+     "label": "Ending balance at May. 31, 2016",
+     "tag": "us-gaap_StockholdersEquity",
+     "vals": [
+      12258.0,
+      5038.0,
+      318.0,
+      6899.0,
+      null,
+      0.0,
+      null,
+      3.0
+     ]
+    },
+    {
+     "label": "Increase (Decrease) in Stockholders' Equity [Roll Forward]",
+     "tag": "us-gaap_IncreaseDecreaseInStockholdersEquityRollForward",
+     "vals": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Stock options exercised (in shares)",
+     "tag": "us-gaap_StockIssuedDuringPeriodSharesStockOptionsExercised",
+     "vals": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      17.0
+     ]
+    },
+    {
+     "label": "Stock options exercised",
+     "tag": "us-gaap_StockIssuedDuringPeriodValueStockOptionsExercised",
+     "vals": [
+      525.0,
+      525.0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Conversion to Class B Common Stock (in shares)",
+     "tag": "us-gaap_StockIssuedDuringPeriodSharesConversionOfConvertibleSecurities",
+     "vals": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      -24.0,
+      null,
+      24.0
+     ]
+    },
+    {
+     "label": "Conversion to Class B Common Stock",
+     "tag": "us-gaap_StockIssuedDuringPeriodValueConversionOfConvertibleSecurities",
+     "vals": [
+      0.0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Repurchase of Class B Common Stock (in shares)",
+     "tag": "us-gaap_StockRepurchasedDuringPeriodShares",
+     "vals": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      -60.0
+     ]
+    },
+    {
+     "label": "Repurchase of Class B Common Stock",
+     "tag": "us-gaap_StockRepurchasedDuringPeriodValue",
+     "vals": [
+      -3249.0,
+      -189.0,
+      null,
+      -3060.0,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Dividends on common stock and preferred stock",
+     "tag": "us-gaap_Dividends",
+     "vals": [
+      -1159.0,
+      null,
+      null,
+      -1159.0,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Issuance of shares to employees, net of shares withheld for employee taxes (in shares)",
+     "tag": "nke_IssuanceOfSharesToEmployeesSharesNetOfSharesWithheldForTaxes",
+     "vals": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      4.0
+     ]
+    },
+    {
+     "label": "Issuance of shares to employees, net of shares withheld for employee taxes",
+     "tag": "nke_IssuanceOfSharesToEmployeesValueNetOfSharesWithheldForTaxes",
+     "vals": [
+      108.0,
+      121.0,
+      null,
+      -13.0,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Stock-based compensation",
+     "tag": "us-gaap_AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue",
+     "vals": [
+      215.0,
+      215.0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Net income",
+     "tag": "us-gaap_NetIncomeLoss",
+     "vals": [
+      4240.0,
+      null,
+      null,
+      4240.0,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Other comprehensive income (loss)",
+     "tag": "us-gaap_OtherComprehensiveIncomeLossNetOfTaxPortionAttributableToParent",
+     "vals": [
+      -531.0,
+      null,
+      -531.0,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Ending Balance (in shares) at May. 31, 2017",
+     "tag": "us-gaap_CommonStockSharesOutstanding",
+     "vals": [
+      null,
+      null,
+      null,
+      null,
+      329.0,
+      329.0,
+      1314.0,
+      1314.0
+     ]
+    },
+    {
+     "label": "Ending balance at May. 31, 2017",
+     "tag": "us-gaap_StockholdersEquity",
+     "vals": [
+      12407.0,
+      5710.0,
+      -213.0,
+      6907.0,
+      null,
+      0.0,
+      null,
+      3.0
+     ]
+    },
+    {
+     "label": "Increase (Decrease) in Stockholders' Equity [Roll Forward]",
+     "tag": "us-gaap_IncreaseDecreaseInStockholdersEquityRollForward",
+     "vals": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Stock options exercised (in shares)",
+     "tag": "us-gaap_StockIssuedDuringPeriodSharesStockOptionsExercised",
+     "vals": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      24.0
+     ]
+    },
+    {
+     "label": "Stock options exercised",
+     "tag": "us-gaap_StockIssuedDuringPeriodValueStockOptionsExercised",
+     "vals": [
+      600.0,
+      600.0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Conversion to Class B Common Stock (in shares)",
+     "tag": "us-gaap_StockIssuedDuringPeriodSharesConversionOfConvertibleSecurities",
+     "vals": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      0.0,
+      null,
+      0.0
+     ]
+    },
+    {
+     "label": "Conversion to Class B Common Stock",
+     "tag": "us-gaap_StockIssuedDuringPeriodValueConversionOfConvertibleSecurities",
+     "vals": [
+      0.0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Repurchase of Class B Common Stock (in shares)",
+     "tag": "us-gaap_StockRepurchasedDuringPeriodShares",
+     "vals": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      -70.0
+     ]
+    },
+    {
+     "label": "Repurchase of Class B Common Stock",
+     "tag": "us-gaap_StockRepurchasedDuringPeriodValue",
+     "vals": [
+      -4267.0,
+      -254.0,
+      null,
+      -4013.0,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Dividends on common stock and preferred stock",
+     "tag": "us-gaap_Dividends",
+     "vals": [
+      -1265.0,
+      null,
+      null,
+      -1265.0,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Issuance of shares to employees, net of shares withheld for employee taxes (in shares)",
+     "tag": "nke_IssuanceOfSharesToEmployeesSharesNetOfSharesWithheldForTaxes",
+     "vals": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      4.0
+     ]
+    },
+    {
+     "label": "Issuance of shares to employees, net of shares withheld for employee taxes",
+     "tag": "nke_IssuanceOfSharesToEmployeesValueNetOfSharesWithheldForTaxes",
+     "vals": [
+      82.0,
+      110.0,
+      null,
+      -28.0,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Stock-based compensation",
+     "tag": "us-gaap_AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue",
+     "vals": [
+      218.0,
+      218.0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Net income",
+     "tag": "us-gaap_NetIncomeLoss",
+     "vals": [
+      1933.0,
+      null,
+      null,
+      1933.0,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Other comprehensive income (loss)",
+     "tag": "us-gaap_OtherComprehensiveIncomeLossNetOfTaxPortionAttributableToParent",
+     "vals": [
+      104.0,
+      null,
+      104.0,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Ending Balance (in shares) at May. 31, 2018",
+     "tag": "us-gaap_CommonStockSharesOutstanding",
+     "vals": [
+      null,
+      null,
+      null,
+      null,
+      329.0,
+      329.0,
+      1273.0,
+      1272.0
+     ]
+    },
+    {
+     "label": "Ending balance at May. 31, 2018",
+     "tag": "us-gaap_StockholdersEquity",
+     "vals": [
+      9812.0,
+      6384.0,
+      -92.0,
+      3517.0,
+      null,
+      0.0,
+      null,
+      3.0
+     ]
+    },
+    {
+     "label": "Increase (Decrease) in Stockholders' Equity [Roll Forward]",
+     "tag": "us-gaap_IncreaseDecreaseInStockholdersEquityRollForward",
+     "vals": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Reclassifications to retained earnings in accordance with ASU 2018-02 | Accounting Standards Update 2018-02",
+     "tag": "us-gaap_CumulativeEffectOfNewAccountingPrincipleInPeriodOfAdoption",
+     "vals": [
+      null,
+      null,
+      17.0,
+      -17.0,
+      null,
+      null,
+      null,
+      null
+     ]
+    }
+   ]
+  },
+  "INV": {
+   "file": "R42.htm",
+   "short": "Inventories - Additional Information (Detail)",
+   "unit": "Inventories - Additional Information (Detail) - USD ($) $ in Millions",
+   "periods": [
+    "May 31, 2018",
+    "May 31, 2017"
+   ],
+   "months": [],
+   "rows": [
+    {
+     "label": "Inventory Disclosure [Abstract]",
+     "tag": "us-gaap_InventoryDisclosureAbstract",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Inventory balances, were substantially all finished goods",
+     "tag": "us-gaap_InventoryFinishedGoodsNetOfReserves",
+     "vals": [
+      5261.0,
+      5055.0
+     ]
+    }
+   ]
+  },
+  "IS": {
+   "file": "R2.htm",
+   "short": "Consolidated Statements of Income",
+   "unit": "Consolidated Statements of Income - USD ($) $ in Millions",
+   "periods": [
+    "May 31, 2018",
+    "May 31, 2017",
+    "May 31, 2016"
+   ],
+   "months": [
+    12,
+    12,
+    12
+   ],
+   "rows": [
+    {
+     "label": "Income Statement [Abstract]",
+     "tag": "us-gaap_IncomeStatementAbstract",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Revenues",
+     "tag": "us-gaap_SalesRevenueNet",
+     "vals": [
+      36397.0,
+      34350.0,
+      32376.0
+     ]
+    },
+    {
+     "label": "Cost of sales",
+     "tag": "us-gaap_CostOfGoodsSold",
+     "vals": [
+      20441.0,
+      19038.0,
+      17405.0
+     ]
+    },
+    {
+     "label": "Gross profit",
+     "tag": "us-gaap_GrossProfit",
+     "vals": [
+      15956.0,
+      15312.0,
+      14971.0
+     ]
+    },
+    {
+     "label": "Demand creation expense",
+     "tag": "us-gaap_MarketingAndAdvertisingExpense",
+     "vals": [
+      3577.0,
+      3341.0,
+      3278.0
+     ]
+    },
+    {
+     "label": "Operating overhead expense",
+     "tag": "us-gaap_GeneralAndAdministrativeExpense",
+     "vals": [
+      7934.0,
+      7222.0,
+      7191.0
+     ]
+    },
+    {
+     "label": "Total selling and administrative expense",
+     "tag": "us-gaap_SellingGeneralAndAdministrativeExpense",
+     "vals": [
+      11511.0,
+      10563.0,
+      10469.0
+     ]
+    },
+    {
+     "label": "Interest expense (income), net",
+     "tag": "us-gaap_InterestIncomeExpenseNonoperatingNet",
+     "vals": [
+      54.0,
+      59.0,
+      19.0
+     ]
+    },
+    {
+     "label": "Other expense (income), net",
+     "tag": "us-gaap_OtherNonoperatingIncomeExpense",
+     "vals": [
+      66.0,
+      -196.0,
+      -140.0
+     ]
+    },
+    {
+     "label": "Income before income taxes",
+     "tag": "us-gaap_IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments",
+     "vals": [
+      4325.0,
+      4886.0,
+      4623.0
+     ]
+    },
+    {
+     "label": "Income tax expense",
+     "tag": "us-gaap_IncomeTaxExpenseBenefit",
+     "vals": [
+      2392.0,
+      646.0,
+      863.0
+     ]
+    },
+    {
+     "label": "NET INCOME",
+     "tag": "us-gaap_NetIncomeLoss",
+     "vals": [
+      1933.0,
+      4240.0,
+      3760.0
+     ]
+    },
+    {
+     "label": "Earnings per common share:",
+     "tag": "nke_IncomeLossFromContinuingOperationsPerBasicAndDilutedPerShareAbstract",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Basic (in dollars per share)",
+     "tag": "us-gaap_EarningsPerShareBasic",
+     "vals": [
+      1.19,
+      2.56,
+      2.21
+     ]
+    },
+    {
+     "label": "Diluted (in dollars per share)",
+     "tag": "us-gaap_EarningsPerShareDiluted",
+     "vals": [
+      1.17,
+      2.51,
+      2.16
+     ]
+    },
+    {
+     "label": "Dividends declared per common share (in dollars per share)",
+     "tag": "us-gaap_CommonStockDividendsPerShareDeclared",
+     "vals": [
+      0.78,
+      0.7,
+      0.62
+     ]
+    }
+   ]
+  },
+  "PPE": {
+   "file": "R43.htm",
+   "short": "Property Plant and Equipment (Detail)",
+   "unit": "Property Plant and Equipment (Detail) - USD ($) $ in Millions",
+   "periods": [
+    "May 31, 2018",
+    "May 31, 2017"
+   ],
+   "months": [],
+   "rows": [
+    {
+     "label": "Property, Plant and Equipment [Line Items]",
+     "tag": "us-gaap_PropertyPlantAndEquipmentLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Total property, plant and equipment, gross",
+     "tag": "us-gaap_PropertyPlantAndEquipmentGross",
+     "vals": [
+      8891.0,
+      7958.0
+     ]
+    },
+    {
+     "label": "Less accumulated depreciation",
+     "tag": "us-gaap_AccumulatedDepreciationDepletionAndAmortizationPropertyPlantAndEquipment",
+     "vals": [
+      4437.0,
+      3969.0
+     ]
+    },
+    {
+     "label": "TOTAL PROPERTY, PLANT AND EQUIPMENT, NET",
+     "tag": "us-gaap_PropertyPlantAndEquipmentNet",
+     "vals": [
+      4454.0,
+      3989.0
+     ]
+    },
+    {
+     "label": "Land and improvements",
+     "tag": "us-gaap_PropertyPlantAndEquipmentByTypeAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Property, Plant and Equipment [Line Items]",
+     "tag": "us-gaap_PropertyPlantAndEquipmentLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Total property, plant and equipment, gross",
+     "tag": "us-gaap_PropertyPlantAndEquipmentGross",
+     "vals": [
+      331.0,
+      285.0
+     ]
+    },
+    {
+     "label": "Buildings",
+     "tag": "us-gaap_PropertyPlantAndEquipmentByTypeAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Property, Plant and Equipment [Line Items]",
+     "tag": "us-gaap_PropertyPlantAndEquipmentLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Total property, plant and equipment, gross",
+     "tag": "us-gaap_PropertyPlantAndEquipmentGross",
+     "vals": [
+      2195.0,
+      1564.0
+     ]
+    },
+    {
+     "label": "Machinery, equipment and internal-use software",
+     "tag": "us-gaap_PropertyPlantAndEquipmentByTypeAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Property, Plant and Equipment [Line Items]",
+     "tag": "us-gaap_PropertyPlantAndEquipmentLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Total property, plant and equipment, gross",
+     "tag": "us-gaap_PropertyPlantAndEquipmentGross",
+     "vals": [
+      4230.0,
+      3867.0
+     ]
+    },
+    {
+     "label": "Leasehold improvements",
+     "tag": "us-gaap_PropertyPlantAndEquipmentByTypeAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Property, Plant and Equipment [Line Items]",
+     "tag": "us-gaap_PropertyPlantAndEquipmentLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Total property, plant and equipment, gross",
+     "tag": "us-gaap_PropertyPlantAndEquipmentGross",
+     "vals": [
+      1494.0,
+      1484.0
+     ]
+    },
+    {
+     "label": "Construction in process",
+     "tag": "us-gaap_PropertyPlantAndEquipmentByTypeAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Property, Plant and Equipment [Line Items]",
+     "tag": "us-gaap_PropertyPlantAndEquipmentLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Total property, plant and equipment, gross",
+     "tag": "us-gaap_PropertyPlantAndEquipmentGross",
+     "vals": [
+      641.0,
+      758.0
+     ]
+    }
+   ]
+  },
+  "PROD": {
+   "file": "R77.htm",
+   "short": "Operating Segments and Related Information - Revenues by Major Product Line (Detail)",
+   "unit": "Operating Segments and Related Information - Revenues by Major Product Line (Detail) - USD ($) $ in Millions",
+   "periods": [
+    "May 31, 2018",
+    "May 31, 2017",
+    "May 31, 2016"
+   ],
+   "months": [
+    12,
+    12,
+    12
+   ],
+   "rows": [
+    {
+     "label": "Revenue from External Customer [Line Items]",
+     "tag": "us-gaap_EntityWideInformationRevenueFromExternalCustomerLineItems",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Revenues",
+     "tag": "us-gaap_SalesRevenueNet",
+     "vals": [
+      36397.0,
+      34350.0,
+      32376.0
+     ]
+    },
+    {
+     "label": "Footwear",
+     "tag": "us-gaap_ProductOrServiceAxis",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Revenue from External Customer [Line Items]",
+     "tag": "us-gaap_EntityWideInformationRevenueFromExternalCustomerLineItems",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Revenues",
+     "tag": "us-gaap_SalesRevenueNet",
+     "vals": [
+      22268.0,
+      21081.0,
+      19871.0
+     ]
+    },
+    {
+     "label": "Apparel",
+     "tag": "us-gaap_ProductOrServiceAxis",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Revenue from External Customer [Line Items]",
+     "tag": "us-gaap_EntityWideInformationRevenueFromExternalCustomerLineItems",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Revenues",
+     "tag": "us-gaap_SalesRevenueNet",
+     "vals": [
+      10733.0,
+      9654.0,
+      9067.0
+     ]
+    },
+    {
+     "label": "Equipment",
+     "tag": "us-gaap_ProductOrServiceAxis",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Revenue from External Customer [Line Items]",
+     "tag": "us-gaap_EntityWideInformationRevenueFromExternalCustomerLineItems",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Revenues",
+     "tag": "us-gaap_SalesRevenueNet",
+     "vals": [
+      1396.0,
+      1425.0,
+      1496.0
+     ]
+    },
+    {
+     "label": "Other",
+     "tag": "us-gaap_ProductOrServiceAxis",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Revenue from External Customer [Line Items]",
+     "tag": "us-gaap_EntityWideInformationRevenueFromExternalCustomerLineItems",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Revenues",
+     "tag": "us-gaap_SalesRevenueNet",
+     "vals": [
+      2000.0,
+      2190.0,
+      1942.0
+     ]
+    }
+   ]
+  },
+  "SBC": {
+   "file": "R62.htm",
+   "short": "Common Stock and Stock-Based Compensation - Additional Information (Detail)",
+   "unit": "May 31, 2018 USD ($) $ / shares shares",
+   "periods": [
+    "May 31, 2017 USD ($) $ / shares shares",
+    "May 31, 2016 USD ($) $ / shares shares"
+   ],
+   "months": [],
+   "rows": [
+    {
+     "label": "Class A Convertible Common Stock",
+     "tag": "us-gaap_StatementClassOfStockAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Common Stock and Share Based Compensation [Line Items]",
+     "tag": "nke_CommonStockAndShareBasedCompensationLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Common stock, no par value | $ / shares",
+     "tag": "us-gaap_CommonStockNoParValue",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Common stock, number of shares authorized (in shares) | shares",
+     "tag": "us-gaap_CommonStockSharesAuthorized",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Common stock conversion",
+     "tag": "us-gaap_CommonStockConversionBasis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Common stock, Class A conversion ratio to Class B (in shares)",
+     "tag": "nke_CommonStockClassAConversionRatiotoClassB",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Class B Common Stock",
+     "tag": "us-gaap_StatementClassOfStockAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Common Stock and Share Based Compensation [Line Items]",
+     "tag": "nke_CommonStockAndShareBasedCompensationLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Common stock, no par value | $ / shares",
+     "tag": "us-gaap_CommonStockNoParValue",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Common stock, number of shares authorized (in shares) | shares",
+     "tag": "us-gaap_CommonStockSharesAuthorized",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Stock Incentive Plan | Class B Common Stock",
+     "tag": "us-gaap_PlanNameAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Common Stock and Share Based Compensation [Line Items]",
+     "tag": "nke_CommonStockAndShareBasedCompensationLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Shares available for grant (in shares) | shares",
+     "tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardNumberOfSharesAuthorized",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Stock options vesting period (in years)",
+     "tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardAwardVestingPeriod1",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Stock options expiration from the date of grant (in years)",
+     "tag": "us-gaap_SharebasedCompensationArrangementBySharebasedPaymentAwardExpirationPeriod",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Minimum term of market traded options for estimates of expected volatility (in years)",
+     "tag": "nke_MinimumTermOfMarketTradedOptionsForEstimatesOfExpectedVolatility",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Weighted average remaining contractual life for options outstanding (in years)",
+     "tag": "us-gaap_SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm2",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Weighted average remaining contractual life for options exercisable (in years)",
+     "tag": "us-gaap_SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsExercisableWeightedAverageRemainingContractualTerm1",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Aggregate intrinsic value for options outstanding",
+     "tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingIntrinsicValue",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Aggregate intrinsic value for options exercisable",
+     "tag": "us-gaap_SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsExercisableIntrinsicValue1",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Total intrinsic value of options exercised",
+     "tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisesInPeriodTotalIntrinsicValue",
+     "vals": [
+      594.0,
+      946.0
+     ]
+    },
+    {
+     "label": "Stock options | Stock Incentive Plan",
+     "tag": "us-gaap_AwardTypeAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Common Stock and Share Based Compensation [Line Items]",
+     "tag": "nke_CommonStockAndShareBasedCompensationLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Unrecognized compensation costs from stock options, net of estimated forfeitures",
+     "tag": "us-gaap_EmployeeServiceShareBasedCompensationNonvestedAwardsTotalCompensationCostNotYetRecognizedStockOptions",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Unrecognized compensation costs from stock options, net of estimated forfeitures, to be recognized as operating overhead expense over a weighted average period (in years)",
+     "tag": "us-gaap_EmployeeServiceShareBasedCompensationNonvestedAwardsTotalCompensationCostNotYetRecognizedPeriodForRecognition1",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Stock options | Stock Incentive Plan | Class B Common Stock",
+     "tag": "us-gaap_AwardTypeAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Common Stock and Share Based Compensation [Line Items]",
+     "tag": "nke_CommonStockAndShareBasedCompensationLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Weighted average fair value per share of the options granted (in dollars per share) | $ / shares",
+     "tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsGrantsInPeriodWeightedAverageGrantDateFairValue",
+     "vals": [
+      9.38,
+      12.66
+     ]
+    },
+    {
+     "label": "Employee Stock | Class B Common Stock",
+     "tag": "us-gaap_AwardTypeAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Common Stock and Share Based Compensation [Line Items]",
+     "tag": "nke_CommonStockAndShareBasedCompensationLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Employee stock purchase plans, payroll deductions",
+     "tag": "nke_ShareBasedCompensationArrangementByEmployeeStockPurchasePlanStockPurchasesAsPercentageOfEmployeeCompensationMaximum",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Employee stock purchase plan offering period",
+     "tag": "nke_EmployeeStockPurchasePlanOfferingPeriod",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Shares purchased, price as percentage of lower of the fair market value",
+     "tag": "us-gaap_SharebasedCompensationArrangementBySharebasedPaymentAwardPurchasePriceOfCommonStockPercent",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Purchase of shares by employee (in shares) | shares",
+     "tag": "us-gaap_StockIssuedDuringPeriodSharesEmployeeStockPurchasePlans",
+     "vals": [
+      3100000.0,
+      2500000.0
+     ]
+    },
+    {
+     "label": "Restricted stock | Stock Incentive Plan",
+     "tag": "us-gaap_AwardTypeAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Common Stock and Share Based Compensation [Line Items]",
+     "tag": "nke_CommonStockAndShareBasedCompensationLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Unrecognized compensation costs from stock options, net of estimated forfeitures, to be recognized as operating overhead expense over a weighted average period (in years)",
+     "tag": "us-gaap_EmployeeServiceShareBasedCompensationNonvestedAwardsTotalCompensationCostNotYetRecognizedPeriodForRecognition1",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Unrecognized compensation costs from restricted stock, net of estimated forfeitures",
+     "tag": "us-gaap_EmployeeServiceShareBasedCompensationNonvestedAwardsTotalCompensationCostNotYetRecognized",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Restricted stock | Stock Incentive Plan | Class B Common Stock",
+     "tag": "us-gaap_AwardTypeAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Common Stock and Share Based Compensation [Line Items]",
+     "tag": "nke_CommonStockAndShareBasedCompensationLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Restricted and unrestricted stock granted to key employees under 1990 Plan, number of shares (in shares) | shares",
+     "tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsGrantsInPeriod",
+     "vals": [
+      400000.0,
+      1000000.0
+     ]
+    },
+    {
+     "label": "Restricted stock granted to key employees under 1990 Plan, weighted average values per share (in dollars per shares) | $ / shares",
+     "tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsGrantsInPeriodWeightedAverageGrantDateFairValue",
+     "vals": [
+      57.59,
+      54.87
+     ]
+    },
+    {
+     "label": "Restricted stock vested, fair value",
+     "tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriodTotalFairValue",
+     "vals": [
+      60.0,
+      49.0
+     ]
+    }
+   ]
+  },
+  "SEG": {
+   "file": "R75.htm",
+   "short": "Operating Segments and Related Information - Information by Operating Segments (Detail)",
+   "unit": "Operating Segments and Related Information - Information by Operating Segments (Detail) - USD ($) $ in Millions",
+   "periods": [
+    "May 31, 2018",
+    "May 31, 2017",
+    "May 31, 2016"
+   ],
+   "months": [
+    12,
+    12,
+    12
+   ],
+   "rows": [
+    {
+     "label": "Segment Reporting, Revenue Reconciling Item [Line Items]",
+     "tag": "us-gaap_SegmentReportingRevenueReconcilingItemLineItems",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Revenues",
+     "tag": "us-gaap_SalesRevenueNet",
+     "vals": [
+      36397.0,
+      34350.0,
+      32376.0
+     ]
+    },
+    {
+     "label": "Earnings Before Interest and Taxes",
+     "tag": "nke_EarningsBeforeInterestAndTaxes",
+     "vals": [
+      4379.0,
+      4945.0,
+      4642.0
+     ]
+    },
+    {
+     "label": "Interest expense (income), net",
+     "tag": "us-gaap_InterestIncomeExpenseNonoperatingNet",
+     "vals": [
+      54.0,
+      59.0,
+      19.0
+     ]
+    },
+    {
+     "label": "Income before income taxes",
+     "tag": "us-gaap_IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments",
+     "vals": [
+      4325.0,
+      4886.0,
+      4623.0
+     ]
+    },
+    {
+     "label": "Additions to Long-lived Assets",
+     "tag": "us-gaap_PropertyPlantAndEquipmentAdditions",
+     "vals": [
+      1194.0,
+      1201.0,
+      1191.0
+     ]
+    },
+    {
+     "label": "Depreciation",
+     "tag": "us-gaap_Depreciation",
+     "vals": [
+      747.0,
+      706.0,
+      649.0
+     ]
+    },
+    {
+     "label": "Corporate",
+     "tag": "us-gaap_ConsolidationItemsAxis",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Segment Reporting, Revenue Reconciling Item [Line Items]",
+     "tag": "us-gaap_SegmentReportingRevenueReconcilingItemLineItems",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Revenues",
+     "tag": "us-gaap_SalesRevenueNet",
+     "vals": [
+      26.0,
+      75.0,
+      -86.0
+     ]
+    },
+    {
+     "label": "Earnings Before Interest and Taxes",
+     "tag": "nke_EarningsBeforeInterestAndTaxes",
+     "vals": [
+      -1456.0,
+      -724.0,
+      -1173.0
+     ]
+    },
+    {
+     "label": "Additions to Long-lived Assets",
+     "tag": "us-gaap_PropertyPlantAndEquipmentAdditions",
+     "vals": [
+      325.0,
+      387.0,
+      312.0
+     ]
+    },
+    {
+     "label": "Depreciation",
+     "tag": "us-gaap_Depreciation",
+     "vals": [
+      110.0,
+      91.0,
+      84.0
+     ]
+    },
+    {
+     "label": "NIKE Brand",
+     "tag": "us-gaap_ProductOrServiceAxis",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Segment Reporting, Revenue Reconciling Item [Line Items]",
+     "tag": "us-gaap_SegmentReportingRevenueReconcilingItemLineItems",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Revenues",
+     "tag": "us-gaap_SalesRevenueNet",
+     "vals": [
+      34485.0,
+      32233.0,
+      30507.0
+     ]
+    },
+    {
+     "label": "Earnings Before Interest and Taxes",
+     "tag": "nke_EarningsBeforeInterestAndTaxes",
+     "vals": [
+      5525.0,
+      5192.0,
+      5328.0
+     ]
+    },
+    {
+     "label": "Additions to Long-lived Assets",
+     "tag": "us-gaap_PropertyPlantAndEquipmentAdditions",
+     "vals": [
+      847.0,
+      784.0,
+      840.0
+     ]
+    },
+    {
+     "label": "Depreciation",
+     "tag": "us-gaap_Depreciation",
+     "vals": [
+      604.0,
+      587.0,
+      538.0
+     ]
+    },
+    {
+     "label": "NIKE Brand | Global Brand Divisions",
+     "tag": "us-gaap_ProductOrServiceAxis",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Segment Reporting, Revenue Reconciling Item [Line Items]",
+     "tag": "us-gaap_SegmentReportingRevenueReconcilingItemLineItems",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Revenues",
+     "tag": "us-gaap_SalesRevenueNet",
+     "vals": [
+      88.0,
+      73.0,
+      73.0
+     ]
+    },
+    {
+     "label": "Earnings Before Interest and Taxes",
+     "tag": "nke_EarningsBeforeInterestAndTaxes",
+     "vals": [
+      -2658.0,
+      -2677.0,
+      -2596.0
+     ]
+    },
+    {
+     "label": "Additions to Long-lived Assets",
+     "tag": "us-gaap_PropertyPlantAndEquipmentAdditions",
+     "vals": [
+      286.0,
+      278.0,
+      258.0
+     ]
+    },
+    {
+     "label": "Depreciation",
+     "tag": "us-gaap_Depreciation",
+     "vals": [
+      217.0,
+      233.0,
+      230.0
+     ]
+    },
+    {
+     "label": "NIKE Brand | North America",
+     "tag": "us-gaap_ProductOrServiceAxis",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Segment Reporting, Revenue Reconciling Item [Line Items]",
+     "tag": "us-gaap_SegmentReportingRevenueReconcilingItemLineItems",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Revenues",
+     "tag": "us-gaap_SalesRevenueNet",
+     "vals": [
+      14855.0,
+      15216.0,
+      14764.0
+     ]
+    },
+    {
+     "label": "Earnings Before Interest and Taxes",
+     "tag": "nke_EarningsBeforeInterestAndTaxes",
+     "vals": [
+      3600.0,
+      3875.0,
+      3763.0
+     ]
+    },
+    {
+     "label": "Additions to Long-lived Assets",
+     "tag": "us-gaap_PropertyPlantAndEquipmentAdditions",
+     "vals": [
+      196.0,
+      223.0,
+      242.0
+     ]
+    },
+    {
+     "label": "Depreciation",
+     "tag": "us-gaap_Depreciation",
+     "vals": [
+      160.0,
+      140.0,
+      133.0
+     ]
+    },
+    {
+     "label": "NIKE Brand | Europe, Middle East & Africa",
+     "tag": "us-gaap_ProductOrServiceAxis",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Segment Reporting, Revenue Reconciling Item [Line Items]",
+     "tag": "us-gaap_SegmentReportingRevenueReconcilingItemLineItems",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Revenues",
+     "tag": "us-gaap_SalesRevenueNet",
+     "vals": [
+      9242.0,
+      7970.0,
+      7568.0
+     ]
+    },
+    {
+     "label": "Earnings Before Interest and Taxes",
+     "tag": "nke_EarningsBeforeInterestAndTaxes",
+     "vals": [
+      1587.0,
+      1507.0,
+      1787.0
+     ]
+    },
+    {
+     "label": "Additions to Long-lived Assets",
+     "tag": "us-gaap_PropertyPlantAndEquipmentAdditions",
+     "vals": [
+      240.0,
+      173.0,
+      234.0
+     ]
+    },
+    {
+     "label": "Depreciation",
+     "tag": "us-gaap_Depreciation",
+     "vals": [
+      116.0,
+      106.0,
+      85.0
+     ]
+    },
+    {
+     "label": "NIKE Brand | Greater China",
+     "tag": "us-gaap_ProductOrServiceAxis",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Segment Reporting, Revenue Reconciling Item [Line Items]",
+     "tag": "us-gaap_SegmentReportingRevenueReconcilingItemLineItems",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Revenues",
+     "tag": "us-gaap_SalesRevenueNet",
+     "vals": [
+      5134.0,
+      4237.0,
+      3785.0
+     ]
+    },
+    {
+     "label": "Earnings Before Interest and Taxes",
+     "tag": "nke_EarningsBeforeInterestAndTaxes",
+     "vals": [
+      1807.0,
+      1507.0,
+      1372.0
+     ]
+    },
+    {
+     "label": "Additions to Long-lived Assets",
+     "tag": "us-gaap_PropertyPlantAndEquipmentAdditions",
+     "vals": [
+      76.0,
+      51.0,
+      44.0
+     ]
+    },
+    {
+     "label": "Depreciation",
+     "tag": "us-gaap_Depreciation",
+     "vals": [
+      56.0,
+      54.0,
+      48.0
+     ]
+    },
+    {
+     "label": "NIKE Brand | Asia Pacific & Latin America",
+     "tag": "us-gaap_ProductOrServiceAxis",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Segment Reporting, Revenue Reconciling Item [Line Items]",
+     "tag": "us-gaap_SegmentReportingRevenueReconcilingItemLineItems",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Revenues",
+     "tag": "us-gaap_SalesRevenueNet",
+     "vals": [
+      5166.0,
+      4737.0,
+      4317.0
+     ]
+    },
+    {
+     "label": "Earnings Before Interest and Taxes",
+     "tag": "nke_EarningsBeforeInterestAndTaxes",
+     "vals": [
+      1189.0,
+      980.0,
+      1002.0
+     ]
+    },
+    {
+     "label": "Additions to Long-lived Assets",
+     "tag": "us-gaap_PropertyPlantAndEquipmentAdditions",
+     "vals": [
+      49.0,
+      59.0,
+      62.0
+     ]
+    },
+    {
+     "label": "Depreciation",
+     "tag": "us-gaap_Depreciation",
+     "vals": [
+      55.0,
+      54.0,
+      42.0
+     ]
+    },
+    {
+     "label": "Converse",
+     "tag": "us-gaap_ProductOrServiceAxis",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Segment Reporting, Revenue Reconciling Item [Line Items]",
+     "tag": "us-gaap_SegmentReportingRevenueReconcilingItemLineItems",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Revenues",
+     "tag": "us-gaap_SalesRevenueNet",
+     "vals": [
+      1886.0,
+      2042.0,
+      1955.0
+     ]
+    },
+    {
+     "label": "Earnings Before Interest and Taxes",
+     "tag": "nke_EarningsBeforeInterestAndTaxes",
+     "vals": [
+      310.0,
+      477.0,
+      487.0
+     ]
+    },
+    {
+     "label": "Additions to Long-lived Assets",
+     "tag": "us-gaap_PropertyPlantAndEquipmentAdditions",
+     "vals": [
+      22.0,
+      30.0,
+      39.0
+     ]
+    },
+    {
+     "label": "Depreciation",
+     "tag": "us-gaap_Depreciation",
+     "vals": [
+      33.0,
+      28.0,
+      27.0
+     ]
+    }
+   ]
+  },
+  "SEGADD": {
+   "file": "R78.htm",
+   "short": "Operating Segments and Related Information - Additional Information (Detail)",
+   "unit": "May 31, 2018 USD ($) customer",
+   "periods": [
+    "May 31, 2017 USD ($) customer",
+    "May 31, 2016 USD ($) customer"
+   ],
+   "months": [],
+   "rows": [
+    {
+     "label": "Sales Revenue, Net",
+     "tag": "us-gaap_ConcentrationRiskByBenchmarkAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Regional Reporting Disclosure [Line Items]",
+     "tag": "nke_RegionalReportingDisclosureLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Number of customers exceeding risk threshold | customer",
+     "tag": "nke_ConcentrationRiskCustomersExceedingRiskThreshold",
+     "vals": [
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "label": "Concentration risk percentage",
+     "tag": "us-gaap_ConcentrationRiskPercentage1",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "UNITED STATES",
+     "tag": "us-gaap_StatementGeographicalAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Regional Reporting Disclosure [Line Items]",
+     "tag": "nke_RegionalReportingDisclosureLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Revenue",
+     "tag": "us-gaap_Revenues",
+     "vals": [
+      15778.0,
+      15304.0
+     ]
+    },
+    {
+     "label": "Long-lived assets attributable to operations (Domestic)",
+     "tag": "us-gaap_NoncurrentAssets",
+     "vals": [
+      2629.0,
+      null
+     ]
+    },
+    {
+     "label": "Japan",
+     "tag": "us-gaap_StatementGeographicalAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Regional Reporting Disclosure [Line Items]",
+     "tag": "nke_RegionalReportingDisclosureLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Long-lived assets attributable to operations (Domestic)",
+     "tag": "us-gaap_NoncurrentAssets",
+     "vals": [
+      223.0,
+      null
+     ]
+    },
+    {
+     "label": "BELGIUM",
+     "tag": "us-gaap_StatementGeographicalAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Regional Reporting Disclosure [Line Items]",
+     "tag": "nke_RegionalReportingDisclosureLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Long-lived assets attributable to operations (Domestic)",
+     "tag": "us-gaap_NoncurrentAssets",
+     "vals": [
+      390.0,
+      null
+     ]
+    },
+    {
+     "label": "CHINA",
+     "tag": "us-gaap_StatementGeographicalAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Regional Reporting Disclosure [Line Items]",
+     "tag": "nke_RegionalReportingDisclosureLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Long-lived assets attributable to operations (Domestic)",
+     "tag": "us-gaap_NoncurrentAssets",
+     "vals": [
+      232.0,
+      null
+     ]
+    }
+   ]
+  },
+  "SEGBS": {
+   "file": "R76.htm",
+   "short": "Operating Segments and Related Information - Accounts Receivable Net Inventories and Property Plant and Equipment Net by Operating Segments (Detail)",
+   "unit": "Operating Segments and Related Information - Accounts Receivable Net Inventories and Property Plant and Equipment Net by Operating Segments (Detail) - USD ($) $ in Millions",
+   "periods": [
+    "May 31, 2018",
+    "May 31, 2017"
+   ],
+   "months": [],
+   "rows": [
+    {
+     "label": "Segment Reporting, Asset Reconciling Item [Line Items]",
+     "tag": "us-gaap_SegmentReportingAssetReconcilingItemLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Accounts Receivable, net",
+     "tag": "us-gaap_AccountsReceivableNetCurrent",
+     "vals": [
+      3498.0,
+      3677.0
+     ]
+    },
+    {
+     "label": "Inventories",
+     "tag": "us-gaap_InventoryFinishedGoodsNetOfReserves",
+     "vals": [
+      5261.0,
+      5055.0
+     ]
+    },
+    {
+     "label": "Property, Plant and Equipment, net",
+     "tag": "us-gaap_PropertyPlantAndEquipmentNet",
+     "vals": [
+      4454.0,
+      3989.0
+     ]
+    },
+    {
+     "label": "Corporate",
+     "tag": "us-gaap_ConsolidationItemsAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Segment Reporting, Asset Reconciling Item [Line Items]",
+     "tag": "us-gaap_SegmentReportingAssetReconcilingItemLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Accounts Receivable, net",
+     "tag": "us-gaap_AccountsReceivableNetCurrent",
+     "vals": [
+      22.0,
+      11.0
+     ]
+    },
+    {
+     "label": "Inventories",
+     "tag": "us-gaap_InventoryFinishedGoodsNetOfReserves",
+     "vals": [
+      -68.0,
+      -1.0
+     ]
+    },
+    {
+     "label": "Property, Plant and Equipment, net",
+     "tag": "us-gaap_PropertyPlantAndEquipmentNet",
+     "vals": [
+      1450.0,
+      1238.0
+     ]
+    },
+    {
+     "label": "Converse",
+     "tag": "us-gaap_ProductOrServiceAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Segment Reporting, Asset Reconciling Item [Line Items]",
+     "tag": "us-gaap_SegmentReportingAssetReconcilingItemLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Accounts Receivable, net",
+     "tag": "us-gaap_AccountsReceivableNetCurrent",
+     "vals": [
+      240.0,
+      297.0
+     ]
+    },
+    {
+     "label": "Inventories",
+     "tag": "us-gaap_InventoryFinishedGoodsNetOfReserves",
+     "vals": [
+      268.0,
+      286.0
+     ]
+    },
+    {
+     "label": "Property, Plant and Equipment, net",
+     "tag": "us-gaap_PropertyPlantAndEquipmentNet",
+     "vals": [
+      115.0,
+      125.0
+     ]
+    },
+    {
+     "label": "NIKE Brand",
+     "tag": "us-gaap_ProductOrServiceAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Segment Reporting, Asset Reconciling Item [Line Items]",
+     "tag": "us-gaap_SegmentReportingAssetReconcilingItemLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Accounts Receivable, net",
+     "tag": "us-gaap_AccountsReceivableNetCurrent",
+     "vals": [
+      3236.0,
+      3369.0
+     ]
+    },
+    {
+     "label": "Inventories",
+     "tag": "us-gaap_InventoryFinishedGoodsNetOfReserves",
+     "vals": [
+      5061.0,
+      4770.0
+     ]
+    },
+    {
+     "label": "Property, Plant and Equipment, net",
+     "tag": "us-gaap_PropertyPlantAndEquipmentNet",
+     "vals": [
+      2889.0,
+      2626.0
+     ]
+    },
+    {
+     "label": "NIKE Brand | Global Brand Divisions",
+     "tag": "us-gaap_ProductOrServiceAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Segment Reporting, Asset Reconciling Item [Line Items]",
+     "tag": "us-gaap_SegmentReportingAssetReconcilingItemLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Accounts Receivable, net",
+     "tag": "us-gaap_AccountsReceivableNetCurrent",
+     "vals": [
+      102.0,
+      86.0
+     ]
+    },
+    {
+     "label": "Inventories",
+     "tag": "us-gaap_InventoryFinishedGoodsNetOfReserves",
+     "vals": [
+      91.0,
+      68.0
+     ]
+    },
+    {
+     "label": "Property, Plant and Equipment, net",
+     "tag": "us-gaap_PropertyPlantAndEquipmentNet",
+     "vals": [
+      597.0,
+      533.0
+     ]
+    },
+    {
+     "label": "NIKE Brand | North America",
+     "tag": "us-gaap_ProductOrServiceAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Segment Reporting, Asset Reconciling Item [Line Items]",
+     "tag": "us-gaap_SegmentReportingAssetReconcilingItemLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Accounts Receivable, net",
+     "tag": "us-gaap_AccountsReceivableNetCurrent",
+     "vals": [
+      1443.0,
+      1798.0
+     ]
+    },
+    {
+     "label": "Inventories",
+     "tag": "us-gaap_InventoryFinishedGoodsNetOfReserves",
+     "vals": [
+      2270.0,
+      2218.0
+     ]
+    },
+    {
+     "label": "Property, Plant and Equipment, net",
+     "tag": "us-gaap_PropertyPlantAndEquipmentNet",
+     "vals": [
+      848.0,
+      819.0
+     ]
+    },
+    {
+     "label": "NIKE Brand | Europe, Middle East & Africa",
+     "tag": "us-gaap_ProductOrServiceAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Segment Reporting, Asset Reconciling Item [Line Items]",
+     "tag": "us-gaap_SegmentReportingAssetReconcilingItemLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Accounts Receivable, net",
+     "tag": "us-gaap_AccountsReceivableNetCurrent",
+     "vals": [
+      870.0,
+      690.0
+     ]
+    },
+    {
+     "label": "Inventories",
+     "tag": "us-gaap_InventoryFinishedGoodsNetOfReserves",
+     "vals": [
+      1433.0,
+      1327.0
+     ]
+    },
+    {
+     "label": "Property, Plant and Equipment, net",
+     "tag": "us-gaap_PropertyPlantAndEquipmentNet",
+     "vals": [
+      849.0,
+      709.0
+     ]
+    },
+    {
+     "label": "NIKE Brand | Greater China",
+     "tag": "us-gaap_ProductOrServiceAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Segment Reporting, Asset Reconciling Item [Line Items]",
+     "tag": "us-gaap_SegmentReportingAssetReconcilingItemLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Accounts Receivable, net",
+     "tag": "us-gaap_AccountsReceivableNetCurrent",
+     "vals": [
+      101.0,
+      102.0
+     ]
+    },
+    {
+     "label": "Inventories",
+     "tag": "us-gaap_InventoryFinishedGoodsNetOfReserves",
+     "vals": [
+      580.0,
+      463.0
+     ]
+    },
+    {
+     "label": "Property, Plant and Equipment, net",
+     "tag": "us-gaap_PropertyPlantAndEquipmentNet",
+     "vals": [
+      256.0,
+      225.0
+     ]
+    },
+    {
+     "label": "NIKE Brand | Asia Pacific & Latin America",
+     "tag": "us-gaap_ProductOrServiceAxis",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Segment Reporting, Asset Reconciling Item [Line Items]",
+     "tag": "us-gaap_SegmentReportingAssetReconcilingItemLineItems",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Accounts Receivable, net",
+     "tag": "us-gaap_AccountsReceivableNetCurrent",
+     "vals": [
+      720.0,
+      693.0
+     ]
+    },
+    {
+     "label": "Inventories",
+     "tag": "us-gaap_InventoryFinishedGoodsNetOfReserves",
+     "vals": [
+      687.0,
+      694.0
+     ]
+    },
+    {
+     "label": "Property, Plant and Equipment, net",
+     "tag": "us-gaap_PropertyPlantAndEquipmentNet",
+     "vals": [
+      339.0,
+      340.0
+     ]
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,315 @@
+# 同一财年 as-reported 值 vs 其他申报所印值的差异（金额单位: 百万美元）。差异来源 = 重述 / 列报口径变更 / 终止经营重分类 / 拆股基准变化，不是解析错——本库一律以 as-reported 为准，本表仅供追溯。
+表,科目,财年,as-reported值,其他申报值,来源申报,差额
+CF,应付及应计变动 Increase (decrease) in accounts payable and accrued,1995,172.638,175.438,L1997,2.8
+CF,摊销及其他 Amortization and other,1995,19.125,14.966,L1997,-4.159
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,1995,5.44,2.72,L1996,-2.72
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,1995,5.44,1.36,L1997,-4.08
+IS,基本股数(百万股·as-reported) Basic shares,1995,73.503,147.006,L1996,73.503
+IS,基本股数(百万股·as-reported) Basic shares,1995,73.503,294.012,L1997,220.509
+CF,应付及应计变动 Increase (decrease) in accounts payable and accrued,1996,332.548,344.248,L1997,11.7
+CF,应付及应计变动 Increase (decrease) in accounts payable and accrued,1996,332.548,344.2,L1998,11.652
+CF,投资活动现金流净额 Cash provided (used) by investing activities,1996,-229.985,-239.636,L1997,-9.651
+CF,投资活动现金流净额 Cash provided (used) by investing activities,1996,-229.985,-239.7,L1998,-9.715
+CF,摊销及其他 Amortization and other,1996,35.199,32.685,L1997,-2.514
+CF,摊销及其他 Amortization and other,1996,35.199,32.7,L1998,-2.499
+CF,经营活动现金流净额 Cash provided (used) by operations,1996,330.021,339.672,L1997,9.651
+CF,经营活动现金流净额 Cash provided (used) by operations,1996,330.021,339.7,L1998,9.679
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,1996,3.77,1.88,L1997,-1.89
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,1996,3.77,1.93,L1998,-1.84
+IS,基本股数(百万股·as-reported) Basic shares,1996,146.804,293.608,L1997,146.804
+IS,基本股数(百万股·as-reported) Basic shares,1996,146.804,286.6,L1998,139.796
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,1997,2.68,2.76,L1998,0.08
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,1997,2.68,2.76,L1999,0.08
+IS,基本股数(百万股·as-reported) Basic shares,1997,297.0,288.4,L1998,-8.6
+IS,基本股数(百万股·as-reported) Basic shares,1997,297.0,288.4,L1999,-8.6
+BS,存货 Inventories,1999,1199.3,1170.6,L2000,-28.7
+BS,应付账款 Accounts payable,1999,373.2,473.6,L2000,100.4
+BS,应计负债 Accrued liabilities,1999,653.6,553.2,L2000,-100.4
+BS,预付及其他流动资产 Prepaid expenses and other current assets,1999,190.9,219.6,L2000,28.7
+CF,存货变动 (Increase) decrease in inventories,1999,197.3,226.0,L2000,28.7
+CF,存货变动 (Increase) decrease in inventories,1999,197.3,214.4,L2001,17.1
+CF,应付及应计变动 Increase (decrease) in accounts payable and accrued,1999,-170.4,-191.1,L2001,-20.7
+CF,应收账款变动 (Increase) decrease in accounts receivable,1999,134.3,114.4,L2001,-19.9
+CF,汇率影响 Effect of exchange rate changes,1999,-10.9,8.7,L2001,19.6
+CF,经营活动现金流净额 Cash provided (used) by operations,1999,961.0,941.4,L2001,-19.6
+CF,预付及其他变动 (Increase) decrease in prepaid expenses and other,1999,53.7,25.0,L2000,-28.7
+CF,预付及其他变动 (Increase) decrease in prepaid expenses and other,1999,53.7,24.2,L2001,-29.5
+CF,存货变动 (Increase) decrease in inventories,2000,-275.4,-311.8,L2001,-36.4
+CF,存货变动 (Increase) decrease in inventories,2000,-275.4,-311.8,L2002,-36.4
+CF,应付及应计变动 Increase (decrease) in accounts payable and accrued,2000,157.3,178.4,L2001,21.1
+CF,应付及应计变动 Increase (decrease) in accounts payable and accrued,2000,157.3,178.4,L2002,21.1
+CF,应收账款变动 (Increase) decrease in accounts receivable,2000,-27.1,-82.6,L2001,-55.5
+CF,应收账款变动 (Increase) decrease in accounts receivable,2000,-27.1,-82.6,L2002,-55.5
+CF,汇率影响 Effect of exchange rate changes,2000,-11.6,48.7,L2001,60.3
+CF,汇率影响 Effect of exchange rate changes,2000,-11.6,48.7,L2002,60.3
+CF,经营活动现金流净额 Cash provided (used) by operations,2000,759.9,699.6,L2001,-60.3
+CF,经营活动现金流净额 Cash provided (used) by operations,2000,759.9,699.6,L2002,-60.3
+CF,预付及其他变动 (Increase) decrease in prepaid expenses and other,2000,65.6,61.2,L2001,-4.4
+CF,预付及其他变动 (Increase) decrease in prepaid expenses and other,2000,65.6,61.2,L2002,-4.4
+IS,"其他(收入)支出净额(支出为正) Other (income) expense, net",2000,23.2,20.7,L2002,-2.5
+CF,其他投资活动 Other investing activities,2001,-42.5,-38.5,L2003,4.0
+BS,应计负债 Accrued liabilities,2002,768.3,765.3,L2003,-3.0
+BS,递延所得税及其他资产 Deferred income taxes and other assets,2002,233.0,232.1,L2003,-0.9
+CF,其他投资活动 Other investing activities,2002,-39.1,-28.7,L2003,10.4
+CF,其他投资活动 Other investing activities,2002,-39.1,-28.7,L2004,10.4
+CF,摊销及其他 Amortization and other,2002,53.1,48.1,L2003,-5.0
+CF,摊销及其他 Amortization and other,2002,53.1,48.1,L2004,-5.0
+CF,汇率影响 Effect of exchange rate changes,2002,-29.0,-28.1,L2004,0.9
+CF,短期借款变动 Increase (decrease) in notes payable,2002,-431.5,-433.1,L2004,-1.6
+CF,融资活动现金流净额 Cash provided (used) by financing activities,2002,-478.2,-479.8,L2004,-1.6
+CF,递延所得税 Deferred income taxes,2002,15.2,15.9,L2004,0.7
+IS,"其他(收入)支出净额(支出为正) Other (income) expense, net",2002,3.0,1.2,L2004,-1.8
+IS,"利息费用净额(费用为正) Interest expense (income), net",2002,47.6,34.0,L2004,-13.6
+IS,销售及管理费用合计 Total selling and administrative expense,2002,2820.4,2835.8,L2004,15.4
+BS,应交所得税 Income taxes payable,2003,107.2,130.6,L2004,23.4
+BS,"应收账款净额 Accounts receivable, net",2003,2101.1,2083.9,L2004,-17.2
+BS,应计负债 Accrued liabilities,2003,1054.2,1036.2,L2004,-18.0
+BS,总资产 TOTAL ASSETS,2003,6713.9,6821.1,L2004,107.2
+BS,流动资产合计 Total current assets,2003,4679.9,4787.1,L2004,107.2
+BS,负债和股东权益合计 TOTAL LIABILITIES AND SHAREHOLDERS' EQUITY,2003,6713.9,6821.1,L2004,107.2
+BS,递延所得税(流动) Deferred income taxes (current),2003,163.7,221.8,L2004,58.1
+BS,递延所得税及其他负债 Deferred income taxes and other liabilities,2003,156.1,257.9,L2004,101.8
+BS,预付及其他流动资产 Prepaid expenses and other current assets,2003,266.2,332.5,L2004,66.3
+CF,汇率影响 Effect of exchange rate changes,2003,-38.1,-41.4,L2004,-3.3
+CF,汇率影响 Effect of exchange rate changes,2003,-38.1,-41.4,L2005,-3.3
+CF,短期借款变动 Increase (decrease) in notes payable,2003,-349.8,-351.1,L2004,-1.3
+CF,短期借款变动 Increase (decrease) in notes payable,2003,-349.8,-351.1,L2005,-1.3
+CF,经营活动现金流净额 Cash provided (used) by operations,2003,917.4,922.0,L2004,4.6
+CF,经营活动现金流净额 Cash provided (used) by operations,2003,917.4,922.0,L2005,4.6
+CF,递延所得税 Deferred income taxes,2003,50.4,55.0,L2004,4.6
+CF,递延所得税 Deferred income taxes,2003,50.4,55.0,L2005,4.6
+IS,"其他(收入)支出净额(支出为正) Other (income) expense, net",2003,79.9,77.5,L2004,-2.4
+IS,"其他(收入)支出净额(支出为正) Other (income) expense, net",2003,79.9,77.5,L2005,-2.4
+IS,"利息费用净额(费用为正) Interest expense (income), net",2003,42.9,28.8,L2004,-14.1
+IS,"利息费用净额(费用为正) Interest expense (income), net",2003,42.9,28.8,L2005,-14.1
+IS,销售及管理费用合计 Total selling and administrative expense,2003,3137.6,3154.1,L2004,16.5
+IS,销售及管理费用合计 Total selling and administrative expense,2003,3137.6,3154.1,L2005,16.5
+BS,"固定资产净额 Property, plant and equipment, net",2004,1586.9,1611.8,L2005,24.9
+BS,存货 Inventories,2004,1633.6,1650.2,L2005,16.6
+BS,应付账款 Accounts payable,2004,763.8,780.4,L2005,16.6
+BS,应计负债 Accrued liabilities,2004,974.4,979.3,L2005,4.9
+BS,流动负债合计 Total current liabilities,2004,2009.0,2030.5,L2005,21.5
+BS,流动资产合计 Total current assets,2004,5512.0,5528.6,L2005,16.6
+BS,递延所得税及其他负债 Deferred income taxes and other liabilities,2004,418.2,413.8,L2005,-4.4
+BS,递延所得税及其他资产 Deferred income taxes and other assets,2004,291.0,266.6,L2005,-24.4
+CF,应付及应计变动 Increase (decrease) in accounts payable and accrued,2004,269.1,255.6,L2005,-13.5
+CF,应付及应计变动 Increase (decrease) in accounts payable and accrued,2004,269.1,255.6,L2006,-13.5
+CF,应收账款变动 (Increase) decrease in accounts receivable,2004,82.5,97.1,L2005,14.6
+CF,应收账款变动 (Increase) decrease in accounts receivable,2004,82.5,97.1,L2006,14.6
+CF,投资活动现金流净额 Cash provided (used) by investing activities,2004,-946.5,-950.6,L2005,-4.1
+CF,投资活动现金流净额 Cash provided (used) by investing activities,2004,-946.5,-950.6,L2006,-4.1
+CF,折旧(与摊销) Depreciation (and amortization),2004,252.1,255.2,L2005,3.1
+CF,折旧(与摊销) Depreciation (and amortization),2004,252.1,255.2,L2006,3.1
+CF,"资本开支 Additions to property, plant and equipment",2004,-213.9,-214.8,L2005,-0.9
+CF,"资本开支 Additions to property, plant and equipment",2004,-213.9,-214.8,L2006,-0.9
+BS,应付账款 Accounts payable,2005,843.9,775.0,L2006,-68.9
+BS,应计负债 Accrued liabilities,2005,984.3,1053.2,L2006,68.9
+CF,其他投资活动 Other investing activities,2005,-39.1,-28.0,L2007,11.1
+CF,摊销及其他 Amortization and other,2005,30.5,25.6,L2007,-4.9
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,2005,4.61,2.31,L2007,-2.3
+IS,基本股数(百万股·as-reported) Basic shares,2005,262.6,525.2,L2007,262.6
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,2005,4.48,2.24,L2007,-2.24
+IS,摊薄股数(百万股·as-reported) Diluted shares,2005,270.3,540.6,L2007,270.3
+IS,每股宣派股息(as-reported) Dividends declared per share,2005,0.95,0.475,L2007,-0.475
+BS,"应收账款净额 Accounts receivable, net",2006,2395.9,2382.9,L2007,-13.0
+BS,应计负债 Accrued liabilities,2006,1286.9,1276.0,L2007,-10.9
+BS,流动负债合计 Total current liabilities,2006,2623.3,2612.4,L2007,-10.9
+BS,递延所得税及其他负债 Deferred income taxes and other liabilities,2006,550.1,561.0,L2007,10.9
+BS,递延所得税及其他资产 Deferred income taxes and other assets,2006,316.6,329.6,L2007,13.0
+CF,其他投资活动 Other investing activities,2006,-30.3,-34.6,L2007,-4.3
+CF,其他投资活动 Other investing activities,2006,-30.3,-34.6,L2008,-4.3
+CF,摊销及其他 Amortization and other,2006,8.9,-2.9,L2007,-11.8
+CF,摊销及其他 Amortization and other,2006,8.9,-2.9,L2008,-11.8
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,2006,5.37,2.69,L2007,-2.68
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,2006,5.37,2.69,L2008,-2.68
+IS,基本股数(百万股·as-reported) Basic shares,2006,259.0,518.0,L2007,259.0
+IS,基本股数(百万股·as-reported) Basic shares,2006,259.0,518.0,L2008,259.0
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,2006,5.28,2.64,L2007,-2.64
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,2006,5.28,2.64,L2008,-2.64
+IS,摊薄股数(百万股·as-reported) Diluted shares,2006,263.8,527.6,L2007,263.8
+IS,摊薄股数(百万股·as-reported) Diluted shares,2006,263.8,527.6,L2008,263.8
+IS,每股宣派股息(as-reported) Dividends declared per share,2006,1.18,0.59,L2007,-0.59
+IS,每股宣派股息(as-reported) Dividends declared per share,2006,1.18,0.59,L2008,-0.59
+CF,投资活动现金流净额 Cash provided (used) by investing activities,2008,-413.8,-489.8,L2009,-76.0
+CF,投资活动现金流净额 Cash provided (used) by investing activities,2008,-413.8,-489.8,L2010,-76.0
+CF,汇率影响 Effect of exchange rate changes,2008,-19.2,56.8,L2009,76.0
+CF,汇率影响 Effect of exchange rate changes,2008,-19.2,56.8,L2010,76.0
+CF,"处置固定资产 Disposals of property, plant and equipment",2009,32.0,33.0,R2011,1.0
+CF,短期投资到期 Maturities of short-term investments,2009,2390.0,1280.0,R2011,-1110.0
+CF,应付及应计变动 Increase (decrease) in accounts payable and accrued,2010,298.0,297.0,R2011,-1.0
+CF,应付及应计变动 Increase (decrease) in accounts payable and accrued,2010,298.0,297.0,R2012,-1.0
+CF,短期投资到期 Maturities of short-term investments,2010,2787.6,2334.0,R2011,-453.6
+CF,短期投资到期 Maturities of short-term investments,2010,2787.6,2334.0,R2012,-453.6
+IS,  运营管理费用 Operating overhead expense,2011,4245.0,4017.0,R2013,-228.0
+IS,  需求创造费用 Demand creation expense,2011,2448.0,2344.0,R2013,-104.0
+IS,"其他(收入)支出净额(支出为正) Other (income) expense, net",2011,-33.0,-25.0,R2013,8.0
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,2011,4.48,2.28,R2013,-2.2
+IS,基本股数(百万股·as-reported) Basic shares,2011,475.5,951.1,R2013,475.6
+IS,所得税 Income taxes,2011,711.0,690.0,R2013,-21.0
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,2011,4.39,2.24,R2013,-2.15
+IS,摊薄股数(百万股·as-reported) Diluted shares,2011,485.7,971.3,R2013,485.6
+IS,每股宣派股息(as-reported) Dividends declared per share,2011,1.2,0.6,R2013,-0.6
+IS,毛利 Gross profit,2011,9508.0,9202.0,R2013,-306.0
+IS,税前利润 Income before income taxes,2011,2844.0,2862.0,R2013,18.0
+IS,营业成本 Cost of sales,2011,11354.0,10915.0,R2013,-439.0
+IS,营业收入 Revenues,2011,20862.0,20117.0,R2013,-745.0
+IS,销售及管理费用合计 Total selling and administrative expense,2011,6693.0,6361.0,R2013,-332.0
+BS,"可辨认无形资产净额 Identifiable intangible assets, net",2012,535.0,370.0,R2013,-165.0
+BS,商誉 Goodwill,2012,201.0,131.0,R2013,-70.0
+BS,"固定资产净额 Property, plant and equipment, net",2012,2279.0,2209.0,R2013,-70.0
+BS,存货 Inventories,2012,3350.0,3222.0,R2013,-128.0
+BS,应交所得税 Income taxes payable,2012,67.0,65.0,R2013,-2.0
+BS,应付账款 Accounts payable,2012,1588.0,1549.0,R2013,-39.0
+BS,"应收账款净额 Accounts receivable, net",2012,3280.0,3132.0,R2013,-148.0
+BS,应计负债 Accrued liabilities,2012,2053.0,1941.0,R2013,-112.0
+BS,流动负债合计 Total current liabilities,2012,3865.0,3882.0,R2013,17.0
+BS,流动资产合计 Total current assets,2012,11531.0,11845.0,R2013,314.0
+BS,递延所得税(流动) Deferred income taxes (current),2012,274.0,262.0,R2013,-12.0
+BS,递延所得税及其他负债 Deferred income taxes and other liabilities,2012,991.0,974.0,R2013,-17.0
+BS,递延所得税及其他资产 Deferred income taxes and other assets,2012,919.0,910.0,R2013,-9.0
+BS,预付及其他流动资产 Prepaid expenses and other current assets,2012,870.0,857.0,R2013,-13.0
+CF,其他投资活动 Other investing activities,2012,-37.0,-14.0,R2014,23.0
+CF,净利润 Net income,2012,2223.0,2211.0,R2014,-12.0
+CF,存货变动 (Increase) decrease in inventories,2012,-805.0,-815.0,R2014,-10.0
+CF,应付及应计变动 Increase (decrease) in accounts payable and accrued,2012,470.0,425.0,R2014,-45.0
+CF,投资活动现金流净额 Cash provided (used) by investing activities,2012,514.0,586.0,R2014,72.0
+CF,摊销及其他 Amortization and other,2012,32.0,23.0,R2014,-9.0
+CF,"期初现金 Cash and equivalents, beginning of year",2012,1955.0,1877.0,R2014,-78.0
+CF,"期末现金 Cash and equivalents, end of year",2012,2317.0,2254.0,R2014,-63.0
+CF,现金净变动 Net increase (decrease) in cash and equivalents,2012,362.0,377.0,R2014,15.0
+CF,短期借款变动 Increase (decrease) in notes payable,2012,-65.0,-47.0,R2014,18.0
+CF,短期投资出售 Sales of short-term investments,2012,1244.0,1721.0,R2014,477.0
+CF,短期投资到期 Maturities of short-term investments,2012,2585.0,2663.0,R2014,78.0
+CF,经营活动现金流净额 Cash provided (used) by operations,2012,1899.0,1824.0,R2014,-75.0
+CF,融资活动现金流净额 Cash provided (used) by financing activities,2012,-2118.0,-2100.0,R2014,18.0
+CF,购买短期投资 Purchases of short-term investments,2012,-2705.0,-3245.0,R2014,-540.0
+CF,"资本开支 Additions to property, plant and equipment",2012,-597.0,-563.0,R2014,34.0
+CF,递延所得税 Deferred income taxes,2012,-60.0,-59.0,R2014,1.0
+IS,  运营管理费用 Operating overhead expense,2012,4720.0,4458.0,R2013,-262.0
+IS,  运营管理费用 Operating overhead expense,2012,4720.0,4472.0,R2014,-248.0
+IS,  需求创造费用 Demand creation expense,2012,2711.0,2607.0,R2013,-104.0
+IS,  需求创造费用 Demand creation expense,2012,2711.0,2607.0,R2014,-104.0
+IS,净利润 Net income,2012,2223.0,2211.0,R2014,-12.0
+IS,"利息费用净额(费用为正) Interest expense (income), net",2012,3.0,4.0,R2013,1.0
+IS,"利息费用净额(费用为正) Interest expense (income), net",2012,3.0,4.0,R2014,1.0
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,2012,4.83,2.47,R2013,-2.36
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,2012,4.83,2.45,R2014,-2.38
+IS,基本股数(百万股·as-reported) Basic shares,2012,460.0,920.0,R2013,460.0
+IS,基本股数(百万股·as-reported) Basic shares,2012,460.0,920.0,R2014,460.0
+IS,所得税 Income taxes,2012,760.0,756.0,R2013,-4.0
+IS,所得税 Income taxes,2012,760.0,754.0,R2014,-6.0
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,2012,4.73,2.42,R2013,-2.31
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,2012,4.73,2.4,R2014,-2.33
+IS,摊薄股数(百万股·as-reported) Diluted shares,2012,469.8,939.6,R2013,469.8
+IS,摊薄股数(百万股·as-reported) Diluted shares,2012,469.8,939.6,R2014,469.8
+IS,每股宣派股息(as-reported) Dividends declared per share,2012,1.39,0.7,R2013,-0.69
+IS,每股宣派股息(as-reported) Dividends declared per share,2012,1.39,0.7,R2014,-0.69
+IS,毛利 Gross profit,2012,10471.0,10148.0,R2013,-323.0
+IS,毛利 Gross profit,2012,10471.0,10148.0,R2014,-323.0
+IS,税前利润 Income before income taxes,2012,2983.0,3025.0,R2013,42.0
+IS,税前利润 Income before income taxes,2012,2983.0,3011.0,R2014,28.0
+IS,营业成本 Cost of sales,2012,13657.0,13183.0,R2013,-474.0
+IS,营业成本 Cost of sales,2012,13657.0,13183.0,R2014,-474.0
+IS,营业收入 Revenues,2012,24128.0,23331.0,R2013,-797.0
+IS,营业收入 Revenues,2012,24128.0,23331.0,R2014,-797.0
+IS,销售及管理费用合计 Total selling and administrative expense,2012,7431.0,7065.0,R2013,-366.0
+IS,销售及管理费用合计 Total selling and administrative expense,2012,7431.0,7079.0,R2014,-352.0
+BS,"可辨认无形资产净额 Identifiable intangible assets, net",2013,382.0,289.0,R2014,-93.0
+BS,存货 Inventories,2013,3434.0,3484.0,R2014,50.0
+BS,应交所得税 Income taxes payable,2013,98.0,84.0,R2014,-14.0
+BS,应付账款 Accounts payable,2013,1646.0,1669.0,R2014,23.0
+BS,应计负债 Accrued liabilities,2013,1986.0,2036.0,R2014,50.0
+BS,流动负债合计 Total current liabilities,2013,3926.0,3962.0,R2014,36.0
+BS,留存收益 Retained earnings (deficit),2013,5695.0,5620.0,R2014,-75.0
+BS,短期借款 Notes payable,2013,121.0,98.0,R2014,-23.0
+BS,股东权益合计 Total shareholders' equity,2013,11156.0,11081.0,R2014,-75.0
+BS,递延所得税及其他资产 Deferred income taxes and other assets,2013,993.0,1043.0,R2014,50.0
+BS,预付及其他流动资产 Prepaid expenses and other current assets,2013,802.0,756.0,R2014,-46.0
+CF,其他投资活动 Other investing activities,2013,-28.0,-2.0,R2014,26.0
+CF,其他投资活动 Other investing activities,2013,-28.0,-2.0,R2015,26.0
+CF,净利润 Net income,2013,2485.0,2472.0,R2014,-13.0
+CF,净利润 Net income,2013,2485.0,2472.0,R2015,-13.0
+CF,存货变动 (Increase) decrease in inventories,2013,-197.0,-219.0,R2014,-22.0
+CF,存货变动 (Increase) decrease in inventories,2013,-197.0,-219.0,R2015,-22.0
+CF,应付及应计变动 Increase (decrease) in accounts payable and accrued,2013,41.0,27.0,R2014,-14.0
+CF,应付及应计变动 Increase (decrease) in accounts payable and accrued,2013,41.0,27.0,R2015,-14.0
+CF,投资活动现金流净额 Cash provided (used) by investing activities,2013,-1067.0,-940.0,R2014,127.0
+CF,投资活动现金流净额 Cash provided (used) by investing activities,2013,-1067.0,-940.0,R2015,127.0
+CF,摊销及其他 Amortization and other,2013,75.0,66.0,R2014,-9.0
+CF,摊销及其他 Amortization and other,2013,75.0,64.0,R2015,-11.0
+CF,"期初现金 Cash and equivalents, beginning of year",2013,2317.0,2254.0,R2014,-63.0
+CF,"期初现金 Cash and equivalents, beginning of year",2013,2317.0,2254.0,R2015,-63.0
+CF,汇率影响 Effect of exchange rate changes,2013,100.0,36.0,R2015,-64.0
+CF,现金净变动 Net increase (decrease) in cash and equivalents,2013,1020.0,1083.0,R2014,63.0
+CF,现金净变动 Net increase (decrease) in cash and equivalents,2013,1020.0,1083.0,R2015,63.0
+CF,短期借款变动 Increase (decrease) in notes payable,2013,15.0,10.0,R2014,-5.0
+CF,短期借款变动 Increase (decrease) in notes payable,2013,15.0,10.0,R2015,-5.0
+CF,短期投资出售 Sales of short-term investments,2013,998.0,1330.0,R2014,332.0
+CF,短期投资出售 Sales of short-term investments,2013,998.0,1330.0,R2015,332.0
+CF,短期投资到期 Maturities of short-term investments,2013,1501.0,1663.0,R2014,162.0
+CF,短期投资到期 Maturities of short-term investments,2013,1501.0,1663.0,R2015,162.0
+CF,经营活动现金流净额 Cash provided (used) by operations,2013,3027.0,2968.0,R2014,-59.0
+CF,融资活动现金流净额 Cash provided (used) by financing activities,2013,-1040.0,-1045.0,R2014,-5.0
+CF,融资活动现金流净额 Cash provided (used) by financing activities,2013,-1040.0,-1045.0,R2015,-5.0
+CF,购买短期投资 Purchases of short-term investments,2013,-3702.0,-4133.0,R2014,-431.0
+CF,购买短期投资 Purchases of short-term investments,2013,-3702.0,-4133.0,R2015,-431.0
+CF,"资本开支 Additions to property, plant and equipment",2013,-636.0,-598.0,R2014,38.0
+CF,"资本开支 Additions to property, plant and equipment",2013,-636.0,-598.0,R2015,38.0
+CF,递延所得税 Deferred income taxes,2013,21.0,20.0,R2014,-1.0
+CF,递延所得税 Deferred income taxes,2013,21.0,20.0,R2015,-1.0
+IS,  运营管理费用 Operating overhead expense,2013,5035.0,5051.0,R2014,16.0
+IS,  运营管理费用 Operating overhead expense,2013,5035.0,5051.0,R2015,16.0
+IS,净利润 Net income,2013,2485.0,2472.0,R2014,-13.0
+IS,净利润 Net income,2013,2485.0,2472.0,R2015,-13.0
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,2013,2.75,2.74,R2014,-0.01
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,2013,2.75,2.76,R2015,0.01
+IS,所得税 Income taxes,2013,808.0,805.0,R2014,-3.0
+IS,所得税 Income taxes,2013,808.0,805.0,R2015,-3.0
+IS,持续经营净利(仅FY2012-2014) Net income from continuing operations,2013,2464.0,2451.0,R2014,-13.0
+IS,持续经营净利(仅FY2012-2014) Net income from continuing operations,2013,2464.0,2451.0,R2015,-13.0
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,2013,2.69,2.68,R2014,-0.01
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,2013,2.69,2.7,R2015,0.01
+IS,税前利润 Income before income taxes,2013,3272.0,3256.0,R2014,-16.0
+IS,税前利润 Income before income taxes,2013,3272.0,3256.0,R2015,-16.0
+CF,摊销及其他 Amortization and other,2014,114.0,68.0,R2015,-46.0
+CF,摊销及其他 Amortization and other,2014,114.0,68.0,R2016,-46.0
+CF,汇率影响 Effect of exchange rate changes,2014,1.0,-9.0,R2015,-10.0
+CF,汇率影响 Effect of exchange rate changes,2014,1.0,-9.0,R2016,-10.0
+CF,经营活动现金流净额 Cash provided (used) by operations,2014,3003.0,3013.0,R2015,10.0
+CF,经营活动现金流净额 Cash provided (used) by operations,2014,3003.0,3013.0,R2016,10.0
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,2014,3.05,1.52,R2016,-1.53
+IS,基本股数(百万股·as-reported) Basic shares,2014,883.4,1766.7,R2016,883.3
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,2014,2.97,1.49,R2016,-1.48
+IS,摊薄股数(百万股·as-reported) Diluted shares,2014,905.8,1811.6,R2016,905.8
+IS,每股宣派股息(as-reported) Dividends declared per share,2014,0.93,0.47,R2016,-0.46
+BS,流动资产合计 Total current assets,2015,15976.0,15587.0,R2016,-389.0
+BS,递延所得税及其他资产 Deferred income taxes and other assets,2015,2201.0,2587.0,R2016,386.0
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,2015,3.8,1.9,R2016,-1.9
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,2015,3.8,1.9,R2017,-1.9
+IS,基本股数(百万股·as-reported) Basic shares,2015,861.7,1723.5,R2016,861.8
+IS,基本股数(百万股·as-reported) Basic shares,2015,861.7,1723.5,R2017,861.8
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,2015,3.7,1.85,R2016,-1.85
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,2015,3.7,1.85,R2017,-1.85
+IS,摊薄股数(百万股·as-reported) Diluted shares,2015,884.4,1768.8,R2016,884.4
+IS,摊薄股数(百万股·as-reported) Diluted shares,2015,884.4,1768.8,R2017,884.4
+IS,每股宣派股息(as-reported) Dividends declared per share,2015,1.08,0.54,R2016,-0.54
+IS,每股宣派股息(as-reported) Dividends declared per share,2015,1.08,0.54,R2017,-0.54
+BS,递延所得税及其他资产 Deferred income taxes and other assets,2016,2439.0,2422.0,R2017,-17.0
+BS,长期债务 Long-term debt,2016,2010.0,1993.0,R2017,-17.0
+CF,应付及应计变动 Increase (decrease) in accounts payable and accrued,2016,-889.0,-586.0,R2018,303.0
+CF,经营活动现金流净额 Cash provided (used) by operations,2016,3096.0,3399.0,R2018,303.0
+CF,融资活动现金流净额 Cash provided (used) by financing activities,2016,-2671.0,-2974.0,R2018,-303.0
+BS,留存收益 Retained earnings (deficit),2017,3979.0,6907.0,R2018,2928.0
+BS,超面值缴入资本 Capital in excess of stated value,2017,8638.0,5710.0,R2018,-2928.0
+CF,应付及应计变动 Increase (decrease) in accounts payable and accrued,2017,-364.0,-158.0,R2018,206.0
+CF,应付及应计变动 Increase (decrease) in accounts payable and accrued,2017,-364.0,-158.0,R2019,206.0
+CF,经营活动现金流净额 Cash provided (used) by operations,2017,3640.0,3846.0,R2018,206.0
+CF,经营活动现金流净额 Cash provided (used) by operations,2017,3640.0,3846.0,R2019,206.0
+CF,融资活动现金流净额 Cash provided (used) by financing activities,2017,-1942.0,-2148.0,R2018,-206.0
+CF,融资活动现金流净额 Cash provided (used) by financing activities,2017,-1942.0,-2148.0,R2019,-206.0
+CF,其他投资活动 Other investing activities,2018,-25.0,-22.0,R2020,3.0
+CF,其他投资活动 Other investing activities,2019,0.0,5.0,R2020,5.0
+CF,其他投资活动 Other investing activities,2019,0.0,5.0,R2021,5.0
+CF,其他融资活动 Other financing activities,2020,-58.0,-52.0,R2021,6.0
+CF,其他融资活动 Other financing activities,2020,-58.0,-52.0,R2022,6.0
+CF,其他融资活动 Other financing activities,2025,-85.0,-86.0,R2026,-1.0
