@@ -1,0 +1,693 @@
+{
+ "key": "1999",
+ "statements": {
+  "IS": {
+   "scale": 1.0,
+   "years": [
+    1997,
+    1998,
+    1999
+   ],
+   "rows": [
+    {
+     "label": "Revenue",
+     "vals": [
+      11936.0,
+      15262.0,
+      19747.0
+     ]
+    },
+    {
+     "label": "Operating expenses:",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Cost of revenue",
+     "vals": [
+      2170.0,
+      2460.0,
+      2814.0
+     ]
+    },
+    {
+     "label": "Research and development",
+     "vals": [
+      1863.0,
+      2601.0,
+      2970.0
+     ]
+    },
+    {
+     "label": "Acquired in-process technology",
+     "vals": [
+      null,
+      296.0,
+      null
+     ]
+    },
+    {
+     "label": "Sales and marketing",
+     "vals": [
+      2411.0,
+      2828.0,
+      3231.0
+     ]
+    },
+    {
+     "label": "General and administrative",
+     "vals": [
+      362.0,
+      433.0,
+      689.0
+     ]
+    },
+    {
+     "label": "Other expenses",
+     "vals": [
+      259.0,
+      230.0,
+      115.0
+     ]
+    },
+    {
+     "label": "Total operating expenses",
+     "vals": [
+      7065.0,
+      8848.0,
+      9819.0
+     ]
+    },
+    {
+     "label": "Operating income",
+     "vals": [
+      4871.0,
+      6414.0,
+      9928.0
+     ]
+    },
+    {
+     "label": "Investment income",
+     "vals": [
+      443.0,
+      703.0,
+      1803.0
+     ]
+    },
+    {
+     "label": "Gain on sale of Softimage, Inc",
+     "vals": [
+      null,
+      null,
+      160.0
+     ]
+    },
+    {
+     "label": "Income before income taxes",
+     "vals": [
+      5314.0,
+      7117.0,
+      11891.0
+     ]
+    },
+    {
+     "label": "Provision for income taxes",
+     "vals": [
+      1860.0,
+      2627.0,
+      4106.0
+     ]
+    },
+    {
+     "label": "Net income",
+     "vals": [
+      3454.0,
+      4490.0,
+      7785.0
+     ]
+    },
+    {
+     "label": "Earnings per share (1):",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Basic",
+     "vals": [
+      0.72,
+      0.92,
+      1.54
+     ]
+    },
+    {
+     "label": "Diluted",
+     "vals": [
+      0.66,
+      0.84,
+      1.42
+     ]
+    }
+   ],
+   "src": "txt"
+  },
+  "BS": {
+   "scale": 1.0,
+   "years": [
+    1998,
+    1999
+   ],
+   "rows": [
+    {
+     "label": "Assets",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Current assets:",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Cash and short-term investments",
+     "vals": [
+      13927.0,
+      17236.0
+     ]
+    },
+    {
+     "label": "Accounts receivable",
+     "vals": [
+      1460.0,
+      2245.0
+     ]
+    },
+    {
+     "label": "Other",
+     "vals": [
+      502.0,
+      752.0
+     ]
+    },
+    {
+     "label": "Total current assets",
+     "vals": [
+      15889.0,
+      20233.0
+     ]
+    },
+    {
+     "label": "Property and equipment",
+     "vals": [
+      1505.0,
+      1611.0
+     ]
+    },
+    {
+     "label": "Equity and other investments",
+     "vals": [
+      4703.0,
+      14372.0
+     ]
+    },
+    {
+     "label": "Other assets",
+     "vals": [
+      260.0,
+      940.0
+     ]
+    },
+    {
+     "label": "Total assets",
+     "vals": [
+      22357.0,
+      37156.0
+     ]
+    },
+    {
+     "label": "Liabilities and stockholders' equity",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Current liabilities:",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Accounts payable",
+     "vals": [
+      759.0,
+      874.0
+     ]
+    },
+    {
+     "label": "Accrued compensation",
+     "vals": [
+      359.0,
+      396.0
+     ]
+    },
+    {
+     "label": "Income taxes payable",
+     "vals": [
+      915.0,
+      1607.0
+     ]
+    },
+    {
+     "label": "Unearned revenue",
+     "vals": [
+      2888.0,
+      4239.0
+     ]
+    },
+    {
+     "label": "Other",
+     "vals": [
+      809.0,
+      1602.0
+     ]
+    },
+    {
+     "label": "Total current liabilities",
+     "vals": [
+      5730.0,
+      8718.0
+     ]
+    },
+    {
+     "label": "Commitments and contingencies",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Stockholders' equity:",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Convertible preferred stock--shares authorized 100; shares issued and outstanding 13",
+     "vals": [
+      980.0,
+      980.0
+     ]
+    },
+    {
+     "label": "Common stock and paid-in capital--shares authorized 12,000; shares issued and outstanding 4,940 and 5,109",
+     "vals": [
+      8025.0,
+      13844.0
+     ]
+    },
+    {
+     "label": "Retained earnings, including other comprehensive income of $666 and $1,787",
+     "vals": [
+      7622.0,
+      13614.0
+     ]
+    },
+    {
+     "label": "Total stockholders' equity",
+     "vals": [
+      16627.0,
+      28438.0
+     ]
+    },
+    {
+     "label": "Total liabilities and stockholders' equity",
+     "vals": [
+      22357.0,
+      37156.0
+     ]
+    }
+   ],
+   "src": "txt"
+  },
+  "CF": {
+   "scale": 1.0,
+   "years": [
+    1997,
+    1998,
+    1999
+   ],
+   "rows": [
+    {
+     "label": "Operations",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Net income",
+     "vals": [
+      3454.0,
+      4490.0,
+      7785.0
+     ]
+    },
+    {
+     "label": "Depreciation and amortization",
+     "vals": [
+      557.0,
+      1024.0,
+      1010.0
+     ]
+    },
+    {
+     "label": "Write-off of acquired in-process technology",
+     "vals": [
+      null,
+      296.0,
+      null
+     ]
+    },
+    {
+     "label": "Gain on sale of Softimage, Inc",
+     "vals": [
+      null,
+      null,
+      -160.0
+     ]
+    },
+    {
+     "label": "Unearned revenue",
+     "vals": [
+      1601.0,
+      3268.0,
+      5877.0
+     ]
+    },
+    {
+     "label": "Recognition of unearned revenue from prior periods",
+     "vals": [
+      -743.0,
+      -1798.0,
+      -4526.0
+     ]
+    },
+    {
+     "label": "Other current liabilities",
+     "vals": [
+      321.0,
+      208.0,
+      966.0
+     ]
+    },
+    {
+     "label": "Accounts receivable",
+     "vals": [
+      -336.0,
+      -520.0,
+      -687.0
+     ]
+    },
+    {
+     "label": "Other current assets",
+     "vals": [
+      -165.0,
+      -88.0,
+      -235.0
+     ]
+    },
+    {
+     "label": "Net cash from operations",
+     "vals": [
+      4689.0,
+      6880.0,
+      10030.0
+     ]
+    },
+    {
+     "label": "Financing",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Common stock issued",
+     "vals": [
+      744.0,
+      959.0,
+      1350.0
+     ]
+    },
+    {
+     "label": "Common stock repurchased",
+     "vals": [
+      -3101.0,
+      -2468.0,
+      -2950.0
+     ]
+    },
+    {
+     "label": "Put warrant proceeds",
+     "vals": [
+      95.0,
+      538.0,
+      766.0
+     ]
+    },
+    {
+     "label": "Preferred stock issued",
+     "vals": [
+      980.0,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Preferred stock dividends",
+     "vals": [
+      -15.0,
+      -28.0,
+      -28.0
+     ]
+    },
+    {
+     "label": "Stock option income tax benefits",
+     "vals": [
+      796.0,
+      1553.0,
+      3107.0
+     ]
+    },
+    {
+     "label": "Net cash from (used for) financing",
+     "vals": [
+      -501.0,
+      554.0,
+      2245.0
+     ]
+    },
+    {
+     "label": "Investing",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Additions to property and equipment",
+     "vals": [
+      -499.0,
+      -656.0,
+      -583.0
+     ]
+    },
+    {
+     "label": "Cash portion of WebTV purchase price",
+     "vals": [
+      null,
+      -190.0,
+      null
+     ]
+    },
+    {
+     "label": "Cash proceeds from sale of Softimage, Inc",
+     "vals": [
+      null,
+      null,
+      79.0
+     ]
+    },
+    {
+     "label": "Purchases of investments",
+     "vals": [
+      -18216.0,
+      -19114.0,
+      -36441.0
+     ]
+    },
+    {
+     "label": "Maturities of investments",
+     "vals": [
+      1874.0,
+      1890.0,
+      4674.0
+     ]
+    },
+    {
+     "label": "Sales of investments",
+     "vals": [
+      13752.0,
+      10798.0,
+      21080.0
+     ]
+    },
+    {
+     "label": "Net cash used for investing",
+     "vals": [
+      -3089.0,
+      -7272.0,
+      -11191.0
+     ]
+    },
+    {
+     "label": "Net change in cash and equivalents",
+     "vals": [
+      1099.0,
+      162.0,
+      1084.0
+     ]
+    },
+    {
+     "label": "Effect of exchange rates on cash and equivalents",
+     "vals": [
+      6.0,
+      -29.0,
+      52.0
+     ]
+    },
+    {
+     "label": "Cash and equivalents, beginning of year",
+     "vals": [
+      2601.0,
+      3706.0,
+      3839.0
+     ]
+    },
+    {
+     "label": "Cash and equivalents, end of year",
+     "vals": [
+      3706.0,
+      3839.0,
+      4975.0
+     ]
+    },
+    {
+     "label": "Short-term investments",
+     "vals": [
+      5260.0,
+      10088.0,
+      12261.0
+     ]
+    },
+    {
+     "label": "Cash and short-term investments",
+     "vals": [
+      8966.0,
+      13927.0,
+      17236.0
+     ]
+    }
+   ],
+   "src": "txt"
+  },
+  "SUM": {
+   "scale": 1.0,
+   "years": [
+    1995,
+    1996,
+    1997,
+    1998,
+    1999
+   ],
+   "rows": [
+    {
+     "label": "Revenue",
+     "vals": [
+      6075.0,
+      9050.0,
+      11936.0,
+      15262.0,
+      19747.0
+     ]
+    },
+    {
+     "label": "Net income",
+     "vals": [
+      1453.0,
+      2195.0,
+      3454.0,
+      4490.0,
+      7785.0
+     ]
+    },
+    {
+     "label": "Diluted earnings per share (1)",
+     "vals": [
+      0.29,
+      0.43,
+      0.66,
+      0.84,
+      1.42
+     ]
+    },
+    {
+     "label": "Cash and short-term investments",
+     "vals": [
+      4750.0,
+      6940.0,
+      8966.0,
+      13927.0,
+      17236.0
+     ]
+    },
+    {
+     "label": "Total assets",
+     "vals": [
+      7210.0,
+      10093.0,
+      14387.0,
+      22357.0,
+      37156.0
+     ]
+    },
+    {
+     "label": "Stockholders' equity",
+     "vals": [
+      5333.0,
+      6908.0,
+      10777.0,
+      16627.0,
+      28438.0
+     ]
+    }
+   ],
+   "src": "txt"
+  }
+ }
+}

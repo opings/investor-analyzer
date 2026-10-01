@@ -1,0 +1,615 @@
+{
+ "key": "1995",
+ "statements": {
+  "IS": {
+   "scale": 1.0,
+   "years": [
+    1993,
+    1994,
+    1995
+   ],
+   "rows": [
+    {
+     "label": "Net revenues",
+     "vals": [
+      3753.0,
+      4649.0,
+      5937.0
+     ]
+    },
+    {
+     "label": "Operating expenses:",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Cost of revenues",
+     "vals": [
+      633.0,
+      763.0,
+      877.0
+     ]
+    },
+    {
+     "label": "Research and development",
+     "vals": [
+      470.0,
+      610.0,
+      860.0
+     ]
+    },
+    {
+     "label": "Sales and marketing",
+     "vals": [
+      1205.0,
+      1384.0,
+      1895.0
+     ]
+    },
+    {
+     "label": "General and administrative",
+     "vals": [
+      119.0,
+      166.0,
+      267.0
+     ]
+    },
+    {
+     "label": "Total operating expenses",
+     "vals": [
+      2427.0,
+      2923.0,
+      3899.0
+     ]
+    },
+    {
+     "label": "Operating income",
+     "vals": [
+      1326.0,
+      1726.0,
+      2038.0
+     ]
+    },
+    {
+     "label": "Interest income -- net",
+     "vals": [
+      82.0,
+      102.0,
+      191.0
+     ]
+    },
+    {
+     "label": "Noncontinuing items",
+     "vals": [
+      null,
+      -90.0,
+      -46.0
+     ]
+    },
+    {
+     "label": "Other expenses",
+     "vals": [
+      -7.0,
+      -16.0,
+      -16.0
+     ]
+    },
+    {
+     "label": "Income before income taxes",
+     "vals": [
+      1401.0,
+      1722.0,
+      2167.0
+     ]
+    },
+    {
+     "label": "Provision for income taxes",
+     "vals": [
+      448.0,
+      576.0,
+      714.0
+     ]
+    },
+    {
+     "label": "Net income",
+     "vals": [
+      953.0,
+      1146.0,
+      1453.0
+     ]
+    },
+    {
+     "label": "Earnings per share",
+     "vals": [
+      1.57,
+      1.88,
+      2.32
+     ]
+    },
+    {
+     "label": "Weighted average shares outstanding",
+     "vals": [
+      606.0,
+      610.0,
+      627.0
+     ]
+    }
+   ],
+   "src": "txt"
+  },
+  "BS": {
+   "scale": 1.0,
+   "years": [
+    1994,
+    1995
+   ],
+   "rows": [
+    {
+     "label": "ASSETS",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Current assets:",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Cash and short-term investments",
+     "vals": [
+      3614.0,
+      4750.0
+     ]
+    },
+    {
+     "label": "Accounts receivable -- net of allowances of $92 and $139",
+     "vals": [
+      475.0,
+      581.0
+     ]
+    },
+    {
+     "label": "Inventories",
+     "vals": [
+      102.0,
+      88.0
+     ]
+    },
+    {
+     "label": "Other",
+     "vals": [
+      121.0,
+      201.0
+     ]
+    },
+    {
+     "label": "Total current assets",
+     "vals": [
+      4312.0,
+      5620.0
+     ]
+    },
+    {
+     "label": "Property, plant, and equipment -- net",
+     "vals": [
+      930.0,
+      1192.0
+     ]
+    },
+    {
+     "label": "Other assets",
+     "vals": [
+      121.0,
+      398.0
+     ]
+    },
+    {
+     "label": "Total assets",
+     "vals": [
+      5363.0,
+      7210.0
+     ]
+    },
+    {
+     "label": "LIABILITIES AND STOCKHOLDERS' EQUITY",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Current liabilities:",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Accounts payable",
+     "vals": [
+      324.0,
+      563.0
+     ]
+    },
+    {
+     "label": "Accrued compensation",
+     "vals": [
+      96.0,
+      130.0
+     ]
+    },
+    {
+     "label": "Income taxes payable",
+     "vals": [
+      305.0,
+      410.0
+     ]
+    },
+    {
+     "label": "Other",
+     "vals": [
+      188.0,
+      244.0
+     ]
+    },
+    {
+     "label": "Total current liabilities",
+     "vals": [
+      913.0,
+      1347.0
+     ]
+    },
+    {
+     "label": "Minority interest",
+     "vals": [
+      null,
+      125.0
+     ]
+    },
+    {
+     "label": "Put warrants",
+     "vals": [
+      null,
+      405.0
+     ]
+    },
+    {
+     "label": "Commitments and contingencies",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Stockholders' equity:",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Common stock and paid-in capital -- shares authorized 2,000; issued and outstanding 581 and 588",
+     "vals": [
+      1500.0,
+      2005.0
+     ]
+    },
+    {
+     "label": "Retained earnings",
+     "vals": [
+      2950.0,
+      3328.0
+     ]
+    },
+    {
+     "label": "Total stockholders' equity",
+     "vals": [
+      4450.0,
+      5333.0
+     ]
+    },
+    {
+     "label": "Total liabilities and stockholders' equity",
+     "vals": [
+      5363.0,
+      7210.0
+     ]
+    }
+   ],
+   "src": "txt"
+  },
+  "CF": {
+   "scale": 1.0,
+   "years": [
+    1993,
+    1994,
+    1995
+   ],
+   "rows": [
+    {
+     "label": "CASH FLOWS FROM OPERATIONS",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Net income",
+     "vals": [
+      953.0,
+      1146.0,
+      1453.0
+     ]
+    },
+    {
+     "label": "Depreciation and amortization",
+     "vals": [
+      151.0,
+      237.0,
+      269.0
+     ]
+    },
+    {
+     "label": "Current liabilities",
+     "vals": [
+      177.0,
+      360.0,
+      419.0
+     ]
+    },
+    {
+     "label": "Accounts receivable",
+     "vals": [
+      -121.0,
+      -146.0,
+      -91.0
+     ]
+    },
+    {
+     "label": "Inventories",
+     "vals": [
+      -51.0,
+      23.0,
+      15.0
+     ]
+    },
+    {
+     "label": "Other current assets",
+     "vals": [
+      -35.0,
+      -27.0,
+      -75.0
+     ]
+    },
+    {
+     "label": "Net cash from operations",
+     "vals": [
+      1074.0,
+      1593.0,
+      1990.0
+     ]
+    },
+    {
+     "label": "CASH FLOWS FROM FINANCING",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Common stock issued",
+     "vals": [
+      229.0,
+      280.0,
+      332.0
+     ]
+    },
+    {
+     "label": "Common stock repurchased",
+     "vals": [
+      -250.0,
+      -348.0,
+      -649.0
+     ]
+    },
+    {
+     "label": "Stock option income tax benefits",
+     "vals": [
+      207.0,
+      151.0,
+      179.0
+     ]
+    },
+    {
+     "label": "Net cash from financing",
+     "vals": [
+      186.0,
+      83.0,
+      -138.0
+     ]
+    },
+    {
+     "label": "CASH FLOWS USED FOR INVESTMENTS",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Additions to property, plant, and equipment",
+     "vals": [
+      -236.0,
+      -278.0,
+      -495.0
+     ]
+    },
+    {
+     "label": "Other assets",
+     "vals": [
+      -17.0,
+      -64.0,
+      -230.0
+     ]
+    },
+    {
+     "label": "Short-term investments",
+     "vals": [
+      -723.0,
+      -860.0,
+      -651.0
+     ]
+    },
+    {
+     "label": "Net cash used for investments",
+     "vals": [
+      -976.0,
+      -1202.0,
+      -1376.0
+     ]
+    },
+    {
+     "label": "Net change in cash and equivalents",
+     "vals": [
+      284.0,
+      474.0,
+      476.0
+     ]
+    },
+    {
+     "label": "Effect of exchange rates on cash",
+     "vals": [
+      -62.0,
+      -10.0,
+      9.0
+     ]
+    },
+    {
+     "label": "Cash and equivalents, beginning of year",
+     "vals": [
+      791.0,
+      1013.0,
+      1477.0
+     ]
+    },
+    {
+     "label": "Cash and equivalents, end of year",
+     "vals": [
+      1013.0,
+      1477.0,
+      1962.0
+     ]
+    },
+    {
+     "label": "Short-term investments",
+     "vals": [
+      1277.0,
+      2137.0,
+      2788.0
+     ]
+    },
+    {
+     "label": "Cash and short-term investments",
+     "vals": [
+      2290.0,
+      3614.0,
+      4750.0
+     ]
+    }
+   ],
+   "src": "txt"
+  },
+  "SUM": {
+   "scale": 1.0,
+   "years": [
+    1991,
+    1992,
+    1993,
+    1994,
+    1995
+   ],
+   "rows": [
+    {
+     "label": "Net revenues",
+     "vals": [
+      1843.0,
+      2759.0,
+      3753.0,
+      4649.0,
+      5937.0
+     ]
+    },
+    {
+     "label": "Net income",
+     "vals": [
+      463.0,
+      708.0,
+      953.0,
+      1146.0,
+      1453.0
+     ]
+    },
+    {
+     "label": "Earnings per share",
+     "vals": [
+      0.82,
+      1.2,
+      1.57,
+      1.88,
+      2.32
+     ]
+    },
+    {
+     "label": "Return on net revenues",
+     "vals": [
+      25.1,
+      25.7,
+      25.4,
+      24.7,
+      24.5
+     ]
+    },
+    {
+     "label": "Cash and short-term investments",
+     "vals": [
+      686.0,
+      1345.0,
+      2290.0,
+      3614.0,
+      4750.0
+     ]
+    },
+    {
+     "label": "Total assets",
+     "vals": [
+      1644.0,
+      2640.0,
+      3805.0,
+      5363.0,
+      7210.0
+     ]
+    },
+    {
+     "label": "Stockholders' equity",
+     "vals": [
+      1351.0,
+      2193.0,
+      3242.0,
+      4450.0,
+      5333.0
+     ]
+    }
+   ],
+   "src": "txt"
+  }
+ }
+}

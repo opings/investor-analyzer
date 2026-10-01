@@ -1,0 +1,60 @@
+# 单位: 百万美元 / % | ⚠️ 全部为**公司自定义口径**（非 GAAP 科目、定义多次变更），只能在同一定义内比较 | 云收入 = XBRL 附注括注表（FY2012-2013 取 FY2014 10-K 比较列）；云毛利率与 Azure 增速 = MD&A 正文自陈 | 已校验：云收入 XBRL = 正文金额、正文增速 = 同申报计算值(±1pp)
+科目,FY2012,FY2013,FY2014,FY2015,FY2016,FY2017,FY2018,FY2019,FY2020,FY2021,FY2022,FY2023,FY2024,FY2025,FY2026
+云收入(as-reported·各年自家10-K) Commercial cloud→Microsoft Cloud revenue,700,1300,2800,5800,9500,14900,23200,38100,51700,69100,91200,111600,137400,168900,214400
+  云收入·FY2019 10-K 重述的比较值,,,,,,16200,26600,,,,,,,,
+  云收入·FY2020 10-K 重述的比较值,,,,,,,26600,,,,,,,,
+  云收入·FY2023 10-K 重述的比较值,,,,,,,,,,,91400,,,,
+  云收入·FY2024 10-K 重述的比较值,,,,,,,,,,,91400,,,,
+  云收入·FY2025 10-K 重述的比较值,,,,,,,,,,,,,137700,,
+  云收入·FY2026 10-K 重述的比较值,,,,,,,,,,,,,137700,,
+云毛利率(%)(MD&A 自陈) cloud gross margin percentage,,,,,,,,,67,71,70,72,71,69,66
+Azure 收入增速(%)(MD&A 自陈·FY2022 起口径为 Azure and other cloud services),,,,,113,99,91,72,56,50,45,29,30,34,41
+
+# 云收入口径定义沿革（10-K 原文要点）
+申报,名称,定义/变更
+FY2014-2015 10-K,Commercial Cloud,Office 365 commercial、Azure、Dynamics CRM Online 等商业云服务
+FY2016-2018 10-K,commercial cloud,"primarily comprises Office 365 commercial, Azure, Dynamics Online/365, and other cloud properties"
+FY2019 10-K,commercial cloud,并入 the commercial portion of LinkedIn，并追溯重述（FY2018 23.2→26.6 十亿美元、FY2017 14.9→16.2）
+FY2022 10-K,Microsoft Cloud,"更名；Azure and other cloud services, Office 365 Commercial, the commercial portion of LinkedIn, Dynamics 365, and other commercial cloud properties"
+FY2023 / FY2025 10-K,Microsoft Cloud,各小幅重述上一年（见上方「重述的比较值」行）；10-K 未说明原因
+
+# 原文锚句（逐年·供回源核对）
+申报,指标,原文
+FY2014,云收入,Commercial Cloud revenue was $2.8 billion
+FY2015,云收入,Commercial Cloud revenue was $5.8 billion
+FY2016,云收入,"commercial cloud revenue, which primarily comprises Office 365 commercial, Azure, Dynamics Online, and other cloud properties, was $9.5 billion"
+FY2016,Azure 增速,Azure (“Azure”) revenue grew 113%
+FY2017,云收入,"commercial cloud revenue, which primarily comprises Office 365 commercial, Azure, Dynamics 365, and other cloud properties, was $14.9 billion"
+FY2017,Azure 增速,Azure revenue growth of 99%
+FY2018,云收入,"Commercial cloud revenue, which primarily comprises Microsoft Office 365 commercial, Microsoft Azure, Microsoft Dynamics 365, and other cloud properties, increa"
+FY2018,Azure 增速,Azure revenue growth of 91%
+FY2019,云收入,"Commercial cloud revenue, which includes Microsoft Office 365 Commercial, Microsoft Azure, the commercial portion of LinkedIn, Microsoft Dynamics 365, and other"
+FY2019,Azure 增速,Azure growth of 72%
+FY2020,云收入,Commercial cloud revenue increased 36% to $51.7 billion
+FY2020,云毛利率,Commercial cloud gross margin percentage increased 4 points to 67%
+FY2020,Azure 增速,Azure growth of 56%
+FY2021,云收入,Commercial cloud revenue increased 34% to $69.1 billion
+FY2021,云毛利率,Commercial cloud gross margin percentage increased 4 points to 71%
+FY2021,Azure 增速,Azure growth of 50%
+FY2022,云毛利率,Microsoft Cloud gross margin percentage decreased slightly to 70%
+FY2022,Azure 增速,Azure and other cloud services revenue grew 45%
+FY2023,云收入,Microsoft Cloud revenue increased 22% to $111.6 billion
+FY2023,云毛利率,Microsoft Cloud gross margin percentage increased 2 points to 72%
+FY2023,Azure 增速,Azure and other cloud services revenue grew 29%
+FY2024,云收入,Microsoft Cloud revenue increased 23% to $137.4 billion
+FY2024,云毛利率,Microsoft Cloud gross margin percentage decreased slightly to 71%
+FY2024,Azure 增速,Azure and other cloud services revenue grew 30%
+FY2025,云收入,Microsoft Cloud revenue increased 23% to $168.9 billion
+FY2025,云毛利率,Microsoft Cloud gross margin percentage decreased to 69%
+FY2025,Azure 增速,Azure and other cloud services revenue grew 34%
+FY2026,云收入,Microsoft Cloud revenue increased 27% to $214.4 billion
+FY2026,云毛利率,Microsoft Cloud gross margin percentage decreased to 66%
+FY2026,Azure 增速,Azure and other cloud services revenue increased 41%
+
+# 云毛利率跨申报一致性（机械比对）
+各年「增减 N 点」隐含的上一年水平与上一份 10-K 自陈一致（无重述）
+
+# 服务器/网络设备折旧年限变更（会计估计变更·未来适用法·不追溯）
+生效财年,服务器年限 前→后,网络设备年限 前→后,当年营业利润增加(百万美元),当年净利增加(百万美元),每股增加(美元),出处
+FY2021,3→4,2→4,2700,2300,0.30,FY2021 10-K 附注 1 / MD&A
+FY2023,4→6,4→6,3700,3000,0.40,FY2023 10-K 附注 1 / MD&A

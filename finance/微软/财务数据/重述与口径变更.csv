@@ -1,0 +1,371 @@
+# 同一财年 as-reported 值 vs 其他申报所印值的差异（金额单位: 百万美元）。差异来源 = 重述 / 重分类 / 会计准则追溯调整 / 拆股基准变化，不是解析错——本库一律以 as-reported 为准，本表仅供追溯。
+表,科目,财年,as-reported值,其他申报值,来源申报,差额
+IS,加权股数(SFAS128前·含等价物·百万股) Average shares (primary),1985,23.26,46.52,S1987,23.26
+IS,每股收益(SFAS128前·primary·as-reported) Net income per share (primary),1985,1.04,0.52,S1987,-0.52
+BS,其他流动负债 Other current liabilities,1986,5.334,4.015,S1987,-1.319
+IS,加权股数(SFAS128前·含等价物·百万股) Average shares (primary),1986,25.2,50.4,S1987,25.2
+IS,加权股数(SFAS128前·含等价物·百万股) Average shares (primary),1986,25.2,50.4,S1988,25.2
+IS,每股收益(SFAS128前·primary·as-reported) Net income per share (primary),1986,1.56,0.78,S1987,-0.78
+IS,每股收益(SFAS128前·primary·as-reported) Net income per share (primary),1986,1.56,0.78,S1988,-0.78
+BS,其他流动负债 Other current liabilities,1987,7.313,9.318,S1988,2.005
+BS,应付账款 Accounts payable,1987,16.513,20.526,S1988,4.013
+BS,流动负债合计 Total current liabilities,1987,46.644,48.649,S1988,2.005
+BS,其他长期资产 Other long-term assets,1988,9.627,17.563,S1989,7.936
+IS,加权股数(SFAS128前·含等价物·百万股) Average shares (primary),1988,55.818,111.636,S1990,55.818
+IS,每股收益(SFAS128前·primary·as-reported) Net income per share (primary),1988,2.22,1.11,S1990,-1.11
+CF,其他投资活动 Other investing,1989,-8.063,-40.012,S1991,-31.949
+IS,加权股数(SFAS128前·含等价物·百万股) Average shares (primary),1989,56.245,112.49,S1990,56.245
+IS,加权股数(SFAS128前·含等价物·百万股) Average shares (primary),1989,56.245,168.735,S1991,112.49
+IS,每股收益(SFAS128前·primary·as-reported) Net income per share (primary),1989,3.03,1.52,S1990,-1.51
+IS,每股收益(SFAS128前·primary·as-reported) Net income per share (primary),1989,3.03,1.01,S1991,-2.02
+IS,"营业外收支净额 Other income (expense), net",1989,16.566,-10.247,S1991,-26.813
+BS,留存收益 Retained earnings (deficit),1990,688.874,699.043,S1991,10.169
+CF,其他投资活动 Other investing,1990,-1.908,-18.111,S1991,-16.203
+CF,其他投资活动 Other investing,1990,-1.908,-18.111,S1992,-16.203
+IS,加权股数(SFAS128前·含等价物·百万股) Average shares (primary),1990,119.412,179.118,S1991,59.706
+IS,加权股数(SFAS128前·含等价物·百万股) Average shares (primary),1990,119.412,268.677,S1992,149.265
+IS,每股收益(SFAS128前·primary·as-reported) Net income per share (primary),1990,2.34,1.56,S1991,-0.78
+IS,每股收益(SFAS128前·primary·as-reported) Net income per share (primary),1990,2.34,1.04,S1992,-1.3
+IS,"营业外收支净额 Other income (expense), net",1990,23.326,-13.511,S1991,-36.837
+IS,"营业外收支净额 Other income (expense), net",1990,23.326,-13.511,S1992,-36.837
+CF,流动负债变动(早年合并口径) Current liabilities,1991,94.102,107.0,S1993,12.898
+CF,经营活动现金流净额 Net cash from operations,1991,557.878,571.0,S1993,13.122
+CF,融资活动现金流净额 Net cash from (used in) financing,1991,-4.344,-17.0,S1993,-12.656
+IS,加权股数(SFAS128前·含等价物·百万股) Average shares (primary),1991,187.659,281.489,S1992,93.83
+IS,加权股数(SFAS128前·含等价物·百万股) Average shares (primary),1991,187.659,282.0,S1993,94.341
+IS,每股收益(SFAS128前·primary·as-reported) Net income per share (primary),1991,2.47,1.64,S1992,-0.83
+IS,每股收益(SFAS128前·primary·as-reported) Net income per share (primary),1991,2.47,1.64,S1993,-0.83
+BS,其他流动负债 Other current liabilities,1992,101.769,116.0,S1993,14.231
+BS,应付账款 Accounts payable,1992,187.519,196.0,S1993,8.481
+CF,流动负债变动(早年合并口径) Current liabilities,1992,178.08,167.0,L1994,-11.08
+CF,流动负债变动(早年合并口径) Current liabilities,1992,178.08,167.0,S1993,-11.08
+CF,经营活动现金流净额 Net cash from operations,1992,906.979,896.0,L1994,-10.979
+CF,经营活动现金流净额 Net cash from operations,1992,906.979,896.0,S1993,-10.979
+CF,融资活动现金流净额 Net cash from (used in) financing,1992,119.001,130.0,L1994,10.999
+CF,融资活动现金流净额 Net cash from (used in) financing,1992,119.001,130.0,S1993,10.999
+IS,加权股数(SFAS128前·含等价物·百万股) Average shares (primary),1992,294.218,588.0,L1994,293.782
+IS,每股收益(SFAS128前·primary·as-reported) Net income per share (primary),1992,2.41,1.2,L1994,-1.21
+IS,加权股数(SFAS128前·含等价物·百万股) Average shares (primary),1993,303.0,606.0,L1994,303.0
+IS,加权股数(SFAS128前·含等价物·百万股) Average shares (primary),1993,303.0,606.0,L1995,303.0
+IS,每股收益(SFAS128前·primary·as-reported) Net income per share (primary),1993,3.15,1.57,L1994,-1.58
+IS,每股收益(SFAS128前·primary·as-reported) Net income per share (primary),1993,3.15,1.57,L1995,-1.58
+CF,其他流动资产变动 Other current assets,1994,-27.0,-4.0,L1996,23.0
+BS,其他流动负债 Other current liabilities,1995,244.0,190.0,L1996,-54.0
+BS,其他流动资产 Other current assets,1995,201.0,289.0,L1996,88.0
+CF,其他流动资产变动 Other current assets,1995,-75.0,-60.0,L1996,15.0
+CF,其他流动资产变动 Other current assets,1995,-75.0,-60.0,L1997,15.0
+CF,回购股票 Common stock repurchased,1995,-649.0,-698.0,L1997,-49.0
+IS,加权股数(SFAS128前·含等价物·百万股) Average shares (primary),1995,627.0,1254.0,L1997,627.0
+IS,每股收益(SFAS128前·primary·as-reported) Net income per share (primary),1995,2.32,1.16,L1997,-1.16
+IS,"营业外收支净额 Other income (expense), net",1995,-16.0,-62.0,L1997,-46.0
+BS,其他长期资产 Other long-term assets,1996,928.0,253.0,L1997,-675.0
+CF,回购股票 Common stock repurchased,1996,-1261.0,-1385.0,L1997,-124.0
+CF,回购股票 Common stock repurchased,1996,-1261.0,-1385.0,L1998,-124.0
+IS,加权股数(SFAS128前·含等价物·百万股) Average shares (primary),1996,640.0,1281.0,L1997,641.0
+IS,成本及费用合计(含营业成本) Total costs and expenses (incl. cost of revenue),1996,5593.0,5612.0,L1998,19.0
+IS,每股收益(SFAS128前·primary·as-reported) Net income per share (primary),1996,3.43,1.71,L1997,-1.72
+IS,营业利润 Operating income,1996,3078.0,3059.0,L1998,-19.0
+IS,成本及费用合计(含营业成本) Total costs and expenses (incl. cost of revenue),1997,6228.0,6487.0,L1998,259.0
+IS,成本及费用合计(含营业成本) Total costs and expenses (incl. cost of revenue),1997,6228.0,7065.0,L1999,837.0
+IS,研发费用 Research and development,1997,1925.0,1863.0,L1999,-62.0
+IS,营业利润 Operating income,1997,5130.0,4871.0,L1998,-259.0
+IS,营业利润 Operating income,1997,5130.0,4871.0,L1999,-259.0
+IS,营业成本 Cost of revenue,1997,1085.0,2170.0,L1999,1085.0
+IS,营业收入 Revenue,1997,11358.0,11936.0,L1999,578.0
+IS,销售及市场费用 Sales and marketing,1997,2856.0,2411.0,L1999,-445.0
+CF,经营活动现金流净额 Net cash from operations,1998,6880.0,8433.0,L2000,1553.0
+CF,融资活动现金流净额 Net cash from (used in) financing,1998,554.0,-999.0,L2000,-1553.0
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,1998,1.83,0.92,L1999,-0.91
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,1998,1.83,0.92,L2000,-0.91
+IS,成本及费用合计(含营业成本) Total costs and expenses (incl. cost of revenue),1998,8070.0,8848.0,L1999,778.0
+IS,成本及费用合计(含营业成本) Total costs and expenses (incl. cost of revenue),1998,8070.0,8848.0,L2000,778.0
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,1998,1.67,0.84,L1999,-0.83
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,1998,1.67,0.84,L2000,-0.83
+IS,研发费用 Research and development,1998,2502.0,2601.0,L1999,99.0
+IS,研发费用 Research and development,1998,2502.0,2601.0,L2000,99.0
+IS,营业成本 Cost of revenue,1998,1197.0,2460.0,L1999,1263.0
+IS,营业成本 Cost of revenue,1998,1197.0,2460.0,L2000,1263.0
+IS,营业收入 Revenue,1998,14484.0,15262.0,L1999,778.0
+IS,营业收入 Revenue,1998,14484.0,15262.0,L2000,778.0
+IS,销售及市场费用 Sales and marketing,1998,3412.0,2828.0,L1999,-584.0
+IS,销售及市场费用 Sales and marketing,1998,3412.0,2828.0,L2000,-584.0
+BS,应交所得税(流动) Income taxes payable (current),1999,1607.0,1691.0,L2000,84.0
+BS,总资产 Total assets,1999,37156.0,38625.0,L2000,1469.0
+BS,流动负债合计 Total current liabilities,1999,8718.0,8802.0,L2000,84.0
+BS,流动资产合计 Total current assets,1999,20233.0,21702.0,L2000,1469.0
+BS,负债和股东权益合计 Total liabilities and stockholders' equity,1999,37156.0,38625.0,L2000,1469.0
+CF,其他流动负债变动 Other current liabilities,1999,966.0,1050.0,L2000,84.0
+CF,其他流动负债变动 Other current liabilities,1999,966.0,1469.0,L2001,503.0
+CF,出售投资 Sales of investments,1999,21080.0,21006.0,L2001,-74.0
+CF,投资到期 Maturities of investments,1999,4674.0,4063.0,L2001,-611.0
+CF,投资活动现金流净额 Net cash from (used in) investing,1999,-11191.0,-10200.0,L2001,991.0
+CF,"折旧摊销及其他 Depreciation, amortization, and other",1999,1010.0,926.0,L2000,-84.0
+CF,"折旧摊销及其他 Depreciation, amortization, and other",1999,1010.0,926.0,L2001,-84.0
+CF,经营活动现金流净额 Net cash from operations,1999,10030.0,13137.0,L2000,3107.0
+CF,经营活动现金流净额 Net cash from operations,1999,10030.0,12146.0,L2001,2116.0
+CF,融资活动现金流净额 Net cash from (used in) financing,1999,2245.0,-862.0,L2000,-3107.0
+CF,融资活动现金流净额 Net cash from (used in) financing,1999,2245.0,-862.0,L2001,-3107.0
+CF,购买投资 Purchases of investments,1999,-36441.0,-34686.0,L2001,1755.0
+IS,一般及管理费用 General and administrative,1999,689.0,715.0,L2001,26.0
+IS,成本及费用合计(含营业成本) Total costs and expenses (incl. cost of revenue),1999,9819.0,9737.0,L2001,-82.0
+IS,投资收益(仅FY1999-2008) Investment income,1999,1803.0,1951.0,L2001,148.0
+IS,营业利润 Operating income,1999,9928.0,10010.0,L2001,82.0
+CF,其他流动负债变动 Other current liabilities,2000,-445.0,-617.0,L2001,-172.0
+CF,其他流动负债变动 Other current liabilities,2000,-445.0,-992.0,L2002,-547.0
+CF,出售投资 Sales of investments,2000,28085.0,29752.0,L2001,1667.0
+CF,出售投资 Sales of investments,2000,28085.0,29752.0,L2002,1667.0
+CF,投资活动现金流净额 Net cash from (used in) investing,2000,-11927.0,-9392.0,L2001,2535.0
+CF,投资活动现金流净额 Net cash from (used in) investing,2000,-11927.0,-9392.0,L2002,2535.0
+CF,"折旧摊销及其他 Depreciation, amortization, and other",2000,748.0,1250.0,L2001,502.0
+CF,"折旧摊销及其他 Depreciation, amortization, and other",2000,748.0,1250.0,L2002,502.0
+CF,经营活动现金流净额 Net cash from operations,2000,13961.0,11426.0,L2001,-2535.0
+CF,经营活动现金流净额 Net cash from operations,2000,13961.0,11426.0,L2002,-2535.0
+CF,购买投资 Purchases of investments,2000,-43158.0,-42290.0,L2001,868.0
+CF,购买投资 Purchases of investments,2000,-43158.0,-42290.0,L2002,868.0
+IS,一般及管理费用 General and administrative,2000,1009.0,1050.0,L2001,41.0
+IS,一般及管理费用 General and administrative,2000,1009.0,1050.0,L2002,41.0
+IS,成本及费用合计(含营业成本) Total costs and expenses (incl. cost of revenue),2000,12019.0,11950.0,L2001,-69.0
+IS,成本及费用合计(含营业成本) Total costs and expenses (incl. cost of revenue),2000,12019.0,11950.0,L2002,-69.0
+IS,投资收益(仅FY1999-2008) Investment income,2000,3182.0,3326.0,L2001,144.0
+IS,投资收益(仅FY1999-2008) Investment income,2000,3182.0,3326.0,L2002,144.0
+IS,营业利润 Operating income,2000,10937.0,11006.0,L2001,69.0
+IS,营业利润 Operating income,2000,10937.0,11006.0,L2002,69.0
+IS,销售及市场费用 Sales and marketing,2000,4141.0,4126.0,L2001,-15.0
+IS,销售及市场费用 Sales and marketing,2000,4141.0,4126.0,L2002,-15.0
+BS,其他流动负债 Other current liabilities,2001,2120.0,1461.0,L2002,-659.0
+BS,其他流动资产 Other current assets,2001,2417.0,2334.0,L2002,-83.0
+BS,其他长期资产 Other long-term assets,2001,3170.0,1038.0,L2002,-2132.0
+BS,总资产 Total assets,2001,59257.0,58830.0,L2002,-427.0
+BS,流动负债合计 Total current liabilities,2001,11132.0,9254.0,L2002,-1878.0
+BS,流动资产合计 Total current assets,2001,39637.0,39210.0,L2002,-427.0
+BS,短期递延收入 Short-term unearned revenue,2001,5614.0,4395.0,L2002,-1219.0
+BS,股权及其他投资 Equity (and other) investments,2001,14141.0,14361.0,L2002,220.0
+BS,负债和股东权益合计 Total liabilities and stockholders' equity,2001,59257.0,58830.0,L2002,-427.0
+BS,递延所得税负债(非流动) Deferred income taxes (non-current liability),2001,836.0,409.0,L2002,-427.0
+BS,递延所得税资产(流动) Deferred income taxes (current),2001,1949.0,1522.0,L2002,-427.0
+CF,其他流动负债变动 Other current liabilities,2001,927.0,774.0,L2002,-153.0
+CF,其他流动负债变动 Other current liabilities,2001,927.0,774.0,L2003,-153.0
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,2001,1.38,0.69,L2003,-0.69
+IS,基本股数(百万股·as-reported) Basic shares,2001,5341.0,10683.0,L2003,5342.0
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,2001,1.32,0.66,L2003,-0.66
+IS,摊薄股数(百万股·as-reported) Diluted shares,2001,5574.0,11148.0,L2003,5574.0
+CF,净利润 Net income,2002,7829.0,5355.0,L2004,-2474.0
+CF,"折旧摊销及其他 Depreciation, amortization, and other",2002,1084.0,938.0,L2004,-146.0
+CF,递延所得税 Deferred income taxes,2002,-416.0,-1580.0,L2004,-1164.0
+IS,一般及管理费用 General and administrative,2002,1550.0,1843.0,L2004,293.0
+IS,净利润 Net income,2002,7829.0,5355.0,L2004,-2474.0
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,2002,1.45,0.72,L2003,-0.73
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,2002,1.45,0.5,L2004,-0.95
+IS,基本股数(百万股·as-reported) Basic shares,2002,5406.0,10811.0,L2003,5405.0
+IS,基本股数(百万股·as-reported) Basic shares,2002,5406.0,10811.0,L2004,5405.0
+IS,成本及费用合计(含营业成本) Total costs and expenses (incl. cost of revenue),2002,16455.0,20093.0,L2004,3638.0
+IS,所得税 Provision for income taxes,2002,3684.0,2520.0,L2004,-1164.0
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,2002,1.41,0.7,L2003,-0.71
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,2002,1.41,0.48,L2004,-0.93
+IS,摊薄股数(百万股·as-reported) Diluted shares,2002,5553.0,11106.0,L2003,5553.0
+IS,摊薄股数(百万股·as-reported) Diluted shares,2002,5553.0,11106.0,L2004,5553.0
+IS,研发费用 Research and development,2002,4307.0,6299.0,L2004,1992.0
+IS,税前利润 Income before income taxes,2002,11513.0,7875.0,L2004,-3638.0
+IS,营业利润 Operating income,2002,11910.0,8272.0,L2004,-3638.0
+IS,营业成本 Cost of revenue,2002,5191.0,5699.0,L2004,508.0
+IS,销售及市场费用 Sales and marketing,2002,5407.0,6252.0,L2004,845.0
+BS,总资产 Total assets,2003,79571.0,81732.0,L2004,2161.0
+BS,普通股及资本公积 Common stock and paid-in capital,2003,35344.0,49234.0,L2004,13890.0
+BS,留存收益 Retained earnings (deficit),2003,25676.0,15678.0,L2004,-9998.0
+BS,股东权益合计 Total stockholders' equity,2003,61020.0,64912.0,L2004,3892.0
+BS,负债和股东权益合计 Total liabilities and stockholders' equity,2003,79571.0,81732.0,L2004,2161.0
+CF,其他长期负债变动 Other long-term liabilities,2003,440.0,894.0,L2005,454.0
+CF,净利润 Net income,2003,9993.0,7531.0,L2004,-2462.0
+CF,净利润 Net income,2003,9993.0,7531.0,L2005,-2462.0
+CF,出售投资 Sales of investments,2003,75157.0,77123.0,L2005,1966.0
+CF,投资活动现金流净额 Net cash from (used in) investing,2003,-7213.0,-7495.0,L2005,-282.0
+CF,"折旧摊销及其他 Depreciation, amortization, and other",2003,1439.0,1393.0,L2004,-46.0
+CF,"折旧摊销及其他 Depreciation, amortization, and other",2003,1439.0,1393.0,L2005,-46.0
+CF,"期初现金 Cash and cash equivalents, beginning of period",2003,3016.0,2217.0,L2005,-799.0
+CF,"期末现金 Cash and cash equivalents, end of period",2003,6438.0,5357.0,L2005,-1081.0
+CF,现金净变动 Net change in cash and cash equivalents,2003,3361.0,3079.0,L2005,-282.0
+CF,股票期权税收利益(经营段·仅FY2000-2005) Stock option income tax benefits (operating),2003,1376.0,1365.0,L2004,-11.0
+CF,股票期权税收利益(经营段·仅FY2000-2005) Stock option income tax benefits (operating),2003,1376.0,1365.0,L2005,-11.0
+CF,购买投资 Purchases of investments,2003,-89621.0,-91869.0,L2005,-2248.0
+CF,递延所得税 Deferred income taxes,2003,336.0,-894.0,L2004,-1230.0
+CF,递延所得税 Deferred income taxes,2003,336.0,-1348.0,L2005,-1684.0
+IS,一般及管理费用 General and administrative,2003,2104.0,2426.0,L2004,322.0
+IS,一般及管理费用 General and administrative,2003,2104.0,2426.0,L2005,322.0
+IS,净利润 Net income,2003,9993.0,7531.0,L2004,-2462.0
+IS,净利润 Net income,2003,9993.0,7531.0,L2005,-2462.0
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,2003,0.93,0.7,L2004,-0.23
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,2003,0.93,0.7,L2005,-0.23
+IS,成本及费用合计(含营业成本) Total costs and expenses (incl. cost of revenue),2003,18970.0,22642.0,L2004,3672.0
+IS,成本及费用合计(含营业成本) Total costs and expenses (incl. cost of revenue),2003,18970.0,22642.0,L2005,3672.0
+IS,所得税 Provision for income taxes,2003,4733.0,3523.0,L2004,-1210.0
+IS,所得税 Provision for income taxes,2003,4733.0,3523.0,L2005,-1210.0
+IS,投资收益(仅FY1999-2008) Investment income,2003,1577.0,1509.0,L2005,-68.0
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,2003,0.92,0.69,L2004,-0.23
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,2003,0.92,0.69,L2005,-0.23
+IS,研发费用 Research and development,2003,4659.0,6595.0,L2004,1936.0
+IS,研发费用 Research and development,2003,4659.0,6595.0,L2005,1936.0
+IS,税前利润 Income before income taxes,2003,14726.0,11054.0,L2004,-3672.0
+IS,税前利润 Income before income taxes,2003,14726.0,11054.0,L2005,-3672.0
+IS,营业利润 Operating income,2003,13217.0,9545.0,L2004,-3672.0
+IS,营业利润 Operating income,2003,13217.0,9545.0,L2005,-3672.0
+IS,营业成本 Cost of revenue,2003,5686.0,6059.0,L2004,373.0
+IS,营业成本 Cost of revenue,2003,5686.0,6059.0,L2005,373.0
+IS,销售及市场费用 Sales and marketing,2003,6521.0,7562.0,L2004,1041.0
+IS,销售及市场费用 Sales and marketing,2003,6521.0,7562.0,L2005,1041.0
+BS,其他长期负债 Other long-term liabilities,2004,932.0,2911.0,L2005,1979.0
+BS,总资产 Total assets,2004,92389.0,94368.0,L2005,1979.0
+BS,现金及现金等价物 Cash and cash equivalents,2004,15982.0,14304.0,L2005,-1678.0
+BS,短期投资 Short-term investments,2004,44610.0,46288.0,L2005,1678.0
+BS,负债和股东权益合计 Total liabilities and stockholders' equity,2004,92389.0,94368.0,L2005,1979.0
+BS,递延所得税资产(非流动) Deferred income taxes (non-current asset),2004,1829.0,3808.0,L2005,1979.0
+CF,其他流动负债变动 Other current liabilities,2004,2063.0,1529.0,L2005,-534.0
+CF,其他流动负债变动 Other current liabilities,2004,2063.0,1529.0,L2006,-534.0
+CF,其他长期负债变动 Other long-term liabilities,2004,75.0,609.0,L2005,534.0
+CF,其他长期负债变动 Other long-term liabilities,2004,75.0,609.0,L2006,534.0
+CF,出售投资 Sales of investments,2004,85302.0,87215.0,L2005,1913.0
+CF,出售投资 Sales of investments,2004,85302.0,87215.0,L2006,1913.0
+CF,投资活动现金流净额 Net cash from (used in) investing,2004,-2745.0,-3342.0,L2005,-597.0
+CF,投资活动现金流净额 Net cash from (used in) investing,2004,-2745.0,-3342.0,L2006,-597.0
+CF,"期初现金 Cash and cash equivalents, beginning of period",2004,6438.0,5357.0,L2005,-1081.0
+CF,"期初现金 Cash and cash equivalents, beginning of period",2004,6438.0,5357.0,L2006,-1081.0
+CF,"期末现金 Cash and cash equivalents, end of period",2004,15982.0,14304.0,L2005,-1678.0
+CF,"期末现金 Cash and cash equivalents, end of period",2004,15982.0,14304.0,L2006,-1678.0
+CF,现金净变动 Net change in cash and cash equivalents,2004,9517.0,8920.0,L2005,-597.0
+CF,现金净变动 Net change in cash and cash equivalents,2004,9517.0,8920.0,L2006,-597.0
+CF,购买投资 Purchases of investments,2004,-92495.0,-95005.0,L2005,-2510.0
+CF,购买投资 Purchases of investments,2004,-92495.0,-95005.0,L2006,-2510.0
+IS,一般及管理费用 General and administrative,2004,4997.0,5275.0,L2006,278.0
+IS,投资收益(仅FY1999-2008) Investment income,2004,3187.0,3162.0,L2005,-25.0
+IS,投资收益(仅FY1999-2008) Investment income,2004,3187.0,3162.0,L2006,-25.0
+IS,研发费用 Research and development,2004,7779.0,7735.0,L2006,-44.0
+IS,营业成本 Cost of revenue,2004,6716.0,6596.0,L2006,-120.0
+IS,销售及市场费用 Sales and marketing,2004,8309.0,8195.0,L2006,-114.0
+IS,一般及管理费用 General and administrative,2005,4166.0,4536.0,L2006,370.0
+IS,一般及管理费用 General and administrative,2005,4166.0,4536.0,L2007,370.0
+IS,研发费用 Research and development,2005,6184.0,6097.0,L2006,-87.0
+IS,研发费用 Research and development,2005,6184.0,6097.0,L2007,-87.0
+IS,营业成本 Cost of revenue,2005,6200.0,6031.0,L2006,-169.0
+IS,营业成本 Cost of revenue,2005,6200.0,6031.0,L2007,-169.0
+IS,销售及市场费用 Sales and marketing,2005,8677.0,8563.0,L2006,-114.0
+IS,销售及市场费用 Sales and marketing,2005,8677.0,8563.0,L2007,-114.0
+CF,现金净变动 Net change in cash and cash equivalents,2006,1845.0,1863.0,L2008,18.0
+CF,现金净变动 Net change in cash and cash equivalents,2007,-659.0,-603.0,L2008,56.0
+CF,现金净变动 Net change in cash and cash equivalents,2007,-659.0,-603.0,L2009,56.0
+IS,营业利润 Operating income,2007,18524.0,18438.0,L2009,-86.0
+IS,销售及市场费用 Sales and marketing,2007,11455.0,11541.0,L2009,86.0
+IS,成本及费用合计(含营业成本) Total costs and expenses (incl. cost of revenue),2008,37928.0,38149.0,L2009,221.0
+IS,成本及费用合计(含营业成本) Total costs and expenses (incl. cost of revenue),2008,37928.0,38149.0,L2010,221.0
+IS,营业利润 Operating income,2008,22492.0,22271.0,L2009,-221.0
+IS,营业利润 Operating income,2008,22492.0,22271.0,L2010,-221.0
+IS,销售及市场费用 Sales and marketing,2008,13039.0,13260.0,L2009,221.0
+IS,销售及市场费用 Sales and marketing,2008,13039.0,13260.0,L2010,221.0
+CF,其他流动负债变动 Other current liabilities,2009,-3371.0,-2700.0,R2011,671.0
+CF,其他流动资产变动 Other current assets,2009,-422.0,-677.0,R2011,-255.0
+IS,一般及管理费用 General and administrative,2009,3700.0,4030.0,R2011,330.0
+CF,其他流动负债变动 Other current liabilities,2010,1295.0,451.0,R2011,-844.0
+CF,其他流动负债变动 Other current liabilities,2010,1295.0,451.0,R2012,-844.0
+CF,其他流动资产变动 Other current assets,2010,420.0,464.0,R2011,44.0
+CF,其他流动资产变动 Other current assets,2010,420.0,464.0,R2012,44.0
+IS,一般及管理费用 General and administrative,2010,4004.0,4063.0,R2011,59.0
+IS,一般及管理费用 General and administrative,2010,4004.0,4063.0,R2012,59.0
+BS,留存收益 Retained earnings (deficit),2012,566.0,-856.0,R2013,-1422.0
+IS,一般及管理费用 General and administrative,2013,5149.0,5013.0,R2015,-136.0
+IS,营业成本 Cost of revenue,2013,20249.0,20385.0,R2015,136.0
+CF,经营活动现金流净额 Net cash from operations,2014,32231.0,32502.0,R2016,271.0
+CF,融资活动现金流净额 Net cash from (used in) financing,2014,-8394.0,-8665.0,R2016,-271.0
+IS,一般及管理费用 General and administrative,2014,4821.0,4677.0,R2015,-144.0
+IS,一般及管理费用 General and administrative,2014,4821.0,4677.0,R2016,-144.0
+IS,营业成本 Cost of revenue,2014,26934.0,27078.0,R2015,144.0
+IS,营业成本 Cost of revenue,2014,26934.0,27078.0,R2016,144.0
+BS,其他流动负债 Other current liabilities,2015,6766.0,6555.0,R2016,-211.0
+BS,其他长期资产 Other long-term assets,2015,2953.0,3117.0,R2016,164.0
+BS,总资产 Total assets,2015,176223.0,174472.0,R2016,-1751.0
+BS,流动负债合计 Total current liabilities,2015,49858.0,49647.0,R2016,-211.0
+BS,流动资产合计 Total current assets,2015,124712.0,122797.0,R2016,-1915.0
+BS,负债合计 Total liabilities,2015,96140.0,94389.0,R2016,-1751.0
+BS,负债和股东权益合计 Total liabilities and stockholders' equity,2015,176223.0,174472.0,R2016,-1751.0
+BS,递延所得税负债(非流动) Deferred income taxes (non-current liability),2015,2835.0,1295.0,R2016,-1540.0
+CF,经营活动现金流净额 Net cash from operations,2015,29080.0,29668.0,R2016,588.0
+CF,经营活动现金流净额 Net cash from operations,2015,29080.0,29668.0,R2017,588.0
+CF,融资活动现金流净额 Net cash from (used in) financing,2015,-9080.0,-9668.0,R2016,-588.0
+CF,融资活动现金流净额 Net cash from (used in) financing,2015,-9080.0,-9668.0,R2017,-588.0
+BS,其他长期资产 Other long-term assets,2016,3642.0,3416.0,R2017,-226.0
+BS,长期债务 Long-term debt,2016,40783.0,40557.0,R2017,-226.0
+CF,其他流动负债变动 Other current liabilities,2016,-260.0,-179.0,R2018,81.0
+CF,其他流动资产变动 Other current assets,2016,-1167.0,-1212.0,R2018,-45.0
+CF,其他长期负债变动 Other long-term liabilities,2016,-766.0,-406.0,R2018,360.0
+CF,其他长期资产变动 Other long-term assets,2016,-41.0,-1110.0,R2018,-1069.0
+CF,净利润 Net income,2016,16798.0,20539.0,R2018,3741.0
+CF,应收账款变动 Accounts receivable,2016,-530.0,562.0,R2018,1092.0
+CF,递延所得税 Deferred income taxes,2016,332.0,2479.0,R2018,2147.0
+IS,  产品收入 Product revenue,2016,61502.0,67336.0,R2018,5834.0
+IS,净利润 Net income,2016,16798.0,20539.0,R2018,3741.0
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,2016,2.12,2.59,R2018,0.47
+IS,所得税 Provision for income taxes,2016,2953.0,5100.0,R2018,2147.0
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,2016,2.1,2.56,R2018,0.46
+IS,毛利 Gross margin,2016,52540.0,58374.0,R2018,5834.0
+IS,税前利润 Income before income taxes,2016,19751.0,25639.0,R2018,5888.0
+IS,营业利润 Operating income,2016,20182.0,26078.0,R2018,5896.0
+IS,"营业外收支净额 Other income (expense), net",2016,-431.0,-439.0,R2018,-8.0
+IS,营业收入 Revenue,2016,85320.0,91154.0,R2018,5834.0
+IS,销售及市场费用 Sales and marketing,2016,14697.0,14635.0,R2018,-62.0
+BS,其他流动负债 Other current liabilities,2017,6280.0,7684.0,R2018,1404.0
+BS,其他流动资产 Other current assets,2017,4897.0,5103.0,R2018,206.0
+BS,其他长期负债 Other long-term liabilities,2017,17184.0,3549.0,R2018,-13635.0
+BS,其他长期资产 Other long-term assets,2017,6250.0,6076.0,R2018,-174.0
+BS,"应收账款净额 Accounts receivable, net",2017,19792.0,22431.0,R2018,2639.0
+BS,总资产 Total assets,2017,241086.0,250312.0,R2018,9226.0
+BS,流动负债合计 Total current liabilities,2017,64527.0,55745.0,R2018,-8782.0
+BS,流动资产合计 Total current assets,2017,159851.0,162696.0,R2018,2845.0
+BS,留存收益 Retained earnings (deficit),2017,2648.0,17769.0,R2018,15121.0
+BS,短期递延收入 Short-term unearned revenue,2017,34102.0,24013.0,R2018,-10089.0
+BS,累计其他综合收益 Accumulated other comprehensive income (loss),2017,431.0,627.0,R2018,196.0
+BS,股东权益合计 Total stockholders' equity,2017,72394.0,87711.0,R2018,15317.0
+BS,负债合计 Total liabilities,2017,168692.0,162601.0,R2018,-6091.0
+BS,负债和股东权益合计 Total liabilities and stockholders' equity,2017,241086.0,250312.0,R2018,9226.0
+BS,递延所得税负债(非流动) Deferred income taxes (non-current liability),2017,531.0,5734.0,R2018,5203.0
+BS,长期递延收入 Long-term unearned revenue,2017,10377.0,2643.0,R2018,-7734.0
+CF,其他流动负债变动 Other current liabilities,2017,386.0,356.0,R2018,-30.0
+CF,其他流动负债变动 Other current liabilities,2017,386.0,356.0,R2019,-30.0
+CF,其他流动资产变动 Other current assets,2017,1066.0,1028.0,R2018,-38.0
+CF,其他流动资产变动 Other current assets,2017,1066.0,1028.0,R2019,-38.0
+CF,其他长期负债变动 Other long-term liabilities,2017,1533.0,-118.0,R2018,-1651.0
+CF,其他长期负债变动 Other long-term liabilities,2017,1533.0,-118.0,R2019,-1651.0
+CF,其他长期资产变动 Other long-term assets,2017,-539.0,-917.0,R2018,-378.0
+CF,其他长期资产变动 Other long-term assets,2017,-539.0,-917.0,R2019,-378.0
+CF,净利润 Net income,2017,21204.0,25489.0,R2018,4285.0
+CF,净利润 Net income,2017,21204.0,25489.0,R2019,4285.0
+CF,应收账款变动 Accounts receivable,2017,-925.0,-1216.0,R2018,-291.0
+CF,应收账款变动 Accounts receivable,2017,-925.0,-1216.0,R2019,-291.0
+CF,递延所得税 Deferred income taxes,2017,-3296.0,-829.0,R2018,2467.0
+CF,递延所得税 Deferred income taxes,2017,-3296.0,-829.0,R2019,2467.0
+IS,  产品收入 Product revenue,2017,57190.0,63811.0,R2018,6621.0
+IS,  产品收入 Product revenue,2017,57190.0,63811.0,R2019,6621.0
+IS,净利润 Net income,2017,21204.0,25489.0,R2018,4285.0
+IS,净利润 Net income,2017,21204.0,25489.0,R2019,4285.0
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,2017,2.74,3.29,R2018,0.55
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,2017,2.74,3.29,R2019,0.55
+IS,所得税 Provision for income taxes,2017,1945.0,4412.0,R2018,2467.0
+IS,所得税 Provision for income taxes,2017,1945.0,4412.0,R2019,2467.0
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,2017,2.71,3.25,R2018,0.54
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,2017,2.71,3.25,R2019,0.54
+IS,毛利 Gross margin,2017,55689.0,62310.0,R2018,6621.0
+IS,毛利 Gross margin,2017,55689.0,62310.0,R2019,6621.0
+IS,税前利润 Income before income taxes,2017,23149.0,29901.0,R2018,6752.0
+IS,税前利润 Income before income taxes,2017,23149.0,29901.0,R2019,6752.0
+IS,营业利润 Operating income,2017,22326.0,29025.0,R2018,6699.0
+IS,营业利润 Operating income,2017,22326.0,29025.0,R2019,6699.0
+IS,"营业外收支净额 Other income (expense), net",2017,823.0,876.0,R2018,53.0
+IS,"营业外收支净额 Other income (expense), net",2017,823.0,876.0,R2019,53.0
+IS,营业收入 Revenue,2017,89950.0,96571.0,R2018,6621.0
+IS,营业收入 Revenue,2017,89950.0,96571.0,R2019,6621.0
+IS,销售及市场费用 Sales and marketing,2017,15539.0,15461.0,R2018,-78.0
+IS,销售及市场费用 Sales and marketing,2017,15539.0,15461.0,R2019,-78.0
+CF,投资及衍生品已确认净损益 Net recognized (gains) losses on investments and derivatives,2024,305.0,1634.0,R2026,1329.0
+CF,"折旧摊销及其他 Depreciation, amortization, and other",2024,22287.0,20958.0,R2026,-1329.0
+CF,投资及衍生品已确认净损益 Net recognized (gains) losses on investments and derivatives,2025,609.0,5329.0,R2026,4720.0
+CF,"折旧摊销及其他 Depreciation, amortization, and other",2025,34153.0,29433.0,R2026,-4720.0
+
+# 申报自身印刷错误（已在构建时订正，订正依据见末列）
+表,印刷标签,财年,印刷值,订正值,申报,证据
+CF,Maturities of investments,2002,8.654,8654.0,L2002,"FY2002 10-K 现金流量表把 8,654 印成「8.654」(小数点代替千分位逗号)；①投资段 −770−89,386+8,654+70,657 = −10,845 与印刷合计相等；②FY2003 10-K 比较列印 8,654"

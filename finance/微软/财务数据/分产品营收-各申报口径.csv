@@ -1,0 +1,487 @@
+# 单位: 百万美元 | 每份 10-K 产品线附注三年全量（自身年 + 两个比较年）| 用途：产品线更名/重划后，用**同一份申报**的本年与比较年算同口径增速 | 已校验：每份申报每年分项和 = 该申报合计行
+申报(10-K 财年),财年,产品线(印刷名),营收
+FY2011,FY2009,Microsoft Office system,17998
+FY2011,FY2009,Windows PC operating systems,14653
+FY2011,FY2009,Server products and tools,11344
+FY2011,FY2009,Xbox 360 platform,5475
+FY2011,FY2009,Consulting and product support services,3024
+FY2011,FY2009,Advertising,2345
+FY2011,FY2009,Other products and services,3598
+FY2011,FY2010,Microsoft Office system,17754
+FY2011,FY2010,Windows PC operating systems,18225
+FY2011,FY2010,Server products and tools,12007
+FY2011,FY2010,Xbox 360 platform,5456
+FY2011,FY2010,Consulting and product support services,3036
+FY2011,FY2010,Advertising,2528
+FY2011,FY2010,Other products and services,3478
+FY2011,FY2011,Microsoft Office system,20730
+FY2011,FY2011,Windows PC operating systems,17825
+FY2011,FY2011,Server products and tools,13251
+FY2011,FY2011,Xbox 360 platform,8103
+FY2011,FY2011,Consulting and product support services,3372
+FY2011,FY2011,Advertising,2913
+FY2011,FY2011,Other products and services,3749
+FY2012,FY2010,Microsoft Office system,17754
+FY2012,FY2010,Windows PC operating systems,18225
+FY2012,FY2010,Server products and tools,12007
+FY2012,FY2010,Xbox 360 platform,5456
+FY2012,FY2010,Consulting and product support services,3036
+FY2012,FY2010,Advertising,2528
+FY2012,FY2010,Other products and services,3478
+FY2012,FY2011,Microsoft Office system,20730
+FY2012,FY2011,Windows PC operating systems,17825
+FY2012,FY2011,Server products and tools,13251
+FY2012,FY2011,Xbox 360 platform,8103
+FY2012,FY2011,Consulting and product support services,3372
+FY2012,FY2011,Advertising,2913
+FY2012,FY2011,Other products and services,3749
+FY2012,FY2012,Microsoft Office system,22299
+FY2012,FY2012,Windows PC operating systems,17320
+FY2012,FY2012,Server products and tools,14232
+FY2012,FY2012,Xbox 360 platform,8045
+FY2012,FY2012,Consulting and product support services,3976
+FY2012,FY2012,Advertising,3181
+FY2012,FY2012,Other products and services,4670
+FY2013,FY2011,Microsoft Office system,20730
+FY2013,FY2011,Windows operating systems for computing devices,17825
+FY2013,FY2011,Server products and tools,13251
+FY2013,FY2011,Xbox 360 platform,8103
+FY2013,FY2011,Consulting and product support services,3372
+FY2013,FY2011,Advertising,2913
+FY2013,FY2011,Other products and services,3749
+FY2013,FY2012,Microsoft Office system,22299
+FY2013,FY2012,Windows operating systems for computing devices,17320
+FY2013,FY2012,Server products and tools,14232
+FY2013,FY2012,Xbox 360 platform,8045
+FY2013,FY2012,Consulting and product support services,3976
+FY2013,FY2012,Advertising,3181
+FY2013,FY2012,Other products and services,4670
+FY2013,FY2013,Microsoft Office system,22995
+FY2013,FY2013,Windows operating systems for computing devices,17529
+FY2013,FY2013,Server products and tools,15408
+FY2013,FY2013,Xbox 360 platform,7100
+FY2013,FY2013,Consulting and product support services,4372
+FY2013,FY2013,Advertising,3387
+FY2013,FY2013,Other products and services,7058
+FY2014,FY2012,Microsoft Office system,22299
+FY2014,FY2012,Windows PC operating system,17320
+FY2014,FY2012,Server products and tools,14232
+FY2014,FY2012,Xbox Platform,8045
+FY2014,FY2012,Consulting and product support services,3976
+FY2014,FY2012,Advertising,3181
+FY2014,FY2012,Phone,162
+FY2014,FY2012,Surface,0
+FY2014,FY2012,Other products and services,4508
+FY2014,FY2013,Microsoft Office system,22995
+FY2014,FY2013,Windows PC operating system,17529
+FY2014,FY2013,Server products and tools,15408
+FY2014,FY2013,Xbox Platform,7100
+FY2014,FY2013,Consulting and product support services,4372
+FY2014,FY2013,Advertising,3387
+FY2014,FY2013,Phone,615
+FY2014,FY2013,Surface,853
+FY2014,FY2013,Other products and services,5590
+FY2014,FY2014,Microsoft Office system,24323
+FY2014,FY2014,Windows PC operating system,16856
+FY2014,FY2014,Server products and tools,17055
+FY2014,FY2014,Xbox Platform,8643
+FY2014,FY2014,Consulting and product support services,4767
+FY2014,FY2014,Advertising,4016
+FY2014,FY2014,Phone,3073
+FY2014,FY2014,Surface,1883
+FY2014,FY2014,Other products and services,6217
+FY2015,FY2013,Microsoft Office system,22995
+FY2015,FY2013,Server products and tools,15408
+FY2015,FY2013,Windows PC operating system,17529
+FY2015,FY2013,Xbox,7100
+FY2015,FY2013,Phone,615
+FY2015,FY2013,Consulting and product support services,4372
+FY2015,FY2013,Advertising,3387
+FY2015,FY2013,Surface,853
+FY2015,FY2013,Other products and services,5590
+FY2015,FY2014,Microsoft Office system,24323
+FY2015,FY2014,Server products and tools,17055
+FY2015,FY2014,Windows PC operating system,16856
+FY2015,FY2014,Xbox,8643
+FY2015,FY2014,Phone,3073
+FY2015,FY2014,Consulting and product support services,4767
+FY2015,FY2014,Advertising,4016
+FY2015,FY2014,Surface,1883
+FY2015,FY2014,Other products and services,6217
+FY2015,FY2015,Microsoft Office system,23538
+FY2015,FY2015,Server products and tools,18612
+FY2015,FY2015,Windows PC operating system,14826
+FY2015,FY2015,Xbox,9121
+FY2015,FY2015,Phone,7702
+FY2015,FY2015,Consulting and product support services,5090
+FY2015,FY2015,Advertising,4557
+FY2015,FY2015,Surface,3900
+FY2015,FY2015,Other products and services,6234
+FY2016,FY2014,Microsoft Office system,24323
+FY2016,FY2014,Server products and tools,17055
+FY2016,FY2014,Xbox,8643
+FY2016,FY2014,Windows PC operating system,16856
+FY2016,FY2014,Advertising,4016
+FY2016,FY2014,Consulting and product support services,4767
+FY2016,FY2014,Surface,1883
+FY2016,FY2014,Phone,3073
+FY2016,FY2014,Other products and services,6217
+FY2016,FY2015,Microsoft Office system,23538
+FY2016,FY2015,Server products and tools,18612
+FY2016,FY2015,Xbox,9121
+FY2016,FY2015,Windows PC operating system,14826
+FY2016,FY2015,Advertising,4557
+FY2016,FY2015,Consulting and product support services,5090
+FY2016,FY2015,Surface,3900
+FY2016,FY2015,Phone,7702
+FY2016,FY2015,Other products and services,6234
+FY2016,FY2016,Microsoft Office system,23588
+FY2016,FY2016,Server products and tools,19177
+FY2016,FY2016,Xbox,9395
+FY2016,FY2016,Windows PC operating system,8104
+FY2016,FY2016,Advertising,6098
+FY2016,FY2016,Consulting and product support services,5641
+FY2016,FY2016,Surface,4108
+FY2016,FY2016,Phone,3358
+FY2016,FY2016,Other products and services,5851
+FY2017,FY2015,Microsoft Office system,23538
+FY2017,FY2015,Server products and tools,18612
+FY2017,FY2015,Xbox,9121
+FY2017,FY2015,Windows PC operating system,14826
+FY2017,FY2015,Advertising,4557
+FY2017,FY2015,Consulting and product support services,5090
+FY2017,FY2015,Devices,11602
+FY2017,FY2015,LinkedIn,0
+FY2017,FY2015,Other products and services,6234
+FY2017,FY2016,Microsoft Office system,23588
+FY2017,FY2016,Server products and tools,19177
+FY2017,FY2016,Xbox,9395
+FY2017,FY2016,Windows PC operating system,8104
+FY2017,FY2016,Advertising,6098
+FY2017,FY2016,Consulting and product support services,5641
+FY2017,FY2016,Devices,7466
+FY2017,FY2016,LinkedIn,0
+FY2017,FY2016,Other products and services,5851
+FY2017,FY2017,Microsoft Office system,25389
+FY2017,FY2017,Server products and tools,21758
+FY2017,FY2017,Xbox,9256
+FY2017,FY2017,Windows PC operating system,8625
+FY2017,FY2017,Advertising,6971
+FY2017,FY2017,Consulting and product support services,5588
+FY2017,FY2017,Devices,4557
+FY2017,FY2017,LinkedIn,2268
+FY2017,FY2017,Other products and services,5538
+FY2018,FY2016,Office Products and Cloud Services,23868
+FY2018,FY2016,Server Products and Cloud Services,19062
+FY2018,FY2016,Windows,17548
+FY2018,FY2016,Gaming,9202
+FY2018,FY2016,Search Advertising,5428
+FY2018,FY2016,Enterprise Services,5659
+FY2018,FY2016,Devices,7888
+FY2018,FY2016,LinkedIn,0
+FY2018,FY2016,Other products and services,2499
+FY2018,FY2017,Office Products and Cloud Services,25573
+FY2018,FY2017,Server Products and Cloud Services,21649
+FY2018,FY2017,Windows,18593
+FY2018,FY2017,Gaming,9051
+FY2018,FY2017,Search Advertising,6219
+FY2018,FY2017,Enterprise Services,5542
+FY2018,FY2017,Devices,5062
+FY2018,FY2017,LinkedIn,2271
+FY2018,FY2017,Other products and services,2611
+FY2018,FY2018,Office Products and Cloud Services,28316
+FY2018,FY2018,Server Products and Cloud Services,26129
+FY2018,FY2018,Windows,19518
+FY2018,FY2018,Gaming,10353
+FY2018,FY2018,Search Advertising,7012
+FY2018,FY2018,Enterprise Services,5846
+FY2018,FY2018,Devices,5134
+FY2018,FY2018,LinkedIn,5259
+FY2018,FY2018,Other products and services,2793
+FY2019,FY2017,Office Products and Cloud Services,25573
+FY2019,FY2017,Server Products and Cloud Services,21649
+FY2019,FY2017,Windows,18593
+FY2019,FY2017,Gaming,9051
+FY2019,FY2017,Search Advertising,6219
+FY2019,FY2017,Enterprise Services,5542
+FY2019,FY2017,Devices,5062
+FY2019,FY2017,LinkedIn,2271
+FY2019,FY2017,Other,2611
+FY2019,FY2018,Office Products and Cloud Services,28316
+FY2019,FY2018,Server Products and Cloud Services,26129
+FY2019,FY2018,Windows,19518
+FY2019,FY2018,Gaming,10353
+FY2019,FY2018,Search Advertising,7012
+FY2019,FY2018,Enterprise Services,5846
+FY2019,FY2018,Devices,5134
+FY2019,FY2018,LinkedIn,5259
+FY2019,FY2018,Other,2793
+FY2019,FY2019,Office Products and Cloud Services,31769
+FY2019,FY2019,Server Products and Cloud Services,32622
+FY2019,FY2019,Windows,20395
+FY2019,FY2019,Gaming,11386
+FY2019,FY2019,Search Advertising,7628
+FY2019,FY2019,Enterprise Services,6124
+FY2019,FY2019,Devices,6095
+FY2019,FY2019,LinkedIn,6754
+FY2019,FY2019,Other,3070
+FY2020,FY2018,Server Products and Cloud Services,26129
+FY2020,FY2018,Office Products and Cloud Services,28316
+FY2020,FY2018,Windows,19518
+FY2020,FY2018,Gaming,10353
+FY2020,FY2018,LinkedIn,5259
+FY2020,FY2018,Search Advertising,7012
+FY2020,FY2018,Devices,5134
+FY2020,FY2018,Enterprise Services,5846
+FY2020,FY2018,Other,2793
+FY2020,FY2019,Server Products and Cloud Services,32622
+FY2020,FY2019,Office Products and Cloud Services,31769
+FY2020,FY2019,Windows,20395
+FY2020,FY2019,Gaming,11386
+FY2020,FY2019,LinkedIn,6754
+FY2020,FY2019,Search Advertising,7628
+FY2020,FY2019,Devices,6095
+FY2020,FY2019,Enterprise Services,6124
+FY2020,FY2019,Other,3070
+FY2020,FY2020,Server Products and Cloud Services,41379
+FY2020,FY2020,Office Products and Cloud Services,35316
+FY2020,FY2020,Windows,22294
+FY2020,FY2020,Gaming,11575
+FY2020,FY2020,LinkedIn,8077
+FY2020,FY2020,Search Advertising,7740
+FY2020,FY2020,Devices,6457
+FY2020,FY2020,Enterprise Services,6409
+FY2020,FY2020,Other,3768
+FY2021,FY2019,Server Products and Cloud Services,32622
+FY2021,FY2019,Office Products and Cloud Services,31769
+FY2021,FY2019,Windows,20395
+FY2021,FY2019,Gaming,11386
+FY2021,FY2019,LinkedIn,6754
+FY2021,FY2019,Search Advertising,7628
+FY2021,FY2019,Devices,6095
+FY2021,FY2019,Enterprise Services,6124
+FY2021,FY2019,Other,3070
+FY2021,FY2020,Server Products and Cloud Services,41379
+FY2021,FY2020,Office Products and Cloud Services,35316
+FY2021,FY2020,Windows,22294
+FY2021,FY2020,Gaming,11575
+FY2021,FY2020,LinkedIn,8077
+FY2021,FY2020,Search Advertising,7740
+FY2021,FY2020,Devices,6457
+FY2021,FY2020,Enterprise Services,6409
+FY2021,FY2020,Other,3768
+FY2021,FY2021,Server Products and Cloud Services,52589
+FY2021,FY2021,Office Products and Cloud Services,39872
+FY2021,FY2021,Windows,23227
+FY2021,FY2021,Gaming,15370
+FY2021,FY2021,LinkedIn,10289
+FY2021,FY2021,Search Advertising,8528
+FY2021,FY2021,Devices,6791
+FY2021,FY2021,Enterprise Services,6943
+FY2021,FY2021,Other,4479
+FY2022,FY2020,Server Products and Cloud Services,41379
+FY2022,FY2020,Office Products and Cloud Services,35316
+FY2022,FY2020,Windows,21510
+FY2022,FY2020,Gaming,11575
+FY2022,FY2020,LinkedIn,8077
+FY2022,FY2020,Search and News Advertising,8524
+FY2022,FY2020,Enterprise Services,6409
+FY2022,FY2020,Devices,6457
+FY2022,FY2020,Other,3768
+FY2022,FY2021,Server Products and Cloud Services,52589
+FY2022,FY2021,Office Products and Cloud Services,39872
+FY2022,FY2021,Windows,22488
+FY2022,FY2021,Gaming,15370
+FY2022,FY2021,LinkedIn,10289
+FY2022,FY2021,Search and News Advertising,9267
+FY2022,FY2021,Enterprise Services,6943
+FY2022,FY2021,Devices,6791
+FY2022,FY2021,Other,4479
+FY2022,FY2022,Server Products and Cloud Services,67321
+FY2022,FY2022,Office Products and Cloud Services,44862
+FY2022,FY2022,Windows,24761
+FY2022,FY2022,Gaming,16230
+FY2022,FY2022,LinkedIn,13816
+FY2022,FY2022,Search and News Advertising,11591
+FY2022,FY2022,Enterprise Services,7407
+FY2022,FY2022,Devices,6991
+FY2022,FY2022,Other,5291
+FY2023,FY2021,Server Products and Cloud Services,52589
+FY2023,FY2021,Office Products and Cloud Services,39872
+FY2023,FY2021,Windows,22488
+FY2023,FY2021,Gaming,15370
+FY2023,FY2021,LinkedIn,10289
+FY2023,FY2021,Search and News Advertising,9267
+FY2023,FY2021,Enterprise Services,6943
+FY2023,FY2021,Devices,7143
+FY2023,FY2021,Dynamics,3754
+FY2023,FY2021,Other,373
+FY2023,FY2022,Server Products and Cloud Services,67350
+FY2023,FY2022,Office Products and Cloud Services,44862
+FY2023,FY2022,Windows,24732
+FY2023,FY2022,Gaming,16230
+FY2023,FY2022,LinkedIn,13816
+FY2023,FY2022,Search and News Advertising,11591
+FY2023,FY2022,Enterprise Services,7407
+FY2023,FY2022,Devices,7306
+FY2023,FY2022,Dynamics,4687
+FY2023,FY2022,Other,289
+FY2023,FY2023,Server Products and Cloud Services,79970
+FY2023,FY2023,Office Products and Cloud Services,48728
+FY2023,FY2023,Windows,21507
+FY2023,FY2023,Gaming,15466
+FY2023,FY2023,LinkedIn,15145
+FY2023,FY2023,Search and News Advertising,12208
+FY2023,FY2023,Enterprise Services,7722
+FY2023,FY2023,Devices,5521
+FY2023,FY2023,Dynamics,5437
+FY2023,FY2023,Other,211
+FY2024,FY2022,Server Products and Cloud Services,67350
+FY2024,FY2022,Office Products and Cloud Services,44970
+FY2024,FY2022,Windows,24732
+FY2024,FY2022,Gaming,16230
+FY2024,FY2022,LinkedIn,13631
+FY2024,FY2022,Search and News Advertising,11526
+FY2024,FY2022,Enterprise and Partner Services,7605
+FY2024,FY2022,Dynamics Products and Cloud Services,4687
+FY2024,FY2022,Devices,7306
+FY2024,FY2022,Other,233
+FY2024,FY2023,Server Products and Cloud Services,79970
+FY2024,FY2023,Office Products and Cloud Services,48848
+FY2024,FY2023,Windows,21507
+FY2024,FY2023,Gaming,15466
+FY2024,FY2023,LinkedIn,14989
+FY2024,FY2023,Search and News Advertising,12158
+FY2024,FY2023,Enterprise and Partner Services,7900
+FY2024,FY2023,Dynamics Products and Cloud Services,5437
+FY2024,FY2023,Devices,5521
+FY2024,FY2023,Other,119
+FY2024,FY2024,Server Products and Cloud Services,97726
+FY2024,FY2024,Office Products and Cloud Services,54875
+FY2024,FY2024,Windows,23244
+FY2024,FY2024,Gaming,21503
+FY2024,FY2024,LinkedIn,16372
+FY2024,FY2024,Search and News Advertising,12576
+FY2024,FY2024,Enterprise and Partner Services,7594
+FY2024,FY2024,Dynamics Products and Cloud Services,6481
+FY2024,FY2024,Devices,4706
+FY2024,FY2024,Other,45
+FY2025,FY2023,Server Products and Cloud Services,65007
+FY2025,FY2023,Microsoft 365 Commercial Products and Cloud Services,66949
+FY2025,FY2023,Gaming,15466
+FY2025,FY2023,LinkedIn,14989
+FY2025,FY2023,Windows and Devices,17147
+FY2025,FY2023,Search and News Advertising,12125
+FY2025,FY2023,Dynamics Products and Cloud Services,5796
+FY2025,FY2023,Enterprise and Partner Services,7900
+FY2025,FY2023,Microsoft 365 Consumer Products and Cloud Services,6417
+FY2025,FY2023,Other,119
+FY2025,FY2024,Server Products and Cloud Services,79828
+FY2025,FY2024,Microsoft 365 Commercial Products and Cloud Services,76969
+FY2025,FY2024,Gaming,21503
+FY2025,FY2024,LinkedIn,16372
+FY2025,FY2024,Windows and Devices,17026
+FY2025,FY2024,Search and News Advertising,12306
+FY2025,FY2024,Dynamics Products and Cloud Services,6831
+FY2025,FY2024,Enterprise and Partner Services,7594
+FY2025,FY2024,Microsoft 365 Consumer Products and Cloud Services,6648
+FY2025,FY2024,Other,45
+FY2025,FY2025,Server Products and Cloud Services,98435
+FY2025,FY2025,Microsoft 365 Commercial Products and Cloud Services,87767
+FY2025,FY2025,Gaming,23455
+FY2025,FY2025,LinkedIn,17812
+FY2025,FY2025,Windows and Devices,17314
+FY2025,FY2025,Search and News Advertising,13878
+FY2025,FY2025,Dynamics Products and Cloud Services,7827
+FY2025,FY2025,Enterprise and Partner Services,7760
+FY2025,FY2025,Microsoft 365 Consumer Products and Cloud Services,7404
+FY2025,FY2025,Other,72
+FY2026,FY2024,Server Products and Cloud Services,79828
+FY2026,FY2024,Microsoft 365 Commercial Products and Cloud Services,76969
+FY2026,FY2024,XBOX,21503
+FY2026,FY2024,LinkedIn,16372
+FY2026,FY2024,Windows and Devices,17026
+FY2026,FY2024,Search advertising,12306
+FY2026,FY2024,Microsoft 365 Consumer products and cloud services,6648
+FY2026,FY2024,Dynamics products and cloud services,6831
+FY2026,FY2024,Enterprise and partner services,7594
+FY2026,FY2024,Other,45
+FY2026,FY2025,Server Products and Cloud Services,98435
+FY2026,FY2025,Microsoft 365 Commercial Products and Cloud Services,87767
+FY2026,FY2025,XBOX,23455
+FY2026,FY2025,LinkedIn,17812
+FY2026,FY2025,Windows and Devices,17314
+FY2026,FY2025,Search advertising,13878
+FY2026,FY2025,Microsoft 365 Consumer products and cloud services,7404
+FY2026,FY2025,Dynamics products and cloud services,7827
+FY2026,FY2025,Enterprise and partner services,7760
+FY2026,FY2025,Other,72
+FY2026,FY2026,Server Products and Cloud Services,129425
+FY2026,FY2026,Microsoft 365 Commercial Products and Cloud Services,101997
+FY2026,FY2026,XBOX,21790
+FY2026,FY2026,LinkedIn,19817
+FY2026,FY2026,Windows and Devices,17084
+FY2026,FY2026,Search advertising,15176
+FY2026,FY2026,Microsoft 365 Consumer products and cloud services,9175
+FY2026,FY2026,Dynamics products and cloud services,9006
+FY2026,FY2026,Enterprise and partner services,8260
+FY2026,FY2026,Other,109
+
+# 更名/重划链（机械判定：相邻两份 10-K 对**同一财年**的印刷名与数值逐格比对）
+申报(10-K 财年),比对财年,上一份 10-K 的行,这一份 10-K 的行,这一份印的值
+FY2013,FY2012,Windows PC operating systems,Windows operating systems for computing devices,17320
+FY2014,FY2013,Xbox 360 platform,Xbox Platform,7100
+FY2014,FY2013,（无同值旧行：拆分/合并/新增）,Surface,853
+FY2014,FY2013,Windows operating systems for computing devices,Windows PC operating system,17529
+FY2014,FY2013,（无同值旧行：拆分/合并/新增）,Phone,615
+FY2015,FY2014,Xbox Platform,Xbox,8643
+FY2017,FY2016,（无同值旧行：拆分/合并/新增）,Devices,7466
+FY2017,FY2016,（无同值旧行：拆分/合并/新增）,LinkedIn,0
+FY2018,FY2017,（无同值旧行：拆分/合并/新增）,Gaming,9051
+FY2018,FY2017,（无同值旧行：拆分/合并/新增）,Enterprise Services,5542
+FY2018,FY2017,（无同值旧行：拆分/合并/新增）,Server Products and Cloud Services,21649
+FY2018,FY2017,（无同值旧行：拆分/合并/新增）,Search Advertising,6219
+FY2018,FY2017,（无同值旧行：拆分/合并/新增）,Windows,18593
+FY2018,FY2017,（无同值旧行：拆分/合并/新增）,Office Products and Cloud Services,25573
+FY2019,FY2018,Other products and services,Other,2793
+FY2022,FY2021,（无同值旧行：拆分/合并/新增）,Search and News Advertising,9267
+FY2023,FY2022,（无同值旧行：拆分/合并/新增）,Dynamics,4687
+FY2024,FY2023,Dynamics,Dynamics Products and Cloud Services,5437
+FY2024,FY2023,（无同值旧行：拆分/合并/新增）,Enterprise and Partner Services,7900
+FY2025,FY2024,（无同值旧行：拆分/合并/新增）,Windows and Devices,17026
+FY2025,FY2024,（无同值旧行：拆分/合并/新增）,Microsoft 365 Commercial Products and Cloud Services,76969
+FY2025,FY2024,（无同值旧行：拆分/合并/新增）,Microsoft 365 Consumer Products and Cloud Services,6648
+FY2026,FY2025,Search and News Advertising,Search advertising,13878
+FY2026,FY2025,Gaming,XBOX,23455
+
+# 同名行被后一份 10-K 改了数（重述）
+申报(10-K 财年),财年,产品线,上一份 10-K 印的值,这一份 10-K 印的值
+FY2014,FY2013,Other products and services,7058,5590
+FY2014,FY2012,Other products and services,4670,4508
+FY2018,FY2017,Other products and services,5538,2611
+FY2018,FY2017,LinkedIn,2268,2271
+FY2018,FY2017,Devices,4557,5062
+FY2018,FY2016,Other products and services,5851,2499
+FY2018,FY2016,Devices,7466,7888
+FY2022,FY2021,Windows,23227,22488
+FY2022,FY2020,Windows,22294,21510
+FY2023,FY2022,Devices,6991,7306
+FY2023,FY2022,Server Products and Cloud Services,67321,67350
+FY2023,FY2022,Other,5291,289
+FY2023,FY2022,Windows,24761,24732
+FY2023,FY2021,Devices,6791,7143
+FY2023,FY2021,Other,4479,373
+FY2024,FY2023,Search and News Advertising,12208,12158
+FY2024,FY2023,Other,211,119
+FY2024,FY2023,LinkedIn,15145,14989
+FY2024,FY2023,Office Products and Cloud Services,48728,48848
+FY2024,FY2022,Search and News Advertising,11591,11526
+FY2024,FY2022,Other,289,233
+FY2024,FY2022,LinkedIn,13816,13631
+FY2024,FY2022,Office Products and Cloud Services,44862,44970
+FY2025,FY2024,Dynamics Products and Cloud Services,6481,6831
+FY2025,FY2024,Search and News Advertising,12576,12306
+FY2025,FY2024,Server Products and Cloud Services,97726,79828
+FY2025,FY2023,Dynamics Products and Cloud Services,5437,5796
+FY2025,FY2023,Search and News Advertising,12158,12125
+FY2025,FY2023,Server Products and Cloud Services,79970,65007

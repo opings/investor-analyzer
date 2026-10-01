@@ -1,0 +1,233 @@
+# 单位: 百万美元 | 每份 10-K 的分部表三年全量（自身年 + 两个比较年）| 用途：口径重划后用**同一份申报**的三年做同口径增速 | 已校验：每份申报每年分部(或组)+公司及其他 = 该申报合并营收
+申报(10-K 财年),财年,分部,营收,经营利润
+FY2011,FY2009,Windows & Windows Live Division,15563,9372
+FY2011,FY2009,Server and Tools,14686,4627
+FY2011,FY2009,Online Services Division,2110,-1749
+FY2011,FY2009,Microsoft Business Division,19211,11153
+FY2011,FY2009,Entertainment and Devices Division,6416,288
+FY2011,FY2009,Unallocated and other,451,
+FY2011,FY2009,Reconciling amounts,,-3328
+FY2011,FY2010,Windows & Windows Live Division,18792,12253
+FY2011,FY2010,Server and Tools,15390,5320
+FY2011,FY2010,Online Services Division,2200,-2410
+FY2011,FY2010,Microsoft Business Division,19345,11642
+FY2011,FY2010,Entertainment and Devices Division,6224,573
+FY2011,FY2010,Unallocated and other,533,
+FY2011,FY2010,Reconciling amounts,,-3280
+FY2011,FY2011,Windows & Windows Live Division,18778,11968
+FY2011,FY2011,Server and Tools,17107,6453
+FY2011,FY2011,Online Services Division,2528,-2638
+FY2011,FY2011,Microsoft Business Division,21986,13827
+FY2011,FY2011,Entertainment and Devices Division,8716,1135
+FY2011,FY2011,Unallocated and other,828,
+FY2011,FY2011,Reconciling amounts,,-3584
+FY2012,FY2010,Windows & Windows Live Division,18789,12193
+FY2012,FY2010,Server and Tools,15121,5378
+FY2012,FY2010,Online Services Division,2345,-2395
+FY2012,FY2010,Microsoft Business Division,19525,12109
+FY2012,FY2010,Entertainment and Devices Division,6135,525
+FY2012,FY2010,Unallocated and other,569,
+FY2012,FY2010,Reconciling amounts,,-3712
+FY2012,FY2011,Windows & Windows Live Division,18787,11971
+FY2012,FY2011,Server and Tools,16691,6332
+FY2012,FY2011,Online Services Division,2680,-2649
+FY2012,FY2011,Microsoft Business Division,22314,14453
+FY2012,FY2011,Entertainment and Devices Division,8896,1294
+FY2012,FY2011,Unallocated and other,575,
+FY2012,FY2011,Reconciling amounts,,-4240
+FY2012,FY2012,Windows & Windows Live Division,18818,11908
+FY2012,FY2012,Server and Tools,18696,7459
+FY2012,FY2012,Online Services Division,2934,-8122
+FY2012,FY2012,Microsoft Business Division,23963,15688
+FY2012,FY2012,Entertainment and Devices Division,9585,365
+FY2012,FY2012,Unallocated and other,-273,
+FY2012,FY2012,Reconciling amounts,,-5535
+FY2013,FY2011,Windows Division,18815,12040
+FY2013,FY2011,Server and Tools,16571,6132
+FY2013,FY2011,Online Services Division,2680,-2649
+FY2013,FY2011,Microsoft Business Division,22407,14467
+FY2013,FY2011,Entertainment and Devices Division,8896,1299
+FY2013,FY2011,Corporate and Reconciling Items,574,-4128
+FY2013,FY2012,Windows Division,18844,12005
+FY2013,FY2012,Server and Tools,18544,7256
+FY2013,FY2012,Online Services Division,2935,-8117
+FY2013,FY2012,Microsoft Business Division,24082,15803
+FY2013,FY2012,Entertainment and Devices Division,9590,381
+FY2013,FY2012,Corporate and Reconciling Items,-272,-5565
+FY2013,FY2013,Windows Division,18680,8943
+FY2013,FY2013,Server and Tools,20295,8152
+FY2013,FY2013,Online Services Division,3284,-1298
+FY2013,FY2013,Microsoft Business Division,24738,16189
+FY2013,FY2013,Entertainment and Devices Division,10213,888
+FY2013,FY2013,Corporate and Reconciling Items,639,-6110
+FY2014,FY2012,Devices and Consumer,32438,6051
+FY2014,FY2012,Devices and Consumer | Devices and Consumer Licensing,19495,
+FY2014,FY2012,Devices and Consumer | Devices and Consumer Other,6203,
+FY2014,FY2012,Devices and Consumer | Hardware,6740,
+FY2014,FY2012,Devices and Consumer | Hardware | Computing and Gaming Hardware,6740,
+FY2014,FY2012,Devices and Consumer | Hardware | Phone Hardware,0,
+FY2014,FY2012,Commercial,41770,19978
+FY2014,FY2012,Commercial | Commercial Licensing,37126,
+FY2014,FY2012,Commercial | Commercial Other,4644,
+FY2014,FY2012,Corporate and Other,-485,-4266
+FY2014,FY2013,Devices and Consumer,32100,9421
+FY2014,FY2013,Devices and Consumer | Devices and Consumer Licensing,19021,
+FY2014,FY2013,Devices and Consumer | Devices and Consumer Other,6618,
+FY2014,FY2013,Devices and Consumer | Hardware,6461,
+FY2014,FY2013,Devices and Consumer | Hardware | Computing and Gaming Hardware,6461,
+FY2014,FY2013,Devices and Consumer | Hardware | Phone Hardware,0,
+FY2014,FY2013,Commercial,45346,21132
+FY2014,FY2013,Commercial | Commercial Licensing,39686,
+FY2014,FY2013,Commercial | Commercial Other,5660,
+FY2014,FY2013,Corporate and Other,403,-3789
+FY2014,FY2014,Devices and Consumer,37674,8714
+FY2014,FY2014,Devices and Consumer | Devices and Consumer Licensing,18803,
+FY2014,FY2014,Devices and Consumer | Devices and Consumer Other,7258,
+FY2014,FY2014,Devices and Consumer | Hardware,11613,
+FY2014,FY2014,Devices and Consumer | Hardware | Computing and Gaming Hardware,9628,
+FY2014,FY2014,Devices and Consumer | Hardware | Phone Hardware,1985,
+FY2014,FY2014,Commercial,49574,23467
+FY2014,FY2014,Commercial | Commercial Licensing,42027,
+FY2014,FY2014,Commercial | Commercial Other,7547,
+FY2014,FY2014,Corporate and Other,-415,-4422
+FY2015,FY2013,Devices and Consumer,32007,9267
+FY2015,FY2013,Devices and Consumer | Devices and Consumer Licensing,19427,
+FY2015,FY2013,Devices and Consumer | Devices and Consumer Other,6431,
+FY2015,FY2013,Devices and Consumer | Hardware,6149,
+FY2015,FY2013,Devices and Consumer | Hardware | Computing and Gaming Hardware,6149,
+FY2015,FY2013,Devices and Consumer | Hardware | Phone Hardware,0,
+FY2015,FY2013,Commercial,45439,21152
+FY2015,FY2013,Commercial | Commercial Licensing,39778,
+FY2015,FY2013,Commercial | Commercial Other,5661,
+FY2015,FY2013,Corporate and Other,403,-3655
+FY2015,FY2014,Devices and Consumer,37617,8559
+FY2015,FY2014,Devices and Consumer | Devices and Consumer Licensing,19528,
+FY2015,FY2014,Devices and Consumer | Devices and Consumer Other,7014,
+FY2015,FY2014,Devices and Consumer | Hardware,11075,
+FY2015,FY2014,Devices and Consumer | Hardware | Computing and Gaming Hardware,9093,
+FY2015,FY2014,Devices and Consumer | Hardware | Phone Hardware,1982,
+FY2015,FY2014,Commercial,49631,23477
+FY2015,FY2014,Commercial | Commercial Licensing,42085,
+FY2015,FY2014,Commercial | Commercial Other,7546,
+FY2015,FY2014,Corporate and Other,-415,-4277
+FY2015,FY2015,Devices and Consumer,41501,6876
+FY2015,FY2015,Devices and Consumer | Devices and Consumer Licensing,14969,
+FY2015,FY2015,Devices and Consumer | Devices and Consumer Other,8825,
+FY2015,FY2015,Devices and Consumer | Hardware,17707,
+FY2015,FY2015,Devices and Consumer | Hardware | Computing and Gaming Hardware,10183,
+FY2015,FY2015,Devices and Consumer | Hardware | Phone Hardware,7524,
+FY2015,FY2015,Commercial,51875,24852
+FY2015,FY2015,Commercial | Commercial Licensing,41039,
+FY2015,FY2015,Commercial | Commercial Other,10836,
+FY2015,FY2015,Corporate and Other,204,-13567
+FY2016,FY2014,Productivity and Business Processes,26976,14173
+FY2016,FY2014,Intelligent Cloud,21735,8446
+FY2016,FY2014,More Personal Computing,38460,5605
+FY2016,FY2014,Corporate and Other,-338,-465
+FY2016,FY2015,Productivity and Business Processes,26430,13359
+FY2016,FY2015,Intelligent Cloud,23715,9871
+FY2016,FY2015,More Personal Computing,43160,4667
+FY2016,FY2015,Corporate and Other,275,-9736
+FY2016,FY2016,Productivity and Business Processes,26487,12461
+FY2016,FY2016,Intelligent Cloud,25042,9358
+FY2016,FY2016,More Personal Computing,40460,6142
+FY2016,FY2016,Corporate and Other,-6669,-7779
+FY2017,FY2015,Productivity and Business Processes,26430,13274
+FY2017,FY2015,Intelligent Cloud,23715,9803
+FY2017,FY2015,More Personal Computing,43435,5095
+FY2017,FY2015,Corporate and Other,0,-10011
+FY2017,FY2016,Productivity and Business Processes,26487,12418
+FY2017,FY2016,Intelligent Cloud,25042,9315
+FY2017,FY2016,More Personal Computing,40434,6202
+FY2017,FY2016,Corporate and Other,-6643,-7753
+FY2017,FY2017,Productivity and Business Processes,30444,11913
+FY2017,FY2017,Intelligent Cloud,27440,9138
+FY2017,FY2017,More Personal Computing,38773,8288
+FY2017,FY2017,Corporate and Other,-6707,-7013
+FY2018,FY2016,Productivity and Business Processes,25792,11756
+FY2018,FY2016,Intelligent Cloud,24952,9249
+FY2018,FY2016,More Personal Computing,40410,6183
+FY2018,FY2016,Corporate and Other,,-1110
+FY2018,FY2017,Productivity and Business Processes,29870,11389
+FY2018,FY2017,Intelligent Cloud,27407,9127
+FY2018,FY2017,More Personal Computing,39294,8815
+FY2018,FY2017,Corporate and Other,,-306
+FY2018,FY2018,Productivity and Business Processes,35865,12924
+FY2018,FY2018,Intelligent Cloud,32219,11524
+FY2018,FY2018,More Personal Computing,42276,10610
+FY2018,FY2018,Corporate and Other,,0
+FY2019,FY2017,Productivity and Business Processes,29870,11389
+FY2019,FY2017,Intelligent Cloud,27407,9127
+FY2019,FY2017,More Personal Computing,39294,8815
+FY2019,FY2017,Corporate and Other,,-306
+FY2019,FY2018,Productivity and Business Processes,35865,12924
+FY2019,FY2018,Intelligent Cloud,32219,11524
+FY2019,FY2018,More Personal Computing,42276,10610
+FY2019,FY2018,Corporate and Other,,0
+FY2019,FY2019,Productivity and Business Processes,41160,16219
+FY2019,FY2019,Intelligent Cloud,38985,13920
+FY2019,FY2019,More Personal Computing,45698,12820
+FY2019,FY2019,Corporate and Other,,0
+FY2020,FY2018,Productivity and Business Processes,35865,12924
+FY2020,FY2018,Intelligent Cloud,32219,11524
+FY2020,FY2018,More Personal Computing,42276,10610
+FY2020,FY2019,Productivity and Business Processes,41160,16219
+FY2020,FY2019,Intelligent Cloud,38985,13920
+FY2020,FY2019,More Personal Computing,45698,12820
+FY2020,FY2020,Productivity and Business Processes,46398,18724
+FY2020,FY2020,Intelligent Cloud,48366,18324
+FY2020,FY2020,More Personal Computing,48251,15911
+FY2021,FY2019,Productivity and Business Processes,41160,16219
+FY2021,FY2019,Intelligent Cloud,38985,13920
+FY2021,FY2019,More Personal Computing,45698,12820
+FY2021,FY2020,Productivity and Business Processes,46398,18724
+FY2021,FY2020,Intelligent Cloud,48366,18324
+FY2021,FY2020,More Personal Computing,48251,15911
+FY2021,FY2021,Productivity and Business Processes,53915,24351
+FY2021,FY2021,Intelligent Cloud,60080,26126
+FY2021,FY2021,More Personal Computing,54093,19439
+FY2022,FY2020,Productivity and Business Processes,46398,18724
+FY2022,FY2020,Intelligent Cloud,48366,18324
+FY2022,FY2020,More Personal Computing,48251,15911
+FY2022,FY2021,Productivity and Business Processes,53915,24351
+FY2022,FY2021,Intelligent Cloud,60080,26126
+FY2022,FY2021,More Personal Computing,54093,19439
+FY2022,FY2022,Productivity and Business Processes,63364,29687
+FY2022,FY2022,Intelligent Cloud,75251,32721
+FY2022,FY2022,More Personal Computing,59655,20975
+FY2023,FY2021,Productivity and Business Processes,53915,24351
+FY2023,FY2021,Intelligent Cloud,59728,26471
+FY2023,FY2021,More Personal Computing,54445,19094
+FY2023,FY2022,Productivity and Business Processes,63364,29690
+FY2023,FY2022,Intelligent Cloud,74965,33203
+FY2023,FY2022,More Personal Computing,59941,20490
+FY2023,FY2023,Productivity and Business Processes,69274,34189
+FY2023,FY2023,Intelligent Cloud,87907,37884
+FY2023,FY2023,More Personal Computing,54734,16450
+FY2024,FY2022,Productivity and Business Processes,63364,29690
+FY2024,FY2022,Intelligent Cloud,74965,33203
+FY2024,FY2022,More Personal Computing,59941,20490
+FY2024,FY2023,Productivity and Business Processes,69274,34189
+FY2024,FY2023,Intelligent Cloud,87907,37884
+FY2024,FY2023,More Personal Computing,54734,16450
+FY2024,FY2024,Productivity and Business Processes,77728,40540
+FY2024,FY2024,Intelligent Cloud,105362,49584
+FY2024,FY2024,More Personal Computing,62032,19309
+FY2025,FY2023,Productivity and Business Processes,94151,50074
+FY2025,FY2023,Intelligent Cloud,72944,28411
+FY2025,FY2023,More Personal Computing,44820,10038
+FY2025,FY2024,Productivity and Business Processes,106820,59661
+FY2025,FY2024,Intelligent Cloud,87464,37813
+FY2025,FY2024,More Personal Computing,50838,11959
+FY2025,FY2025,Productivity and Business Processes,120810,69773
+FY2025,FY2025,Intelligent Cloud,106265,44589
+FY2025,FY2025,More Personal Computing,54649,14166
+FY2026,FY2024,Productivity and Business Processes,106820,59661
+FY2026,FY2024,Intelligent Cloud,87464,37813
+FY2026,FY2024,More Personal Computing,50838,11959
+FY2026,FY2025,Productivity and Business Processes,120810,69773
+FY2026,FY2025,Intelligent Cloud,106265,44589
+FY2026,FY2025,More Personal Computing,54649,14166
+FY2026,FY2026,Productivity and Business Processes,139996,83879
+FY2026,FY2026,Intelligent Cloud,137791,56972
+FY2026,FY2026,More Personal Computing,54052,14386

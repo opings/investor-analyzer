@@ -1,0 +1,61 @@
+{
+ "doc": "FY1992-FY2010 分部/产品组 as-reported（各财年取**自家** 10-K；FY1992-1993 与 FY1997-1998 例外见 src）——从 report/微软/YYYY.txt|htm 正文与附注人工转录",
+ "method": "逐份申报读原文（MD&A 产品组句子 / Segment Information 附注表），每年分部(含调节项)和 = 合并营收、经营利润和 = 合并营业利润 由 _build_notes.py 复算",
+ "unit": "百万美元（MD&A 以十亿美元两位小数自陈的产品组/渠道已 ×1000，精度 ±5 百万）",
+ "product_groups": {
+  "note": "SFAS 131 之前，10-K 只在 MD&A 正文按产品组/销售渠道给营收（无经营利润）。FY1994 10-K 三组（操作系统/应用/硬件，百万美元）；FY1995 起两组（平台/应用与内容，十亿美元两位小数）",
+  "rows": [
+   {"fy": 1992, "src": "FY1994 10-K MD&A（比较年）", "gen": "G0a 三产品组", "items": {"Operating systems product group": 1104, "Applications product group": 1401, "Hardware product group": 254}},
+   {"fy": 1993, "src": "FY1994 10-K MD&A（比较年）", "gen": "G0a 三产品组", "items": {"Operating systems product group": 1267, "Applications product group": 2253, "Hardware product group": 233}},
+   {"fy": 1994, "src": "FY1994 10-K MD&A", "gen": "G0a 三产品组", "items": {"Operating systems product group": 1519, "Applications product group": 2927, "Hardware product group": 203}},
+   {"fy": 1995, "src": "FY1995 10-K MD&A", "gen": "G0b 两产品组", "items": {"Platforms Product Group": 2360, "Applications and Content Product Group": 3580}},
+   {"fy": 1996, "src": "FY1996 10-K MD&A", "gen": "G0b 两产品组", "items": {"Platforms Product Group": 4110, "Applications and Content Product Group": 4560}},
+   {"fy": 1997, "src": "FY1997 10-K MD&A", "gen": "G0b 两产品组", "items": {"Platforms Product Group": 5970, "Applications and Content Product Group": 5390}},
+   {"fy": 1998, "src": "FY1998 10-K MD&A", "gen": "G0b 两产品组", "items": {"Platforms Product Group": 7640, "Applications and Content Product Group": 6840}}
+  ]
+ },
+ "channels": {
+  "note": "MD&A 自陈销售渠道营收（OEM / 美国及加拿大 / 欧洲 / 其他国际），十亿美元两位小数或百万美元",
+  "rows": [
+   {"fy": 1993, "src": "FY1995 10-K MD&A（比较年）", "items": {"OEM": 731, "U.S. and Canada": 1370, "Europe": 1260, "Other International": 392}},
+   {"fy": 1994, "src": "FY1995 10-K MD&A（比较年）", "items": {"OEM": 1180, "U.S. and Canada": 1580, "Europe": 1360, "Other International": 532}},
+   {"fy": 1995, "src": "FY1995 10-K MD&A", "items": {"OEM": 1650, "U.S. and Canada": 1880, "Europe": 1490, "Other International": 924}},
+   {"fy": 1996, "src": "FY1996 10-K MD&A", "items": {"OEM": 2500, "U.S. and Canada": 2680, "Europe": 2020, "Other International": 1470}},
+   {"fy": 1997, "src": "FY1997 10-K MD&A", "items": {"OEM": 3480, "U.S. and Canada": 3410, "Europe": 2540, "Other International": 1930}},
+   {"fy": 1998, "src": "FY1998 10-K MD&A", "items": {"OEM": 4720, "U.S. and Canada": 4360, "Europe": 3150, "Other International": 2260}}
+  ]
+ },
+ "segments": {
+  "note": "SFAS 131 分部附注（FY1999 10-K 起）。as-reported = 各年自家 10-K；FY1997-1998 取 FY1999 10-K 比较列（那两年自家 10-K 尚未按 SFAS 131 披露分部，且该比较列按 FY1999 重述后的收入口径：FY1998 合并营收 15,262 ≠ 当年报告 14,484）",
+  "rows": [
+   {"fy": 1997, "src": "FY1999 10-K 附注（比较年·重述口径）", "gen": "G1 三大分部", "total_rev": 11936, "total_oi": null,
+    "items": {"Windows Platforms": [5213, null], "Productivity Applications and Developer": [5992, null], "Consumer, Commerce, and Other": [1129, null], "Reconciling Amounts": [-398, null]}},
+   {"fy": 1998, "src": "FY1999 10-K 附注（比较年·重述口径）", "gen": "G1 三大分部", "total_rev": 15262, "total_oi": 6414,
+    "items": {"Windows Platforms": [6236, 3661], "Productivity Applications and Developer": [7458, 4824], "Consumer, Commerce, and Other": [1765, -1050], "Reconciling Amounts": [-197, -1021]}},
+   {"fy": 1999, "src": "FY1999 10-K 附注", "gen": "G1 三大分部", "total_rev": 19747, "total_oi": 9928,
+    "items": {"Windows Platforms": [8590, 6007], "Productivity Applications and Developer": [8686, 5568], "Consumer, Commerce, and Other": [1784, -1072], "Reconciling Amounts": [687, -575]}},
+   {"fy": 2000, "src": "FY2000 10-K 附注", "gen": "G1 三大分部", "total_rev": 22956, "total_oi": 10937,
+    "items": {"Windows Platforms": [9265, 5813], "Productivity Applications and Developer": [10089, 4935], "Consumer and Other": [2718, -1455], "Reconciling Amounts": [884, 1644]}},
+   {"fy": 2001, "src": "FY2001 10-K 附注", "gen": "G2 四分部(.NET 重组)", "total_rev": 25296, "total_oi": 11720,
+    "items": {"Desktop and Enterprise Software and Services": [22720, 14261], "Consumer Software, Services, and Devices": [1961, -1666], "Consumer Commerce Investments": [522, -222], "Other": [652, 97], "Reconciling Amounts": [-559, -750]}},
+   {"fy": 2002, "src": "FY2002 10-K 附注", "gen": "G2 四分部(.NET 重组)", "total_rev": 28365, "total_oi": 11910,
+    "items": {"Desktop and Enterprise Software and Services": [23786, 14671], "Consumer Software, Services, and Devices": [3531, -1778], "Consumer Commerce Investments": [245, 23], "Other": [537, 59], "Reconciling Amounts": [266, -1065]}},
+   {"fy": 2003, "src": "FY2003 10-K 附注", "gen": "G3 七分部", "total_rev": 32187, "total_oi": 13217,
+    "items": {"Client": [10286, 8281], "Server and Tools": [6519, 1848], "Information Worker": [9718, 7393], "Microsoft Business Solutions": [577, -308], "MSN": [2363, -394], "Mobile and Embedded Devices": [153, -175], "Home and Entertainment": [2779, -940], "Reconciling Amounts": [-208, -2488]}},
+   {"fy": 2004, "src": "FY2004 10-K 附注 Note 18", "gen": "G3 七分部", "total_rev": 36835, "total_oi": 9034,
+    "items": {"Client": [11241, 9005], "Server and Tools": [7881, 2173], "Information Worker": [10924, 8067], "Microsoft Business Solutions": [660, -180], "MSN": [2444, 397], "Mobile and Embedded Devices": [239, -102], "Home and Entertainment": [2870, -894], "Reconciling Amounts": [576, -9432]}},
+   {"fy": 2005, "src": "FY2005 10-K 附注 Note 18", "gen": "G3 七分部", "total_rev": 39788, "total_oi": 14561,
+    "items": {"Client": [12048, 9396], "Server and Tools": [9143, 2888], "Information Worker": [11523, 8616], "Microsoft Business Solutions": [793, -163], "MSN": [2411, 469], "Mobile and Embedded Devices": [334, -19], "Home and Entertainment": [3211, -359], "Reconciling Amounts": [325, -6267]}},
+   {"fy": 2006, "src": "FY2006 10-K 附注 Note 18", "gen": "G3 七分部", "total_rev": 44282, "total_oi": 16472,
+    "items": {"Client": [13001, 10043], "Server and Tools": [10542, 3525], "Information Worker": [12380, 8982], "Microsoft Business Solutions": [906, 14], "MSN": [2488, 111], "Mobile and Embedded Devices": [365, -11], "Home and Entertainment": [4292, -1283], "Reconciling Amounts": [308, -4909]}},
+   {"fy": 2007, "src": "FY2007 10-K 附注 Note 18", "gen": "G4 五大事业部", "total_rev": 51122, "total_oi": 18524,
+    "items": {"Client": [14812, 11544], "Server and Tools": [11182, 3837], "Online Services Business": [2474, -745], "Microsoft Business Division": [16381, 10724], "Entertainment and Devices Division": [6132, -2066], "Unallocated and other / Reconciling amounts": [141, -4770]}},
+   {"fy": 2008, "src": "FY2008 10-K 附注 Note 19", "gen": "G4 五大事业部", "total_rev": 60420, "total_oi": 22492,
+    "items": {"Client": [16472, 12537], "Server and Tools": [13189, 4261], "Online Services Business": [3214, -1309], "Microsoft Business Division": [18937, 12182], "Entertainment and Devices Division": [8139, 267], "Unallocated and other / Reconciling amounts": [469, -5446]}},
+   {"fy": 2009, "src": "FY2009 10-K 附注 Note 22", "gen": "G4 五大事业部", "total_rev": 58437, "total_oi": 20363,
+    "items": {"Client": [14414, 10435], "Server and Tools": [14135, 5047], "Online Services Business": [3088, -2391], "Microsoft Business Division": [18902, 11940], "Entertainment and Devices Division": [7753, 5], "Unallocated and other / Reconciling amounts": [145, -4673]}},
+   {"fy": 2010, "src": "FY2010 10-K 附注 Note 22", "gen": "G4 五大事业部", "total_rev": 62484, "total_oi": 24098,
+    "items": {"Windows & Windows Live Division": [17788, 12089], "Server and Tools": [14878, 4990], "Online Services Division": [2198, -2436], "Microsoft Business Division": [18909, 11664], "Entertainment and Devices Division": [8114, 589], "Unallocated and other / Reconciling amounts": [597, -2798]}}
+  ]
+ }
+}
