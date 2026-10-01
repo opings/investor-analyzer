@@ -1,0 +1,221 @@
+# 单位: 百万美元 / 小数(1=100%) | 本年 = 该 10-K 的本年列，上年 = **同一份 10-K** 的上年比较列 | 用途：分部重划（FY2020、FY2025）与产品线更名/重划后仍能算同口径增速 | 源：分部-各申报口径.csv、分产品营收-各申报口径.csv
+类别,申报(10-K 财年),名称(该申报印刷名),本年营收,上年营收(同申报),营收增速,本年经营利润,上年经营利润(同申报),经营利润增速,经营利润率
+分部,FY2011,Entertainment and Devices Division,8716.0,6224.0,0.4004,1135.0,573.0,0.9808,0.1302
+分部,FY2011,Microsoft Business Division,21986.0,19345.0,0.1365,13827.0,11642.0,0.1877,0.6289
+分部,FY2011,Online Services Division,2528.0,2200.0,0.1491,-2638.0,-2410.0,,-1.0435
+分部,FY2011,Reconciling amounts,,,,-3584.0,-3280.0,,
+分部,FY2011,Server and Tools,17107.0,15390.0,0.1116,6453.0,5320.0,0.2130,0.3772
+分部,FY2011,Unallocated and other,828.0,533.0,0.5535,,,,
+分部,FY2011,Windows & Windows Live Division,18778.0,18792.0,-0.0007,11968.0,12253.0,-0.0233,0.6373
+分部,FY2012,Entertainment and Devices Division,9585.0,8896.0,0.0775,365.0,1294.0,-0.7179,0.0381
+分部,FY2012,Microsoft Business Division,23963.0,22314.0,0.0739,15688.0,14453.0,0.0854,0.6547
+分部,FY2012,Online Services Division,2934.0,2680.0,0.0948,-8122.0,-2649.0,,-2.7682
+分部,FY2012,Reconciling amounts,,,,-5535.0,-4240.0,,
+分部,FY2012,Server and Tools,18696.0,16691.0,0.1201,7459.0,6332.0,0.1780,0.3990
+分部,FY2012,Unallocated and other,-273.0,575.0,-1.4748,,,,
+分部,FY2012,Windows & Windows Live Division,18818.0,18787.0,0.0017,11908.0,11971.0,-0.0053,0.6328
+分部,FY2013,Corporate and Reconciling Items,639.0,-272.0,,-6110.0,-5565.0,,-9.5618
+分部,FY2013,Entertainment and Devices Division,10213.0,9590.0,0.0650,888.0,381.0,1.3307,0.0869
+分部,FY2013,Microsoft Business Division,24738.0,24082.0,0.0272,16189.0,15803.0,0.0244,0.6544
+分部,FY2013,Online Services Division,3284.0,2935.0,0.1189,-1298.0,-8117.0,,-0.3952
+分部,FY2013,Server and Tools,20295.0,18544.0,0.0944,8152.0,7256.0,0.1235,0.4017
+分部,FY2013,Windows Division,18680.0,18844.0,-0.0087,8943.0,12005.0,-0.2551,0.4787
+分部,FY2014,Commercial,49574.0,45346.0,0.0932,23467.0,21132.0,0.1105,0.4734
+分部,FY2014,Commercial | Commercial Licensing,42027.0,39686.0,0.0590,,,,
+分部,FY2014,Commercial | Commercial Other,7547.0,5660.0,0.3334,,,,
+分部,FY2014,Corporate and Other,-415.0,403.0,-2.0298,-4422.0,-3789.0,,10.6554
+分部,FY2014,Devices and Consumer,37674.0,32100.0,0.1736,8714.0,9421.0,-0.0750,0.2313
+分部,FY2014,Devices and Consumer | Devices and Consumer Licensing,18803.0,19021.0,-0.0115,,,,
+分部,FY2014,Devices and Consumer | Devices and Consumer Other,7258.0,6618.0,0.0967,,,,
+分部,FY2014,Devices and Consumer | Hardware,11613.0,6461.0,0.7974,,,,
+分部,FY2014,Devices and Consumer | Hardware | Computing and Gaming Hardware,9628.0,6461.0,0.4902,,,,
+分部,FY2014,Devices and Consumer | Hardware | Phone Hardware,1985.0,0.0,,,,,
+分部,FY2015,Commercial,51875.0,49631.0,0.0452,24852.0,23477.0,0.0586,0.4791
+分部,FY2015,Commercial | Commercial Licensing,41039.0,42085.0,-0.0249,,,,
+分部,FY2015,Commercial | Commercial Other,10836.0,7546.0,0.4360,,,,
+分部,FY2015,Corporate and Other,204.0,-415.0,,-13567.0,-4277.0,,-66.5049
+分部,FY2015,Devices and Consumer,41501.0,37617.0,0.1033,6876.0,8559.0,-0.1966,0.1657
+分部,FY2015,Devices and Consumer | Devices and Consumer Licensing,14969.0,19528.0,-0.2335,,,,
+分部,FY2015,Devices and Consumer | Devices and Consumer Other,8825.0,7014.0,0.2582,,,,
+分部,FY2015,Devices and Consumer | Hardware,17707.0,11075.0,0.5988,,,,
+分部,FY2015,Devices and Consumer | Hardware | Computing and Gaming Hardware,10183.0,9093.0,0.1199,,,,
+分部,FY2015,Devices and Consumer | Hardware | Phone Hardware,7524.0,1982.0,2.7962,,,,
+分部,FY2016,Corporate and Other,-6669.0,275.0,-25.2509,-7779.0,-9736.0,,1.1664
+分部,FY2016,Intelligent Cloud,25042.0,23715.0,0.0560,9358.0,9871.0,-0.0520,0.3737
+分部,FY2016,More Personal Computing,40460.0,43160.0,-0.0626,6142.0,4667.0,0.3160,0.1518
+分部,FY2016,Productivity and Business Processes,26487.0,26430.0,0.0022,12461.0,13359.0,-0.0672,0.4705
+分部,FY2017,Corporate and Other,-6707.0,-6643.0,,-7013.0,-7753.0,,1.0456
+分部,FY2017,Intelligent Cloud,27440.0,25042.0,0.0958,9138.0,9315.0,-0.0190,0.3330
+分部,FY2017,More Personal Computing,38773.0,40434.0,-0.0411,8288.0,6202.0,0.3363,0.2138
+分部,FY2017,Productivity and Business Processes,30444.0,26487.0,0.1494,11913.0,12418.0,-0.0407,0.3913
+分部,FY2018,Corporate and Other,,,,0.0,-306.0,,
+分部,FY2018,Intelligent Cloud,32219.0,27407.0,0.1756,11524.0,9127.0,0.2626,0.3577
+分部,FY2018,More Personal Computing,42276.0,39294.0,0.0759,10610.0,8815.0,0.2036,0.2510
+分部,FY2018,Productivity and Business Processes,35865.0,29870.0,0.2007,12924.0,11389.0,0.1348,0.3604
+分部,FY2019,Corporate and Other,,,,0.0,0.0,,
+分部,FY2019,Intelligent Cloud,38985.0,32219.0,0.2100,13920.0,11524.0,0.2079,0.3571
+分部,FY2019,More Personal Computing,45698.0,42276.0,0.0809,12820.0,10610.0,0.2083,0.2805
+分部,FY2019,Productivity and Business Processes,41160.0,35865.0,0.1476,16219.0,12924.0,0.2550,0.3940
+分部,FY2020,Intelligent Cloud,48366.0,38985.0,0.2406,18324.0,13920.0,0.3164,0.3789
+分部,FY2020,More Personal Computing,48251.0,45698.0,0.0559,15911.0,12820.0,0.2411,0.3298
+分部,FY2020,Productivity and Business Processes,46398.0,41160.0,0.1273,18724.0,16219.0,0.1544,0.4036
+分部,FY2021,Intelligent Cloud,60080.0,48366.0,0.2422,26126.0,18324.0,0.4258,0.4349
+分部,FY2021,More Personal Computing,54093.0,48251.0,0.1211,19439.0,15911.0,0.2217,0.3594
+分部,FY2021,Productivity and Business Processes,53915.0,46398.0,0.1620,24351.0,18724.0,0.3005,0.4517
+分部,FY2022,Intelligent Cloud,75251.0,60080.0,0.2525,32721.0,26126.0,0.2524,0.4348
+分部,FY2022,More Personal Computing,59655.0,54093.0,0.1028,20975.0,19439.0,0.0790,0.3516
+分部,FY2022,Productivity and Business Processes,63364.0,53915.0,0.1753,29687.0,24351.0,0.2191,0.4685
+分部,FY2023,Intelligent Cloud,87907.0,74965.0,0.1726,37884.0,33203.0,0.1410,0.4310
+分部,FY2023,More Personal Computing,54734.0,59941.0,-0.0869,16450.0,20490.0,-0.1972,0.3005
+分部,FY2023,Productivity and Business Processes,69274.0,63364.0,0.0933,34189.0,29690.0,0.1515,0.4935
+分部,FY2024,Intelligent Cloud,105362.0,87907.0,0.1986,49584.0,37884.0,0.3088,0.4706
+分部,FY2024,More Personal Computing,62032.0,54734.0,0.1333,19309.0,16450.0,0.1738,0.3113
+分部,FY2024,Productivity and Business Processes,77728.0,69274.0,0.1220,40540.0,34189.0,0.1858,0.5216
+分部,FY2025,Intelligent Cloud,106265.0,87464.0,0.2150,44589.0,37813.0,0.1792,0.4196
+分部,FY2025,More Personal Computing,54649.0,50838.0,0.0750,14166.0,11959.0,0.1845,0.2592
+分部,FY2025,Productivity and Business Processes,120810.0,106820.0,0.1310,69773.0,59661.0,0.1695,0.5775
+分部,FY2026,Intelligent Cloud,137791.0,106265.0,0.2967,56972.0,44589.0,0.2777,0.4135
+分部,FY2026,More Personal Computing,54052.0,54649.0,-0.0109,14386.0,14166.0,0.0155,0.2662
+分部,FY2026,Productivity and Business Processes,139996.0,120810.0,0.1588,83879.0,69773.0,0.2022,0.5992
+产品线,FY2011,Advertising,2913.0,2528.0,0.1523,,,,
+产品线,FY2011,Consulting and product support services,3372.0,3036.0,0.1107,,,,
+产品线,FY2011,Microsoft Office system,20730.0,17754.0,0.1676,,,,
+产品线,FY2011,Other products and services,3749.0,3478.0,0.0779,,,,
+产品线,FY2011,Server products and tools,13251.0,12007.0,0.1036,,,,
+产品线,FY2011,Windows PC operating systems,17825.0,18225.0,-0.0219,,,,
+产品线,FY2011,Xbox 360 platform,8103.0,5456.0,0.4852,,,,
+产品线,FY2012,Advertising,3181.0,2913.0,0.0920,,,,
+产品线,FY2012,Consulting and product support services,3976.0,3372.0,0.1791,,,,
+产品线,FY2012,Microsoft Office system,22299.0,20730.0,0.0757,,,,
+产品线,FY2012,Other products and services,4670.0,3749.0,0.2457,,,,
+产品线,FY2012,Server products and tools,14232.0,13251.0,0.0740,,,,
+产品线,FY2012,Windows PC operating systems,17320.0,17825.0,-0.0283,,,,
+产品线,FY2012,Xbox 360 platform,8045.0,8103.0,-0.0072,,,,
+产品线,FY2013,Advertising,3387.0,3181.0,0.0648,,,,
+产品线,FY2013,Consulting and product support services,4372.0,3976.0,0.0996,,,,
+产品线,FY2013,Microsoft Office system,22995.0,22299.0,0.0312,,,,
+产品线,FY2013,Other products and services,7058.0,4670.0,0.5113,,,,
+产品线,FY2013,Server products and tools,15408.0,14232.0,0.0826,,,,
+产品线,FY2013,Windows operating systems for computing devices,17529.0,17320.0,0.0121,,,,
+产品线,FY2013,Xbox 360 platform,7100.0,8045.0,-0.1175,,,,
+产品线,FY2014,Advertising,4016.0,3387.0,0.1857,,,,
+产品线,FY2014,Consulting and product support services,4767.0,4372.0,0.0903,,,,
+产品线,FY2014,Microsoft Office system,24323.0,22995.0,0.0578,,,,
+产品线,FY2014,Other products and services,6217.0,5590.0,0.1122,,,,
+产品线,FY2014,Phone,3073.0,615.0,3.9967,,,,
+产品线,FY2014,Server products and tools,17055.0,15408.0,0.1069,,,,
+产品线,FY2014,Surface,1883.0,853.0,1.2075,,,,
+产品线,FY2014,Windows PC operating system,16856.0,17529.0,-0.0384,,,,
+产品线,FY2014,Xbox Platform,8643.0,7100.0,0.2173,,,,
+产品线,FY2015,Advertising,4557.0,4016.0,0.1347,,,,
+产品线,FY2015,Consulting and product support services,5090.0,4767.0,0.0678,,,,
+产品线,FY2015,Microsoft Office system,23538.0,24323.0,-0.0323,,,,
+产品线,FY2015,Other products and services,6234.0,6217.0,0.0027,,,,
+产品线,FY2015,Phone,7702.0,3073.0,1.5063,,,,
+产品线,FY2015,Server products and tools,18612.0,17055.0,0.0913,,,,
+产品线,FY2015,Surface,3900.0,1883.0,1.0712,,,,
+产品线,FY2015,Windows PC operating system,14826.0,16856.0,-0.1204,,,,
+产品线,FY2015,Xbox,9121.0,8643.0,0.0553,,,,
+产品线,FY2016,Advertising,6098.0,4557.0,0.3382,,,,
+产品线,FY2016,Consulting and product support services,5641.0,5090.0,0.1083,,,,
+产品线,FY2016,Microsoft Office system,23588.0,23538.0,0.0021,,,,
+产品线,FY2016,Other products and services,5851.0,6234.0,-0.0614,,,,
+产品线,FY2016,Phone,3358.0,7702.0,-0.5640,,,,
+产品线,FY2016,Server products and tools,19177.0,18612.0,0.0304,,,,
+产品线,FY2016,Surface,4108.0,3900.0,0.0533,,,,
+产品线,FY2016,Windows PC operating system,8104.0,14826.0,-0.4534,,,,
+产品线,FY2016,Xbox,9395.0,9121.0,0.0300,,,,
+产品线,FY2017,Advertising,6971.0,6098.0,0.1432,,,,
+产品线,FY2017,Consulting and product support services,5588.0,5641.0,-0.0094,,,,
+产品线,FY2017,Devices,4557.0,7466.0,-0.3896,,,,
+产品线,FY2017,LinkedIn,2268.0,0.0,,,,,
+产品线,FY2017,Microsoft Office system,25389.0,23588.0,0.0764,,,,
+产品线,FY2017,Other products and services,5538.0,5851.0,-0.0535,,,,
+产品线,FY2017,Server products and tools,21758.0,19177.0,0.1346,,,,
+产品线,FY2017,Windows PC operating system,8625.0,8104.0,0.0643,,,,
+产品线,FY2017,Xbox,9256.0,9395.0,-0.0148,,,,
+产品线,FY2018,Devices,5134.0,5062.0,0.0142,,,,
+产品线,FY2018,Enterprise Services,5846.0,5542.0,0.0549,,,,
+产品线,FY2018,Gaming,10353.0,9051.0,0.1439,,,,
+产品线,FY2018,LinkedIn,5259.0,2271.0,1.3157,,,,
+产品线,FY2018,Office Products and Cloud Services,28316.0,25573.0,0.1073,,,,
+产品线,FY2018,Other products and services,2793.0,2611.0,0.0697,,,,
+产品线,FY2018,Search Advertising,7012.0,6219.0,0.1275,,,,
+产品线,FY2018,Server Products and Cloud Services,26129.0,21649.0,0.2069,,,,
+产品线,FY2018,Windows,19518.0,18593.0,0.0497,,,,
+产品线,FY2019,Devices,6095.0,5134.0,0.1872,,,,
+产品线,FY2019,Enterprise Services,6124.0,5846.0,0.0476,,,,
+产品线,FY2019,Gaming,11386.0,10353.0,0.0998,,,,
+产品线,FY2019,LinkedIn,6754.0,5259.0,0.2843,,,,
+产品线,FY2019,Office Products and Cloud Services,31769.0,28316.0,0.1219,,,,
+产品线,FY2019,Other,3070.0,2793.0,0.0992,,,,
+产品线,FY2019,Search Advertising,7628.0,7012.0,0.0878,,,,
+产品线,FY2019,Server Products and Cloud Services,32622.0,26129.0,0.2485,,,,
+产品线,FY2019,Windows,20395.0,19518.0,0.0449,,,,
+产品线,FY2020,Devices,6457.0,6095.0,0.0594,,,,
+产品线,FY2020,Enterprise Services,6409.0,6124.0,0.0465,,,,
+产品线,FY2020,Gaming,11575.0,11386.0,0.0166,,,,
+产品线,FY2020,LinkedIn,8077.0,6754.0,0.1959,,,,
+产品线,FY2020,Office Products and Cloud Services,35316.0,31769.0,0.1116,,,,
+产品线,FY2020,Other,3768.0,3070.0,0.2274,,,,
+产品线,FY2020,Search Advertising,7740.0,7628.0,0.0147,,,,
+产品线,FY2020,Server Products and Cloud Services,41379.0,32622.0,0.2684,,,,
+产品线,FY2020,Windows,22294.0,20395.0,0.0931,,,,
+产品线,FY2021,Devices,6791.0,6457.0,0.0517,,,,
+产品线,FY2021,Enterprise Services,6943.0,6409.0,0.0833,,,,
+产品线,FY2021,Gaming,15370.0,11575.0,0.3279,,,,
+产品线,FY2021,LinkedIn,10289.0,8077.0,0.2739,,,,
+产品线,FY2021,Office Products and Cloud Services,39872.0,35316.0,0.1290,,,,
+产品线,FY2021,Other,4479.0,3768.0,0.1887,,,,
+产品线,FY2021,Search Advertising,8528.0,7740.0,0.1018,,,,
+产品线,FY2021,Server Products and Cloud Services,52589.0,41379.0,0.2709,,,,
+产品线,FY2021,Windows,23227.0,22294.0,0.0418,,,,
+产品线,FY2022,Devices,6991.0,6791.0,0.0295,,,,
+产品线,FY2022,Enterprise Services,7407.0,6943.0,0.0668,,,,
+产品线,FY2022,Gaming,16230.0,15370.0,0.0560,,,,
+产品线,FY2022,LinkedIn,13816.0,10289.0,0.3428,,,,
+产品线,FY2022,Office Products and Cloud Services,44862.0,39872.0,0.1252,,,,
+产品线,FY2022,Other,5291.0,4479.0,0.1813,,,,
+产品线,FY2022,Search and News Advertising,11591.0,9267.0,0.2508,,,,
+产品线,FY2022,Server Products and Cloud Services,67321.0,52589.0,0.2801,,,,
+产品线,FY2022,Windows,24761.0,22488.0,0.1011,,,,
+产品线,FY2023,Devices,5521.0,7306.0,-0.2443,,,,
+产品线,FY2023,Dynamics,5437.0,4687.0,0.1600,,,,
+产品线,FY2023,Enterprise Services,7722.0,7407.0,0.0425,,,,
+产品线,FY2023,Gaming,15466.0,16230.0,-0.0471,,,,
+产品线,FY2023,LinkedIn,15145.0,13816.0,0.0962,,,,
+产品线,FY2023,Office Products and Cloud Services,48728.0,44862.0,0.0862,,,,
+产品线,FY2023,Other,211.0,289.0,-0.2699,,,,
+产品线,FY2023,Search and News Advertising,12208.0,11591.0,0.0532,,,,
+产品线,FY2023,Server Products and Cloud Services,79970.0,67350.0,0.1874,,,,
+产品线,FY2023,Windows,21507.0,24732.0,-0.1304,,,,
+产品线,FY2024,Devices,4706.0,5521.0,-0.1476,,,,
+产品线,FY2024,Dynamics Products and Cloud Services,6481.0,5437.0,0.1920,,,,
+产品线,FY2024,Enterprise and Partner Services,7594.0,7900.0,-0.0387,,,,
+产品线,FY2024,Gaming,21503.0,15466.0,0.3903,,,,
+产品线,FY2024,LinkedIn,16372.0,14989.0,0.0923,,,,
+产品线,FY2024,Office Products and Cloud Services,54875.0,48848.0,0.1234,,,,
+产品线,FY2024,Other,45.0,119.0,-0.6218,,,,
+产品线,FY2024,Search and News Advertising,12576.0,12158.0,0.0344,,,,
+产品线,FY2024,Server Products and Cloud Services,97726.0,79970.0,0.2220,,,,
+产品线,FY2024,Windows,23244.0,21507.0,0.0808,,,,
+产品线,FY2025,Dynamics Products and Cloud Services,7827.0,6831.0,0.1458,,,,
+产品线,FY2025,Enterprise and Partner Services,7760.0,7594.0,0.0219,,,,
+产品线,FY2025,Gaming,23455.0,21503.0,0.0908,,,,
+产品线,FY2025,LinkedIn,17812.0,16372.0,0.0880,,,,
+产品线,FY2025,Microsoft 365 Commercial Products and Cloud Services,87767.0,76969.0,0.1403,,,,
+产品线,FY2025,Microsoft 365 Consumer Products and Cloud Services,7404.0,6648.0,0.1137,,,,
+产品线,FY2025,Other,72.0,45.0,0.6000,,,,
+产品线,FY2025,Search and News Advertising,13878.0,12306.0,0.1277,,,,
+产品线,FY2025,Server Products and Cloud Services,98435.0,79828.0,0.2331,,,,
+产品线,FY2025,Windows and Devices,17314.0,17026.0,0.0169,,,,
+产品线,FY2026,Dynamics products and cloud services,9006.0,7827.0,0.1506,,,,
+产品线,FY2026,Enterprise and partner services,8260.0,7760.0,0.0644,,,,
+产品线,FY2026,LinkedIn,19817.0,17812.0,0.1126,,,,
+产品线,FY2026,Microsoft 365 Commercial Products and Cloud Services,101997.0,87767.0,0.1621,,,,
+产品线,FY2026,Microsoft 365 Consumer products and cloud services,9175.0,7404.0,0.2392,,,,
+产品线,FY2026,Other,109.0,72.0,0.5139,,,,
+产品线,FY2026,Search advertising,15176.0,13878.0,0.0935,,,,
+产品线,FY2026,Server Products and Cloud Services,129425.0,98435.0,0.3148,,,,
+产品线,FY2026,Windows and Devices,17084.0,17314.0,-0.0133,,,,
+产品线,FY2026,XBOX,21790.0,23455.0,-0.0710,,,,

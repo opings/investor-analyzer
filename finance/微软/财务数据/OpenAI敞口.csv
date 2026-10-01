@@ -1,0 +1,20 @@
+# 单位: 百万美元（EPS 为美元/股）| 来源：FY2026 10-K MD&A「NON-GAAP FINANCIAL MEASURES」调节表 + Note 1 关联方段 | ⚠️ 非 GAAP 为公司自定义口径（只剔 OpenAI 一项）| 已校验：报告+调整=调整后（三行×三年）、税前调整+税=税后调整、报告净利=利润表、报告营业外=营业外明细
+科目,FY2024,FY2025,FY2026
+"营业外收支(报告) Other income (expense), net",-1646,-4901,10697
+OpenAI 投资净(收益)损失·税前(调整项·正=加回损失) Net (gains) losses from investments in OpenAI,1482,4763,-6530
+"调整后营业外(非GAAP) Adjusted other income (expense), net",-164,-138,4167
+净利润(报告) Net income,88136,101832,133749
+OpenAI 调整项对应所得税 Tax effect,-356,-1143,1567
+OpenAI 投资净(收益)损失·税后 net of tax,1126,3620,-4963
+调整后净利润(非GAAP) Adjusted net income,89262,105452,128786
+摊薄EPS(报告),11.80,13.64,17.95
+OpenAI 对摊薄EPS的调整,0.15,0.49,-0.67
+调整后摊薄EPS(非GAAP),11.95,14.13,17.28
+
+# 关联方披露（FY2026 10-K Note 1·仅期末时点/FY2026 一年）
+项目,值,单位,原文要点
+权益法持股比例(按转换后口径·约数),25,%,an investment accounted for under the equity method that represents an approximate 25% interest on an as-converted basis
+FY2026 来自 OpenAI 的收入(含分成),24100,百万美元,"revenue from commercial arrangements with OpenAI, inclusive of revenue-sharing payments"
+应收 OpenAI 账款(2026-06-30),6000,百万美元,"accounts receivable from OpenAI as of June 30, 2026"
+出资承诺合计,13000,百万美元,total funding commitments
+已出资(2026-06-30),11900,百万美元,of which has been funded

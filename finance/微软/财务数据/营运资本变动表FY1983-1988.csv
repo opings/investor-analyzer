@@ -1,0 +1,29 @@
+# 单位: 百万美元(千美元来源·保留 3 位小数) | Statements of Changes in Financial Position（营运资本口径·SFAS 95 之前）| ⚠️ 不是现金流量表：「经营提供」= 净利+折旧(营运资本口径)、不扣营运资本占用 | FY1983-1985 取招股书、FY1986-1988 取各自年报 | 资本开支一行可与 现金流量表.csv 的资本开支衔接(口径近似)
+科目,FY1983,FY1984,FY1985,FY1986,FY1987,FY1988
+数据来源,招股书自身,招股书自身,招股书自身,S1986自身,S1987自身,S1988自身
+净利润 Net income,6.487,15.88,24.101,39.254,71.878,123.908
+折旧(及摊销) Depreciation (and amortization),1.007,2.068,3.462,5.754,7.551,16.035
+其他(经营段) Other (operations),1.19,-0.684,0.083,,,
+经营提供营运资本合计 Total from operations,8.684,17.264,27.646,45.008,79.429,139.943
+发行普通股 Common stock issued,,0.591,0.368,46.279,1.066,1.682
+股票期权税收利益 Income tax benefit related to stock options,,,,,24.348,11.554
+长期借款/义务 Long-term borrowings / obligations,,0.848,,1.879,0.126,
+营运资本来源合计 Total working capital provided,8.684,18.703,28.014,93.166,104.969,153.179
+固定资产增加(资本开支) Additions to property and equipment,3.23,5.837,6.576,14.108,58.017,71.642
+购入知识产权 Acquisition of intellectual property rights,,,,,,12.427
+偿还长期债务 Reduction of long-term debt,,0.413,0.436,,,
+股东借款净额 Loans to stockholders—net,-0.159,0.534,0.213,0.589,-0.632,
+购买库存股 Purchase of treasury stock,0.732,,,,,
+外币折算调整 Translation adjustment,-0.011,0.072,0.602,0.052,-1.849,0.751
+其他(运用段) Other (used),0.245,0.341,0.203,1.407,1.527,4.885
+营运资本运用合计 Total working capital used,4.037,7.197,8.03,16.156,57.063,89.705
+营运资本增加 Increase in working capital,4.647,11.506,19.984,77.01,47.906,63.474
+Δ现金及短期投资 Cash and short-term investments,0.015,0.053,15.666,83.728,29.808,50.741
+Δ应收账款 Accounts receivable,5.789,13.518,1.707,9.226,20.632,38.471
+Δ存货 Inventories,1.341,5.225,-3.851,2.089,8.547,36.987
+Δ其他流动资产 Other current assets,0.089,0.438,0.597,0.871,6.035,6.147
+Δ流动负债(增加为负) Current liabilities—(increase) decrease,-2.587,-7.728,5.865,-18.904,-17.116,
+  其中Δ应付账款 Accounts payable,,,,,,-22.586
+  其中Δ应付票据 Notes payable,,,,,,-15.087
+  其中Δ应交所得税 Income taxes payable,,,,,,-13.834
+  其中Δ其他流动负债 Other current liabilities,,,,,,-17.365

@@ -1,0 +1,930 @@
+{
+ "key": "2009",
+ "statements": {
+  "IS": {
+   "scale": 1.0,
+   "years": [
+    2009,
+    2008,
+    2007
+   ],
+   "rows": [
+    {
+     "label": "(In millions, except per share amounts)",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Year Ended June 30,",
+     "vals": [
+      null,
+      2007.0,
+      null
+     ]
+    },
+    {
+     "label": "Revenue",
+     "vals": [
+      58437.0,
+      60420.0,
+      51122.0
+     ]
+    },
+    {
+     "label": "Operating expenses:",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Cost of revenue",
+     "vals": [
+      12155.0,
+      11598.0,
+      10693.0
+     ]
+    },
+    {
+     "label": "Research and development",
+     "vals": [
+      9010.0,
+      8164.0,
+      7121.0
+     ]
+    },
+    {
+     "label": "Sales and marketing",
+     "vals": [
+      12879.0,
+      13260.0,
+      11541.0
+     ]
+    },
+    {
+     "label": "General and administrative",
+     "vals": [
+      3700.0,
+      5127.0,
+      3329.0
+     ]
+    },
+    {
+     "label": "Employee severance",
+     "vals": [
+      330.0,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Total operating expenses",
+     "vals": [
+      38074.0,
+      38149.0,
+      32684.0
+     ]
+    },
+    {
+     "label": "Operating income",
+     "vals": [
+      20363.0,
+      22271.0,
+      18438.0
+     ]
+    },
+    {
+     "label": "Other income (expense)",
+     "vals": [
+      -542.0,
+      1543.0,
+      1663.0
+     ]
+    },
+    {
+     "label": "Income before income taxes",
+     "vals": [
+      19821.0,
+      23814.0,
+      20101.0
+     ]
+    },
+    {
+     "label": "Provision for income taxes",
+     "vals": [
+      5252.0,
+      6133.0,
+      6036.0
+     ]
+    },
+    {
+     "label": "Net income",
+     "vals": [
+      14569.0,
+      17681.0,
+      14065.0
+     ]
+    },
+    {
+     "label": "Earnings per share:",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Basic",
+     "vals": [
+      1.63,
+      1.9,
+      1.44
+     ]
+    },
+    {
+     "label": "Diluted",
+     "vals": [
+      1.62,
+      1.87,
+      1.42
+     ]
+    },
+    {
+     "label": "Weighted average shares outstanding:",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Basic",
+     "vals": [
+      8945.0,
+      9328.0,
+      9742.0
+     ]
+    },
+    {
+     "label": "Diluted",
+     "vals": [
+      8996.0,
+      9470.0,
+      9886.0
+     ]
+    },
+    {
+     "label": "Cash dividends declared per common share",
+     "vals": [
+      0.52,
+      0.44,
+      0.4
+     ]
+    }
+   ],
+   "src": "htm"
+  },
+  "BS": {
+   "scale": 1.0,
+   "years": [
+    2009,
+    2008
+   ],
+   "rows": [
+    {
+     "label": "(In millions)",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "June 30,",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Assets",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Current assets:",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Cash and cash equivalents",
+     "vals": [
+      6076.0,
+      10339.0
+     ]
+    },
+    {
+     "label": "Short-term investments (including securities pledged as collateral of $1,540 and $2,491)",
+     "vals": [
+      25371.0,
+      13323.0
+     ]
+    },
+    {
+     "label": "Total cash, cash equivalents, and short-term investments",
+     "vals": [
+      31447.0,
+      23662.0
+     ]
+    },
+    {
+     "label": "Accounts receivable, net of allowance for doubtful accounts of $451 and $153",
+     "vals": [
+      11192.0,
+      13589.0
+     ]
+    },
+    {
+     "label": "Inventories",
+     "vals": [
+      717.0,
+      985.0
+     ]
+    },
+    {
+     "label": "Deferred income taxes",
+     "vals": [
+      2213.0,
+      2017.0
+     ]
+    },
+    {
+     "label": "Other",
+     "vals": [
+      3711.0,
+      2989.0
+     ]
+    },
+    {
+     "label": "Total current assets",
+     "vals": [
+      49280.0,
+      43242.0
+     ]
+    },
+    {
+     "label": "Property and equipment, net of accumulated depreciation of $7,547 and $6,302",
+     "vals": [
+      7535.0,
+      6242.0
+     ]
+    },
+    {
+     "label": "Equity and other investments",
+     "vals": [
+      4933.0,
+      6588.0
+     ]
+    },
+    {
+     "label": "Goodwill",
+     "vals": [
+      12503.0,
+      12108.0
+     ]
+    },
+    {
+     "label": "Intangible assets, net",
+     "vals": [
+      1759.0,
+      1973.0
+     ]
+    },
+    {
+     "label": "Deferred income taxes",
+     "vals": [
+      279.0,
+      949.0
+     ]
+    },
+    {
+     "label": "Other long-term assets",
+     "vals": [
+      1599.0,
+      1691.0
+     ]
+    },
+    {
+     "label": "Total assets",
+     "vals": [
+      77888.0,
+      72793.0
+     ]
+    },
+    {
+     "label": "Liabilities and stockholders’ equity",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Current liabilities:",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Accounts payable",
+     "vals": [
+      3324.0,
+      4034.0
+     ]
+    },
+    {
+     "label": "Short-term debt",
+     "vals": [
+      2000.0,
+      null
+     ]
+    },
+    {
+     "label": "Accrued compensation",
+     "vals": [
+      3156.0,
+      2934.0
+     ]
+    },
+    {
+     "label": "Income taxes",
+     "vals": [
+      725.0,
+      3248.0
+     ]
+    },
+    {
+     "label": "Short-term unearned revenue",
+     "vals": [
+      13003.0,
+      13397.0
+     ]
+    },
+    {
+     "label": "Securities lending payable",
+     "vals": [
+      1684.0,
+      2614.0
+     ]
+    },
+    {
+     "label": "Other",
+     "vals": [
+      3142.0,
+      3659.0
+     ]
+    },
+    {
+     "label": "Total current liabilities",
+     "vals": [
+      27034.0,
+      29886.0
+     ]
+    },
+    {
+     "label": "Long-term debt",
+     "vals": [
+      3746.0,
+      null
+     ]
+    },
+    {
+     "label": "Long-term unearned revenue",
+     "vals": [
+      1281.0,
+      1900.0
+     ]
+    },
+    {
+     "label": "Other long-term liabilities",
+     "vals": [
+      6269.0,
+      4721.0
+     ]
+    },
+    {
+     "label": "Commitments and contingencies",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Stockholders’ equity:",
+     "vals": [
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Common stock and paid-in capital – shares authorized 24,000; outstanding 8,908 and 9,151",
+     "vals": [
+      62382.0,
+      62849.0
+     ]
+    },
+    {
+     "label": "Retained deficit, including accumulated other comprehensive income of $969 and $1,140",
+     "vals": [
+      -22824.0,
+      -26563.0
+     ]
+    },
+    {
+     "label": "Total stockholders’ equity",
+     "vals": [
+      39558.0,
+      36286.0
+     ]
+    },
+    {
+     "label": "Total liabilities and stockholders’ equity",
+     "vals": [
+      77888.0,
+      72793.0
+     ]
+    }
+   ],
+   "src": "htm"
+  },
+  "CF": {
+   "scale": 1.0,
+   "years": [
+    2009,
+    2008,
+    2007
+   ],
+   "rows": [
+    {
+     "label": "(In millions)",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Year Ended June 30,",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Operations",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Net income",
+     "vals": [
+      14569.0,
+      17681.0,
+      14065.0
+     ]
+    },
+    {
+     "label": "Adjustments to reconcile net income to net cash from operations:",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Depreciation, amortization, and other noncash items",
+     "vals": [
+      2562.0,
+      2056.0,
+      1440.0
+     ]
+    },
+    {
+     "label": "Stock-based compensation",
+     "vals": [
+      1708.0,
+      1479.0,
+      1550.0
+     ]
+    },
+    {
+     "label": "Net recognized losses (gains) on investments and derivatives",
+     "vals": [
+      683.0,
+      -572.0,
+      -292.0
+     ]
+    },
+    {
+     "label": "Excess tax benefits from stock-based compensation",
+     "vals": [
+      -52.0,
+      -120.0,
+      -77.0
+     ]
+    },
+    {
+     "label": "Deferred income taxes",
+     "vals": [
+      762.0,
+      935.0,
+      421.0
+     ]
+    },
+    {
+     "label": "Deferral of unearned revenue",
+     "vals": [
+      24409.0,
+      24532.0,
+      21032.0
+     ]
+    },
+    {
+     "label": "Recognition of unearned revenue",
+     "vals": [
+      -25426.0,
+      -21944.0,
+      -19382.0
+     ]
+    },
+    {
+     "label": "Changes in operating assets and liabilities:",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Accounts receivable",
+     "vals": [
+      2215.0,
+      -1569.0,
+      -1764.0
+     ]
+    },
+    {
+     "label": "Other current assets",
+     "vals": [
+      -422.0,
+      153.0,
+      232.0
+     ]
+    },
+    {
+     "label": "Other long-term assets",
+     "vals": [
+      -273.0,
+      -98.0,
+      -435.0
+     ]
+    },
+    {
+     "label": "Other current liabilities",
+     "vals": [
+      -3371.0,
+      -748.0,
+      -552.0
+     ]
+    },
+    {
+     "label": "Other long-term liabilities",
+     "vals": [
+      1673.0,
+      -173.0,
+      1558.0
+     ]
+    },
+    {
+     "label": "Net cash from operations",
+     "vals": [
+      19037.0,
+      21612.0,
+      17796.0
+     ]
+    },
+    {
+     "label": "Financing",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Short-term borrowings, maturities of 90 days or less, net",
+     "vals": [
+      1178.0,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Proceeds from issuance of debt, maturities longer than 90 days",
+     "vals": [
+      4796.0,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Repayments of debt, maturities longer than 90 days",
+     "vals": [
+      -228.0,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Common stock issued",
+     "vals": [
+      579.0,
+      3494.0,
+      6782.0
+     ]
+    },
+    {
+     "label": "Common stock repurchased",
+     "vals": [
+      -9353.0,
+      -12533.0,
+      -27575.0
+     ]
+    },
+    {
+     "label": "Common stock cash dividends",
+     "vals": [
+      -4468.0,
+      -4015.0,
+      -3805.0
+     ]
+    },
+    {
+     "label": "Excess tax benefits from stock-based compensation",
+     "vals": [
+      52.0,
+      120.0,
+      77.0
+     ]
+    },
+    {
+     "label": "Other",
+     "vals": [
+      -19.0,
+      null,
+      -23.0
+     ]
+    },
+    {
+     "label": "Net cash used in financing",
+     "vals": [
+      -7463.0,
+      -12934.0,
+      -24544.0
+     ]
+    },
+    {
+     "label": "Investing",
+     "vals": [
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Additions to property and equipment",
+     "vals": [
+      -3119.0,
+      -3182.0,
+      -2264.0
+     ]
+    },
+    {
+     "label": "Acquisition of companies, net of cash acquired",
+     "vals": [
+      -868.0,
+      -8053.0,
+      -1150.0
+     ]
+    },
+    {
+     "label": "Purchases of investments",
+     "vals": [
+      -36850.0,
+      -20954.0,
+      -36308.0
+     ]
+    },
+    {
+     "label": "Maturities of investments",
+     "vals": [
+      6191.0,
+      2597.0,
+      4736.0
+     ]
+    },
+    {
+     "label": "Sales of investments",
+     "vals": [
+      19806.0,
+      25132.0,
+      41451.0
+     ]
+    },
+    {
+     "label": "Securities lending payable",
+     "vals": [
+      -930.0,
+      -127.0,
+      -376.0
+     ]
+    },
+    {
+     "label": "Net cash from (used in) investing",
+     "vals": [
+      -15770.0,
+      -4587.0,
+      6089.0
+     ]
+    },
+    {
+     "label": "Effect of exchange rates on cash and cash equivalents",
+     "vals": [
+      -67.0,
+      137.0,
+      56.0
+     ]
+    },
+    {
+     "label": "Net change in cash and cash equivalents",
+     "vals": [
+      -4263.0,
+      4228.0,
+      -603.0
+     ]
+    },
+    {
+     "label": "Cash and cash equivalents, beginning of period",
+     "vals": [
+      10339.0,
+      6111.0,
+      6714.0
+     ]
+    },
+    {
+     "label": "Cash and cash equivalents, end of period",
+     "vals": [
+      6076.0,
+      10339.0,
+      6111.0
+     ]
+    }
+   ],
+   "src": "htm"
+  },
+  "SUM": {
+   "scale": 1.0,
+   "years": [
+    2009,
+    2008,
+    2007,
+    2006,
+    2005
+   ],
+   "rows": [
+    {
+     "label": "(In millions, except per share data)",
+     "vals": [
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Fiscal Year Ended June 30,",
+     "vals": [
+      null,
+      2007.0,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Revenue",
+     "vals": [
+      58437.0,
+      60420.0,
+      51122.0,
+      44282.0,
+      39788.0
+     ]
+    },
+    {
+     "label": "Operating income",
+     "vals": [
+      20363.0,
+      22271.0,
+      18438.0,
+      16380.0,
+      14576.0
+     ]
+    },
+    {
+     "label": "Net income",
+     "vals": [
+      14569.0,
+      17681.0,
+      14065.0,
+      12599.0,
+      12254.0
+     ]
+    },
+    {
+     "label": "Diluted earnings per share",
+     "vals": [
+      1.62,
+      1.87,
+      1.42,
+      1.2,
+      1.12
+     ]
+    },
+    {
+     "label": "Cash dividends declared per share",
+     "vals": [
+      0.52,
+      0.44,
+      0.4,
+      0.35,
+      3.4
+     ]
+    },
+    {
+     "label": "Cash and cash equivalents and short-term investments",
+     "vals": [
+      31447.0,
+      23662.0,
+      23411.0,
+      34161.0,
+      37751.0
+     ]
+    },
+    {
+     "label": "Total assets",
+     "vals": [
+      77888.0,
+      72793.0,
+      63171.0,
+      69597.0,
+      70815.0
+     ]
+    },
+    {
+     "label": "Long-term obligations",
+     "vals": [
+      11296.0,
+      6621.0,
+      8320.0,
+      7051.0,
+      5823.0
+     ]
+    },
+    {
+     "label": "Stockholders’ equity",
+     "vals": [
+      39558.0,
+      36286.0,
+      31097.0,
+      40104.0,
+      48115.0
+     ]
+    }
+   ],
+   "src": "htm"
+  }
+ }
+}
