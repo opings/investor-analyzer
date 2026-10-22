@@ -1,4 +1,4 @@
-"# 单位: 百万美元(USD millions), 费用/流出=负数; 真源: report/google/2026-Q2.htm (10-Q · accession 0001652044-26-000071 · filed 2026-07-23); 中期数据·不并入年度序列(年度见 利润表/资产负债表/现金流量表.csv 覆盖2002-2025); 勾稽校验见 _build_interim_2026.py; 英文缩写全对照见 finance/_模板/美股财报缩写对照表.md —— OI&E=其他收入(支出)净额(主业之外全部损益·含股权公允价值变动) / EPS=每股收益 / FCF=自由现金流(经营现金流-资本开支) / capex=资本开支 / SBC=股权薪酬 / APIC=资本公积 / AOCI=累计其他综合收益 / ATM=随行就市增发计划(非自动柜员机) / capped call=上限看涨期权(对冲转股摊薄) / Level 1=活跃市场报价·Level 2=可观察输入值"
+"# 单位: 百万美元(USD millions), 费用/流出=负数; 真源: report/google/2026-Q2.htm (10-Q · accession 0001652044-26-000071 · filed 2026-07-23); 中期数据·不并入年度序列(年度见 利润表/资产负债表/现金流量表.csv 覆盖1999-2025); 勾稽校验见 _build_interim_2026.py; 英文缩写全对照见 finance/_模板/美股财报缩写对照表.md —— OI&E=其他收入(支出)净额(主业之外全部损益·含股权公允价值变动) / EPS=每股收益 / FCF=自由现金流(经营现金流-资本开支) / capex=资本开支 / SBC=股权薪酬 / APIC=资本公积 / AOCI=累计其他综合收益 / ATM=随行就市增发计划(非自动柜员机) / capped call=上限看涨期权(对冲转股摊薄) / Level 1=活跃市场报价·Level 2=可观察输入值"
 
 【利润表·中期】,Q2 2025,Q2 2026,H1 2025,H1 2026
 收益 Revenues,96428,119796,186662,229692
@@ -26,6 +26,23 @@
 权益法投资损益 Equity method net,419,-35,397,25
 其他 Other,72,-973,456,-1115
 =OI&E 合计,2662,97983,13845,135699
+
+【股权证券损益拆分·Note 3】,Q2 2025,Q2 2026,H1 2025,H1 2026
+非上市(计量替代法)未实现收益·毛额 Gross unrealized gain,670,77544,10374,114161
+非上市(计量替代法)未实现损失(含减值) Gross unrealized loss,-454,-190,-853,-582
+"=非上市(计量替代法)未实现净收益 Unrealized net, non-marketable",216,77354,9521,113579
+"上市及其他股权未实现净收益 Unrealized net, marketable and other",853,21399,1088,21531
+已出售股权的已实现净收益 Realized net,217,278,435,836
+=股权证券损益合计 Total gain(loss) on equity securities,1286,99031,11044,135946
+
+【计量替代法非上市股权账面构成·Note 3】,2025-12-31,2026-06-30
+初始成本 Total initial cost,28429,47642
+累计向上调整 Cumulative upward adjustments,44485,85732
+累计向下调整(含减值) Cumulative downward adjustments,-8820,-9115
+=计量替代法账面价值 Carrying value (measurement alternative),64094,124259
+权益法投资及其他 Equity method investments and other,4593,7202
+=非上市证券合计 Total non-marketable securities,68687,131461
+累计向上调整÷账面价值(账面中「重估出来」的部分),69.4%,69.0%
 
 【资产负债表】,2025-12-31,2026-06-30
 现金及现金等价物 Cash and equivalents,30708,55911
@@ -107,8 +124,10 @@ Google Services 经营利润率,40.1%,41.8%,Services经营利润÷Services收入
 有效税率 Effective tax rate,16.9%,19.1%,所得税÷除税前利润
 OI&E占除税前利润 OI&E/pretax,7.8%,70.6%,OI&E÷除税前利润（口径污染度）
 核心稀释EPS(估) core diluted EPS (USD),2.13,2.68,经营利润×(1-有效税率)÷稀释股数·剔除OI&E股权重估·【推】非申报口径
+核心稀释EPS(估·按去年同期有效税率) core diluted EPS @prior-year tax rate,2.13,2.75,"敏感性对照:Q2'26 有效税率被未实现收益的递延税抬高(10-Q 原文),改用 Q2'25 税率;核心 EPS 同比在两行之间"
 报告稀释EPS reported diluted EPS (USD),2.31,9.11,10-Q 申报值
-单季自由现金流 quarterly FCF,24254(H1口径),-5824,"Q2'26 = 单季OCF $39.1B(MD&A) − 单季capex $44,924M(8-K)"
+单季自由现金流 quarterly FCF,5301,-5855,"单季 = (H1 OCF − Q1 OCF) − (H1 capex − Q1 capex);Q1 取 2026Q1 10-Q 两列。旧版 Q2'25 格误填 H1 数(24,254)、Q2'26 用 MD&A 舍入的 $39.1B(得 −5,824),均已改为精确单季"
+单季经营现金流÷单季经营利润 quarterly OCF/OI,0.89,0.96,单季 OCF ÷ 单季经营利润(H1 口径另见下方 H1 行)
 H1自由现金流 H1 FCF,24254,4261,H1经营现金流 − H1资本开支
 H1 FCF÷经营现金流,38.0%,5.0%,FCF÷OCF
 H1 capex÷经营现金流,62.0%,95.0%,资本开支÷经营现金流
@@ -116,7 +135,8 @@ H1 capex÷折旧,4.18x,5.93x,资本开支÷当期折旧（未来折旧台阶指�
 净现金(含受限股权) gross net cash,80296(2025末),144309,(现金+有价证券)−长期债务
 净现金(剔上市股权证券) liquid net cash,73983(2025末),57246,(现金+有价证券−上市股权证券)−长期债务·剔除受限SpaceX后可动用口径
 商誉÷总资产 Goodwill/assets,5.6%(2025末),6.3%,商誉÷总资产
-应收÷收入(年化) AR/revenue,15.6%(2025末/FY25),15.1%,应收账款÷年化收入
+应收÷收入(年化) AR/revenue,14.7%(2025-06-30),15.1%,"期末应收÷(H1收入×2)·两端同轴;旧版左格用 2025 年末应收÷FY25 全年收入(15.6%),与右格不同轴"
+应收同比 vs 收入同比 AR YoY vs revenue YoY,应收 +25.7%,H1收入 +23.1%,"应收:2026-06-30 vs 2025-06-30(2025Q2 10-Q 原表 55,048);收入:H1 同比。应收增速略快于收入"
 采购承诺÷总资产 commitments/assets,25.0%(2025末),88.0%,表外采购承诺÷总资产
 SBC÷收入 SBC/revenue (H1),6.2%,6.4%,H1股权薪酬÷H1收入
 
@@ -129,7 +149,7 @@ SpaceX持股合计 SpaceX total holding,94126
 公开增发净额 public offering (29M A@$355.1982 + 29M C@$351.8018),20500
 Berkshire私募净额 private placement (14M A + 14M C),10000
 强制可转优先股净额 mandatory convertible preferred,19000
-=股权融资合计 total equity raise,49600
+=股权融资合计 total equity raise,49562
 capped call溢价(冲减权益) capped call premium,1000
 ATM额度(截至6/30未动用) ATM Program authorized/unused,40000
 回购授权剩余 repurchase authorization remaining,69500
