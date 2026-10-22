@@ -7,7 +7,7 @@ Comparatives for 2025-12-31 / H1 2025 come from the same 10-Q's comparative colu
 (so both sides of every delta are one-hand from the same filing).
 
 设计原则（同 _build_from_xbrl.py）:
-  1. 中期数据**不并入年度序列** —— 年度 CSV 覆盖 2002-2025，本脚本只写 `中期财务-2026.csv`
+  1. 中期数据**不并入年度序列** —— 年度 CSV 覆盖 1999-2025，本脚本只写 `中期财务-2026.csv`
      等中期专属文件，避免年化/口径污染。
   2. 勾稽校验全部通过才写出 CSV；任一条不过 → 抛异常、不落盘。
   3. 派生指标标注算法，不与申报原值混列。
@@ -59,6 +59,26 @@ OIE = {
     "权益法投资损益 Equity method net": (419, -35, 397, 25),
     "其他 Other": (72, -973, 456, -1115),
     "=OI&E 合计": (2662, 97983, 13845, 135699),
+}
+
+# 股权证券损益拆分(Note 3「Gains and Losses on Equity Securities」原表)—— 键同 OIE。
+# 2026-10-22 补:旧版把收益笼统归为「SpaceX 与一家私营公司」,其实 Note 3 能拆出「非上市(计量替代法)」与「上市及其他」两块
+EQUITY_GAINS = {
+    "非上市(计量替代法)未实现收益·毛额 Gross unrealized gain": (670, 77544, 10374, 114161),
+    "非上市(计量替代法)未实现损失(含减值) Gross unrealized loss": (-454, -190, -853, -582),
+    "=非上市(计量替代法)未实现净收益 Unrealized net, non-marketable": (216, 77354, 9521, 113579),
+    "上市及其他股权未实现净收益 Unrealized net, marketable and other": (853, 21399, 1088, 21531),
+    "已出售股权的已实现净收益 Realized net": (217, 278, 435, 836),
+    "=股权证券损益合计 Total gain(loss) on equity securities": (1286, 99031, 11044, 135946),
+}
+# 计量替代法非上市股权账面构成(Note 3)—— 键: (2025-12-31, 2026-06-30);附注原文:期末主要为「一家私营公司」的投资
+NONMKT_CARRYING = {
+    "初始成本 Total initial cost": (28429, 47642),
+    "累计向上调整 Cumulative upward adjustments": (44485, 85732),
+    "累计向下调整(含减值) Cumulative downward adjustments": (-8820, -9115),
+    "=计量替代法账面价值 Carrying value (measurement alternative)": (64094, 124259),
+    "权益法投资及其他 Equity method investments and other": (4593, 7202),
+    "=非上市证券合计 Total non-marketable securities": (68687, 131461),
 }
 
 # 资产负债表 —— 键: (2025-12-31, 2026-06-30)
@@ -175,8 +195,22 @@ OFF_BALANCE = {
     "其中短期(12个月内) of which short-term": (113000, 200700),
     "收入储备合计 Revenue backlog": (242800, 519500),
     "其中Google Cloud of which Google Cloud": (None, 513900),
-    "未付capex(计入应付/预提) PP&E in AP & accrued": (10635, 29113),
+    # 2025-12-31 取 FY2025 10-K 现金流量表补充披露($15,090M);旧版误填 10,635 —— 那是 Q2 10-Q 同一行的
+    # 比较列(截至 2025-06-30),列日期标错致「半年变化」虚高为 +173.7%(实为 +92.9%;同比 2025-06-30 为 +173.7%)
+    "未付capex(计入应付/预提) PP&E in AP & accrued": (15090, 29113),
+    # 为第三方数据中心/电力设施提供的信用背书(最大潜在付款;FY2025 10-K 与 Q2 10-Q MD&A「Contractual Obligations」段原文)
+    # 违约时公司有权承接底层租约自用或转租(10-Q 原文);2026-10-22 补入(此前本库零覆盖)
+    "数据中心/能源信用背书·财务担保(最大潜在付款) Backstops: financial guarantees": (5700, 7600),
+    "数据中心/能源信用背书·信用衍生品(最大潜在付款) Backstops: credit derivatives": (16900, 43800),
+    "已签约、条款待敲定的未来信用背书(估计) Future backstops agreed": ("年报未披露·2026 年新签", 24100),
+    # 2026-03 签约时为 $10.0B 资本承诺 + $30.0B 里程碑出资(Q1 10-Q);6/30 余 $20.0B 里程碑出资(至 2030·按权益衍生品核算)
+    "对一家私营公司的里程碑式未来出资承诺(权益衍生品·至2030) Contingent capital funding": ("年报未披露·2026-03 新签", 20000),
 }
+
+# 单季推算用的 Q1 值(2026Q1 10-Q 现金流量表两列:Q1'25 / Q1'26)与同轴应收(2025Q2 10-Q 资产负债表)
+Q1_OCF = (36150, 45790)
+Q1_CAPEX = (17197, 35674)
+AR_2025_06_30 = 55048
 
 # 单项一手事实（非三表行项，供分析层引用）
 FACTS = {
@@ -188,7 +222,7 @@ FACTS = {
     "公开增发净额 public offering (29M A@$355.1982 + 29M C@$351.8018)": 20500,
     "Berkshire私募净额 private placement (14M A + 14M C)": 10000,
     "强制可转优先股净额 mandatory convertible preferred": 19000,
-    "=股权融资合计 total equity raise": 49600,
+    "=股权融资合计 total equity raise": 49562,   # 现金流量表精确值 30,499 + 19,063(10-Q 文字为「$49.6B」舍入)
     "capped call溢价(冲减权益) capped call premium": 1000,
     "ATM额度(截至6/30未动用) ATM Program authorized/unused": 40000,
     "回购授权剩余 repurchase authorization remaining": 69500,
@@ -452,20 +486,49 @@ def verify() -> None:
         -80598,
     )
     _check(
-        "H1'26 股权融资合计 ≈ 一手披露 $49.6B",
+        "Q2'26 单季 capex(H1 − Q1·10-Q 推算)= 8-K 披露 $44,924M",
+        -CASHFLOW["资本开支 Purchases of property and equipment"][1] - Q1_CAPEX[1],
+        44924,
+    )
+    _check(
+        "H1'26 股权融资合计 = 现金流量表(普通股 + 优先股)",
         CASHFLOW["发行普通股净额 Proceeds from issuance of common stock"][1]
         + CASHFLOW["发行强制可转优先股净额 Proceeds from preferred"][1],
         FACTS["=股权融资合计 total equity raise"],
-        tol=50,
     )
     _check(
-        "股权融资三笔明细合计 = $49.6B",
+        # 三笔明细取 Note 11 文字($20.5B / $10.0B / $19.0B,各舍入到 0.1B)→ 容差 = 3 × 50 百万
+        "股权融资三笔明细(Note 11 文字·各舍入 0.1B)≈ 现金流量表合计",
         FACTS["公开增发净额 public offering (29M A@$355.1982 + 29M C@$351.8018)"]
         + FACTS["Berkshire私募净额 private placement (14M A + 14M C)"]
         + FACTS["强制可转优先股净额 mandatory convertible preferred"],
         FACTS["=股权融资合计 total equity raise"],
-        tol=200,
+        tol=150,
     )
+    for i, per in enumerate(("Q2'25", "Q2'26", "H1'25", "H1'26")):
+        eg = {k: v[i] for k, v in EQUITY_GAINS.items()}
+        _check(f"{per} 非上市未实现 毛收益+毛损失=净额",
+               eg["非上市(计量替代法)未实现收益·毛额 Gross unrealized gain"]
+               + eg["非上市(计量替代法)未实现损失(含减值) Gross unrealized loss"],
+               eg["=非上市(计量替代法)未实现净收益 Unrealized net, non-marketable"])
+        _check(f"{per} 股权损益三块之和=合计",
+               eg["=非上市(计量替代法)未实现净收益 Unrealized net, non-marketable"]
+               + eg["上市及其他股权未实现净收益 Unrealized net, marketable and other"]
+               + eg["已出售股权的已实现净收益 Realized net"],
+               eg["=股权证券损益合计 Total gain(loss) on equity securities"])
+        _check(f"{per} Note 3 股权损益合计 = OI&E 拆解行",
+               eg["=股权证券损益合计 Total gain(loss) on equity securities"],
+               OIE["股权证券损益 Gain(loss) on equity securities"][i])
+    for j, per in enumerate(("2025-12-31", "2026-06-30")):
+        nc = {k: v[j] for k, v in NONMKT_CARRYING.items()}
+        _check(f"{per} 计量替代法账面 = 成本+向上−向下",
+               nc["初始成本 Total initial cost"] + nc["累计向上调整 Cumulative upward adjustments"]
+               + nc["累计向下调整(含减值) Cumulative downward adjustments"],
+               nc["=计量替代法账面价值 Carrying value (measurement alternative)"])
+        _check(f"{per} 非上市证券合计 = 资产负债表",
+               nc["=计量替代法账面价值 Carrying value (measurement alternative)"]
+               + nc["权益法投资及其他 Equity method investments and other"],
+               BALANCE["非上市证券 Non-marketable securities"][j])
     _check(
         "SpaceX 两段限售合计",
         FACTS["SpaceX持股-短期限售 (Level 1=活跃市场报价·计入有价证券)"]
@@ -493,8 +556,13 @@ def derived() -> dict[str, tuple[str, str, str]]:
     # 核心口径 EPS = 经营利润 × (1 - 有效税率) ÷ 稀释股数（剔除 OI&E 股权重估）
     core_25 = 31271 * (1 - q2_25_tax_rate)
     core_26 = 40770 * (1 - q2_26_tax_rate)
+    # 敏感性:Q2'26 有效税率被「未实现收益按法定税率计提的递延税」抬高(10-Q 原文归因),改用去年同期税率对照
+    core_26_same_rate = 40770 * (1 - q2_25_tax_rate)
     shares_25 = 28196 / 2.31
     shares_26 = 112107 / 9.11
+    # 单季现金流 = H1 − Q1(Q1 两列取 2026Q1 10-Q:OCF 36,150 / 45,790;capex 17,197 / 35,674)
+    q2_ocf_25, q2_ocf_26 = 63897 - Q1_OCF[0], 84859 - Q1_OCF[1]
+    q2_capex_25, q2_capex_26 = 39643 - Q1_CAPEX[0], 80598 - Q1_CAPEX[1]
     # 净现金两口径
     net_cash_gross_25 = 126843 - 46547
     net_cash_gross_26 = 242474 - 98165
@@ -527,12 +595,21 @@ def derived() -> dict[str, tuple[str, str, str]]:
             f"{core_25 / shares_25:.2f}", f"{core_26 / shares_26:.2f}",
             "经营利润×(1-有效税率)÷稀释股数·剔除OI&E股权重估·【推】非申报口径",
         ),
+        "核心稀释EPS(估·按去年同期有效税率) core diluted EPS @prior-year tax rate": (
+            f"{core_25 / shares_25:.2f}", f"{core_26_same_rate / shares_26:.2f}",
+            "敏感性对照:Q2'26 有效税率被未实现收益的递延税抬高(10-Q 原文),改用 Q2'25 税率;核心 EPS 同比在两行之间",
+        ),
         "报告稀释EPS reported diluted EPS (USD)": (
             "2.31", "9.11", "10-Q 申报值",
         ),
         "单季自由现金流 quarterly FCF": (
-            f"{(63897 - 39643) - 0:.0f}(H1口径)", f"{39100 - 44924:.0f}",
-            "Q2'26 = 单季OCF $39.1B(MD&A) − 单季capex $44,924M(8-K)",
+            f"{q2_ocf_25 - q2_capex_25:.0f}", f"{q2_ocf_26 - q2_capex_26:.0f}",
+            "单季 = (H1 OCF − Q1 OCF) − (H1 capex − Q1 capex);Q1 取 2026Q1 10-Q 两列。"
+            "旧版 Q2'25 格误填 H1 数(24,254)、Q2'26 用 MD&A 舍入的 $39.1B(得 −5,824),均已改为精确单季",
+        ),
+        "单季经营现金流÷单季经营利润 quarterly OCF/OI": (
+            f"{q2_ocf_25 / 31271:.2f}", f"{q2_ocf_26 / 40770:.2f}",
+            "单季 OCF ÷ 单季经营利润(H1 口径另见下方 H1 行)",
         ),
         "H1自由现金流 H1 FCF": (
             f"{63897 - 39643:.0f}", f"{84859 - 80598:.0f}",
@@ -563,8 +640,12 @@ def derived() -> dict[str, tuple[str, str, str]]:
             "商誉÷总资产",
         ),
         "应收÷收入(年化) AR/revenue": (
-            f"{62886 / 402836:.1%}(2025末/FY25)", f"{69175 / (229692 * 2):.1%}",
-            "应收账款÷年化收入",
+            f"{AR_2025_06_30 / (186662 * 2):.1%}(2025-06-30)", f"{69175 / (229692 * 2):.1%}",
+            "期末应收÷(H1收入×2)·两端同轴;旧版左格用 2025 年末应收÷FY25 全年收入(15.6%),与右格不同轴",
+        ),
+        "应收同比 vs 收入同比 AR YoY vs revenue YoY": (
+            f"应收 {69175 / AR_2025_06_30 - 1:+.1%}", f"H1收入 {229692 / 186662 - 1:+.1%}",
+            "应收:2026-06-30 vs 2025-06-30(2025Q2 10-Q 原表 55,048);收入:H1 同比。应收增速略快于收入",
         ),
         "采购承诺÷总资产 commitments/assets": (
             f"{149100 / 595281:.1%}(2025末)", f"{811000 / 921983:.1%}",
@@ -585,7 +666,7 @@ def write_csvs() -> list[str]:
         w = csv.writer(fh)
         w.writerow([
             f"# 单位: 百万美元(USD millions), 费用/流出=负数; 真源: {SRC}; "
-            "中期数据·不并入年度序列(年度见 利润表/资产负债表/现金流量表.csv 覆盖2002-2025); "
+            "中期数据·不并入年度序列(年度见 利润表/资产负债表/现金流量表.csv 覆盖1999-2025); "
             "勾稽校验见 _build_interim_2026.py; "
             "英文缩写全对照见 finance/_模板/美股财报缩写对照表.md —— "
             "OI&E=其他收入(支出)净额(主业之外全部损益·含股权公允价值变动) / EPS=每股收益 / "
@@ -603,6 +684,16 @@ def write_csvs() -> list[str]:
         w.writerow(["【OI&E 拆解·中期】", "Q2 2025", "Q2 2026", "H1 2025", "H1 2026"])
         for k, v in OIE.items():
             w.writerow([k, *v])
+        w.writerow([])
+        w.writerow(["【股权证券损益拆分·Note 3】", "Q2 2025", "Q2 2026", "H1 2025", "H1 2026"])
+        for k, v in EQUITY_GAINS.items():
+            w.writerow([k, *v])
+        w.writerow([])
+        w.writerow(["【计量替代法非上市股权账面构成·Note 3】", "2025-12-31", "2026-06-30"])
+        for k, v in NONMKT_CARRYING.items():
+            w.writerow([k, *v])
+        w.writerow(["累计向上调整÷账面价值(账面中「重估出来」的部分)",
+                    f"{44485 / 64094:.1%}", f"{85732 / 124259:.1%}"])
         w.writerow([])
         w.writerow(["【资产负债表】", "2025-12-31", "2026-06-30"])
         for k, v in BALANCE.items():
@@ -657,7 +748,9 @@ def write_csvs() -> list[str]:
         w.writerow([
             "# 单位: 百万美元(USD millions); 真源: FY2025 10-K=美股年报 (report/google/2025.htm) + "
             f"{SRC}; ⚠️收入储备(revenue backlog=已签约未确认收入)口径2026Q1起变更"
-            "(纳入原始期限≤1年合同)→同比不完全可比; "
+            "(纳入原始期限≤1年合同)→同比不完全可比;但量级小:2026Q1 10-Q 披露截至 2026-03-31 该部分约 $7.3B,"
+            "远小于半年增量(6/30 时点该部分未披露); "
+            "未付capex 2025-12-31 取 FY2025 10-K(15,090),2026-06-30 取 Q2 10-Q;同比对照 2025-06-30 为 10,635; "
             "缩写: capex=资本开支 / take-or-pay=照付不议(不用也得付) "
             "(全对照见 finance/_模板/美股财报缩写对照表.md)"
         ])
@@ -666,6 +759,8 @@ def write_csvs() -> list[str]:
         for k, v in OFF_BALANCE.items():
             if v[0] is None:
                 w.writerow([k, "未单独披露", v[1], "n/a"])
+            elif isinstance(v[0], str):
+                w.writerow([k, v[0], v[1], "n/a"])
             else:
                 w.writerow([k, v[0], v[1], f"{(v[1] / v[0] - 1):+.1%}"])
     written.append(path)
