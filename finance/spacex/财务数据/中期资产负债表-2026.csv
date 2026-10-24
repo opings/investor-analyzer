@@ -1,29 +1,35 @@
-# 单位: 百万美元(USD millions); 时点数; 来源: 10-Q(2026-08-04)
-科目,2025-12-31,2026-06-30
-货币资金 Cash and cash equivalents,24747,93522
-金融资产 Marketable securities,0,6487
-应收账款净额 Accounts receivable net,1579,3596
-存货 Inventory,2416,2718
-预付及其他流动资产 Prepaid and other current,2210,1724
-流动资产合计 Total current assets,30952,108047
-固定资产净额 PP&E net,42602,65736
-融资租赁使用权资产 Finance lease ROU,1260,1118
-无形资产净额 Intangible assets net,1548,1318
-数字资产 Digital assets,1637,1098
-商誉 Goodwill,11809,11645
-递延所得税资产 Deferred tax assets,141,354
-其他资产 Other assets,2130,3454
-资产总计 Total assets,92079,192770
-应付账款 Accounts payable,11792,8243
-合同负债-流动 Deferred revenue current,6111,7977
-有息负债及租赁-流动 Debt and leases current,928,2525
-应计及其他流动负债 Accrued and other current,2569,2377
-流动负债合计 Total current liabilities,21400,21122
-合同负债-非流动 Deferred revenue non-current,6005,6309
-有息负债及租赁-非流动 Debt and leases non-current,21968,36839
-其他非流动负债 Other liabilities,1381,1276
-负债合计 Total liabilities,50754,65546
-可赎回可转换优先股 Redeemable convertible preferred,38752,0
-股东权益合计 Total shareholders' equity,2573,127224
-"负债+优先股+权益 Total L, RCPS and equity",92079,192770
-其中:关联方有息负债 Related-party debt (incl.),4507,13329
+"# 单位: 百万美元(USD millions), 股数=百万股; 时点数; 来源: Q2 10-Q(2026-08-04)·Q3 10-Q(2026-10-22); 受限现金 = 预付及其他流动资产 + 其他资产中的受限现金(与现金流量表期末口径衔接); 分部商誉取两份 10-Q Note 6 正文(Space 分部无商誉); 2026 前三季商誉变动 = 企业合并 36,807 (Cursor 36,646 + Mesh Optical 158 + 其他 3·10-Q 未拆) + 汇兑 −193, 无减值"
+科目,2025-12-31,2026-06-30,2026-09-30
+货币资金 Cash and cash equivalents,24747,93522,51294
+金融资产 Marketable securities,0,6487,38561
+应收账款净额 Accounts receivable net,1579,3596,4772
+存货 Inventory,2416,2718,2891
+预付及其他流动资产 Prepaid and other current,2210,1724,3457
+流动资产合计 Total current assets,30952,108047,100975
+固定资产净额 PP&E net,42602,65736,89483
+融资租赁使用权资产 Finance lease ROU,1260,1118,1040
+无形资产净额 Intangible assets net,1548,1318,6354
+数字资产 Digital assets,1637,1098,1573
+商誉 Goodwill,11809,11645,48423
+递延所得税资产 Deferred tax assets,141,354,388
+其他资产 Other assets,2130,3454,5809
+资产总计 Total assets,92079,192770,254045
+应付账款 Accounts payable,11792,8243,13259
+合同负债-流动 Deferred revenue current,6111,7977,10784
+有息负债及租赁-流动 Debt and leases current,928,2525,2698
+应计及其他流动负债 Accrued and other current,2569,2377,5997
+流动负债合计 Total current liabilities,21400,21122,32738
+合同负债-非流动 Deferred revenue non-current,6005,6309,6736
+有息负债及租赁-非流动 Debt and leases non-current,21968,36839,36146
+其他非流动负债 Other liabilities,1381,1276,1657
+负债合计 Total liabilities,50754,65546,77277
+可赎回可转换优先股 Redeemable convertible preferred,38752,0,0
+股东权益合计 Total shareholders' equity,2573,127224,176768
+"负债+优先股+权益 Total L, RCPS and equity",92079,192770,254045
+其中:关联方有息负债 Related-party debt (incl.),4507,13329,12897
+其中:受限现金(预付及其他流动+其他资产) Restricted cash,377,830,2092
+其中:商誉-Connectivity 分部 Goodwill-Connectivity,513,515,515
+其中:商誉-SI 分部(原 AI) Goodwill-SI,11296,11130,47908
+A 类普通股流通股数(百万股) Class A shares outstanding,1952,7607,8240
+B 类普通股流通股数(百万股) Class B shares outstanding,644,5569,5339
+C 类普通股流通股数(百万股) Class C shares outstanding(IPO 时并入 A 类),482,0,0
