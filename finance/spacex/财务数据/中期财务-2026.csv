@@ -1,32 +1,56 @@
-"# 单位: 百万美元(USD millions), 费用/减项=负数; 来源: 10-Q(2026-08-04); IPO 于 2026-06 完成故 H1 含巨额一次性融资项"
-科目,2025H1,2026H1
-营业收入 Revenue,8138,12508
-营业成本 Cost of revenue,-4244,-5883
-研发开支 Research and development,-3515,-7062
-销售及行政管理 SG&A,-1099,-1658
-重组费用(冲回) Restructuring charges (credits),-194,9
-减值 Impairment,-29,0
-总成本及开支 Total costs and expenses,-9081,-14594
-经营利润 Loss from operations,-943,-2086
-利息支出 Interest expense,-858,-1293
-利息收入 Interest income,215,553
-其他收入(支出)净额 Other income (expense) net,202,-1962
-除税前利润 Loss before income taxes,-1384,-4788
-所得税 Provision for income taxes,-152,-29
-净利润 Net loss,-1536,-4817
-归属股东净利润 Net loss attributable to shareholders,-1536,-5488
-每股基本及摊薄盈利(美元) Basic and diluted EPS,-0.53,-1.12
-加权平均股数(百万) Weighted average shares,2902,4879
-经营活动现金流净额 Net cash from operating,351,3466
-购建固定资产 Capex,-6965,-28476
-投资活动现金流净额 Net cash used in investing,-6032,-34487
-取得借款 Proceeds from debt,10943,51812
-偿还借款 Repayments on debt,-5990,-39396
-债务清偿溢价 Payment of debt extinguishment premium,0,-1153
-发行股本净额 Proceeds from issuance of capital stock,5047,8319
-回购普通股及优先股 Repurchase of common and RCPS,-520,-4426
-IPO募资净额 Proceeds from IPO net,0,85675
-融资活动现金流净额 Net cash from financing,9199,100291
-现金净变动 Net change in cash,3593,69228
-期末现金及受限现金 Cash end of period,15094,94352
-自由现金流 FCF = OCF - Capex,-6614,-25010
+"# 单位: 百万美元(USD millions), 费用/减项=负数, 所得税收益=正数; 来源: Q2 10-Q(2026-08-04)·Q3 10-Q(2026-10-22); 期间轴: H1 / 单季(2026Q2·2025Q3·2026Q3) / 前三季——**跨列比较前先认期间**; ⚠️ 现金流量表只有累计期间: 单季(Q3)列 = 前三季 − H1 **派生**, 2026Q2 单季现金流不可得留空; 补充披露的「已购未付固定资产」为期末余额(非期间流量); IPO 于 2026-06-15 交割故 H1 含巨额一次性融资项"
+科目,2025H1,2026H1,2026Q2,2025Q3,2026Q3,2025前三季,2026前三季
+营业收入 Revenue,8138,12508,7814,5576,14575,13714,27083
+营业成本 Cost of revenue,-4244,-5883,-3495,-2705,-5478,-6949,-11361
+研发开支 Research and development,-3515,-7062,-3548,-2291,-4596,-5806,-11658
+销售及行政管理 SG&A,-1099,-1658,-912,-575,-1707,-1674,-3365
+重组费用(冲回) Restructuring charges (credits),-194,9,-2,-278,-3,-472,6
+减值 Impairment,-29,0,0,0,0,-29,0
+总成本及开支 Total costs and expenses,-9081,-14594,-7957,-5849,-11784,-14930,-26378
+经营利润 Income (loss) from operations,-943,-2086,-143,-273,2791,-1216,705
+利息支出 Interest expense,-858,-1293,-629,-514,-675,-1372,-1968
+利息收入 Interest income,215,553,340,155,873,370,1426
+其他收入(支出)净额 Other income (expense) net,202,-1962,-86,140,1025,342,-937
+除税前利润 Income (loss) before income taxes,-1384,-4788,-518,-492,4014,-1876,-774
+所得税 Provision for (benefit from) income taxes,-152,-29,-23,-562,390,-714,361
+净利润 Net income (loss),-1536,-4817,-541,-1054,4404,-2590,-413
+归属股东净利润 Net income (loss) attributable to shareholders,-1536,-5488,-541,-1054,4404,-2590,-1084
+每股基本盈利(美元) Basic EPS,-0.53,-1.12,-0.09,-0.36,0.37,-0.89,-0.15
+每股摊薄盈利(美元) Diluted EPS,-0.53,-1.12,-0.09,-0.36,0.35,-0.89,-0.15
+基本加权平均股数(百万) Basic WAS,2902,4879,5864,2941,11942,2915,7274
+摊薄加权平均股数(百万) Diluted WAS,2902,4879,5864,2941,12475,2915,7274
+[补充] 折旧摊销 D&A,2970,5290,2848,1814,3644,4784,8934
+[补充] 其中:固定资产折旧 Depreciation,,,,1595,3351,4142,8415
+[补充] 其中:无形资产摊销 Amortization,,,,219,293,642,519
+[补充] 股权激励(不含收购相关) SBC ex-acquisitions,694,1470,831,350,1146,1044,2616
+[补充] 收购相关股权激励 SBC related to acquisitions,0,0,0,0,1217,0,1217
+[补充] 收购相关费用(计入销管) Acquisition-related costs,0,0,0,0,8,0,8
+[非GAAP·公司口径] 调整后EBITDA Adjusted EBITDA,2944,4665,3538,2169,8809,5113,13474
+经营活动现金流净额 Net cash from operating,351,3466,,3769,9631,4120,13097
+  其中:应收账款变动 Change in accounts receivable,-470,-2003,,-464,-879,-934,-2882
+  其中:存货变动 Change in inventory,-360,-827,,-18,-554,-378,-1381
+  其中:应付账款变动 Change in accounts payable,309,-88,,359,-882,668,-970
+  其中:合同负债变动 Change in deferred revenue,680,2169,,-276,2753,404,4922
+  其中:债务清偿损失(非现金加回) Loss on debt extinguishment,0,1545,,0,0,0,1545
+购建固定资产 Capex,-6965,-28476,,-6881,-19593,-13846,-48069
+产品返利收到 Proceeds from product rebates,0,1195,,0,177,0,1372
+购买金融资产 Purchases of marketable securities,-601,-13630,,0,-33204,-601,-46834
+金融资产到期 Maturities of marketable securities,543,7248,,5,1910,548,9158
+无形资产购买(频谱信托付款等) Payments for intangible assets,0,-856,,0,-10,0,-866
+收购取得现金 Cash received from acquisition of businesses,0,0,,0,514,0,514
+投资活动现金流净额 Net cash used in investing,-6032,-34487,,-6965,-50124,-12997,-84611
+取得借款 Proceeds from debt and other financings,10943,51812,,4,22,10947,51834
+偿还借款 Repayments on debt and other financings,-5990,-39396,,-24,-449,-6014,-39845
+债务清偿溢价 Payment of debt extinguishment premium,0,-1153,,0,0,0,-1153
+发行股本净额 Proceeds from issuance of capital stock,5047,8319,,252,0,5299,8319
+回购普通股及优先股 Repurchase of common and RCPS,-520,-4426,,-5,0,-525,-4426
+IPO募资净额 Proceeds from IPO net,0,85675,,0,0,0,85675
+融资活动现金流净额 Net cash from financing,9199,100291,,241,-472,9440,99819
+汇率影响 Effect of exchange rate changes,75,-42,,-6,-1,69,-43
+现金净变动 Net change in cash,3593,69228,,-2961,-40966,632,28262
+期末现金及受限现金 Cash end of period,15094,94352,,12133,53386,12133,53386
+自由现金流 FCF = OCF - Capex,-6614,-25010,,-3112,-9962,-9726,-34972
+[补充] 已付利息(净额) Cash paid for interest net,603,1667,,,,695,2078
+[补充] 已购未付固定资产(计入应付及预提) PP&E in AP and accrued,4260,5513,,,,3573,11827
+[补充] 以其他融资购置的固定资产 PP&E financed by other financings,0,3921,,,,0,3921
+[补充] 以发行股份收购业务 Acquisition of businesses through issuance of shares,0,0,,,,0,42723
