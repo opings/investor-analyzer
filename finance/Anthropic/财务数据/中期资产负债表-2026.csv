@@ -1,0 +1,52 @@
+"# 单位: 百万美元(USD millions)(股数行单位见行名); 时点: 2025-12-31(经审计) / 2026-06-30(**未经审计**); 来源: SEC Form S-1(2026-10-26, accession 0001628280-26-067168) F-5/F-6 + 附注; ⚠️ 2026-06-30 现金暴增来自 G/H 轮优先股融资(现金流量表融资活动), 不是经营所得"
+科目,2025-12-31,2026-06-30
+货币资金 Cash and cash equivalents,17388,112389
+短期投资 Short-term investments,2889,19262
+"应收账款净额 Accounts receivable, net",909,5833
+预付及其他流动资产 Prepaid expenses and other current assets,2560,496
+流动资产合计 Total current assets,23746,137980
+受限现金 Restricted cash,13,2529
+"物业设备净额 Property and equipment, net",146,1187
+经营租赁使用权资产 Operating lease right-of-use assets,126,1157
+商誉 Goodwill,154,576
+"其他非流动资产 Other assets, noncurrent",476,3929
+资产总计 Total assets,24661,147358
+"应付应计及其他流动负债 Accounts payable, accrued expenses, and other current liabilities",2511,5422
+"经营租赁负债-流动 Operating lease liabilities, current",37,148
+合同负债(递延收入) Deferred revenue,269,1650
+流动负债合计 Total current liabilities,2817,7220
+"经营租赁负债-非流动 Operating lease liabilities, noncurrent",80,931
+可转换票据(公允价值) Convertible notes payable,41677,108566
+其他非流动负债 Other noncurrent liabilities,823,750
+负债合计 Total liabilities,45397,117467
+可赎回可转换优先股 Redeemable convertible preferred stock,29769,157510
+资本公积 Additional paid-in capital,1644,5336
+累计其他综合收益 Accumulated other comprehensive income (loss),5,-53
+累计亏损 Accumulated deficit,-52154,-132902
+股东权益(亏绌)合计 Total stockholders' deficit,-50505,-127619
+"负债+优先股+权益合计 Total liabilities, RCPS, and stockholders' deficit",24661,147358
+[附] 优先股清算优先权 Aggregate liquidation preference,24646,136286
+[附] 优先股已发行股数(千股) RCPS shares outstanding (thousands),544322,853394
+[附] A类普通股已发行股数(千股) Class A shares outstanding (thousands),1901267,2157398
+[附] N类普通股已发行股数(千股) Class N shares outstanding (thousands),0,30643
+[附注8] 预付费用-流动 Prepaid expenses current,2537,258
+[附注8] 其他-流动 Other current,23,238
+[附注8] 预付费用-非流动 Prepaid expenses noncurrent,104,222
+[附注8] 其他-非流动 Other noncurrent,372,3707
+[附注8] 云服务商应付款 Cloud service provider payables,947,2810
+[附注8] 应计法律费用 Accrued legal expenses,775,1309
+[附注8] 捐赠匹配负债 Donation matching program liability,541,0
+[附注8] 其他应付应计 Other,248,1303
+[附注8] 其中:应付账款 Of which accounts payable,284,766
+[附注6] 租赁物业改良 Leasehold improvements,51,58
+"[附注6] 服务器网络及基础设施设备 Servers, networking, and infrastructure equipment",34,618
+[附注6] 在建工程 Construction in progress,63,536
+[附注6] 其他物业设备 Other assets,10,22
+"[附注6] 物业设备原值合计 Total property and equipment, gross",158,1234
+[附注6] 累计折旧 Accumulated depreciation,-12,-47
+"[附注5] 无形资产净额 Intangible assets, net",20,109
+[附注1] 坏账准备 Allowance for credit losses,17,71
+[附注3] 现金等价物 Total cash equivalents,16459,108897
+[附注3] 短期投资摊余成本 Short-term investments amortized cost,2885,19306
+[附注4] 认股权利(公允价值) Warrant rights,345,1069
+[附注4] 票据购买协议资产(公允价值) Note purchase agreements,0,2405

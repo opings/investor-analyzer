@@ -1,0 +1,48 @@
+"# 长表: 每行一个指标在一个时点/期间的值; 来源: SEC Form S-1(2026-10-26, accession 0001628280-26-067168) 附注 1/2 + MD&A + Business; ⚠️ 「MD&A/Business」行为公司经营指标(未经审计·多为约数或下限), 只证明公司这么说; 客户 A-D 为匿名编号(同一字母跨期指同一客户, 未披露身份)"
+科目,值,时点或期间,单位,出处
+[集中度] 客户A占收入 Customer A revenue share,0.12,2025,小数,附注1
+[集中度] 客户B占收入 Customer B revenue share,0.12,2025,小数,附注1
+[集中度] 客户B占收入 Customer B revenue share,0.18,2025H1,小数,附注1
+[集中度] 客户C占收入 Customer C revenue share,0.43,2023,小数,附注1
+[集中度] 客户C占收入 Customer C revenue share,0.11,2026H1,小数,附注1
+[集中度] 客户D占收入 Customer D revenue share,0.11,2023,小数,附注1
+[集中度] 客户A占应收 Customer A AR share,0.13,2025-12-31,小数,附注1
+[集中度] 客户A占应收 Customer A AR share,0.13,2026-06-30,小数,附注1
+[集中度] 客户C占应收 Customer C AR share,0.1,2026-06-30,小数,附注1
+[集中度] 经云服务商市场的应收占比 AR via CSP marketplaces,0.42,2024-12-31,小数,附注1
+[集中度] 经云服务商市场的应收占比 AR via CSP marketplaces,0.6,2025-12-31,小数,附注1
+[集中度] 经云服务商市场的应收占比 AR via CSP marketplaces,0.58,2026-06-30,小数,附注1
+[集中度] 前五大以外客户收入占比 Revenue outside top five,0.64,2026Q1,小数·约数,MD&A
+[集中度] 前五大以外客户收入占比 Revenue outside top five,0.79,2026Q3,小数·约数,MD&A
+[客户] TTM收入≥10万美元客户数 Customers ≥$100K TTM,20,2023-12-31,家·约数,MD&A
+[客户] TTM收入≥10万美元客户数 Customers ≥$100K TTM,200,2024-12-31,家·约数,MD&A
+[客户] TTM收入≥10万美元客户数 Customers ≥$100K TTM,400,2025-03-31,家·约数,MD&A
+[客户] TTM收入≥10万美元客户数 Customers ≥$100K TTM,600,2025-06-30,家·下限(more than),MD&A
+[客户] TTM收入≥10万美元客户数 Customers ≥$100K TTM,950,2025-09-30,家·下限(more than),MD&A
+[客户] TTM收入≥10万美元客户数 Customers ≥$100K TTM,1500,2025-12-31,家·约数,MD&A
+[客户] TTM收入≥10万美元客户数 Customers ≥$100K TTM,6000,2026-06-30,家·下限(more than),MD&A
+[客户] TTM收入≥10万美元客户数 Customers ≥$100K TTM,11900,2026-09-30,家·下限(more than),MD&A
+[客户] TTM收入≥100万美元客户数 Customers ≥$1M TTM,1900,2026-09-30,家·下限(more than),MD&A
+[客户] TTM收入≥1000万美元客户数 Customers ≥$10M TTM,250,2026-09-30,家·约数,MD&A
+[客户] TTM收入<10万美元客户数 Customers <$100K TTM,40000000,2026-09-30止TTM,个·约数,MD&A
+[客户] 同时使用平台与自有应用的≥10万客户占比 Using platform and app,0.3,2025Q4,小数·约数,MD&A
+[客户] 同时使用平台与自有应用的≥10万客户占比 Using platform and app,0.5,2026Q3,小数·下限(over),MD&A
+[客户] 净收入留存率 Net Revenue Retention,9.0,2026-09-30,倍(约900%)·公司定义,MD&A
+[收入质量] 违反使用政策或商业条款客户收入占比-下限 Revenue from violating customers (low),0.05,2026前三季,小数·公司估计,MD&A
+[收入质量] 违反使用政策或商业条款客户收入占比-上限 Revenue from violating customers (high),0.07,2026前三季,小数·公司估计,MD&A
+[收入质量] 近六个月新发布模型版本贡献收入占比 Revenue from model versions released in prior 6 months,0.8,2026Q3,小数·下限(over),MD&A
+[合同] 剩余履约义务 Remaining performance obligations,10800,2026-06-30,百万美元,附注2
+[合同] 剩余履约义务12个月内确认比例 RPO within 12 months,0.75,2026-06-30,小数·约数,附注2
+[合同负债滚动] 期初递延收入转收入 Revenue from opening deferred revenue,-7,2024,百万美元,附注2
+[合同负债滚动] 新增预收 Amounts billed in advance,28,2024,百万美元,附注2
+[合同负债滚动] 期初递延收入转收入 Revenue from opening deferred revenue,-28,2025,百万美元,附注2
+[合同负债滚动] 新增预收 Amounts billed in advance,269,2025,百万美元,附注2
+[合同负债滚动] 期初递延收入转收入 Revenue from opening deferred revenue,-196,2026H1,百万美元,附注2
+[合同负债滚动] 新增预收 Amounts billed in advance,1577,2026H1,百万美元,附注2
+[合同负债滚动] 期末 Deferred revenue ending,7,2023-12-31,百万美元,附注2
+[员工] 员工人数 Employees,5300,2026-09-30,人·约数,Business
+[员工] TTM人均收入 TTM revenue per employee,1.4,2025-09-30,百万美元,MD&A
+[员工] TTM人均收入 TTM revenue per employee,6.6,2026-09-30,百万美元·下限(over),MD&A
+[员工] 员工人数同比增幅 Headcount growth YoY,1.7,2026-09-30,小数·约数,MD&A
+[员工] TTM收入同比增幅 TTM revenue growth YoY,12.0,2026-09-30,小数·约数,MD&A
+[公司自述] 2026年9月代码库提交由Claude编写的比例 Codebase contributions written by Claude,0.9,2026-09,小数·下限(over),MD&A/Business
