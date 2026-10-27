@@ -1,0 +1,22 @@
+"# 单位: 百万美元(USD millions), 费用/减项=负数; 期间轴: **单季**(MD&A Quarterly Results·未经审计); 来源: SEC Form S-1(2026-10-26, accession 0001628280-26-067168) MD&A 季度表(table idx 62/64/65); ⚠️ 2026Q3 金额 S-1 留空待修订(未披露); 2026Q2 股权激励公司写「$1.3 billion」, 本表取非GAAP调节表精确值 1,261"
+科目,2025Q1,2025Q2,2025Q3,2025Q4,2026Q1,2026Q2
+营业收入 Revenue,376,787,1382,2040,4731,11555
+算力与基础设施 Compute and infrastructure,-944,-1390,-2047,-2945,-3387,-5558
+人员开支 Personnel,-218,-320,-489,-812,-1295,-1857
+Bartz和解费用 Bartz settlement,0,0,-1500,0,0,0
+"销售营销与合作伙伴 Sales, marketing, and partnerships",-24,-96,-202,-246,-1033,-2135
+其他运营与行政 Other operating and administrative,-125,-181,-233,-873,-683,-1031
+经营费用合计 Total operating expenses,-1311,-1987,-4471,-4876,-6398,-10581
+经营利润 Operating income (loss),-935,-1200,-3089,-2836,-1667,974
+利息收入 Interest income,51,64,124,192,349,762
+"可转债等公允价值变动 Change in FV of convertible notes, derivative liabilities, and SAFEs",-5701,-5241,-9165,-14201,-12791,-59597
+"其他收入(支出)净额 Other income (expense), net",0,0,-3,-5,-309,-8448
+"其他收支合计 Total other income (expense), net",-5650,-5177,-9044,-14014,-12751,-67283
+除税前利润 Loss before provision for income taxes,-6585,-6377,-12133,-16850,-14418,-66309
+所得税(费用为负) Provision for income taxes,-7,0,-5,-8,-21,0
+净利润 Net loss,-6592,-6377,-12138,-16858,-14439,-66309
+[补充] 股权激励费用 SBC expense,105,181,305,574,924,1261
+[补充] 非现金慈善捐赠 Non-cash charitable contributions,0,0,0,541,126,0
+[补充] 特定按市值计量金融工具公允价值变动 Change in FV of certain MTM instruments,0,0,0,3,288,8432
+[非GAAP·公司口径] 调整后经营利润 Adjusted operating income (loss),-830,-1019,-1284,-1721,-617,2235
+[非GAAP·公司口径] 调整后净利润 Adjusted net income (loss),-786,-955,-1168,-1539,-310,2981

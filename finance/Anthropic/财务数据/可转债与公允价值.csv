@@ -1,0 +1,46 @@
+"# 单位: 百万美元(USD millions)(股数行单位见行名); 期间轴: 滚动行=年度/半年累计·「未偿票据/未动用额度」行=2026-06-30 时点·循环信贷行=期末时点; 来源: SEC Form S-1(2026-10-26, accession 0001628280-26-067168) 附注 4 Level 3 滚动表(table idx 129) + 附注 9 + MD&A Convertible Notes(table idx 66/67); ⚠️ 2026-06-30 可转换票据公允价值 108,566 对应本金仅 6,203(全部为 Amazon 不计息展期票据, IPO 时按 $2.0928/$5.0478 转 N 类股、受 Amazon 12% 持股上限约束); ⚠️ 收购尾款负债 2026H1 公允价值变动: 本表(附注4滚动)30 vs 附注8其他收支 39 —— 申报人两处差 9, 照录不抹平; 循环信贷 2026-09 已扩至 150 亿美元(期后事项, 见 或有事项与其他.csv)"
+科目,2024,2025,2026H1
+[可转换票据] 期初 Beginning,1678,14116,41677
+[可转换票据] 新增 Additions,5900,3450,0
+[可转换票据] 转股 Conversion,0,-10347,-5499
+[可转换票据] 公允价值变动 Change in fair value,6538,34458,72388
+[可转换票据] 期末 Ending,14116,41677,108566
+[衍生负债] 期初 Beginning,1110,150,0
+[衍生负债] 新增 Additions,150,0,0
+[衍生负债] 公允价值变动及结算 Change in FV and settlement,-1110,-150,0
+[衍生负债] 期末 Ending,150,0,0
+[SAFE] 期初 Beginning,128,0,0
+[SAFE] 转股 Conversion,-134,0,0
+[SAFE] 公允价值变动 Change in fair value,6,0,0
+[SAFE] 期末 Ending,0,0,0
+[认股权利·资产] 期初 Beginning,0,0,345
+[认股权利·资产] 新增 Additions,0,345,0
+[认股权利·资产] 公允价值变动 Change in fair value,0,0,724
+[认股权利·资产] 期末 Ending,0,345,1069
+[票据购买协议·资产] 期初 Beginning,0,0,0
+[票据购买协议·资产] 新增 Additions,0,0,2348
+[票据购买协议·资产] 公允价值变动 Change in fair value,0,0,-11753
+[票据购买协议·资产] 结算 Settlement,0,0,11810
+[票据购买协议·资产] 期末 Ending,0,0,2405
+[捐赠匹配负债] 期初 Beginning,0,0,541
+[捐赠匹配负债] 新增 Additions,0,541,0
+[捐赠匹配负债] 公允价值变动 Change in fair value,0,0,126
+[捐赠匹配负债] 结算 Settlement,0,0,-667
+[捐赠匹配负债] 期末 Ending,0,541,0
+[收购尾款负债] 期初 Beginning,0,0,28
+[收购尾款负债] 新增 Additions,0,25,0
+[收购尾款负债] 公允价值变动 Change in fair value,0,3,30
+[收购尾款负债] 期末 Ending,0,28,58
+[未偿票据·2026-06-30] Amazon 2023 NPA 本金 Principal,,,2186
+[未偿票据·2026-06-30] Amazon 2024 NPA 本金 Principal,,,4017
+[未偿票据·2026-06-30] 本金合计 Total principal,,,6203
+[未偿票据·2026-06-30] 可转N类股数(股) Class N issuable,,,1840444962
+[未偿票据·2026-06-30] Amazon 2023 NPA 可转股数(股),,,1044716970
+[未偿票据·2026-06-30] Amazon 2024 NPA 可转股数(股),,,795727992
+[未动用额度·2026-06-30] Google 2026 NPA,,,20000
+[未动用额度·2026-06-30] Amazon 2026 NPA,,,15000
+[未动用额度·2026-06-30] Broadcom 基础设施伙伴 2026 NPA(仅限付租),,,42000
+[未动用额度·2026-06-30] 合计 Total,,,77000
+[循环信贷] 承诺额度 Revolving commitments,,3250,3250
+[循环信贷] 已开备用信用证 Standby letters of credit,,4,78
+[循环信贷] 已提款 Borrowings drawn,,0,0

@@ -1,0 +1,86 @@
+"# 单位: 百万美元(USD millions); 股数=千股; 原始发行价为美元/优先股股(转换比例约 10:1, D 系列因反稀释调整约 10.4-10.6:1); 来源: SEC Form S-1(2026-10-26, accession 0001628280-26-067168) 附注 10(table idx 147/148/149) + 附注 12; 表决权: 有=可转A类(有表决权)·无=可转N类(无表决权, 主要为战略伙伴); ⚠️ 账面≠清算优先权: 由可转债转来的系列按转股时票据公允价值入账(如 E-2/F-2/G-3 账面远高于清算优先权); 「折合普通股」2026-06-30 取附注 12 反稀释表口径(2024 同口径, 2025 年末附注未单列 → 空)"
+科目,2024-12-31,2025-12-31,2026-06-30
+[A] 已发行股数(千股) Shares outstanding,48574,48574,48574
+[A] 账面价值 Net carrying value,125,125,125
+[A] 清算优先权 Liquidation preference,125,125,125
+[A] 原始发行价(美元·拆股前优先股口径) OIP,2.57,2.57,2.57
+[B] 已发行股数(千股) Shares outstanding,87430,87430,87430
+[B] 账面价值 Net carrying value,982,982,982
+[B] 清算优先权 Liquidation preference,982,982,982
+[B] 原始发行价(美元·拆股前优先股口径) OIP,11.23,11.23,11.23
+[C-1] 已发行股数(千股) Shares outstanding,26397,26397,26397
+[C-1] 账面价值 Net carrying value,296,296,296
+[C-1] 清算优先权 Liquidation preference,296,296,296
+[C-1] 原始发行价(美元·拆股前优先股口径) OIP,11.23,11.23,11.23
+[C-2] 已发行股数(千股) Shares outstanding,13362,13362,13362
+[C-2] 账面价值 Net carrying value,150,150,150
+[C-2] 清算优先权 Liquidation preference,150,150,150
+[C-2] 原始发行价(美元·拆股前优先股口径) OIP,11.23,11.23,11.23
+[D-1] 已发行股数(千股) Shares outstanding,35013,35013,35013
+[D-1] 账面价值 Net carrying value,1042,1042,1042
+[D-1] 清算优先权 Liquidation preference,1051,1051,1051
+[D-1] 原始发行价(美元·拆股前优先股口径) OIP,30.0,30.0,30.0
+[D-2] 已发行股数(千股) Shares outstanding,4444,4444,4444
+[D-2] 账面价值 Net carrying value,133,133,133
+[D-2] 清算优先权 Liquidation preference,120,120,120
+[D-2] 原始发行价(美元·拆股前优先股口径) OIP,27.0,27.0,27.0
+[D-3] 已发行股数(千股) Shares outstanding,4999,4999,4999
+[D-3] 账面价值 Net carrying value,146,146,146
+[D-3] 清算优先权 Liquidation preference,150,150,150
+[D-3] 原始发行价(美元·拆股前优先股口径) OIP,30.0,30.0,30.0
+[E-1] 已发行股数(千股) Shares outstanding,0,63610,63610
+[E-1] 账面价值 Net carrying value,0,3549,3549
+[E-1] 清算优先权 Liquidation preference,0,3568,3568
+[E-1] 原始发行价(美元·拆股前优先股口径) OIP,56.09,56.09,56.09
+[E-2] 已发行股数(千股) Shares outstanding,0,95282,95282
+[E-2] 账面价值 Net carrying value,0,4728,4728
+[E-2] 清算优先权 Liquidation preference,0,1994,1994
+[E-2] 原始发行价(美元·拆股前优先股口径) OIP,20.93,20.93,20.93
+[E-3] 已发行股数(千股) Shares outstanding,0,12664,12664
+[E-3] 账面价值 Net carrying value,0,856,856
+[E-3] 清算优先权 Liquidation preference,0,710,710
+[E-3] 原始发行价(美元·拆股前优先股口径) OIP,56.09,56.09,56.09
+[E-4] 已发行股数(千股) Shares outstanding,0,15343,15343
+[E-4] 账面价值 Net carrying value,0,986,986
+[E-4] 清算优先权 Liquidation preference,0,774,774
+[E-4] 原始发行价(美元·拆股前优先股口径) OIP,50.48,50.48,50.48
+[E-5] 已发行股数(千股) Shares outstanding,0,24244,24244
+[E-5] 账面价值 Net carrying value,0,1598,1598
+[E-5] 清算优先权 Liquidation preference,0,1292,1292
+[E-5] 原始发行价(美元·拆股前优先股口径) OIP,53.28,53.28,53.28
+[F-1] 已发行股数(千股) Shares outstanding,0,92220,92220
+[F-1] 账面价值 Net carrying value,0,12999,12999
+[F-1] 清算优先权 Liquidation preference,0,13000,13000
+[F-1] 原始发行价(美元·拆股前优先股口径) OIP,140.97,140.97,140.97
+[F-2] 已发行股数(千股) Shares outstanding,0,20740,20740
+[F-2] 账面价值 Net carrying value,0,2179,2179
+[F-2] 清算优先权 Liquidation preference,0,434,434
+[F-2] 原始发行价(美元·拆股前优先股口径) OIP,20.93,20.93,20.93
+[G-1] 已发行股数(千股) Shares outstanding,0,0,90510
+[G-1] 账面价值 Net carrying value,0,0,23454
+[G-1] 清算优先权 Liquidation preference,0,0,23455
+[G-1] 原始发行价(美元·拆股前优先股口径) OIP,259.14,259.14,259.14
+[G-2] 已发行股数(千股) Shares outstanding,0,0,83929
+[G-2] 账面价值 Net carrying value,0,0,33558
+[G-2] 清算优先权 Liquidation preference,0,0,21749
+[G-2] 原始发行价(美元·拆股前优先股口径) OIP,259.14,259.14,259.14
+[G-3] 已发行股数(千股) Shares outstanding,0,0,20563
+[G-3] 账面价值 Net carrying value,0,0,4571
+[G-3] 清算优先权 Liquidation preference,0,0,430
+[G-3] 原始发行价(美元·拆股前优先股口径) OIP,20.93,20.93,20.93
+[G-4] 已发行股数(千股) Shares outstanding,0,0,3322
+[G-4] 账面价值 Net carrying value,0,0,928
+[G-4] 清算优先权 Liquidation preference,0,0,775
+[G-4] 原始发行价(美元·拆股前优先股口径) OIP,233.22,233.22,233.22
+[H-1] 已发行股数(千股) Shares outstanding,0,0,77638
+[H-1] 账面价值 Net carrying value,0,0,45728
+[H-1] 清算优先权 Liquidation preference,0,0,45729
+[H-1] 原始发行价(美元·拆股前优先股口径) OIP,589.01,589.01,589.01
+[H-2] 已发行股数(千股) Shares outstanding,0,0,33110
+[H-2] 账面价值 Net carrying value,0,0,19502
+[H-2] 清算优先权 Liquidation preference,0,0,19502
+[H-2] 原始发行价(美元·拆股前优先股口径) OIP,589.01,589.01,589.01
+[合计] 已发行股数(千股) Total shares,220219,544322,853394
+[合计] 账面价值 Total carrying value,2874,29769,157510
+[合计] 清算优先权 Total liquidation preference,2874,24646,136286
+[合计] 按转换比例折合普通股(千股) As-converted common shares,2202194,,8558869

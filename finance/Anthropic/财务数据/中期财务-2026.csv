@@ -1,0 +1,72 @@
+"# 单位: 百万美元(USD millions), 费用/减项/流出=负数; 期间轴: 半年累计(H1)·**未经审计**; 来源: SEC Form S-1(2026-10-26, accession 0001628280-26-067168) F-7/F-12/F-13 + 附注 8/10 + MD&A; ⚠️ 2026H1 净亏损含可转债公允价值变动 -72,388 与票据购买协议初始确认及变动 -9,405(均非现金); 2026H1 融资含 G/H 轮优先股"
+科目,2025H1,2026H1
+营业收入 Revenue,1163,16286
+算力与基础设施 Compute and infrastructure,-2334,-8945
+人员开支 Personnel,-538,-3152
+Bartz和解费用 Bartz settlement,0,0
+"销售营销与合作伙伴 Sales, marketing, and partnerships",-120,-3168
+其他运营与行政 Other operating and administrative,-306,-1714
+经营费用合计 Total operating expenses,-3298,-16979
+经营利润 Operating loss,-2135,-693
+利息收入 Interest income,115,1111
+"可转债等公允价值变动 Change in FV of convertible notes, derivative liabilities, and SAFEs",-10942,-72388
+"其他收入(支出)净额 Other income (expense), net",0,-8757
+"其他收支合计 Total other income (expense), net",-10827,-80034
+除税前利润 Loss before provision for income taxes,-12962,-80727
+所得税(费用为负) Provision for income taxes,-7,-21
+净利润 Net loss,-12969,-80748
+其他综合收益-可供出售证券未实现损益 OCI AFS,0,-49
+其他综合收益-外币折算 OCI FX,1,-9
+综合收益 Comprehensive loss,-12968,-80806
+每股基本及摊薄亏损(美元) EPS basic and diluted,-7.25,-39.88
+加权平均股数(千股) Weighted-average shares (thousands),1788731,2024973
+[其他收支拆分] 票据购买协议初始确认及公允价值变动 Recognition and change in FV of NPAs,0,-9405
+[其他收支拆分] 收购尾款负债公允价值变动 Change in FV of holdback liability,0,-39
+[其他收支拆分] 认股权利公允价值变动 Change in FV of warrant rights,0,724
+[其他收支拆分] 其他 Other,0,-37
+[补充] 股权激励费用(利润表口径·含回购溢价) SBC expense,286,2185
+[补充] 非现金慈善捐赠(捐赠匹配计划) Non-cash charitable contributions,0,126
+[补充] 特定按市值计量金融工具公允价值变动 Change in FV of certain MTM instruments,0,8720
+[补充] 无形资产摊销 Intangible amortization,4,27
+[补充] 固定资产折旧 Depreciation,4,35
+[补充] 401k 雇主匹配 401(k) matching,7,20
+[非GAAP·公司口径] 调整后经营利润 Adjusted operating income (loss),-1849,1618
+[非GAAP·公司口径] 调整后净利润 Adjusted net income (loss),-1741,2671
+[现金流] 净利润 Net loss,-12969,-80748
+[现金流] 股权激励 Stock-based compensation,279,2185
+[现金流] 折旧摊销 Depreciation and amortization,14,97
+[现金流] 可转债等公允价值变动 Change in FV of convertible notes etc.,10942,72388
+[现金流] 捐赠匹配负债 Donation matching program liability,0,126
+[现金流] 其他金融工具确认及公允价值变动 Other financial instruments,0,8720
+[现金流] 其他 Other,5,-7
+[现金流] 应收账款变动 Accounts receivable,-384,-4982
+[现金流] 预付及其他资产变动 Prepaid expenses and other assets,212,2094
+"[现金流] 应付应计及其他负债变动 AP, accrued and other liabilities",257,2679
+[现金流] 租赁负债变动 Lease liabilities,7,-3
+[现金流] 合同负债变动 Deferred revenue,124,1380
+[现金流] 经营活动现金流净额 Net cash from operating,-1513,3929
+[现金流] 购建物业设备(capex) Purchases of property and equipment,-18,-482
+[现金流] 购买短期投资 Purchases of short-term investments,0,-18972
+[现金流] 出售及到期短期投资 Sales and maturities of short-term investments,0,2610
+[现金流] 其他投资活动 Other investing activities,-31,-337
+[现金流] 投资活动现金流净额 Net cash used in investing,-49,-17181
+"[现金流] 发行优先股净额 Proceeds from RCPS, net",3549,110432
+[现金流] 融资租赁本金偿还 Principal payments for finance leases,0,-4
+[现金流] 发行可转债收现 Issuance of convertible notes for cash,1300,0
+[现金流] 发行普通股收现 Proceeds from issuance of common stock,49,355
+[现金流] 回购普通股 Repurchase of common stock,-149,0
+[现金流] 发行SAFE收现 Issuance of SAFEs for cash,0,0
+[现金流] 支付发行费用 Payment of deferred offering costs,0,-9
+[现金流] 融资活动现金流净额 Net cash from financing,4749,110774
+[现金流] 汇率影响 Effect of exchange rate changes,1,-5
+[现金流] 现金净变动 Net increase in cash,3188,97517
+[现金流] 期初现金及受限现金 Cash beginning of period,3154,17401
+[现金流] 期末现金及受限现金 Cash end of period,6342,114918
+[现金流补充] 已付所得税 Cash paid for income taxes,7,34
+[现金流补充] 已购未付物业设备 PP&E acquired but not yet paid,1,148
+[非现金] 可转债转优先股 Conversion of convertible notes into RCPS,8168,5499
+[非现金] 票据购买协议转G-2优先股 Conversion of NPAs into Series G-2,0,11810
+[非现金] 捐赠匹配结算发行N类股 Class N issued for donation matching,0,667
+[非现金] 收购发行股权 Equity issued in business acquisitions,0,534
+[非现金] 经营租赁换入使用权资产 ROU from operating leases,1,963
+[非现金] 融资租赁换入使用权资产 ROU from finance leases,0,445
