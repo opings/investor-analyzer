@@ -1,0 +1,32 @@
+"# 单位: 百万美元(USD millions), 费用/减项=负数, 覆盖2023-2025(经审计·2023/2024 Grant Thornton·2025 EY), 来源: SEC Form S-1(2026-10-26, accession 0001628280-26-067168) F-7/F-8 + 附注 1/6/10/13 + MD&A 非GAAP 调节; ⚠️ 利润表按费用性质列报、无营业成本/毛利行(职能口径见 费用按职能.csv); ⚠️ 净利润被可转债公允价值变动主导(非现金), 看经营用「经营利润」; 股数已按 2026-09-17 十拆一追溯"
+科目,2023,2024,2025
+营业收入 Revenue,41,386,4585
+算力与基础设施 Compute and infrastructure,-433,-2522,-7326
+人员开支 Personnel,-95,-454,-1839
+Bartz和解费用 Bartz settlement,0,0,-1500
+"销售营销与合作伙伴 Sales, marketing, and partnerships",-2,-43,-568
+其他运营与行政 Other operating and administrative,-62,-347,-1412
+经营费用合计 Total operating expenses,-592,-3366,-12645
+经营利润 Operating loss,-551,-2980,-8060
+利息收入 Interest income,69,106,431
+"可转债等公允价值变动 Change in FV of convertible notes, derivative liabilities, and SAFEs",-1045,-5434,-34308
+"其他收入(支出)净额 Other income (expense), net",-2,0,-8
+"其他收支合计 Total other income (expense), net",-978,-5328,-33885
+除税前利润 Loss before provision for income taxes,-1529,-8308,-41945
+所得税(费用为负) Provision for income taxes,-2,-1,-20
+净利润 Net loss,-1531,-8309,-41965
+其他综合收益-可供出售证券未实现损益 OCI AFS,0,0,4
+其他综合收益-外币折算 OCI FX,0,0,1
+综合收益 Comprehensive loss,-1531,-8309,-41960
+每股基本及摊薄亏损(美元) EPS basic and diluted,-1.42,-5.43,-23.04
+加权平均股数(千股) Weighted-average shares (thousands),1076881,1528995,1821085
+[补充] 股权激励费用(利润表口径·含回购溢价) SBC expense,29,192,1165
+[补充] 其中现金回购溢价计入股权激励 SBC from repurchase premium,0,0,7
+[补充] 非现金慈善捐赠(捐赠匹配计划) Non-cash charitable contributions,0,0,541
+[补充] 特定按市值计量金融工具公允价值变动 Change in FV of certain MTM instruments,0,0,3
+[补充] 广告费用 Advertising expense,,33,147
+[补充] 无形资产摊销 Intangible amortization,0,3,13
+[补充] 固定资产折旧 Depreciation,1,3,10
+[补充] 401k 雇主匹配 401(k) matching,2,7,15
+[非GAAP·公司口径] 调整后经营利润 Adjusted operating income (loss),-522,-2788,-4854
+[非GAAP·公司口径] 调整后净利润 Adjusted net income (loss),-457,-2683,-4448

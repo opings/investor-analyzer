@@ -1,0 +1,30 @@
+"# 单位: 百万美元(USD millions), 股数单位千股; 期间轴: 年度(2023-2025) + 半年累计(2025H1/2026H1); 来源: SEC Form S-1(2026-10-26, accession 0001628280-26-067168) F-9~F-11 权益变动表; ⚠️ 2026H1 优先股发行 122,242 中 11,810 为票据购买协议(Google/Amazon 2026 NPA)公允价值结算转入·非现金(现金流量表收现 110,432)"
+科目,2023,2024,2025,2025H1,2026H1
+[优先股] 期初账面 RCPS beginning,1106,1552,2874,2874,29769
+"[优先股] 发行(净额) Issuance, net",445,1188,16548,3549,122242
+[优先股] 其中票据购买协议结算转入 Of which NPA settlement,0,0,0,0,11810
+[优先股] 可转债转入 Conversion of convertible notes,0,0,10347,8168,5499
+[优先股] SAFE转入 Conversion of SAFEs,1,134,0,0,0
+[优先股] 期末账面 RCPS ending,1552,2874,29769,14591,157510
+[优先股] 期初股数(千股) Shares beginning,136005,175764,220219,220219,544322
+[优先股] 发行股数(千股) Shares issued,39670,39979,155830,63610,285187
+[优先股] 转换取得股数(千股) Shares from conversions,89,4476,168273,147533,23885
+[优先股] 期末股数(千股) Shares ending,175764,220219,544322,431362,853394
+[A类股] 期初股数(千股) Class A beginning,1738823,1754153,1779060,1779060,1901267
+[A类股] 行权及授予股数(千股) Option exercises and grants,15330,24907,141542,83704,229818
+[A类股] 回购注销(千股) Repurchased,0,0,-27942,-27942,0
+[A类股] 收购发行(千股) Issued in acquisitions,0,0,8607,0,26313
+[A类股] 期末股数(千股) Class A ending,1754153,1779060,1901267,1834822,2157398
+[资本公积] 期初 APIC beginning,5,37,239,239,1644
+[资本公积] 行权及售股 Option exercises and sales,3,10,111,49,355
+[资本公积] 股权激励 Stock-based compensation,29,192,1158,279,2185
+[资本公积] 收购发行股权 Equity issued in acquisitions,0,0,136,0,534
+[资本公积] 捐赠匹配结算发行N类股 Class N for donation matching,0,0,0,0,667
+[资本公积] 其他 Other,0,0,0,0,-49
+[资本公积] 期末 APIC ending,37,239,1644,567,5336
+[累计亏损] 期初 Accumulated deficit beginning,-200,-1731,-10040,-10040,-52154
+[累计亏损] 净亏损 Net loss,-1531,-8309,-41965,-12969,-80748
+[累计亏损] 回购公允价值 Repurchase at fair value,0,0,-149,-149,0
+[累计亏损] 期末 Accumulated deficit ending,-1731,-10040,-52154,-23158,-132902
+[其他综合收益] 期末 AOCI ending,0,0,5,1,-53
+[股东权益] 期末合计 Total stockholders' deficit ending,-1694,-9801,-50505,-22590,-127619
