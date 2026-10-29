@@ -1,161 +1,262 @@
-"# 单位: 百万美元(USD millions), 费用/流出=负数; 真源: report/google/2026-Q2.htm (10-Q · accession 0001652044-26-000071 · filed 2026-07-23); 中期数据·不并入年度序列(年度见 利润表/资产负债表/现金流量表.csv 覆盖1999-2025); 勾稽校验见 _build_interim_2026.py; 英文缩写全对照见 finance/_模板/美股财报缩写对照表.md —— OI&E=其他收入(支出)净额(主业之外全部损益·含股权公允价值变动) / EPS=每股收益 / FCF=自由现金流(经营现金流-资本开支) / capex=资本开支 / SBC=股权薪酬 / APIC=资本公积 / AOCI=累计其他综合收益 / ATM=随行就市增发计划(非自动柜员机) / capped call=上限看涨期权(对冲转股摊薄) / Level 1=活跃市场报价·Level 2=可观察输入值"
+"# 单位: 百万美元(USD millions), 费用/流出=负数; 真源: Q2/H1 列 = report/google/2026-Q2.htm (10-Q · accession 0001652044-26-000071 · filed 2026-07-23); Q3/9M 列 = report/google/2026-Q3.htm (10-Q · accession 0001652044-26-000084 · filed 2026-10-29); 2025-12-31 两份申报一致(脚本逐行核对); 中期数据·不并入年度序列(年度见 利润表/资产负债表/现金流量表.csv 覆盖1999-2025); 勾稽校验见 _build_interim_2026.py(默认容差 0;跨申报期间相加容差 1); 英文缩写全对照见 finance/_模板/美股财报缩写对照表.md —— OI&E=其他收入(支出)净额(主业之外全部损益·含股权公允价值变动) / EPS=每股收益 / FCF=自由现金流(经营现金流-资本开支) / capex=资本开支 / SBC=股权薪酬 / APIC=资本公积 / AOCI=累计其他综合收益 / ATM=随行就市增发计划(非自动柜员机) / capped call=上限看涨期权(对冲转股摊薄) / Level 1=活跃市场报价·Level 2=可观察输入值·Level 3=依赖不可观察输入值"
 
-【利润表·中期】,Q2 2025,Q2 2026,H1 2025,H1 2026
-收益 Revenues,96428,119796,186662,229692
-营业成本 Cost of revenues,-39039,-45943,-75400,-87214
-研发费用 Research and development,-13808,-18219,-27364,-35251
-销售与市场 Sales and marketing,-7101,-8403,-13273,-16009
-一般及行政 General and administrative,-5209,-6461,-8748,-10752
-总成本及开支 Total costs and expenses,-65157,-79026,-124785,-149226
-经营利润 Income from operations,31271,40770,61877,80466
-其他收入(支出)净额 OI&E,2662,97983,13845,135699
-除税前利润 Income before income taxes,33933,138753,75722,216165
-所得税 Provision for income taxes,-5737,-26560,-12986,-41394
-净利润 Net income,28196,112193,62736,174771
-优先股股息 Preferred stock dividends,0,-86,0,-86
-归属普通股净利 NI available to common,28196,112107,62736,174685
-基本每股收益 Basic EPS (USD),2.33,9.23,5.16,14.41
-稀释每股收益 Diluted EPS (USD),2.31,9.11,5.12,14.24
+【利润表·中期】,Q2 2025,Q2 2026,H1 2025,H1 2026,Q3 2025,Q3 2026,9M 2025,9M 2026
+收益 Revenues,96428,119796,186662,229692,102346,127577,289007,357269
+营业成本 Cost of revenues,-39039,-45943,-75400,-87214,-41369,-51419,-116768,-138633
+研发费用 Research and development,-13808,-18219,-27364,-35251,-15151,-20640,-42515,-55891
+销售与市场 Sales and marketing,-7101,-8403,-13273,-16009,-7205,-8804,-20478,-24813
+一般及行政 General and administrative,-5209,-6461,-8748,-10752,-7393,-6138,-16141,-16890
+总成本及开支 Total costs and expenses,-65157,-79026,-124785,-149226,-71118,-87001,-195902,-236227
+经营利润 Income from operations,31271,40770,61877,80466,31228,40576,93105,121042
+其他收入(支出)净额 OI&E,2662,97983,13845,135699,12759,-8221,26604,127478
+除税前利润 Income before income taxes,33933,138753,75722,216165,43987,32355,119709,248520
+所得税 Provision for income taxes,-5737,-26560,-12986,-41394,-9008,-5887,-21994,-47281
+净利润 Net income,28196,112193,62736,174771,34979,26468,97715,201239
+优先股股息 Preferred stock dividends,0,-86,0,-86,0,-298,0,-384
+归属普通股净利 NI available to common,28196,112107,62736,174685,34979,26170,97715,200855
+基本每股收益 Basic EPS (USD),2.33,9.23,5.16,14.41,2.89,2.14,8.06,16.51
+稀释每股收益 Diluted EPS (USD),2.31,9.11,5.12,14.24,2.87,2.12,7.99,16.33
+基本股数(百万) Basic shares,12122,12151,12153,12125,12086,12256,12130,12169
+稀释股数(百万) Diluted shares,12198,12309,12245,12274,12203,12368,12230,12324
+稀释分子·优先股股息加回 if-converted add-back,0,86,0,86,0,0,0,384
+稀释分子 Diluted numerator,28196,112193,62736,174771,34979,26170,97715,201239
 
-【OI&E 拆解·中期】,Q2 2025,Q2 2026,H1 2025,H1 2026
-利息收入 Interest income,1050,1430,2051,2811
-利息支出 Interest expense (净资本化后),-261,-1278,-295,-1811
-外汇损益 FX gain(loss) net,-69,-160,-175,-14
-债务证券损益 Gain(loss) on debt securities,165,-32,367,-143
-股权证券损益 Gain(loss) on equity securities,1286,99031,11044,135946
-权益法投资损益 Equity method net,419,-35,397,25
-其他 Other,72,-973,456,-1115
-=OI&E 合计,2662,97983,13845,135699
+【OI&E 拆解·中期】,Q2 2025,Q2 2026,H1 2025,H1 2026,Q3 2025,Q3 2026,9M 2025,9M 2026
+利息收入 Interest income,1050,1430,2051,2811,1076,1768,3128,4579
+利息支出 Interest expense (净资本化后),-261,-1278,-295,-1811,-143,-967,-438,-2778
+外汇损益 FX gain(loss) net,-69,-160,-175,-14,-143,22,-318,7
+债务证券损益 Gain(loss) on debt securities,165,-32,367,-143,122,-383,489,-526
+股权证券损益 Gain(loss) on equity securities,1286,99031,11044,135946,10734,-8664,21778,127282
+权益法投资损益 Equity method net,419,-35,397,25,-30,-143,367,-118
+其他 Other,72,-973,456,-1115,1143,146,1598,-968
+=OI&E 合计,2662,97983,13845,135699,12759,-8221,26604,127478
 
-【股权证券损益拆分·Note 3】,Q2 2025,Q2 2026,H1 2025,H1 2026
-非上市(计量替代法)未实现收益·毛额 Gross unrealized gain,670,77544,10374,114161
-非上市(计量替代法)未实现损失(含减值) Gross unrealized loss,-454,-190,-853,-582
-"=非上市(计量替代法)未实现净收益 Unrealized net, non-marketable",216,77354,9521,113579
-"上市及其他股权未实现净收益 Unrealized net, marketable and other",853,21399,1088,21531
-已出售股权的已实现净收益 Realized net,217,278,435,836
-=股权证券损益合计 Total gain(loss) on equity securities,1286,99031,11044,135946
+"【股权证券损益拆分·Note 3】(⚠️ 分项跨期不可相加:已实现=售价−「期初」账面,9M 与 Q3 的期初不同;只有合计行可加)",Q2 2025,Q2 2026,H1 2025,H1 2026,Q3 2025,Q3 2026,9M 2025,9M 2026
+非上市(计量替代法)未实现收益·毛额 Gross unrealized gain,670,77544,10374,114161,10583,3386,20924,117203
+非上市(计量替代法)未实现损失(含减值) Gross unrealized loss,-454,-190,-853,-582,-346,-359,-1188,-887
+"=非上市(计量替代法)未实现净收益 Unrealized net, non-marketable",216,77354,9521,113579,10237,3027,19736,116316
+"上市及其他股权未实现净收益 Unrealized net, marketable and other",853,21399,1088,21531,447,-12436,1447,9377
+已出售股权的已实现净收益 Realized net,217,278,435,836,50,745,595,1589
+=股权证券损益合计 Total gain(loss) on equity securities,1286,99031,11044,135946,10734,-8664,21778,127282
 
-【计量替代法非上市股权账面构成·Note 3】,2025-12-31,2026-06-30
-初始成本 Total initial cost,28429,47642
-累计向上调整 Cumulative upward adjustments,44485,85732
-累计向下调整(含减值) Cumulative downward adjustments,-8820,-9115
-=计量替代法账面价值 Carrying value (measurement alternative),64094,124259
-权益法投资及其他 Equity method investments and other,4593,7202
-=非上市证券合计 Total non-marketable securities,68687,131461
-累计向上调整÷账面价值(账面中「重估出来」的部分),69.4%,69.0%
+【计量替代法非上市股权账面构成·Note 3】,2025-12-31,2026-06-30,2026-09-30
+初始成本 Total initial cost,28429,47642,48595
+累计向上调整 Cumulative upward adjustments,44485,85732,88784
+累计向下调整(含减值) Cumulative downward adjustments,-8820,-9115,-9210
+=计量替代法账面价值 Carrying value (measurement alternative),64094,124259,128169
+权益法投资及其他 Equity method investments and other,4593,7202,7061
+=非上市证券合计 Total non-marketable securities,68687,131461,135230
 
-【资产负债表】,2025-12-31,2026-06-30
-现金及现金等价物 Cash and equivalents,30708,55911
-有价证券 Marketable securities,96135,186563
-=现金+等价物+有价证券,126843,242474
-应收账款净额 Accounts receivable net,62886,69175
-存货 Inventory,2439,9991
-其他流动资产 Other current assets,13870,21884
-流动资产合计 Total current assets,206038,343524
-非上市证券 Non-marketable securities,68687,131461
-递延所得税资产 Deferred income taxes,9113,1448
-固定资产净额 Property and equipment net,246597,321212
-经营租赁资产 Operating lease assets,15221,17694
-商誉 Goodwill,33380,57828
-无形资产净额 Intangible assets net,1283,9105
-其他非流动资产 Other non-current assets,14962,39711
-资产总计 Total assets,595281,921983
-应付账款 Accounts payable,12200,20258
-应付薪酬 Accrued compensation and benefits,17546,15086
-应付费用及其他流动负债 Accrued expenses and other,55557,73014
-应付分成 Accrued revenue share,10864,10599
-递延收入(流动) Deferred revenue,6578,7154
-流动负债合计 Total current liabilities,102745,126111
-长期债务 Long-term debt,46547,98165
-非流动应付税 Income taxes payable non-current,9531,11306
-递延所得税负债 Deferred income taxes,919,22819
-经营租赁负债 Operating lease liabilities,12744,14591
-其他长期负债 Other long-term liabilities,7530,8511
-负债合计 Total liabilities,180016,281503
-优先股及资本公积 Preferred stock and APIC,0,18023
-普通股及资本公积 Common stock and APIC,93126,131371
-累计其他综合收益 AOCI,-1916,-2285
-留存收益 Retained earnings,324055,493371
-股东权益合计 Total stockholders' equity,415265,640480
-负债及权益合计,595281,921983
+【上市股权证券·Note 3 公允价值表】,2025-12-31,2026-06-30,2026-09-30
+上市股权证券·Level 1,4402,86049,89919
+上市股权证券·Level 2,1911,1014,465
+=上市股权证券(计入有价证券),6313,87063,90384
 
-【现金流量表·半年】,H1 2025,H1 2026
-净利润 Net income,62736,174771
-折旧 Depreciation of property and equipment,9485,13586
-股权薪酬 Stock-based compensation,11514,14708
-递延所得税 Deferred income taxes,-1596,27538
-债务及股权证券损益冲回 Loss(gain) on securities,-11411,-135803
-其他调整 Other,1041,3161
-应收账款变动 Accounts receivable,-1201,-6904
-存货变动 Inventory,-628,-7739
-所得税净变动 Income taxes net,-2434,8304
-其他资产变动 Other assets,-2139,-9950
-应付账款变动 Accounts payable,-327,2090
-应付费用及其他变动 Accrued expenses and other,-1779,308
-递延收入变动 Deferred revenue,636,789
-经营活动现金流净额 Net cash from operating,63897,84859
-资本开支 Purchases of property and equipment,-39643,-80598
-购买有价证券 Purchases of marketable securities,-39870,-76480
-有价证券到期及出售 Maturities and sales of marketable,40930,66696
-购买非上市证券 Purchases of non-marketable securities,-2312,-22051
-非上市证券到期及出售 Maturities and sales of non-marketable,873,1667
-收购净支出及无形资产 Acquisitions net of cash,-353,-33697
-其他投资活动 Other investing,-363,-1359
-投资活动现金流净额 Net cash used in investing,-40738,-145822
-股权激励相关净支付 Net payments re stock-based awards,-5731,-12056
-股份回购 Repurchases of stock,-28306,0
-股息支付 Dividend payments,-4977,-5231
-发行普通股净额 Proceeds from issuance of common stock,0,30499
-发行强制可转优先股净额 Proceeds from preferred,0,19063
-发债净额 Proceeds from issuance of debt,31378,56226
-偿债 Repayments of debt,-18397,-5253
-出售合并主体权益净额 Sale of interest in consolidated,400,3758
-其他融资活动 Other financing,-400,-686
-融资活动现金流净额 Net cash from(used in) financing,-26033,86320
-汇率影响 Effect of exchange rate changes,444,-154
-现金净变动 Net increase(decrease) in cash,-2430,25203
-期初现金 Cash at beginning of period,23466,30708
-期末现金 Cash at end of period,21036,55911
+【资产负债表】,2025-12-31,2026-06-30,2026-09-30
+现金及现金等价物 Cash and equivalents,30708,55911,56334
+有价证券 Marketable securities,96135,186563,208764
+=现金+等价物+有价证券,126843,242474,265098
+应收账款净额 Accounts receivable net,62886,69175,72784
+存货 Inventory,2439,9991,13308
+其他流动资产 Other current assets,13870,21884,23475
+流动资产合计 Total current assets,206038,343524,374665
+非上市证券 Non-marketable securities,68687,131461,135230
+递延所得税资产 Deferred income taxes,9113,1448,1458
+固定资产净额 Property and equipment net,246597,321212,372827
+经营租赁资产 Operating lease assets,15221,17694,20273
+商誉 Goodwill,33380,57828,58117
+无形资产净额 Intangible assets net,1283,9105,8817
+其他非流动资产 Other non-current assets,14962,39711,31925
+资产总计 Total assets,595281,921983,1003312
+应付账款 Accounts payable,12200,20258,21975
+应付薪酬 Accrued compensation and benefits,17546,15086,17729
+应付费用及其他流动负债 Accrued expenses and other,55557,73014,74317
+应付分成 Accrued revenue share,10864,10599,11051
+递延收入(流动) Deferred revenue,6578,7154,9429
+流动负债合计 Total current liabilities,102745,126111,134501
+长期债务 Long-term debt,46547,98165,125102
+非流动应付税 Income taxes payable non-current,9531,11306,12219
+递延所得税负债 Deferred income taxes,919,22819,27833
+经营租赁负债 Operating lease liabilities,12744,14591,16815
+其他长期负债 Other long-term liabilities,7530,8511,9293
+负债合计 Total liabilities,180016,281503,325763
+优先股及资本公积 Preferred stock and APIC,0,18023,18023
+普通股及资本公积 Common stock and APIC,93126,131371,147068
+累计其他综合收益 AOCI,-1916,-2285,-4326
+留存收益 Retained earnings,324055,493371,516784
+股东权益合计 Total stockholders' equity,415265,640480,677549
+负债及权益合计,595281,921983,1003312
 
-【派生指标】,Q2/H1 2025,Q2/H1 2026,算法
-经营利润率 Operating margin,32.4%,34.0%,经营利润÷收入
-Google Cloud 经营利润率,20.7%,35.6%,云经营利润÷云收入
-Google Services 经营利润率,40.1%,41.8%,Services经营利润÷Services收入
-有效税率 Effective tax rate,16.9%,19.1%,所得税÷除税前利润
-OI&E占除税前利润 OI&E/pretax,7.8%,70.6%,OI&E÷除税前利润（口径污染度）
-核心稀释EPS(估) core diluted EPS (USD),2.13,2.68,经营利润×(1-有效税率)÷稀释股数·剔除OI&E股权重估·【推】非申报口径
-核心稀释EPS(估·按去年同期有效税率) core diluted EPS @prior-year tax rate,2.13,2.75,"敏感性对照:Q2'26 有效税率被未实现收益的递延税抬高(10-Q 原文),改用 Q2'25 税率;核心 EPS 同比在两行之间"
-报告稀释EPS reported diluted EPS (USD),2.31,9.11,10-Q 申报值
-单季自由现金流 quarterly FCF,5301,-5855,"单季 = (H1 OCF − Q1 OCF) − (H1 capex − Q1 capex);Q1 取 2026Q1 10-Q 两列。旧版 Q2'25 格误填 H1 数(24,254)、Q2'26 用 MD&A 舍入的 $39.1B(得 −5,824),均已改为精确单季"
-单季经营现金流÷单季经营利润 quarterly OCF/OI,0.89,0.96,单季 OCF ÷ 单季经营利润(H1 口径另见下方 H1 行)
-H1自由现金流 H1 FCF,24254,4261,H1经营现金流 − H1资本开支
-H1 FCF÷经营现金流,38.0%,5.0%,FCF÷OCF
-H1 capex÷经营现金流,62.0%,95.0%,资本开支÷经营现金流
-H1 capex÷折旧,4.18x,5.93x,资本开支÷当期折旧（未来折旧台阶指示）
-净现金(含受限股权) gross net cash,80296(2025末),144309,(现金+有价证券)−长期债务
-净现金(剔上市股权证券) liquid net cash,73983(2025末),57246,(现金+有价证券−上市股权证券)−长期债务·剔除受限SpaceX后可动用口径
-商誉÷总资产 Goodwill/assets,5.6%(2025末),6.3%,商誉÷总资产
-应收÷收入(年化) AR/revenue,14.7%(2025-06-30),15.1%,"期末应收÷(H1收入×2)·两端同轴;旧版左格用 2025 年末应收÷FY25 全年收入(15.6%),与右格不同轴"
-应收同比 vs 收入同比 AR YoY vs revenue YoY,应收 +25.7%,H1收入 +23.1%,"应收:2026-06-30 vs 2025-06-30(2025Q2 10-Q 原表 55,048);收入:H1 同比。应收增速略快于收入"
-采购承诺÷总资产 commitments/assets,25.0%(2025末),88.0%,表外采购承诺÷总资产
-SBC÷收入 SBC/revenue (H1),6.2%,6.4%,H1股权薪酬÷H1收入
+【现金流量表·累计】,H1 2025,H1 2026,9M 2025,9M 2026
+净利润 Net income,62736,174771,97715,201239
+折旧 Depreciation of property and equipment,9485,13586,15096,21955
+股权薪酬 Stock-based compensation,11514,14708,17882,23338
+递延所得税 Deferred income taxes,-1596,27538,7130,33077
+债务及股权证券损益冲回 Loss(gain) on securities,-11411,-135803,-22266,-126755
+其他调整 Other,1041,3161,843,4825
+应收账款变动 Accounts receivable,-1201,-6904,-3582,-10821
+存货变动 Inventory,-628,-7739,-1154,-10959
+所得税净变动 Income taxes net,-2434,8304,-3292,4602
+其他资产变动 Other assets,-2139,-9950,-2906,-17757
+应付账款变动 Accounts payable,-327,2090,-771,1925
+应付费用及其他变动 Accrued expenses and other,-1779,308,6299,-860
+递延收入变动 Deferred revenue,636,789,1317,3340
+经营活动现金流净额 Net cash from operating,63897,84859,112311,127149
+资本开支 Purchases of property and equipment,-39643,-80598,-63596,-131953
+购买有价证券 Purchases of marketable securities,-39870,-76480,-60834,-116467
+有价证券到期及出售 Maturities and sales of marketable,40930,66696,61301,88516
+购买非上市证券 Purchases of non-marketable securities,-2312,-22051,-3312,-24160
+非上市证券到期及出售 Maturities and sales of non-marketable,873,1667,1196,1875
+收购净支出及无形资产 Acquisitions net of cash,-353,-33697,-1425,-34103
+其他投资活动 Other investing,-363,-1359,-1845,-879
+投资活动现金流净额 Net cash used in investing,-40738,-145822,-68515,-217171
+股权激励相关净支付 Net payments re stock-based awards,-5731,-12056,-9001,-17424
+股份回购 Repurchases of stock,-28306,0,-39810,0
+股息支付 Dividend payments,-4977,-5231,-7513,-8167
+发行普通股净额 Proceeds from issuance of common stock,0,30499,0,42870
+发行强制可转优先股净额 Proceeds from preferred,0,19063,0,19063
+发债净额 Proceeds from issuance of debt,31378,56226,38002,85222
+偿债 Repayments of debt,-18397,-5253,-26094,-8879
+出售合并主体权益净额 Sale of interest in consolidated,400,3758,400,3758
+其他融资活动 Other financing,-400,-686,-400,-686
+融资活动现金流净额 Net cash from(used in) financing,-26033,86320,-44416,115757
+汇率影响 Effect of exchange rate changes,444,-154,244,-109
+现金净变动 Net increase(decrease) in cash,-2430,25203,-376,25626
+期初现金 Cash at beginning of period,23466,30708,23466,30708
+期末现金 Cash at end of period,21036,55911,23090,56334
+补充:计入应付/预提的物业设备 PP&E in AP & accrued(期末),10635,29113,14574,35921
 
-【单项一手事实】,值(百万美元·除标注)
-SpaceX持股-短期限售 (Level 1=活跃市场报价·计入有价证券),80000
-SpaceX持股-长期限售至2027Q3 (计入其他非流动资产),14126
-SpaceX持股合计 SpaceX total holding,94126
-非上市股权(计量替代法=平时按成本·仅观察到交易时重估)账面价值,124300
-其中Q2内按观察交易重估部分 (Level 2=可观察输入值),87900
-公开增发净额 public offering (29M A@$355.1982 + 29M C@$351.8018),20500
-Berkshire私募净额 private placement (14M A + 14M C),10000
-强制可转优先股净额 mandatory convertible preferred,19000
-=股权融资合计 total equity raise,49562
-capped call溢价(冲减权益) capped call premium,1000
-ATM额度(截至6/30未动用) ATM Program authorized/unused,40000
-回购授权剩余 repurchase authorization remaining,69500
-Wiz收购对价(2026-03-11完成) Wiz consideration,29500
-Wiz商誉 goodwill from Wiz,22705
-Wiz无形资产 intangibles from Wiz,8300
-EC Android罚款+利息(2026-07已付) EC Android fine paid,5200
-PriceRunner判决计提合计 legal charge accrued in Q2,2100
-员工人数 employees (persons),198933
+【长期债务·Q3 10-Q Note 6】,2025-12-31,2026-09-30
+2016 美元票据(2026 到期),2000,0
+2020 美元票据,9000,9000
+2025 美元票据,22500,22500
+2025 欧元票据,15585,15057
+2026 美元票据,0,45000
+2026 英镑票据,0,7287
+2026 瑞郎票据,0,3671
+2026 欧元票据,0,10228
+2026 加元票据,0,6001
+2026 日元票据,0,3659
+2026 澳元票据(Q3 新发·固定 A$3.3B + 浮动 A$2.3B),0,3861
+其他长期债务 Other long-term debt,0,1221
+=面值合计 Total face value,49085,127485
+未摊销折价及发行费用,-542,-1110
+公允价值套期调整,0,-257
+减:一年内到期部分,-1996,-1016
+=长期债务 Total long-term debt,46547,125102
+
+【股东权益变动·Q3 单季(期初=Q2 申报 6/30)】,优先股及资本公积,普通股及资本公积,AOCI,留存收益,权益合计
+期初 2026-06-30,18023,131371,-2285,493371,640480
+发行普通股(含 ATM),0,12372,0,0,12372
+股权薪酬,0,8681,0,0,8681
+限制性股票归属代扣税及其他,0,-5413,0,0,-5413
+普通股股息及股息等价物(宣派),0,57,0,-2757,-2700
+优先股股息(宣派及计提),0,0,0,-298,-298
+净利润,0,0,0,26468,26468
+其他综合收益,0,0,-2041,0,-2041
+期末 2026-09-30,18023,147068,-4326,516784,677549
+
+【派生·单季】,Q2 2025,Q2 2026,Q3 2025,Q3 2026,算法
+经营利润率 Operating margin,32.4%,34.0%,30.5%,31.8%,经营利润÷收入
+Google Cloud 经营利润率,20.7%,35.6%,23.7%,36.2%,云经营利润÷云收入
+Google Services 经营利润率,40.1%,41.8%,38.5%,40.7%,Services经营利润÷Services收入
+有效税率 Effective tax rate,16.9%,19.1%,20.5%,18.2%,所得税÷除税前利润
+OI&E占除税前利润 OI&E/pretax,7.8%,70.6%,29.0%,-25.4%,OI&E÷除税前利润(口径污染度;负值=OI&E 为净损失)
+股权证券损益 ÷ 经营利润,0.04x,2.43x,0.34x,-0.21x,"Note 3 股权证券损益÷经营利润(正=抬高报告净利,负=压低)"
+核心稀释EPS(估) core diluted EPS (USD),2.13,2.67,2.03,2.66,(经营利润×(1−当期有效税率)−优先股股息)÷稀释股数·剔除OI&E·【推】非申报口径;2026-10-29 起扣优先股股息、改用 Note 12 稀释股数(旧版以「归普净利÷稀释EPS」倒推股数)
+核心稀释EPS(估·按去年同期有效税率) @prior-year tax rate,2.13,2.75,2.03,2.58,"敏感性对照:当期有效税率被股权证券未实现损益按法定税率计提的递延税扭曲(Q2 抬高、Q3 压低,10-Q 原文),改用去年同季税率;核心 EPS 同比在两行之间"
+报告稀释EPS reported diluted EPS (USD),2.31,9.11,2.87,2.12,10-Q 申报值
+收入同比 revenue YoY,,+24.2%,,+24.7%,本季÷去年同季−1(同一份 10-Q 两列)
+经营利润同比 operating income YoY,,+30.4%,,+29.9%,同上
+报告净利同比 net income YoY,,+297.9%,,-24.3%,"同上;含 OI&E 股权重估,不能当经营成绩读"
+报告稀释EPS同比,,+294.4%,,-26.1%,同上
+核心稀释EPS同比(当期税率),,+25.4%,,+30.7%,核心 EPS 两期均按各自当期有效税率
+核心稀释EPS同比(按去年同期税率),,+28.9%,,+27.0%,两期均按去年同季税率
+单季经营现金流 quarterly OCF,27747,39069,48414,42290,Q2 = H1 − Q1(2026Q1 10-Q 两列);Q3 = 9M − H1(两份 10-Q);Q3 两格与 8-K 单季列一致
+单季资本开支 quarterly capex,22446,44924,23953,51355,同上
+单季自由现金流 quarterly FCF,5301,-5855,24461,-9065,单季 OCF − 单季 capex
+单季 capex÷经营现金流,80.9%,115.0%,49.5%,121.4%,资本开支÷经营现金流
+单季经营现金流÷经营利润 quarterly OCF/OI,0.89,0.96,1.55,1.04,单季 OCF ÷ 单季经营利润
+单季折旧 quarterly depreciation,,,5611,8369,"Q3 = 9M − H1(Q2 单季需 Q1 折旧,未转录)"
+单季 capex÷折旧,,,4.27x,6.14x,单季资本开支÷单季折旧(未来折旧台阶指示)
+
+【派生·累计】,H1 2025,H1 2026,9M 2025,9M 2026,算法
+累计自由现金流 FCF,24254,4261,48715,-4804,经营现金流 − 资本开支
+FCF÷经营现金流,38.0%,5.0%,43.4%,-3.8%,FCF÷OCF
+经营现金流÷经营利润 OCF/OI,1.03,1.05,1.21,1.05,"累计 OCF ÷ 累计经营利润(核心利润的现金含量;报告净利含未实现股权重估,不作分母)"
+capex÷经营现金流,62.0%,95.0%,56.6%,103.8%,资本开支÷经营现金流
+capex÷折旧,4.18x,5.93x,4.21x,6.01x,资本开支÷当期折旧(未来折旧台阶指示)
+SBC÷收入 SBC/revenue,6.2%,6.4%,6.2%,6.5%,现金流量表股权薪酬÷收入
+股东现金流净额(回购+股息−普通股发行−优先股发行),33283,-44331,47323,-53766,"正=净返还股东,负=净向股东融资;不含股权激励代扣税净支付(该项 9M'26 为 −17,424,ATM 明示主要用于覆盖它)"
+其中:股份回购,28306,0,39810,0,现金流量表
+其中:股息(普通股 + 优先股),4977,5231,7513,8167,现金流量表
+其中:股权融资(普通股 + 优先股),0,49562,0,61933,现金流量表
+
+【派生·单季现金流序列】,Q3 2025,Q4 2025,Q1 2026,Q2 2026,Q3 2026,近四季 TTM,算法
+单季经营现金流,48414,52402,45790,39069,42290,179551,Q4'25 = FY2025(现金流量表.csv)− 9M'25
+单季资本开支,23953,27851,35674,44924,51355,159804,同上
+单季自由现金流,24461,24551,10116,-5855,-9065,19747,OCF − capex
+capex÷经营现金流,49.5%,53.1%,77.9%,115.0%,121.4%,89.0%,资本开支÷经营现金流
+
+【派生·时点】,2025-12-31,2026-06-30,2026-09-30,算法
+净现金(含受限股权) gross net cash,80296,144309,139996,(现金+有价证券)−长期债务
+净现金(剔上市股权证券) liquid net cash,73983,57246,49612,"(现金+有价证券−上市股权证券[Note 3])−长期债务·剔除受限SpaceX后可动用口径;6/30 另有 14,126 SpaceX 长期限售在其他非流动资产,本来就不在分子里"
+商誉÷总资产 Goodwill/assets,5.6%,6.3%,5.8%,商誉÷总资产
+采购承诺÷总资产 commitments/assets,25.0%,88.0%,92.1%,"表外采购承诺÷总资产;⚠️ 9/30 起部分长期供应协议按合同上限价量列示(此前按最低量价),见 表外承诺与储备.csv 表头"
+(背书+担保)÷总资产 contingent/assets,3.8%,8.2%,9.8%,(已执行背书+待落实背书+财务担保)÷总资产;2025 年末无待落实背书披露
+存货 inventory,2439,9991,13308,资产负债表
+上市股权证券÷总资产,1.1%,9.4%,9.0%,Note 3 上市股权证券÷总资产
+非上市证券÷总资产,11.5%,14.3%,13.5%,非上市证券(主要为一家私营公司)÷总资产
+累计向上调整÷计量替代法账面(账面中「重估出来」的部分),69.4%,69.0%,69.3%,Note 3
+
+【派生·应收同轴】,2025 同日,2026,算法
+应收÷年化收入(6/30·H1×2),14.7%,15.1%,"2025-06-30 应收 55,048(2025Q2 10-Q)÷(H1'25×2) vs 2026-06-30;两端同轴"
+应收÷年化收入(9/30·9M×4/3),14.8%,15.3%,"2025-09-30 应收 57,148(2025Q3 10-Q)÷(9M'25×4/3) vs 2026-09-30;两端同轴"
+应收同比 vs 收入同比(6/30),应收 +25.7%,H1收入 +23.1%,应收 2026-06-30 vs 2025-06-30;收入 H1 同比
+应收同比 vs 收入同比(9/30),应收 +27.4%,9M收入 +23.6%,应收 2026-09-30 vs 2025-09-30;收入 9M 同比
+
+【单项一手事实】,值(百万美元·除标注),时点/期间,出处
+SpaceX持股-短期限售 (Level 1·计入有价证券),80000,2026-06-30,Q2 10-Q Note 3
+SpaceX持股-长期限售至2027Q3 (计入其他非流动资产),14126,2026-06-30,Q2 10-Q Note 3
+SpaceX持股合计 SpaceX total holding,94126,2026-06-30,Q2 10-Q Note 3(两段相加)
+SpaceX持股-短期限售 (Level 1·计入有价证券;长期限售段脚注本季不再出现),75200,2026-09-30,Q3 10-Q Note 3
+非上市股权(计量替代法)账面价值,124300,2026-06-30,Q2 10-Q Note 3 正文
+其中Q2内按观察交易重估部分 (主要为 Level 2=可观察输入值),87900,Q2 2026,Q2 10-Q Note 3
+非上市股权(计量替代法)账面价值,128200,2026-09-30,Q3 10-Q Note 3 正文
+其中Q3内重估部分 (主要为 Level 3=依赖不可观察输入值),8800,Q3 2026,Q3 10-Q Note 3
+公开增发净额 public offering (29M A@$355.1982 + 29M C@$351.8018),20500,2026-06-04,Q2 10-Q Note 11
+Berkshire私募净额 private placement (14M A + 14M C),10000,2026-06-04,Q2 10-Q Note 11
+强制可转优先股净额 mandatory convertible preferred,19000,2026-06-05,Q2 10-Q Note 11
+=股权融资合计 total equity raise(现金流量表精确值),49562,H1 2026,Q2 10-Q 现金流量表
+capped call溢价(冲减权益) capped call premium,1000,2026-06,Q2 10-Q Note 11
+ATM额度 ATM Program authorized,40000,2026-06-01,Q2 10-Q Note 11
+ATM·Class A 发行股数(百万股),12,Q3 2026,Q3 10-Q Note 11
+ATM·Class A 净额,4300,Q3 2026,Q3 10-Q Note 11
+ATM·Class C 发行股数(百万股),24,Q3 2026,Q3 10-Q Note 11
+ATM·Class C 净额,8100,Q3 2026,Q3 10-Q Note 11
+ATM剩余额度 ATM remaining,27600,2026-09-30,Q3 10-Q Note 11
+回购授权剩余 repurchase authorization remaining(2026 前三季零回购),69500,2026-09-30,Q3 10-Q Note 11
+优先股现金股息(Series A/B 各 117),234,Q3 2026,Q3 10-Q Note 11
+Wiz收购对价(2026-03-11完成) Wiz consideration,29500,2026-03-11,Q3 10-Q Note 8
+Wiz商誉 goodwill from Wiz,22705,2026-03-11,Q3 10-Q Note 8
+Wiz无形资产 intangibles from Wiz,8300,2026-03-11,Q3 10-Q Note 8
+Wiz承担净负债 net liabilities assumed,-1538,2026-03-11,Q3 10-Q Note 8
+Wiz购买价合计 total purchase price,29467,2026-03-11,Q3 10-Q Note 8
+EC Android罚款+利息(2026-07已付) EC Android fine paid,5200,2026-07,Q3 10-Q Note 10
+PriceRunner判决计提合计 legal charge accrued in Q2,2100,Q2 2026,Q2 10-Q MD&A
+EU DMA 两项不合规决定罚款计提(€430M Play + €460M Search·已上诉),1000,Q3 2026,Q3 10-Q Note 10
+应计罚款及和解(流动) Accrued fines and settlements,13807,2026-09-30,Q3 10-Q Note 7
+应收坏账准备 allowance for credit losses,1200,2026-09-30,Q3 10-Q Note 7(2025 年末 924、6/30 995)
+少数股东权益(含可赎回;计入普通股及资本公积) NCI,6900,2026-09-30,"Q3 10-Q Note 7(2025 年末 3,400)"
+Crux AI:Blackstone 未来出资上限,5000,2026-05 签约,Q3 10-Q Note 3
+Crux AI:Google 未来数据中心与能源背书上限,10000,2026-05 签约,Q3 10-Q Note 3 / Note 5
+利息资本化 interest capitalized,405,Q3 2026,"Q3 10-Q Note 7(Q3'25 为 130;9M'26 约 1,000)"
+短期租赁费用 short-term lease cost,109,Q3 2026,Q3 10-Q Note 4(Q3'25 为 11)
+股权薪酬费用合计 total SBC expense,8700,Q3 2026,"Q3 10-Q Note 13(Q3'25 为 6,400)"
+未确认股权薪酬成本(加权 2.8 年确认) unrecognized SBC,61800,2026-09-30,Q3 10-Q Note 13
+递延收入合计 total deferred revenue,12600,2026-09-30,"Q3 10-Q Note 2(2025 年末 8,600)"
+Q3 新发美元票据(固定 23.8B + 浮动 1.3B;加权票息 5.55%·约 15 年),25100,Q3 2026,Q3 10-Q Note 6
+Q3 发债净额(正文) notes net proceeds,28700,Q3 2026,Q3 10-Q MD&A
+循环信贷额度(未提用) revolving credit facilities,10000,2026-09-30,Q3 10-Q Note 6
+员工人数 employees (persons),198933,2026-06-30,Q2 10-Q MD&A
+员工人数 employees (persons),204757,2026-09-30,Q3 10-Q MD&A

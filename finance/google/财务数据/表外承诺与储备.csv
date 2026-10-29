@@ -1,12 +1,22 @@
-"# 单位: 百万美元(USD millions); 真源: FY2025 10-K=美股年报 (report/google/2025.htm) + report/google/2026-Q2.htm (10-Q · accession 0001652044-26-000071 · filed 2026-07-23); ⚠️收入储备(revenue backlog=已签约未确认收入)口径2026Q1起变更(纳入原始期限≤1年合同)→同比不完全可比;但量级小:2026Q1 10-Q 披露截至 2026-03-31 该部分约 $7.3B,远小于半年增量(6/30 时点该部分未披露); 未付capex 2025-12-31 取 FY2025 10-K(15,090),2026-06-30 取 Q2 10-Q;同比对照 2025-06-30 为 10,635; 缩写: capex=资本开支 / take-or-pay=照付不议(不用也得付) (全对照见 finance/_模板/美股财报缩写对照表.md)"
+"# 单位: 百万美元(USD millions); 真源: FY2025 10-K=美股年报 (report/google/2025.htm) + report/google/2026-Q2.htm (10-Q · accession 0001652044-26-000071 · filed 2026-07-23) + report/google/2026-Q3.htm (10-Q · accession 0001652044-26-000084 · filed 2026-10-29); ⚠️ 口径断点①收入储备 2026Q1 起纳入原始期限≤1年合同(量级小:2026Q1 10-Q 披露截至 2026-03-31 该部分约 $7.3B); ⚠️ 口径断点②采购承诺:FY2025 10-K 与 2026Q2 10-Q 均称可变条款协议「不超出最低数量/价格估计」;2026Q3 10-Q Note 10 改称部分长期供应协议「按合同上限价格与数量列示」,MD&A 删去「最低」一句 —— 6/30→9/30 的增量含计量口径变化,10-Q 未量化其影响,不可全部视为新签; 多年期承诺 6/30 的 707,000 为「固定或保证」口径、9/30 的 802,100 为上限口径且含 4,500 备用信用证; 租赁:2025 年末未起租租赁含短期 5,800 + 长期 52,700(10-K);6/30 的 85,200 不含当月另签的短期租赁(不可撤销约 5,800·Q3 起租);9/30 该短期租赁已起租并于 9 月修订,剩余不可撤销约 6,000(Note 4);未付capex 2025-12-31 取 FY2025 10-K; 缩写: capex=资本开支 / take-or-pay=照付不议(不用也得付) (全对照见 finance/_模板/美股财报缩写对照表.md)"
 
-项目,2025-12-31,2026-06-30,半年变化
-采购承诺及合约义务合计 Purchase commitments & obligations,149100,811000,+443.9%
-其中短期(12个月内) of which short-term,113000,200700,+77.6%
-收入储备合计 Revenue backlog,242800,519500,+114.0%
-其中Google Cloud of which Google Cloud,未单独披露,513900,n/a
-未付capex(计入应付/预提) PP&E in AP & accrued,15090,29113,+92.9%
-数据中心/能源信用背书·财务担保(最大潜在付款) Backstops: financial guarantees,5700,7600,+33.3%
-数据中心/能源信用背书·信用衍生品(最大潜在付款) Backstops: credit derivatives,16900,43800,+159.2%
-已签约、条款待敲定的未来信用背书(估计) Future backstops agreed,年报未披露·2026 年新签,24100,n/a
-对一家私营公司的里程碑式未来出资承诺(权益衍生品·至2030) Contingent capital funding,年报未披露·2026-03 新签,20000,n/a
+项目,2025-12-31,2026-06-30,2026-09-30,季度变化(6/30→9/30)
+采购承诺及合约义务合计 Purchase commitments & obligations,149100,811000,924400,+14.0%
+其中短期(12个月内) of which short-term,113000,200700,213400,+6.3%
+其中多年期(技术基建/存货/能源/内容·Note 10) of which multi-year,10-K 未单列,707000,802100,+13.5%
+备用信用证(担保长期供应协议履约·含于多年期承诺) Standby letters of credit,未披露,未披露,4500,n/a
+收入储备合计 Revenue backlog,242800,519500,567700,+9.3%
+其中Google Cloud of which Google Cloud,未单独披露,513900,560800,+9.1%
+其中与 Crux AI(权益法合营·关联方)多年商业协议 of which Crux AI,—,未披露,16800,n/a
+尚未起租的租赁付款(未入表) Leases not yet commenced,58500,85200,130500,+53.2%
+短期租赁不可撤销承诺(期限≤12月·不入表) Short-term lease commitment,5800(含于上行),5800,6000,+3.4%
+未付capex(计入应付/预提) PP&E in AP & accrued,15090,29113,35921,+23.4%
+数据中心信用背书·已执行(信用衍生品·最大潜在付款) Backstops executed (credit derivatives),16900,43800,48000,+9.6%
+已签约、待落实的未来信用背书 Future backstops agreed,年报未披露,24100,27700,+14.9%
+其中对 Crux AI of which Crux AI (related party),—,未披露,10000,n/a
+财务担保·能源设备采购(最大潜在付款) Guarantees: energy equipment,5700,7600,16200,+113.2%
+财务担保·TPU 回购义务(最大潜在付款) Guarantees: TPU repurchase,—,未披露,6600,n/a
+=财务担保合计 Financial guarantees total,5700,7600,22800,+200.0%
+股权投资未来出资承诺 Future funding commitments (equity investments),1100,21900,21900,+0.0%
+其中对一家私营公司的里程碑式出资(权益衍生品·至2030),—,20000,20000,+0.0%
+=或有承诺合计(已执行背书+待落实背书+财务担保),22600,75500,98500,+30.5%

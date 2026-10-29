@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """google PP&E 明细构建器 → PPE明细.csv(在建工程 = 模板列出的重资产「藏雷点」必查项)
 
-真源:各年自家 10-K「Property and Equipment」附注表的**本年列**(as-reported);2026-06-30 取 2026Q2 10-Q。
+真源:各年自家 10-K「Property and Equipment」附注表的**本年列**(as-reported);2026-06-30 / 09-30 取 2026Q2 / Q3 10-Q。
 单位:百万美元。
 
 列报口径两代(FY2024 10-K 起换表):
@@ -13,7 +13,7 @@
 校验(任一不过 → 不写出):
   P1 分项和 = 原值合计(旧)/ 在用资产合计(新)
   P2 原值 − 累计折旧 = 净额(旧);在用 − 累计折旧 + 尚未投入使用 = 净额(新)
-  P3 净额 = 资产负债表.csv 同年「物业及设备净额」(2026-06-30 对 中期财务-2026.csv)
+  P3 净额 = 资产负债表.csv 同年「物业及设备净额」(2026-06-30 / 09-30 对 中期财务-2026.csv 资产负债表段,按表头取列)
   P4 2023 两口径衔接:新口径(在用 + 尚未投入使用)= 旧口径原值合计
 """
 import csv
@@ -38,13 +38,15 @@ OLD = {  # 年: (土地及建筑, IT资产, 在建工程, 租赁改良, 家具, 
     2022: (66897, 66267, 27657, 10575, 314, 171710, 59042, 112668),
     2023: (74083, 80594, 35229, 11425, 472, 201803, 67458, 134345),
 }
-# ---- 新口径(FY2024 10-K 起本年列;"2023R" = FY2024 10-K 对 2023 的回溯重列;"2026H1" = 2026Q2 10-Q) ----
+# ---- 新口径(FY2024 10-K 起本年列;"2023R" = FY2024 10-K 对 2023 的回溯重列;"2026H1" / "2026Q3" = 2026Q2 / Q3 10-Q) ----
 NEW = {  # 期: (技术基础设施, 办公空间, 公司及其他, 在用合计, 累计折旧, 尚未投入使用, 净额)
     "2023R": (112504, 40435, 13728, 166667, 67458, 35136, 134345),
     "2024": (139596, 43714, 16519, 199829, 79390, 50597, 171036),
     "2025": (203679, 48348, 14463, 266490, 98485, 78592, 246597),
     "2026H1": (247177, 50635, 6498, 304310, 105912, 122814, 321212),
+    "2026Q3": (282842, 51101, 7157, 341100, 113543, 145270, 372827),
 }
+INTERIM_COLS = {"2026H1": "2026-06-30", "2026Q3": "2026-09-30"}  # NEW 键 → 中期财务-2026.csv 资产负债表段列名
 
 
 def _row_vals(path, label_prefix, header_row=1):
@@ -94,13 +96,25 @@ else:
         if y in bs:
             chk(f"{y} P3 净额=资产负债表", NEW[str(y)][6] - bs[y])
 with open(os.path.join(HERE, "中期财务-2026.csv"), encoding="utf-8") as f:
-    mid = [r for r in csv.reader(f) if r and r[0].startswith("固定资产净额")]
-if not mid:
-    FAIL.append("P3 中期财务-2026.csv 找不到「固定资产净额」行")
+    mid_rows = list(csv.reader(f))
+mid = None
+for i, r in enumerate(mid_rows):
+    if r and r[0].startswith("固定资产净额"):
+        for j in range(i, -1, -1):   # 向上找本段表头(以【开头),按列名取值,不靠列序号
+            if mid_rows[j] and mid_rows[j][0].startswith("【"):
+                mid = dict(zip(mid_rows[j][1:], r[1:]))
+                break
+        break
+if mid is None:
+    FAIL.append("P3 中期财务-2026.csv 找不到「固定资产净额」行或其段表头")
 else:
-    chk("2026H1 P3 净额=中期资产负债表", NEW["2026H1"][6] - float(mid[0][2]))
+    for key, col in INTERIM_COLS.items():
+        if not mid.get(col):
+            FAIL.append(f"P3 中期财务-2026.csv 资产负债表段缺列 {col}")
+        else:
+            chk(f"{key} P3 净额=中期资产负债表({col})", NEW[key][6] - float(mid[col]))
 
-n_chk = len(OLD) * 2 + len(NEW) * 2 + 2 + len(OLD) + 2 + 1
+n_chk = len(OLD) * 2 + len(NEW) * 2 + 2 + len(OLD) + 2 + len(INTERIM_COLS)
 print(f"PPE 明细校验 {n_chk} 条,不通过 {len(FAIL)}")
 if FAIL:
     for x in FAIL:
@@ -110,12 +124,12 @@ if FAIL:
         sys.exit(1)
 
 # ---- 写出 ----
-cols = [str(y) for y in OLD] + ["2023(新口径重列)", "2024", "2025", "2026-06-30"]
-ncol = {"2023(新口径重列)": "2023R", "2024": "2024", "2025": "2025", "2026-06-30": "2026H1"}
+cols = [str(y) for y in OLD] + ["2023(新口径重列)", "2024", "2025", "2026-06-30", "2026-09-30"]
+ncol = {"2023(新口径重列)": "2023R", "2024": "2024", "2025": "2025", "2026-06-30": "2026H1", "2026-09-30": "2026Q3"}
 
 
 def old_line(name, idx):
-    return [name] + [str(OLD[y][idx]) for y in OLD] + [""] * 4
+    return [name] + [str(OLD[y][idx]) for y in OLD] + [""] * (len(cols) - len(OLD))
 
 
 def new_line(name, idx):
@@ -136,10 +150,11 @@ def ratio_line(name, f):
 
 with open(OUT, "w", newline="", encoding="utf-8") as f:
     w = csv.writer(f)
-    w.writerow(["# 单位: 百万美元; 真源: 各年自家 10-K「Property and Equipment」附注本年列(as-reported) + 2026Q2 10-Q; "
+    w.writerow(["# 单位: 百万美元; 真源: 各年自家 10-K「Property and Equipment」附注本年列(as-reported) + 2026Q2 / Q3 10-Q; "
                 "FY2024 10-K 起换列报口径(见 _build_ppe.py 文档串);「2023(新口径重列)」列 = FY2024 10-K 对 2023 的回溯重列,供跨口径衔接; "
                 "⚠️ FY2025 10-K 又把 2024 在用资产的三分项重新归类(技术基础设施 141,852 / 办公 45,403 / 公司及其他 12,574,合计不变),本表 2024 列取 FY2024 10-K 原表; "
-                "2026-06-30「公司及其他」骤降主因 GFiber 待剥离:约 71 亿美元 PP&E 转入持有待售(计入其他流动资产)、停止折旧(2026Q2 10-Q)"])
+                "2026-06-30「公司及其他」骤降主因 GFiber 待剥离:约 71 亿美元 PP&E 转入持有待售(计入其他流动资产)、停止折旧(2026Q2 10-Q;"
+                "2026Q3 10-Q 同述,预计 2026 年底交割); 2026Q3 10-Q:9/30 技术基础设施中仍约六成为服务器与网络设备"])
     w.writerow(["科目"] + cols)
     w.writerow(["【旧口径·FY2012-FY2023 10-K】"] + [""] * len(cols))
     for i, nm in enumerate(["土地及建筑 Land and buildings", "IT 资产 Information technology assets",
