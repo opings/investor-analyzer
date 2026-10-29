@@ -4,12 +4,12 @@
 TAC = 付给分销伙伴(浏览器/手机厂商/运营商的默认搜索入口,如 Apple)与联盟网络伙伴(第三方网站)的分成,计入营业成本。
 它是 Google 的「获客成本」(行业块:获客成本 vs 用户增长),也是美国搜索案救济(独家默认协议)直接作用的科目。
 
-真源:各年自家 10-K MD&A「Cost of revenues」表本年列(as-reported);2026 取 2026Q2 10-Q。单位:百万美元。
+真源:各年自家 10-K MD&A「Cost of revenues」表本年列(as-reported);2026 取 2026Q2 / Q3 10-Q。单位:百万美元。
   2012–2013 为 Google 分部口径(当年营业成本按 Google / Motorola Mobile 分列,TAC 只属 Google 分部);
   FY2016–FY2018 10-K 另列「TAC to distribution partners」,FY2019 起不再按伙伴类型拆分 → 本表只列总额。
 
 校验(任一不过 → 不写出):
-  T1 TAC + 其他营业成本 = 营业成本合计(2014–2025、Q2/H1 2026)
+  T1 TAC + 其他营业成本 = 营业成本合计(2014–2025、Q2/H1/Q3/9M 2026)
   T2 营业成本合计 = 利润表.csv「销售成本」(年度)/ 中期财务-2026.csv「营业成本」(中期)
   T3 TAC 率(本表算 = TAC ÷ 广告收入)与公司披露的 TAC rate 一致(一位小数披露容差 0.06pp;整数披露容差 0.6pp)
 """
@@ -29,16 +29,24 @@ TAC = {
     "2023": (50886, 82446, 133332), "2024": (54900, 91406, 146306), "2025": (59926, 102609, 162535),
     "Q2 2025": (14705, 24334, 39039), "Q2 2026": (16179, 29764, 45943),
     "H1 2025": (28453, 46947, 75400), "H1 2026": (31407, 55807, 87214),
+    "Q3 2025": (14876, 26493, 41369), "Q3 2026": (16366, 35053, 51419),
+    "9M 2025": (43329, 73439, 116768), "9M 2026": (47773, 90860, 138633),
 }
 # 公司披露的 TAC rate(%·各期自家申报原文;精度 = 小数位数)
 DISCLOSED = {
     "2012": (25.1, 1), "2013": (24.2, 1),          # 2013 原文分母为「Google 分部广告收入」
     "2017": (23, 0), "2018": (23, 0), "2019": (22.3, 1), "2020": (22.3, 1), "2021": (21.8, 1),
     "2022": (21.8, 1), "2023": (21.4, 1), "2024": (20.7, 1), "Q2 2025": (20.6, 1), "Q2 2026": (19.8, 1),
+    # Q2 10-Q 原文「from 20.6% to 19.8% from the three and six months」→ H1 两期与 Q2 同值
+    "H1 2025": (20.6, 1), "H1 2026": (19.8, 1),
+    "Q3 2025": (20.1, 1), "Q3 2026": (20.0, 1), "9M 2025": (20.4, 1), "9M 2026": (19.8, 1),
 }
-# 中期广告收入(2026Q2 10-Q Note 2:Search & other + YouTube ads + Network)
+# 中期广告收入(2026Q2 / Q3 10-Q Note 2:Search & other + YouTube ads + Network)
 AD_INTERIM = {"Q2 2025": 54190 + 9796 + 7354, "Q2 2026": 63271 + 11055 + 7303,
-              "H1 2025": 104892 + 18723 + 14610, "H1 2026": 123670 + 20938 + 14274}
+              "H1 2025": 104892 + 18723 + 14610, "H1 2026": 123670 + 20938 + 14274,
+              "Q3 2025": 56567 + 10261 + 7354, "Q3 2026": 63350 + 11207 + 7455,
+              "9M 2025": 161459 + 28984 + 21964, "9M 2026": 187020 + 32145 + 21729}
+INTERIM = tuple(AD_INTERIM)
 
 FAIL = []
 
@@ -64,7 +72,7 @@ ad_annual = read_row("分部营收.csv", "=广告合计")
 cor_mid = read_row("中期财务-2026.csv", "营业成本")
 for nm, d, need in (("利润表.csv 销售成本", cor_annual, [str(y) for y in range(2014, 2026)]),
                     ("分部营收.csv 广告合计", ad_annual, [str(y) for y in range(2017, 2026)]),
-                    ("中期财务-2026.csv 营业成本", cor_mid, ["Q2 2025", "Q2 2026", "H1 2025", "H1 2026"])):
+                    ("中期财务-2026.csv 营业成本", cor_mid, list(INTERIM))):
     if d is None:
         FAIL.append(f"链式读取失败:{nm} 行找不到")
     else:
@@ -76,7 +84,7 @@ rate = {}
 for p, (tac, other, total) in TAC.items():
     if other is not None:
         chk(f"{p} T1 TAC+其他=合计", tac + other - total, 0.5)
-        src = cor_mid if p[:2] in ("Q2", "H1") else cor_annual
+        src = cor_mid if p in INTERIM else cor_annual
         if src and src.get(p):
             chk(f"{p} T2 合计=利润表营业成本", total - abs(float(src[p])), 0.5)
     ad = AD_INTERIM.get(p) or (float(ad_annual[p]) if ad_annual and ad_annual.get(p) else None)
@@ -97,7 +105,7 @@ if FAIL:
 cols = list(TAC)
 with open(OUT, "w", newline="", encoding="utf-8") as f:
     w = csv.writer(f)
-    w.writerow(["# 单位: 百万美元(TAC率=%); 真源: 各年自家 10-K MD&A「Cost of revenues」表本年列 + 2026Q2 10-Q; "
+    w.writerow(["# 单位: 百万美元(TAC率=%); 真源: 各年自家 10-K MD&A「Cost of revenues」表本年列 + 2026Q2 / Q3 10-Q; "
                 "TAC=付给分销伙伴(默认搜索入口)与联盟网络伙伴的分成,计入营业成本; 2012-2013 为 Google 分部口径; "
                 "TAC率=TAC÷广告收入(2017 起由本表按 分部营收.csv 算,并与公司披露值逐期互核,见 _build_tac.py T3)"])
     w.writerow(["科目"] + cols)
