@@ -677,6 +677,21 @@ def build_ratios():
         ("资产负债率 总负债/总资产",                [safe_div(tl[i], ta[i]) for i in range(n)]),
     ]
 
+    # 股东回报画像(累计·元): 自 2001(上市当年)起逐年累加; 2002/2004 现金流缺项按 0 计 ⇒ 累计已付分红略低估
+    div = find(现金流量表, "分配股利、利润或偿付利息支付现金")
+    cum_par, cum_div, s_par, s_div = [], [], 0.0, 0.0
+    for i, y in enumerate(YEARS):
+        if y < 2001:
+            cum_par.append(None)
+            cum_div.append(None)
+            continue
+        s_par += parent[i] or 0
+        s_div += -(div[i] or 0)
+        cum_par.append(s_par)
+        cum_div.append(s_div)
+    rows.append(("累计归母净利(2001起·元)", cum_par))
+    rows.append(("累计已付分红(2001起·含少数股东与付息·元)", cum_div))
+
     # ── 通用底补漏 ← scripts/derived.py（追加本公司尚无的通用比率·单一逻辑·跨公司复用·不改上面已核验的定制行）
     import sys
     scripts_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(OUT))), "scripts")
