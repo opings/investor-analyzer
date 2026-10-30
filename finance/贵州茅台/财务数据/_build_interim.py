@@ -105,6 +105,8 @@ Q3_SELF = {
     "归母净利润": (19_223_784_414.08, 19_950_545_560.09),
     "扣非归母净利润": (19_290_368_807.38, 19_860_616_953.17),
 }
+# 财务费用「其中: 利息收入」(货币资金等非财司利息; 不进成本链, 只供勾稽 3.0 第 3 条) —— (2025, 2026)
+FIN_INT_INCOME = {"H1": (493_572_693.81, 266_574_096.14), "前三季": (644_763_065.59, 402_102_001.51)}
 # 2026 三季报自陈同比(%): (本报告期, 年初至报告期末)
 YOY_SELF_2026 = {
     "营业收入": (3.08, 1.96),
@@ -491,6 +493,11 @@ def build_rows():
             "Q3派生列为三季报自陈本报告期单季值(非相减)")
     add("非经常性损益合计", "元", [None] * 4 + [NONREC9[0]] + [None] * 4 + [NONREC9[1]],
         "2026前三季主要为公允价值变动收益1.21亿(三季报P2)")
+    fi = FIN_INT_INCOME
+    add("财务费用·其中利息收入", "元",
+        [None, None, fi["H1"][0], fi["前三季"][0] - fi["H1"][0], fi["前三季"][0],
+         None, None, fi["H1"][1], fi["前三季"][1] - fi["H1"][1], fi["前三季"][1]],
+        "非财司口径的存款利息; 财司利息收入另见「利息收入_财司」行")
 
     # --- 现金流 ---
     cf_notes = {
@@ -571,6 +578,12 @@ def build_rows():
         [pct(rev[j] - cost[j], rev[j]) if cost[j] is not None else None for j in range(10)],
         "营业成本前三季+22.0%·H1公司归因销量增加及生产成本增加·三季报未再解释")
     add("税金及附加÷营业收入", "%", [pct(tax[j], rev[j]) if tax[j] is not None else None for j in range(10)])
+    for k, label in (("销售费用", "销售费用率"), ("管理费用", "管理费用率"), ("研发费用", "研发费用率")):
+        f = flow(PL, PL9, k)
+        add(label, "%", [pct(f[j], rev[j]) if f[j] is not None else None for j in range(10)], "÷营业收入")
+    cx = flow(CF, CF9, "购建固定资产等支付的现金")
+    add("Capex÷净利润", "%", [pct(cx[j], npf[j]) if (cx[j] is not None and npf[j]) else None for j in range(10)],
+        "购建固定资产等支付的现金÷合并净利润")
     add("现金含量(经营现金流÷净利润)", "倍", [ratio(ocf[j], npf[j]) if npf[j] is not None else None for j in range(10)],
         "被财司科目扭曲(2025压低/2026推高)·销售端看收现比")
     # 财司六行(报表正号口径): 流入行加、流出行减
