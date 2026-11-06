@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>泡泡玛特 · 估值基石业务数据 · 2026-11-02</title>
+<style>
+  :root{--ink:#1f2937;--sub:#6b7280;--line:#e5e7eb;--bg:#f8fafc;--card:#ffffff;
+        --blue:#2563eb;--amber:#f59e0b;--indigo:#6366f1;--orange:#f97316;--sky:#0ea5e9;
+        --red:#ef4444;--green:#16a34a;--gray:#94a3b8;}
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;color:var(--ink);background:var(--bg);padding:24px;}
+  .wrap{max-width:1280px;margin:0 auto;}
+  h1{font-size:22px;margin-bottom:6px;}
+  .meta{color:var(--sub);font-size:13px;margin-bottom:14px;}
+  .callout{background:#fffbeb;border:1px solid #fcd34d;border-left:4px solid var(--amber);border-radius:8px;padding:12px 16px;font-size:13.5px;line-height:1.7;margin-bottom:14px;}
+  .callout b{color:#92400e;}
+  .strip{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:20px;}
+  .pill{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:8px 14px;font-size:13px;}
+  .pill b{font-size:15px;}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(560px,1fr));gap:16px;}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px 10px;}
+  .card h3{font-size:14.5px;margin-bottom:2px;}
+  .card .why{font-size:12px;color:var(--sub);margin-bottom:8px;line-height:1.5;}
+  .card .why b{color:#374151;}
+  .card .src{font-size:11px;color:#9ca3af;margin-top:4px;}
+  .sec{font-size:16px;font-weight:700;margin:26px 0 10px;padding-left:10px;border-left:4px solid var(--blue);}
+  svg text{font-family:inherit;}
+  footer{margin-top:28px;color:#9ca3af;font-size:12px;line-height:1.8;border-top:1px solid var(--line);padding-top:12px;}
+  @media (max-width:640px){body{padding:16px;}.grid{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>泡泡玛特(09992) · 估值基石业务数据 · 2026-11-02</h1>
+  <div class="meta">配套推导文档:同目录 <code>推导.md</code> ｜ 数据真源:<code>finance/泡泡玛特/财务数据/</code>(利润表 / 分部营收 / 季度业务更新 / 财务比率 / 经营现金流拆解 各 CSV)</div>
+
+  <div class="callout">
+    ⚠️ <b>本估值的核心含义:2026 年是 LABUBU 退潮的谷底(归母约 77 亿,−39.6%),2027 年起新 IP 接棒、利润每年回升 10%,2029 年回到约 103 亿(2025 年峰值的八成)。</b>买点 122 港元不含 LABUBU 二次爆发或海外重新放量;本估值容忍 2026 年利润近四成的下滑。失效边界 = 2026 年报归母 &lt; 65 亿、2027Q1 业务更新仍为负、星星人转负,或存货减值与递延所得税资产减记合计 &gt; 5 亿。现价隐含每年 +14.2%,比本估值更乐观——所以现价在买点之上。双闸门未过(利润可持续 ❌),2026-11-02 轮为用户 Override 产物。
+  </div>
+
+  <div class="strip">
+    <div class="pill">结论 <b>观察·不动</b></div>
+    <div class="pill">买点 <b>122 港元</b>(1,413 亿)</div>
+    <div class="pill">现价 <b>136.50 港元</b>(= 买点 112%)</div>
+    <div class="pill">卖点一 <b>333 港元</b></div>
+    <div class="pill">P₁ <b>77.2 亿</b>(−39.6%)</div>
+    <div class="pill">g <b>10%</b> → P₃ <b>102.75 亿</b></div>
+    <div class="pill">仓位上限 <b>5%</b></div>
+  </div>
+
+  <div class="sec">A · 下行已经发生:P₁ 为什么只有 77 亿</div>
+  <div class="grid">
+    <div class="card">
+      <h3>① 年度营收 vs 归母净利(2019-2025 + 2026E·亿元)</h3>
+      <div class="why"><b>支撑:P₀=127.76 是脉冲顶,P₁=77.2 回落近四成</b>——2025 年营收 +184.7%、归母 +308.7%;2026E(虚线)营收约 294 亿、归母 77.2 亿。2022 年曾归母 −44.3%,深蹲有先例。</div>
+      <div id="c1"></div>
+      <div class="src">利润表.csv · 2026E = 2026H1 实际 + H2 基准情景(推导.md 第三节)</div>
+    </div>
+    <div class="card">
+      <h3>② THE MONSTERS vs 其他 IP 年度收入(2020-2025·亿元)</h3>
+      <div class="why"><b>支撑:LABUBU 是例外,量级有多大</b>——THE MONSTERS 2023 年还只占 5.8%,2025 年占 38.1%;虚线 = 保持 5.8% 占比的「正常线」(2025 年约 14.2 亿 vs 实际 141.6 亿)。</div>
+      <div id="c2"></div>
+      <div class="src">分部营收.csv 按 IP 划分(各年取当年年报当年数)· 正常线为派生</div>
+    </div>
+    <div class="card">
+      <h3>③ 2025H1 → 2026H1 收入:接棒的是谁(亿元)</h3>
+      <div class="why"><b>支撑:override 理由「新 IP 能接棒」的证据与分量</b>——THE MONSTERS −7.5%、星星人 +580.6%;剔掉这两个,其余 IP 只 +16.1%。接棒目前主要押在星星人一个 IP 上。</div>
+      <div id="c3"></div>
+      <div class="src">分部营收-H1.csv 按 IP 划分(2026 中报口径)· 其余 IP = 总营收 − THE MONSTERS − 星星人</div>
+    </div>
+    <div class="card">
+      <h3>④ 单季收入同比(区间中值·%)</h3>
+      <div class="why"><b>支撑:P₁ 下半年 −47.5% 的来源</b>——2026Q3 整体 −45%~−50%,中国 −25%~−30%;公司只给区间不给金额,Q4 无披露,基准按与 Q3 相同跌幅。</div>
+      <div id="c4"></div>
+      <div class="src">季度业务更新.csv(公司自愿公告·未经审核)· 柱顶标注为公告区间</div>
+    </div>
+  </div>
+
+  <div class="sec">B · 利润质量与存货:下行时利润为什么降得比收入快</div>
+  <div class="grid">
+    <div class="card">
+      <h3>⑤ 毛利率与经营利润率(2019-2025 + 2026H1·%)</h3>
+      <div class="why"><b>支撑:2025 年 45.5% 的经营利润率是规模效应的顶点</b>——收入下滑时门店、人手、租赁这类固定成本降不下来,经营杠杆反向,所以 P₁ 的跌幅(−39.6%)大于营收(约 −21%)。</div>
+      <div id="c5"></div>
+      <div class="src">财务比率.csv · 财务比率-H1.csv(2026H1 为半年口径)</div>
+    </div>
+    <div class="card">
+      <h3>⑥ 现金含量两段式(2019-2025 + 2026H1·倍)</h3>
+      <div class="why"><b>支撑:「利润为真 ⚠️」的由来</b>——现金含量 2025 年 0.835、2026H1 0.713;税前现金含量 2026H1 恰为 1.000,与 1 的差距全在税。2025 年那次是存货(营运资金存货 −39.32 亿)。</div>
+      <div id="c6"></div>
+      <div class="src">经营现金流拆解.csv ②③块(年度 / H1 三段序列)</div>
+    </div>
+    <div class="card">
+      <h3>⑦ 存货占总资产(各期 6 月 30 日·%)</h3>
+      <div class="why"><b>支撑:存货是 2026 年报最大的下行风险</b>——2026-06-30 存货 61.02 亿、占 19.66%,贴近关注要点 20% 红线;期末口径周转 213 天。悲观情景按存货减值 5 亿算。</div>
+      <div id="c7"></div>
+      <div class="src">财务比率-H1.csv 存货/总资产% · 关注要点警戒线见 财报关注要点.md 🅲</div>
+    </div>
+  </div>
+
+  <div class="sec">C · 估值输出:假设阶梯 vs 市场定价</div>
+  <div class="grid">
+    <div class="card">
+      <h3>⑧ g 阶梯下的买点 vs 2026-11-02 市值(亿元·P₁=77.2)</h3>
+      <div class="why"><b>支撑:结论「合理」与它离「便宜」有多远</b>——定稿 g=10% 的买点 1,413 低于市值 1,582(红线);workflow 建议的 −5% 只有 910。现价隐含每年 +14.2%。2026-07-17 轮的买点 2,805 已腰斩。</div>
+      <div id="c8"></div>
+      <div class="src">推导.md 第四节敏感性阶梯 · 市值 = 136.50 港元 × 13.32 亿股 × 0.87</div>
+    </div>
+    <div class="card">
+      <h3>⑨ P₁ 敏感性:2026 年利润做到多少,现价才算便宜(亿元·g=10%)</h3>
+      <div class="why"><b>支撑:2026 年报是关键</b>——2026 年归母 ≥ 86.4 亿时,买点升到市值之上;这个门槛落在 65–90 亿的估计区间之内。</div>
+      <div id="c9"></div>
+      <div class="src">推导.md 第三、八节 · 买点 = P₁ × 1.1³ × 27.5 × 50%</div>
+    </div>
+  </div>
+
+  <footer>
+    生成:2026-11-02 · 估值轮次:2026-11-02(定稿 P₁=77.2 · g=10%) ｜ 快照:现价 136.50 港元(2026-11-02 收盘·scripts/quote.py)·股本 1,331,779,203 股(FF301 截至 2026-10-31)·汇率 0.87(腾讯 2026 中期公告股息双币隐含;0.886 下市值 = 买点 114%)<br>
+    本页自包含(无外链/无 CDN),鼠标悬停数据点可看数值;所有数字可在 <code>finance/泡泡玛特/财务数据/</code> 对应 CSV 与 <code>推导.md</code> 复核;若与 CSV 冲突以 CSV 为准。
+  </footer>
+</div>
+
+<script>
+const NS='http://www.w3.org/2000/svg';
+const INK='#374151';
+function el(t,a,p){const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e;}
+function txt(p,x,y,s,o){o=o||{};const t=el('text',{x:x,y:y,'font-size':o.size||10.5,fill:o.fill||'#6b7280','text-anchor':o.anchor||'middle','font-weight':o.weight||'normal'},p);t.textContent=s;return t;}
+function tip(node,s){el('title',{},node).textContent=s;}
+function fmtN(v){return v.toLocaleString('en-US',{maximumFractionDigits:Math.abs(v)>=100?1:2});}
+function base(id,W,H){return el('svg',{viewBox:'0 0 '+W+' '+H,width:'100%',role:'img'},document.getElementById(id));}
+function scale(vals,forceZero){let lo=Math.min.apply(null,vals),hi=Math.max.apply(null,vals);
+  if(forceZero!==false)lo=Math.min(0,lo);const span=hi-lo||1;hi+=span*0.12;if(lo<0)lo-=span*0.08;return[lo,hi];}
+function grid(svg,W,H,padL,padR,padT,padB,lo,hi,fmt){
+  for(let k=0;k<=4;k++){const v=lo+(hi-lo)*k/4,y=padT+(H-padT-padB)*(1-(v-lo)/(hi-lo));
+    el('line',{x1:padL,x2:W-padR,y1:y,y2:y,stroke:'#eef1f5'},svg);
+    txt(svg,padL-6,y+3.5,fmt?fmt(v):fmtN(v),{anchor:'end',size:9.5,fill:'#9ca3af'});}
+}
+function refLine(svg,padL,padR,W,y,label,color,left){
+  el('line',{x1:padL,x2:W-padR,y1:y,y2:y,stroke:color,'stroke-width':1.5,'stroke-dasharray':'6 4'},svg);
+  if(label)txt(svg,left?padL+4:W-padR-4,y-6,label,{anchor:left?'start':'end',size:10,fill:INK,weight:'600'});
+}
+// 折线(多系列·可选参考线)
+function lineChart(id,labels,series,opt){
+  opt=opt||{};const W=640,H=300,padL=58,padR=28,padT=24,padB=40;
+  const svg=base(id,W,H);let vals=[];series.forEach(s=>s.data.forEach(v=>{if(v!=null)vals.push(v)}));
+  if(opt.hline!=null)vals.push(opt.hline);
+  const se=scale(vals,opt.forceZero),lo=se[0],hi=se[1];
+  grid(svg,W,H,padL,padR,padT,padB,lo,hi,opt.yfmt);
+  const X=i=>padL+(W-padL-padR)*(labels.length===1?0.5:i/(labels.length-1));
+  const Y=v=>padT+(H-padT-padB)*(1-(v-lo)/(hi-lo));
+  labels.forEach((lb,i)=>txt(svg,X(i),H-padB+15,lb,{size:9.5}));
+  if(opt.hline!=null)refLine(svg,padL,padR,W,Y(opt.hline),opt.hlineLabel||'',opt.hlineColor||'#ef4444',opt.hlineLeft);
+  series.forEach(s=>{
+    let d='';s.data.forEach((v,i)=>{if(v==null)return;d+=(d?' L':'M')+X(i)+' '+Y(v);});
+    el('path',{d:d,fill:'none',stroke:s.color,'stroke-width':2,'stroke-dasharray':s.dash||'none','stroke-linecap':'round'},svg);
+    s.data.forEach((v,i)=>{if(v==null)return;
+      const c=el('circle',{cx:X(i),cy:Y(v),r:4,fill:s.color,stroke:'#fff','stroke-width':2},svg);
+      tip(c,s.name+' · '+labels[i]+':'+(s.vfmt||fmtN)(v));
+      if(!s.showVals)return;
+      if(s.labelAt&&s.labelAt.indexOf(i)<0)return;
+      txt(svg,X(i),Y(v)-9,(s.vfmt||fmtN)(v),{size:9.5,fill:INK,weight:'600'});});
+  });
+  legend(svg,series,padL,12);
+}
+// 分组柱(多系列·可选自定义柱顶文字与参考线)
+function barChart(id,labels,series,opt){
+  opt=opt||{};const W=640,H=300,padL=58,padR=14,padT=24,padB=40;
+  const svg=base(id,W,H);let vals=[];series.forEach(s=>s.data.forEach(v=>{if(v!=null)vals.push(v)}));
+  if(opt.hline!=null)vals.push(opt.hline);
+  const se=scale(vals),lo=se[0],hi=se[1];
+  grid(svg,W,H,padL,padR,padT,padB,lo,hi,opt.yfmt);
+  const gw=(W-padL-padR)/labels.length,n=series.length,bw=Math.min(40,gw*0.7/n);
+  const Y=v=>padT+(H-padT-padB)*(1-(v-lo)/(hi-lo));
+  labels.forEach((lb,i)=>txt(svg,padL+gw*(i+0.5),H-padB+15,lb,{size:9.5}));
+  el('line',{x1:padL,x2:W-padR,y1:Y(0),y2:Y(0),stroke:'#94a3b8','stroke-width':1},svg);
+  series.forEach((s,j)=>{s.data.forEach((v,i)=>{if(v==null)return;
+    const x=padL+gw*(i+0.5)-(n*bw)/2+j*bw,y0=Y(0),y1=Y(v);
+    const r=el('rect',{x:x,y:Math.min(y0,y1),width:bw-2,height:Math.max(1,Math.abs(y0-y1)),fill:s.color,rx:3},svg);
+    const label=s.text?s.text[i]:(s.vfmt||fmtN)(v);
+    tip(r,s.name+' · '+labels[i]+':'+label);
+    const ly=v>=0?Math.min(y0,y1)-5:Math.max(y0,y1)+12;
+    txt(svg,x+(bw-2)/2,ly,label,{size:9,fill:INK,weight:'600'});});});
+  if(opt.hline!=null)refLine(svg,padL,padR,W,Y(opt.hline),opt.hlineLabel||'',opt.hlineColor||'#ef4444',opt.hlineLeft);
+  legend(svg,series,padL,12);
+}
+// 横向条(估值阶梯)
+function hbar(id,rows,opt){
+  opt=opt||{};const W=640,H=60+rows.length*42,padL=200,padR=70,padT=16,padB=26;
+  const svg=base(id,W,H);
+  let vals=rows.map(r=>r.v);if(opt.vline!=null)vals.push(opt.vline);
+  const hi=Math.max.apply(null,vals)*1.08,lo=0;
+  const X=v=>padL+(W-padL-padR)*(v-lo)/(hi-lo);
+  rows.forEach((r,i)=>{
+    const y=padT+i*42+8,bh=24;
+    const b=el('rect',{x:padL,y:y,width:Math.max(2,X(r.v)-padL),height:bh,fill:r.color||'#2563eb',rx:4},svg);
+    tip(b,r.name+':'+fmtN(r.v)+' 亿'+(r.note?' · '+r.note:''));
+    txt(svg,padL-8,y+bh/2+4,r.name,{anchor:'end',size:11,fill:INK,weight:r.bold?'700':'normal'});
+    txt(svg,X(r.v)+6,y+bh/2+4,fmtN(r.v)+(r.suffix||''),{anchor:'start',size:10.5,fill:INK,weight:'700'});
+  });
+  if(opt.vline!=null){const x=X(opt.vline);
+    el('line',{x1:x,x2:x,y1:padT-4,y2:H-padB+4,stroke:'#ef4444','stroke-width':1.6,'stroke-dasharray':'6 4'},svg);
+    txt(svg,x,H-padB+18,opt.vlineLabel||'',{size:10.5,fill:INK,weight:'700'});}
+}
+function legend(svg,series,x,y){let cx=x;series.forEach(s=>{if(s.noLegend)return;
+  if(s.dash)el('line',{x1:cx,x2:cx+14,y1:y-3,y2:y-3,stroke:s.color,'stroke-width':2,'stroke-dasharray':'4 3'},svg);
+  else el('rect',{x:cx,y:y-8,width:10,height:10,fill:s.color,rx:2},svg);
+  txt(svg,cx+(s.dash?18:14),y+1,s.name,{anchor:'start',size:10,fill:'#4b5563'});
+  cx+=(s.dash?18:14)+s.name.length*10.5+18;});}
+
+/* ============ 数据(全部可在 CSV / 推导.md 复核·单位亿元或 %) ============ */
+const pct=v=>v.toFixed(1)+'%';
+// ① 年度营收 & 归母(利润表.csv;2026E 为推导.md 基准情景)
+lineChart('c1',
+  ['2019','2020','2021','2022','2023','2024','2025','2026E'],
+  [{name:'营收',color:'#2563eb',data:[16.83,25.13,44.91,46.17,63.01,130.38,371.20,null],showVals:true,labelAt:[0,3,5,6]},
+   {name:'营收 2026E',color:'#2563eb',dash:'5 4',noLegend:true,data:[null,null,null,null,null,null,371.20,293.8],showVals:true,labelAt:[7]},
+   {name:'归母净利',color:'#f59e0b',data:[4.51,5.24,8.54,4.76,10.82,31.25,127.76,null],showVals:true,labelAt:[3,5,6]},
+   {name:'归母 2026E',color:'#f59e0b',dash:'5 4',noLegend:true,data:[null,null,null,null,null,null,127.76,77.2],showVals:true,labelAt:[7]}]);
+// ② THE MONSTERS vs 其他 IP(分部营收.csv;正常线 = 保持 2023 年 5.84% 占比)
+lineChart('c2',
+  ['2020','2021','2022','2023','2024','2025'],
+  [{name:'其他 IP 合计',color:'#6366f1',data:[23.09,41.86,43.54,59.33,99.97,229.59],showVals:true,labelAt:[3,4,5]},
+   {name:'THE MONSTERS',color:'#f97316',data:[2.05,3.04,2.63,3.68,30.41,141.61],showVals:true,labelAt:[3,4,5]},
+   {name:'THE MONSTERS 正常线(5.8%)',color:'#f97316',dash:'5 4',data:[null,null,null,3.68,6.20,14.24],showVals:true,labelAt:[5]}]);
+// ③ H1 对比(分部营收-H1.csv)
+barChart('c3',['THE MONSTERS(−7.5%)','星星人(+580.6%)','其余 IP(+16.1%)'],
+  [{name:'2025H1',color:'#94a3b8',data:[48.14,3.89,86.73]},
+   {name:'2026H1',color:'#2563eb',data:[44.54,26.50,100.69]}]);
+// ④ 单季同比区间(季度业务更新.csv;柱高 = 区间中值)
+barChart('c4',['2025Q1','2025Q3','2026Q1','2026Q3'],
+  [{name:'整体',color:'#2563eb',data:[167.5,247.5,77.5,-47.5],text:['+165~170%','+245~250%','+75~80%','−45~−50%']},
+   {name:'中国',color:'#16a34a',data:[97.5,187.5,102.5,-27.5],text:['+95~100%','+185~190%','+100~105%','−25~−30%']}],
+  {yfmt:v=>Math.round(v)+'%'});
+// ⑤ 毛利率 & 经营利润率(财务比率.csv / 财务比率-H1.csv)
+lineChart('c5',
+  ['2019','2020','2021','2022','2023','2024','2025',"2026H1"],
+  [{name:'毛利率',color:'#16a34a',data:[64.77,63.42,61.43,57.49,61.32,66.79,72.10,69.68],showVals:true,labelAt:[3,6,7],vfmt:pct},
+   {name:'经营利润率',color:'#2563eb',data:[35.57,28.60,25.60,12.63,19.53,31.86,45.50,39.16],showVals:true,labelAt:[3,6,7],vfmt:pct}],
+  {yfmt:v=>Math.round(v)+'%'});
+// ⑥ 现金含量两段式(经营现金流拆解.csv ②③块)
+lineChart('c6',
+  ['2019','2020','2021','2022','2023','2024','2025',"2026H1"],
+  [{name:'现金含量(经营现金流÷净利)',color:'#0ea5e9',data:[1.115,1.344,0.912,1.873,1.828,1.497,0.835,0.713],showVals:true,labelAt:[6,7],vfmt:v=>String(v)},
+   {name:'税前现金含量',color:'#6366f1',data:[1.008,1.272,0.890,1.772,1.514,1.240,0.863,1.000],showVals:true,labelAt:[7],vfmt:v=>v===1?'1.000':String(v)}],
+  {forceZero:false,hline:1,hlineColor:'#94a3b8',yfmt:v=>v.toFixed(1)});
+// ⑦ 存货 / 总资产(财务比率-H1.csv)
+barChart('c7',['2020H1','2021H1','2022H1','2023H1','2024H1','2025H1','2026H1'],
+  [{name:'存货 / 总资产',color:'#f97316',data:[12.52,4.14,11.15,8.37,8.32,10.65,19.66],vfmt:pct}],
+  {hline:20,hlineLabel:'关注要点红线 20%',hlineLeft:true,yfmt:v=>Math.round(v)+'%'});
+// ⑧ g 阶梯(推导.md 第四节)
+hbar('c8',
+  [{name:'2026-07-17 轮买点(P₁=153.3)',v:2805,color:'#cbd5e1'},
+   {name:'买点 @ g=−10%',v:774,color:'#cbd5e1'},
+   {name:'买点 @ g=−5%(建议)',v:910,color:'#94a3b8'},
+   {name:'买点 @ g=0%',v:1062,color:'#94a3b8'},
+   {name:'买点 @ g=+5%',v:1229,color:'#94a3b8'},
+   {name:'买点 @ g=+10%(定稿)',v:1413,color:'#2563eb',bold:true,note:'≈122 港元/股'},
+   {name:'市值(136.50 港元)',v:1582,color:'#ef4444',bold:true,note:'现价隐含 g≈+14.2%'}],
+  {vline:1582,vlineLabel:'市值 1,582 亿'});
+// ⑨ P₁ 阶梯(g=10%)
+hbar('c9',
+  [{name:'P₁=65(悲观)',v:1190,color:'#94a3b8',note:'≈103 港元/股'},
+   {name:'P₁=77.2(定稿)',v:1413,color:'#2563eb',bold:true,note:'≈122 港元/股'},
+   {name:'P₁=86.4(买点 = 市值)',v:1582,color:'#cbd5e1',note:'门槛'},
+   {name:'P₁=90(乐观)',v:1647,color:'#94a3b8',note:'≈142 港元/股·现价转便宜'}],
+  {vline:1582,vlineLabel:'市值 1,582 亿'});
+</script>
+</body>
+</html>
