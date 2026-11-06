@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>泡泡玛特 · 估值基石业务数据 · 2026-11-06</title>
+<style>
+  :root{--ink:#1f2937;--sub:#6b7280;--line:#e5e7eb;--bg:#f8fafc;--card:#ffffff;
+        --blue:#2563eb;--amber:#f59e0b;--indigo:#6366f1;--orange:#f97316;--sky:#0ea5e9;
+        --slate:#64748b;--gray:#94a3b8;}
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;color:var(--ink);background:var(--bg);padding:24px;}
+  .wrap{max-width:1280px;margin:0 auto;}
+  h1{font-size:22px;margin-bottom:6px;}
+  .meta{color:var(--sub);font-size:13px;margin-bottom:14px;}
+  .callout{background:#fffbeb;border:1px solid #fcd34d;border-left:4px solid var(--amber);border-radius:8px;padding:12px 16px;font-size:13.5px;line-height:1.7;margin-bottom:14px;}
+  .callout b{color:#92400e;}
+  .strip{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:20px;}
+  .pill{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:8px 14px;font-size:13px;}
+  .pill b{font-size:15px;}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(560px,1fr));gap:16px;}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px 10px;}
+  .card h3{font-size:14.5px;margin-bottom:2px;}
+  .card .why{font-size:12px;color:var(--sub);margin-bottom:8px;line-height:1.5;}
+  .card .why b{color:#374151;}
+  .card .src{font-size:11px;color:#9ca3af;margin-top:4px;}
+  .sec{font-size:16px;font-weight:700;margin:26px 0 10px;padding-left:10px;border-left:4px solid var(--blue);}
+  table.sens{border-collapse:collapse;width:100%;font-size:13px;margin:6px 0 4px;}
+  table.sens th,table.sens td{border:1px solid var(--line);padding:9px 10px;text-align:center;}
+  table.sens th{background:#f1f5f9;font-weight:600;color:#374151;}
+  table.sens td small{display:block;color:var(--sub);font-size:11px;margin-top:2px;}
+  table.sens td.pick{background:#eff6ff;border:2px solid var(--blue);font-weight:700;}
+  svg text{font-family:inherit;}
+  footer{margin-top:28px;color:#9ca3af;font-size:12px;line-height:1.8;border-top:1px solid var(--line);padding-top:12px;}
+  @media (max-width:640px){body{padding:16px;}.grid{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>泡泡玛特(09992) · 估值基石业务数据 · 2026-11-06</h1>
+  <div class="meta">配套推导文档:同目录 <code>推导.md</code> ｜ 数据真源:<code>finance/泡泡玛特/财务数据/</code>(利润表 / 利润表-H1 / 分部营收 / 分部营收-H1 / 季度业务更新 各 CSV)</div>
+
+  <div class="callout">
+    ⚠️ <b>本估值的核心含义:2026 年还不是谷底。2027 年利润再跌 20%(约 62 亿),2028–2029 年没有新爆款、有新 IP 顶上,每年 +10%,2029 年约 75 亿——仍比 2026 年低 3.2%,只有 2025 年峰值的 58.5%。</b>买点 88.7 港元不含 LABUBU 再火一次或新爆款。分量最重的假设是 2027 年只跌 20%:workflow 基准是 −30%~−40%,那样买点约 66–72 港元。失效边界 = 2026 年报归母 &lt; 65 亿、2027Q1 整体收入同比深于 −50%、星星人同比转负、存货减值与递延所得税资产减记合计 &gt; 5 亿、2027 年中报归母 &lt; 23 亿。双闸门未过(利润可持续 ❌),2026-11-06 轮为用户第三次 Override 的产物。
+  </div>
+
+  <div class="strip">
+    <div class="pill">结论 <b>观察·不动</b></div>
+    <div class="pill">买点 <b>88.7 港元</b>(1,028 亿)</div>
+    <div class="pill">现价 <b>141.90 港元</b>(= 买点 160%)</div>
+    <div class="pill">卖点一 <b>333 港元</b></div>
+    <div class="pill">P₁ <b>77.2 亿</b>(2026E)</div>
+    <div class="pill">路径 <b>−20% / +10% / +10%</b> → P₃ <b>74.73 亿</b></div>
+    <div class="pill">仓位上限 <b>5%</b></div>
+  </div>
+
+  <div class="sec">A · 2027 年为什么还要跌:路径的第一段</div>
+  <div class="grid">
+    <div class="card">
+      <h3>① 年度归母与两条估值路径(2019-2025 + 2026E-2029E·亿元)</h3>
+      <div class="why"><b>支撑:P₃ = 74.73 亿从哪来</b>——定稿路径 2026E 77.2 → 2027E 61.76(−20%)→ 2028E 67.94 → 2029E 74.73(2025 年峰值的 58.5%,仍比 2026E 低 3.2%)。2026-11-02 轮按每年 +10%,2029 年为 102.75 亿。</div>
+      <div id="c1"></div>
+      <div class="src">利润表.csv · 2026E 见 ../2026-11-02/推导.md 第三节 · 2027E-2029E 为 2026-11-06 用户路径</div>
+    </div>
+    <div class="card">
+      <h3>② 半年归母与 2027 年检验点(亿元)</h3>
+      <div class="why"><b>支撑:2027 年 −20% 要求上下半年都好于 2026H2 的节奏</b>——定稿路径 2027H1 约 25.9–27.2 亿(图取中值 26.56)、2027H2 约 34.6–35.8 亿(比 2026H2E 高 29%–34%);只停在 2026H2 节奏时,2027H1 为 19.4–21.1 亿、全年约 46–48 亿(约 −39%)。2027 年中报 &lt; 23 亿即作废。</div>
+      <div id="c2"></div>
+      <div class="src">利润表.csv · 利润表-H1.csv · 2027 年拆半按 2021 / 2023 年 H1 占全年利润 42.0% / 44.0%</div>
+    </div>
+  </div>
+
+  <div class="sec">B · 新 IP 能不能顶上:路径的第二段与 override 依据</div>
+  <div class="grid">
+    <div class="card">
+      <h3>③ 2025H2 → 2026H1 收入变化·按 IP(亿元)</h3>
+      <div class="why"><b>支撑:「下行主要是 LABUBU 退潮」的证据</b>——收入少 60.71 亿,THE MONSTERS 占 81%;星星人 +9.84 亿,是唯一明显增长的。环比含季节性(上半年通常弱于下半年)。对照 2022H2 同比:MOLLY −21%、DIMOO −23%、THE MONSTERS −19%、SKULLPANDA −5%,全线一起跌,2023 年一起回升。</div>
+      <div id="c3"></div>
+      <div class="src">分部营收-H1.csv · 分部营收.csv(2025H2 = 全年 − H1)· 其他 = 总营收 − 列名各 IP · 括号内为环比</div>
+    </div>
+    <div class="card">
+      <h3>④ THE MONSTERS vs 星星人·半年收入(亿元)</h3>
+      <div class="why"><b>支撑:「2028–2029 年新 IP 顶上」的起点</b>——星星人 2026H1 26.50 亿(同比 +580.6%),已是第二大 IP,但只有 THE MONSTERS 峰值半年(2025H2 93.47 亿)的 28.4%。作废条件:星星人同比转负(2026H2 对照 2025H2 的 16.66 亿)。</div>
+      <div id="c4"></div>
+      <div class="src">分部营收-H1.csv · 分部营收.csv(H2 = 全年 − H1)· 星星人 2025 年前未单列</div>
+    </div>
+    <div class="card">
+      <h3>⑤ Q3 推算:THE MONSTERS 跌多少,其他收入就得跌多少(横轴 = THE MONSTERS 2026Q3 同比)</h3>
+      <div class="why"><b>支撑:Q3 的下滑很可能已扩散到其他 IP(对 2026-11-02 override 理由的挑战)</b>——2026Q3 整体 −45%~−50%,THE MONSTERS 只占 2025H2 收入 40.2%。它同比跌 80% 时,其他收入须 −21.5%~−29.8%;跌到零也至少 −8.0%。2026H1 其他收入还是 +40.4%(灰线)。</div>
+      <div id="c5"></div>
+      <div class="src">季度业务更新.csv · 分部营收-H1.csv / 分部营收.csv 派生 · 假设 2025Q3 收入结构 = 2025H2(公司不披露分 IP 季度数)</div>
+    </div>
+  </div>
+
+  <div class="sec">C · 估值输出</div>
+  <div class="grid">
+    <div class="card">
+      <h3>⑥ 各条路径的买点 vs 2026-11-06 市值(亿元·P₁ = 77.2)</h3>
+      <div class="why"><b>支撑:结论「合理」与它离「便宜」有多远</b>——定稿买点 1,028 亿 ≈ 88.7 港元,市值 1,644 亿是它的 160%,股价需跌 37.5%。比 2026-11-02 轮低 27.3%,下修全部来自 2027-2029 年路径(P₁ 未变)。</div>
+      <div id="c6"></div>
+      <div class="src">推导.md 第四节对照表 · 市值 = 141.90 港元 × 13.32 亿股 × 0.87</div>
+    </div>
+    <div class="card">
+      <h3>⑦ 敏感性:2027 年跌幅 × 2028-2029 年增速 → 买点(港元/股)</h3>
+      <div class="why"><b>支撑:2027 年跌多少是分量最重的假设</b>——2027 年从 −20% 换成 −50%,买点 88.7 → 55.4 港元;2028-2029 年增速从 +5% 换成 +15%,买点只在 80.8–96.9 港元之间变。小字为 2026-11-06 市值 ÷ 买点,九格都 &gt; 1。</div>
+      <table class="sens">
+        <tr><th>2027 年 \ 2028-2029 年每年</th><th>+5%</th><th>+10%</th><th>+15%</th></tr>
+        <tr><th>−20%(用户定案)</th><td>80.8<small>×1.76</small></td><td class="pick">88.7<small>×1.60 · 定稿</small></td><td>96.9<small>×1.46</small></td></tr>
+        <tr><th>−35%(workflow 基准中间值)</th><td>65.7<small>×2.16</small></td><td>72.1<small>×1.97</small></td><td>78.8<small>×1.80</small></td></tr>
+        <tr><th>−50%</th><td>50.5<small>×2.81</small></td><td>55.4<small>×2.56</small></td><td>60.6<small>×2.34</small></td></tr>
+      </table>
+      <div class="src">买点 = 77.2 × (1 − 2027 年跌幅) × (1 + 增速)² × 27.5 × 50% ÷ 13.32 亿股 ÷ 0.87</div>
+    </div>
+  </div>
+
+  <footer>
+    生成:2026-11-06 · 估值轮次:2026-11-06(定稿 P₁=77.2 · 路径 −20% / +10% / +10%)｜ 快照:现价 141.90 港元(2026-11-06 收盘·腾讯证券行情接口;scripts/quote.py 在 2026-11-06 17:05 只到 2026-11-05 收盘 144.50,与腾讯行情「前收」一致)·股本 1,331,779,203 股(FF301 截至 2026-10-31)·汇率 0.87(0.886 下市值 = 买点 162.9%)<br>
+    利润质量与存货(毛利率与经营利润率、现金含量两段式、存货占总资产)在 2026-11-02 至 2026-11-06 间无新数据,见 <code>../2026-11-02/业务数据.html</code> ⑤–⑦。<br>
+    本页自包含(无外链/无 CDN),鼠标悬停数据点可看数值;所有数字可在 <code>finance/泡泡玛特/财务数据/</code> 对应 CSV 与 <code>推导.md</code> 复核;若与 CSV 冲突以 CSV 为准。
+  </footer>
+</div>
+
+<script>
+const NS='http://www.w3.org/2000/svg';
+const INK='#374151';
+function el(t,a,p){const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e;}
+function txt(p,x,y,s,o){o=o||{};const a={x:x,y:y,'font-size':o.size||10.5,fill:o.fill||'#6b7280','text-anchor':o.anchor||'middle','font-weight':o.weight||'normal'};
+  if(o.halo){a.stroke='#ffffff';a['stroke-width']=3;a['paint-order']='stroke';a['stroke-linejoin']='round';}
+  const t=el('text',a,p);t.textContent=s;return t;}
+function tip(node,s){el('title',{},node).textContent=s;}
+function fmtN(v){return v.toLocaleString('en-US',{maximumFractionDigits:Math.abs(v)>=100?1:2});}
+function base(id,W,H){return el('svg',{viewBox:'0 0 '+W+' '+H,width:'100%',role:'img'},document.getElementById(id));}
+function scale(vals,forceZero){let lo=Math.min.apply(null,vals),hi=Math.max.apply(null,vals);
+  if(forceZero!==false)lo=Math.min(0,lo);const span=hi-lo||1;hi+=span*0.12;if(lo<0)lo-=span*0.08;return[lo,hi];}
+function grid(svg,W,H,padL,padR,padT,padB,lo,hi,fmt){
+  for(let k=0;k<=4;k++){const v=lo+(hi-lo)*k/4,y=padT+(H-padT-padB)*(1-(v-lo)/(hi-lo));
+    el('line',{x1:padL,x2:W-padR,y1:y,y2:y,stroke:'#eef1f5'},svg);
+    txt(svg,padL-6,y+3.5,fmt?fmt(v):fmtN(v),{anchor:'end',size:9.5,fill:'#9ca3af'});}
+}
+function refLine(svg,padL,padR,W,y,label,color,left){
+  el('line',{x1:padL,x2:W-padR,y1:y,y2:y,stroke:color,'stroke-width':1.5,'stroke-dasharray':'6 4'},svg);
+  if(label)txt(svg,left?padL+4:W-padR-4,y-6,label,{anchor:left?'start':'end',size:10,fill:INK,weight:'600',halo:true});
+}
+// 折线(多系列·可选参考线 / 零线 / 区间带 / 短标记)
+function lineChart(id,labels,series,opt){
+  opt=opt||{};const W=640,H=300,padL=58,padR=28,padT=24,padB=40;
+  const svg=base(id,W,H);let vals=[];series.forEach(s=>s.data.forEach(v=>{if(v!=null)vals.push(v)}));
+  if(opt.hline!=null)vals.push(opt.hline);
+  if(opt.band){opt.band.lo.forEach(v=>vals.push(v));opt.band.hi.forEach(v=>vals.push(v));}
+  const se=scale(vals,opt.forceZero),lo=se[0],hi=se[1];
+  grid(svg,W,H,padL,padR,padT,padB,lo,hi,opt.yfmt);
+  const X=i=>padL+(W-padL-padR)*(labels.length===1?0.5:i/(labels.length-1));
+  const Y=v=>padT+(H-padT-padB)*(1-(v-lo)/(hi-lo));
+  labels.forEach((lb,i)=>txt(svg,X(i),H-padB+15,lb,{size:9.5}));
+  if(opt.zero)el('line',{x1:padL,x2:W-padR,y1:Y(0),y2:Y(0),stroke:'#94a3b8','stroke-width':1},svg);
+  if(opt.band){const b=opt.band;let d='';
+    b.hi.forEach((v,i)=>{d+=(d?' L':'M')+X(i)+' '+Y(v);});
+    for(let i=b.lo.length-1;i>=0;i--)d+=' L'+X(i)+' '+Y(b.lo[i]);
+    const p=el('path',{d:d+' Z',fill:b.color,'fill-opacity':0.16,stroke:'none'},svg);tip(p,b.name);}
+  if(opt.hline!=null)refLine(svg,padL,padR,W,Y(opt.hline),opt.hlineLabel||'',opt.hlineColor||'#94a3b8',opt.hlineLeft);
+  (opt.marks||[]).forEach(m=>{const y=Y(m.v);
+    const ln=el('line',{x1:X(m.i)-26,x2:X(m.i)+26,y1:y,y2:y,stroke:INK,'stroke-width':1.5,'stroke-dasharray':'3 2'},svg);
+    tip(ln,m.legend+' 亿');});
+  series.forEach(s=>{
+    let d='';s.data.forEach((v,i)=>{if(v==null)return;d+=(d?' L':'M')+X(i)+' '+Y(v);});
+    el('path',{d:d,fill:'none',stroke:s.color,'stroke-width':2,'stroke-dasharray':s.dash||'none','stroke-linecap':'round'},svg);
+    s.data.forEach((v,i)=>{if(v==null)return;
+      const c=el('circle',{cx:X(i),cy:Y(v),r:4,fill:s.color,stroke:'#fff','stroke-width':2},svg);
+      tip(c,s.name+' · '+labels[i]+':'+(s.vfmt||fmtN)(v));
+      if(!s.showVals)return;
+      if(s.labelAt&&s.labelAt.indexOf(i)<0)return;
+      txt(svg,X(i),s.below?Y(v)+16:Y(v)-9,(s.vfmt||fmtN)(v),{size:9.5,fill:INK,weight:'600',halo:true});});
+  });
+  let leg=opt.band?series.concat([{name:opt.band.name,color:opt.band.color,band:true}]):series;
+  leg=leg.concat((opt.marks||[]).map(m=>({name:m.legend,color:INK,dash:'3 2'})));
+  legend(svg,leg,padL,12);
+}
+// 柱(多系列·可逐柱着色·可选自定义柱顶文字与参考线)
+function barChart(id,labels,series,opt){
+  opt=opt||{};const W=640,H=300,padL=58,padR=14,padT=24,padB=40;
+  const svg=base(id,W,H);let vals=[];series.forEach(s=>s.data.forEach(v=>{if(v!=null)vals.push(v)}));
+  if(opt.hline!=null)vals.push(opt.hline);
+  const se=scale(vals),lo=se[0],hi=se[1];
+  grid(svg,W,H,padL,padR,padT,padB,lo,hi,opt.yfmt);
+  const gw=(W-padL-padR)/labels.length,n=series.length,bw=Math.min(40,gw*0.7/n);
+  const Y=v=>padT+(H-padT-padB)*(1-(v-lo)/(hi-lo));
+  labels.forEach((lb,i)=>lb.split('\n').forEach((part,k)=>txt(svg,padL+gw*(i+0.5),H-padB+15+k*11,part,{size:9.5})));
+  el('line',{x1:padL,x2:W-padR,y1:Y(0),y2:Y(0),stroke:'#94a3b8','stroke-width':1},svg);
+  series.forEach((s,j)=>{s.data.forEach((v,i)=>{if(v==null)return;
+    const x=padL+gw*(i+0.5)-(n*bw)/2+j*bw,y0=Y(0),y1=Y(v);
+    const r=el('rect',{x:x,y:Math.min(y0,y1),width:bw-2,height:Math.max(1,Math.abs(y0-y1)),fill:s.colors?s.colors[i]:s.color,rx:3},svg);
+    const label=s.text?s.text[i]:(s.vfmt||fmtN)(v);
+    tip(r,s.name+' · '+labels[i]+':'+label);
+    const ly=v>=0?Math.min(y0,y1)-5:Math.max(y0,y1)+12;
+    txt(svg,x+(bw-2)/2,ly,label,{size:9,fill:INK,weight:'600',halo:true});});});
+  if(opt.hline!=null)refLine(svg,padL,padR,W,Y(opt.hline),opt.hlineLabel||'',opt.hlineColor||'#94a3b8',opt.hlineLeft);
+  legend(svg,series,padL,12);
+}
+// 横向条(估值对照)
+function hbar(id,rows,opt){
+  opt=opt||{};const W=opt.W||640,H=60+rows.length*42,padL=opt.padL||200,padR=opt.padR||70,padT=16,padB=26;
+  const svg=base(id,W,H);
+  let vals=rows.map(r=>r.v);if(opt.vline!=null)vals.push(opt.vline);
+  const hi=Math.max.apply(null,vals)*1.08,lo=0;
+  const X=v=>padL+(W-padL-padR)*(v-lo)/(hi-lo);
+  if(opt.vline!=null){const x=X(opt.vline);
+    el('line',{x1:x,x2:x,y1:padT-4,y2:H-padB+4,stroke:opt.vlineColor||INK,'stroke-width':1.6,'stroke-dasharray':'6 4'},svg);
+    txt(svg,x,H-padB+18,opt.vlineLabel||'',{size:10.5,fill:INK,weight:'700'});}
+  rows.forEach((r,i)=>{
+    const y=padT+i*42+8,bh=24;
+    const b=el('rect',{x:padL,y:y,width:Math.max(2,X(r.v)-padL),height:bh,fill:r.color||'#2563eb',rx:4},svg);
+    tip(b,r.name+':'+fmtN(r.v)+' 亿'+(r.suffix?' ·'+r.suffix.split('·')[1]:''));
+    txt(svg,padL-8,y+bh/2+4,r.name,{anchor:'end',size:11,fill:INK,weight:r.bold?'700':'normal'});
+    txt(svg,X(r.v)+6,y+bh/2+4,fmtN(r.v)+(r.suffix||''),{anchor:'start',size:10.5,fill:INK,weight:'700',halo:true});
+  });
+}
+function legend(svg,series,x,y){let cx=x;series.forEach(s=>{if(s.noLegend)return;
+  if(s.band)el('rect',{x:cx,y:y-8,width:14,height:10,fill:s.color,'fill-opacity':0.16,stroke:s.color,'stroke-width':0.6},svg);
+  else if(s.dash)el('line',{x1:cx,x2:cx+14,y1:y-3,y2:y-3,stroke:s.color,'stroke-width':2,'stroke-dasharray':s.dash},svg);
+  else el('rect',{x:cx,y:y-8,width:10,height:10,fill:s.color,rx:2},svg);
+  const off=(s.dash||s.band)?18:14;
+  txt(svg,cx+off,y+1,s.name,{anchor:'start',size:10,fill:'#4b5563'});
+  cx+=off+s.name.length*10.5+18;});}
+
+/* ============ 数据(全部可在 CSV / 推导.md 复核·单位亿元或 %) ============ */
+const pct1=v=>(v>0?'+':'')+v.toFixed(1)+'%';
+const r2=v=>String(Math.round(v*100)/100);
+// ① 年度归母 + 两条估值路径(利润表.csv;2026E-2029E 见推导.md 第四节)
+lineChart('c1',
+  ['2019','2020','2021','2022','2023','2024','2025','2026E','2027E','2028E','2029E'],
+  [{name:'归母(实际)',color:'#f59e0b',data:[4.51,5.24,8.54,4.76,10.82,31.25,127.76,null,null,null,null],showVals:true,labelAt:[3,5,6],vfmt:r2},
+   {name:'2026-11-06 定稿路径',color:'#2563eb',dash:'5 4',data:[null,null,null,null,null,null,127.76,77.2,61.76,67.94,74.73],showVals:true,labelAt:[7,8,10],below:true,vfmt:r2},
+   {name:'2026-11-02 轮(每年 +10%)',color:'#94a3b8',dash:'2 3',data:[null,null,null,null,null,null,null,77.2,84.92,93.41,102.75],showVals:true,labelAt:[10],vfmt:r2}]);
+// ② 半年归母 + 2027 年两种走法(利润表.csv / 利润表-H1.csv;2027 拆半见推导.md 第四节)
+lineChart('c2',
+  ['2023H1','2023H2','2024H1','2024H2','2025H1','2025H2','2026H1','2026H2E','2027H1E','2027H2E'],
+  [{name:'实际',color:'#f59e0b',data:[4.77,6.06,9.21,22.04,45.74,82.01,50.38,null,null,null],showVals:true,labelAt:[3,5,6]},
+   {name:'2026H2E 基准',color:'#f59e0b',dash:'5 4',data:[null,null,null,null,null,null,50.38,26.82,null,null],showVals:true,labelAt:[7]},
+   {name:'定稿路径',color:'#2563eb',dash:'5 4',data:[null,null,null,null,null,null,null,26.82,26.56,35.20],showVals:true,labelAt:[8,9]},
+   {name:'停在 2026H2 节奏',color:'#94a3b8',dash:'2 3',data:[null,null,null,null,null,null,null,26.82,20.26,26.82],showVals:true,labelAt:[8],below:true}],
+  {marks:[{i:8,v:23,legend:'2027H1 作废线 23'}]});
+// ③ 2025H2 → 2026H1 收入变化(分部营收-H1.csv / 分部营收.csv)
+barChart('c3',['THE\nMONSTERS','SKULL\nPANDA','MOLLY','其他','CRYBABY','DIMOO','HIRONO','星星人'],
+  [{name:'2025H2 → 2026H1 收入变化',noLegend:true,data:[-48.93,-7.68,-6.39,-6.26,-0.78,-0.53,0.02,9.84],
+    colors:['#f97316','#64748b','#64748b','#64748b','#64748b','#64748b','#64748b','#0ea5e9'],
+    text:['−48.93(−52%)','−7.68(−33%)','−6.39(−41%)','−6.26','−0.78(−5%)','−0.53(−3%)','+0.02(0%)','+9.84(+59%)']}],
+  {yfmt:v=>Math.round(v)});
+// ④ THE MONSTERS vs 星星人(分部营收-H1.csv / 分部营收.csv)
+lineChart('c4',['2024H1','2024H2','2025H1','2025H2','2026H1'],
+  [{name:'THE MONSTERS',color:'#f97316',data:[6.27,24.14,48.14,93.47,44.54],showVals:true,labelAt:[1,3,4]},
+   {name:'星星人',color:'#0ea5e9',data:[null,null,3.89,16.66,26.50],showVals:true,labelAt:[2,3,4]}]);
+// ⑤ Q3 推算(季度业务更新.csv 整体 −45%~−50%;THE MONSTERS 占 2025H2 收入 40.2%)
+lineChart('c5',['−60%','−70%','−80%','−90%','−100%'],
+  [{name:'其他收入须同比(整体 −47.5% 中值)',color:'#6366f1',data:[-39.1,-32.4,-25.6,-18.9,-12.2],showVals:true,vfmt:pct1}],
+  {band:{name:'整体 −45%~−50%',color:'#6366f1',lo:[-43.3,-36.5,-29.8,-23.1,-16.4],hi:[-34.9,-28.2,-21.5,-14.7,-8.0]},
+   hline:40.4,hlineLabel:'2026H1 其他收入同比 +40.4%',hlineColor:'#94a3b8',hlineLeft:true,zero:true,yfmt:v=>Math.round(v)+'%'});
+// ⑥ 各条路径买点(推导.md 第四节对照表)
+hbar('c6',
+  [{name:'11-02 轮 +10%/年',v:1412.9,color:'#cbd5e1',suffix:' 亿 · 121.9 港元'},
+   {name:'11-05 自拟 0/+5/+5',v:1170.3,color:'#cbd5e1',suffix:' 亿 · 101.0 港元'},
+   {name:'11-06 定稿 −20/+10/+10',v:1027.5,color:'#2563eb',bold:true,suffix:' 亿 · 88.7 港元'},
+   {name:'建议 −35/+10/+10',v:834.9,color:'#94a3b8',suffix:' 亿 · 72.1 港元'},
+   {name:'建议 −35/+5/+5',v:760.7,color:'#94a3b8',suffix:' 亿 · 65.7 港元'}],
+  {vline:1644.1,vlineLabel:'2026-11-06 市值 1,644 亿(141.90 港元)',W:640,padL:150,padR:140});
+</script>
+</body>
+</html>
