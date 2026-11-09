@@ -1,0 +1,9342 @@
+{
+"key": "2025",
+"cik": 1045810,
+"acc": "0001045810-25-000023",
+"statements": {
+"IS": {
+"file": "R3.htm",
+"short": "Consolidated Statements of Income",
+"unit": "Consolidated Statements of Income - USD ($) shares in Millions, $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024",
+"Jan. 29, 2023"
+],
+"months": [
+12,
+12,
+12
+],
+"rows": [
+{
+"label": "Income Statement [Abstract]",
+"tag": "us-gaap_IncomeStatementAbstract",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Revenue",
+"tag": "us-gaap_Revenues",
+"vals": [
+130497.0,
+60922.0,
+26974.0
+]
+},
+{
+"label": "Cost of revenue",
+"tag": "us-gaap_CostOfRevenue",
+"vals": [
+32639.0,
+16621.0,
+11618.0
+]
+},
+{
+"label": "Gross profit",
+"tag": "us-gaap_GrossProfit",
+"vals": [
+97858.0,
+44301.0,
+15356.0
+]
+},
+{
+"label": "Operating expenses",
+"tag": "us-gaap_OperatingExpensesAbstract",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Research and development",
+"tag": "us-gaap_ResearchAndDevelopmentExpense",
+"vals": [
+12914.0,
+8675.0,
+7339.0
+]
+},
+{
+"label": "Sales, general and administrative",
+"tag": "us-gaap_SellingGeneralAndAdministrativeExpense",
+"vals": [
+3491.0,
+2654.0,
+2440.0
+]
+},
+{
+"label": "Acquisition termination cost",
+"tag": "nvda_BusinessCombinationAdvancedConsiderationWrittenOff",
+"vals": [
+0.0,
+0.0,
+1353.0
+]
+},
+{
+"label": "Total operating expenses",
+"tag": "us-gaap_OperatingExpenses",
+"vals": [
+16405.0,
+11329.0,
+11132.0
+]
+},
+{
+"label": "Operating income",
+"tag": "us-gaap_OperatingIncomeLoss",
+"vals": [
+81453.0,
+32972.0,
+4224.0
+]
+},
+{
+"label": "Interest income",
+"tag": "us-gaap_InvestmentIncomeInterest",
+"vals": [
+1786.0,
+866.0,
+267.0
+]
+},
+{
+"label": "Interest expense",
+"tag": "us-gaap_InterestExpenseNonoperating",
+"vals": [
+-247.0,
+-257.0,
+-262.0
+]
+},
+{
+"label": "Other, net",
+"tag": "us-gaap_OtherNonoperatingIncomeExpense",
+"vals": [
+1034.0,
+237.0,
+-48.0
+]
+},
+{
+"label": "Other income (expense), net",
+"tag": "us-gaap_NonoperatingIncomeExpense",
+"vals": [
+2573.0,
+846.0,
+-43.0
+]
+},
+{
+"label": "Income before income tax",
+"tag": "us-gaap_IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+"vals": [
+84026.0,
+33818.0,
+4181.0
+]
+},
+{
+"label": "Income tax expense (benefit)",
+"tag": "us-gaap_IncomeTaxExpenseBenefit",
+"vals": [
+11146.0,
+4058.0,
+-187.0
+]
+},
+{
+"label": "Net income",
+"tag": "us-gaap_NetIncomeLoss",
+"vals": [
+72880.0,
+29760.0,
+4368.0
+]
+},
+{
+"label": "Net income per share:",
+"tag": "us-gaap_EarningsPerShareAbstract",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Basic (in USD per share)",
+"tag": "us-gaap_EarningsPerShareBasic",
+"vals": [
+2.97,
+1.21,
+0.18
+]
+},
+{
+"label": "Diluted (in USD per share)",
+"tag": "us-gaap_EarningsPerShareDiluted",
+"vals": [
+2.94,
+1.19,
+0.17
+]
+},
+{
+"label": "Weighted average shares used in per share computation:",
+"tag": "us-gaap_WeightedAverageNumberOfSharesOutstandingDilutedDisclosureItemsAbstract",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Basic (in shares)",
+"tag": "us-gaap_WeightedAverageNumberOfSharesOutstandingBasic",
+"vals": [
+24555.0,
+24690.0,
+24870.0
+]
+},
+{
+"label": "Diluted (in shares)",
+"tag": "us-gaap_WeightedAverageNumberOfDilutedSharesOutstanding",
+"vals": [
+24804.0,
+24940.0,
+25070.0
+]
+}
+]
+},
+"CI": {
+"file": "R4.htm",
+"short": "Consolidated Statements of Comprehensive Income",
+"unit": "Consolidated Statements of Comprehensive Income - USD ($) $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024",
+"Jan. 29, 2023"
+],
+"months": [
+12,
+12,
+12
+],
+"rows": [
+{
+"label": "Statement of Comprehensive Income [Abstract]",
+"tag": "us-gaap_StatementOfIncomeAndComprehensiveIncomeAbstract",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Net income",
+"tag": "us-gaap_NetIncomeLoss",
+"vals": [
+72880.0,
+29760.0,
+4368.0
+]
+},
+{
+"label": "Available-for-sale securities:",
+"tag": "us-gaap_OtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentBeforeReclassificationAdjustmentsNetOfTaxAbstract",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Net change in unrealized gain (loss)",
+"tag": "us-gaap_OtherComprehensiveIncomeUnrealizedHoldingGainLossOnSecuritiesArisingDuringPeriodNetOfTax",
+"vals": [
+1.0,
+80.0,
+-31.0
+]
+},
+{
+"label": "Reclassification adjustments for net realized gain included in net income",
+"tag": "us-gaap_OtherComprehensiveIncomeLossReclassificationAdjustmentFromAOCIForSaleOfSecuritiesNetOfTax",
+"vals": [
+0.0,
+0.0,
+1.0
+]
+},
+{
+"label": "Net change in unrealized gain (loss)",
+"tag": "us-gaap_OtherComprehensiveIncomeAvailableforsaleSecuritiesAdjustmentNetOfTaxPortionAttributableToParent",
+"vals": [
+1.0,
+80.0,
+-30.0
+]
+},
+{
+"label": "Cash flow hedges:",
+"tag": "us-gaap_OtherComprehensiveIncomeDerivativesQualifyingAsHedgesTaxPortionAttributableToParentAbstract",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Net change in unrealized gain",
+"tag": "us-gaap_OtherComprehensiveIncomeLossCashFlowHedgeGainLossBeforeReclassificationAfterTax",
+"vals": [
+21.0,
+38.0,
+47.0
+]
+},
+{
+"label": "Reclassification adjustments for net realized loss included in net income",
+"tag": "us-gaap_OtherComprehensiveIncomeLossCashFlowHedgeGainLossReclassificationAfterTax",
+"vals": [
+-21.0,
+-48.0,
+-49.0
+]
+},
+{
+"label": "Net change in unrealized loss",
+"tag": "us-gaap_OtherComprehensiveIncomeLossCashFlowHedgeGainLossAfterReclassificationAndTax",
+"vals": [
+0.0,
+-10.0,
+-2.0
+]
+},
+{
+"label": "Other comprehensive income (loss), net of tax",
+"tag": "us-gaap_OtherComprehensiveIncomeLossNetOfTax",
+"vals": [
+1.0,
+70.0,
+-32.0
+]
+},
+{
+"label": "Total comprehensive income",
+"tag": "us-gaap_ComprehensiveIncomeNetOfTax",
+"vals": [
+72881.0,
+29830.0,
+4336.0
+]
+}
+]
+},
+"BS": {
+"file": "R5.htm",
+"short": "Consolidated Balance Sheets",
+"unit": "Consolidated Balance Sheets - USD ($) $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024"
+],
+"months": [],
+"rows": [
+{
+"label": "Current assets:",
+"tag": "us-gaap_AssetsCurrentAbstract",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Cash and cash equivalents",
+"tag": "us-gaap_CashAndCashEquivalentsAtCarryingValue",
+"vals": [
+8589.0,
+7280.0
+]
+},
+{
+"label": "Marketable securities",
+"tag": "us-gaap_MarketableSecuritiesCurrent",
+"vals": [
+34621.0,
+18704.0
+]
+},
+{
+"label": "Accounts receivable, net",
+"tag": "us-gaap_AccountsReceivableNetCurrent",
+"vals": [
+23065.0,
+9999.0
+]
+},
+{
+"label": "Inventories",
+"tag": "us-gaap_InventoryNet",
+"vals": [
+10080.0,
+5282.0
+]
+},
+{
+"label": "Prepaid expenses and other current assets",
+"tag": "us-gaap_PrepaidExpenseAndOtherAssetsCurrent",
+"vals": [
+3771.0,
+3080.0
+]
+},
+{
+"label": "Total current assets",
+"tag": "us-gaap_AssetsCurrent",
+"vals": [
+80126.0,
+44345.0
+]
+},
+{
+"label": "Property and equipment, net",
+"tag": "us-gaap_PropertyPlantAndEquipmentNet",
+"vals": [
+6283.0,
+3914.0
+]
+},
+{
+"label": "Operating lease assets",
+"tag": "us-gaap_OperatingLeaseRightOfUseAsset",
+"vals": [
+1793.0,
+1346.0
+]
+},
+{
+"label": "Goodwill",
+"tag": "us-gaap_Goodwill",
+"vals": [
+5188.0,
+4430.0
+]
+},
+{
+"label": "Intangible assets, net",
+"tag": "us-gaap_IntangibleAssetsNetExcludingGoodwill",
+"vals": [
+807.0,
+1112.0
+]
+},
+{
+"label": "Deferred income tax assets",
+"tag": "us-gaap_DeferredIncomeTaxAssetsNet",
+"vals": [
+10979.0,
+6081.0
+]
+},
+{
+"label": "Other assets",
+"tag": "us-gaap_OtherAssetsNoncurrent",
+"vals": [
+6425.0,
+4500.0
+]
+},
+{
+"label": "Total assets",
+"tag": "us-gaap_Assets",
+"vals": [
+111601.0,
+65728.0
+]
+},
+{
+"label": "Current liabilities:",
+"tag": "us-gaap_LiabilitiesCurrentAbstract",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Accounts payable",
+"tag": "us-gaap_AccountsPayableCurrent",
+"vals": [
+6310.0,
+2699.0
+]
+},
+{
+"label": "Accrued and other current liabilities",
+"tag": "us-gaap_AccruedLiabilitiesCurrent",
+"vals": [
+11737.0,
+6682.0
+]
+},
+{
+"label": "Short-term debt",
+"tag": "us-gaap_DebtCurrent",
+"vals": [
+0.0,
+1250.0
+]
+},
+{
+"label": "Total current liabilities",
+"tag": "us-gaap_LiabilitiesCurrent",
+"vals": [
+18047.0,
+10631.0
+]
+},
+{
+"label": "Long-term debt",
+"tag": "us-gaap_LongTermDebtNoncurrent",
+"vals": [
+8463.0,
+8459.0
+]
+},
+{
+"label": "Long-term operating lease liabilities",
+"tag": "us-gaap_OperatingLeaseLiabilityNoncurrent",
+"vals": [
+1519.0,
+1119.0
+]
+},
+{
+"label": "Other long-term liabilities",
+"tag": "us-gaap_OtherLiabilitiesNoncurrent",
+"vals": [
+4245.0,
+2541.0
+]
+},
+{
+"label": "Total liabilities",
+"tag": "us-gaap_Liabilities",
+"vals": [
+32274.0,
+22750.0
+]
+},
+{
+"label": "Commitments and contingencies - see Note 12",
+"tag": "us-gaap_CommitmentsAndContingencies",
+"vals": [
+0.0,
+0.0
+]
+},
+{
+"label": "Shareholders’ equity:",
+"tag": "us-gaap_StockholdersEquityIncludingPortionAttributableToNoncontrollingInterestAbstract",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Preferred stock, $0.001 par value; 20 shares authorized; none issued",
+"tag": "us-gaap_PreferredStockValueOutstanding",
+"vals": [
+0.0,
+0.0
+]
+},
+{
+"label": "Common stock, $0.001 par value; 80,000 shares authorized; 24,477 shares issued and outstanding as of January 26, 2025; 24,643 shares issued and outstanding as of January 28, 2024",
+"tag": "us-gaap_CommonStockValue",
+"vals": [
+24.0,
+25.0
+]
+},
+{
+"label": "Additional paid-in capital",
+"tag": "us-gaap_AdditionalPaidInCapital",
+"vals": [
+11237.0,
+13109.0
+]
+},
+{
+"label": "Accumulated other comprehensive income",
+"tag": "us-gaap_AccumulatedOtherComprehensiveIncomeLossNetOfTax",
+"vals": [
+28.0,
+27.0
+]
+},
+{
+"label": "Retained earnings",
+"tag": "us-gaap_RetainedEarningsAccumulatedDeficit",
+"vals": [
+68038.0,
+29817.0
+]
+},
+{
+"label": "Total shareholders' equity",
+"tag": "us-gaap_StockholdersEquity",
+"vals": [
+79327.0,
+42978.0
+]
+},
+{
+"label": "Total liabilities and shareholders' equity",
+"tag": "us-gaap_LiabilitiesAndStockholdersEquity",
+"vals": [
+111601.0,
+65728.0
+]
+}
+]
+},
+"EQ": {
+"file": "R7.htm",
+"short": "Consolidated Statements of Shareholders' Equity",
+"unit": "Consolidated Statements of Shareholders' Equity - USD ($) shares in Millions, $ in Millions",
+"periods": [],
+"months": [],
+"rows": [
+{
+"label": "Beginning balance, common stock outstanding (in shares) at Jan. 30, 2022",
+"tag": "us-gaap_CommonStockSharesOutstanding",
+"vals": [
+null,
+25064.0,
+null,
+null,
+null
+]
+},
+{
+"label": "Beginning balances, shareholders' equity at Jan. 30, 2022",
+"tag": "us-gaap_StockholdersEquity",
+"vals": [
+26612.0,
+26.0,
+10362.0,
+-11.0,
+16235.0
+]
+},
+{
+"label": "Increase (Decrease) in Shareholders' Equity",
+"tag": "us-gaap_IncreaseDecreaseInStockholdersEquityRollForward",
+"vals": [
+null,
+null,
+null,
+null,
+null
+]
+},
+{
+"label": "Net income",
+"tag": "us-gaap_NetIncomeLoss",
+"vals": [
+4368.0,
+null,
+null,
+null,
+4368.0
+]
+},
+{
+"label": "Other comprehensive (loss) income",
+"tag": "us-gaap_OtherComprehensiveIncomeLossNetOfTax",
+"vals": [
+-32.0,
+null,
+null,
+-32.0,
+null
+]
+},
+{
+"label": "Issuance of common stock from stock plans (in shares)",
+"tag": "us-gaap_StockIssuedDuringPeriodSharesEmployeeStockOwnershipPlan",
+"vals": [
+null,
+312.0,
+null,
+null,
+null
+]
+},
+{
+"label": "Issuance of common stock from stock plans",
+"tag": "us-gaap_StockIssuedDuringPeriodValueEmployeeStockOwnershipPlan",
+"vals": [
+355.0,
+null,
+355.0,
+null,
+null
+]
+},
+{
+"label": "Tax withholding related to vesting of restricted stock units (in shares)",
+"tag": "us-gaap_SharesPaidForTaxWithholdingForShareBasedCompensation",
+"vals": [
+null,
+-82.0,
+null,
+null,
+null
+]
+},
+{
+"label": "Tax withholding related to vesting of restricted stock units",
+"tag": "us-gaap_AdjustmentsRelatedToTaxWithholdingForShareBasedCompensation",
+"vals": [
+-1475.0,
+null,
+-1475.0,
+null,
+null
+]
+},
+{
+"label": "Share repurchased (in shares)",
+"tag": "us-gaap_StockRepurchasedAndRetiredDuringPeriodShares",
+"vals": [
+null,
+-633.0,
+null,
+null,
+null
+]
+},
+{
+"label": "Shares repurchased",
+"tag": "us-gaap_StockRepurchasedAndRetiredDuringPeriodValue",
+"vals": [
+-10039.0,
+-1.0,
+-4.0,
+null,
+-10034.0
+]
+},
+{
+"label": "Cash dividends declared and paid",
+"tag": "us-gaap_DividendsCommonStockCash",
+"vals": [
+-398.0,
+null,
+null,
+null,
+-398.0
+]
+},
+{
+"label": "Stock-based compensation",
+"tag": "us-gaap_AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue",
+"vals": [
+2710.0,
+null,
+2710.0,
+null,
+null
+]
+},
+{
+"label": "Ending balance, common stock outstanding (in shares) at Jan. 29, 2023",
+"tag": "us-gaap_CommonStockSharesOutstanding",
+"vals": [
+null,
+24661.0,
+null,
+null,
+null
+]
+},
+{
+"label": "Ending balances, shareholders' equity at Jan. 29, 2023",
+"tag": "us-gaap_StockholdersEquity",
+"vals": [
+22101.0,
+25.0,
+11948.0,
+-43.0,
+10171.0
+]
+},
+{
+"label": "Increase (Decrease) in Shareholders' Equity",
+"tag": "us-gaap_IncreaseDecreaseInStockholdersEquityRollForward",
+"vals": [
+null,
+null,
+null,
+null,
+null
+]
+},
+{
+"label": "Net income",
+"tag": "us-gaap_NetIncomeLoss",
+"vals": [
+29760.0,
+null,
+null,
+null,
+29760.0
+]
+},
+{
+"label": "Other comprehensive (loss) income",
+"tag": "us-gaap_OtherComprehensiveIncomeLossNetOfTax",
+"vals": [
+70.0,
+null,
+null,
+70.0,
+null
+]
+},
+{
+"label": "Issuance of common stock from stock plans (in shares)",
+"tag": "us-gaap_StockIssuedDuringPeriodSharesEmployeeStockOwnershipPlan",
+"vals": [
+null,
+265.0,
+null,
+null,
+null
+]
+},
+{
+"label": "Issuance of common stock from stock plans",
+"tag": "us-gaap_StockIssuedDuringPeriodValueEmployeeStockOwnershipPlan",
+"vals": [
+403.0,
+null,
+403.0,
+null,
+null
+]
+},
+{
+"label": "Tax withholding related to vesting of restricted stock units (in shares)",
+"tag": "us-gaap_SharesPaidForTaxWithholdingForShareBasedCompensation",
+"vals": [
+null,
+-72.0,
+null,
+null,
+null
+]
+},
+{
+"label": "Tax withholding related to vesting of restricted stock units",
+"tag": "us-gaap_AdjustmentsRelatedToTaxWithholdingForShareBasedCompensation",
+"vals": [
+-2783.0,
+null,
+-2783.0,
+null,
+null
+]
+},
+{
+"label": "Share repurchased (in shares)",
+"tag": "us-gaap_StockRepurchasedAndRetiredDuringPeriodShares",
+"vals": [
+-210.0,
+-211.0,
+null,
+null,
+null
+]
+},
+{
+"label": "Shares repurchased",
+"tag": "us-gaap_StockRepurchasedAndRetiredDuringPeriodValue",
+"vals": [
+-9746.0,
+null,
+-27.0,
+null,
+-9719.0
+]
+},
+{
+"label": "Cash dividends declared and paid",
+"tag": "us-gaap_DividendsCommonStockCash",
+"vals": [
+-395.0,
+null,
+null,
+null,
+-395.0
+]
+},
+{
+"label": "Stock-based compensation",
+"tag": "us-gaap_AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue",
+"vals": [
+3568.0,
+null,
+3568.0,
+null,
+null
+]
+},
+{
+"label": "Ending balance, common stock outstanding (in shares) at Jan. 28, 2024",
+"tag": "us-gaap_CommonStockSharesOutstanding",
+"vals": [
+24643.0,
+24643.0,
+null,
+null,
+null
+]
+},
+{
+"label": "Ending balances, shareholders' equity at Jan. 28, 2024",
+"tag": "us-gaap_StockholdersEquity",
+"vals": [
+42978.0,
+25.0,
+13109.0,
+27.0,
+29817.0
+]
+},
+{
+"label": "Increase (Decrease) in Shareholders' Equity",
+"tag": "us-gaap_IncreaseDecreaseInStockholdersEquityRollForward",
+"vals": [
+null,
+null,
+null,
+null,
+null
+]
+},
+{
+"label": "Net income",
+"tag": "us-gaap_NetIncomeLoss",
+"vals": [
+72880.0,
+null,
+null,
+null,
+72880.0
+]
+},
+{
+"label": "Other comprehensive (loss) income",
+"tag": "us-gaap_OtherComprehensiveIncomeLossNetOfTax",
+"vals": [
+1.0,
+null,
+null,
+1.0,
+null
+]
+},
+{
+"label": "Issuance of common stock from stock plans (in shares)",
+"tag": "us-gaap_StockIssuedDuringPeriodSharesEmployeeStockOwnershipPlan",
+"vals": [
+null,
+203.0,
+null,
+null,
+null
+]
+},
+{
+"label": "Issuance of common stock from stock plans",
+"tag": "us-gaap_StockIssuedDuringPeriodValueEmployeeStockOwnershipPlan",
+"vals": [
+490.0,
+null,
+490.0,
+null,
+null
+]
+},
+{
+"label": "Tax withholding related to vesting of restricted stock units (in shares)",
+"tag": "us-gaap_SharesPaidForTaxWithholdingForShareBasedCompensation",
+"vals": [
+null,
+-59.0,
+null,
+null,
+null
+]
+},
+{
+"label": "Tax withholding related to vesting of restricted stock units",
+"tag": "us-gaap_AdjustmentsRelatedToTaxWithholdingForShareBasedCompensation",
+"vals": [
+-6930.0,
+null,
+-6930.0,
+null,
+null
+]
+},
+{
+"label": "Share repurchased (in shares)",
+"tag": "us-gaap_StockRepurchasedAndRetiredDuringPeriodShares",
+"vals": [
+-310.0,
+-310.0,
+null,
+null,
+null
+]
+},
+{
+"label": "Shares repurchased",
+"tag": "us-gaap_StockRepurchasedAndRetiredDuringPeriodValue",
+"vals": [
+-34015.0,
+-1.0,
+-189.0,
+null,
+-33825.0
+]
+},
+{
+"label": "Cash dividends declared and paid",
+"tag": "us-gaap_DividendsCommonStockCash",
+"vals": [
+-834.0,
+null,
+null,
+null,
+-834.0
+]
+},
+{
+"label": "Stock-based compensation",
+"tag": "us-gaap_AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue",
+"vals": [
+4757.0,
+null,
+4757.0,
+null,
+null
+]
+},
+{
+"label": "Ending balance, common stock outstanding (in shares) at Jan. 26, 2025",
+"tag": "us-gaap_CommonStockSharesOutstanding",
+"vals": [
+24477.0,
+24477.0,
+null,
+null,
+null
+]
+},
+{
+"label": "Ending balances, shareholders' equity at Jan. 26, 2025",
+"tag": "us-gaap_StockholdersEquity",
+"vals": [
+79327.0,
+24.0,
+11237.0,
+28.0,
+68038.0
+]
+}
+]
+},
+"CF": {
+"file": "R9.htm",
+"short": "Consolidated Statements of Cash Flows",
+"unit": "Consolidated Statements of Cash Flows - USD ($) $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024",
+"Jan. 29, 2023"
+],
+"months": [
+12,
+12,
+12
+],
+"rows": [
+{
+"label": "Cash flows from operating activities:",
+"tag": "us-gaap_NetCashProvidedByUsedInOperatingActivitiesAbstract",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Net income",
+"tag": "us-gaap_NetIncomeLoss",
+"vals": [
+72880.0,
+29760.0,
+4368.0
+]
+},
+{
+"label": "Adjustments to reconcile net income to net cash provided by operating activities:",
+"tag": "us-gaap_AdjustmentsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesAbstract",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Stock-based compensation expense",
+"tag": "us-gaap_ShareBasedCompensation",
+"vals": [
+4737.0,
+3549.0,
+2709.0
+]
+},
+{
+"label": "Depreciation and amortization",
+"tag": "us-gaap_DepreciationDepletionAndAmortization",
+"vals": [
+1864.0,
+1508.0,
+1544.0
+]
+},
+{
+"label": "Deferred income taxes",
+"tag": "us-gaap_DeferredIncomeTaxExpenseBenefit",
+"vals": [
+-4477.0,
+-2489.0,
+-2164.0
+]
+},
+{
+"label": "(Gains) losses on non-marketable equity securities and publicly-held equity securities, net",
+"tag": "us-gaap_GainLossOnInvestments",
+"vals": [
+-1030.0,
+-238.0,
+45.0
+]
+},
+{
+"label": "Acquisition termination cost",
+"tag": "nvda_BusinessCombinationAdvancedConsiderationWrittenOff",
+"vals": [
+0.0,
+0.0,
+1353.0
+]
+},
+{
+"label": "Other",
+"tag": "us-gaap_OtherNoncashIncomeExpense",
+"vals": [
+-502.0,
+-278.0,
+-7.0
+]
+},
+{
+"label": "Changes in operating assets and liabilities, net of acquisitions:",
+"tag": "us-gaap_IncreaseDecreaseInOperatingCapitalAbstract",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Accounts receivable",
+"tag": "us-gaap_IncreaseDecreaseInAccountsReceivable",
+"vals": [
+-13063.0,
+-6172.0,
+822.0
+]
+},
+{
+"label": "Inventories",
+"tag": "us-gaap_IncreaseDecreaseInInventories",
+"vals": [
+-4781.0,
+-98.0,
+-2554.0
+]
+},
+{
+"label": "Prepaid expenses and other assets",
+"tag": "us-gaap_IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets",
+"vals": [
+-395.0,
+-1522.0,
+-1517.0
+]
+},
+{
+"label": "Accounts payable",
+"tag": "us-gaap_IncreaseDecreaseInAccountsPayable",
+"vals": [
+3357.0,
+1531.0,
+-551.0
+]
+},
+{
+"label": "Accrued and other current liabilities",
+"tag": "us-gaap_IncreaseDecreaseInAccruedLiabilitiesAndOtherOperatingLiabilities",
+"vals": [
+4278.0,
+2025.0,
+1341.0
+]
+},
+{
+"label": "Other long-term liabilities",
+"tag": "us-gaap_IncreaseDecreaseInOtherNoncurrentLiabilities",
+"vals": [
+1221.0,
+514.0,
+252.0
+]
+},
+{
+"label": "Net cash provided by operating activities",
+"tag": "us-gaap_NetCashProvidedByUsedInOperatingActivities",
+"vals": [
+64089.0,
+28090.0,
+5641.0
+]
+},
+{
+"label": "Cash flows from investing activities:",
+"tag": "us-gaap_NetCashProvidedByUsedInInvestingActivitiesAbstract",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Proceeds from maturities of marketable securities",
+"tag": "us-gaap_ProceedsFromMaturitiesPrepaymentsAndCallsOfAvailableForSaleSecurities",
+"vals": [
+11195.0,
+9732.0,
+19425.0
+]
+},
+{
+"label": "Proceeds from sales of marketable securities",
+"tag": "us-gaap_ProceedsFromSaleOfAvailableForSaleSecuritiesDebt",
+"vals": [
+495.0,
+50.0,
+1806.0
+]
+},
+{
+"label": "Proceeds from sales of non-marketable equity securities",
+"tag": "us-gaap_ProceedsFromSaleOfEquitySecuritiesFvNi",
+"vals": [
+171.0,
+1.0,
+8.0
+]
+},
+{
+"label": "Purchases of marketable securities",
+"tag": "us-gaap_PaymentsToAcquireAvailableForSaleSecuritiesDebt",
+"vals": [
+-26575.0,
+-18211.0,
+-11897.0
+]
+},
+{
+"label": "Purchases related to property and equipment and intangible assets",
+"tag": "us-gaap_PaymentsToAcquireProductiveAssets",
+"vals": [
+-3236.0,
+-1069.0,
+-1833.0
+]
+},
+{
+"label": "Purchases of non-marketable equity securities",
+"tag": "us-gaap_PaymentsToAcquireEquitySecuritiesFvNi",
+"vals": [
+-1486.0,
+-862.0,
+-85.0
+]
+},
+{
+"label": "Acquisitions, net of cash acquired",
+"tag": "us-gaap_PaymentsToAcquireBusinessesNetOfCashAcquired",
+"vals": [
+-1007.0,
+-83.0,
+-49.0
+]
+},
+{
+"label": "Other",
+"tag": "us-gaap_PaymentsForProceedsFromOtherInvestingActivities",
+"vals": [
+22.0,
+-124.0,
+0.0
+]
+},
+{
+"label": "Net cash provided by (used in) investing activities",
+"tag": "us-gaap_NetCashProvidedByUsedInInvestingActivities",
+"vals": [
+-20421.0,
+-10566.0,
+7375.0
+]
+},
+{
+"label": "Cash flows from financing activities:",
+"tag": "us-gaap_NetCashProvidedByUsedInFinancingActivitiesAbstract",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Proceeds related to employee stock plans",
+"tag": "us-gaap_ProceedsFromStockPlans",
+"vals": [
+490.0,
+403.0,
+355.0
+]
+},
+{
+"label": "Payments related to repurchases of common stock",
+"tag": "us-gaap_PaymentsForRepurchaseOfCommonStock",
+"vals": [
+-33706.0,
+-9533.0,
+-10039.0
+]
+},
+{
+"label": "Payments related to tax on restricted stock units",
+"tag": "us-gaap_PaymentsRelatedToTaxWithholdingForShareBasedCompensation",
+"vals": [
+-6930.0,
+-2783.0,
+-1475.0
+]
+},
+{
+"label": "Repayment of debt",
+"tag": "us-gaap_RepaymentsOfDebt",
+"vals": [
+-1250.0,
+-1250.0,
+0.0
+]
+},
+{
+"label": "Dividends paid",
+"tag": "us-gaap_PaymentsOfDividends",
+"vals": [
+-834.0,
+-395.0,
+-398.0
+]
+},
+{
+"label": "Principal payments on property and equipment and intangible assets",
+"tag": "nvda_PaymentsForFinancedPropertyPlantAndEquipmentAndIntangibleAssetsFinancingActivities",
+"vals": [
+-129.0,
+-74.0,
+-58.0
+]
+},
+{
+"label": "Other",
+"tag": "us-gaap_ProceedsFromPaymentsForOtherFinancingActivities",
+"vals": [
+0.0,
+-1.0,
+-2.0
+]
+},
+{
+"label": "Net cash used in financing activities",
+"tag": "us-gaap_NetCashProvidedByUsedInFinancingActivities",
+"vals": [
+-42359.0,
+-13633.0,
+-11617.0
+]
+},
+{
+"label": "Change in cash and cash equivalents",
+"tag": "us-gaap_CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
+"vals": [
+1309.0,
+3891.0,
+1399.0
+]
+},
+{
+"label": "Cash and cash equivalents at beginning of period",
+"tag": "us-gaap_CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+"vals": [
+7280.0,
+3389.0,
+1990.0
+]
+},
+{
+"label": "Cash and cash equivalents at end of period",
+"tag": "us-gaap_CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+"vals": [
+8589.0,
+7280.0,
+3389.0
+]
+},
+{
+"label": "Supplemental disclosures of cash flow information:",
+"tag": "us-gaap_SupplementalCashFlowInformationAbstract",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Cash paid for income taxes, net",
+"tag": "us-gaap_IncomeTaxesPaidNet",
+"vals": [
+15118.0,
+6549.0,
+1404.0
+]
+},
+{
+"label": "Cash paid for interest",
+"tag": "us-gaap_InterestPaidNet",
+"vals": [
+246.0,
+252.0,
+254.0
+]
+}
+]
+}
+},
+"details": {
+"Consolidated Balance Sheets (Parenthetical)": {
+"file": "R6.htm",
+"short": "Consolidated Balance Sheets (Parenthetical)",
+"unit": "Consolidated Balance Sheets (Parenthetical) - $ / shares shares in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024"
+],
+"months": [],
+"rows": [
+{
+"label": "Statement of Financial Position [Abstract]",
+"tag": "us-gaap_StatementOfFinancialPositionAbstract",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Preferred stock, par value (in USD per share)",
+"tag": "us-gaap_PreferredStockParOrStatedValuePerShare",
+"vals": [
+0.001,
+0.001
+]
+},
+{
+"label": "Preferred stock, shares authorized (in shares)",
+"tag": "us-gaap_PreferredStockSharesAuthorized",
+"vals": [
+20.0,
+20.0
+]
+},
+{
+"label": "Preferred stock, shares issued (in shares)",
+"tag": "us-gaap_PreferredStockSharesIssued",
+"vals": [
+0.0,
+0.0
+]
+},
+{
+"label": "Common stock, par value (in USD per share)",
+"tag": "us-gaap_CommonStockParOrStatedValuePerShare",
+"vals": [
+0.001,
+0.001
+]
+},
+{
+"label": "Common stock, shares authorized (in shares)",
+"tag": "us-gaap_CommonStockSharesAuthorized",
+"vals": [
+80000.0,
+80000.0
+]
+},
+{
+"label": "Common stock, shares issued (in shares)",
+"tag": "us-gaap_CommonStockSharesIssued",
+"vals": [
+24477.0,
+24643.0
+]
+},
+{
+"label": "Common stock, shares outstanding (in shares)",
+"tag": "us-gaap_CommonStockSharesOutstanding",
+"vals": [
+24477.0,
+24643.0
+]
+}
+]
+},
+"Consolidated Statements of Shareholders' Equity (Parenthetical)": {
+"file": "R8.htm",
+"short": "Consolidated Statements of Shareholders' Equity (Parenthetical)",
+"unit": "Consolidated Statements of Shareholders' Equity (Parenthetical) - $ / shares",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024",
+"Jan. 29, 2023"
+],
+"months": [
+12,
+12,
+12
+],
+"rows": [
+{
+"label": "Statement of Stockholders' Equity [Abstract]",
+"tag": "us-gaap_StatementOfStockholdersEquityAbstract",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Cash dividends declared and paid (USD per common share)",
+"tag": "us-gaap_CommonStockDividendsPerShareDeclared",
+"vals": [
+0.034,
+0.016,
+0.016
+]
+}
+]
+},
+"Organization and Summary of Significant Accounting Policies (Details)": {
+"file": "R45.htm",
+"short": "Organization and Summary of Significant Accounting Policies (Details)",
+"unit": "Organization and Summary of Significant Accounting Policies (Details) - USD ($) $ / shares in Units, $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024",
+"Jan. 29, 2023"
+],
+"months": [
+12,
+12,
+12
+],
+"rows": [
+{
+"label": "Property, Plant and Equipment [Line Items]",
+"tag": "us-gaap_PropertyPlantAndEquipmentLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Cost of revenue benefit",
+"tag": "us-gaap_CostOfRevenue",
+"vals": [
+-32639.0,
+-16621.0,
+-11618.0
+]
+},
+{
+"label": "Operating expense benefit",
+"tag": "us-gaap_OperatingExpenses",
+"vals": [
+-16405.0,
+-11329.0,
+-11132.0
+]
+},
+{
+"label": "Net income",
+"tag": "us-gaap_NetIncomeLoss",
+"vals": [
+72880.0,
+29760.0,
+4368.0
+]
+},
+{
+"label": "Basic (in USD per share)",
+"tag": "us-gaap_EarningsPerShareBasic",
+"vals": [
+2.97,
+1.21,
+0.18
+]
+},
+{
+"label": "Diluted (in USD per share)",
+"tag": "us-gaap_EarningsPerShareDiluted",
+"vals": [
+2.94,
+1.19,
+0.17
+]
+},
+{
+"label": "Operating income (loss)",
+"tag": "us-gaap_OperatingIncomeLoss",
+"vals": [
+81453.0,
+32972.0,
+4224.0
+]
+},
+{
+"label": "Valuation allowance",
+"tag": "us-gaap_TaxCreditCarryforwardValuationAllowance",
+"vals": [
+1600.0,
+1600.0,
+null
+]
+},
+{
+"label": "Buildings",
+"tag": "us-gaap_PropertyPlantAndEquipmentByTypeAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Property, Plant and Equipment [Line Items]",
+"tag": "us-gaap_PropertyPlantAndEquipmentLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Property, plant & equipment, useful life",
+"tag": "us-gaap_PropertyPlantAndEquipmentUsefulLife",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Capital Loss Carryforward",
+"tag": "us-gaap_TaxCreditCarryforwardAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Property, Plant and Equipment [Line Items]",
+"tag": "us-gaap_PropertyPlantAndEquipmentLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Valuation allowance",
+"tag": "us-gaap_TaxCreditCarryforwardValuationAllowance",
+"vals": [
+1600.0,
+null,
+null
+]
+},
+{
+"label": "Minimum",
+"tag": "srt_RangeAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Property, Plant and Equipment [Line Items]",
+"tag": "us-gaap_PropertyPlantAndEquipmentLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Property, plant & equipment, useful life",
+"tag": "us-gaap_PropertyPlantAndEquipmentUsefulLife",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Warranty liability, term",
+"tag": "nvda_WarrantyLiabilityTermOfWarranties",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Intangible assets, useful life",
+"tag": "us-gaap_FiniteLivedIntangibleAssetUsefulLife",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Maximum",
+"tag": "srt_RangeAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Property, Plant and Equipment [Line Items]",
+"tag": "us-gaap_PropertyPlantAndEquipmentLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Property, plant & equipment, useful life",
+"tag": "us-gaap_PropertyPlantAndEquipmentUsefulLife",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Warranty liability, term",
+"tag": "nvda_WarrantyLiabilityTermOfWarranties",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Intangible assets, useful life",
+"tag": "us-gaap_FiniteLivedIntangibleAssetUsefulLife",
+"vals": [
+null,
+null,
+null
+]
+}
+]
+},
+"Business Combination (Details)": {
+"file": "R46.htm",
+"short": "Business Combination (Details)",
+"unit": "Business Combination (Details) $ in Billions",
+"periods": [
+"Jan. 29, 2023 USD ($)"
+],
+"months": [],
+"rows": [
+{
+"label": "Arm Limited",
+"tag": "us-gaap_BusinessAcquisitionAxis",
+"vals": [
+null
+]
+},
+{
+"label": "Business Acquisition [Line Items]",
+"tag": "us-gaap_BusinessAcquisitionLineItems",
+"vals": [
+null
+]
+},
+{
+"label": "Acquisition termination costs",
+"tag": "us-gaap_BusinessCombinationAcquisitionRelatedCosts",
+"vals": [
+1.4
+]
+}
+]
+},
+"Stock-Based Compensation - Schedule of Stock-Based Compensation Expense (Details)": {
+"file": "R47.htm",
+"short": "Stock-Based Compensation - Schedule of Stock-Based Compensation Expense (Details)",
+"unit": "Stock-Based Compensation - Schedule of Stock-Based Compensation Expense (Details) - USD ($) $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024",
+"Jan. 29, 2023"
+],
+"months": [
+12,
+12,
+12
+],
+"rows": [
+{
+"label": "Share-based Payment Arrangement, Expensed and Capitalized, Amount [Line Items]",
+"tag": "us-gaap_EmployeeServiceShareBasedCompensationAllocationOfRecognizedPeriodCostsLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Stock-based compensation expense",
+"tag": "us-gaap_AllocatedShareBasedCompensationExpense",
+"vals": [
+4737.0,
+3549.0,
+2710.0
+]
+},
+{
+"label": "Cost of revenue",
+"tag": "us-gaap_IncomeStatementLocationAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Share-based Payment Arrangement, Expensed and Capitalized, Amount [Line Items]",
+"tag": "us-gaap_EmployeeServiceShareBasedCompensationAllocationOfRecognizedPeriodCostsLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Stock-based compensation expense",
+"tag": "us-gaap_AllocatedShareBasedCompensationExpense",
+"vals": [
+178.0,
+141.0,
+138.0
+]
+},
+{
+"label": "Research and development",
+"tag": "us-gaap_IncomeStatementLocationAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Share-based Payment Arrangement, Expensed and Capitalized, Amount [Line Items]",
+"tag": "us-gaap_EmployeeServiceShareBasedCompensationAllocationOfRecognizedPeriodCostsLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Stock-based compensation expense",
+"tag": "us-gaap_AllocatedShareBasedCompensationExpense",
+"vals": [
+3423.0,
+2532.0,
+1892.0
+]
+},
+{
+"label": "Sales, general and administrative",
+"tag": "us-gaap_IncomeStatementLocationAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Share-based Payment Arrangement, Expensed and Capitalized, Amount [Line Items]",
+"tag": "us-gaap_EmployeeServiceShareBasedCompensationAllocationOfRecognizedPeriodCostsLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Stock-based compensation expense",
+"tag": "us-gaap_AllocatedShareBasedCompensationExpense",
+"vals": [
+1136.0,
+876.0,
+680.0
+]
+}
+]
+},
+"Stock-Based Compensation - Summary of Equity Awards (Details)": {
+"file": "R48.htm",
+"short": "Stock-Based Compensation - Summary of Equity Awards (Details)",
+"unit": "Stock-Based Compensation - Summary of Equity Awards (Details) - USD ($) $ / shares in Units, shares in Millions, $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024",
+"Jan. 29, 2023"
+],
+"months": [
+12,
+12,
+12
+],
+"rows": [
+{
+"label": "Share-based Compensation Arrangement by Share-based Payment Award [Line Items]",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Awards granted (in shares)",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsGrantsInPeriod",
+"vals": [
+89.0,
+null,
+null
+]
+},
+{
+"label": "Weighted average grant date fair value (in dollars per share)",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsGrantsInPeriodWeightedAverageGrantDateFairValue",
+"vals": [
+87.99,
+null,
+null
+]
+},
+{
+"label": "Summary of unearned SBC expense",
+"tag": "nvda_SummaryofunearnedSBCexpenseAbstract",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Unearned stock-based compensation expense",
+"tag": "us-gaap_EmployeeServiceShareBasedCompensationNonvestedAwardsTotalCompensationCostNotYetRecognized",
+"vals": [
+11600.0,
+null,
+null
+]
+},
+{
+"label": "RSUs, PSUs and Market-based PSUs",
+"tag": "us-gaap_AwardTypeAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Share-based Compensation Arrangement by Share-based Payment Award [Line Items]",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Awards granted (in shares)",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsGrantsInPeriod",
+"vals": [
+89.0,
+140.0,
+250.0
+]
+},
+{
+"label": "Estimated total grant-date fair value",
+"tag": "nvda_ShareBasedCompensationArrangementByShareBasedPaymentAwardGrantsInPeriodGrantDateTotalFairValue",
+"vals": [
+7834.0,
+5316.0,
+4505.0
+]
+},
+{
+"label": "Weighted average grant date fair value (in dollars per share)",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsGrantsInPeriodWeightedAverageGrantDateFairValue",
+"vals": [
+87.99,
+37.41,
+18.37
+]
+},
+{
+"label": "Summary of unearned SBC expense",
+"tag": "nvda_SummaryofunearnedSBCexpenseAbstract",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Estimated weighted average amortization period",
+"tag": "us-gaap_EmployeeServiceShareBasedCompensationNonvestedAwardsTotalCompensationCostNotYetRecognizedPeriodForRecognition1",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Employee Stock Purchase Plan",
+"tag": "us-gaap_AwardTypeAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Share-based Compensation Arrangement by Share-based Payment Award [Line Items]",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Awards granted (in shares)",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsGrantsInPeriod",
+"vals": [
+30.0,
+30.0,
+30.0
+]
+},
+{
+"label": "Weighted average price (in dollars per share)",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardPerShareWeightedAveragePriceOfSharesPurchased",
+"vals": [
+17.74,
+15.81,
+12.25
+]
+},
+{
+"label": "Weighted average grant date fair value (in dollars per share)",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsGrantsInPeriodWeightedAverageGrantDateFairValue",
+"vals": [
+8.61,
+6.99,
+5.19
+]
+},
+{
+"label": "Summary of unearned SBC expense",
+"tag": "nvda_SummaryofunearnedSBCexpenseAbstract",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Estimated weighted average amortization period",
+"tag": "us-gaap_EmployeeServiceShareBasedCompensationNonvestedAwardsTotalCompensationCostNotYetRecognizedPeriodForRecognition1",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Fair Value Assumptions",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsAndMethodologyAbstract",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Risk free interest rate, minimum",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsRiskFreeInterestRateMinimum",
+"vals": [
+3.6,
+3.9,
+0.0
+]
+},
+{
+"label": "Risk free interest rate, maximum",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsRiskFreeInterestRateMaximum",
+"vals": [
+5.4,
+5.5,
+4.6
+]
+},
+{
+"label": "Volatility rate, minimum",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsExpectedVolatilityRateMinimum",
+"vals": [
+31.0,
+31.0,
+43.0
+]
+},
+{
+"label": "Volatility rate, maximum",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsExpectedVolatilityRateMaximum",
+"vals": [
+75.0,
+67.0,
+72.0
+]
+},
+{
+"label": "Dividend yield",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsExpectedDividendRate",
+"vals": [
+0.03,
+0.06,
+0.09
+]
+},
+{
+"label": "Employee Stock Purchase Plan | Minimum",
+"tag": "us-gaap_AwardTypeAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Fair Value Assumptions",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsAndMethodologyAbstract",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Weighted average expected life (in years)",
+"tag": "us-gaap_SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Employee Stock Purchase Plan | Maximum",
+"tag": "us-gaap_AwardTypeAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Fair Value Assumptions",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsAndMethodologyAbstract",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Weighted average expected life (in years)",
+"tag": "us-gaap_SharebasedCompensationArrangementBySharebasedPaymentAwardFairValueAssumptionsExpectedTerm1",
+"vals": [
+null,
+null,
+null
+]
+}
+]
+},
+"Stock-Based Compensation - Narrative (Details)": {
+"file": "R49.htm",
+"short": "Stock-Based Compensation - Narrative (Details)",
+"unit": "Stock-Based Compensation - Narrative (Details) shares in Millions, $ in Billions",
+"periods": [
+"Jan. 26, 2025 USD ($) period shares",
+"Jan. 28, 2024 USD ($) shares",
+"Jan. 29, 2023 USD ($)",
+"Mar. 31, 2025"
+],
+"months": [],
+"rows": [
+{
+"label": "Share-based Compensation Arrangement by Share-based Payment Award [Line Items]",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems",
+"vals": [
+null,
+null,
+null,
+null
+]
+},
+{
+"label": "Unearned stock-based compensation expense | $",
+"tag": "us-gaap_EmployeeServiceShareBasedCompensationNonvestedAwardsTotalCompensationCostNotYetRecognized",
+"vals": [
+11.6,
+null,
+null,
+null
+]
+},
+{
+"label": "Number of shares may be issued under the Restated 2007 Plan (in shares)",
+"tag": "nvda_NumberOfSharesMayBeIssuedUnderRestated2007Plan",
+"vals": [
+274.0,
+null,
+null,
+null
+]
+},
+{
+"label": "Number of shares available for grant (in shares)",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardNumberOfSharesAvailableForGrant",
+"vals": [
+1400.0,
+1500.0,
+null,
+null
+]
+},
+{
+"label": "Employee stock purchase plan, offering period duration",
+"tag": "nvda_EmployeeStockPurchasePlanOfferingPeriodDuration",
+"vals": [
+null,
+null,
+null,
+null
+]
+},
+{
+"label": "Employee stock purchase plan, number of purchase periods in offering period | period",
+"tag": "nvda_EmployeeStockPurchasePlanNumberOfPurchasePeriodsInOfferingPeriod",
+"vals": [
+4.0,
+null,
+null,
+null
+]
+},
+{
+"label": "Employee stock purchase plan, purchase period duration",
+"tag": "nvda_EmployeeStockPurchasePlanPurchasePeriodDuration",
+"vals": [
+null,
+null,
+null,
+null
+]
+},
+{
+"label": "RSUs, PSUs and Market-based PSUs",
+"tag": "us-gaap_AwardTypeAxis",
+"vals": [
+null,
+null,
+null,
+null
+]
+},
+{
+"label": "Share-based Compensation Arrangement by Share-based Payment Award [Line Items]",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems",
+"vals": [
+null,
+null,
+null,
+null
+]
+},
+{
+"label": "Estimated weighted average amortization period",
+"tag": "us-gaap_EmployeeServiceShareBasedCompensationNonvestedAwardsTotalCompensationCostNotYetRecognizedPeriodForRecognition1",
+"vals": [
+null,
+null,
+null,
+null
+]
+},
+{
+"label": "Number of shares available for grant (in shares)",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardNumberOfSharesAvailableForGrant",
+"vals": [
+1400.0,
+null,
+null,
+null
+]
+},
+{
+"label": "Total fair value of units as of respective vesting dates | $",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriodTotalFairValue",
+"vals": [
+15.1,
+8.2,
+4.3,
+null
+]
+},
+{
+"label": "Performance Stock Units",
+"tag": "us-gaap_AwardTypeAxis",
+"vals": [
+null,
+null,
+null,
+null
+]
+},
+{
+"label": "Share-based Compensation Arrangement by Share-based Payment Award [Line Items]",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems",
+"vals": [
+null,
+null,
+null,
+null
+]
+},
+{
+"label": "Award vesting period",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardAwardVestingPeriod1",
+"vals": [
+null,
+null,
+null,
+null
+]
+},
+{
+"label": "Market-based PSUs",
+"tag": "us-gaap_AwardTypeAxis",
+"vals": [
+null,
+null,
+null,
+null
+]
+},
+{
+"label": "Share-based Compensation Arrangement by Share-based Payment Award [Line Items]",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems",
+"vals": [
+null,
+null,
+null,
+null
+]
+},
+{
+"label": "Award vesting period",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardAwardVestingPeriod1",
+"vals": [
+null,
+null,
+null,
+null
+]
+},
+{
+"label": "Employee Stock Purchase Plan",
+"tag": "us-gaap_AwardTypeAxis",
+"vals": [
+null,
+null,
+null,
+null
+]
+},
+{
+"label": "Share-based Compensation Arrangement by Share-based Payment Award [Line Items]",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems",
+"vals": [
+null,
+null,
+null,
+null
+]
+},
+{
+"label": "Estimated weighted average amortization period",
+"tag": "us-gaap_EmployeeServiceShareBasedCompensationNonvestedAwardsTotalCompensationCostNotYetRecognizedPeriodForRecognition1",
+"vals": [
+null,
+null,
+null,
+null
+]
+},
+{
+"label": "Maximum employee subscription rate (as percent)",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardMaximumEmployeeSubscriptionRate",
+"vals": [
+15.0,
+null,
+null,
+null
+]
+},
+{
+"label": "Purchase price of ESPP (as percent)",
+"tag": "us-gaap_SharebasedCompensationArrangementBySharebasedPaymentAwardPurchasePriceOfCommonStockPercent",
+"vals": [
+85.0,
+null,
+null,
+null
+]
+},
+{
+"label": "Shares reserved for future issuance (in shares)",
+"tag": "us-gaap_CommonStockCapitalSharesReservedForFutureIssuance",
+"vals": [
+2200.0,
+null,
+null,
+null
+]
+},
+{
+"label": "Employee Stock Purchase Plan | Forecast",
+"tag": "us-gaap_AwardTypeAxis",
+"vals": [
+null,
+null,
+null,
+null
+]
+},
+{
+"label": "Share-based Compensation Arrangement by Share-based Payment Award [Line Items]",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardLineItems",
+"vals": [
+null,
+null,
+null,
+null
+]
+},
+{
+"label": "Maximum employee subscription rate (as percent)",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardMaximumEmployeeSubscriptionRate",
+"vals": [
+null,
+null,
+null,
+25.0
+]
+}
+]
+},
+"Stock-Based Compensation - Equity Incentive Plans (Details)": {
+"file": "R50.htm",
+"short": "Stock-Based Compensation - Equity Incentive Plans (Details)",
+"unit": "Stock-Based Compensation - Equity Incentive Plans (Details) shares in Millions",
+"periods": [
+"Jan. 26, 2025 $ / shares shares"
+],
+"months": [],
+"rows": [
+{
+"label": "Number of Shares",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardNonOptionEquityInstrumentsOutstandingRollForward",
+"vals": [
+null
+]
+},
+{
+"label": "Beginning balance (in shares) | shares",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardNonOptionEquityInstrumentsOutstandingNumber",
+"vals": [
+367.0
+]
+},
+{
+"label": "Granted (in shares) | shares",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsGrantsInPeriod",
+"vals": [
+89.0
+]
+},
+{
+"label": "Vested (in shares) | shares",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriod",
+"vals": [
+-173.0
+]
+},
+{
+"label": "Canceled and forfeited (in shares) | shares",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsForfeitedInPeriod",
+"vals": [
+-9.0
+]
+},
+{
+"label": "Ending balance (in shares) | shares",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardNonOptionEquityInstrumentsOutstandingNumber",
+"vals": [
+274.0
+]
+},
+{
+"label": "Vested and expected to vest (in shares) | shares",
+"tag": "nvda_ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedAndExpectedToVest",
+"vals": [
+272.0
+]
+},
+{
+"label": "Weighted Average Grant-Date Fair Value Per Share",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsNonvestedWeightedAverageGrantDateFairValueRollForward",
+"vals": [
+null
+]
+},
+{
+"label": "Beginning balance (in USD per share) | $ / shares",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsNonvestedWeightedAverageGrantDateFairValue",
+"vals": [
+24.59
+]
+},
+{
+"label": "Granted (in USD per share) | $ / shares",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsGrantsInPeriodWeightedAverageGrantDateFairValue",
+"vals": [
+87.99
+]
+},
+{
+"label": "Vested (in USD per share) | $ / shares",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedInPeriodWeightedAverageGrantDateFairValue",
+"vals": [
+24.89
+]
+},
+{
+"label": "Canceled and forfeited (in USD per share) | $ / shares",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsForfeituresWeightedAverageGrantDateFairValue",
+"vals": [
+32.1
+]
+},
+{
+"label": "Ending balance (in USD per share) | $ / shares",
+"tag": "us-gaap_ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsNonvestedWeightedAverageGrantDateFairValue",
+"vals": [
+44.75
+]
+},
+{
+"label": "Vested and expected to vest (in USD per share) | $ / shares",
+"tag": "nvda_ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsVestedAndExpectedToVestOutstandingWeightedAverageExercisePrice",
+"vals": [
+44.59
+]
+}
+]
+},
+"Net Income Per Share (Details)": {
+"file": "R51.htm",
+"short": "Net Income Per Share (Details)",
+"unit": "Net Income Per Share (Details) - USD ($) $ / shares in Units, shares in Millions, $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024",
+"Jan. 29, 2023"
+],
+"months": [
+12,
+12,
+12
+],
+"rows": [
+{
+"label": "Numerator:",
+"tag": "nvda_NumeratorAbstract",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Net income",
+"tag": "us-gaap_NetIncomeLoss",
+"vals": [
+72880.0,
+29760.0,
+4368.0
+]
+},
+{
+"label": "Denominator:",
+"tag": "nvda_DenominatorAbstract",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Basic weighted average shares (in shares)",
+"tag": "us-gaap_WeightedAverageNumberOfSharesOutstandingBasic",
+"vals": [
+24555.0,
+24690.0,
+24870.0
+]
+},
+{
+"label": "Dilutive impact of outstanding equity awards (in shares)",
+"tag": "us-gaap_WeightedAverageNumberDilutedSharesOutstandingAdjustment",
+"vals": [
+249.0,
+250.0,
+200.0
+]
+},
+{
+"label": "Diluted weighted average shares (in shares)",
+"tag": "us-gaap_WeightedAverageNumberOfDilutedSharesOutstanding",
+"vals": [
+24804.0,
+24940.0,
+25070.0
+]
+},
+{
+"label": "Net income per share:",
+"tag": "nvda_NetIncomeLossPerShareAbstract",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Basic (in USD per share)",
+"tag": "us-gaap_EarningsPerShareBasic",
+"vals": [
+2.97,
+1.21,
+0.18
+]
+},
+{
+"label": "Diluted (in USD per share)",
+"tag": "us-gaap_EarningsPerShareDiluted",
+"vals": [
+2.94,
+1.19,
+0.17
+]
+},
+{
+"label": "Anti-dilutive awards excluded from diluted net income per share (in shares)",
+"tag": "us-gaap_AntidilutiveSecuritiesExcludedFromComputationOfEarningsPerShareAmount",
+"vals": [
+51.0,
+150.0,
+400.0
+]
+}
+]
+},
+"Goodwill (Details)": {
+"file": "R52.htm",
+"short": "Goodwill (Details)",
+"unit": "Goodwill (Details) - USD ($)",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024",
+"Jan. 29, 2023"
+],
+"months": [
+12,
+12,
+12
+],
+"rows": [
+{
+"label": "Goodwill [Line Items]",
+"tag": "us-gaap_GoodwillLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Goodwill",
+"tag": "us-gaap_Goodwill",
+"vals": [
+5188000000.0,
+4430000000.0,
+null
+]
+},
+{
+"label": "Goodwill acquired during period",
+"tag": "us-gaap_GoodwillAcquiredDuringPeriod",
+"vals": [
+758000000.0,
+null,
+null
+]
+},
+{
+"label": "Goodwill impairment loss",
+"tag": "us-gaap_GoodwillImpairmentLoss",
+"vals": [
+0.0,
+0.0,
+0.0
+]
+},
+{
+"label": "Compute & Networking",
+"tag": "us-gaap_StatementBusinessSegmentsAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Goodwill [Line Items]",
+"tag": "us-gaap_GoodwillLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Goodwill",
+"tag": "us-gaap_Goodwill",
+"vals": [
+4800000000.0,
+4100000000.0,
+null
+]
+},
+{
+"label": "Graphics",
+"tag": "us-gaap_StatementBusinessSegmentsAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Goodwill [Line Items]",
+"tag": "us-gaap_GoodwillLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Goodwill",
+"tag": "us-gaap_Goodwill",
+"vals": [
+370000000.0,
+370000000.0,
+null
+]
+}
+]
+},
+"Amortizable Intangible Assets (Details)": {
+"file": "R53.htm",
+"short": "Amortizable Intangible Assets (Details)",
+"unit": "Amortizable Intangible Assets (Details) - USD ($) $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024",
+"Jan. 29, 2023"
+],
+"months": [
+12,
+12,
+12
+],
+"rows": [
+{
+"label": "Finite-Lived Intangible Assets [Line Items]",
+"tag": "us-gaap_FiniteLivedIntangibleAssetsLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Gross Carrying Amount",
+"tag": "us-gaap_FiniteLivedIntangibleAssetsGross",
+"vals": [
+3349.0,
+3091.0,
+null
+]
+},
+{
+"label": "Accumulated Amortization",
+"tag": "us-gaap_FiniteLivedIntangibleAssetsAccumulatedAmortization",
+"vals": [
+-2542.0,
+-1979.0,
+null
+]
+},
+{
+"label": "Net Carrying Amount",
+"tag": "us-gaap_FiniteLivedIntangibleAssetsNet",
+"vals": [
+807.0,
+1112.0,
+null
+]
+},
+{
+"label": "Amortization expense",
+"tag": "us-gaap_AmortizationOfIntangibleAssets",
+"vals": [
+593.0,
+614.0,
+699.0
+]
+},
+{
+"label": "Future amortization expense associated with intangible assets",
+"tag": "us-gaap_FiniteLivedIntangibleAssetsFutureAmortizationExpenseAbstract",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "2026",
+"tag": "us-gaap_FiniteLivedIntangibleAssetsAmortizationExpenseNextTwelveMonths",
+"vals": [
+354.0,
+null,
+null
+]
+},
+{
+"label": "2027",
+"tag": "us-gaap_FiniteLivedIntangibleAssetsAmortizationExpenseYearTwo",
+"vals": [
+236.0,
+null,
+null
+]
+},
+{
+"label": "2028",
+"tag": "us-gaap_FiniteLivedIntangibleAssetsAmortizationExpenseYearThree",
+"vals": [
+84.0,
+null,
+null
+]
+},
+{
+"label": "2029",
+"tag": "us-gaap_FiniteLivedIntangibleAssetsAmortizationExpenseYearFour",
+"vals": [
+31.0,
+null,
+null
+]
+},
+{
+"label": "2030",
+"tag": "us-gaap_FiniteLivedIntangibleAssetsAmortizationExpenseYearFive",
+"vals": [
+10.0,
+null,
+null
+]
+},
+{
+"label": "2031 and thereafter",
+"tag": "us-gaap_FiniteLivedIntangibleAssetsAmortizationExpenseAfterYearFive",
+"vals": [
+92.0,
+null,
+null
+]
+},
+{
+"label": "Net Carrying Amount",
+"tag": "us-gaap_FiniteLivedIntangibleAssetsNet",
+"vals": [
+807.0,
+1112.0,
+null
+]
+},
+{
+"label": "Acquisition-related intangible assets",
+"tag": "us-gaap_FiniteLivedIntangibleAssetsByMajorClassAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Finite-Lived Intangible Assets [Line Items]",
+"tag": "us-gaap_FiniteLivedIntangibleAssetsLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Gross Carrying Amount",
+"tag": "us-gaap_FiniteLivedIntangibleAssetsGross",
+"vals": [
+2900.0,
+2642.0,
+null
+]
+},
+{
+"label": "Accumulated Amortization",
+"tag": "us-gaap_FiniteLivedIntangibleAssetsAccumulatedAmortization",
+"vals": [
+-2264.0,
+-1720.0,
+null
+]
+},
+{
+"label": "Net Carrying Amount",
+"tag": "us-gaap_FiniteLivedIntangibleAssetsNet",
+"vals": [
+636.0,
+922.0,
+null
+]
+},
+{
+"label": "Future amortization expense associated with intangible assets",
+"tag": "us-gaap_FiniteLivedIntangibleAssetsFutureAmortizationExpenseAbstract",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Net Carrying Amount",
+"tag": "us-gaap_FiniteLivedIntangibleAssetsNet",
+"vals": [
+636.0,
+922.0,
+null
+]
+},
+{
+"label": "Patents and licensed technology",
+"tag": "us-gaap_FiniteLivedIntangibleAssetsByMajorClassAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Finite-Lived Intangible Assets [Line Items]",
+"tag": "us-gaap_FiniteLivedIntangibleAssetsLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Gross Carrying Amount",
+"tag": "us-gaap_FiniteLivedIntangibleAssetsGross",
+"vals": [
+449.0,
+449.0,
+null
+]
+},
+{
+"label": "Accumulated Amortization",
+"tag": "us-gaap_FiniteLivedIntangibleAssetsAccumulatedAmortization",
+"vals": [
+-278.0,
+-259.0,
+null
+]
+},
+{
+"label": "Net Carrying Amount",
+"tag": "us-gaap_FiniteLivedIntangibleAssetsNet",
+"vals": [
+171.0,
+190.0,
+null
+]
+},
+{
+"label": "Future amortization expense associated with intangible assets",
+"tag": "us-gaap_FiniteLivedIntangibleAssetsFutureAmortizationExpenseAbstract",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Net Carrying Amount",
+"tag": "us-gaap_FiniteLivedIntangibleAssetsNet",
+"vals": [
+171.0,
+190.0,
+null
+]
+}
+]
+},
+"Cash Equivalents and Marketable Securities - Cash Equivalents and Marketable Securities (Details)": {
+"file": "R54.htm",
+"short": "Cash Equivalents and Marketable Securities - Cash Equivalents and Marketable Securities (Details)",
+"unit": "Cash Equivalents and Marketable Securities - Cash Equivalents and Marketable Securities (Details) - USD ($) $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024"
+],
+"months": [
+12,
+null
+],
+"rows": [
+{
+"label": "Debt Securities, Available-for-sale [Line Items]",
+"tag": "us-gaap_ScheduleOfAvailableForSaleSecuritiesLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Amortized Cost",
+"tag": "us-gaap_AvailableForSaleDebtSecuritiesAmortizedCostBasis",
+"vals": [
+42062.0,
+25684.0
+]
+},
+{
+"label": "Unrealized Gain",
+"tag": "us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedGainBeforeTax",
+"vals": [
+100.0,
+56.0
+]
+},
+{
+"label": "Unrealized Loss",
+"tag": "us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedLossBeforeTax",
+"vals": [
+-56.0,
+-16.0
+]
+},
+{
+"label": "Estimated Fair Value",
+"tag": "us-gaap_AvailableForSaleSecuritiesDebtSecurities",
+"vals": [
+42106.0,
+25724.0
+]
+},
+{
+"label": "Cash Equivalents",
+"tag": "us-gaap_CashEquivalentsAtCarryingValue",
+"vals": [
+7866.0,
+7020.0
+]
+},
+{
+"label": "Marketable Securities",
+"tag": "us-gaap_MarketableSecurities",
+"vals": [
+null,
+18704.0
+]
+},
+{
+"label": "Estimated fair Value, Total",
+"tag": "nvda_DebtSecuritiesAvailableForSaleAndEquitySecuritiesFVNI",
+"vals": [
+42487.0,
+null
+]
+},
+{
+"label": "Marketable Securities, Total",
+"tag": "nvda_MarketableSecuritiesAndEquitySecuritiesFVNI",
+"vals": [
+34621.0,
+null
+]
+},
+{
+"label": "Level 1",
+"tag": "us-gaap_FairValueByFairValueHierarchyLevelAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Debt Securities, Available-for-sale [Line Items]",
+"tag": "us-gaap_ScheduleOfAvailableForSaleSecuritiesLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Publicly-held equity securities",
+"tag": "us-gaap_EquitySecuritiesFvNiCurrentAndNoncurrent",
+"vals": [
+0.0,
+225.0
+]
+},
+{
+"label": "Corporate debt securities",
+"tag": "us-gaap_FinancialInstrumentAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Debt Securities, Available-for-sale [Line Items]",
+"tag": "us-gaap_ScheduleOfAvailableForSaleSecuritiesLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Amortized Cost",
+"tag": "us-gaap_AvailableForSaleDebtSecuritiesAmortizedCostBasis",
+"vals": [
+18504.0,
+10126.0
+]
+},
+{
+"label": "Unrealized Gain",
+"tag": "us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedGainBeforeTax",
+"vals": [
+51.0,
+31.0
+]
+},
+{
+"label": "Unrealized Loss",
+"tag": "us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedLossBeforeTax",
+"vals": [
+-29.0,
+-5.0
+]
+},
+{
+"label": "Estimated Fair Value",
+"tag": "us-gaap_AvailableForSaleSecuritiesDebtSecurities",
+"vals": [
+18526.0,
+10152.0
+]
+},
+{
+"label": "Cash Equivalents",
+"tag": "us-gaap_CashEquivalentsAtCarryingValue",
+"vals": [
+2071.0,
+2231.0
+]
+},
+{
+"label": "Marketable Securities",
+"tag": "us-gaap_MarketableSecurities",
+"vals": [
+16455.0,
+7921.0
+]
+},
+{
+"label": "Debt securities issued by the U.S. Treasury",
+"tag": "us-gaap_FinancialInstrumentAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Debt Securities, Available-for-sale [Line Items]",
+"tag": "us-gaap_ScheduleOfAvailableForSaleSecuritiesLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Amortized Cost",
+"tag": "us-gaap_AvailableForSaleDebtSecuritiesAmortizedCostBasis",
+"vals": [
+16749.0,
+9517.0
+]
+},
+{
+"label": "Unrealized Gain",
+"tag": "us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedGainBeforeTax",
+"vals": [
+42.0,
+17.0
+]
+},
+{
+"label": "Unrealized Loss",
+"tag": "us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedLossBeforeTax",
+"vals": [
+-22.0,
+-10.0
+]
+},
+{
+"label": "Estimated Fair Value",
+"tag": "us-gaap_AvailableForSaleSecuritiesDebtSecurities",
+"vals": [
+16769.0,
+9524.0
+]
+},
+{
+"label": "Cash Equivalents",
+"tag": "us-gaap_CashEquivalentsAtCarryingValue",
+"vals": [
+1801.0,
+1315.0
+]
+},
+{
+"label": "Marketable Securities",
+"tag": "us-gaap_MarketableSecurities",
+"vals": [
+14968.0,
+8209.0
+]
+},
+{
+"label": "Money market funds",
+"tag": "us-gaap_FinancialInstrumentAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Debt Securities, Available-for-sale [Line Items]",
+"tag": "us-gaap_ScheduleOfAvailableForSaleSecuritiesLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Amortized Cost",
+"tag": "us-gaap_AvailableForSaleDebtSecuritiesAmortizedCostBasis",
+"vals": [
+3760.0,
+3031.0
+]
+},
+{
+"label": "Unrealized Gain",
+"tag": "us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedGainBeforeTax",
+"vals": [
+0.0,
+0.0
+]
+},
+{
+"label": "Unrealized Loss",
+"tag": "us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedLossBeforeTax",
+"vals": [
+0.0,
+0.0
+]
+},
+{
+"label": "Estimated Fair Value",
+"tag": "us-gaap_AvailableForSaleSecuritiesDebtSecurities",
+"vals": [
+3760.0,
+3031.0
+]
+},
+{
+"label": "Cash Equivalents",
+"tag": "us-gaap_CashEquivalentsAtCarryingValue",
+"vals": [
+3760.0,
+3031.0
+]
+},
+{
+"label": "Marketable Securities",
+"tag": "us-gaap_MarketableSecurities",
+"vals": [
+0.0,
+0.0
+]
+},
+{
+"label": "Debt securities issued by U.S. government agencies",
+"tag": "us-gaap_FinancialInstrumentAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Debt Securities, Available-for-sale [Line Items]",
+"tag": "us-gaap_ScheduleOfAvailableForSaleSecuritiesLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Amortized Cost",
+"tag": "us-gaap_AvailableForSaleDebtSecuritiesAmortizedCostBasis",
+"vals": [
+2775.0,
+2326.0
+]
+},
+{
+"label": "Unrealized Gain",
+"tag": "us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedGainBeforeTax",
+"vals": [
+7.0,
+8.0
+]
+},
+{
+"label": "Unrealized Loss",
+"tag": "us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedLossBeforeTax",
+"vals": [
+-5.0,
+-1.0
+]
+},
+{
+"label": "Estimated Fair Value",
+"tag": "us-gaap_AvailableForSaleSecuritiesDebtSecurities",
+"vals": [
+2777.0,
+2333.0
+]
+},
+{
+"label": "Cash Equivalents",
+"tag": "us-gaap_CashEquivalentsAtCarryingValue",
+"vals": [
+0.0,
+89.0
+]
+},
+{
+"label": "Marketable Securities",
+"tag": "us-gaap_MarketableSecurities",
+"vals": [
+2777.0,
+2244.0
+]
+},
+{
+"label": "Foreign government bonds",
+"tag": "us-gaap_FinancialInstrumentAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Debt Securities, Available-for-sale [Line Items]",
+"tag": "us-gaap_ScheduleOfAvailableForSaleSecuritiesLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Amortized Cost",
+"tag": "us-gaap_AvailableForSaleDebtSecuritiesAmortizedCostBasis",
+"vals": [
+177.0,
+174.0
+]
+},
+{
+"label": "Unrealized Gain",
+"tag": "us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedGainBeforeTax",
+"vals": [
+0.0,
+0.0
+]
+},
+{
+"label": "Unrealized Loss",
+"tag": "us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedLossBeforeTax",
+"vals": [
+0.0,
+0.0
+]
+},
+{
+"label": "Estimated Fair Value",
+"tag": "us-gaap_AvailableForSaleSecuritiesDebtSecurities",
+"vals": [
+177.0,
+174.0
+]
+},
+{
+"label": "Cash Equivalents",
+"tag": "us-gaap_CashEquivalentsAtCarryingValue",
+"vals": [
+137.0,
+60.0
+]
+},
+{
+"label": "Marketable Securities",
+"tag": "us-gaap_MarketableSecurities",
+"vals": [
+40.0,
+114.0
+]
+},
+{
+"label": "Certificates of deposit",
+"tag": "us-gaap_FinancialInstrumentAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Debt Securities, Available-for-sale [Line Items]",
+"tag": "us-gaap_ScheduleOfAvailableForSaleSecuritiesLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Amortized Cost",
+"tag": "us-gaap_AvailableForSaleDebtSecuritiesAmortizedCostBasis",
+"vals": [
+97.0,
+510.0
+]
+},
+{
+"label": "Unrealized Gain",
+"tag": "us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedGainBeforeTax",
+"vals": [
+0.0,
+0.0
+]
+},
+{
+"label": "Unrealized Loss",
+"tag": "us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedLossBeforeTax",
+"vals": [
+0.0,
+0.0
+]
+},
+{
+"label": "Estimated Fair Value",
+"tag": "us-gaap_AvailableForSaleSecuritiesDebtSecurities",
+"vals": [
+97.0,
+510.0
+]
+},
+{
+"label": "Cash Equivalents",
+"tag": "us-gaap_CashEquivalentsAtCarryingValue",
+"vals": [
+97.0,
+294.0
+]
+},
+{
+"label": "Marketable Securities",
+"tag": "us-gaap_MarketableSecurities",
+"vals": [
+0.0,
+216.0
+]
+},
+{
+"label": "Total debt securities with fair value adjustments recorded in other comprehensive income",
+"tag": "us-gaap_FinancialInstrumentAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Debt Securities, Available-for-sale [Line Items]",
+"tag": "us-gaap_ScheduleOfAvailableForSaleSecuritiesLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Amortized Cost",
+"tag": "us-gaap_AvailableForSaleDebtSecuritiesAmortizedCostBasis",
+"vals": [
+42062.0,
+null
+]
+},
+{
+"label": "Unrealized Gain",
+"tag": "us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedGainBeforeTax",
+"vals": [
+100.0,
+null
+]
+},
+{
+"label": "Unrealized Loss",
+"tag": "us-gaap_AvailableForSaleDebtSecuritiesAccumulatedGrossUnrealizedLossBeforeTax",
+"vals": [
+-56.0,
+null
+]
+},
+{
+"label": "Estimated Fair Value",
+"tag": "us-gaap_AvailableForSaleSecuritiesDebtSecurities",
+"vals": [
+42106.0,
+null
+]
+},
+{
+"label": "Cash Equivalents",
+"tag": "us-gaap_CashEquivalentsAtCarryingValue",
+"vals": [
+7866.0,
+null
+]
+},
+{
+"label": "Marketable Securities",
+"tag": "us-gaap_MarketableSecurities",
+"vals": [
+34240.0,
+null
+]
+},
+{
+"label": "Publicly-held equity securities",
+"tag": "us-gaap_FinancialInstrumentAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Debt Securities, Available-for-sale [Line Items]",
+"tag": "us-gaap_ScheduleOfAvailableForSaleSecuritiesLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Publicly-held equity securities",
+"tag": "us-gaap_EquitySecuritiesFvNiCurrentAndNoncurrent",
+"vals": [
+381.0,
+null
+]
+},
+{
+"label": "Net unrealized gains on investments",
+"tag": "us-gaap_EquitySecuritiesFvNiUnrealizedGainLoss",
+"vals": [
+163.0,
+null
+]
+},
+{
+"label": "Net realized gain on equity securities",
+"tag": "us-gaap_EquitySecuritiesFvNiRealizedGainLoss",
+"vals": [
+88.0,
+null
+]
+}
+]
+},
+"Cash Equivalents and Marketable Securities - Unrealized Losses Aggregated by Investment Category (Details)": {
+"file": "R55.htm",
+"short": "Cash Equivalents and Marketable Securities - Unrealized Losses Aggregated by Investment Category (Details)",
+"unit": "Cash Equivalents and Marketable Securities - Unrealized Losses Aggregated by Investment Category (Details) - USD ($) $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024"
+],
+"months": [],
+"rows": [
+{
+"label": "Estimated Fair Value",
+"tag": "us-gaap_DebtSecuritiesAvailableforSaleUnrealizedLossPositionAbstract",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Less than 12 Months",
+"tag": "us-gaap_DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPositionLessThan12Months",
+"vals": [
+12422.0,
+5319.0
+]
+},
+{
+"label": "12 Months or Greater",
+"tag": "us-gaap_DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPosition12MonthsOrLonger",
+"vals": [
+213.0,
+1696.0
+]
+},
+{
+"label": "Total",
+"tag": "us-gaap_DebtSecuritiesAvailableForSaleUnrealizedLossPosition",
+"vals": [
+12635.0,
+7015.0
+]
+},
+{
+"label": "Gross Unrealized Loss",
+"tag": "us-gaap_AvailableForSaleSecuritiesContinuousUnrealizedLossPositionAccumulatedLossAbstract",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Less than 12 Months",
+"tag": "us-gaap_DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPositionLessThan12MonthsAccumulatedLoss",
+"vals": [
+-56.0,
+-9.0
+]
+},
+{
+"label": "12 Months or Greater",
+"tag": "us-gaap_DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPosition12MonthsOrLongerAccumulatedLoss",
+"vals": [
+0.0,
+-7.0
+]
+},
+{
+"label": "Total",
+"tag": "us-gaap_DebtSecuritiesAvailableForSaleUnrealizedLossPositionAccumulatedLoss",
+"vals": [
+-56.0,
+-16.0
+]
+},
+{
+"label": "Debt securities issued by the U.S. Treasury",
+"tag": "us-gaap_FinancialInstrumentAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Estimated Fair Value",
+"tag": "us-gaap_DebtSecuritiesAvailableforSaleUnrealizedLossPositionAbstract",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Less than 12 Months",
+"tag": "us-gaap_DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPositionLessThan12Months",
+"vals": [
+6315.0,
+3343.0
+]
+},
+{
+"label": "12 Months or Greater",
+"tag": "us-gaap_DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPosition12MonthsOrLonger",
+"vals": [
+177.0,
+1078.0
+]
+},
+{
+"label": "Total",
+"tag": "us-gaap_DebtSecuritiesAvailableForSaleUnrealizedLossPosition",
+"vals": [
+6492.0,
+4421.0
+]
+},
+{
+"label": "Gross Unrealized Loss",
+"tag": "us-gaap_AvailableForSaleSecuritiesContinuousUnrealizedLossPositionAccumulatedLossAbstract",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Less than 12 Months",
+"tag": "us-gaap_DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPositionLessThan12MonthsAccumulatedLoss",
+"vals": [
+-22.0,
+-5.0
+]
+},
+{
+"label": "12 Months or Greater",
+"tag": "us-gaap_DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPosition12MonthsOrLongerAccumulatedLoss",
+"vals": [
+0.0,
+-5.0
+]
+},
+{
+"label": "Total",
+"tag": "us-gaap_DebtSecuritiesAvailableForSaleUnrealizedLossPositionAccumulatedLoss",
+"vals": [
+-22.0,
+-10.0
+]
+},
+{
+"label": "Corporate debt securities",
+"tag": "us-gaap_FinancialInstrumentAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Estimated Fair Value",
+"tag": "us-gaap_DebtSecuritiesAvailableforSaleUnrealizedLossPositionAbstract",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Less than 12 Months",
+"tag": "us-gaap_DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPositionLessThan12Months",
+"vals": [
+5291.0,
+1306.0
+]
+},
+{
+"label": "12 Months or Greater",
+"tag": "us-gaap_DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPosition12MonthsOrLonger",
+"vals": [
+15.0,
+618.0
+]
+},
+{
+"label": "Total",
+"tag": "us-gaap_DebtSecuritiesAvailableForSaleUnrealizedLossPosition",
+"vals": [
+5306.0,
+1924.0
+]
+},
+{
+"label": "Gross Unrealized Loss",
+"tag": "us-gaap_AvailableForSaleSecuritiesContinuousUnrealizedLossPositionAccumulatedLossAbstract",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Less than 12 Months",
+"tag": "us-gaap_DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPositionLessThan12MonthsAccumulatedLoss",
+"vals": [
+-29.0,
+-3.0
+]
+},
+{
+"label": "12 Months or Greater",
+"tag": "us-gaap_DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPosition12MonthsOrLongerAccumulatedLoss",
+"vals": [
+0.0,
+-2.0
+]
+},
+{
+"label": "Total",
+"tag": "us-gaap_DebtSecuritiesAvailableForSaleUnrealizedLossPositionAccumulatedLoss",
+"vals": [
+-29.0,
+-5.0
+]
+},
+{
+"label": "Debt securities issued by U.S. government agencies",
+"tag": "us-gaap_FinancialInstrumentAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Estimated Fair Value",
+"tag": "us-gaap_DebtSecuritiesAvailableforSaleUnrealizedLossPositionAbstract",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Less than 12 Months",
+"tag": "us-gaap_DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPositionLessThan12Months",
+"vals": [
+816.0,
+670.0
+]
+},
+{
+"label": "12 Months or Greater",
+"tag": "us-gaap_DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPosition12MonthsOrLonger",
+"vals": [
+21.0,
+0.0
+]
+},
+{
+"label": "Total",
+"tag": "us-gaap_DebtSecuritiesAvailableForSaleUnrealizedLossPosition",
+"vals": [
+837.0,
+670.0
+]
+},
+{
+"label": "Gross Unrealized Loss",
+"tag": "us-gaap_AvailableForSaleSecuritiesContinuousUnrealizedLossPositionAccumulatedLossAbstract",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Less than 12 Months",
+"tag": "us-gaap_DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPositionLessThan12MonthsAccumulatedLoss",
+"vals": [
+-5.0,
+-1.0
+]
+},
+{
+"label": "12 Months or Greater",
+"tag": "us-gaap_DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPosition12MonthsOrLongerAccumulatedLoss",
+"vals": [
+0.0,
+0.0
+]
+},
+{
+"label": "Total",
+"tag": "us-gaap_DebtSecuritiesAvailableForSaleUnrealizedLossPositionAccumulatedLoss",
+"vals": [
+-5.0,
+-1.0
+]
+}
+]
+},
+"Cash Equivalents and Marketable Securities - Amortized Cost and Estimated Fair Value of Cash Equivalents and Marketable Securities (Details)": {
+"file": "R56.htm",
+"short": "Cash Equivalents and Marketable Securities - Amortized Cost and Estimated Fair Value of Cash Equivalents and Marketable Securities (Details)",
+"unit": "Cash Equivalents and Marketable Securities - Amortized Cost and Estimated Fair Value of Cash Equivalents and Marketable Securities (Details) - USD ($) $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024"
+],
+"months": [],
+"rows": [
+{
+"label": "Amortized Cost",
+"tag": "us-gaap_AvailableForSaleSecuritiesDebtMaturitiesAmortizedCostBasisRollingMaturityAbstract",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Less than one year",
+"tag": "us-gaap_AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearAmortizedCost",
+"vals": [
+18426.0,
+16336.0
+]
+},
+{
+"label": "Due in 1 - 5 years",
+"tag": "us-gaap_AvailableForSaleSecuritiesDebtMaturitiesAfterOneThroughFiveYearsAmortizedCost",
+"vals": [
+23636.0,
+9348.0
+]
+},
+{
+"label": "Amortized Cost",
+"tag": "us-gaap_AvailableForSaleDebtSecuritiesAmortizedCostBasis",
+"vals": [
+42062.0,
+25684.0
+]
+},
+{
+"label": "Estimated Fair Value",
+"tag": "us-gaap_FairValueDisclosuresAbstract",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Less than one year",
+"tag": "us-gaap_AvailableForSaleSecuritiesDebtMaturitiesWithinOneYearFairValue",
+"vals": [
+18450.0,
+16329.0
+]
+},
+{
+"label": "Due in 1 - 5 years",
+"tag": "us-gaap_AvailableForSaleSecuritiesDebtMaturitiesAfterOneThroughFiveYearsFairValue",
+"vals": [
+23656.0,
+9395.0
+]
+},
+{
+"label": "Estimated Fair Value",
+"tag": "us-gaap_AvailableForSaleSecuritiesDebtSecurities",
+"vals": [
+42106.0,
+25724.0
+]
+}
+]
+},
+"Fair Value of Financial Assets and Liabilities and Non-marketable Equity Securities (Details)": {
+"file": "R57.htm",
+"short": "Fair Value of Financial Assets and Liabilities and Non-marketable Equity Securities (Details)",
+"unit": "Fair Value of Financial Assets and Liabilities and Non-marketable Equity Securities (Details) - USD ($) $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024"
+],
+"months": [],
+"rows": [
+{
+"label": "Assets",
+"tag": "us-gaap_AssetsFairValueDisclosureAbstract",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Cash equivalents and marketable securities",
+"tag": "us-gaap_AvailableForSaleSecuritiesDebtSecurities",
+"vals": [
+42106.0,
+25724.0
+]
+},
+{
+"label": "0.584% Notes Due 2024",
+"tag": "us-gaap_LongtermDebtTypeAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Financial assets and liabilities measured at fair value",
+"tag": "us-gaap_FairValueAssetsAndLiabilitiesMeasuredOnRecurringAndNonrecurringBasisLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Interest rate (as percent)",
+"tag": "us-gaap_DebtInstrumentInterestRateStatedPercentage",
+"vals": [
+0.584,
+null
+]
+},
+{
+"label": "3.20% Notes Due 2026",
+"tag": "us-gaap_LongtermDebtTypeAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Financial assets and liabilities measured at fair value",
+"tag": "us-gaap_FairValueAssetsAndLiabilitiesMeasuredOnRecurringAndNonrecurringBasisLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Interest rate (as percent)",
+"tag": "us-gaap_DebtInstrumentInterestRateStatedPercentage",
+"vals": [
+3.2,
+null
+]
+},
+{
+"label": "1.55% Notes Due 2028",
+"tag": "us-gaap_LongtermDebtTypeAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Financial assets and liabilities measured at fair value",
+"tag": "us-gaap_FairValueAssetsAndLiabilitiesMeasuredOnRecurringAndNonrecurringBasisLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Interest rate (as percent)",
+"tag": "us-gaap_DebtInstrumentInterestRateStatedPercentage",
+"vals": [
+1.55,
+null
+]
+},
+{
+"label": "2.85% Notes Due 2030",
+"tag": "us-gaap_LongtermDebtTypeAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Financial assets and liabilities measured at fair value",
+"tag": "us-gaap_FairValueAssetsAndLiabilitiesMeasuredOnRecurringAndNonrecurringBasisLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Interest rate (as percent)",
+"tag": "us-gaap_DebtInstrumentInterestRateStatedPercentage",
+"vals": [
+2.85,
+null
+]
+},
+{
+"label": "2.00% Notes Due 2031",
+"tag": "us-gaap_LongtermDebtTypeAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Financial assets and liabilities measured at fair value",
+"tag": "us-gaap_FairValueAssetsAndLiabilitiesMeasuredOnRecurringAndNonrecurringBasisLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Interest rate (as percent)",
+"tag": "us-gaap_DebtInstrumentInterestRateStatedPercentage",
+"vals": [
+2.0,
+null
+]
+},
+{
+"label": "3.50% Notes Due 2040",
+"tag": "us-gaap_LongtermDebtTypeAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Financial assets and liabilities measured at fair value",
+"tag": "us-gaap_FairValueAssetsAndLiabilitiesMeasuredOnRecurringAndNonrecurringBasisLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Interest rate (as percent)",
+"tag": "us-gaap_DebtInstrumentInterestRateStatedPercentage",
+"vals": [
+3.5,
+null
+]
+},
+{
+"label": "3.50% Notes Due 2050",
+"tag": "us-gaap_LongtermDebtTypeAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Financial assets and liabilities measured at fair value",
+"tag": "us-gaap_FairValueAssetsAndLiabilitiesMeasuredOnRecurringAndNonrecurringBasisLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Interest rate (as percent)",
+"tag": "us-gaap_DebtInstrumentInterestRateStatedPercentage",
+"vals": [
+3.5,
+null
+]
+},
+{
+"label": "3.70% Notes Due 2060",
+"tag": "us-gaap_LongtermDebtTypeAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Financial assets and liabilities measured at fair value",
+"tag": "us-gaap_FairValueAssetsAndLiabilitiesMeasuredOnRecurringAndNonrecurringBasisLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Interest rate (as percent)",
+"tag": "us-gaap_DebtInstrumentInterestRateStatedPercentage",
+"vals": [
+3.7,
+null
+]
+},
+{
+"label": "Level 1",
+"tag": "us-gaap_FairValueByFairValueHierarchyLevelAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Assets",
+"tag": "us-gaap_AssetsFairValueDisclosureAbstract",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Publicly-held equity securities",
+"tag": "us-gaap_EquitySecuritiesFvNiCurrentAndNoncurrent",
+"vals": [
+0.0,
+225.0
+]
+},
+{
+"label": "Level 1 | Money market funds",
+"tag": "us-gaap_FairValueByFairValueHierarchyLevelAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Assets",
+"tag": "us-gaap_AssetsFairValueDisclosureAbstract",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Cash equivalents and marketable securities",
+"tag": "us-gaap_AvailableForSaleSecuritiesDebtSecurities",
+"vals": [
+3760.0,
+3031.0
+]
+},
+{
+"label": "Level 1 | Publicly-held equity securities",
+"tag": "us-gaap_FairValueByFairValueHierarchyLevelAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Assets",
+"tag": "us-gaap_AssetsFairValueDisclosureAbstract",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Cash equivalents and marketable securities",
+"tag": "us-gaap_AvailableForSaleSecuritiesDebtSecurities",
+"vals": [
+381.0,
+0.0
+]
+},
+{
+"label": "Level 2 | 0.584% Notes Due 2024",
+"tag": "us-gaap_FairValueByFairValueHierarchyLevelAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Liabilities",
+"tag": "us-gaap_LiabilitiesFairValueDisclosureAbstract",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Liabilities",
+"tag": "us-gaap_LongTermDebtFairValue",
+"vals": [
+0.0,
+1228.0
+]
+},
+{
+"label": "Level 2 | 3.20% Notes Due 2026",
+"tag": "us-gaap_FairValueByFairValueHierarchyLevelAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Liabilities",
+"tag": "us-gaap_LiabilitiesFairValueDisclosureAbstract",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Liabilities",
+"tag": "us-gaap_LongTermDebtFairValue",
+"vals": [
+982.0,
+970.0
+]
+},
+{
+"label": "Level 2 | 1.55% Notes Due 2028",
+"tag": "us-gaap_FairValueByFairValueHierarchyLevelAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Liabilities",
+"tag": "us-gaap_LiabilitiesFairValueDisclosureAbstract",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Liabilities",
+"tag": "us-gaap_LongTermDebtFairValue",
+"vals": [
+1136.0,
+1115.0
+]
+},
+{
+"label": "Level 2 | 2.85% Notes Due 2030",
+"tag": "us-gaap_FairValueByFairValueHierarchyLevelAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Liabilities",
+"tag": "us-gaap_LiabilitiesFairValueDisclosureAbstract",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Liabilities",
+"tag": "us-gaap_LongTermDebtFairValue",
+"vals": [
+1376.0,
+1367.0
+]
+},
+{
+"label": "Level 2 | 2.00% Notes Due 2031",
+"tag": "us-gaap_FairValueByFairValueHierarchyLevelAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Liabilities",
+"tag": "us-gaap_LiabilitiesFairValueDisclosureAbstract",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Liabilities",
+"tag": "us-gaap_LongTermDebtFairValue",
+"vals": [
+1064.0,
+1057.0
+]
+},
+{
+"label": "Level 2 | 3.50% Notes Due 2040",
+"tag": "us-gaap_FairValueByFairValueHierarchyLevelAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Liabilities",
+"tag": "us-gaap_LiabilitiesFairValueDisclosureAbstract",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Liabilities",
+"tag": "us-gaap_LongTermDebtFairValue",
+"vals": [
+824.0,
+851.0
+]
+},
+{
+"label": "Level 2 | 3.50% Notes Due 2050",
+"tag": "us-gaap_FairValueByFairValueHierarchyLevelAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Liabilities",
+"tag": "us-gaap_LiabilitiesFairValueDisclosureAbstract",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Liabilities",
+"tag": "us-gaap_LongTermDebtFairValue",
+"vals": [
+1482.0,
+1604.0
+]
+},
+{
+"label": "Level 2 | 3.70% Notes Due 2060",
+"tag": "us-gaap_FairValueByFairValueHierarchyLevelAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Liabilities",
+"tag": "us-gaap_LiabilitiesFairValueDisclosureAbstract",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Liabilities",
+"tag": "us-gaap_LongTermDebtFairValue",
+"vals": [
+367.0,
+403.0
+]
+},
+{
+"label": "Level 2 | Corporate debt securities",
+"tag": "us-gaap_FairValueByFairValueHierarchyLevelAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Assets",
+"tag": "us-gaap_AssetsFairValueDisclosureAbstract",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Cash equivalents and marketable securities",
+"tag": "us-gaap_AvailableForSaleSecuritiesDebtSecurities",
+"vals": [
+18526.0,
+10152.0
+]
+},
+{
+"label": "Level 2 | Debt securities issued by the U.S. Treasury",
+"tag": "us-gaap_FairValueByFairValueHierarchyLevelAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Assets",
+"tag": "us-gaap_AssetsFairValueDisclosureAbstract",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Cash equivalents and marketable securities",
+"tag": "us-gaap_AvailableForSaleSecuritiesDebtSecurities",
+"vals": [
+16769.0,
+9524.0
+]
+},
+{
+"label": "Level 2 | Debt securities issued by U.S. government agencies",
+"tag": "us-gaap_FairValueByFairValueHierarchyLevelAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Assets",
+"tag": "us-gaap_AssetsFairValueDisclosureAbstract",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Cash equivalents and marketable securities",
+"tag": "us-gaap_AvailableForSaleSecuritiesDebtSecurities",
+"vals": [
+2777.0,
+2333.0
+]
+},
+{
+"label": "Level 2 | Foreign government bonds",
+"tag": "us-gaap_FairValueByFairValueHierarchyLevelAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Assets",
+"tag": "us-gaap_AssetsFairValueDisclosureAbstract",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Cash equivalents and marketable securities",
+"tag": "us-gaap_AvailableForSaleSecuritiesDebtSecurities",
+"vals": [
+177.0,
+174.0
+]
+},
+{
+"label": "Level 2 | Certificates of deposit",
+"tag": "us-gaap_FairValueByFairValueHierarchyLevelAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Assets",
+"tag": "us-gaap_AssetsFairValueDisclosureAbstract",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Cash equivalents and marketable securities",
+"tag": "us-gaap_AvailableForSaleSecuritiesDebtSecurities",
+"vals": [
+97.0,
+510.0
+]
+}
+]
+},
+"Fair Value of Financial Assets and Liabilities and Non-marketable Equity Securities - Carrying Value of Non-marketable Equity Securities (Details)": {
+"file": "R58.htm",
+"short": "Fair Value of Financial Assets and Liabilities and Non-marketable Equity Securities - Carrying Value of Non-marketable Equity Securities (Details)",
+"unit": "Fair Value of Financial Assets and Liabilities and Non-marketable Equity Securities - Carrying Value of Non-marketable Equity Securities (Details) - USD ($) $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024"
+],
+"months": [
+12,
+12
+],
+"rows": [
+{
+"label": "Investments, Debt and Equity Securities [Abstract]",
+"tag": "us-gaap_InvestmentsDebtAndEquitySecuritiesAbstract",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Carrying amount, beginning",
+"tag": "us-gaap_EquitySecuritiesWithoutReadilyDeterminableFairValueAmount",
+"vals": [
+1321.0,
+288.0
+]
+},
+{
+"label": "Net additions",
+"tag": "nvda_EquitySecuritiesWithoutReadilyDeterminableFairValueNetAdditionsDisposals",
+"vals": [
+1309.0,
+859.0
+]
+},
+{
+"label": "Unrealized gains",
+"tag": "us-gaap_EquitySecuritiesWithoutReadilyDeterminableFairValueUpwardPriceAdjustmentAnnualAmount",
+"vals": [
+816.0,
+194.0
+]
+},
+{
+"label": "Impairments and unrealized losses",
+"tag": "nvda_EquitySecuritiesWithoutReadilyDeterminableFairValueImpairmentLossAndDownwardPriceAdjustmentAnnualAmount",
+"vals": [
+-59.0,
+-20.0
+]
+},
+{
+"label": "Carrying amount, ending",
+"tag": "us-gaap_EquitySecuritiesWithoutReadilyDeterminableFairValueAmount",
+"vals": [
+3387.0,
+1321.0
+]
+}
+]
+},
+"Fair Value of Financial Assets and Liabilities and Non-marketable Equity Securities - Cumulative Gross (Details)": {
+"file": "R59.htm",
+"short": "Fair Value of Financial Assets and Liabilities and Non-marketable Equity Securities - Cumulative Gross (Details)",
+"unit": "Fair Value of Financial Assets and Liabilities and Non-marketable Equity Securities - Cumulative Gross (Details) - USD ($) $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024"
+],
+"months": [
+3,
+null
+],
+"rows": [
+{
+"label": "Other Investment Not Readily Marketable [Line Items]",
+"tag": "us-gaap_OtherInvestmentNotReadilyMarketableLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Cumulative gross unrealized gains",
+"tag": "us-gaap_EquitySecuritiesWithoutReadilyDeterminableFairValueUpwardPriceAdjustmentCumulativeAmount",
+"vals": [
+1100.0,
+270.0
+]
+},
+{
+"label": "Cumulative gross losses and impairments",
+"tag": "nvda_EquitySecuritiesWithoutReadilyDeterminableFairValueImpairmentLossAndDownwardPriceAdjustmentCumulativeAmount",
+"vals": [
+105.0,
+45.0
+]
+},
+{
+"label": "A Private Company Investment",
+"tag": "us-gaap_OtherInvestmentNotReadilyMarketableAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Other Investment Not Readily Marketable [Line Items]",
+"tag": "us-gaap_OtherInvestmentNotReadilyMarketableLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Unrealized gain on secondary equity transaction",
+"tag": "us-gaap_UnrealizedGainLossOnInvestments",
+"vals": [
+565.0,
+null
+]
+}
+]
+},
+"Balance Sheet Components - Narrative (Details)": {
+"file": "R60.htm",
+"short": "Balance Sheet Components - Narrative (Details)",
+"unit": "Balance Sheet Components - Narrative (Details) - USD ($) $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024",
+"Jan. 29, 2023"
+],
+"months": [
+12,
+12,
+12
+],
+"rows": [
+{
+"label": "Property, Plant and Equipment [Line Items]",
+"tag": "us-gaap_PropertyPlantAndEquipmentLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Depreciation expense",
+"tag": "us-gaap_Depreciation",
+"vals": [
+1300.0,
+894.0,
+844.0
+]
+},
+{
+"label": "Accumulated amortization of lease hold improvements and finance leases",
+"tag": "us-gaap_FinanceLeaseRightOfUseAssetAccumulatedAmortization",
+"vals": [
+410.0,
+400.0,
+null
+]
+},
+{
+"label": "Capital expenditures incurred but not yet paid",
+"tag": "us-gaap_CapitalExpendituresIncurredButNotYetPaid",
+"vals": [
+525.0,
+170.0,
+374.0
+]
+},
+{
+"label": "Customer one | Accounts Receivable | Customer Concentration Risk",
+"tag": "srt_MajorCustomersAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Property, Plant and Equipment [Line Items]",
+"tag": "us-gaap_PropertyPlantAndEquipmentLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Concentration risk (as percent)",
+"tag": "us-gaap_ConcentrationRiskPercentage1",
+"vals": [
+17.0,
+24.0,
+null
+]
+},
+{
+"label": "Customer two | Accounts Receivable | Customer Concentration Risk",
+"tag": "srt_MajorCustomersAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Property, Plant and Equipment [Line Items]",
+"tag": "us-gaap_PropertyPlantAndEquipmentLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Concentration risk (as percent)",
+"tag": "us-gaap_ConcentrationRiskPercentage1",
+"vals": [
+16.0,
+11.0,
+null
+]
+}
+]
+},
+"Balance Sheet Components - Inventories (Details)": {
+"file": "R61.htm",
+"short": "Balance Sheet Components - Inventories (Details)",
+"unit": "Balance Sheet Components - Inventories (Details) - USD ($) $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024"
+],
+"months": [
+12,
+12
+],
+"rows": [
+{
+"label": "Inventories",
+"tag": "us-gaap_InventoryNetAbstract",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Raw materials",
+"tag": "us-gaap_InventoryRawMaterialsNetOfReserves",
+"vals": [
+3408.0,
+1719.0
+]
+},
+{
+"label": "Work in process",
+"tag": "us-gaap_InventoryWorkInProcessNetOfReserves",
+"vals": [
+3399.0,
+1505.0
+]
+},
+{
+"label": "Finished goods",
+"tag": "us-gaap_InventoryFinishedGoodsNetOfReserves",
+"vals": [
+3273.0,
+2058.0
+]
+},
+{
+"label": "Total inventories (1)",
+"tag": "us-gaap_InventoryNet",
+"vals": [
+10080.0,
+5282.0
+]
+},
+{
+"label": "Inventory reserves expenses",
+"tag": "us-gaap_InventoryWriteDown",
+"vals": [
+1600.0,
+774.0
+]
+}
+]
+},
+"Balance Sheet Components - Property and Equipment (Details)": {
+"file": "R62.htm",
+"short": "Balance Sheet Components - Property and Equipment (Details)",
+"unit": "Balance Sheet Components - Property and Equipment (Details) - USD ($) $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024"
+],
+"months": [],
+"rows": [
+{
+"label": "Property, Plant and Equipment [Line Items]",
+"tag": "us-gaap_PropertyPlantAndEquipmentLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Total property and equipment, gross",
+"tag": "us-gaap_PropertyPlantAndEquipmentGross",
+"vals": [
+10684.0,
+7423.0
+]
+},
+{
+"label": "Accumulated depreciation and amortization",
+"tag": "us-gaap_AccumulatedDepreciationDepletionAndAmortizationPropertyPlantAndEquipment",
+"vals": [
+-4401.0,
+-3509.0
+]
+},
+{
+"label": "Total property and equipment, net",
+"tag": "us-gaap_PropertyPlantAndEquipmentNet",
+"vals": [
+6283.0,
+3914.0
+]
+},
+{
+"label": "Minimum",
+"tag": "srt_RangeAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Property, Plant and Equipment [Line Items]",
+"tag": "us-gaap_PropertyPlantAndEquipmentLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Property, plant & equipment, useful life",
+"tag": "us-gaap_PropertyPlantAndEquipmentUsefulLife",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Maximum",
+"tag": "srt_RangeAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Property, Plant and Equipment [Line Items]",
+"tag": "us-gaap_PropertyPlantAndEquipmentLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Property, plant & equipment, useful life",
+"tag": "us-gaap_PropertyPlantAndEquipmentUsefulLife",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Land",
+"tag": "us-gaap_PropertyPlantAndEquipmentByTypeAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Property, Plant and Equipment [Line Items]",
+"tag": "us-gaap_PropertyPlantAndEquipmentLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Total property and equipment, gross",
+"tag": "us-gaap_PropertyPlantAndEquipmentGross",
+"vals": [
+511.0,
+218.0
+]
+},
+{
+"label": "Buildings, leasehold improvements, and furniture",
+"tag": "us-gaap_PropertyPlantAndEquipmentByTypeAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Property, Plant and Equipment [Line Items]",
+"tag": "us-gaap_PropertyPlantAndEquipmentLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Total property and equipment, gross",
+"tag": "us-gaap_PropertyPlantAndEquipmentGross",
+"vals": [
+2076.0,
+1816.0
+]
+},
+{
+"label": "Equipment, compute hardware, and software",
+"tag": "us-gaap_PropertyPlantAndEquipmentByTypeAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Property, Plant and Equipment [Line Items]",
+"tag": "us-gaap_PropertyPlantAndEquipmentLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Total property and equipment, gross",
+"tag": "us-gaap_PropertyPlantAndEquipmentGross",
+"vals": [
+7568.0,
+5200.0
+]
+},
+{
+"label": "Equipment, compute hardware, and software | Minimum",
+"tag": "us-gaap_PropertyPlantAndEquipmentByTypeAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Property, Plant and Equipment [Line Items]",
+"tag": "us-gaap_PropertyPlantAndEquipmentLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Property, plant & equipment, useful life",
+"tag": "us-gaap_PropertyPlantAndEquipmentUsefulLife",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Equipment, compute hardware, and software | Maximum",
+"tag": "us-gaap_PropertyPlantAndEquipmentByTypeAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Property, Plant and Equipment [Line Items]",
+"tag": "us-gaap_PropertyPlantAndEquipmentLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Property, plant & equipment, useful life",
+"tag": "us-gaap_PropertyPlantAndEquipmentUsefulLife",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Construction in process",
+"tag": "us-gaap_PropertyPlantAndEquipmentByTypeAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Property, Plant and Equipment [Line Items]",
+"tag": "us-gaap_PropertyPlantAndEquipmentLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Total property and equipment, gross",
+"tag": "us-gaap_PropertyPlantAndEquipmentGross",
+"vals": [
+529.0,
+189.0
+]
+},
+{
+"label": "Buildings",
+"tag": "us-gaap_PropertyPlantAndEquipmentByTypeAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Property, Plant and Equipment [Line Items]",
+"tag": "us-gaap_PropertyPlantAndEquipmentLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Property, plant & equipment, useful life",
+"tag": "us-gaap_PropertyPlantAndEquipmentUsefulLife",
+"vals": [
+null,
+null
+]
+}
+]
+},
+"Balance Sheet Components - Other Assets (Details)": {
+"file": "R63.htm",
+"short": "Balance Sheet Components - Other Assets (Details)",
+"unit": "Balance Sheet Components - Other Assets (Details) - USD ($) $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024"
+],
+"months": [],
+"rows": [
+{
+"label": "Supply Commitment [Line Items]",
+"tag": "us-gaap_SupplyCommitmentLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Non-marketable equity securities",
+"tag": "us-gaap_EquitySecuritiesFVNINoncurrent",
+"vals": [
+3387.0,
+1321.0
+]
+},
+{
+"label": "Prepaid supply and capacity agreements",
+"tag": "nvda_PrepaidSupplyAndCapacityAgreementsNoncurrent",
+"vals": [
+1747.0,
+2458.0
+]
+},
+{
+"label": "Income tax receivable",
+"tag": "us-gaap_IncomeTaxesReceivableNoncurrent",
+"vals": [
+750.0,
+0.0
+]
+},
+{
+"label": "Prepaid royalties",
+"tag": "nvda_PrepaidRoyaltiesNoncurrent",
+"vals": [
+340.0,
+364.0
+]
+},
+{
+"label": "Other",
+"tag": "us-gaap_OtherAssetsMiscellaneousNoncurrent",
+"vals": [
+201.0,
+357.0
+]
+},
+{
+"label": "Other assets",
+"tag": "us-gaap_OtherAssetsNoncurrent",
+"vals": [
+6425.0,
+4500.0
+]
+},
+{
+"label": "Prepaid expenses and other current assets",
+"tag": "us-gaap_PrepaidExpenseAndOtherAssetsCurrent",
+"vals": [
+3771.0,
+3080.0
+]
+},
+{
+"label": "Supply and Capacity Agreements",
+"tag": "us-gaap_SupplyCommitmentAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Supply Commitment [Line Items]",
+"tag": "us-gaap_SupplyCommitmentLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Prepaid expenses and other current assets",
+"tag": "us-gaap_PrepaidExpenseAndOtherAssetsCurrent",
+"vals": [
+3300.0,
+2500.0
+]
+}
+]
+},
+"Balance Sheet Components - Accrued and Other Current Liabilities (Details)": {
+"file": "R64.htm",
+"short": "Balance Sheet Components - Accrued and Other Current Liabilities (Details)",
+"unit": "Balance Sheet Components - Accrued and Other Current Liabilities (Details) - USD ($) $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024",
+"Jan. 29, 2023"
+],
+"months": [
+12,
+12,
+12
+],
+"rows": [
+{
+"label": "Accruals [Line Items]",
+"tag": "nvda_AccrualsLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Customer program accruals",
+"tag": "nvda_AccruedCustomerProgramsCurrent",
+"vals": [
+4880.0,
+2081.0,
+null
+]
+},
+{
+"label": "Excess inventory purchase obligations",
+"tag": "nvda_ExcessInventoryPurchaseObligationsCurrent",
+"vals": [
+2095.0,
+1655.0,
+null
+]
+},
+{
+"label": "Product warranty and return provisions",
+"tag": "nvda_ProductWarrantyAccrualsAndReturnProvisionsCurrent",
+"vals": [
+1373.0,
+415.0,
+null
+]
+},
+{
+"label": "Taxes payable",
+"tag": "us-gaap_TaxesPayableCurrent",
+"vals": [
+881.0,
+296.0,
+null
+]
+},
+{
+"label": "Accrued payroll and related expenses",
+"tag": "us-gaap_EmployeeRelatedLiabilitiesCurrent",
+"vals": [
+848.0,
+675.0,
+null
+]
+},
+{
+"label": "Deferred revenue",
+"tag": "us-gaap_ContractWithCustomerLiabilityCurrent",
+"vals": [
+837.0,
+764.0,
+null
+]
+},
+{
+"label": "Operating leases",
+"tag": "us-gaap_OperatingLeaseLiabilityCurrent",
+"vals": [
+288.0,
+228.0,
+null
+]
+},
+{
+"label": "Licenses and royalties",
+"tag": "nvda_AccruedLicensesAndRoyalties",
+"vals": [
+175.0,
+182.0,
+null
+]
+},
+{
+"label": "Unsettled share repurchases",
+"tag": "nvda_AccruedShareRepurchaseLiabilityCurrent",
+"vals": [
+132.0,
+187.0,
+null
+]
+},
+{
+"label": "Other",
+"tag": "us-gaap_OtherAccruedLiabilitiesCurrent",
+"vals": [
+228.0,
+199.0,
+null
+]
+},
+{
+"label": "Total accrued and other current liabilities",
+"tag": "us-gaap_AccruedLiabilitiesCurrent",
+"vals": [
+11737.0,
+6682.0,
+null
+]
+},
+{
+"label": "Operating Lease, Liability, Current, Statement of Financial Position [Extensible List]",
+"tag": "us-gaap_OperatingLeaseLiabilityCurrentStatementOfFinancialPositionExtensibleList",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Cost of revenue",
+"tag": "us-gaap_CostOfRevenue",
+"vals": [
+32639.0,
+16621.0,
+11618.0
+]
+},
+{
+"label": "Inventory purchase obligations in excess of projections",
+"tag": "us-gaap_NatureOfExpenseAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Accruals [Line Items]",
+"tag": "nvda_AccrualsLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Cost of revenue",
+"tag": "us-gaap_CostOfRevenue",
+"vals": [
+2000.0,
+1400.0,
+null
+]
+},
+{
+"label": "Customer advances and unearned revenue",
+"tag": "us-gaap_NatureOfExpenseAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Accruals [Line Items]",
+"tag": "nvda_AccrualsLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Deferred revenue",
+"tag": "us-gaap_ContractWithCustomerLiabilityCurrent",
+"vals": [
+81.0,
+233.0,
+null
+]
+}
+]
+},
+"Balance Sheet Components - Other Long-Term Liabilities (Details)": {
+"file": "R65.htm",
+"short": "Balance Sheet Components - Other Long-Term Liabilities (Details)",
+"unit": "Balance Sheet Components - Other Long-Term Liabilities (Details) - USD ($) $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024"
+],
+"months": [
+12,
+12
+],
+"rows": [
+{
+"label": "Other Long-Term Liabilities:",
+"tag": "us-gaap_OtherLiabilitiesNoncurrentAbstract",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Income tax payable",
+"tag": "us-gaap_AccruedIncomeTaxesNoncurrent",
+"vals": [
+2188.0,
+1361.0
+]
+},
+{
+"label": "Deferred revenue",
+"tag": "us-gaap_ContractWithCustomerLiabilityNoncurrent",
+"vals": [
+976.0,
+573.0
+]
+},
+{
+"label": "Deferred income tax",
+"tag": "us-gaap_DeferredIncomeTaxLiabilitiesNet",
+"vals": [
+886.0,
+462.0
+]
+},
+{
+"label": "Licenses payable",
+"tag": "nvda_LicensesPayableNoncurrent",
+"vals": [
+116.0,
+80.0
+]
+},
+{
+"label": "Other",
+"tag": "us-gaap_OtherSundryLiabilitiesNoncurrent",
+"vals": [
+79.0,
+65.0
+]
+},
+{
+"label": "Total other long-term liabilities",
+"tag": "us-gaap_OtherLiabilitiesNoncurrent",
+"vals": [
+4245.0,
+2541.0
+]
+},
+{
+"label": "Customer advances included in deferred revenue",
+"tag": "nvda_ContractWithCustomerLiabilityAdditionsCustomerAdvances",
+"vals": [
+3600.0,
+783.0
+]
+},
+{
+"label": "Customer advances included in revenue recognized",
+"tag": "nvda_ContractWithCustomerLiabilityRevenueRecognizedFromCustomerAdvances",
+"vals": [
+3700.0,
+585.0
+]
+}
+]
+},
+"Balance Sheet Components - Deferred Revenue (Details)": {
+"file": "R66.htm",
+"short": "Balance Sheet Components - Deferred Revenue (Details)",
+"unit": "Balance Sheet Components - Deferred Revenue (Details) - USD ($) $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024"
+],
+"months": [
+12,
+12
+],
+"rows": [
+{
+"label": "Movement in Deferred Revenue [Roll Forward]",
+"tag": "us-gaap_MovementInDeferredRevenueRollForward",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Balance at beginning of period",
+"tag": "us-gaap_ContractWithCustomerLiability",
+"vals": [
+1337.0,
+572.0
+]
+},
+{
+"label": "Deferred revenue additions (1)",
+"tag": "nvda_ContractWithCustomerLiabilityAdditions",
+"vals": [
+5083.0,
+2038.0
+]
+},
+{
+"label": "Revenue recognized (2)",
+"tag": "nvda_ContractWithCustomerLiabilityRevenueRecognizedOpeningBalanceAndCurrentPeriodAdditions",
+"vals": [
+-4607.0,
+-1273.0
+]
+},
+{
+"label": "Balance at end of period",
+"tag": "us-gaap_ContractWithCustomerLiability",
+"vals": [
+1813.0,
+1337.0
+]
+}
+]
+},
+"Balance Sheet Components - Revenue Remaining Performance Obligation (Details)": {
+"file": "R67.htm",
+"short": "Balance Sheet Components - Revenue Remaining Performance Obligation (Details)",
+"unit": "Balance Sheet Components - Revenue Remaining Performance Obligation (Details) - USD ($) $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024"
+],
+"months": [
+12,
+12
+],
+"rows": [
+{
+"label": "Revenue, Remaining Performance Obligation, Expected Timing of Satisfaction [Line Items]",
+"tag": "us-gaap_RevenueRemainingPerformanceObligationExpectedTimingOfSatisfactionLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Deferred revenue",
+"tag": "us-gaap_ContractWithCustomerLiabilityRevenueRecognized",
+"vals": [
+729.0,
+338.0
+]
+},
+{
+"label": "Remaining performance obligation",
+"tag": "us-gaap_RevenueRemainingPerformanceObligation",
+"vals": [
+1700.0,
+null
+]
+},
+{
+"label": "Remaining performance obligations from deferred revenue",
+"tag": "nvda_RevenueRemainingPerformanceObligationContractWithCustomerLiabilityAmount",
+"vals": [
+1600.0,
+null
+]
+},
+{
+"label": "Remaining performance obligations not yet billed nor recognized as revenue",
+"tag": "us-gaap_UnbilledContractsReceivable",
+"vals": [
+151.0,
+null
+]
+},
+{
+"label": "Revenue, Remaining Performance Obligation, Expected Timing of Satisfaction, Start Date [Axis]: 2025-01-27",
+"tag": "us-gaap_RevenueRemainingPerformanceObligationExpectedTimingOfSatisfactionStartDateAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Revenue, Remaining Performance Obligation, Expected Timing of Satisfaction [Line Items]",
+"tag": "us-gaap_RevenueRemainingPerformanceObligationExpectedTimingOfSatisfactionLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Remaining performance obligation (as percent)",
+"tag": "us-gaap_RevenueRemainingPerformanceObligationPercentage",
+"vals": [
+39.0,
+null
+]
+},
+{
+"label": "Expected performance period",
+"tag": "us-gaap_RevenueRemainingPerformanceObligationExpectedTimingOfSatisfactionPeriod1",
+"vals": [
+null,
+null
+]
+}
+]
+},
+"Derivative Financial Instruments - Notional Value of Our Foreign Currency Forward Contracts Outstanding (Details)": {
+"file": "R68.htm",
+"short": "Derivative Financial Instruments - Notional Value of Our Foreign Currency Forward Contracts Outstanding (Details)",
+"unit": "Derivative Financial Instruments - Notional Value of Our Foreign Currency Forward Contracts Outstanding (Details) - Foreign currency forward contract - USD ($) $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024"
+],
+"months": [],
+"rows": [
+{
+"label": "Designated as accounting hedges",
+"tag": "us-gaap_DerivativeInstrumentRiskAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Derivative Instruments and Hedging Activities Disclosures [Line Items]",
+"tag": "us-gaap_DerivativeInstrumentsAndHedgingActivitiesDisclosuresLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Notional values of derivative contracts",
+"tag": "us-gaap_DerivativeNotionalAmount",
+"vals": [
+1424.0,
+1168.0
+]
+},
+{
+"label": "Not designated as accounting hedges",
+"tag": "us-gaap_DerivativeInstrumentRiskAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Derivative Instruments and Hedging Activities Disclosures [Line Items]",
+"tag": "us-gaap_DerivativeInstrumentsAndHedgingActivitiesDisclosuresLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Notional values of derivative contracts",
+"tag": "us-gaap_DerivativeNotionalAmount",
+"vals": [
+1297.0,
+597.0
+]
+}
+]
+},
+"Derivative Financial Instruments - Narrative (Details)": {
+"file": "R69.htm",
+"short": "Derivative Financial Instruments - Narrative (Details)",
+"unit": "",
+"periods": [
+"Jan. 26, 2025"
+],
+"months": [
+12
+],
+"rows": [
+{
+"label": "Foreign currency forward contract",
+"tag": "us-gaap_DerivativeInstrumentRiskAxis",
+"vals": [
+null
+]
+},
+{
+"label": "Derivative [Line Items]",
+"tag": "us-gaap_DerivativeLineItems",
+"vals": [
+null
+]
+},
+{
+"label": "Maximum maturity period",
+"tag": "us-gaap_MaximumRemainingMaturityOfForeignCurrencyDerivatives1",
+"vals": [
+null
+]
+}
+]
+},
+"Debt - Narrative (Details)": {
+"file": "R70.htm",
+"short": "Debt - Narrative (Details)",
+"unit": "Debt - Narrative (Details) - USD ($)",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024",
+"Jan. 29, 2023"
+],
+"months": [
+12,
+12,
+12
+],
+"rows": [
+{
+"label": "Debt Instrument [Line Items]",
+"tag": "us-gaap_DebtInstrumentLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Repayment of debt",
+"tag": "us-gaap_RepaymentsOfDebt",
+"vals": [
+1250000000.0,
+1250000000.0,
+0.0
+]
+},
+{
+"label": "Outstanding commercial paper",
+"tag": "us-gaap_CommercialPaper",
+"vals": [
+0.0,
+null,
+null
+]
+},
+{
+"label": "Commercial Paper",
+"tag": "us-gaap_CreditFacilityAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Debt Instrument [Line Items]",
+"tag": "us-gaap_DebtInstrumentLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Maximum borrowing capacity",
+"tag": "us-gaap_LineOfCreditFacilityMaximumBorrowingCapacity",
+"vals": [
+575000000.0,
+null,
+null
+]
+}
+]
+},
+"Debt - Schedule of Debt (Details)": {
+"file": "R71.htm",
+"short": "Debt - Schedule of Debt (Details)",
+"unit": "Debt - Schedule of Debt (Details) - USD ($) $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024"
+],
+"months": [
+12,
+null
+],
+"rows": [
+{
+"label": "Debt Instrument [Line Items]",
+"tag": "us-gaap_DebtInstrumentLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Unamortized debt discount and issuance costs",
+"tag": "us-gaap_DebtInstrumentUnamortizedDiscountPremiumAndDebtIssuanceCostsNet",
+"vals": [
+-37.0,
+-41.0
+]
+},
+{
+"label": "Net carrying amount",
+"tag": "us-gaap_LongTermDebt",
+"vals": [
+8463.0,
+9709.0
+]
+},
+{
+"label": "Less short-term portion",
+"tag": "us-gaap_LongTermDebtCurrent",
+"vals": [
+0.0,
+-1250.0
+]
+},
+{
+"label": "Long-term debt",
+"tag": "us-gaap_LongTermDebtNoncurrent",
+"vals": [
+8463.0,
+8459.0
+]
+},
+{
+"label": "0.584% Notes Due 2024",
+"tag": "us-gaap_LongtermDebtTypeAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Debt Instrument [Line Items]",
+"tag": "us-gaap_DebtInstrumentLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Interest rate (as percent)",
+"tag": "us-gaap_DebtInstrumentInterestRateStatedPercentage",
+"vals": [
+0.584,
+null
+]
+},
+{
+"label": "Effective Interest Rate (as percent)",
+"tag": "us-gaap_DebtInstrumentInterestRateDuringPeriod",
+"vals": [
+0.66,
+null
+]
+},
+{
+"label": "Gross carrying amount",
+"tag": "us-gaap_DebtInstrumentCarryingAmount",
+"vals": [
+0.0,
+1250.0
+]
+},
+{
+"label": "3.20% Notes Due 2026",
+"tag": "us-gaap_LongtermDebtTypeAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Debt Instrument [Line Items]",
+"tag": "us-gaap_DebtInstrumentLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Interest rate (as percent)",
+"tag": "us-gaap_DebtInstrumentInterestRateStatedPercentage",
+"vals": [
+3.2,
+null
+]
+},
+{
+"label": "Expected Remaining Term (years)",
+"tag": "us-gaap_DebtInstrumentTerm",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Effective Interest Rate (as percent)",
+"tag": "us-gaap_DebtInstrumentInterestRateDuringPeriod",
+"vals": [
+3.31,
+null
+]
+},
+{
+"label": "Gross carrying amount",
+"tag": "us-gaap_DebtInstrumentCarryingAmount",
+"vals": [
+1000.0,
+1000.0
+]
+},
+{
+"label": "1.55% Notes Due 2028",
+"tag": "us-gaap_LongtermDebtTypeAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Debt Instrument [Line Items]",
+"tag": "us-gaap_DebtInstrumentLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Interest rate (as percent)",
+"tag": "us-gaap_DebtInstrumentInterestRateStatedPercentage",
+"vals": [
+1.55,
+null
+]
+},
+{
+"label": "Expected Remaining Term (years)",
+"tag": "us-gaap_DebtInstrumentTerm",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Effective Interest Rate (as percent)",
+"tag": "us-gaap_DebtInstrumentInterestRateDuringPeriod",
+"vals": [
+1.64,
+null
+]
+},
+{
+"label": "Gross carrying amount",
+"tag": "us-gaap_DebtInstrumentCarryingAmount",
+"vals": [
+1250.0,
+1250.0
+]
+},
+{
+"label": "2.85% Notes Due 2030",
+"tag": "us-gaap_LongtermDebtTypeAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Debt Instrument [Line Items]",
+"tag": "us-gaap_DebtInstrumentLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Interest rate (as percent)",
+"tag": "us-gaap_DebtInstrumentInterestRateStatedPercentage",
+"vals": [
+2.85,
+null
+]
+},
+{
+"label": "Expected Remaining Term (years)",
+"tag": "us-gaap_DebtInstrumentTerm",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Effective Interest Rate (as percent)",
+"tag": "us-gaap_DebtInstrumentInterestRateDuringPeriod",
+"vals": [
+2.93,
+null
+]
+},
+{
+"label": "Gross carrying amount",
+"tag": "us-gaap_DebtInstrumentCarryingAmount",
+"vals": [
+1500.0,
+1500.0
+]
+},
+{
+"label": "2.00% Notes Due 2031",
+"tag": "us-gaap_LongtermDebtTypeAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Debt Instrument [Line Items]",
+"tag": "us-gaap_DebtInstrumentLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Interest rate (as percent)",
+"tag": "us-gaap_DebtInstrumentInterestRateStatedPercentage",
+"vals": [
+2.0,
+null
+]
+},
+{
+"label": "Expected Remaining Term (years)",
+"tag": "us-gaap_DebtInstrumentTerm",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Effective Interest Rate (as percent)",
+"tag": "us-gaap_DebtInstrumentInterestRateDuringPeriod",
+"vals": [
+2.09,
+null
+]
+},
+{
+"label": "Gross carrying amount",
+"tag": "us-gaap_DebtInstrumentCarryingAmount",
+"vals": [
+1250.0,
+1250.0
+]
+},
+{
+"label": "3.50% Notes Due 2040",
+"tag": "us-gaap_LongtermDebtTypeAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Debt Instrument [Line Items]",
+"tag": "us-gaap_DebtInstrumentLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Interest rate (as percent)",
+"tag": "us-gaap_DebtInstrumentInterestRateStatedPercentage",
+"vals": [
+3.5,
+null
+]
+},
+{
+"label": "Expected Remaining Term (years)",
+"tag": "us-gaap_DebtInstrumentTerm",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Effective Interest Rate (as percent)",
+"tag": "us-gaap_DebtInstrumentInterestRateDuringPeriod",
+"vals": [
+3.54,
+null
+]
+},
+{
+"label": "Gross carrying amount",
+"tag": "us-gaap_DebtInstrumentCarryingAmount",
+"vals": [
+1000.0,
+1000.0
+]
+},
+{
+"label": "3.50% Notes Due 2050",
+"tag": "us-gaap_LongtermDebtTypeAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Debt Instrument [Line Items]",
+"tag": "us-gaap_DebtInstrumentLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Interest rate (as percent)",
+"tag": "us-gaap_DebtInstrumentInterestRateStatedPercentage",
+"vals": [
+3.5,
+null
+]
+},
+{
+"label": "Expected Remaining Term (years)",
+"tag": "us-gaap_DebtInstrumentTerm",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Effective Interest Rate (as percent)",
+"tag": "us-gaap_DebtInstrumentInterestRateDuringPeriod",
+"vals": [
+3.54,
+null
+]
+},
+{
+"label": "Gross carrying amount",
+"tag": "us-gaap_DebtInstrumentCarryingAmount",
+"vals": [
+2000.0,
+2000.0
+]
+},
+{
+"label": "3.70% Notes Due 2060",
+"tag": "us-gaap_LongtermDebtTypeAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Debt Instrument [Line Items]",
+"tag": "us-gaap_DebtInstrumentLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Interest rate (as percent)",
+"tag": "us-gaap_DebtInstrumentInterestRateStatedPercentage",
+"vals": [
+3.7,
+null
+]
+},
+{
+"label": "Expected Remaining Term (years)",
+"tag": "us-gaap_DebtInstrumentTerm",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Effective Interest Rate (as percent)",
+"tag": "us-gaap_DebtInstrumentInterestRateDuringPeriod",
+"vals": [
+3.73,
+null
+]
+},
+{
+"label": "Gross carrying amount",
+"tag": "us-gaap_DebtInstrumentCarryingAmount",
+"vals": [
+500.0,
+500.0
+]
+}
+]
+},
+"Commitments and Contingencies - Narrative (Details)": {
+"file": "R72.htm",
+"short": "Commitments and Contingencies - Narrative (Details)",
+"unit": "Commitments and Contingencies - Narrative (Details) - USD ($) $ in Millions",
+"periods": [
+"Feb. 05, 2025",
+"Jan. 26, 2025",
+"Jan. 28, 2024",
+"Jan. 29, 2023",
+"Jan. 30, 2022"
+],
+"months": [],
+"rows": [
+{
+"label": "Supply Commitment [Line Items]",
+"tag": "us-gaap_SupplyCommitmentLineItems",
+"vals": [
+null,
+null,
+null,
+null,
+null
+]
+},
+{
+"label": "Inventory purchase and long-term supply agreements",
+"tag": "nvda_PurchaseObligationInventoryPurchaseAndSupplyAgreements",
+"vals": [
+null,
+30800.0,
+null,
+null,
+null
+]
+},
+{
+"label": "Other purchase obligations",
+"tag": "us-gaap_OtherCommitment",
+"vals": [
+null,
+14300.0,
+null,
+null,
+null
+]
+},
+{
+"label": "Warranty accrual",
+"tag": "us-gaap_ProductWarrantyAccrual",
+"vals": [
+null,
+1290.0,
+306.0,
+82.0,
+46.0
+]
+},
+{
+"label": "Securities Class Action and Derivative Lawsuits | Subsequent Event",
+"tag": "us-gaap_LossContingenciesByNatureOfContingencyAxis",
+"vals": [
+null,
+null,
+null,
+null,
+null
+]
+},
+{
+"label": "Supply Commitment [Line Items]",
+"tag": "us-gaap_SupplyCommitmentLineItems",
+"vals": [
+null,
+null,
+null,
+null,
+null
+]
+},
+{
+"label": "Motion to extend stay",
+"tag": "nvda_LossContingencyMotionToExtendStayAwardedDuration",
+"vals": [
+null,
+null,
+null,
+null,
+null
+]
+},
+{
+"label": "License and Service",
+"tag": "srt_ProductOrServiceAxis",
+"vals": [
+null,
+null,
+null,
+null,
+null
+]
+},
+{
+"label": "Supply Commitment [Line Items]",
+"tag": "us-gaap_SupplyCommitmentLineItems",
+"vals": [
+null,
+null,
+null,
+null,
+null
+]
+},
+{
+"label": "Other purchase obligations",
+"tag": "us-gaap_OtherCommitment",
+"vals": [
+null,
+10900.0,
+null,
+null,
+null
+]
+}
+]
+},
+"Commitments and Contingencies - Summary of Future Commitments Due by Year (Details)": {
+"file": "R73.htm",
+"short": "Commitments and Contingencies - Summary of Future Commitments Due by Year (Details)",
+"unit": "Commitments and Contingencies - Summary of Future Commitments Due by Year (Details) $ in Millions",
+"periods": [
+"Jan. 26, 2025 USD ($)"
+],
+"months": [],
+"rows": [
+{
+"label": "Fiscal Year:",
+"tag": "us-gaap_PurchaseObligationFiscalYearMaturityAbstract",
+"vals": [
+null
+]
+},
+{
+"label": "2026",
+"tag": "us-gaap_PurchaseObligationDueInNextTwelveMonths",
+"vals": [
+35727.0
+]
+},
+{
+"label": "2027",
+"tag": "us-gaap_PurchaseObligationDueInSecondYear",
+"vals": [
+3666.0
+]
+},
+{
+"label": "2028",
+"tag": "us-gaap_PurchaseObligationDueInThirdYear",
+"vals": [
+2992.0
+]
+},
+{
+"label": "2029",
+"tag": "us-gaap_PurchaseObligationDueInFourthYear",
+"vals": [
+2054.0
+]
+},
+{
+"label": "2030",
+"tag": "us-gaap_PurchaseObligationDueInFifthYear",
+"vals": [
+422.0
+]
+},
+{
+"label": "2031 and thereafter",
+"tag": "us-gaap_PurchaseObligationDueAfterFifthYear",
+"vals": [
+218.0
+]
+},
+{
+"label": "Total",
+"tag": "us-gaap_PurchaseObligation",
+"vals": [
+45079.0
+]
+}
+]
+},
+"Commitments and Contingencies - Schedule of Product Warranty Liabilities (Details)": {
+"file": "R74.htm",
+"short": "Commitments and Contingencies - Schedule of Product Warranty Liabilities (Details)",
+"unit": "Commitments and Contingencies - Schedule of Product Warranty Liabilities (Details) - USD ($) $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024",
+"Jan. 29, 2023"
+],
+"months": [
+12,
+12,
+12
+],
+"rows": [
+{
+"label": "Movement in Standard and Extended Product Warranty Accrual, Increase (Decrease) [Roll Forward]",
+"tag": "us-gaap_MovementInStandardAndExtendedProductWarrantyIncreaseDecreaseRollForward",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Beginning Balance",
+"tag": "us-gaap_ProductWarrantyAccrual",
+"vals": [
+306.0,
+82.0,
+46.0
+]
+},
+{
+"label": "Additions",
+"tag": "us-gaap_ProductWarrantyAccrualWarrantiesIssued",
+"vals": [
+1203.0,
+278.0,
+145.0
+]
+},
+{
+"label": "Utilization",
+"tag": "us-gaap_ProductWarrantyAccrualPayments",
+"vals": [
+-219.0,
+-54.0,
+-109.0
+]
+},
+{
+"label": "Ending Balance",
+"tag": "us-gaap_ProductWarrantyAccrual",
+"vals": [
+1290.0,
+306.0,
+82.0
+]
+}
+]
+},
+"Income Taxes - Components of Income Tax Expense (Details)": {
+"file": "R75.htm",
+"short": "Income Taxes - Components of Income Tax Expense (Details)",
+"unit": "Income Taxes - Components of Income Tax Expense (Details) - USD ($) $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024",
+"Jan. 29, 2023"
+],
+"months": [
+12,
+12,
+12
+],
+"rows": [
+{
+"label": "Current income taxes:",
+"tag": "us-gaap_CurrentIncomeTaxExpenseBenefitContinuingOperationsAbstract",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Federal",
+"tag": "us-gaap_CurrentFederalTaxExpenseBenefit",
+"vals": [
+14032.0,
+5710.0,
+1703.0
+]
+},
+{
+"label": "State",
+"tag": "us-gaap_CurrentStateAndLocalTaxExpenseBenefit",
+"vals": [
+892.0,
+335.0,
+46.0
+]
+},
+{
+"label": "Foreign",
+"tag": "us-gaap_CurrentForeignTaxExpenseBenefit",
+"vals": [
+699.0,
+502.0,
+228.0
+]
+},
+{
+"label": "Total current",
+"tag": "us-gaap_CurrentIncomeTaxExpenseBenefit",
+"vals": [
+15623.0,
+6547.0,
+1977.0
+]
+},
+{
+"label": "Deferred income taxes:",
+"tag": "us-gaap_DeferredIncomeTaxExpenseBenefitContinuingOperationsAbstract",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Federal",
+"tag": "us-gaap_DeferredFederalIncomeTaxExpenseBenefit",
+"vals": [
+-4515.0,
+-2499.0,
+-2165.0
+]
+},
+{
+"label": "State",
+"tag": "us-gaap_DeferredStateAndLocalIncomeTaxExpenseBenefit",
+"vals": [
+-242.0,
+-206.0,
+0.0
+]
+},
+{
+"label": "Foreign",
+"tag": "us-gaap_DeferredForeignIncomeTaxExpenseBenefit",
+"vals": [
+280.0,
+216.0,
+1.0
+]
+},
+{
+"label": "Total deferred",
+"tag": "us-gaap_DeferredIncomeTaxExpenseBenefit",
+"vals": [
+-4477.0,
+-2489.0,
+-2164.0
+]
+},
+{
+"label": "Income tax expense (benefit)",
+"tag": "us-gaap_IncomeTaxExpenseBenefit",
+"vals": [
+11146.0,
+4058.0,
+-187.0
+]
+},
+{
+"label": "Income before Income Taxes",
+"tag": "us-gaap_IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestmentsAbstract",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "U.S.",
+"tag": "us-gaap_IncomeLossFromContinuingOperationsBeforeIncomeTaxesDomestic",
+"vals": [
+77456.0,
+29495.0,
+3477.0
+]
+},
+{
+"label": "Foreign",
+"tag": "us-gaap_IncomeLossFromContinuingOperationsBeforeIncomeTaxesForeign",
+"vals": [
+6570.0,
+4323.0,
+704.0
+]
+},
+{
+"label": "Income before income tax",
+"tag": "us-gaap_IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+"vals": [
+84026.0,
+33818.0,
+4181.0
+]
+}
+]
+},
+"Income Taxes - Income Tax Reconciliation (Details)": {
+"file": "R76.htm",
+"short": "Income Taxes - Income Tax Reconciliation (Details)",
+"unit": "Income Taxes - Income Tax Reconciliation (Details) - USD ($) $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024",
+"Jan. 29, 2023"
+],
+"months": [
+12,
+12,
+12
+],
+"rows": [
+{
+"label": "Income Tax Expense (Benefit), Effective Income Tax Rate Reconciliation, Amount [Abstract]",
+"tag": "us-gaap_IncomeTaxExpenseBenefitContinuingOperationsIncomeTaxReconciliationAbstract",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Tax expense computed at federal statutory rate",
+"tag": "us-gaap_IncomeTaxReconciliationIncomeTaxExpenseBenefitAtFederalStatutoryIncomeTaxRate",
+"vals": [
+17645.0,
+7102.0,
+878.0
+]
+},
+{
+"label": "State income taxes, net of federal tax effect",
+"tag": "us-gaap_IncomeTaxReconciliationStateAndLocalIncomeTaxes",
+"vals": [
+554.0,
+120.0,
+50.0
+]
+},
+{
+"label": "Foreign-derived intangible income",
+"tag": "us-gaap_EffectiveIncomeTaxRateReconciliationFdiiAmount",
+"vals": [
+-2976.0,
+-1408.0,
+-739.0
+]
+},
+{
+"label": "Stock-based compensation",
+"tag": "us-gaap_IncomeTaxReconciliationNondeductibleExpenseShareBasedCompensationCost",
+"vals": [
+-2097.0,
+-741.0,
+-309.0
+]
+},
+{
+"label": "U.S. federal research and development tax credit",
+"tag": "us-gaap_IncomeTaxReconciliationTaxCreditsResearch",
+"vals": [
+-990.0,
+-431.0,
+-278.0
+]
+},
+{
+"label": "Foreign tax rate differential",
+"tag": "us-gaap_IncomeTaxReconciliationForeignIncomeTaxRateDifferential",
+"vals": [
+-984.0,
+-467.0,
+-83.0
+]
+},
+{
+"label": "Acquisition termination cost",
+"tag": "nvda_EffectiveIncomeTaxRateReconciliationAcquisitionTerminationCost",
+"vals": [
+0.0,
+0.0,
+261.0
+]
+},
+{
+"label": "Other",
+"tag": "us-gaap_IncomeTaxReconciliationOtherAdjustments",
+"vals": [
+-6.0,
+-117.0,
+33.0
+]
+},
+{
+"label": "Income tax expense (benefit)",
+"tag": "us-gaap_IncomeTaxExpenseBenefit",
+"vals": [
+11146.0,
+4058.0,
+-187.0
+]
+},
+{
+"label": "Effective Income Tax Rate Reconciliation, Percent [Abstract]",
+"tag": "us-gaap_EffectiveIncomeTaxRateContinuingOperationsTaxRateReconciliationAbstract",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Tax expense computed at federal statutory rate",
+"tag": "us-gaap_EffectiveIncomeTaxRateReconciliationAtFederalStatutoryIncomeTaxRate",
+"vals": [
+21.0,
+21.0,
+21.0
+]
+},
+{
+"label": "State income taxes, net of federal tax effect",
+"tag": "us-gaap_EffectiveIncomeTaxRateReconciliationStateAndLocalIncomeTaxes",
+"vals": [
+0.7,
+0.4,
+1.2
+]
+},
+{
+"label": "Foreign-derived intangible income",
+"tag": "us-gaap_EffectiveIncomeTaxRateReconciliationFdiiPercent",
+"vals": [
+-3.5,
+-4.2,
+-17.7
+]
+},
+{
+"label": "Stock-based compensation",
+"tag": "us-gaap_EffectiveIncomeTaxRateReconciliationNondeductibleExpenseShareBasedCompensationCost",
+"vals": [
+-2.5,
+-2.2,
+-7.4
+]
+},
+{
+"label": "U.S. federal research and development tax credit",
+"tag": "us-gaap_EffectiveIncomeTaxRateReconciliationTaxCreditsResearch",
+"vals": [
+-1.2,
+-1.3,
+-6.6
+]
+},
+{
+"label": "Foreign tax rate differential",
+"tag": "us-gaap_EffectiveIncomeTaxRateReconciliationForeignIncomeTaxRateDifferential",
+"vals": [
+-1.2,
+-1.4,
+-2.0
+]
+},
+{
+"label": "Acquisition termination cost",
+"tag": "nvda_EffectiveIncomeTaxRateReconciliationAcquisitionTerminationCostPercent",
+"vals": [
+0.0,
+0.0,
+0.062
+]
+},
+{
+"label": "Other",
+"tag": "us-gaap_EffectiveIncomeTaxRateReconciliationOtherAdjustments",
+"vals": [
+0.0,
+-0.3,
+0.8
+]
+},
+{
+"label": "Effective tax rate (as percent)",
+"tag": "us-gaap_EffectiveIncomeTaxRateContinuingOperations",
+"vals": [
+13.3,
+12.0,
+-4.5
+]
+}
+]
+},
+"Income Taxes - Deferred Taxes (Details)": {
+"file": "R77.htm",
+"short": "Income Taxes - Deferred Taxes (Details)",
+"unit": "Income Taxes - Deferred Taxes (Details) - USD ($) $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024"
+],
+"months": [],
+"rows": [
+{
+"label": "Deferred tax assets:",
+"tag": "us-gaap_ComponentsOfDeferredTaxAssetsAbstract",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Capitalized research and development expenditure",
+"tag": "nvda_DeferredTaxAssetsTaxDeferredExpenseCapitalizedResearchAndDevelopmentCosts",
+"vals": [
+6256.0,
+3376.0
+]
+},
+{
+"label": "GILTI deferred tax assets",
+"tag": "nvda_DeferredTaxAssetsTaxCutsAndJobsAct",
+"vals": [
+2820.0,
+1576.0
+]
+},
+{
+"label": "Accruals and reserves, not currently deductible for tax purposes",
+"tag": "us-gaap_DeferredTaxAssetsTaxDeferredExpenseReservesAndAccruals",
+"vals": [
+2058.0,
+1121.0
+]
+},
+{
+"label": "Research and other tax credit carryforwards",
+"tag": "us-gaap_DeferredTaxAssetsTaxCreditCarryforwards",
+"vals": [
+759.0,
+936.0
+]
+},
+{
+"label": "Net operating loss and capital loss carryforwards",
+"tag": "us-gaap_DeferredTaxAssetsOperatingLossCarryforwards",
+"vals": [
+456.0,
+439.0
+]
+},
+{
+"label": "Operating lease liabilities",
+"tag": "nvda_DeferredTaxAssetsLeaseLiability",
+"vals": [
+299.0,
+263.0
+]
+},
+{
+"label": "Stock-based compensation",
+"tag": "us-gaap_DeferredTaxAssetsTaxDeferredExpenseCompensationAndBenefitsShareBasedCompensationCost",
+"vals": [
+124.0,
+106.0
+]
+},
+{
+"label": "Property, equipment and intangible assets",
+"tag": "nvda_DeferredTaxAssetsPropertyEquipmentAndIntangibleAssets",
+"vals": [
+82.0,
+64.0
+]
+},
+{
+"label": "Other deferred tax assets",
+"tag": "us-gaap_DeferredTaxAssetsOther",
+"vals": [
+360.0,
+179.0
+]
+},
+{
+"label": "Gross deferred tax assets",
+"tag": "us-gaap_DeferredTaxAssetsGross",
+"vals": [
+13214.0,
+8060.0
+]
+},
+{
+"label": "Less valuation allowance",
+"tag": "us-gaap_DeferredTaxAssetsValuationAllowance",
+"vals": [
+-1610.0,
+-1552.0
+]
+},
+{
+"label": "Total deferred tax assets",
+"tag": "us-gaap_DeferredTaxAssetsNet",
+"vals": [
+11604.0,
+6508.0
+]
+},
+{
+"label": "Deferred tax liabilities:",
+"tag": "us-gaap_ComponentsOfDeferredTaxLiabilitiesAbstract",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Unremitted earnings of foreign subsidiaries",
+"tag": "us-gaap_DeferredTaxLiabilitiesUndistributedForeignEarnings",
+"vals": [
+-891.0,
+-502.0
+]
+},
+{
+"label": "Operating lease assets",
+"tag": "nvda_DeferredTaxLiabilitiesRightOfUseAssets",
+"vals": [
+-286.0,
+-255.0
+]
+},
+{
+"label": "Equity investments",
+"tag": "us-gaap_DeferredTaxLiabilitiesInvestments",
+"vals": [
+-264.0,
+-60.0
+]
+},
+{
+"label": "Acquired intangibles",
+"tag": "us-gaap_DeferredTaxLiabilitiesGoodwillAndIntangibleAssetsIntangibleAssets",
+"vals": [
+-70.0,
+-74.0
+]
+},
+{
+"label": "Gross deferred tax liabilities",
+"tag": "us-gaap_DeferredIncomeTaxLiabilities",
+"vals": [
+-1511.0,
+-891.0
+]
+},
+{
+"label": "Net deferred tax asset",
+"tag": "us-gaap_DeferredTaxAssetsLiabilitiesNet",
+"vals": [
+10093.0,
+5617.0
+]
+},
+{
+"label": "Deferred tax assets, noncurrent",
+"tag": "us-gaap_BalanceSheetLocationAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Deferred tax assets:",
+"tag": "us-gaap_ComponentsOfDeferredTaxAssetsAbstract",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Gross deferred tax assets",
+"tag": "us-gaap_DeferredTaxAssetsGross",
+"vals": [
+11000.0,
+6100.0
+]
+},
+{
+"label": "Other long-term liabilities",
+"tag": "us-gaap_BalanceSheetLocationAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Deferred tax liabilities:",
+"tag": "us-gaap_ComponentsOfDeferredTaxLiabilitiesAbstract",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Gross deferred tax liabilities",
+"tag": "us-gaap_DeferredIncomeTaxLiabilities",
+"vals": [
+-886.0,
+-462.0
+]
+}
+]
+},
+"Income Taxes - Narrative (Details)": {
+"file": "R78.htm",
+"short": "Income Taxes - Narrative (Details)",
+"unit": "Income Taxes - Narrative (Details) - USD ($) $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024",
+"Jan. 29, 2023"
+],
+"months": [
+12,
+12,
+12
+],
+"rows": [
+{
+"label": "Income Tax Contingency [Line Items]",
+"tag": "us-gaap_IncomeTaxContingencyLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Deferred tax assets",
+"tag": "us-gaap_DeferredTaxAssetsGross",
+"vals": [
+13214.0,
+8060.0,
+null
+]
+},
+{
+"label": "Deferred tax liabilities",
+"tag": "us-gaap_DeferredIncomeTaxLiabilities",
+"vals": [
+1511.0,
+891.0,
+null
+]
+},
+{
+"label": "Undistributed earnings of foreign subsidiaries",
+"tag": "us-gaap_UndistributedEarningsOfForeignSubsidiaries",
+"vals": [
+1400.0,
+null,
+null
+]
+},
+{
+"label": "Valuation allowance",
+"tag": "us-gaap_TaxCreditCarryforwardValuationAllowance",
+"vals": [
+1600.0,
+1600.0,
+null
+]
+},
+{
+"label": "Unrecognized tax benefits that would affect effective tax rate",
+"tag": "us-gaap_UnrecognizedTaxBenefitsThatWouldImpactEffectiveTaxRate",
+"vals": [
+2000.0,
+null,
+null
+]
+},
+{
+"label": "Interest and taxes recognized related to unrecognized tax benefits",
+"tag": "us-gaap_UnrecognizedTaxBenefitsIncomeTaxPenaltiesAndInterestExpense",
+"vals": [
+92.0,
+42.0,
+33.0
+]
+},
+{
+"label": "Interest and penalties accrued",
+"tag": "us-gaap_UnrecognizedTaxBenefitsIncomeTaxPenaltiesAndInterestAccrued",
+"vals": [
+251.0,
+140.0,
+null
+]
+},
+{
+"label": "Capital Loss Carryforward",
+"tag": "us-gaap_TaxCreditCarryforwardAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Income Tax Contingency [Line Items]",
+"tag": "us-gaap_IncomeTaxContingencyLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Valuation allowance",
+"tag": "us-gaap_TaxCreditCarryforwardValuationAllowance",
+"vals": [
+1600.0,
+null,
+null
+]
+},
+{
+"label": "Other long-term liabilities",
+"tag": "us-gaap_BalanceSheetLocationAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Income Tax Contingency [Line Items]",
+"tag": "us-gaap_IncomeTaxContingencyLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Deferred tax liabilities",
+"tag": "us-gaap_DeferredIncomeTaxLiabilities",
+"vals": [
+886.0,
+462.0,
+null
+]
+},
+{
+"label": "Deferred tax assets, noncurrent",
+"tag": "us-gaap_BalanceSheetLocationAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Income Tax Contingency [Line Items]",
+"tag": "us-gaap_IncomeTaxContingencyLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Deferred tax assets",
+"tag": "us-gaap_DeferredTaxAssetsGross",
+"vals": [
+11000.0,
+6100.0,
+null
+]
+},
+{
+"label": "Federal",
+"tag": "us-gaap_IncomeTaxAuthorityAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Income Tax Contingency [Line Items]",
+"tag": "us-gaap_IncomeTaxContingencyLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Net operating loss carryforwards",
+"tag": "us-gaap_OperatingLossCarryforwards",
+"vals": [
+479.0,
+null,
+null
+]
+},
+{
+"label": "Research tax credit carryforwards",
+"tag": "us-gaap_DeferredTaxAssetsTaxCreditCarryforwardsResearch",
+"vals": [
+46.0,
+null,
+null
+]
+},
+{
+"label": "Federal | Capital Loss Carryforward",
+"tag": "us-gaap_IncomeTaxAuthorityAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Income Tax Contingency [Line Items]",
+"tag": "us-gaap_IncomeTaxContingencyLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Federal capital loss carryforwards",
+"tag": "us-gaap_TaxCreditCarryforwardAmount",
+"vals": [
+1300.0,
+null,
+null
+]
+},
+{
+"label": "Foreign Country",
+"tag": "us-gaap_IncomeTaxAuthorityAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Income Tax Contingency [Line Items]",
+"tag": "us-gaap_IncomeTaxContingencyLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Net operating loss carryforwards",
+"tag": "us-gaap_OperatingLossCarryforwards",
+"vals": [
+349.0,
+null,
+null
+]
+},
+{
+"label": "State and Local Jurisdiction",
+"tag": "us-gaap_IncomeTaxAuthorityAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Income Tax Contingency [Line Items]",
+"tag": "us-gaap_IncomeTaxContingencyLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Net operating loss carryforwards",
+"tag": "us-gaap_OperatingLossCarryforwards",
+"vals": [
+332.0,
+null,
+null
+]
+},
+{
+"label": "Research tax credit carryforwards",
+"tag": "us-gaap_DeferredTaxAssetsTaxCreditCarryforwardsResearch",
+"vals": [
+1500.0,
+null,
+null
+]
+},
+{
+"label": "California",
+"tag": "us-gaap_IncomeTaxAuthorityAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Income Tax Contingency [Line Items]",
+"tag": "us-gaap_IncomeTaxContingencyLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Research tax credit carryforwards",
+"tag": "us-gaap_DeferredTaxAssetsTaxCreditCarryforwardsResearch",
+"vals": [
+1400.0,
+null,
+null
+]
+},
+{
+"label": "Other states",
+"tag": "us-gaap_IncomeTaxAuthorityAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Income Tax Contingency [Line Items]",
+"tag": "us-gaap_IncomeTaxContingencyLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Research tax credit carryforwards",
+"tag": "us-gaap_DeferredTaxAssetsTaxCreditCarryforwardsResearch",
+"vals": [
+98.0,
+null,
+null
+]
+}
+]
+},
+"Income Taxes - Unrecognized Tax Benefits (Details)": {
+"file": "R79.htm",
+"short": "Income Taxes - Unrecognized Tax Benefits (Details)",
+"unit": "Income Taxes - Unrecognized Tax Benefits (Details) - USD ($) $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024",
+"Jan. 29, 2023"
+],
+"months": [
+12,
+12,
+12
+],
+"rows": [
+{
+"label": "Unrecognized Tax Benefits [Roll Forward]",
+"tag": "us-gaap_ReconciliationOfUnrecognizedTaxBenefitsExcludingAmountsPertainingToExaminedTaxReturnsRollForward",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Balance at beginning of period",
+"tag": "us-gaap_UnrecognizedTaxBenefits",
+"vals": [
+1670.0,
+1238.0,
+1013.0
+]
+},
+{
+"label": "Increases in tax positions for current year",
+"tag": "us-gaap_UnrecognizedTaxBenefitsIncreasesResultingFromCurrentPeriodTaxPositions",
+"vals": [
+1268.0,
+616.0,
+268.0
+]
+},
+{
+"label": "Increases in tax positions for prior years",
+"tag": "us-gaap_UnrecognizedTaxBenefitsIncreasesResultingFromPriorPeriodTaxPositions",
+"vals": [
+48.0,
+87.0,
+1.0
+]
+},
+{
+"label": "Decreases in tax positions for prior years",
+"tag": "us-gaap_UnrecognizedTaxBenefitsDecreasesResultingFromPriorPeriodTaxPositions",
+"vals": [
+-88.0,
+-148.0,
+-15.0
+]
+},
+{
+"label": "Lapse in statute of limitations",
+"tag": "us-gaap_UnrecognizedTaxBenefitsReductionsResultingFromLapseOfApplicableStatuteOfLimitations",
+"vals": [
+-27.0,
+-19.0,
+-20.0
+]
+},
+{
+"label": "Settlements",
+"tag": "us-gaap_UnrecognizedTaxBenefitsDecreasesResultingFromSettlementsWithTaxingAuthorities",
+"vals": [
+-10.0,
+-104.0,
+-9.0
+]
+},
+{
+"label": "Balance at end of period",
+"tag": "us-gaap_UnrecognizedTaxBenefits",
+"vals": [
+2861.0,
+1670.0,
+1238.0
+]
+},
+{
+"label": "Unrecognized tax benefits that would affect effective tax rate",
+"tag": "us-gaap_UnrecognizedTaxBenefitsThatWouldImpactEffectiveTaxRate",
+"vals": [
+2000.0,
+null,
+null
+]
+}
+]
+},
+"Shareholders' Equity (Details)": {
+"file": "R80.htm",
+"short": "Shareholders' Equity (Details)",
+"unit": "Shareholders' Equity (Details) - USD ($) shares in Millions, $ in Millions",
+"periods": [
+"Aug. 26, 2024",
+"Feb. 21, 2025",
+"Jan. 26, 2025",
+"Jan. 28, 2024",
+"Jan. 29, 2023"
+],
+"months": [
+null,
+1,
+12,
+12,
+12
+],
+"rows": [
+{
+"label": "Equity, Class of Treasury Stock [Line Items]",
+"tag": "us-gaap_EquityClassOfTreasuryStockLineItems",
+"vals": [
+null,
+null,
+null,
+null,
+null
+]
+},
+{
+"label": "Additional number of shares authorized to be repurchased",
+"tag": "nvda_StockRepurchaseProgramAdditionalNumberOfSharesAuthorizedForRepurchase",
+"vals": [
+50000.0,
+null,
+null,
+null,
+null
+]
+},
+{
+"label": "Number of share repurchased (in shares)",
+"tag": "us-gaap_StockRepurchasedAndRetiredDuringPeriodShares",
+"vals": [
+null,
+null,
+310.0,
+210.0,
+null
+]
+},
+{
+"label": "Shares repurchased",
+"tag": "us-gaap_StockRepurchasedAndRetiredDuringPeriodValue",
+"vals": [
+null,
+null,
+34015.0,
+9746.0,
+10039.0
+]
+},
+{
+"label": "Stock repurchase program, authorized amount",
+"tag": "srt_StockRepurchaseProgramAuthorizedAmount1",
+"vals": [
+null,
+null,
+38700.0,
+null,
+null
+]
+},
+{
+"label": "Dividends paid",
+"tag": "us-gaap_PaymentsOfDividends",
+"vals": [
+null,
+null,
+834.0,
+395.0,
+398.0
+]
+},
+{
+"label": "Subsequent Event",
+"tag": "us-gaap_SubsequentEventTypeAxis",
+"vals": [
+null,
+null,
+null,
+null,
+null
+]
+},
+{
+"label": "Equity, Class of Treasury Stock [Line Items]",
+"tag": "us-gaap_EquityClassOfTreasuryStockLineItems",
+"vals": [
+null,
+null,
+null,
+null,
+null
+]
+},
+{
+"label": "Number of share repurchased (in shares)",
+"tag": "us-gaap_StockRepurchasedAndRetiredDuringPeriodShares",
+"vals": [
+null,
+29.0,
+null,
+null,
+null
+]
+},
+{
+"label": "Shares repurchased",
+"tag": "us-gaap_StockRepurchasedAndRetiredDuringPeriodValue",
+"vals": [
+null,
+3700.0,
+null,
+null,
+null
+]
+},
+{
+"label": "Additional Paid-in Capital",
+"tag": "us-gaap_StatementEquityComponentsAxis",
+"vals": [
+null,
+null,
+null,
+null,
+null
+]
+},
+{
+"label": "Equity, Class of Treasury Stock [Line Items]",
+"tag": "us-gaap_EquityClassOfTreasuryStockLineItems",
+"vals": [
+null,
+null,
+null,
+null,
+null
+]
+},
+{
+"label": "Shares repurchased",
+"tag": "us-gaap_StockRepurchasedAndRetiredDuringPeriodValue",
+"vals": [
+null,
+null,
+189.0,
+27.0,
+4.0
+]
+},
+{
+"label": "Retained Earnings",
+"tag": "us-gaap_StatementEquityComponentsAxis",
+"vals": [
+null,
+null,
+null,
+null,
+null
+]
+},
+{
+"label": "Equity, Class of Treasury Stock [Line Items]",
+"tag": "us-gaap_EquityClassOfTreasuryStockLineItems",
+"vals": [
+null,
+null,
+null,
+null,
+null
+]
+},
+{
+"label": "Shares repurchased",
+"tag": "us-gaap_StockRepurchasedAndRetiredDuringPeriodValue",
+"vals": [
+null,
+null,
+33825.0,
+9719.0,
+10034.0
+]
+}
+]
+},
+"Employee Retirement Plans (Details)": {
+"file": "R81.htm",
+"short": "Employee Retirement Plans (Details)",
+"unit": "Employee Retirement Plans (Details) - USD ($) $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024",
+"Jan. 29, 2023"
+],
+"months": [
+12,
+12,
+12
+],
+"rows": [
+{
+"label": "Retirement Benefits [Abstract]",
+"tag": "us-gaap_CompensationAndRetirementDisclosureAbstract",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Defined contribution plan costs",
+"tag": "us-gaap_DefinedContributionPlanCostRecognized",
+"vals": [
+314.0,
+255.0,
+227.0
+]
+}
+]
+},
+"Segment Information - Narrative (Details)": {
+"file": "R82.htm",
+"short": "Segment Information - Narrative (Details)",
+"unit": "Segment Information - Narrative (Details) $ in Millions",
+"periods": [
+"Jan. 26, 2025 USD ($) segment",
+"Jan. 28, 2024 USD ($)",
+"Jan. 29, 2023 USD ($)"
+],
+"months": [],
+"rows": [
+{
+"label": "Segment Reporting Information [Line Items]",
+"tag": "us-gaap_SegmentReportingInformationLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Number of reportable segments | segment",
+"tag": "us-gaap_NumberOfReportableSegments",
+"vals": [
+2.0,
+null,
+null
+]
+},
+{
+"label": "Depreciation and amortization",
+"tag": "us-gaap_DepreciationDepletionAndAmortization",
+"vals": [
+1864.0,
+1508.0,
+1544.0
+]
+},
+{
+"label": "Compute & Networking",
+"tag": "us-gaap_StatementBusinessSegmentsAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Segment Reporting Information [Line Items]",
+"tag": "us-gaap_SegmentReportingInformationLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Depreciation and amortization",
+"tag": "us-gaap_DepreciationDepletionAndAmortization",
+"vals": [
+732.0,
+457.0,
+377.0
+]
+},
+{
+"label": "Graphics",
+"tag": "us-gaap_StatementBusinessSegmentsAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Segment Reporting Information [Line Items]",
+"tag": "us-gaap_SegmentReportingInformationLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Depreciation and amortization",
+"tag": "us-gaap_DepreciationDepletionAndAmortization",
+"vals": [
+372.0,
+307.0,
+315.0
+]
+},
+{
+"label": "Revenue | Customer Concentration Risk | Non-US",
+"tag": "us-gaap_ConcentrationRiskByBenchmarkAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Segment Reporting Information [Line Items]",
+"tag": "us-gaap_SegmentReportingInformationLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Concentration risk (as percent)",
+"tag": "us-gaap_ConcentrationRiskPercentage1",
+"vals": [
+53.0,
+56.0,
+69.0
+]
+}
+]
+},
+"Segment Information - Reportable Segments (Details)": {
+"file": "R83.htm",
+"short": "Segment Information - Reportable Segments (Details)",
+"unit": "Segment Information - Reportable Segments (Details) - USD ($) $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024",
+"Jan. 29, 2023"
+],
+"months": [
+12,
+12,
+12
+],
+"rows": [
+{
+"label": "Segment Reporting Information [Line Items]",
+"tag": "us-gaap_SegmentReportingInformationLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Revenue",
+"tag": "us-gaap_Revenues",
+"vals": [
+130497.0,
+60922.0,
+26974.0
+]
+},
+{
+"label": "Operating income (loss)",
+"tag": "us-gaap_OperatingIncomeLoss",
+"vals": [
+81453.0,
+32972.0,
+4224.0
+]
+},
+{
+"label": "All Other",
+"tag": "srt_ConsolidationItemsAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Segment Reporting Information [Line Items]",
+"tag": "us-gaap_SegmentReportingInformationLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Revenue",
+"tag": "us-gaap_Revenues",
+"vals": [
+0.0,
+0.0,
+0.0
+]
+},
+{
+"label": "Operating income (loss)",
+"tag": "us-gaap_OperatingIncomeLoss",
+"vals": [
+-6507.0,
+-4890.0,
+-5411.0
+]
+},
+{
+"label": "Compute & Networking | Operating segments",
+"tag": "us-gaap_StatementBusinessSegmentsAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Segment Reporting Information [Line Items]",
+"tag": "us-gaap_SegmentReportingInformationLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Revenue",
+"tag": "us-gaap_Revenues",
+"vals": [
+116193.0,
+47405.0,
+15068.0
+]
+},
+{
+"label": "Other segment items",
+"tag": "us-gaap_SegmentReportingOtherItemAmount",
+"vals": [
+33318.0,
+15389.0,
+9985.0
+]
+},
+{
+"label": "Operating income (loss)",
+"tag": "us-gaap_OperatingIncomeLoss",
+"vals": [
+82875.0,
+32016.0,
+5083.0
+]
+},
+{
+"label": "Graphics | Operating segments",
+"tag": "us-gaap_StatementBusinessSegmentsAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Segment Reporting Information [Line Items]",
+"tag": "us-gaap_SegmentReportingInformationLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Revenue",
+"tag": "us-gaap_Revenues",
+"vals": [
+14304.0,
+13517.0,
+11906.0
+]
+},
+{
+"label": "Other segment items",
+"tag": "us-gaap_SegmentReportingOtherItemAmount",
+"vals": [
+9219.0,
+7671.0,
+7354.0
+]
+},
+{
+"label": "Operating income (loss)",
+"tag": "us-gaap_OperatingIncomeLoss",
+"vals": [
+5085.0,
+5846.0,
+4552.0
+]
+}
+]
+},
+"Segment Information - Reconciling Items (Details)": {
+"file": "R84.htm",
+"short": "Segment Information - Reconciling Items (Details)",
+"unit": "Segment Information - Reconciling Items (Details) - USD ($) $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024",
+"Jan. 29, 2023"
+],
+"months": [
+12,
+12,
+12
+],
+"rows": [
+{
+"label": "Segment Reporting Information [Line Items]",
+"tag": "us-gaap_SegmentReportingInformationLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Stock-based compensation expense",
+"tag": "us-gaap_ShareBasedCompensation",
+"vals": [
+-4737.0,
+-3549.0,
+-2709.0
+]
+},
+{
+"label": "Operating income",
+"tag": "us-gaap_OperatingIncomeLoss",
+"vals": [
+81453.0,
+32972.0,
+4224.0
+]
+},
+{
+"label": "All Other",
+"tag": "srt_ConsolidationItemsAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Segment Reporting Information [Line Items]",
+"tag": "us-gaap_SegmentReportingInformationLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Stock-based compensation expense",
+"tag": "us-gaap_ShareBasedCompensation",
+"vals": [
+-4737.0,
+-3549.0,
+-2710.0
+]
+},
+{
+"label": "Unallocated cost of revenue and operating expenses",
+"tag": "nvda_UnallocatedCorporateOperatingExpendituresAndOtherExpenses",
+"vals": [
+-1171.0,
+-728.0,
+-595.0
+]
+},
+{
+"label": "Acquisition-related and other costs",
+"tag": "nvda_AcquisitionRelatedAndOtherCosts",
+"vals": [
+-602.0,
+-583.0,
+-674.0
+]
+},
+{
+"label": "Acquisition termination cost",
+"tag": "nvda_AcquisitionTerminationCost",
+"vals": [
+0.0,
+0.0,
+-1353.0
+]
+},
+{
+"label": "Other",
+"tag": "us-gaap_OtherOperatingIncome",
+"vals": [
+3.0,
+-30.0,
+-79.0
+]
+},
+{
+"label": "Operating income",
+"tag": "us-gaap_OperatingIncomeLoss",
+"vals": [
+-6507.0,
+-4890.0,
+-5411.0
+]
+}
+]
+},
+"Segment Information - Revenue and Long-lived Assets by Region (Details)": {
+"file": "R85.htm",
+"short": "Segment Information - Revenue and Long-lived Assets by Region (Details)",
+"unit": "Segment Information - Revenue and Long-lived Assets by Region (Details) - USD ($) $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024",
+"Jan. 29, 2023"
+],
+"months": [
+12,
+12,
+12
+],
+"rows": [
+{
+"label": "Revenues and Long-Lived Assets",
+"tag": "us-gaap_RevenuesFromExternalCustomersAndLongLivedAssetsLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Total revenue",
+"tag": "us-gaap_Revenues",
+"vals": [
+130497.0,
+60922.0,
+26974.0
+]
+},
+{
+"label": "Total long-lived assets",
+"tag": "us-gaap_NoncurrentAssets",
+"vals": [
+6283.0,
+3914.0,
+null
+]
+},
+{
+"label": "United States",
+"tag": "srt_StatementGeographicalAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Revenues and Long-Lived Assets",
+"tag": "us-gaap_RevenuesFromExternalCustomersAndLongLivedAssetsLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Total revenue",
+"tag": "us-gaap_Revenues",
+"vals": [
+61257.0,
+26966.0,
+8292.0
+]
+},
+{
+"label": "Total long-lived assets",
+"tag": "us-gaap_NoncurrentAssets",
+"vals": [
+3626.0,
+2595.0,
+null
+]
+},
+{
+"label": "Singapore",
+"tag": "srt_StatementGeographicalAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Revenues and Long-Lived Assets",
+"tag": "us-gaap_RevenuesFromExternalCustomersAndLongLivedAssetsLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Total revenue",
+"tag": "us-gaap_Revenues",
+"vals": [
+23684.0,
+6831.0,
+2288.0
+]
+},
+{
+"label": "Taiwan",
+"tag": "srt_StatementGeographicalAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Revenues and Long-Lived Assets",
+"tag": "us-gaap_RevenuesFromExternalCustomersAndLongLivedAssetsLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Total revenue",
+"tag": "us-gaap_Revenues",
+"vals": [
+20573.0,
+13405.0,
+6986.0
+]
+},
+{
+"label": "Total long-lived assets",
+"tag": "us-gaap_NoncurrentAssets",
+"vals": [
+1481.0,
+773.0,
+null
+]
+},
+{
+"label": "China (including Hong Kong)",
+"tag": "srt_StatementGeographicalAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Revenues and Long-Lived Assets",
+"tag": "us-gaap_RevenuesFromExternalCustomersAndLongLivedAssetsLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Total revenue",
+"tag": "us-gaap_Revenues",
+"vals": [
+17108.0,
+10306.0,
+5785.0
+]
+},
+{
+"label": "Israel",
+"tag": "srt_StatementGeographicalAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Revenues and Long-Lived Assets",
+"tag": "us-gaap_RevenuesFromExternalCustomersAndLongLivedAssetsLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Total long-lived assets",
+"tag": "us-gaap_NoncurrentAssets",
+"vals": [
+840.0,
+325.0,
+null
+]
+},
+{
+"label": "Other",
+"tag": "srt_StatementGeographicalAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Revenues and Long-Lived Assets",
+"tag": "us-gaap_RevenuesFromExternalCustomersAndLongLivedAssetsLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Total revenue",
+"tag": "us-gaap_Revenues",
+"vals": [
+7875.0,
+3414.0,
+3623.0
+]
+},
+{
+"label": "Total long-lived assets",
+"tag": "us-gaap_NoncurrentAssets",
+"vals": [
+336.0,
+221.0,
+null
+]
+}
+]
+},
+"Segment Information - Revenue and Accounts Receivable by Major Customer (Details)": {
+"file": "R86.htm",
+"short": "Segment Information - Revenue and Accounts Receivable by Major Customer (Details)",
+"unit": "",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024"
+],
+"months": [
+12,
+12
+],
+"rows": [
+{
+"label": "Singapore | Geographic concentration risk",
+"tag": "srt_StatementGeographicalAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Revenue, Major Customer [Line Items]",
+"tag": "us-gaap_EntityWideRevenueMajorCustomerLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Concentration risk (as percent)",
+"tag": "us-gaap_ConcentrationRiskPercentage1",
+"vals": [
+18.0,
+null
+]
+},
+{
+"label": "Singapore | Product concentration risk",
+"tag": "srt_StatementGeographicalAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Revenue, Major Customer [Line Items]",
+"tag": "us-gaap_EntityWideRevenueMajorCustomerLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Concentration risk (as percent)",
+"tag": "us-gaap_ConcentrationRiskPercentage1",
+"vals": [
+2.0,
+null
+]
+},
+{
+"label": "Direct Customer A | Customer Concentration Risk | Compute & Networking",
+"tag": "srt_MajorCustomersAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Revenue, Major Customer [Line Items]",
+"tag": "us-gaap_EntityWideRevenueMajorCustomerLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Concentration risk (as percent)",
+"tag": "us-gaap_ConcentrationRiskPercentage1",
+"vals": [
+12.0,
+null
+]
+},
+{
+"label": "Direct Customer B | Customer Concentration Risk | Compute & Networking",
+"tag": "srt_MajorCustomersAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Revenue, Major Customer [Line Items]",
+"tag": "us-gaap_EntityWideRevenueMajorCustomerLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Concentration risk (as percent)",
+"tag": "us-gaap_ConcentrationRiskPercentage1",
+"vals": [
+11.0,
+13.0
+]
+},
+{
+"label": "Direct Customer C | Customer Concentration Risk | Compute & Networking",
+"tag": "srt_MajorCustomersAxis",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Revenue, Major Customer [Line Items]",
+"tag": "us-gaap_EntityWideRevenueMajorCustomerLineItems",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Concentration risk (as percent)",
+"tag": "us-gaap_ConcentrationRiskPercentage1",
+"vals": [
+11.0,
+null
+]
+}
+]
+},
+"Segment Information - Schedule of Revenue by Market (Details)": {
+"file": "R87.htm",
+"short": "Segment Information - Schedule of Revenue by Market (Details)",
+"unit": "Segment Information - Schedule of Revenue by Market (Details) - USD ($) $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024",
+"Jan. 29, 2023"
+],
+"months": [
+12,
+12,
+12
+],
+"rows": [
+{
+"label": "Revenue from External Customer [Line Items]",
+"tag": "us-gaap_EntityWideInformationRevenueFromExternalCustomerLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Revenue",
+"tag": "us-gaap_Revenues",
+"vals": [
+130497.0,
+60922.0,
+26974.0
+]
+},
+{
+"label": "Data Center",
+"tag": "srt_ProductOrServiceAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Revenue from External Customer [Line Items]",
+"tag": "us-gaap_EntityWideInformationRevenueFromExternalCustomerLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Revenue",
+"tag": "us-gaap_Revenues",
+"vals": [
+115186.0,
+47525.0,
+15005.0
+]
+},
+{
+"label": "Compute",
+"tag": "srt_ProductOrServiceAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Revenue from External Customer [Line Items]",
+"tag": "us-gaap_EntityWideInformationRevenueFromExternalCustomerLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Revenue",
+"tag": "us-gaap_Revenues",
+"vals": [
+102196.0,
+38950.0,
+11317.0
+]
+},
+{
+"label": "Networking",
+"tag": "srt_ProductOrServiceAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Revenue from External Customer [Line Items]",
+"tag": "us-gaap_EntityWideInformationRevenueFromExternalCustomerLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Revenue",
+"tag": "us-gaap_Revenues",
+"vals": [
+12990.0,
+8575.0,
+3688.0
+]
+},
+{
+"label": "Gaming",
+"tag": "srt_ProductOrServiceAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Revenue from External Customer [Line Items]",
+"tag": "us-gaap_EntityWideInformationRevenueFromExternalCustomerLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Revenue",
+"tag": "us-gaap_Revenues",
+"vals": [
+11350.0,
+10447.0,
+9067.0
+]
+},
+{
+"label": "Professional Visualization",
+"tag": "srt_ProductOrServiceAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Revenue from External Customer [Line Items]",
+"tag": "us-gaap_EntityWideInformationRevenueFromExternalCustomerLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Revenue",
+"tag": "us-gaap_Revenues",
+"vals": [
+1878.0,
+1553.0,
+1544.0
+]
+},
+{
+"label": "Automotive",
+"tag": "srt_ProductOrServiceAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Revenue from External Customer [Line Items]",
+"tag": "us-gaap_EntityWideInformationRevenueFromExternalCustomerLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Revenue",
+"tag": "us-gaap_Revenues",
+"vals": [
+1694.0,
+1091.0,
+903.0
+]
+},
+{
+"label": "OEM and Other",
+"tag": "srt_ProductOrServiceAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Revenue from External Customer [Line Items]",
+"tag": "us-gaap_EntityWideInformationRevenueFromExternalCustomerLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Revenue",
+"tag": "us-gaap_Revenues",
+"vals": [
+389.0,
+306.0,
+455.0
+]
+}
+]
+},
+"Leases - Schedule of Future Minimum Lease Payments (Details)": {
+"file": "R88.htm",
+"short": "Leases - Schedule of Future Minimum Lease Payments (Details)",
+"unit": "Leases - Schedule of Future Minimum Lease Payments (Details) - USD ($) $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024"
+],
+"months": [],
+"rows": [
+{
+"label": "Leases [Abstract]",
+"tag": "us-gaap_LeasesAbstract",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "2026",
+"tag": "us-gaap_LesseeOperatingLeaseLiabilityPaymentsDueNextTwelveMonths",
+"vals": [
+354.0,
+null
+]
+},
+{
+"label": "2027",
+"tag": "us-gaap_LesseeOperatingLeaseLiabilityPaymentsDueYearTwo",
+"vals": [
+331.0,
+null
+]
+},
+{
+"label": "2028",
+"tag": "us-gaap_LesseeOperatingLeaseLiabilityPaymentsDueYearThree",
+"vals": [
+337.0,
+null
+]
+},
+{
+"label": "2029",
+"tag": "us-gaap_LesseeOperatingLeaseLiabilityPaymentsDueYearFour",
+"vals": [
+301.0,
+null
+]
+},
+{
+"label": "2030",
+"tag": "us-gaap_LesseeOperatingLeaseLiabilityPaymentsDueYearFive",
+"vals": [
+226.0,
+null
+]
+},
+{
+"label": "2031 and thereafter",
+"tag": "us-gaap_LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive",
+"vals": [
+537.0,
+null
+]
+},
+{
+"label": "Total",
+"tag": "us-gaap_LesseeOperatingLeaseLiabilityPaymentsDue",
+"vals": [
+2086.0,
+null
+]
+},
+{
+"label": "Less imputed interest",
+"tag": "us-gaap_LesseeOperatingLeaseLiabilityUndiscountedExcessAmount",
+"vals": [
+279.0,
+null
+]
+},
+{
+"label": "Present value of net future minimum lease payments",
+"tag": "us-gaap_OperatingLeaseLiability",
+"vals": [
+1807.0,
+null
+]
+},
+{
+"label": "Operating Lease, Liability, Current, Statement of Financial Position [Extensible List]",
+"tag": "us-gaap_OperatingLeaseLiabilityCurrentStatementOfFinancialPositionExtensibleList",
+"vals": [
+null,
+null
+]
+},
+{
+"label": "Less short-term operating lease liabilities",
+"tag": "us-gaap_OperatingLeaseLiabilityCurrent",
+"vals": [
+288.0,
+228.0
+]
+},
+{
+"label": "Long-term operating lease liabilities",
+"tag": "us-gaap_OperatingLeaseLiabilityNoncurrent",
+"vals": [
+1519.0,
+1119.0
+]
+}
+]
+},
+"Leases - Narrative (Details)": {
+"file": "R89.htm",
+"short": "Leases - Narrative (Details)",
+"unit": "Leases - Narrative (Details) - USD ($) $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024",
+"Jan. 29, 2023"
+],
+"months": [
+12,
+12,
+12
+],
+"rows": [
+{
+"label": "Lessee, Lease, Description [Line Items]",
+"tag": "us-gaap_LesseeLeaseDescriptionLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Lease not yet commenced, undiscounted amount",
+"tag": "us-gaap_UnrecordedUnconditionalPurchaseObligationBalanceSheetAmount",
+"vals": [
+7600.0,
+null,
+null
+]
+},
+{
+"label": "Operating lease expense",
+"tag": "us-gaap_OperatingLeaseCost",
+"vals": [
+356.0,
+269.0,
+193.0
+]
+},
+{
+"label": "Weighted average remaining lease term - operating leases",
+"tag": "us-gaap_OperatingLeaseWeightedAverageRemainingLeaseTerm1",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Weighted average discount rate - operating leases",
+"tag": "us-gaap_OperatingLeaseWeightedAverageDiscountRatePercent",
+"vals": [
+4.16,
+3.76,
+null
+]
+},
+{
+"label": "Minimum",
+"tag": "srt_RangeAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Lessee, Lease, Description [Line Items]",
+"tag": "us-gaap_LesseeLeaseDescriptionLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Lease not yet commenced, term of contract",
+"tag": "us-gaap_LesseeOperatingLeaseLeaseNotYetCommencedTermOfContract1",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Maximum",
+"tag": "srt_RangeAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Lessee, Lease, Description [Line Items]",
+"tag": "us-gaap_LesseeLeaseDescriptionLineItems",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Lease not yet commenced, term of contract",
+"tag": "us-gaap_LesseeOperatingLeaseLeaseNotYetCommencedTermOfContract1",
+"vals": [
+null,
+null,
+null
+]
+}
+]
+},
+"Leases - Schedule of other lease information (Details)": {
+"file": "R90.htm",
+"short": "Leases - Schedule of other lease information (Details)",
+"unit": "Leases - Schedule of other lease information (Details) - USD ($) $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024",
+"Jan. 29, 2023"
+],
+"months": [
+12,
+12,
+12
+],
+"rows": [
+{
+"label": "Leases [Abstract]",
+"tag": "us-gaap_LeasesAbstract",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Operating cash flow used for operating leases",
+"tag": "us-gaap_OperatingLeasePayments",
+"vals": [
+313.0,
+286.0,
+184.0
+]
+},
+{
+"label": "Operating lease assets obtained in exchange for lease obligations",
+"tag": "us-gaap_RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability",
+"vals": [
+877.0,
+531.0,
+358.0
+]
+}
+]
+},
+"Schedule II - Valuation and Qualifying Accounts (Details)": {
+"file": "R91.htm",
+"short": "Schedule II - Valuation and Qualifying Accounts (Details)",
+"unit": "Schedule II - Valuation and Qualifying Accounts (Details) - USD ($) $ in Millions",
+"periods": [
+"Jan. 26, 2025",
+"Jan. 28, 2024",
+"Jan. 29, 2023"
+],
+"months": [
+12,
+12,
+12
+],
+"rows": [
+{
+"label": "Allowance for doubtful accounts",
+"tag": "us-gaap_ValuationAllowancesAndReservesTypeAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "SEC Schedule, 12-09, Movement in Valuation Allowances and Reserves [Roll Forward]",
+"tag": "us-gaap_MovementInValuationAllowancesAndReservesRollForward",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Balance at Beginning of Period",
+"tag": "us-gaap_ValuationAllowancesAndReservesBalance",
+"vals": [
+4.0,
+4.0,
+4.0
+]
+},
+{
+"label": "Additions",
+"tag": "us-gaap_ValuationAllowancesAndReservesChargedToCostAndExpense",
+"vals": [
+0.0,
+0.0,
+0.0
+]
+},
+{
+"label": "Deductions",
+"tag": "us-gaap_ValuationAllowancesAndReservesDeductions",
+"vals": [
+0.0,
+0.0,
+0.0
+]
+},
+{
+"label": "Balance at End of Period",
+"tag": "us-gaap_ValuationAllowancesAndReservesBalance",
+"vals": [
+4.0,
+4.0,
+4.0
+]
+},
+{
+"label": "Sales return allowance",
+"tag": "us-gaap_ValuationAllowancesAndReservesTypeAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "SEC Schedule, 12-09, Movement in Valuation Allowances and Reserves [Roll Forward]",
+"tag": "us-gaap_MovementInValuationAllowancesAndReservesRollForward",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Balance at Beginning of Period",
+"tag": "us-gaap_ValuationAllowancesAndReservesBalance",
+"vals": [
+109.0,
+26.0,
+13.0
+]
+},
+{
+"label": "Additions",
+"tag": "us-gaap_ValuationAllowancesAndReservesChargedToCostAndExpense",
+"vals": [
+151.0,
+213.0,
+104.0
+]
+},
+{
+"label": "Deductions",
+"tag": "us-gaap_ValuationAllowancesAndReservesDeductions",
+"vals": [
+-178.0,
+-130.0,
+-91.0
+]
+},
+{
+"label": "Balance at End of Period",
+"tag": "us-gaap_ValuationAllowancesAndReservesBalance",
+"vals": [
+82.0,
+109.0,
+26.0
+]
+},
+{
+"label": "Deferred tax valuation allowance",
+"tag": "us-gaap_ValuationAllowancesAndReservesTypeAxis",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "SEC Schedule, 12-09, Movement in Valuation Allowances and Reserves [Roll Forward]",
+"tag": "us-gaap_MovementInValuationAllowancesAndReservesRollForward",
+"vals": [
+null,
+null,
+null
+]
+},
+{
+"label": "Balance at Beginning of Period",
+"tag": "us-gaap_ValuationAllowancesAndReservesBalance",
+"vals": [
+1552.0,
+1484.0,
+907.0
+]
+},
+{
+"label": "Additions",
+"tag": "us-gaap_ValuationAllowancesAndReservesChargedToCostAndExpense",
+"vals": [
+58.0,
+162.0,
+577.0
+]
+},
+{
+"label": "Deductions",
+"tag": "us-gaap_ValuationAllowancesAndReservesDeductions",
+"vals": [
+0.0,
+-94.0,
+0.0
+]
+},
+{
+"label": "Balance at End of Period",
+"tag": "us-gaap_ValuationAllowancesAndReservesBalance",
+"vals": [
+1610.0,
+1552.0,
+1484.0
+]
+}
+]
+}
+}
+}

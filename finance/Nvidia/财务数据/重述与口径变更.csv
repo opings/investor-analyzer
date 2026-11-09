@@ -1,0 +1,347 @@
+# 同一期间：as-reported(自家年报/招股书) vs 其他申报所印值。**本库一律以 as-reported 为准**，本表仅供追溯 | 单位: 百万美元(EPS 美元/股·股数百万股) | 差异=其他申报−as-reported | L2006A = 2006-11-29 期权授予重述 10-K/A | EPS/股数差异多为拆股基准不同，非重述
+表,科目,期间,as-reported,其他申报所印,其他申报,差异
+BS,预付及其他流动资产 Prepaid expenses and other current assets,1996,0.041,0.104,首版S-1BS,0.063
+BS,其他资产 Other assets,1997,0.162,0.161,首版S-1BS,-0.001
+BS,总资产 Total assets,1997,25.039,25.038,首版S-1BS,-0.001
+BS,总资产 Total assets,1997,25.039,25.038,首版S-1SUMBS,-0.001
+BS,留存收益(累计亏损) Retained earnings (accumulated deficit),1997,-14.889,-13.991,首版S-1BS,0.898
+BS,股东权益合计 Total shareholders' equity,1997,6.897,6.896,首版S-1BS,-0.001
+BS,股东权益合计 Total shareholders' equity,1997,6.897,6.896,首版S-1SUMBS,-0.001
+BS,负债及股东权益合计 Total liabilities and shareholders' equity,1997,25.039,25.038,首版S-1BS,-0.001
+BS,资本公积 Additional paid-in capital,1997,25.079,22.902,首版S-1BS,-2.177
+BS,递延补偿(仅FY1999-2007) Deferred compensation,1997,-3.316,-2.038,首版S-1BS,1.278
+BS,预付及其他流动资产 Prepaid expenses and other current assets,1997,0.278,0.303,首版S-1BS,0.025
+BS,普通股面值 Common stock,2000,0.031,0.062,L2001,0.031
+BS,资本公积 Additional paid-in capital,2000,95.964,95.933,L2001,-0.031
+BS,其他资产 Other assets,2001,38.738,10.909,L2002,-27.829
+BS,存货 Inventories,2001,89.905,90.38,L2002,0.475
+BS,应付账款 Accounts payable,2001,76.535,72.301,L2002,-4.234
+BS,应计及其他流动负债 Accrued and other current liabilities,2001,33.212,32.233,L2002,-0.979
+BS,总资产 Total assets,2001,1016.427,1016.902,L2002,0.475
+BS,普通股面值 Common stock,2001,0.068,0.137,L2002,0.069
+BS,流动负债合计 Total current liabilities,2001,110.335,309.417,L2002,199.082
+BS,流动资产合计 Total current assets,2001,930.409,930.884,L2002,0.475
+BS,留存收益(累计亏损) Retained earnings (accumulated deficit),2001,128.623,130.016,L2002,1.393
+BS,股东权益合计 Total shareholders' equity,2001,405.714,407.107,L2002,1.393
+BS,资本公积 Additional paid-in capital,2001,277.029,276.96,L2002,-0.069
+BS,预付及其他流动资产 Prepaid expenses and other current assets,2001,36.741,8.355,L2002,-28.386
+BS,其他长期负债 Other long-term liabilities,2005,8.358,21.304,L2006A,12.946
+BS,存货 Inventories,2005,315.518,315.786,L2006A,0.268
+BS,总资产 Total assets,2005,1628.536,1663.551,L2006A,35.015
+BS,流动资产合计 Total current assets,2005,1304.926,1306.906,L2006A,1.98
+BS,留存收益(累计亏损) Retained earnings (accumulated deficit),2005,572.514,446.555,L2006A,-125.959
+BS,股东权益合计 Total shareholders' equity,2005,1178.268,1221.091,L2006A,42.823
+BS,负债及股东权益合计 Total liabilities and shareholders' equity,2005,1628.536,1663.551,L2006A,35.015
+BS,资本公积 Additional paid-in capital,2005,636.618,816.051,L2006A,179.433
+BS,递延所得税资产(流动·FY2004-2016) Deferred income taxes (current),2005,3.265,4.977,L2006A,1.712
+BS,递延补偿(仅FY1999-2007) Deferred compensation,2005,-2.926,-13.577,L2006A,-10.651
+BS,其他长期负债 Other long-term liabilities,2006,10.624,20.036,L2006A,9.412
+BS,其他长期负债 Other long-term liabilities,2006,10.624,20.036,L2007,9.412
+BS,存货 Inventories,2006,254.792,254.87,L2006A,0.078
+BS,存货 Inventories,2006,254.792,254.87,L2007,0.078
+BS,总资产 Total assets,2006,1915.299,1954.687,L2006A,39.388
+BS,总资产 Total assets,2006,1915.299,1954.687,L2007,39.388
+BS,普通股面值 Common stock,2006,0.18,0.36,L2007,0.18
+BS,流动资产合计 Total current assets,2006,1548.932,1550.299,L2006A,1.367
+BS,流动资产合计 Total current assets,2006,1548.932,1550.299,L2007,1.367
+BS,留存收益(累计亏损) Retained earnings (accumulated deficit),2006,875.1,747.731,L2006A,-127.369
+BS,留存收益(累计亏损) Retained earnings (accumulated deficit),2006,875.1,747.731,L2007,-127.369
+BS,股东权益合计 Total shareholders' equity,2006,1457.756,1495.992,L2006A,38.236
+BS,股东权益合计 Total shareholders' equity,2006,1457.756,1495.992,L2007,38.236
+BS,负债及股东权益合计 Total liabilities and shareholders' equity,2006,1915.299,1954.687,L2006A,39.388
+BS,负债及股东权益合计 Total liabilities and shareholders' equity,2006,1915.299,1954.687,L2007,39.388
+BS,资本公积 Additional paid-in capital,2006,798.251,965.784,L2006A,167.533
+BS,资本公积 Additional paid-in capital,2006,798.251,965.604,L2007,167.353
+BS,递延所得税资产(流动·FY2004-2016) Deferred income taxes (current),2006,1.393,2.682,L2006A,1.289
+BS,递延所得税资产(流动·FY2004-2016) Deferred income taxes (current),2006,1.393,2.682,L2007,1.289
+BS,递延补偿(仅FY1999-2007) Deferred compensation,2006,-1.676,-3.604,L2006A,-1.928
+BS,递延补偿(仅FY1999-2007) Deferred compensation,2006,-1.676,-3.604,L2007,-1.928
+BS,普通股面值 Common stock,2007,0.388,0.583,L2008,0.195
+BS,资本公积 Additional paid-in capital,2007,1295.65,1295.455,L2008,-0.195
+BS,存货 Inventories,2013,419.686,412.467,R2014,-7.219
+BS,预付及其他流动资产 Prepaid expenses and other current assets,2013,69.701,76.92,R2014,7.219
+BS,有价证券 Marketable securities,2015,4126.685,4126.0,R2016,-0.685
+BS,其他长期负债 Other long-term liabilities,2017,271.0,277.0,R2018,6.0
+BS,其他资产 Other assets,2019,668.0,108.0,R2020,-560.0
+BS,应付账款 Accounts payable,2021,1201.0,1149.0,R2022,-52.0
+BS,应计及其他流动负债 Accrued and other current liabilities,2021,1725.0,1777.0,R2022,52.0
+BS,普通股面值 Common stock,2021,1.0,3.0,R2022,2.0
+BS,资本公积 Additional paid-in capital,2021,8721.0,8719.0,R2022,-2.0
+BS,普通股面值 Common stock,2024,2.0,25.0,R2025,23.0
+BS,资本公积 Additional paid-in capital,2024,13132.0,13109.0,R2025,-23.0
+BS,其他资产 Other assets,2025,6425.0,3038.0,R2026,-3387.0
+CF,公开发行股票所得(仅FY1999-2003) Sale of common stock under public offering,1996,0.051,0.0,L1999,-0.051
+CF,公开发行股票所得(仅FY1999-2003) Sale of common stock under public offering,1997,0.83,0.0,L1999,-0.83
+CF,公开发行股票所得(仅FY1999-2003) Sale of common stock under public offering,1997,0.83,0.0,L2000,-0.83
+CF,递延补偿摊销(仅FY1996-2004) Amortization of deferred compensation,1997,0.961,0.062,首版S-1CF,-0.899
+CF,公开发行股票所得(仅FY1999-2003) Sale of common stock under public offering,1998-01,0.006,0.0,L1999,-0.006
+CF,公开发行股票所得(仅FY1999-2003) Sale of common stock under public offering,1998-01,0.006,0.0,L2000,-0.006
+CF,经营活动现金流净额 Net cash from operating activities,1999,-1.912,-1.867,L2000,0.045
+CF,经营活动现金流净额 Net cash from operating activities,1999,-1.912,-1.867,L2001,0.045
+CF,融资活动现金流净额 Net cash from financing activities,1999,52.084,52.039,L2000,-0.045
+CF,融资活动现金流净额 Net cash from financing activities,1999,52.084,52.039,L2001,-0.045
+CF,净利润 Net income,2000,38.098,40.959,L2002,2.861
+CF,存货变动 Change in inventories,2000,-9.008,-9.843,L2002,-0.835
+CF,应付账款变动 Change in accounts payable,2000,24.18,21.577,L2002,-2.603
+CF,应收账款变动 Change in accounts receivable,2000,-54.043,-56.438,L2001,-2.395
+CF,应收账款变动 Change in accounts receivable,2000,-54.043,-56.438,L2002,-2.395
+CF,净利润 Net income,2001,99.937,98.469,L2002,-1.468
+CF,净利润 Net income,2001,99.937,98.469,L2003,-1.468
+CF,存货变动 Change in inventories,2001,-52.274,-51.914,L2002,0.36
+CF,存货变动 Change in inventories,2001,-52.274,-51.914,L2003,0.36
+CF,应付账款变动 Change in accounts payable,2001,11.125,13.789,L2002,2.664
+CF,应付账款变动 Change in accounts payable,2001,11.125,13.789,L2003,2.664
+CF,折旧及摊销 Depreciation and amortization,2001,15.687,15.724,L2002,0.037
+CF,折旧及摊销 Depreciation and amortization,2001,15.687,15.724,L2003,0.037
+CF,经营活动现金流净额 Net cash from operating activities,2001,67.909,267.909,L2002,200.0
+CF,经营活动现金流净额 Net cash from operating activities,2001,67.909,267.909,L2003,200.0
+CF,融资活动现金流净额 Net cash from financing activities,2001,605.635,405.635,L2002,-200.0
+CF,融资活动现金流净额 Net cash from financing activities,2001,605.635,405.635,L2003,-200.0
+CF,应收账款变动 Change in accounts receivable,2003,-9.07,-20.867,L2005,-11.797
+CF,净利润 Net income,2004,74.419,48.63,L2006A,-25.789
+CF,存货变动 Change in inventories,2004,-85.126,-85.131,L2006A,-0.005
+CF,应收账款变动 Change in accounts receivable,2004,-41.356,-88.222,L2005,-46.866
+CF,应收账款变动 Change in accounts receivable,2004,-41.356,-88.222,L2006,-46.866
+CF,应收账款变动 Change in accounts receivable,2004,-41.356,-88.222,L2006A,-46.866
+CF,折旧及摊销 Depreciation and amortization,2004,82.016,81.944,L2006A,-0.072
+CF,股权激励费用 Stock-based compensation,2004,0.0,0.672,L2005,0.672
+CF,股权激励费用 Stock-based compensation,2004,0.0,0.672,L2006,0.672
+CF,股权激励费用 Stock-based compensation,2004,0.0,39.503,L2006A,39.503
+CF,递延所得税 Deferred income taxes,2004,55.135,43.536,L2006A,-11.599
+CF,净利润 Net income,2005,100.356,88.615,L2006A,-11.741
+CF,净利润 Net income,2005,100.356,88.615,L2007,-11.741
+CF,存货变动 Change in inventories,2005,-81.28,-80.906,L2006A,0.374
+CF,存货变动 Change in inventories,2005,-81.28,-80.906,L2007,0.374
+CF,股权激励费用 Stock-based compensation,2005,1.337,20.822,L2006A,19.485
+CF,股权激励费用 Stock-based compensation,2005,1.337,20.822,L2007,19.485
+CF,递延所得税 Deferred income taxes,2005,12.141,8.694,L2006A,-3.447
+CF,递延所得税 Deferred income taxes,2005,12.141,8.694,L2007,-3.447
+CF,净利润 Net income,2006,302.586,301.176,L2006A,-1.41
+CF,净利润 Net income,2006,302.586,301.176,L2007,-1.41
+CF,净利润 Net income,2006,302.586,301.176,L2008,-1.41
+CF,存货变动 Change in inventories,2006,60.726,60.916,L2006A,0.19
+CF,存货变动 Change in inventories,2006,60.726,60.916,L2007,0.19
+CF,存货变动 Change in inventories,2006,60.726,60.916,L2008,0.19
+CF,股权激励费用 Stock-based compensation,2006,1.096,7.872,L2006A,6.776
+CF,股权激励费用 Stock-based compensation,2006,1.096,7.872,L2007,6.776
+CF,股权激励费用 Stock-based compensation,2006,1.096,7.872,L2008,6.776
+CF,递延所得税 Deferred income taxes,2006,-10.622,-2.691,L2006A,7.931
+CF,递延所得税 Deferred income taxes,2006,-10.622,-2.691,L2007,7.931
+CF,递延所得税 Deferred income taxes,2006,-10.622,-2.691,L2008,7.931
+CF,投资活动现金流净额 Net cash from investing activities,2007,-540.823,-526.393,L2008,14.43
+CF,投资活动现金流净额 Net cash from investing activities,2007,-540.823,-526.393,L2009,14.43
+CF,经营活动现金流净额 Net cash from operating activities,2007,587.111,572.681,L2008,-14.43
+CF,经营活动现金流净额 Net cash from operating activities,2007,587.111,572.681,L2009,-14.43
+CF,资本开支(购置固定资产及无形资产) Purchases of property and equipment and intangible assets,2007,-145.256,-130.826,L2008,14.43
+CF,资本开支(购置固定资产及无形资产) Purchases of property and equipment and intangible assets,2007,-145.256,-130.826,L2009,14.43
+CF,"支付所得税(净额) Cash paid for income taxes, net",2012,58.328,-58.328,R2013,-116.656
+CF,员工股票计划所得 Proceeds related to employee stock plans,2014,70.17,69.0,R2016,-1.17
+CF,购买有价证券 Purchases of marketable securities,2014,-3065.404,-3066.0,R2016,-0.596
+CF,员工股票计划所得 Proceeds related to employee stock plans,2015,153.472,154.0,R2016,0.528
+CF,员工股票计划所得 Proceeds related to employee stock plans,2015,153.472,154.0,R2017,0.528
+CF,员工股票计划所得 Proceeds related to employee stock plans,2016,120.0,186.0,R2018,66.0
+CF,员工股票计划所得 Proceeds related to employee stock plans,2017,-9.0,167.0,R2018,176.0
+CF,员工股票计划所得 Proceeds related to employee stock plans,2017,-9.0,167.0,R2019,176.0
+CF,应付账款变动 Change in accounts payable,2021,363.0,312.0,R2022,-51.0
+CF,应付账款变动 Change in accounts payable,2021,363.0,312.0,R2023,-51.0
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,1996,-0.27,-0.14,L2001,0.13
+IS,基本股数(百万股·as-reported) Basic shares,1996,11.383,22.766,L2001,11.383
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,1996,-0.27,-0.14,L2001,0.13
+IS,摊薄股数(百万股·as-reported) Diluted shares,1996,11.383,22.766,L2001,11.383
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,1997,-0.28,-0.14,L2001,0.14
+IS,基本股数(百万股·as-reported) Basic shares,1997,12.677,25.354,L2001,12.677
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,1997,-0.28,-0.14,L2001,0.14
+IS,摊薄股数(百万股·as-reported) Diluted shares,1997,12.677,25.354,L2001,12.677
+IS,毛利 Gross profit,1997,7.827,7.845,首版S-1IS,0.018
+IS,毛利 Gross profit,1997,7.827,7.845,首版S-1SUM,0.018
+IS,研发费用 Research and development,1997,7.103,6.632,首版S-1IS,-0.471
+IS,研发费用 Research and development,1997,7.103,6.632,首版S-1SUM,-0.471
+IS,营业成本 Cost of revenue,1997,21.244,21.226,首版S-1IS,-0.018
+IS,营业成本 Cost of revenue,1997,21.244,21.226,首版S-1SUM,-0.018
+IS,营业费用合计 Total operating expenses,1997,11.286,10.405,首版S-1IS,-0.881
+IS,营业费用合计 Total operating expenses,1997,11.286,10.405,首版S-1SUM,-0.881
+IS,"销售、一般及管理费用 Sales, general and administrative",1997,4.183,3.773,首版S-1IS,-0.41
+IS,"销售、一般及管理费用 Sales, general and administrative",1997,4.183,3.773,首版S-1SUM,-0.41
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,1998-01,0.1,0.05,L2001,-0.05
+IS,基本股数(百万股·as-reported) Basic shares,1998-01,14.141,28.282,L2001,14.141
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,1998-01,0.05,0.03,L2001,-0.02
+IS,摊薄股数(百万股·as-reported) Diluted shares,1998-01,26.1,52.2,L2001,26.1
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,1999,0.28,0.14,L2001,-0.14
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,1999,0.28,0.14,L2001,-0.14
+IS,基本股数(百万股·as-reported) Basic shares,1999,14.565,29.13,L2001,14.565
+IS,基本股数(百万股·as-reported) Basic shares,1999,14.565,29.13,L2001,14.565
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,1999,0.15,0.08,L2001,-0.07
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,1999,0.15,0.08,L2001,-0.07
+IS,摊薄股数(百万股·as-reported) Diluted shares,1999,27.393,54.786,L2001,27.393
+IS,摊薄股数(百万股·as-reported) Diluted shares,1999,27.393,54.786,L2001,27.393
+IS,净利润 Net income,2000,38.098,40.959,L2002,2.861
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,2000,1.28,0.64,L2001,-0.64
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,2000,1.28,0.64,L2001,-0.64
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,2000,1.28,0.34,L2002,-0.94
+IS,基本股数(百万股·as-reported) Basic shares,2000,29.872,59.744,L2001,29.872
+IS,基本股数(百万股·as-reported) Basic shares,2000,29.872,59.744,L2001,29.872
+IS,基本股数(百万股·as-reported) Basic shares,2000,29.872,119.488,L2002,89.616
+IS,所得税 Income tax expense (benefit),2000,18.068,19.412,L2002,1.344
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,2000,1.06,0.53,L2001,-0.53
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,2000,1.06,0.53,L2001,-0.53
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,2000,1.06,0.28,L2002,-0.78
+IS,摊薄股数(百万股·as-reported) Diluted shares,2000,36.098,72.196,L2001,36.098
+IS,摊薄股数(百万股·as-reported) Diluted shares,2000,36.098,72.196,L2001,36.098
+IS,摊薄股数(百万股·as-reported) Diluted shares,2000,36.098,144.392,L2002,108.294
+IS,毛利 Gross profit,2000,138.93,141.843,L2002,2.913
+IS,研发费用 Research and development,2000,47.439,46.914,L2002,-0.525
+IS,税前利润 Income before income tax,2000,56.166,60.371,L2002,4.205
+IS,营业利润 Operating income,2000,54.412,58.617,L2002,4.205
+IS,营业成本 Cost of revenue,2000,235.575,232.662,L2002,-2.913
+IS,营业费用合计 Total operating expenses,2000,84.518,83.226,L2002,-1.292
+IS,"销售、一般及管理费用 Sales, general and administrative",2000,37.079,36.312,L2002,-0.767
+IS,净利润 Net income,2001,99.937,98.469,L2002,-1.468
+IS,净利润 Net income,2001,99.937,98.469,L2003,-1.468
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,2001,1.53,0.75,L2002,-0.78
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,2001,1.53,0.75,L2003,-0.78
+IS,基本股数(百万股·as-reported) Basic shares,2001,65.499,130.998,L2002,65.499
+IS,基本股数(百万股·as-reported) Basic shares,2001,65.499,130.998,L2003,65.499
+IS,所得税 Income tax expense (benefit),2001,47.027,46.339,L2002,-0.688
+IS,所得税 Income tax expense (benefit),2001,47.027,46.339,L2003,-0.688
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,2001,1.25,0.62,L2002,-0.63
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,2001,1.25,0.62,L2003,-0.63
+IS,摊薄股数(百万股·as-reported) Diluted shares,2001,79.647,159.294,L2002,79.647
+IS,摊薄股数(百万股·as-reported) Diluted shares,2001,79.647,159.294,L2003,79.647
+IS,毛利 Gross profit,2001,275.166,272.879,L2002,-2.287
+IS,毛利 Gross profit,2001,275.166,272.879,L2003,-2.287
+IS,研发费用 Research and development,2001,86.438,86.047,L2002,-0.391
+IS,研发费用 Research and development,2001,86.438,86.047,L2003,-0.391
+IS,税前利润 Income before income tax,2001,146.964,144.808,L2002,-2.156
+IS,税前利润 Income before income tax,2001,146.964,144.808,L2003,-2.156
+IS,营业利润 Operating income,2001,130.291,128.135,L2002,-2.156
+IS,营业利润 Operating income,2001,130.291,128.135,L2003,-2.156
+IS,营业成本 Cost of revenue,2001,460.098,462.385,L2002,2.287
+IS,营业成本 Cost of revenue,2001,460.098,462.385,L2003,2.287
+IS,营业费用合计 Total operating expenses,2001,144.875,144.744,L2002,-0.131
+IS,营业费用合计 Total operating expenses,2001,144.875,144.744,L2003,-0.131
+IS,"销售、一般及管理费用 Sales, general and administrative",2001,58.437,58.697,L2002,0.26
+IS,"销售、一般及管理费用 Sales, general and administrative",2001,58.437,58.697,L2003,0.26
+IS,"其他营业外净额 Other, net",2002,-0.691,-0.523,L2004,0.168
+IS,利息收入 Interest income,2002,27.881,27.713,L2004,-0.168
+IS,商誉及购入无形资产摊销(仅FY2002) Amortization of goodwill and purchased intangible assets,2002,12.684,10.093,L2003,-2.591
+IS,商誉及购入无形资产摊销(仅FY2002) Amortization of goodwill and purchased intangible assets,2002,12.684,10.093,L2004,-2.591
+IS,研发费用 Research and development,2002,153.92,154.752,L2003,0.832
+IS,研发费用 Research and development,2002,153.92,154.752,L2004,0.832
+IS,"销售、一般及管理费用 Sales, general and administrative",2002,97.185,98.944,L2003,1.759
+IS,"销售、一般及管理费用 Sales, general and administrative",2002,97.185,98.944,L2004,1.759
+IS,净利润 Net income,2004,74.419,48.63,L2006A,-25.789
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,2004,0.46,0.3,L2006A,-0.16
+IS,所得税 Income tax expense (benefit),2004,12.254,-2.326,L2006A,-14.58
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,2004,0.43,0.28,L2006A,-0.15
+IS,摊薄股数(百万股·as-reported) Diluted shares,2004,172.707,172.054,L2006A,-0.653
+IS,毛利 Gross profit,2004,528.878,525.261,L2006A,-3.617
+IS,研发费用 Research and development,2004,269.972,292.162,L2006A,22.19
+IS,税前利润 Income before income tax,2004,86.673,46.304,L2006A,-40.369
+IS,营业利润 Operating income,2004,90.157,49.788,L2006A,-40.369
+IS,营业成本 Cost of revenue,2004,1294.067,1297.684,L2006A,3.617
+IS,营业费用合计 Total operating expenses,2004,438.721,475.473,L2006A,36.752
+IS,"销售、一般及管理费用 Sales, general and administrative",2004,165.249,179.811,L2006A,14.562
+IS,净利润 Net income,2005,100.356,88.615,L2006A,-11.741
+IS,净利润 Net income,2005,100.356,88.615,L2007,-11.741
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,2005,0.6,0.53,L2006A,-0.07
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,2005,0.6,0.27,L2007,-0.33
+IS,基本股数(百万股·as-reported) Basic shares,2005,166.062,332.124,L2007,166.062
+IS,所得税 Income tax expense (benefit),2005,25.089,18.413,L2006A,-6.676
+IS,所得税 Income tax expense (benefit),2005,25.089,18.413,L2007,-6.676
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,2005,0.57,0.5,L2006A,-0.07
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,2005,0.57,0.25,L2007,-0.32
+IS,摊薄股数(百万股·as-reported) Diluted shares,2005,176.558,175.812,L2006A,-0.746
+IS,摊薄股数(百万股·as-reported) Diluted shares,2005,176.558,351.624,L2007,175.066
+IS,毛利 Gross profit,2005,649.486,647.555,L2006A,-1.931
+IS,毛利 Gross profit,2005,649.486,647.555,L2007,-1.931
+IS,研发费用 Research and development,2005,335.104,348.22,L2006A,13.116
+IS,研发费用 Research and development,2005,335.104,348.22,L2007,13.116
+IS,税前利润 Income before income tax,2005,125.445,107.028,L2006A,-18.417
+IS,税前利润 Income before income tax,2005,125.445,107.028,L2007,-18.417
+IS,营业利润 Operating income,2005,113.593,95.176,L2006A,-18.417
+IS,营业利润 Operating income,2005,113.593,95.176,L2007,-18.417
+IS,营业成本 Cost of revenue,2005,1360.547,1362.478,L2006A,1.931
+IS,营业成本 Cost of revenue,2005,1360.547,1362.478,L2007,1.931
+IS,营业费用合计 Total operating expenses,2005,535.893,552.379,L2006A,16.486
+IS,营业费用合计 Total operating expenses,2005,535.893,552.379,L2007,16.486
+IS,"销售、一般及管理费用 Sales, general and administrative",2005,200.789,204.159,L2006A,3.37
+IS,"销售、一般及管理费用 Sales, general and administrative",2005,200.789,204.159,L2007,3.37
+IS,净利润 Net income,2006,302.586,301.176,L2006A,-1.41
+IS,净利润 Net income,2006,302.586,301.176,L2007,-1.41
+IS,净利润 Net income,2006,302.586,301.176,L2008,-1.41
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,2006,1.78,1.77,L2006A,-0.01
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,2006,1.78,0.89,L2007,-0.89
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,2006,1.78,0.59,L2008,-1.19
+IS,基本股数(百万股·as-reported) Basic shares,2006,169.69,339.38,L2007,169.69
+IS,基本股数(百万股·as-reported) Basic shares,2006,169.69,509.07,L2008,339.38
+IS,所得税 Income tax expense (benefit),2006,57.635,55.612,L2006A,-2.023
+IS,所得税 Income tax expense (benefit),2006,57.635,55.612,L2007,-2.023
+IS,所得税 Income tax expense (benefit),2006,57.635,55.612,L2008,-2.023
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,2006,1.65,0.82,L2007,-0.83
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,2006,1.65,0.55,L2008,-1.1
+IS,摊薄股数(百万股·as-reported) Diluted shares,2006,182.951,182.852,L2006A,-0.099
+IS,摊薄股数(百万股·as-reported) Diluted shares,2006,182.951,365.704,L2007,182.753
+IS,摊薄股数(百万股·as-reported) Diluted shares,2006,182.951,548.556,L2008,365.605
+IS,毛利 Gross profit,2006,910.795,910.033,L2006A,-0.762
+IS,毛利 Gross profit,2006,910.795,910.033,L2007,-0.762
+IS,毛利 Gross profit,2006,910.795,910.033,L2008,-0.762
+IS,研发费用 Research and development,2006,352.099,357.123,L2006A,5.024
+IS,研发费用 Research and development,2006,352.099,357.123,L2007,5.024
+IS,研发费用 Research and development,2006,352.099,357.123,L2008,5.024
+IS,税前利润 Income before income tax,2006,360.221,356.788,L2006A,-3.433
+IS,税前利润 Income before income tax,2006,360.221,356.788,L2007,-3.433
+IS,税前利润 Income before income tax,2006,360.221,356.788,L2008,-3.433
+IS,营业利润 Operating income,2006,340.097,336.664,L2006A,-3.433
+IS,营业利润 Operating income,2006,340.097,336.664,L2007,-3.433
+IS,营业利润 Operating income,2006,340.097,336.664,L2008,-3.433
+IS,营业成本 Cost of revenue,2006,1464.892,1465.654,L2006A,0.762
+IS,营业成本 Cost of revenue,2006,1464.892,1465.654,L2007,0.762
+IS,营业成本 Cost of revenue,2006,1464.892,1465.654,L2008,0.762
+IS,营业费用合计 Total operating expenses,2006,570.698,573.369,L2006A,2.671
+IS,营业费用合计 Total operating expenses,2006,570.698,573.369,L2007,2.671
+IS,营业费用合计 Total operating expenses,2006,570.698,573.369,L2008,2.671
+IS,"销售、一般及管理费用 Sales, general and administrative",2006,204.441,202.088,L2006A,-2.353
+IS,"销售、一般及管理费用 Sales, general and administrative",2006,204.441,202.088,L2007,-2.353
+IS,"销售、一般及管理费用 Sales, general and administrative",2006,204.441,202.088,L2008,-2.353
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,2007,1.27,0.85,L2008,-0.42
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,2007,1.27,0.85,L2009,-0.42
+IS,基本股数(百万股·as-reported) Basic shares,2007,352.404,528.606,L2008,176.202
+IS,基本股数(百万股·as-reported) Basic shares,2007,352.404,528.606,L2009,176.202
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,2007,1.15,0.76,L2008,-0.39
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,2007,1.15,0.76,L2009,-0.39
+IS,摊薄股数(百万股·as-reported) Diluted shares,2007,391.504,587.256,L2008,195.752
+IS,摊薄股数(百万股·as-reported) Diluted shares,2007,391.504,587.256,L2009,195.752
+IS,基本股数(百万股·as-reported) Basic shares,2014,587.893,588.0,R2016,0.107
+IS,摊薄股数(百万股·as-reported) Diluted shares,2014,594.517,595.0,R2016,0.483
+IS,基本股数(百万股·as-reported) Basic shares,2015,552.319,552.0,R2016,-0.319
+IS,基本股数(百万股·as-reported) Basic shares,2015,552.319,552.0,R2017,-0.319
+IS,摊薄股数(百万股·as-reported) Diluted shares,2015,563.068,563.0,R2016,-0.068
+IS,摊薄股数(百万股·as-reported) Diluted shares,2015,563.068,563.0,R2017,-0.068
+IS,营业成本 Cost of revenue,2015,2082.03,2083.0,R2016,0.97
+IS,营业成本 Cost of revenue,2015,2082.03,2083.0,R2017,0.97
+IS,"销售、一般及管理费用 Sales, general and administrative",2015,480.763,480.0,R2016,-0.763
+IS,"销售、一般及管理费用 Sales, general and administrative",2015,480.763,480.0,R2017,-0.763
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,2020,4.59,1.15,R2022,-3.44
+IS,基本股数(百万股·as-reported) Basic shares,2020,609.0,2439.0,R2022,1830.0
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,2020,4.52,1.13,R2022,-3.39
+IS,摊薄股数(百万股·as-reported) Diluted shares,2020,618.0,2472.0,R2022,1854.0
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,2021,7.02,1.76,R2022,-5.26
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,2021,7.02,1.76,R2023,-5.26
+IS,基本股数(百万股·as-reported) Basic shares,2021,617.0,2467.0,R2022,1850.0
+IS,基本股数(百万股·as-reported) Basic shares,2021,617.0,2467.0,R2023,1850.0
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,2021,6.9,1.73,R2022,-5.17
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,2021,6.9,1.73,R2023,-5.17
+IS,摊薄股数(百万股·as-reported) Diluted shares,2021,628.0,2510.0,R2022,1882.0
+IS,摊薄股数(百万股·as-reported) Diluted shares,2021,628.0,2510.0,R2023,1882.0
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,2023,1.76,0.18,R2025,-1.58
+IS,基本股数(百万股·as-reported) Basic shares,2023,2487.0,24870.0,R2025,22383.0
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,2023,1.74,0.17,R2025,-1.57
+IS,摊薄股数(百万股·as-reported) Diluted shares,2023,2507.0,25070.0,R2025,22563.0
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,2024,12.05,1.21,R2025,-10.84
+IS,基本EPS(as-reported·拆股基准随年变) Basic EPS,2024,12.05,1.21,R2026,-10.84
+IS,基本股数(百万股·as-reported) Basic shares,2024,2469.0,24690.0,R2025,22221.0
+IS,基本股数(百万股·as-reported) Basic shares,2024,2469.0,24690.0,R2026,22221.0
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,2024,11.93,1.19,R2025,-10.74
+IS,摊薄EPS(as-reported·拆股基准随年变) Diluted EPS,2024,11.93,1.19,R2026,-10.74
+IS,摊薄股数(百万股·as-reported) Diluted shares,2024,2494.0,24940.0,R2025,22446.0
+IS,摊薄股数(百万股·as-reported) Diluted shares,2024,2494.0,24940.0,R2026,22446.0

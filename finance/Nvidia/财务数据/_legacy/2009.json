@@ -1,0 +1,1236 @@
+{
+ "key": "2009",
+ "statements": {
+  "IS": {
+   "scale": 0.001,
+   "years": [
+    "2009",
+    "2008",
+    "2007"
+   ],
+   "rows": [
+    {
+     "label": "Year Ended",
+     "vals": [
+      null,
+      null,
+      null
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Revenue",
+     "vals": [
+      3424859.0,
+      4097860.0,
+      3068771.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Cost of revenue",
+     "vals": [
+      2250590.0,
+      2228580.0,
+      1768322.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Gross profit",
+     "vals": [
+      1174269.0,
+      1869280.0,
+      1300449.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Operating expenses:",
+     "vals": [
+      null,
+      null,
+      null
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Research and development",
+     "vals": [
+      855879.0,
+      691637.0,
+      553467.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Sales, general and administrative",
+     "vals": [
+      362222.0,
+      341297.0,
+      293530.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Restructuring charges and other",
+     "vals": [
+      26868.0,
+      null,
+      null
+     ],
+     "dash": [
+      false,
+      true,
+      true
+     ]
+    },
+    {
+     "label": "Total operating expenses",
+     "vals": [
+      1244969.0,
+      1032934.0,
+      846997.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Income (loss) from operations",
+     "vals": [
+      -70700.0,
+      836346.0,
+      453452.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Interest income",
+     "vals": [
+      42859.0,
+      64289.0,
+      41820.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Interest expense",
+     "vals": [
+      -406.0,
+      -54.0,
+      -21.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Other income (expense), net",
+     "vals": [
+      -14707.0,
+      760.0,
+      -771.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Income (loss) before income tax",
+     "vals": [
+      -42954.0,
+      901341.0,
+      494480.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Income tax expense (benefit)",
+     "vals": [
+      -12913.0,
+      103696.0,
+      46350.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Income (loss) before change in accounting principle",
+     "vals": [
+      -30041.0,
+      797645.0,
+      448130.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Cumulative effect of change in accounting principle, net of tax",
+     "vals": [
+      null,
+      null,
+      704.0
+     ],
+     "dash": [
+      true,
+      true,
+      false
+     ]
+    },
+    {
+     "label": "Net income (loss)",
+     "vals": [
+      -30041.0,
+      797645.0,
+      448834.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Basic income (loss) per share:",
+     "vals": [
+      null,
+      null,
+      null
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Income (loss) before change in accounting principle",
+     "vals": [
+      -0.05,
+      1.45,
+      0.85
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Cumulative effect of change in accounting principle",
+     "vals": [
+      null,
+      null,
+      null
+     ],
+     "dash": [
+      true,
+      true,
+      true
+     ]
+    },
+    {
+     "label": "Basic net income (loss) per share",
+     "vals": [
+      -0.05,
+      1.45,
+      0.85
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Shares used in basic per share computation (1)",
+     "vals": [
+      548126.0,
+      550108.0,
+      528606.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Diluted income (loss) per share:",
+     "vals": [
+      null,
+      null,
+      null
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Income (loss) before change in accounting principle",
+     "vals": [
+      -0.05,
+      1.31,
+      0.76
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Cumulative effect of change in accounting principle",
+     "vals": [
+      null,
+      null,
+      null
+     ],
+     "dash": [
+      true,
+      true,
+      true
+     ]
+    },
+    {
+     "label": "Diluted net income (loss) per share",
+     "vals": [
+      -0.05,
+      1.31,
+      0.76
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Shares used in diluted per share computation (1)",
+     "vals": [
+      548126.0,
+      606732.0,
+      587256.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    }
+   ],
+   "src": "htm"
+  },
+  "BS": {
+   "scale": 0.001,
+   "years": [
+    "2009",
+    "2008"
+   ],
+   "rows": [
+    {
+     "label": "ASSETS",
+     "vals": [
+      null,
+      null
+     ],
+     "dash": [
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Current assets :",
+     "vals": [
+      null,
+      null
+     ],
+     "dash": [
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Cash and cash equivalents",
+     "vals": [
+      417688.0,
+      726969.0
+     ],
+     "dash": [
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Marketable securities",
+     "vals": [
+      837702.0,
+      1082509.0
+     ],
+     "dash": [
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Accounts receivable, less allowances of $18,399 and $19,693 in 2009 and 2008, respectively",
+     "vals": [
+      318435.0,
+      666494.0
+     ],
+     "dash": [
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Inventories",
+     "vals": [
+      537834.0,
+      358521.0
+     ],
+     "dash": [
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Prepaid expenses and other",
+     "vals": [
+      39794.0,
+      43068.0
+     ],
+     "dash": [
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Deferred income taxes",
+     "vals": [
+      16505.0,
+      11268.0
+     ],
+     "dash": [
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Total current assets",
+     "vals": [
+      2167958.0,
+      2888829.0
+     ],
+     "dash": [
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Property and equipment, net",
+     "vals": [
+      625798.0,
+      359808.0
+     ],
+     "dash": [
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Goodwill",
+     "vals": [
+      369844.0,
+      354057.0
+     ],
+     "dash": [
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Intangible assets, net",
+     "vals": [
+      147101.0,
+      106926.0
+     ],
+     "dash": [
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Deposits and other assets",
+     "vals": [
+      40026.0,
+      38051.0
+     ],
+     "dash": [
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Total assets",
+     "vals": [
+      3350727.0,
+      3747671.0
+     ],
+     "dash": [
+      false,
+      false
+     ]
+    },
+    {
+     "label": "LIABILITIES AND STOCKHOLDERS’ EQUITY",
+     "vals": [
+      null,
+      null
+     ],
+     "dash": [
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Current liabilities:",
+     "vals": [
+      null,
+      null
+     ],
+     "dash": [
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Accounts payable",
+     "vals": [
+      218864.0,
+      492099.0
+     ],
+     "dash": [
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Accrued liabilities and other",
+     "vals": [
+      559727.0,
+      475062.0
+     ],
+     "dash": [
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Total current liabilities",
+     "vals": [
+      778591.0,
+      967161.0
+     ],
+     "dash": [
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Other long-term liabilities",
+     "vals": [
+      151850.0,
+      162598.0
+     ],
+     "dash": [
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Capital lease obligations, long term",
+     "vals": [
+      25634.0,
+      null
+     ],
+     "dash": [
+      false,
+      true
+     ]
+    },
+    {
+     "label": "Commitments and contingencies - see Note 12",
+     "vals": [
+      null,
+      null
+     ],
+     "dash": [
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Stockholders’ equity:",
+     "vals": [
+      null,
+      null
+     ],
+     "dash": [
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Preferred stock, $.001 par value; 2,000,000 shares authorized; none issued",
+     "vals": [
+      null,
+      null
+     ],
+     "dash": [
+      true,
+      true
+     ]
+    },
+    {
+     "label": "Common stock, $.001 par value; 2,000,000,000 shares authorized; 629,386,584 shares issued and 538,460,766 outstanding in 2009; and 618,701,483 shares issued and 557,102,588 outstanding in 2008, respectively",
+     "vals": [
+      629.0,
+      619.0
+     ],
+     "dash": [
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Additional paid-in capital",
+     "vals": [
+      1889257.0,
+      1654681.0
+     ],
+     "dash": [
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Treasury stock, at cost (90,925,818 shares in 2009 and 61,598,895 shares in 2008)",
+     "vals": [
+      -1463268.0,
+      -1039632.0
+     ],
+     "dash": [
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Accumulated other comprehensive income",
+     "vals": [
+      3865.0,
+      8034.0
+     ],
+     "dash": [
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Retained earnings",
+     "vals": [
+      1964169.0,
+      1994210.0
+     ],
+     "dash": [
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Total stockholders' equity",
+     "vals": [
+      2394652.0,
+      2617912.0
+     ],
+     "dash": [
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Total liabilities and stockholders' equity",
+     "vals": [
+      3350727.0,
+      3747671.0
+     ],
+     "dash": [
+      false,
+      false
+     ]
+    }
+   ],
+   "src": "htm"
+  },
+  "CF": {
+   "scale": 0.001,
+   "years": [
+    "2009",
+    "2008",
+    "2007"
+   ],
+   "rows": [
+    {
+     "label": "Year ended",
+     "vals": [
+      null,
+      null,
+      null
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Cash flows from operating activities:",
+     "vals": [
+      null,
+      null,
+      null
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Net income (loss)",
+     "vals": [
+      -30041.0,
+      797645.0,
+      448834.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Adjustments to reconcile net income (loss) to net cash provided by operating activities:",
+     "vals": [
+      null,
+      null,
+      null
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Stock-based compensation expense related to employees",
+     "vals": [
+      162706.0,
+      133365.0,
+      116735.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Depreciation and amortization",
+     "vals": [
+      185023.0,
+      133192.0,
+      107562.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Impairment charge on investments",
+     "vals": [
+      9891.0,
+      null,
+      null
+     ],
+     "dash": [
+      false,
+      true,
+      true
+     ]
+    },
+    {
+     "label": "Deferred income taxes",
+     "vals": [
+      -23277.0,
+      89516.0,
+      41766.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Payments under patent licensing arrangement",
+     "vals": [
+      -21797.0,
+      -57255.0,
+      -14430.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "In-process research and development expenses",
+     "vals": [
+      null,
+      4000.0,
+      14002.0
+     ],
+     "dash": [
+      true,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Tax benefit (deficit) from stock-based compensation",
+     "vals": [
+      -2946.0,
+      220.0,
+      -8482.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Cumulative effect of change in accounting principle",
+     "vals": [
+      null,
+      null,
+      -704.0
+     ],
+     "dash": [
+      true,
+      true,
+      false
+     ]
+    },
+    {
+     "label": "Other",
+     "vals": [
+      3134.0,
+      -436.0,
+      268.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Changes in operating assets and liabilities, net of effects of acquisitions:",
+     "vals": [
+      null,
+      null,
+      null
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Accounts receivable",
+     "vals": [
+      348873.0,
+      -146055.0,
+      -175261.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Inventories",
+     "vals": [
+      -177295.0,
+      -3690.0,
+      -91395.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Prepaid expenses and other current assets",
+     "vals": [
+      21528.0,
+      -6293.0,
+      -5294.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Deposits and other assets",
+     "vals": [
+      -2108.0,
+      -13914.0,
+      7314.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Accounts payable",
+     "vals": [
+      -283207.0,
+      216875.0,
+      38613.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Accrued liabilities and other long-term liabilities",
+     "vals": [
+      58876.0,
+      123026.0,
+      93153.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Net cash provided by operating activities",
+     "vals": [
+      249360.0,
+      1270196.0,
+      572681.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Cash flows from investing activities:",
+     "vals": [
+      null,
+      null,
+      null
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Purchases of marketable securities",
+     "vals": [
+      -999953.0,
+      -1250248.0,
+      -220834.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Proceeds from sales and maturities of marketable securities",
+     "vals": [
+      1226646.0,
+      753839.0,
+      227067.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Purchases of property and equipment and intangible assets",
+     "vals": [
+      -407670.0,
+      -187745.0,
+      -130826.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Acquisition of businesses, net of cash and cash equivalents",
+     "vals": [
+      -27948.0,
+      -75542.0,
+      -401800.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Other",
+     "vals": [
+      -442.0,
+      -1622.0,
+      null
+     ],
+     "dash": [
+      false,
+      false,
+      true
+     ]
+    },
+    {
+     "label": "Net cash used in investing activities",
+     "vals": [
+      -209367.0,
+      -761318.0,
+      -526393.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Cash flows from financing activities:",
+     "vals": [
+      null,
+      null,
+      null
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Payments for stock repurchases",
+     "vals": [
+      -423636.0,
+      -552512.0,
+      -274978.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Proceeds from issuance of common stock under employee stock plans",
+     "vals": [
+      73547.0,
+      225969.0,
+      221160.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Other",
+     "vals": [
+      815.0,
+      220.0,
+      188.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Net cash used in financing activities",
+     "vals": [
+      -349274.0,
+      -326323.0,
+      -53630.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Change in cash and cash equivalents",
+     "vals": [
+      -309281.0,
+      182555.0,
+      -7342.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Cash and cash equivalents at beginning of period",
+     "vals": [
+      726969.0,
+      544414.0,
+      551756.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Cash and cash equivalents at end of period",
+     "vals": [
+      417688.0,
+      726969.0,
+      544414.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Supplemental disclosures of cash flow information:",
+     "vals": [
+      null,
+      null,
+      null
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    },
+    {
+     "label": "Cash paid for income taxes, net",
+     "vals": [
+      7620.0,
+      2328.0,
+      26628.0
+     ],
+     "dash": [
+      false,
+      false,
+      false
+     ]
+    }
+   ],
+   "src": "htm"
+  }
+ }
+}
