@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""10-K / 10-Q **正文以句子给出**的关键数 → `附注自陈数.csv`（每行带原文锚句，可回溯）。
+"""10-K / 10-Q / 8-K **正文以句子给出**的关键数 → `附注自陈数.csv`（每行带原文锚句，可回溯）。
 
 做法：把申报 HTML 转纯文本，用「锚句正则」定位句子并从句中**解析**数字（不手抄）；任一锚句找不到 → 不写出。
 这些数不在三表里、也多不在 XBRL Detail 表里，但对判断生意至关重要（对华出口管制减记、回购授权、Groq 交易、
-股权投资与承诺、为 OpenAI 租约提供的担保上限、AI 云伙伴云服务承诺……）。
+股权投资与承诺、为 OpenAI 租约提供的担保上限、AI 云伙伴云服务承诺、季末供应承诺、10-Q 之后的 8-K 收购……）。
 """
 import csv
 import html
@@ -47,6 +47,22 @@ ITEMS = [
      r"with our obligation capped at \$\s?([\d.]+) billion in the aggregate", "B"),
     ("AI 云伙伴新模式下的云服务协议承诺(通常 6 年)", "2026-07-26", "2027-Q2.htm",
      r"Our commitments, which are typically six years in duration, totaled \$\s?([\d.]+) billion as of July 26, 2026", "B"),
+    # 10-Q 只以句子给出季度间对比（年报承诺表在 采购与云服务承诺.csv，口径为 10-K 年末）
+    ("供应与产能承诺(10-Q 自陈·季末)", "2026-04-26", "2027-Q2.htm",
+     r"supply and capacity commitments from \$\s?([\d.]+) billion last quarter to \$\s?[\d.]+ billion as of July 26, 2026", "B"),
+    ("供应与产能承诺(10-Q 自陈·季末)", "2026-07-26", "2027-Q2.htm",
+     r"supply and capacity commitments from \$\s?[\d.]+ billion last quarter to \$\s?([\d.]+) billion as of July 26, 2026", "B"),
+    ("投资承诺合计(须满足或有条件)", "2026-04-26", "2027-Q1.htm",
+     r"Investment commitments were \$\s?([\d.]+) billion as of April 26, 2026", "B"),
+    ("AI 云伙伴土地·电力·机房担保(最大敞口)", "2026-07-26", "2027-Q2.htm",
+     r"Land, power, and shell guarantees for AI clouds \$\s?([\d.]+)", "B"),
+    ("担保最大总敞口(含 SB Energy 担保)", "2026-07-26", "2027-Q2.htm",
+     r"SB Energy Corp\. guarantees \$?\s?[\d.]+ Total \$\s?([\d.]+)", "B"),
+    # 10-Q 之后的期后事件：8-K 原文（Item 8.01）
+    ("Hugging Face 收购·向其股东支付的收购价(可调整)", "2026-09-02 签约", "8-K-20260902.htm",
+     r"approximately \$\s?([\d.]+) billion purchase price payable to Hugging Face stockholders", "B"),
+    ("Hugging Face 收购·加入员工的股权留任计划上限", "2026-09-02 签约", "8-K-20260902.htm",
+     r"equity-based retention program of up to approximately \$\s?([\d.]+) billion", "B"),
     ("长期供应协议预付款(营运资本变动主因)", "FY2022", "2022.htm",
      r"Changes in working capital were primarily driven by prepayments of \$\s?([\d.]+) billion for long-term supply agreements", "B"),
     ("总部在美国以外客户的收入占比(%)", "FY2026", "2026.htm",
@@ -86,7 +102,7 @@ def main():
             print("   ", b)
         return 1
     with open(os.path.join(HERE, "附注自陈数.csv"), "w", newline="") as f:
-        f.write("# 10-K/10-Q 正文以句子给出的关键数(脚本按锚句从原文解析·非手抄) | 源文件在 report/Nvidia/ | 「原文锚句」列为英文原句，"
+        f.write("# 10-K/10-Q/8-K 正文以句子给出的关键数(脚本按锚句从原文解析·非手抄) | 源文件在 report/Nvidia/ | 「原文锚句」列为英文原句，"
                 "中文释义见「科目」列 | 十亿美元一位小数的原文 → 换算为百万美元\n")
         w = csv.writer(f)
         w.writerow(["科目", "期间/时点", "值", "单位", "来源文件", "原文锚句"])
