@@ -96,6 +96,35 @@ def main():
                                                "FY2027H1(6个月·截至2026-07-26)"))
         if None in (q1, q2, h1) or abs(q1 + q2 - h1) > 1.0 + 1e-6:
             bad.append(("跨申报", f"Q1+Q2=H1 {n}", (q1, q2, h1)))
+    # 派生（口径当场声明）：净现金两口径。上市权益证券多为战略持股、大部分处于锁定期（附注自陈数.csv），不是可动用现金；
+    # 年度 财务比率.csv 的「净现金」按年报「Marketable securities」一行算——FY2026 10-K 把债券与上市权益证券合在这一行，
+    # 10-Q 起才拆成两行，故另给「剔上市权益证券」口径。
+    # 闸（跨文件·只读上游 资产负债表.csv，不读下游 财务比率.csv）：10-Q 对比列 2026-01-25 的「有价债券 + 上市权益证券」
+    # 必须等于 FY2026 10-K 的「Marketable securities」一行，现金同理——拆分前后同一时点必须对得上。
+    BS_COLS = ("2026-07-26 时点", "2026-01-25 时点(同表对比)")
+    cash_n, debt_sec_n = "现金及现金等价物 Cash and cash equivalents", "有价债券(FY2027起季报单列) Marketable debt securities"
+    eq_n, std_n, ltd_n = ("上市权益证券(FY2027起季报单列) Marketable equity securities", "短期债务(FY2021起) Short-term debt",
+                          "长期债务 Long-term debt")
+    derived = {}
+    for c in BS_COLS:
+        parts = [g("BS", n, c) for n in (cash_n, debt_sec_n, eq_n, std_n, ltd_n)]
+        if None in parts:
+            bad.append((c, "派生净现金缺科目", parts))
+            continue
+        cash, dsec, eq, std, ltd = parts
+        derived[("含", c)] = cash + dsec + eq - std - ltd
+        derived[("剔", c)] = cash + dsec - std - ltd
+    with open(os.path.join(HERE, "资产负债表.csv"), encoding="utf-8") as fr:
+        lines = [l for l in fr if not l.startswith("#")]
+    hdr = next(csv.reader([lines[0]]))
+    annual = {r[0]: r for r in csv.reader(lines[1:]) if r}
+    ix = hdr.index("FY2026")
+    a_cash = float(annual["现金及现金等价物 Cash and cash equivalents"][ix])
+    a_mkt = float(annual["有价证券 Marketable securities"][ix])
+    q_cash, q_dsec, q_eq = (g("BS", n, BS_COLS[1]) for n in (cash_n, debt_sec_n, eq_n))
+    if None in (q_cash, q_dsec, q_eq) or abs(q_cash - a_cash) > 1e-6 or abs(q_dsec + q_eq - a_mkt) > 1e-6:
+        bad.append(("跨文件", "10-Q 对比列(现金 / 债券+权益) = FY2026 10-K(现金 / Marketable securities)",
+                    ((q_cash, q_dsec, q_eq), (a_cash, a_mkt))))
     if bad:
         print(f"❌ 中期勾稽不通过 {len(bad)} 条（不写出）：")
         for b in bad:
@@ -107,7 +136,8 @@ def main():
             cols.append(col)
     with open(os.path.join(HERE, "中期财务-FY2027.csv"), "w", newline="") as f:
         f.write("# 单位: 百万美元(EPS 美元/股) | 本财年两份 10-Q(FY2027 Q1 截至 2026-04-26 / Q2 截至 2026-07-26)的 R 文件 | **独立成表·不并入年度序列** | "
-                "对比列取同一份 10-Q 的上年同期列(两端同源) | 闸: 利润链 / 负债+权益=总资产 / 三段=净变动 / Q1+Q2=H1(跨申报)\n")
+                "对比列取同一份 10-Q 的上年同期列(两端同源) | 闸: 利润链 / 负债+权益=总资产 / 三段=净变动 / Q1+Q2=H1(跨申报) | "
+                "末两行「派生」= 净现金两口径(上市权益证券多为锁定期战略持股，见 附注自陈数.csv)\n")
         w = csv.writer(f)
         w.writerow(["表", "科目"] + cols)
         for (stmt, n), vv in data.items():
@@ -115,7 +145,10 @@ def main():
                 continue
             w.writerow([{"IS": "利润表", "BS": "资产负债表", "CF": "现金流量表"}[stmt], n] +
                        [B.fmt(vv.get(c), B.PS if "EPS" in n else B.M) for c in cols])
-    print(f"✅ 写出 中期财务-FY2027.csv（{len(data)} 行）")
+        for key, label in (("含", "派生·净现金(含上市权益证券) = 现金+有价债券+上市权益证券−短期债务−长期债务"),
+                           ("剔", "派生·净现金(剔上市权益证券) = 现金+有价债券−短期债务−长期债务")):
+            w.writerow(["派生", label] + [B.fmt(derived[(key, c)], B.M) if c in BS_COLS else "" for c in cols])
+    print(f"✅ 写出 中期财务-FY2027.csv（{len(data)} 行 + 派生 2 行；10-Q 对比列债券+权益 = FY2026 10-K Marketable securities）")
     return 0
 
 
