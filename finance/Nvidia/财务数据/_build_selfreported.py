@@ -1,9 +1,13 @@
 #!/usr/bin/env python3
-"""10-K / 10-Q / 8-K **正文以句子给出**的关键数 → `附注自陈数.csv`（每行带原文锚句，可回溯）。
+"""10-K / 10-Q / 8-K / 公司新闻稿 / 对手方申报 **正文以句子给出**的关键数 → `附注自陈数.csv`（每行带原文锚句，可回溯）。
 
 做法：把申报 HTML 转纯文本，用「锚句正则」定位句子并从句中**解析**数字（不手抄）；任一锚句找不到 → 不写出。
 这些数不在三表里、也多不在 XBRL Detail 表里，但对判断生意至关重要（对华出口管制减记、回购授权、Groq 交易、
 股权投资与承诺、为 OpenAI 租约提供的担保上限、AI 云伙伴云服务承诺、季末供应承诺、10-Q 之后的 8-K 收购……）。
+
+公司新闻稿一类（nvidianews.nvidia.com）是**没有对应 8-K** 的资本配置与生态投资：2026-09-28 的 1,500 亿美元
+回购授权、对 Meta / 联发科 / SB Energy 等的投资、对供应商的产能预留预付款——它们不在 EDGAR 的 8-K 里，
+10-Q 也只给合计数、不逐家披露，漏读一手新闻稿就看不到（2026-11-09 补扫时发现，上一版事实编年一条都没收）。
 """
 import csv
 import html
@@ -63,8 +67,53 @@ ITEMS = [
      r"approximately \$\s?([\d.]+) billion purchase price payable to Hugging Face stockholders", "B"),
     ("Hugging Face 收购·加入员工的股权留任计划上限", "2026-09-02 签约", "8-K-20260902.htm",
      r"equity-based retention program of up to approximately \$\s?([\d.]+) billion", "B"),
+    # 公司新闻稿（无对应 8-K）：资本配置
+    ("新增回购授权(2026-09-28 董事会)", "2026-09-28", "新闻稿-20260928-回购授权.htm",
+     r"authorized an additional \$\s?([\d.]+) billion under the company", "B"),
+    ("剩余回购授权(含 2026-09-28 新增·公司预计 FY2028 前执行完)", "2026-09-28", "新闻稿-20260928-回购授权.htm",
+     r"increasing the total remaining amount authorized to \$\s?([\d.]+) billion", "B"),
+    # 公司新闻稿（无对应 8-K）：对部署 NVIDIA 基础设施一方 / 供应链伙伴的投资（10-Q 只给合计，不逐家披露）
+    ("CoreWeave A 类普通股投资(每股 87.20 美元)", "2026-01-26 公告", "新闻稿-20260126-CoreWeave.htm",
+     r"NVIDIA has invested \$\s?([\d.]+) billion in CoreWeave", "B"),
+    ("Nebius 投资", "2026-03-11 公告", "新闻稿-20260311-Nebius.htm",
+     r"NVIDIA will invest \$\s?([\d.]+) billion in Nebius", "B"),
+    ("IREN 认股权对应投资上限(5 年·3,000 万股·行权价 70 美元)", "2026-05-07 公告", "新闻稿-20260507-IREN.htm",
+     r"right to invest up to \$\s?([\d.]+) billion", "B"),
+    ("NAVER 计划投资(以 NAVER 落实至少 90 亿美元项目融资为前提)", "2026-07-24 公告", "新闻稿-20260724-NAVER.htm",
+     r"NVIDIA plans to invest \$\s?([\d.]+) billion into NAVER", "B"),
+    ("SB Energy 股权投资(OpenAI 为园区客户·NVIDIA 另为其租约担保)", "2026-08-17 公告", "新闻稿-20260817-SBEnergy.htm",
+     r"NVIDIA will invest \$\s?([\d.]+) billion in SB Energy", "B"),
+    ("联发科可转债投资", "2026-08-31 公告", "新闻稿-20260831-MediaTek.htm",
+     r"NVIDIA has also invested \$\s?([\d.]+) billion in convertible bonds issued by MediaTek", "B"),
+    ("Meta 股票发行·NVIDIA 认购额(公司新闻稿)", "2026-10-26 公告", "新闻稿-20261026-Meta.htm",
+     r"NVIDIA will invest \$\s?([\d.]+) billion in Meta", "B"),
+    # 对手方申报：Meta 定价招股书（424B5）——NVIDIA 是三家「基石投资者」之一，意向不具约束力
+    ("Meta 股票发行·NVIDIA/AMD/博通三家基石投资者合计认购意向上限(非约束)", "2026-10-28 定价", "对手方-Meta-424B5-20261028.htm",
+     r"NVIDIA Corporation, Advanced Micro Devices, Inc\., and Broadcom Inc\. \(collectively, the .Cornerstone Investors.\) have, "
+     r"severally and not jointly, indicated an interest in purchasing up to an aggregate of \$\s?([\d.]+) billion of shares of Class A common stock", "B"),
+    # 公司新闻稿（无对应 8-K）：对供应商的产能预留预付款
+    ("KYEC 产能预留预付款(美国测试产能)", "2026-10-21 公告", "新闻稿-20261021-供应链产能.htm",
+     r"\$\s?([\d.]+) billion capacity reservation advance to KYEC will support new U\.S\. testing facilities", "B"),
+    # 上市权益证券的锁定期（净现金口径用：锁定期内不能出售的战略持股不是可动用现金·见 中期财务-FY2027.csv 派生两行）
+    ("上市权益证券中处于短期锁定期的部分", "2026-01-25", "2026.htm",
+     r"The balance as of January 25, 2026 includes \$\s?([\d.]+) billion of investments which are subject to short-term lock-up restrictions", "B"),
+    ("上市权益证券中处于短期锁定期的部分", "2026-07-26", "2027-Q2.htm",
+     r"\$\s?42,783 \$\s?4,957 \(1\) Included \$\s?([\d.]+) billion of investments that are subject to short-term lock-up restrictions", "B"),
+    ("锁定至 2027-12 的上市权益证券长期部分(列在「其他资产」)", "2026-01-25", "2026.htm",
+     r"subject to lock-up restrictions through December 2027 of \$\s?([\d.]+) billion as of January 25, 2026", "B"),
+    ("锁定至 2027-12 的上市权益证券长期部分(列在「其他资产」)", "2026-07-26", "2027-Q2.htm",
+     r"subject to lock-up restrictions through December 2027 of \$\s?([\d.]+) billion as of July 26, 2026", "B"),
+    # 公司新闻稿：算力融资平台（谅解备忘录·第三方资本目标，非 NVIDIA 出资额）
+    # 新闻稿首句前无句号（前面是页头导航与脚本），按句号回溯会把整页页头截进锚句 → 第 6 项 "exact"：锚句 = 正则完整命中的那一句
+    ("算力融资平台·拟调动第三方资本目标(谅解备忘录·非 NVIDIA 出资)", "2026-08-10 公告", "新闻稿-20260810-算力融资平台.htm",
+     r"NVIDIA today announced strategic partnerships to establish independent compute financing platforms with Apollo, "
+     r"BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to mobilize over \$\s?([\d.]+) billion of third-party capital "
+     r"for the buildout of AI infrastructure over time\.", "B", "exact"),
     ("长期供应协议预付款(营运资本变动主因)", "FY2022", "2022.htm",
      r"Changes in working capital were primarily driven by prepayments of \$\s?([\d.]+) billion for long-term supply agreements", "B"),
+    # SEC 意见函往来（CORRESP·2025-07-31 公司回函）：服务收入占比（财报关注要点.md 诚信记录引用）
+    ("许可与其他服务收入占合并营收(%)·公司回复 SEC 意见函", "FY2025", "CORRESP-20250731.htm",
+     r"the fiscal year 2025 revenue related to licensing and other services was approximately (\d+) ?% of our consolidated revenue", "P"),
     ("总部在美国以外客户的收入占比(%)", "FY2026", "2026.htm",
      r"Revenue from sales to customers headquartered outside of the United States accounted for (\d+) ?%", "P"),
     ("台湾总部客户的数据中心收入中归属美欧终端客户的估计占比(%)", "FY2026", "2026.htm",
@@ -84,7 +133,7 @@ def plain(path):
 
 def main():
     cache, rows, bad = {}, [], []
-    for name, per, fn, pat, u in ITEMS:
+    for name, per, fn, pat, u, *opt in ITEMS:
         if fn not in cache:
             cache[fn] = plain(os.path.join(REPORT, fn))
         m = re.search(pat, cache[fn])
@@ -92,9 +141,12 @@ def main():
             bad.append((name, per, fn))
             continue
         v = float(m.group(1).replace(",", "")) * MULT[u]
-        lo = cache[fn].rfind(". ", 0, m.start()) + 2
-        hi = cache[fn].find(". ", m.end())
-        sent = cache[fn][lo:hi + 1].strip()
+        if opt and opt[0] == "exact":
+            sent = m.group(0).strip()
+        else:
+            lo = cache[fn].rfind(". ", 0, m.start()) + 2
+            hi = cache[fn].find(". ", m.end())
+            sent = cache[fn][lo:hi + 1].strip()
         rows.append((name, per, v, {"B": "百万美元", "M": "百万美元", "N": "百万股", "P": "%"}[u], fn, sent))
     if bad:
         print(f"❌ 锚句找不到 {len(bad)} 条（不写出）：")
@@ -102,8 +154,9 @@ def main():
             print("   ", b)
         return 1
     with open(os.path.join(HERE, "附注自陈数.csv"), "w", newline="") as f:
-        f.write("# 10-K/10-Q/8-K 正文以句子给出的关键数(脚本按锚句从原文解析·非手抄) | 源文件在 report/Nvidia/ | 「原文锚句」列为英文原句，"
-                "中文释义见「科目」列 | 十亿美元一位小数的原文 → 换算为百万美元\n")
+        f.write("# 10-K/10-Q/8-K/公司新闻稿/对手方申报 正文以句子给出的关键数(脚本按锚句从原文解析·非手抄) | 源文件在 report/Nvidia/ | "
+                "「原文锚句」列为英文原句，中文释义见「科目」列 | 十亿美元一位小数的原文 → 换算为百万美元 | "
+                "新闻稿为公告口径(宣布/计划投资)，是否已交割以后续 10-Q/10-K 为准\n")
         w = csv.writer(f)
         w.writerow(["科目", "期间/时点", "值", "单位", "来源文件", "原文锚句"])
         for r in rows:
