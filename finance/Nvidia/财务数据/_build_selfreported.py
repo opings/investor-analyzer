@@ -116,10 +116,46 @@ ITEMS = [
      r"the fiscal year 2025 revenue related to licensing and other services was approximately (\d+) ?% of our consolidated revenue", "P"),
     ("总部在美国以外客户的收入占比(%)", "FY2026", "2026.htm",
      r"Revenue from sales to customers headquartered outside of the United States accounted for (\d+) ?%", "P"),
+    # 季中时点的应收集中度（中期表只有 2026-07-26 / 2026-01-25 两个时点列，04-26 只在 Q1 10-Q 正文）
+    ("直接客户应收集中度·第一大(%·另两家见锚句)", "2026-04-26", "2027-Q1.htm",
+     r"Three direct customers accounted for (\d+) ?%, \d+ ?%, and \d+ ?% of our accounts receivable balance as of April 26, 2026", "P"),
     ("台湾总部客户的数据中心收入中归属美欧终端客户的估计占比(%)", "FY2026", "2026.htm",
      r"we estimate (\d+) ?% of Data Center revenue from Taiwan-headquartered customers was attributed to end customers based in the United States and Europe", "P"),
+    # FY2027 Q2 10-Q 承诺表（Note 10·十亿美元·表格行无句号 → exact：锚句 = 该表行）——2026-11-12 补：上一版只取了供应产能与股权投资承诺，
+    # 漏了自用 / 为第三方的数据中心租约、云服务协议、资本开支与两张表的合计
+    ("多年期云服务协议承诺(自用研发·未来付款合计)", "2026-07-26", "2027-Q2.htm",
+     r"Cloud service agreements(?:\s+\$?\s?(?:—|[\d,]+)){6}\s+\$?\s?([\d,]+)", "B", "exact"),
+    ("自用数据中心租约·尚未起租(未来付款合计·主要用于芯片与系统研发测试)", "2026-07-26", "2027-Q2.htm",
+     r"Data center leases not commenced(?:\s+\$?\s?(?:—|[\d,]+)){6}\s+\$?\s?([\d,]+)", "B", "exact"),
+    ("资本开支承诺(未来付款合计)", "2026-07-26", "2027-Q2.htm",
+     r"Equity investments(?:\s+\$?\s?(?:—|[\d,]+)){6}\s+\$?\s?[\d,]+ Capital expenditures(?:\s+\$?\s?(?:—|[\d,]+)){6}\s+\$?\s?([\d,]+)",
+     "B", "exact"),
+    ("承诺合计(供应产能 + 云服务 + 自用租约 + 股权投资 + 资本开支)", "2026-07-26", "2027-Q2.htm",
+     r"Capital expenditures(?:\s+\$?\s?(?:—|[\d,]+)){6}\s+\$?\s?[\d,]+ Total(?:\s+\$?\s?(?:—|[\d,]+)){6}\s+\$?\s?([\d,]+)", "B", "exact"),
+    ("为第三方签订、预计转让的数据中心租约·尚未起租(约 15 年·预计 FY2028–2029 起租)", "2026-07-26", "2027-Q2.htm",
+     r"Data center leases not commenced for third party(?:\s+\$?\s?(?:—|[\d,]+)){6}\s+\$?\s?([\d,]+)", "B", "exact"),
+    ("附加承诺合计(AI 云伙伴协议 + 为第三方的数据中心租约)", "2026-07-26", "2027-Q2.htm",
+     r"Data center leases not commenced for third party(?:\s+\$?\s?(?:—|[\d,]+)){6}\s+\$?\s?[\d,]+ Total(?:\s+\$?\s?(?:—|[\d,]+)){6}\s+\$?\s?([\d,]+)",
+     "B", "exact"),
+    # 业绩 8-K EX-99.2 CFO 书面评论（公司自陈 DSO；10-Q 不印 DSO）
+    ("应收账款周转天数 DSO(公司自陈·CFO 评论)", "2026-01-25", "8-K-20260520-EX99.2-CFO评论.htm",
+     r"days sales outstanding \(DSO\), down from (\d+) days sequentially", "D"),
+    ("应收账款周转天数 DSO(公司自陈·CFO 评论)", "2026-04-26", "8-K-20260520-EX99.2-CFO评论.htm",
+     r"Accounts receivable was \$\s?[\d.]+ billion with (\d+) days sales outstanding", "D"),
+    ("应收账款周转天数 DSO(公司自陈·CFO 评论)", "2026-07-26", "8-K-20260826-EX99.2-CFO评论.htm",
+     r"Accounts receivable was \$\s?[\d.]+ billion with (\d+) days sales outstanding", "D"),
+    ("当季发往中国的数据中心 Hopper 产品占数据中心营收(%·上限·原文 less than)", "FY2027 Q2", "8-K-20260826-EX99.2-CFO评论.htm",
+     r"Shipments of Data Center Hopper products to China during the quarter were less than (\d+) ?% of Data Center revenue", "P"),
+    # 2026 DEF 14A 实益持股表（截至 2026-03-23·表格行无句号 → exact）——创始人 2026-11-11 辞任后其持股成为股东结构要素
+    ("黄仁勋实益持股(含其信托与关联实体)", "2026-03-23", "DEF14A-20260512.htm", r"NEOs: Jen-Hsun Huang ([\d,]+) \(1\)", "SH", "exact"),
+    ("黄仁勋实益持股占比(%)", "2026-03-23", "DEF14A-20260512.htm", r"NEOs: Jen-Hsun Huang [\d,]+ \(1\) — [\d,]+ ([\d.]+) ?%", "P", "exact"),
+    ("董事及高管合计实益持股占比(%·14 人)", "2026-03-23", "DEF14A-20260512.htm",
+     r"Directors and executive officers as a group \(14 persons\) [\d,]+ \(13\) [\d,]+ [\d,]+ ([\d.]+) ?%", "P", "exact"),
+    ("5% 以上股东·BlackRock 持股占比(%)", "2026-03-23", "DEF14A-20260512.htm", r"BlackRock, Inc\. [\d,]+ \(14\) — [\d,]+ ([\d.]+) ?%", "P", "exact"),
+    ("5% 以上股东·Vanguard 持股占比(%)", "2026-03-23", "DEF14A-20260512.htm",
+     r"Vanguard Capital Management [\d,]+ \(15\) — [\d,]+ ([\d.]+) ?%", "P", "exact"),
 ]
-MULT = {"B": 1000.0, "M": 1.0, "N": 1.0, "P": 1.0}
+MULT = {"B": 1000.0, "M": 1.0, "N": 1.0, "P": 1.0, "D": 1.0, "SH": 1e-6}
 
 
 def plain(path):
@@ -147,9 +183,24 @@ def main():
             lo = cache[fn].rfind(". ", 0, m.start()) + 2
             hi = cache[fn].find(". ", m.end())
             sent = cache[fn][lo:hi + 1].strip()
-        rows.append((name, per, v, {"B": "百万美元", "M": "百万美元", "N": "百万股", "P": "%"}[u], fn, sent))
+        rows.append((name, per, v, {"B": "百万美元", "M": "百万美元", "N": "百万股", "P": "%", "D": "天", "SH": "百万股"}[u], fn, sent))
+    # 算术闸（2026-11-12）：Q2 10-Q 两张承诺表「明细和 = 表印合计」——各行分别由不同锚句取数，合计行独立取，三方对上才写出
+    if not bad:
+        kv = {(r[0], r[1]): r[2] for r in rows}
+        t = "2026-07-26"
+        parts = [kv.get((n, t)) for n in ("供应与产能承诺(10-Q 自陈·季末)", "多年期云服务协议承诺(自用研发·未来付款合计)",
+                                          "自用数据中心租约·尚未起租(未来付款合计·主要用于芯片与系统研发测试)", "股权投资承诺",
+                                          "资本开支承诺(未来付款合计)")]
+        tot = kv.get(("承诺合计(供应产能 + 云服务 + 自用租约 + 股权投资 + 资本开支)", t))
+        if None in parts or tot is None or abs(sum(parts) - tot) > 1e-6:
+            bad.append(("算术闸", "承诺表明细和 = 合计", (parts, tot)))
+        parts2 = [kv.get((n, t)) for n in ("AI 云伙伴新模式下的云服务协议承诺(通常 6 年)",
+                                           "为第三方签订、预计转让的数据中心租约·尚未起租(约 15 年·预计 FY2028–2029 起租)")]
+        tot2 = kv.get(("附加承诺合计(AI 云伙伴协议 + 为第三方的数据中心租约)", t))
+        if None in parts2 or tot2 is None or abs(sum(parts2) - tot2) > 1e-6:
+            bad.append(("算术闸", "附加承诺表明细和 = 合计", (parts2, tot2)))
     if bad:
-        print(f"❌ 锚句找不到 {len(bad)} 条（不写出）：")
+        print(f"❌ 锚句找不到或算术闸不过 {len(bad)} 条（不写出）：")
         for b in bad:
             print("   ", b)
         return 1
