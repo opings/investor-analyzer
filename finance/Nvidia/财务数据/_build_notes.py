@@ -540,7 +540,9 @@ def main():
     write("市场平台营收.csv",
           "# 单位: 百万美元 | 公司自陈「按市场平台」口径(ASC 606 收入分解) | as-reported 取自家 10-K 当年列；"
           "「【后续10-K比较列】」行 = 自家 10-K 未单列、由后一份 10-K 比较列补出的重分类口径 | Data Center 自 FY2024 起拆 Compute/Networking | "
-          "FY2020 及以前「OEM & IP」含英特尔专利授权费，FY2021 起改「OEM and Other」 | 闸: 各平台和=营收",
+          "FY2020 及以前「OEM & IP」含英特尔专利授权费，FY2021 起改「OEM and Other」 | 闸: 各平台和=营收 | "
+          "🔴 **FY2027 Q1 起公司改用新口径**(数据中心 = Hyperscale + ACIE「AI 云·工业·企业」；边缘计算 = PC / 游戏机 / 工作站 / "
+          "AI-RAN 基站 / 机器人 / 汽车)，本表为旧口径、与新口径不可拼接；新口径季度数见 中期财务-FY2027.csv，FY2026 全年新口径值待 FY2027 10-K 比较列(⏳)",
           mkt, mcols)
     write("地区营收.csv",
           "# 单位: 百万美元 | 🔴 **两种口径不可拼接**：【开票地口径】= FY2012-2025 各年 10-K as-reported(客户开票地·billing location)；"
