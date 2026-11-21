@@ -17,6 +17,9 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPORT = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(HERE))), "report", "Nvidia")
+# FY2027 Q3 业绩 8-K 三份附件（10-Q 未同日提交，见 _build_q3_8k_fy2027.py）
+F1, F3, FS = "8-K-20261117-EX99.1-新闻稿.htm", "8-K-20261117-EX99.2-CFO评论.htm", "8-K-20261117-EX99.3-补充财务信息.htm"
+R7 = r"(?:\s+\$?\s?(?:—|[\d,]+)){6}\s+\$?\s?([\d,]+)"   # 承诺表行 = 6 个年度列 + 合计列（捕获合计）
 
 # (科目, 期间/时点, 文件, 锚句正则——第一个捕获组为数, 单位)
 ITEMS = [
@@ -154,6 +157,69 @@ ITEMS = [
     ("5% 以上股东·BlackRock 持股占比(%)", "2026-03-23", "DEF14A-20260512.htm", r"BlackRock, Inc\. [\d,]+ \(14\) — [\d,]+ ([\d.]+) ?%", "P", "exact"),
     ("5% 以上股东·Vanguard 持股占比(%)", "2026-03-23", "DEF14A-20260512.htm",
      r"Vanguard Capital Management [\d,]+ \(15\) — [\d,]+ ([\d.]+) ?%", "P", "exact"),
+    # ── FY2027 Q3 业绩 8-K（2026-11-17·10-Q 未同日提交）：EX-99.2 CFO 评论 —— 2026-11-21 补 ──
+    ("应收账款周转天数 DSO(公司自陈·CFO 评论)", "2026-10-25", F3,
+     r"Accounts receivable was \$\s?[\d.]+ billion with (\d+) days sales outstanding", "D"),
+    ("当季发往中国的数据中心 Hopper 产品出货额(CFO 评论·Q2 为「低于数据中心营收 1%」)", "FY2027 Q3", F3,
+     r"Shipments of Data Center Hopper products to China during the quarter were \$\s?([\d.]+) billion", "B"),
+    ("权益证券净收益(当季)", "FY2027 Q3", F3, r"Net gains from equity securities for the third quarter were \$\s?([\d.]+) billion", "B"),
+    ("其中·上市权益证券净收益(当季)", "FY2027 Q3", F3,
+     r"comprised of net gains of \$\s?([\d.]+) billion from our publicly held equity securities", "B"),
+    ("其中·非上市权益证券净损失(当季·含减值)", "FY2027 Q3", F3,
+     r"a net loss of \$\s?([\d.]+) billion from our non-marketable equity securities", "B"),
+    ("其中·非上市权益证券减值(当季)", "FY2027 Q3", F3, r"from our non-marketable equity securities, including impairment of \$\s?([\d.]+) billion", "B"),
+    ("供应与产能承诺(CFO 自陈·季末)", "2026-07-26", F3,
+     r"Our supply commitments increased from \$\s?([\d.]+) billion last quarter to \$\s?[\d.]+ billion", "B"),
+    ("供应与产能承诺(CFO 自陈·季末)", "2026-10-25", F3,
+     r"Our supply commitments increased from \$\s?[\d.]+ billion last quarter to \$\s?([\d.]+) billion, primarily related to the multi-year procurement of memory supply", "B"),
+    ("云服务协议 + 数据中心租约承诺合计(CFO 自陈·季末)", "2026-07-26", F3,
+     r"data center lease commitments together of \$\s?[\d.]+ billion, an increase from last quarter.s \$\s?([\d.]+) billion", "B"),
+    ("云服务协议 + 数据中心租约承诺合计(CFO 自陈·季末)", "2026-10-25", F3,
+     r"data center lease commitments together of \$\s?([\d.]+) billion", "B"),
+    # CFO 承诺表（十亿美元·表格行无句号 → exact）：Q3 起「为第三方签订的数据中心租约」不再单列，与自用租约合为一行
+    ("供应与产能承诺(CFO 承诺表行)", "2026-10-25", F3, r"Supply and capacity" + R7, "B", "exact"),
+    ("多年期云服务协议承诺(自用研发·未来付款合计)", "2026-10-25", F3, r"Cloud service agreements" + R7, "B", "exact"),
+    ("数据中心租约·尚未起租(Q3 起自用与为第三方合为一行·最长 20 年·预计 FY2027 Q4–FY2033 起租)", "2026-10-25", F3,
+     r"Data center leases not commenced" + R7, "B", "exact"),
+    ("股权投资承诺", "2026-10-25", F3, r"Equity investments" + R7, "B", "exact"),
+    ("资本开支承诺(未来付款合计)", "2026-10-25", F3, r"Capital expenditures" + R7, "B", "exact"),
+    ("承诺合计(CFO 承诺表·供应产能 + 云服务 + 数据中心租约 + 股权投资 + 资本开支)", "2026-10-25", F3,
+     r"Capital expenditures(?:\s+\$?\s?(?:—|[\d,]+)){7} Total" + R7, "B", "exact"),
+    ("新云(neocloud)协议承诺(原称 AI 云伙伴协议·伙伴融资到位且算力验收后生效)", "2026-10-25", F3,
+     r"Neocloud agreements \(1\)" + R7, "B", "exact"),
+    ("新云(原 AI 云伙伴)土地·电力·机房担保(最大敞口)", "2026-10-25", F3, r"Land, power, and shell guarantees for neoclouds \$\s?([\d.]+)", "B"),
+    ("SB Energy 信用支持担保(最大敞口·OpenAI 租约·首栋预计 FY2029 生效)", "2026-10-25", F3,
+     r"SB Energy Corp\. credit support guarantees \$?\s?([\d.]+)", "B"),
+    ("电力与系统信用支持担保(最大敞口·Q3 新增类别·对手方未披露)", "2026-10-25", F3,
+     r"Power and systems credit support guarantees \$?\s?([\d.]+)", "B"),
+    ("担保最大总敞口(含 SB Energy 担保)", "2026-10-25", F3,
+     r"Power and systems credit support guarantees \$?\s?[\d.]+ Total \$\s?([\d.]+)", "B"),
+    ("剩余回购授权", "2026-10-25", F3, r"we had \$\s?([\d.]+) billion of share repurchase authorization remaining", "B"),
+    # 业绩 8-K EX-99.1 新闻稿：Q4 指引（公司前瞻陈述·非实绩；第四季多一周）
+    ("Q4 营收指引中值(±3%·含第 14 周·不含对华数据中心算力收入)", "FY2027 Q4 指引", F1,
+     r"Revenue is expected to be \$\s?([\d.]+) billion, plus or minus 3%", "B"),
+    ("Q4 GAAP 毛利率指引下限(%)", "FY2027 Q4 指引", F1, r"GAAP and non-GAAP gross margins are expected to be between ([\d.]+) ?% and [\d.]+ ?%", "P"),
+    ("Q4 GAAP 毛利率指引上限(%)", "FY2027 Q4 指引", F1, r"GAAP and non-GAAP gross margins are expected to be between [\d.]+ ?% and ([\d.]+) ?%", "P"),
+    # 业绩 8-K EX-99.3 补充财务信息（10-Q 未出前的替代披露·正文句）
+    ("上市权益证券中处于短期锁定期的部分", "2026-10-25", FS,
+     r"\(1\) Included \$\s?([\d.]+) billion of investments that are subject to short-term lock-up restrictions on the ability to sell", "B"),
+    ("锁定至 2027-12 的上市权益证券长期部分(列在「其他资产」)", "2026-10-25", FS,
+     r"subject to lock-up restrictions through December 2027, was \$\s?([\d.]+) billion as of October 25, 2026", "B"),
+    ("期末仍持有的上市权益证券·未实现净收益", "FY2027 Q3", FS,
+     r"Net unrealized gains on investments in publicly held equity securities held at period end were \$\s?([\d.]+) billion and \$\s?[\d.]+ billion for the third quarter and first nine months of fiscal year 2027", "B"),
+    ("期末仍持有的上市权益证券·未实现净收益", "FY2027 前三季", FS,
+     r"Net unrealized gains on investments in publicly held equity securities held at period end were \$\s?[\d.]+ billion and \$\s?([\d.]+) billion for the third quarter and first nine months of fiscal year 2027", "B"),
+    ("非上市权益证券·累计未实现利得(总额)", "2026-10-25", FS,
+     r"cumulative gross unrealized gains on non-marketable equity securities of \$\s?([\d.]+) billion", "B"),
+    ("非上市权益证券·累计未实现损失与减值(总额)", "2026-10-25", FS,
+     r"cumulative gross unrealized losses and impairments of \$\s?([\d.]+) billion as of October 25, 2026", "B"),
+    ("存货计提(计入营业成本)", "FY2027 Q3", FS, r"We recognized inventory provisions of \$\s?([\d.]+) million and \$\s?[\d.]+ million for the third quarter", "M"),
+    ("存货计提(计入营业成本)", "FY2026 Q3", FS, r"We recognized inventory provisions of \$\s?[\d.]+ million and \$\s?([\d.]+) million for the third quarter", "M"),
+    ("存货计提(计入营业成本)", "FY2027 前三季", FS, r"for the third quarter, and \$\s?([\d.]+) billion and \$\s?[\d.]+ billion for the first nine months", "B"),
+    ("存货计提(计入营业成本)", "FY2026 前三季", FS, r"for the third quarter, and \$\s?[\d.]+ billion and \$\s?([\d.]+) billion for the first nine months", "B"),
+    # 公司新闻稿（无 8-K·2026-11-17）：对封装供应商的多年期协议（含预付款）
+    ("Amkor 美国与韩国先进封装扩产协议合计(2026-07 与 10 月公告·含预付款·原文 nearly)", "2026-11-17 公告", "新闻稿-20261117-供应链承诺.htm",
+     r"through multiyear agreements announced in July and October 2026, totaling nearly \$\s?([\d.]+) billion", "B"),
 ]
 MULT = {"B": 1000.0, "M": 1.0, "N": 1.0, "P": 1.0, "D": 1.0, "SH": 1e-6}
 
@@ -165,6 +231,59 @@ def plain(path):
     s = html.unescape(s).replace("\xa0", " ").replace("‑", "-")
     s = re.sub(r"\s+", " ", s).replace(" ,", ",").replace(" .", ".")
     return s
+
+
+LEASE_Q3 = "数据中心租约·尚未起租(Q3 起自用与为第三方合为一行·最长 20 年·预计 FY2027 Q4–FY2033 起租)"
+TOT_Q3 = "承诺合计(CFO 承诺表·供应产能 + 云服务 + 数据中心租约 + 股权投资 + 资本开支)"
+
+
+def q3_gates(kv, cfo):
+    """Q3 业绩 8-K CFO 评论的算术闸与跨季互核（2026-11-21）。"""
+    bad, t3, t2 = [], "2026-10-25", "2026-07-26"
+    eq = lambda a, b: a is not None and b is not None and abs(a - b) <= 1e-6
+    rows3 = ("供应与产能承诺(CFO 承诺表行)", "多年期云服务协议承诺(自用研发·未来付款合计)", LEASE_Q3, "股权投资承诺", "资本开支承诺(未来付款合计)")
+    parts = [kv.get((n, t3)) for n in rows3]
+    if None in parts or not eq(sum(parts), kv.get((TOT_Q3, t3))):
+        bad.append(("算术闸", "Q3 CFO 承诺表明细和 = 合计", (parts, kv.get((TOT_Q3, t3)))))
+    # 二维闸：每行 6 个年度列之和 = 该行合计；每个年度列（含合计列）各行之和 = Total 行
+    labels = ("Supply and capacity", "Cloud service agreements", "Data center leases not commenced", "Equity investments",
+              "Capital expenditures", "Total")
+    grid = {}
+    for lab in labels:
+        m = re.search(re.escape(lab) + r"((?:\s+\$?\s?(?:—|[\d,]+)){7})", cfo)
+        if not m:
+            bad.append(("算术闸", "Q3 承诺表行找不到", lab))
+            return bad
+        grid[lab] = [0.0 if x == "—" else float(x.replace(",", "")) for x in re.findall(r"—|[\d,]+", m.group(1))]
+    for lab, v in grid.items():
+        if len(v) != 7 or abs(sum(v[:6]) - v[6]) > 1e-6:
+            bad.append(("算术闸", "Q3 承诺表行内 年度和 = 合计", lab, v))
+    for k in range(7):
+        if abs(sum(grid[l][k] for l in labels[:-1]) - grid["Total"][k]) > 1e-6:
+            bad.append(("算术闸", "Q3 承诺表列和 = Total 行", k))
+    if not eq(kv.get(("供应与产能承诺(CFO 承诺表行)", t3)), kv.get(("供应与产能承诺(CFO 自陈·季末)", t3))):
+        bad.append(("互核", "承诺表供应行 = CFO 正文句"))
+    # 跨季：CFO 评论里的「上季」数 = Q2 10-Q 同一时点
+    if not eq(kv.get(("供应与产能承诺(CFO 自陈·季末)", t2)), kv.get(("供应与产能承诺(10-Q 自陈·季末)", t2))):
+        bad.append(("跨季", "CFO 上季供应承诺 = Q2 10-Q"))
+    q2_three = [kv.get((n, t2)) for n in ("多年期云服务协议承诺(自用研发·未来付款合计)",
+                                          "自用数据中心租约·尚未起租(未来付款合计·主要用于芯片与系统研发测试)",
+                                          "为第三方签订、预计转让的数据中心租约·尚未起租(约 15 年·预计 FY2028–2029 起租)")]
+    # Q3 起两类租约合为一行：CFO 说的上季「云服务 + 租约」= Q2 10-Q 云服务 + 自用租约 + 为第三方的租约（三者之和，证明合并口径）
+    if None in q2_three or not eq(sum(q2_three), kv.get(("云服务协议 + 数据中心租约承诺合计(CFO 自陈·季末)", t2))):
+        bad.append(("跨季", "CFO 上季云服务+租约 = Q2 10-Q 云服务 + 自用租约 + 第三方租约", q2_three))
+    if not eq((kv.get(("多年期云服务协议承诺(自用研发·未来付款合计)", t3)) or 0) + (kv.get((LEASE_Q3, t3)) or 0),
+              kv.get(("云服务协议 + 数据中心租约承诺合计(CFO 自陈·季末)", t3))):
+        bad.append(("互核", "Q3 云服务 + 租约 = CFO 正文句"))
+    g3 = [kv.get((n, t3)) for n in ("新云(原 AI 云伙伴)土地·电力·机房担保(最大敞口)",
+                                    "SB Energy 信用支持担保(最大敞口·OpenAI 租约·首栋预计 FY2029 生效)",
+                                    "电力与系统信用支持担保(最大敞口·Q3 新增类别·对手方未披露)")]
+    if None in g3 or abs(sum(g3) - (kv.get(("担保最大总敞口(含 SB Energy 担保)", t3)) or -1)) > 1e-6:
+        bad.append(("算术闸", "Q3 担保明细和 = 合计", g3))
+    m = re.search(r"days sales outstanding \(DSO\), up from (\d+) days sequentially", cfo)
+    if not m or not eq(float(m.group(1)), kv.get(("应收账款周转天数 DSO(公司自陈·CFO 评论)", t2))):
+        bad.append(("跨季", "Q3 CFO 评论「上季 DSO」= Q2 CFO 评论 DSO", m and m.group(1)))
+    return bad
 
 
 def main():
@@ -199,6 +318,7 @@ def main():
         tot2 = kv.get(("附加承诺合计(AI 云伙伴协议 + 为第三方的数据中心租约)", t))
         if None in parts2 or tot2 is None or abs(sum(parts2) - tot2) > 1e-6:
             bad.append(("算术闸", "附加承诺表明细和 = 合计", (parts2, tot2)))
+        bad += q3_gates(kv, cache[F3])
     if bad:
         print(f"❌ 锚句找不到或算术闸不过 {len(bad)} 条（不写出）：")
         for b in bad:
