@@ -1,8 +1,17 @@
 #!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.9"
+# dependencies = ["beautifulsoup4", "lxml"]
+# ///
 """拼多多季度(中期)数据构建器 —— 从一手 6-K 业绩新闻稿 Ex-99.1 解析。
 
 真源：`report/拼多多/_业绩6K/<tag>_<filed>.htm`（SEC EDGAR Ex-99.1 原件）。
-覆盖：2023Q1 – 2026Q2 共 14 个季度（含 2023/2024/2025 三个完整财年，可与 20-F 年报加总对账）。
+覆盖：2023Q1 起逐季追加，当前范围以下方 `RELEASES` 为准（含 2023/2024/2025 三个完整财年，
+可与 20-F 年报加总对账）。
+
+运行：依赖 bs4 + lxml（本机系统 python 未装 bs4）。`uv run _build_quarterly.py` 按上方
+PEP 723 依赖自动建临时环境；或用任一装了 bs4 + lxml 的解释器直接跑。
+`--src` / `--out` 仅供变异对照（把原件副本改坏后指过去跑，不碰本目录 CSV）。
 
 为什么需要中期管线
 ------------------
@@ -19,13 +28,21 @@ PDD 是外国私人发行人(FPI)，**没有 10-Q**；季度数字的唯一一�
 是折算补零、**并非千元级精度**——故每张 CSV 都带一行 `_原始披露单位`，让精度断点
 机器可见，而不是只写在 README 脚注里。
 
-校验（不过不写出）
-------------------
-  A 表内恒等式 9 式 · B 收入拆分 · C 跨季链（期初=上季期末、累计列=各季加总）
-  D 跨年勾稽（四季加总 vs 20-F 年报三年）· E 重述侦测（本期披露的上年同期 vs 该季原披露）
+校验
+----
+  不过不写出（计入「校验 N 式」）：
+    A 表内恒等式（每季 13 式，含收入拆分；A11 流动资产六项和 2026-11-21 加）
+    C 跨季链（期初=上季期末、累计列=各季加总）
+    F 净利同比桥（七项驱动之和 = 净利同比变动）· F2 经营利润同比桥（营收/成本/三费五项之和 =
+      经营利润同比变动，2026-11-21 加）
+  只侦测、不拦截（逐条打印，命中须人工定性）：
+    D 跨年勾稽（四季加总 vs 20-F 年报）
+    E 重述侦测（本期披露的上年同期 vs 该季原披露）—— 2026-11-21 起覆盖利润表与收入拆分的
+      全部可比行（原只比营收/经营利润/净利三行，对两根收入柱之间、各费用行之间的重分类是瞎的）
 """
 from __future__ import annotations
 
+import argparse
 import csv
 import os
 import re
@@ -52,9 +69,63 @@ RELEASES = [
     ("2025Q4", "2026-03-26", "0001104659-26-034813"),
     ("2026Q1", "2026-05-28", "0001104659-26-067186"),
     ("2026Q2", "2026-08-25", "0001104659-26-100534"),
+    ("2026Q3", "2026-11-19", "0001104659-26-130116"),
 ]
 
-TOL = 1  # 千元级容差（印刷四舍五入）
+# 千元披露季的容差 = 0（2026-11-21 由 1 收紧）：千元印刷报表各列本身分文自洽，实测 0 容差 275 式全平；
+# 容差 1 会放过「差 1」的转录错（变异 M6 实测）。跨单位断点的放宽在各处显式写 1000（百万元舍入）。
+TOL = 0
+
+# E 组重述侦测比对的「上年同期」行：(表, 字段, 行标签候选, 是否必有)
+# 两根收入柱必须在内——两者此消彼长时总营收不变，只比总营收看不出重分类。
+PRIOR_FIELDS = [
+    ("inc", "收益合计", ("Revenues",), True),
+    ("inc", "销售成本", ("Costs of revenues",), True),
+    ("inc", "销售及营销开支", ("Sales and marketing expenses",), True),
+    ("inc", "行政管理开支", ("General and administrative expenses",), True),
+    ("inc", "研发开支", ("Research and development expenses",), True),
+    ("inc", "总经营开支", ("Total operating expenses",), True),
+    ("inc", "经营利润", ("Operating profit",), True),
+    ("inc", "利息及投资收益净额", ("Interest and investment income",), True),
+    ("inc", "利息费用", ("Interest expenses",), False),
+    ("inc", "汇兑损益", ("Foreign exchange",), True),
+    ("inc", "其他收益净额", ("Other income", "Other (loss)/income", "Other loss"), False),
+    ("inc", "除税及权益法前利润", ("Profit before income tax", "Income before income tax"), True),
+    ("inc", "权益法投资损益", ("Share of results of equity investees",), True),
+    ("inc", "所得税", ("Income tax expenses",), True),
+    ("inc", "净利润", ("Net income",), True),
+    ("seg", "在线营销服务及其他", ("- Online marketing services", "Online marketing services"), True),
+    ("seg", "交易服务", ("- Transaction services", "Transaction services"), True),
+    ("seg", "拆分合计", ("Total",), True),
+]
+
+# E 组命中的机械定性：跨单位断点（百万元比较列 vs 千元原披露）时，公司为让小计对齐会调某行尾数，
+# 单行可偏离千元真值 1 百万元以上（实证：2026Q1 稿把 2025Q1 销售成本印成 40,946，真值 40,947.1）。
+# 判「舍入调尾」须同时满足：跨断点 + 差额 ≤ ROUND_PLUG_MAX + 该比较列自身五条恒等式全平。
+# 任一不满足 → 报「疑似重述/重分类」。真重述的比较列同样自洽，故量级上限是关键条件，不可放宽。
+ROUND_PLUG_MAX = 2000  # 千元 = 2 百万元
+
+
+def prior_column_foots(p):
+    """比较列（上年同期）自身是否加总平：返回不平的恒等式名列表。"""
+    z = lambda k: p.get(k) or 0.0
+    need = ["收益合计", "销售成本", "销售及营销开支", "行政管理开支", "研发开支", "总经营开支",
+            "经营利润", "利息及投资收益净额", "汇兑损益", "除税及权益法前利润", "权益法投资损益",
+            "所得税", "净利润", "在线营销服务及其他", "交易服务", "拆分合计"]
+    if any(p.get(k) is None for k in need):
+        return ["比较列缺行"]
+    checks = [
+        ("三费和=总开支", z("销售及营销开支") + z("行政管理开支") + z("研发开支"), z("总经营开支")),
+        ("营收+成本+开支=经营利润", z("收益合计") + z("销售成本") + z("总经营开支"), z("经营利润")),
+        ("经营+非经营=税前", z("经营利润") + z("利息及投资收益净额") + z("利息费用") + z("汇兑损益")
+         + z("其他收益净额"), z("除税及权益法前利润")),
+        ("税前+权益法+税=净利", z("除税及权益法前利润") + z("权益法投资损益") + z("所得税"), z("净利润")),
+        ("两柱和=拆分合计=营收", z("在线营销服务及其他") + z("交易服务"), z("收益合计")),
+    ]
+    bad = [name for name, a, b in checks if abs(a - b) > TOL]
+    if abs(z("拆分合计") - z("收益合计")) > TOL:
+        bad.append("拆分合计=营收")
+    return bad
 
 
 # ---------------------------------------------------------------- 单元格解析
@@ -224,6 +295,9 @@ def parse_release(tag, filed, path):
     d["受限资金"] = g("bsa", "Restricted cash")
     d["支付平台应收"] = g("bsa", "Receivables from online payment")
     d["短期投资"] = g("bsa", "Short-term investments")
+    # 「垃圾筐」两行（勾稽第 6 条的季度落点）：关联方应收主要是支付通道等关联方在途款
+    d["关联方应收"] = g("bsa", "Amounts due from related parties", required=False)
+    d["预付及其他流动资产"] = g("bsa", "Prepayments and other current assets", required=False)
     d["流动资产合计"] = g("bsa", "Total current assets")
     d["物业设备及软件净额"] = g("bsa", "Property, equipment and software")
     d["其他非流动资产"] = g("bsa", "Other non-current assets")
@@ -237,14 +311,15 @@ def parse_release(tag, filed, path):
     d["股东权益合计"] = g("bsl", "Total Shareholders")
     d["负债及权益合计"] = g("bsl", "Total Liabilities and Shareholders")
     d["留存收益"] = g("bsl", "Retained earnings")
+    # 行标签随正负切换（"income/(loss)" / "(loss)/income"），只取不随号变的前缀
+    d["累计其他综合收益"] = g("bsl", "Accumulated other comprehensive", required=False)
 
     # —— SBC
     d["股权薪酬合计"] = g("sbc", "Total share-based compensation", "Total", required=False)
 
     # —— 上年同期（重述侦测用）+ 累计列（跨季链用）
-    d["_上年同期营收"] = g("inc", "Revenues", col=0)
-    d["_上年同期经营利润"] = g("inc", "Operating profit", col=0)
-    d["_上年同期净利"] = g("inc", "Net income", col=0)
+    d["_上年同期"] = {fld: g(key, *labels, col=0, required=req)
+                    for key, fld, labels, req in PRIOR_FIELDS}
     if cum_col:
         d["_累计营收"] = g("inc", "Revenues", col=cum_col)
         d["_累计经营利润"] = g("inc", "Operating profit", col=cum_col)
@@ -330,6 +405,10 @@ def verify(data, ck):
         # A10 期末现金及受限 = BS 现金 + 受限
         ck.eq(t, "A10 现金流期末=BS现金+受限",
               d["期末现金及受限资金"], d["现金及现金等价物"] + d["受限资金"])
+        # A11 流动资产六项和 = 流动资产合计（2026-11-21 加：给新取的关联方应收/预付两行上闸）
+        ck.eq(t, "A11 流动资产六项和=流动资产合计",
+              d["现金及现金等价物"] + d["受限资金"] + d["支付平台应收"] + d["短期投资"]
+              + (d["关联方应收"] or 0.0) + (d["预付及其他流动资产"] or 0.0), d["流动资产合计"])
 
     # F 净利同比桥自洽：各驱动项同比变动之和 = 净利同比变动
     for d in data:
@@ -341,6 +420,10 @@ def verify(data, ck):
         tol = 1000 if "百万元" in (d["_原始披露单位"], p["_原始披露单位"]) else TOL
         ck.eq(d["季度"], "F 净利同比桥各项之和=净利同比变动",
               sum(d[k] - p[k] for k in parts), d["净利润"] - p["净利润"], tol=tol)
+        # F2 经营利润同比桥：营收 + 成本 + 三费各自同比变动之和 = 经营利润同比变动
+        op_parts = ["收益合计", "销售成本", "销售及营销开支", "行政管理开支", "研发开支"]
+        ck.eq(d["季度"], "F2 经营利润同比桥各项之和=经营利润同比变动",
+              sum(d[k] - p[k] for k in op_parts), d["经营利润"] - p["经营利润"], tol=tol)
 
     # C1 跨季链：本季期初 = 上季期末
     for i in range(1, len(data)):
@@ -366,23 +449,45 @@ def verify(data, ck):
                   d[cum], sum(p[fld] for p in parts), tol=tol)
 
     # E 重述侦测：本期披露的「上年同期」 vs 该季当年原披露
+    # 跨单位断点（本期百万元、原披露千元）时容差放宽到 1 百万元：原披露是千元真值，
+    # 百万元比较列只是它的舍入（若公司为让小计对齐而调尾数，单行可到 1 百万元）。
     print("\n—— E 重述侦测（本期披露的上年同期 vs 该季原披露）——")
-    hits = 0
+    plug = suspect = n_q = n_cell = 0
     for d in data:
         yr, q = int(d["季度"][:4]), int(d["季度"][-1])
         prior = by.get(f"{yr - 1}Q{q}")
         if not prior:
             continue
+        n_q += 1
+        cross_unit = d["_原始披露单位"] != prior["_原始披露单位"]
         tol = 1000 if (d["_原始披露单位"] == "百万元" or prior["_原始披露单位"] == "百万元") else TOL
-        for k, fld in [("_上年同期营收", "收益合计"), ("_上年同期经营利润", "经营利润"),
-                       ("_上年同期净利", "净利润")]:
-            a, b = d[k], prior[fld]
-            if a is not None and abs(a - b) > tol:
-                hits += 1
-                print(f"  ⚠️ {d['季度']} 披露的 {yr-1}Q{q} {fld} = {a:,.0f}，"
-                      f"原披露 {b:,.0f}，差 {a - b:,.0f}")
-    if not hits:
-        print("  ✅ 14 季全部一致 —— 无重述/重分类痕迹")
+        unfooted = prior_column_foots(d["_上年同期"])
+        if unfooted:
+            # 比较列自己都加不平：解析错或原件印刷错，与各格差额大小无关，单独报
+            suspect += 1
+            print(f"  ⚠️ {d['季度']} 稿的上年同期列自身不自洽：{unfooted} → 回查原件")
+        for _key, fld, _labels, _req in PRIOR_FIELDS:
+            a, b = d["_上年同期"].get(fld), prior.get(fld)
+            if a is None or b is None:
+                continue
+            n_cell += 1
+            if abs(a - b) <= tol:
+                continue
+            head = (f"{d['季度']} 披露的 {yr-1}Q{q} {fld} = {a:,.0f}，"
+                    f"原披露 {b:,.0f}，差 {a - b:,.0f}")
+            if cross_unit and abs(a - b) <= ROUND_PLUG_MAX and not unfooted:
+                plug += 1
+                print(f"  ℹ️ {head} → 舍入调尾（跨单位断点·≤2 百万元·该比较列五式自洽）")
+            else:
+                suspect += 1
+                why = "；".join(filter(None, [
+                    "" if cross_unit else "非跨单位断点",
+                    "" if abs(a - b) <= ROUND_PLUG_MAX else "差额超 2 百万元",
+                    f"比较列不自洽:{unfooted}" if unfooted else ""]))
+                print(f"  ⚠️ {head} → 疑似重述/重分类（{why}）")
+    print(f"  {'✅' if not suspect else '🔎'} {n_q} 季 × 可比行共 {n_cell} 格："
+          f"疑似重述/重分类 {suspect} 格 · 舍入调尾 {plug} 格"
+          + ("" if not suspect else " —— ⚠️ 逐条回查原件定性"))
 
     # D 跨年勾稽：四季加总（未审计新闻稿） vs 20-F 审计年报
     #
@@ -441,10 +546,11 @@ INC_ROWS = ["收益合计", "销售成本", "毛利", "销售及营销开支", "
             "总经营开支", "经营利润", "利息及投资收益净额", "利息费用", "汇兑损益", "其他收益净额",
             "除税及权益法前利润", "权益法投资损益", "所得税", "净利润", "股权薪酬合计"]
 SEG_ROWS = ["在线营销服务及其他", "交易服务", "拆分合计"]
-BSCF_ROWS = ["现金及现金等价物", "受限资金", "短期投资", "支付平台应收", "流动资产合计",
+BSCF_ROWS = ["现金及现金等价物", "受限资金", "短期投资", "支付平台应收", "关联方应收",
+             "预付及其他流动资产", "流动资产合计",
              "物业设备及软件净额", "其他非流动资产", "非流动资产合计", "资产总计",
              "客户预收及递延收入", "商家应付款", "商家保证金", "流动负债合计", "负债合计",
-             "股东权益合计", "留存收益",
+             "股东权益合计", "留存收益", "累计其他综合收益",
              "经营活动现金流净额", "投资活动现金流净额", "融资活动现金流净额",
              "汇率影响", "现金净变动", "期初现金及受限资金", "期末现金及受限资金"]
 
@@ -468,8 +574,23 @@ def write_csv(path, header_note, rows, data, keys=None):
     print(f"  → {os.path.basename(path)}")
 
 
+def prev_quarter(tag):
+    yr, q = int(tag[:4]), int(tag[-1])
+    return f"{yr - 1}Q4" if q == 1 else f"{yr}Q{q - 1}"
+
+
+def _same_sign_increment(d, p):
+    """两根收入柱的同比增量同号（含零）时，「各占营收增量的百分之几」才有意义。"""
+    if p is None or d["收益合计"] == p["收益合计"]:
+        return False
+    a = d["交易服务"] - p["交易服务"]
+    b = d["在线营销服务及其他"] - p["在线营销服务及其他"]
+    return a * b >= 0
+
+
 def write_ratios(path, data, by_prev):
     tags = [d["季度"] for d in data]
+    by_tag = {d["季度"]: d for d in data}
 
     def yoy(d, fld):
         p = by_prev.get((int(d["季度"][:4]) - 1, d["季度"][-1]))
@@ -483,6 +604,9 @@ def write_ratios(path, data, by_prev):
         "毛利率(%)": [(d["收益合计"] + d["销售成本"]) / d["收益合计"] * 100 for d in data],
         "销售费用率(%)": [-d["销售及营销开支"] / d["收益合计"] * 100 for d in data],
         "研发费用率(%)": [-d["研发开支"] / d["收益合计"] * 100 for d in data],
+        "有效税率(所得税/除税及权益法前利润)(%)": [
+            -d["所得税"] / d["除税及权益法前利润"] * 100 if d["除税及权益法前利润"] else None
+            for d in data],
         "交易服务占营收(%)": [d["交易服务"] / d["收益合计"] * 100 for d in data],
         "营收同比(%)": [yoy(d, "收益合计") for d in data],
         "经营利润同比(%)": [yoy(d, "经营利润") for d in data],
@@ -491,21 +615,53 @@ def write_ratios(path, data, by_prev):
         "在线营销同比(%)": [yoy(d, "在线营销服务及其他") for d in data],
         "经营现金流/净利(倍)": [d["经营活动现金流净额"] / d["净利润"] if d["净利润"] else None
                         for d in data],
-        # 营收同比增量由哪根柱子贡献——防「全部增量来自 X」这类 overreach
+        # 营收同比增量由哪根柱子贡献——防「全部增量来自 X」这类 overreach。
+        # 两柱一升一降时「占比」落在 0–100% 之外、分母还可能趋零（2026Q3：总增量 0.64 亿，
+        # 算出 −9,935% / +10,035%），此时留空，改看下面两行绝对增量。
         "营收同比增量中交易服务占比(%)": [
-            (lambda p: None if (p is None or d["收益合计"] == p["收益合计"]) else
+            (lambda p: None if not _same_sign_increment(d, p) else
              (d["交易服务"] - p["交易服务"]) / (d["收益合计"] - p["收益合计"]) * 100
              )(by_prev.get((int(d["季度"][:4]) - 1, d["季度"][-1]))) for d in data],
         "营收同比增量中在线营销占比(%)": [
-            (lambda p: None if (p is None or d["收益合计"] == p["收益合计"]) else
+            (lambda p: None if not _same_sign_increment(d, p) else
              (d["在线营销服务及其他"] - p["在线营销服务及其他"])
              / (d["收益合计"] - p["收益合计"]) * 100
              )(by_prev.get((int(d["季度"][:4]) - 1, d["季度"][-1]))) for d in data],
+        "交易服务同比增量(千元)": [
+            (lambda p: None if p is None else d["交易服务"] - p["交易服务"])(
+                by_prev.get((int(d["季度"][:4]) - 1, d["季度"][-1]))) for d in data],
+        "在线营销同比增量(千元)": [
+            (lambda p: None if p is None else d["在线营销服务及其他"] - p["在线营销服务及其他"])(
+                by_prev.get((int(d["季度"][:4]) - 1, d["季度"][-1]))) for d in data],
         "无息浮存(商家应付+保证金+客户预收)": [d["商家应付款"] + d["商家保证金"] + d["客户预收及递延收入"]
                                 for d in data],
         "类现金及短投(现金+受限+短投)": [d["现金及现金等价物"] + d["受限资金"] + d["短期投资"]
                              for d in data],
+        # 上一行不含「其他非流动资产」里的定期存款/债券——资金从短投挪进长期存款时上一行会降，
+        # 但钱没少。本行把该科目整行加回（公司自陈其主要为定期存款/持有至到期/可供出售债券，
+        # 整行加回会略高估），用来区分「资金流出」与「期限挪动」。
+        "类现金及投资(现金+受限+短投+其他非流动资产整行)": [
+            d["现金及现金等价物"] + d["受限资金"] + d["短期投资"] + d["其他非流动资产"]
+            for d in data],
+        "物业设备及软件净额占总资产(%)": [d["物业设备及软件净额"] / d["资产总计"] * 100
+                              for d in data],
+        "关联方应收+预付及其他流动资产 占总资产(%)": [
+            None if (d.get("关联方应收") is None or d.get("预付及其他流动资产") is None) else
+            (d["关联方应收"] + d["预付及其他流动资产"]) / d["资产总计"] * 100 for d in data],
+        # 新闻稿现金流表无 capex 行；净额增量 = capex − 折旧摊销 − 处置，只能当 capex 的下限代理
+        "物业设备及软件净额较上季增量(capex下限代理)": [
+            (lambda p: None if p is None else d["物业设备及软件净额"] - p["物业设备及软件净额"])(
+                by_tag.get(prev_quarter(d["季度"]))) for d in data],
         "股东权益合计": [d["股东权益合计"] for d in data],
+        # 季度版「累计净利 ↔ 净资产」勾稽：权益变动扣掉净利、股权薪酬、其他综合收益变动后的残差。
+        # 无分红无回购时残差应只剩期权行权款等小项；残差大 = 有未识别的权益流出/流入，回查原件。
+        "股东权益季度变动残差(Δ权益−净利−股权薪酬−Δ累计其他综合收益)": [
+            (lambda p: None if (p is None or d.get("股权薪酬合计") is None
+                                or d.get("累计其他综合收益") is None
+                                or p.get("累计其他综合收益") is None) else
+             d["股东权益合计"] - p["股东权益合计"] - d["净利润"] - d["股权薪酬合计"]
+             - (d["累计其他综合收益"] - p["累计其他综合收益"]))(
+                by_tag.get(prev_quarter(d["季度"]))) for d in data],
     }
 
     # —— 净利同比桥：把「净利同比为负、经营利润却为正」拆成各驱动项
@@ -527,6 +683,19 @@ def write_ratios(path, data, by_prev):
     rows["--- 净利同比桥(本季−上年同季) ---"] = [None] * len(data)
     for name, fld in bridge:
         rows[name] = [delta(d, fld) for d in data]
+
+    # —— 经营利润同比桥：把净利桥里的「经营利润贡献」再拆一层（五项之和恒等于经营利润同比变动，见校验 F2）
+    op_bridge = [
+        ("经营利润同比变动(千元)", "经营利润"),
+        ("——营收贡献", "收益合计"),
+        ("——销售成本贡献", "销售成本"),
+        ("——销售及营销开支贡献", "销售及营销开支"),
+        ("——行政管理开支贡献", "行政管理开支"),
+        ("——研发开支贡献", "研发开支"),
+    ]
+    rows["--- 经营利润同比桥(本季−上年同季) ---"] = [None] * len(data)
+    for name, fld in op_bridge:
+        rows[name] = [delta(d, fld) for d in data]
     # 比率/倍数留 2 位小数；金额一律整数（千元），避免 "241350.00" 这类伪精度
     is_ratio = lambda k: k.endswith(("(%)", "(倍)"))
     with open(path, "w", newline="", encoding="utf-8") as f:
@@ -543,10 +712,15 @@ def write_ratios(path, data, by_prev):
 
 
 def main():
+    ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    ap.add_argument("--src", default=SRC, help="6-K 原件目录（默认 report/拼多多/_业绩6K）")
+    ap.add_argument("--out", default=ROOT, help="CSV 写出目录（默认本目录；变异对照时指向临时目录）")
+    args = ap.parse_args()
+
     data = []
     print("—— 解析 6-K 新闻稿 ——")
     for tag, filed, _acc in RELEASES:
-        path = os.path.join(SRC, f"{tag}_{filed}.htm")
+        path = os.path.join(args.src, f"{tag}_{filed}.htm")
         if not os.path.exists(path):
             print(f"  ⏳ 缺 {os.path.basename(path)}，跳过")
             continue
@@ -562,20 +736,23 @@ def main():
         sys.exit(1)
 
     print("\n—— 写出 CSV ——")
-    note_unit = ("# 单位:千元人民币;费用/流出=负数;覆盖2023Q1-2026Q2\n"
+    note_unit = (f"# 单位:千元人民币;费用/流出=负数;覆盖{data[0]['季度']}-{data[-1]['季度']}\n"
                  "# 来源:一手 SEC 6-K 业绩新闻稿 Ex-99.1 未经审计简明报表逐行解析"
                  "(report/拼多多/_业绩6K/)\n"
                  "# 🔴 单位断点:2023Q1-2025Q4 原披露为千元;2026Q1 起原披露改为百万元,"
                  "本表统一折千元、2026 各季末三位系补零非真精度(见 _原始披露单位 行)\n"
-                 "# ⚠️ 未经审计:季度数与 20-F 审计年报存在重分类差(见 README「口径决策」)")
+                 "# ⚠️ 未经审计:四季加总与 20-F 审计年报可能有审计调整差——FY2023/FY2024 全等;"
+                 "FY2025 行政管理开支差 1,521,930 千元并原额贯穿至净利,系新增费用、非重分类"
+                 "(见 README「口径决策」第 10 条)")
     by_prev = {(int(d["季度"][:4]), d["季度"][-1]): d for d in data}
-    write_csv(os.path.join(ROOT, "季度利润表.csv"), note_unit, INC_ROWS, data)
-    write_csv(os.path.join(ROOT, "季度分部营收.csv"),
+    os.makedirs(args.out, exist_ok=True)
+    write_csv(os.path.join(args.out, "季度利润表.csv"), note_unit, INC_ROWS, data)
+    write_csv(os.path.join(args.out, "季度分部营收.csv"),
               note_unit + "\n# 单一可报告分部;此为收入类型拆分,未披露 Temu/主站或地理拆分",
               SEG_ROWS, data)
-    write_csv(os.path.join(ROOT, "季度资产负债与现金流.csv"),
+    write_csv(os.path.join(args.out, "季度资产负债与现金流.csv"),
               note_unit + "\n# 资产负债项=季末时点数;现金流项=当季发生额", BSCF_ROWS, data)
-    write_ratios(os.path.join(ROOT, "季度比率.csv"), data, by_prev)
+    write_ratios(os.path.join(args.out, "季度比率.csv"), data, by_prev)
     print("\n✅ 完成")
 
 
