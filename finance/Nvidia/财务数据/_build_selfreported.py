@@ -20,6 +20,10 @@ REPORT = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(HERE))), "
 # FY2027 Q3 业绩 8-K 三份附件（10-Q 未同日提交，见 _build_q3_8k_fy2027.py）
 F1, F3, FS = "8-K-20261117-EX99.1-新闻稿.htm", "8-K-20261117-EX99.2-CFO评论.htm", "8-K-20261117-EX99.3-补充财务信息.htm"
 R7 = r"(?:\s+\$?\s?(?:—|[\d,]+)){6}\s+\$?\s?([\d,]+)"   # 承诺表行 = 6 个年度列 + 合计列（捕获合计）
+# 2026-11-26：Q2 / Q3 CFO 评论逐句求差集，补回首轮刷新漏掉的三处（见 q3_text_gates）
+Q2CFO = "8-K-20260826-EX99.2-CFO评论.htm"
+LEGAL = "法律和解费用(非 GAAP 调节表·营业费用剔除行·对象与原因 8-K 未披露)"
+PP = "PORTS-Pike 每代 NVIDIA 基础设施部署对应(Q2 CFO 评论·公司前瞻陈述·Q3 CFO 评论已删)"
 
 # (科目, 期间/时点, 文件, 锚句正则——第一个捕获组为数, 单位)
 ITEMS = [
@@ -220,8 +224,19 @@ ITEMS = [
     # 公司新闻稿（无 8-K·2026-11-17）：对封装供应商的多年期协议（含预付款）
     ("Amkor 美国与韩国先进封装扩产协议合计(2026-07 与 10 月公告·含预付款·原文 nearly)", "2026-11-17 公告", "新闻稿-20261117-供应链承诺.htm",
      r"through multiyear agreements announced in July and October 2026, totaling nearly \$\s?([\d.]+) billion", "B"),
+    # 业绩 8-K 非 GAAP 调节表（EX-99.1 新闻稿与 EX-99.2 CFO 评论两次印刷·列序 Q3 / Q2 / 上年 Q3 / 前三季 / 上年前三季）
+    (LEGAL, "FY2027 Q3", F1, r"Legal settlement costs \((\d[\d,]*)\) — — \([\d,]+\) \([\d,]+\)", "M", "exact"),
+    (LEGAL, "FY2027 前三季", F1, r"Legal settlement costs \([\d,]+\) — — \((\d[\d,]*)\) \([\d,]+\)", "M", "exact"),
+    (LEGAL, "FY2026 前三季", F1, r"Legal settlement costs \([\d,]+\) — — \([\d,]+\) \((\d[\d,]*)\)", "M", "exact"),
+    # Q2 业绩 8-K CFO 评论对 PORTS-Pike（SB Energy 俄亥俄园区·OpenAI 租约）的营收预期；Q3 CFO 评论整句与对应前瞻陈述均删去
+    (PP + "·NVIDIA GPU 数", "2026-08-26 CFO 评论", Q2CFO,
+     r"Each generation of NVIDIA infrastructure deployed at PORTS-Pike could represent approximately ([\d.]+) million NVIDIA GPUs", "G"),
+    (PP + "·NVIDIA 营收下限", "2026-08-26 CFO 评论", Q2CFO,
+     r"or approximately \$\s?([\d.]+) billion to \$\s?[\d.]+ billion in NVIDIA revenue", "B"),
+    (PP + "·NVIDIA 营收上限", "2026-08-26 CFO 评论", Q2CFO,
+     r"or approximately \$\s?[\d.]+ billion to \$\s?([\d.]+) billion in NVIDIA revenue", "B"),
 ]
-MULT = {"B": 1000.0, "M": 1.0, "N": 1.0, "P": 1.0, "D": 1.0, "SH": 1e-6}
+MULT = {"B": 1000.0, "M": 1.0, "N": 1.0, "P": 1.0, "D": 1.0, "SH": 1e-6, "G": 1.0}
 
 
 def plain(path):
@@ -286,6 +301,33 @@ def q3_gates(kv, cfo):
     return bad
 
 
+def q3_text_gates(cache, kv):
+    """2026-11-26：Q2 / Q3 CFO 评论逐句差集查出、首轮刷新（11-21）漏掉的三处，各绑一道机械闸。"""
+    bad = []
+    get = lambda fn: cache.setdefault(fn, plain(os.path.join(REPORT, fn)))
+    # ① 法律和解费用：新闻稿与 CFO 评论两次印刷整行相同；Q2 列为「—」⇒ 前三季 = Q3（上半年为零）
+    rows = [re.search(r"Legal settlement costs((?: (?:—|\([\d,]+\))){5})", get(fn)) for fn in (F1, F3)]
+    q3v, n9v = kv.get((LEGAL, "FY2027 Q3")), kv.get((LEGAL, "FY2027 前三季"))
+    if not all(rows) or rows[0].group(1) != rows[1].group(1):
+        bad.append(("两次印刷", "法律和解费用行 EX-99.1 = EX-99.2", [r and r.group(1) for r in rows]))
+    elif rows[0].group(1).split()[1] != "—" or q3v is None or n9v is None or q3v != n9v:
+        bad.append(("算术闸", "法律和解费用 Q2 列为「—」且 Q3 = 前三季", rows[0].group(1), q3v, n9v))
+    # ② PORTS-Pike 营收预期：Q2 CFO 评论有、Q3 CFO 评论无（正文句与前瞻陈述清单两处）；阳性对照：Q3 仍写到 PORTS-Pike 园区
+    q2, q3 = get(Q2CFO), get(F3)
+    for phrase in ("deployed at PORTS-Pike could represent", "anticipated NVIDIA deployments, revenue and upgrade cycles"):
+        if phrase not in q2 or phrase in q3:
+            bad.append(("差集闸", "Q2 CFO 评论有、Q3 CFO 评论无", phrase, phrase in q2, phrase in q3))
+    if "PORTS-Pike Technology Campus" not in q3:
+        bad.append(("阳性对照", "Q3 CFO 评论仍写到 PORTS-Pike 园区"))
+    # ③ 数据中心租约起租窗口：Q2 10-Q 最早 FY2027 Q3（并注明起租日取决于设施完工时点）；Q3 CFO 评论「尚未起租」、最早 FY2027 Q4
+    for fn, sent in (("2027-Q2.htm", "They are expected to begin between the third quarter of fiscal year 2027 and fiscal year 2033"),
+                     ("2027-Q2.htm", "Many of the expected lease start dates are subject to and dependent on timing of"),
+                     (F3, "have not commenced. These leases are expected to commence between the fourth quarter of fiscal 2027 and fiscal 2033")):
+        if sent not in get(fn):
+            bad.append(("原文闸", "租约起租窗口句", fn, sent[:48]))
+    return bad
+
+
 def main():
     cache, rows, bad = {}, [], []
     for name, per, fn, pat, u, *opt in ITEMS:
@@ -302,7 +344,8 @@ def main():
             lo = cache[fn].rfind(". ", 0, m.start()) + 2
             hi = cache[fn].find(". ", m.end())
             sent = cache[fn][lo:hi + 1].strip()
-        rows.append((name, per, v, {"B": "百万美元", "M": "百万美元", "N": "百万股", "P": "%", "D": "天", "SH": "百万股"}[u], fn, sent))
+        rows.append((name, per, v, {"B": "百万美元", "M": "百万美元", "N": "百万股", "P": "%", "D": "天", "SH": "百万股",
+                                    "G": "百万颗 GPU"}[u], fn, sent))
     # 算术闸（2026-11-12）：Q2 10-Q 两张承诺表「明细和 = 表印合计」——各行分别由不同锚句取数，合计行独立取，三方对上才写出
     if not bad:
         kv = {(r[0], r[1]): r[2] for r in rows}
@@ -319,6 +362,7 @@ def main():
         if None in parts2 or tot2 is None or abs(sum(parts2) - tot2) > 1e-6:
             bad.append(("算术闸", "附加承诺表明细和 = 合计", (parts2, tot2)))
         bad += q3_gates(kv, cache[F3])
+        bad += q3_text_gates(cache, kv)
     if bad:
         print(f"❌ 锚句找不到或算术闸不过 {len(bad)} 条（不写出）：")
         for b in bad:
